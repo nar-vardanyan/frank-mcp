@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "ai.hifrank/frank",
+  "title": "Frank",
+  "description": "Read, set up and edit user-research studies on Frank, their products, interviews and transcripts.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.hifrank.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hifrank.ai/mcp",
+      "authentication": {
+        "type": "oauth2",
+        "protectedResourceMetadata": "https://api.hifrank.ai/.well-known/oauth-protected-resource/mcp",
+        "authorizationServerMetadata": "https://api.hifrank.ai/.well-known/oauth-authorization-server",
+        "scopesSupported": [
+          "research:read",
+          "interviews:read",
+          "products:read",
+          "products:write",
+          "research:write",
+          "research:publish",
+          "embed:write"
+        ]
+      }
+    }
+  ]
+}
