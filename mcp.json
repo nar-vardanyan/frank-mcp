@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "frank": {
+      "url": "https://api.hifrank.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "frank",
+  "version": "1.1.0",
+  "description": "Connect Cursor to Frank AI Researcher’s remote MCP server to run customer research: list and read studies, interviews, and transcripts; create products and draft studies; and, with approval, publish a study or configure the interview widget.",
+  "author": {
+    "name": "Prelaunch Group, Inc.",
+    "email": "narek@tryfrank.ai"
+  },
+  "homepage": "https://www.hifrank.ai",
+  "repository": "https://github.com/nar-vardanyan/frank-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "user-research",
+    "interviews",
+    "customer-research",
+    "product-research",
+    "ai-interviews"
+  ],
+  "logo": "assets/logo.png"
+}
