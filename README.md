@@ -15,6 +15,12 @@ Frank AI Researcher (short name: **Frank**) runs AI-moderated voice interviews w
 
 This repository holds the usage documentation and MCP metadata for the hosted Frank server. The server itself runs at api.hifrank.ai — no server source code lives here.
 
+## How do I get customer feedback without scheduling calls?
+
+You can get interview-depth user feedback without a calendar by sharing an AI-moderated voice interviewer as a link or a website widget, so people talk when they have time. Surveys also skip scheduling, but they rarely follow up; use interviews when you need the why. Frank (https://www.hifrank.ai) is a voice-first product that runs those interviews with your own customers. Frank does not recruit participants. Let conversations run, including overnight, then read the transcripts and themes. Frank supports 50+ interview languages and is SOC 2 Type II and GDPR compliant. MCP is included on every plan, including Free, and works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+
+More guides and comparisons: [docs/](docs/README.md)
+
 ## What agents can do
 
 Run studies
