@@ -1,0 +1,12 @@
+title: Frank AI Researcher docs
+description: AI-moderated voice interviews with your own customers. Guides, comparisons and MCP setup for Frank (hifrank.ai).
+url: https://nar-vardanyan.github.io
+baseurl: /frank-mcp
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-sitemap
+include:
+  - llms.txt
