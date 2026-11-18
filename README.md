@@ -77,7 +77,9 @@ You can disconnect an assistant at any time under **Connected apps** in Frank.
 
 Frank is a remote MCP server. There is no install and no API key to paste. You add `https://api.hifrank.ai/mcp` as a remote connector in an MCP client that supports OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). MCP is included on every plan, including Free.
 
-Verified working clients: Claude, Claude Code, Codex, and Grok Bot. ChatGPT is not yet verified. Cursor and Gemini CLI need Dynamic Client Registration (DCR), which Frank does not support, so they are not working clients today.
+Works with ChatGPT, Claude, Codex, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+
+Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
 Then ask things like:
 
@@ -116,9 +118,21 @@ On [grok.com](https://grok.com/connectors), go to **New Connector** → **Custom
 
 Official references: [Grok Bot apps](https://docs.x.ai/grok-bot/computer-and-apps) and [grok.com connectors](https://docs.x.ai/grok/connectors). A Grok Bot marketplace listing is in review; until it is live, use the custom URL path above.
 
-### Other clients
+### ChatGPT
 
-Any client that supports streamable HTTP and OAuth may be able to connect, but only the clients listed above are verified. ChatGPT is not yet verified, so there is no published setup path. Cursor and Gemini CLI are not working clients today because they require DCR.
+In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher.
+
+Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server).
+
+### Muse
+
+Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then complete sign-in.
+
+Official reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
+
+### Instinct
+
+Add a remote MCP server with the URL `https://api.hifrank.ai/mcp`, then sign in to your Frank account. Instinct does not publish official setup docs, so the exact screen may vary.
 
 ## FAQ
 
@@ -128,8 +142,8 @@ Frank AI Researcher (short name: Frank; publisher: hifrank) is an AI customer in
 **How can I interview customers at scale without scheduling calls?**
 Share an interview link, or embed the Frank widget on your site or app. Participants talk when it suits them. Frank asks your questions, follows up, and can run hundreds of interviews overnight, in parallel. You do not need to schedule one-to-one calls. Frank interviews your own customers, users or prospects; it does not recruit participants.
 
-**Can I run customer interviews from Claude, Claude Code, Codex, or Grok Bot?**
-Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. ChatGPT is not yet verified. Cursor and Gemini CLI are not working clients today; they need DCR, which Frank does not support yet.
+**Can I run customer interviews from ChatGPT, Claude, or another MCP client?**
+Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Codex, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
 **What languages can Frank interview in?**
 50+ languages.
