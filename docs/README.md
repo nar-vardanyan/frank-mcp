@@ -16,3 +16,5 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 - [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md)
 - [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md)
+- [How to interview customers at scale](how-to-interview-customers-at-scale.md)
+- [How to get user feedback without scheduling calls](user-feedback-without-scheduling-calls.md)
