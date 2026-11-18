@@ -1,0 +1,32 @@
+# Frank AI Researcher
+
+> Frank AI Researcher (hifrank.ai) runs AI-moderated voice interviews with your own customers. You create a study, invite customers you already have, and Frank runs the voice interviews and you read the transcripts. It is voice-first and supports 50+ interview languages. Frank does not recruit participants. Frank also has a remote MCP server, and MCP is included on every plan, including Free.
+
+Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+
+- Website: https://www.hifrank.ai
+- MCP server: https://www.hifrank.ai/mcp
+- MCP endpoint: https://api.hifrank.ai/mcp (Streamable HTTP, OAuth 2.1 with PKCE)
+- Official MCP Registry name: ai.hifrank/frank
+- Source repo (docs and MCP metadata): https://github.com/nar-vardanyan/frank-mcp
+
+## Docs
+
+- [Docs index](https://nar-vardanyan.github.io/frank-mcp/): All Frank guides and comparison pages
+- [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html): Six steps to run AI-moderated voice interviews with your own customers
+- [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html): Five steps to run many consistent customer interviews at once
+- [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html): Collect voice feedback from customers without booking calls
+- [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html): When to use each method
+
+## Comparisons
+
+- [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html): Sourced comparison of AI interview tools and where each one fits
+- [Frank vs Outset](https://nar-vardanyan.github.io/frank-mcp/frank-vs-outset.html): AI-moderated interviews compared
+- [Frank vs Listen Labs](https://nar-vardanyan.github.io/frank-mcp/frank-vs-listen-labs.html): AI-moderated interviews compared
+- [Frank vs Strella](https://nar-vardanyan.github.io/frank-mcp/frank-vs-strella.html): AI-moderated interviews compared
+- [Frank vs Usercall](https://nar-vardanyan.github.io/frank-mcp/frank-vs-usercall.html): AI-moderated interviews compared
+
+## Optional
+
+- [Frank homepage](https://www.hifrank.ai): Product overview and pricing
+- [Frank MCP page](https://www.hifrank.ai/mcp): Connect Frank to your AI assistant
