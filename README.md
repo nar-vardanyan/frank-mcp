@@ -77,7 +77,7 @@ You can disconnect an assistant at any time under **Connected apps** in Frank.
 
 Frank is a remote MCP server. There is no install and no API key to paste. You add `https://api.hifrank.ai/mcp` as a remote connector in an MCP client that supports OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). MCP is included on every plan, including Free.
 
-Works with ChatGPT, Claude, Codex, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
@@ -143,7 +143,7 @@ Frank AI Researcher (short name: Frank; publisher: hifrank) is an AI customer in
 Share an interview link, or embed the Frank widget on your site or app. Participants talk when it suits them. Frank asks your questions, follows up, and can run hundreds of interviews overnight, in parallel. You do not need to schedule one-to-one calls. Frank interviews your own customers, users or prospects; it does not recruit participants.
 
 **Can I run customer interviews from ChatGPT, Claude, or another MCP client?**
-Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Codex, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
+Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
 **What languages can Frank interview in?**
 50+ languages.
