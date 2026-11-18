@@ -15,18 +15,6 @@ Frank AI Researcher (short name: **Frank**) runs AI-moderated voice interviews w
 
 This repository holds the usage documentation and MCP metadata for the hosted Frank server. The server itself runs at api.hifrank.ai — no server source code lives here.
 
-## Quick start
-
-Frank is a remote MCP server. There is no install and no API key to paste. You sign in with your Frank account over OAuth 2.1 (authorization code + PKCE, S256).
-
-Add `https://api.hifrank.ai/mcp` as a remote connector in an MCP client that supports OAuth and streamable HTTP, then sign in to your Frank account. Available connector features and setup screens vary by client.
-
-Then ask things like:
-
-> Create a research study to interview 10 customers about why they chose our product. Use an AI voice moderator, open-ended questions and natural follow-ups. Create a draft only. Do not publish it.
-
-> List my latest studies, then show the transcript of one completed interview.
-
 ## What agents can do
 
 Run studies
@@ -85,18 +73,21 @@ OAuth 2.1 with PKCE (S256). You grant only the permissions you approve.
 
 You can disconnect an assistant at any time under **Connected apps** in Frank.
 
-## Set up in Grok Bot
+## Use Frank
 
-1. In Grok Bot, open **Connect apps** and choose **Add a custom connector**.
-2. Select a remote HTTPS server and enter `https://api.hifrank.ai/mcp`.
-3. Confirm, then complete sign-in in the browser (finish within about 10 minutes).
-4. Check that Frank shows as installed and authenticated. You can also ask the Bot to add the MCP server by URL.
+Frank is a remote MCP server. There is no install and no API key to paste. You add `https://api.hifrank.ai/mcp` as a remote connector in an MCP client that supports OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). MCP is included on every plan, including Free.
 
-On [grok.com](https://grok.com/connectors), go to **New Connector** → **Custom**, enter the same MCP URL, and complete auth. The server must be on the public internet. On Grok Business or Enterprise, an admin may need to add it first.
+Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-Grok Bot is a verified working client. Official references: [Grok Bot apps](https://docs.x.ai/grok-bot/computer-and-apps) and [grok.com connectors](https://docs.x.ai/grok/connectors). A Grok Bot marketplace listing is in review; until it is live, use the custom URL path above.
+Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
-## Set up in Claude
+Then ask things like:
+
+> Create a research study to interview 10 customers about why they chose our product. Use an AI voice moderator, open-ended questions and natural follow-ups. Create a draft only. Do not publish it.
+
+> List my latest studies, then show the transcript of one completed interview.
+
+### Claude and Claude Code
 
 **Claude Code:**
 
@@ -108,73 +99,60 @@ Then sign in to Frank in the browser when prompted.
 
 **Claude Desktop or Claude.ai:** add a custom connector, use `https://api.hifrank.ai/mcp`, and complete OAuth. See the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector) for the current UI path.
 
-## Set up in ChatGPT
+### Codex
 
-In ChatGPT on the web, add a custom MCP server / plugin:
-
-1. Open Plugins and add a custom MCP server.
-2. Name it Frank AI Researcher.
-3. Set the connection URL to `https://api.hifrank.ai/mcp` and choose OAuth.
-4. Create and install the plugin, then approve Frank's permissions in your browser.
-5. In a chat, type `@` and select Frank AI Researcher.
-
-A ChatGPT directory submission has been made; until a public listing is live, use this custom-server path. Plan availability in ChatGPT can vary — check OpenAI's current MCP plugin docs if the Plugins UI is not visible.
-
-## Set up in Cursor
-
-[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=frank&config=eyJ1cmwiOiJodHRwczovL2FwaS5oaWZyYW5rLmFpL21jcCJ9)
-
-The button opens Cursor and prompts before installing. It does not install automatically.
-
-Or add this to `.cursor/mcp.json` or `~/.cursor/mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "frank": {
-      "url": "https://api.hifrank.ai/mcp"
-    }
-  }
-}
+```bash
+codex mcp add frank --url https://api.hifrank.ai/mcp
 ```
 
-Then open Customize in Cursor, enable Frank, and sign in in the browser. There is no API key to paste.
+Then complete the browser sign-in and grant only the scopes you need.
 
-App deeplink (if you prefer it over the HTTPS button):
+### Grok Bot
 
-```
-cursor://anysphere.cursor-deeplink/mcp/install?name=frank&config=eyJ1cmwiOiJodHRwczovL2FwaS5oaWZyYW5rLmFpL21jcCJ9
-```
+1. In Grok Bot, open **Connect apps** and choose **Add a custom connector**.
+2. Select a remote HTTPS server and enter `https://api.hifrank.ai/mcp`.
+3. Confirm, then complete sign-in in the browser (finish within about 10 minutes).
+4. Check that Frank shows as installed and authenticated. You can also ask the Bot to add the MCP server by URL.
 
-Note: Cursor's documented MCP OAuth paths are dynamic client registration or a static client ID. Frank currently uses Client ID Metadata Documents (CIMD) and does not implement dynamic registration. If sign-in fails, the Frank API team may need to register a public OAuth client for Cursor first.
+On [grok.com](https://grok.com/connectors), go to **New Connector** → **Custom**, enter the same MCP URL, and complete auth. The server must be on the public internet. On Grok Business or Enterprise, an admin may need to add it first.
 
-## Set up in VS Code
+Official references: [Grok Bot apps](https://docs.x.ai/grok-bot/computer-and-apps) and [grok.com connectors](https://docs.x.ai/grok/connectors). A Grok Bot marketplace listing is in review; until it is live, use the custom URL path above.
 
-1. Open the Command Palette and run **MCP: Add Server**.
-2. Choose an HTTP server and enter `https://api.hifrank.ai/mcp`.
-3. Sign in to Frank in the browser when prompted.
+### ChatGPT
 
-Or add a `.vscode/mcp.json` file in your workspace:
+In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher.
 
-```json
-{
-  "servers": {
-    "frank": {
-      "type": "http",
-      "url": "https://api.hifrank.ai/mcp"
-    }
-  }
-}
-```
+Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server).
 
-See [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) for the current UI and config keys.
+### Muse
 
-## Other MCP clients
+Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then complete sign-in.
 
-Any client that supports streamable HTTP and OAuth can connect.
+Official reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
 
-- **OpenAI Codex:** `codex mcp add frank --url https://api.hifrank.ai/mcp`
-- **Generic:** add a remote server named `frank` at `https://api.hifrank.ai/mcp`, complete the browser sign-in, and grant only the scopes you need.
+### Instinct
+
+Add a remote MCP server with the URL `https://api.hifrank.ai/mcp`, then sign in to your Frank account. Instinct does not publish official setup docs, so the exact screen may vary.
+
+## FAQ
+
+**What is Frank AI Researcher?**
+Frank AI Researcher (short name: Frank; publisher: hifrank) is an AI customer interviewer by Prelaunch.com. It runs AI-moderated voice interviews with your own customers, via a link or a website widget, and turns them into transcripts, themes, sentiment and quotes. It can run hundreds of interviews overnight. Video, WhatsApp and chat interviews are Coming soon.
+
+**How can I interview customers at scale without scheduling calls?**
+Share an interview link, or embed the Frank widget on your site or app. Participants talk when it suits them. Frank asks your questions, follows up, and can run hundreds of interviews overnight, in parallel. You do not need to schedule one-to-one calls. Frank interviews your own customers, users or prospects; it does not recruit participants.
+
+**Can I run customer interviews from ChatGPT, Claude, or another MCP client?**
+Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
+
+**What languages can Frank interview in?**
+50+ languages.
+
+**How does Frank analyze customer interview transcripts?**
+Frank returns full transcripts, thematic analysis, sentiment, a Performance tab that groups responses by theme and frequency, Action Items linked to exact quotes, and a chat assistant for asking questions across interviews. Through MCP, an assistant can list interviews and read a transcript with `list_interviews` and `get_interview`.
+
+**Are AI-moderated customer interviews a replacement for surveys?**
+Not completely. Surveys are useful for quick, structured measurement. AI-moderated voice interviews are better when you need to understand why customers buy, churn, or hesitate, because the interviewer can ask follow-up questions. Frank is SOC 2 Type II and GDPR compliant.
 
 ## Privacy and safety
 
