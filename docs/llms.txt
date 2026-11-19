@@ -35,6 +35,9 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [Best customer interview tools for startups](https://nar-vardanyan.github.io/frank-mcp/best-customer-interview-tools-for-startups.html): Self-serve interview tools startups can start free or cheaply, compared
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html): Which AI interviewers handle design, recruiting, moderation and analysis
 - [Best AI voice survey tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-voice-survey-tools.html): Recorded voice answers vs conversational AI voice interviews, tools compared
+- [Typeform alternatives for customer interviews](https://nar-vardanyan.github.io/frank-mcp/typeform-alternative-for-customer-interviews.html): Tools that add follow-up questions where a form stops, compared with sources
+- [Best tools for customer churn interviews](https://nar-vardanyan.github.io/frank-mcp/best-tools-for-customer-churn-interviews.html): AI churn interview tools for your cancel flow, with sourced formats and prices
+- [Best AI qualitative research platforms in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-qualitative-research-platforms.html): Platforms that collect AI-moderated interviews vs platforms that analyze, compared
 
 ## Optional
 

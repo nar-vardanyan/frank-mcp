@@ -15,6 +15,9 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Best customer interview tools for startups](best-customer-interview-tools-for-startups.md)
 - [AI tools that interview customers for you](ai-tools-that-interview-customers-for-you.md)
 - [Best AI voice survey tools in 2026](best-ai-voice-survey-tools.md)
+- [Typeform alternatives for customer interviews](typeform-alternative-for-customer-interviews.md)
+- [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)
+- [Best AI qualitative research platforms in 2026](best-ai-qualitative-research-platforms.md)
 
 ## How-to pages
 
