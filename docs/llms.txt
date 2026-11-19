@@ -17,6 +17,12 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html): Five steps to run many consistent customer interviews at once
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html): Collect voice feedback from customers without booking calls
 - [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html): When to use each method
+- [How to talk to 100 customers in a week](https://nar-vardanyan.github.io/frank-mcp/talk-to-100-customers-in-a-week.html): A five-day plan to run 100 customer voice interviews without booking calls
+- [How to find out why customers churn](https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html): Six steps to interview recently cancelled customers and find the trigger behind churn
+- [How to run user interviews in multiple languages](https://nar-vardanyan.github.io/frank-mcp/user-interviews-in-multiple-languages.html): Adapt one interview guide and run voice interviews in each customer's language
+- [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html): Connect Frank to Claude as a custom connector, draft a study, and analyze transcripts
+- [AI voice interviews for customer feedback](https://nar-vardanyan.github.io/frank-mcp/ai-voice-interviews-for-customer-feedback.html): What AI voice interviews are, when they fit, and how to run one
+- [AI customer interview tool with a free plan](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-tool-free-plan.html): What to check in a free plan, and what Frank's Free plan includes
 
 ## Comparisons
 
