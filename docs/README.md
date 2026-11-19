@@ -21,6 +21,9 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)
 - [Best AI qualitative research platforms in 2026](best-ai-qualitative-research-platforms.md)
 - [ChatGPT apps for customer research interviews](chatgpt-app-for-customer-research-interviews.md)
+- [Best win-loss analysis software in 2026](best-win-loss-analysis-software.md)
+- [Dovetail alternatives in 2026](dovetail-alternatives.md)
+- [Best customer feedback tools in 2026](best-customer-feedback-tools.md)
 
 ## How-to pages
 
@@ -32,5 +35,6 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [How to find out why customers churn](how-to-find-out-why-customers-churn.md)
 - [How to run user interviews in multiple languages](user-interviews-in-multiple-languages.md)
 - [How to run customer interviews from Claude](run-customer-interviews-from-claude.md)
+- [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [AI voice interviews for customer feedback](ai-voice-interviews-for-customer-feedback.md)
 - [AI customer interview tool with a free plan](ai-customer-interview-tool-free-plan.md)
