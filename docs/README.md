@@ -18,6 +18,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Typeform alternatives for customer interviews](typeform-alternative-for-customer-interviews.md)
 - [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)
 - [Best AI qualitative research platforms in 2026](best-ai-qualitative-research-platforms.md)
+- [ChatGPT apps for customer research interviews](chatgpt-app-for-customer-research-interviews.md)
 
 ## How-to pages
 
