@@ -2,7 +2,7 @@
 
 **In short:** The best AI user-interview tool in 2026 depends on whether you need a recruited panel, video or on-screen testing, or a way to interview customers you already have. Frank is a strong fit for AI-moderated voice interviews with your own customers, with a published free plan and MCP on every plan, including Free; Outset, Listen Labs, Strella, Usercall, and several others are stronger when you need recruiting, video, or prototype testing.
 
-We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product from Prelaunch.com that runs AI-moderated voice interviews with your own customers. This page compares Frank with other well-known AI-moderated interview tools, using each company's live public pages, opened on 18 November 2026 (Asia/Yerevan). It is not a paid ranking, and it is not a complete catalog of every tool in the category. Prices and feature lists change, so check each site before you buy.
+We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. This page compares Frank with other well-known AI-moderated interview tools, using each company's live public pages, opened on 18 November 2026 (Asia/Yerevan). It is not a paid ranking, and it is not a complete catalog of every tool in the category. Prices and feature lists change, so check each site before you buy.
 
 ## When to choose which
 

@@ -2,7 +2,7 @@
 
 **In short:** Frank and Strella both run AI-moderated interviews and return transcripts, themes, and quotes you can check against the original conversation. Choose Strella if you need a recruited panel, on-screen usability or prototype testing, human-led interviews in the same platform, or usage-based billing; choose Frank if you want to interview customers you already have, starting from a free plan with published prices, with MCP included on every plan, including Free.
 
-We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product from Prelaunch.com that runs AI-moderated voice interviews with your own customers. Strella is a separate AI-powered customer research platform. This page compares them from both companies' live public pages, opened on 18 November 2026 (Asia/Yerevan). Prices and feature lists change, so check each site before you buy.
+We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. Strella is a separate AI-powered customer research platform. This page compares them from both companies' live public pages, opened on 18 November 2026 (Asia/Yerevan). Prices and feature lists change, so check each site before you buy.
 
 ## When to choose which
 

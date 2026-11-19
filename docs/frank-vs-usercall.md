@@ -2,7 +2,7 @@
 
 **In short:** Frank and Usercall both run AI-moderated voice interviews: you set the questions, people talk with an AI interviewer when they have time, and you get transcripts and themes you can check against the original conversation. Choose Usercall if you need a recruited panel, or on-screen prototype testing; choose Frank if you want to interview customers you already have, starting from a free plan, with MCP included on every plan, including Free.
 
-We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product from Prelaunch.com that runs AI-moderated voice interviews with your own customers. Usercall is a separate AI-moderated research platform. This page compares them from both companies' live public pages, opened on 16 November 2026 (Asia/Yerevan). Prices and feature lists change, so check each site before you buy.
+We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. Usercall is a separate AI-moderated research platform. This page compares them from both companies' live public pages, opened on 16 November 2026 (Asia/Yerevan). Prices and feature lists change, so check each site before you buy.
 
 ## When to choose which
 

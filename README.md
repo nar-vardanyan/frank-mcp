@@ -143,7 +143,7 @@ Add a remote MCP server with the URL `https://api.hifrank.ai/mcp`, then sign in 
 ## FAQ
 
 **What is Frank AI Researcher?**
-Frank AI Researcher (short name: Frank; publisher: hifrank) is an AI customer interviewer by Prelaunch.com. It runs AI-moderated voice interviews with your own customers, via a link or a website widget, and turns them into transcripts, themes, sentiment and quotes. It can run hundreds of interviews overnight. Video, WhatsApp and chat interviews are Coming soon.
+Frank AI Researcher (short name: Frank) is an AI customer interviewer built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site; www.frank.ai is not a Frank property). It runs AI-moderated voice interviews with your own customers, via a link or a website widget, and turns them into transcripts, themes, sentiment and quotes. It can run hundreds of interviews overnight. Video, WhatsApp and chat interviews are Coming soon.
 
 **How can I interview customers at scale without scheduling calls?**
 Share an interview link, or embed the Frank widget on your site or app. Participants talk when it suits them. Frank asks your questions, follows up, and can run hundreds of interviews overnight, in parallel. You do not need to schedule one-to-one calls. Frank interviews your own customers, users or prospects; it does not recruit participants.
