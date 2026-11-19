@@ -11,6 +11,10 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Frank vs Strella](frank-vs-strella.md)
 - [Frank vs Usercall](frank-vs-usercall.md)
 - [Best AI user-interview tools in 2026](best-ai-user-interview-tools-2026.md)
+- [Conveo alternatives in 2026](conveo-alternatives.md)
+- [Best customer interview tools for startups](best-customer-interview-tools-for-startups.md)
+- [AI tools that interview customers for you](ai-tools-that-interview-customers-for-you.md)
+- [Best AI voice survey tools in 2026](best-ai-voice-survey-tools.md)
 
 ## How-to pages
 
