@@ -25,7 +25,7 @@ You also don't need hundreds of interviews to learn something. For a fairly simi
 | **User Intuition** | AI-moderated interviews via chat, audio or video ([Pricing](https://www.userintuition.ai/pricing/)) | Your own customers at no extra cost, or a 4M+ vetted panel billed separately ([Pricing](https://www.userintuition.ai/pricing/)) | 3 free quality interviews; then $30 per quality voice interview with your sample, $0/month ([Pricing](https://www.userintuition.ai/pricing/)) |
 | **Koji** | AI interviews by voice, chat or phone; 30+ languages ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | €79/month for 79 credits; a voice interview uses 3 credits ([Koji blog](https://www.koji.so/blog/conveo-alternatives-2026)) |
 | **Raconte** | AI voice interviews in English or French ([raconte.ai](https://raconte.ai/en)) | Email and link invitations ([Pricing](https://raconte.ai/en/pricing)) | Free: 60 interview minutes/month, no credit card; then $0.12 per minute of active speech ([Pricing](https://raconte.ai/en/pricing)) |
-| **Great Question** | Interviews, scheduling and surveys; AI moderation is an add-on ([Pricing](https://www.greatquestion.com/pricing)) | Your own panel; Respondent and User Interviews panels as add-ons ([Pricing](https://www.greatquestion.com/pricing)) | Self-serve $129 per seat/month after a 14-day free trial ([Pricing](https://www.greatquestion.com/pricing)) |
+| **Great Question** | Interviews, scheduling and surveys; AI-moderated interviews are an Enterprise add-on ([Pricing](https://www.greatquestion.com/pricing)) | Your own panel; Respondent and User Interviews panels as add-ons ([Pricing](https://www.greatquestion.com/pricing)) | Self-serve $129 per seat/month after a 14-day free trial ([Pricing](https://www.greatquestion.com/pricing)) |
 
 If a fact was not on the pages reviewed, it is not assumed missing from the product.
 
@@ -57,7 +57,7 @@ Raconte runs AI voice interviews in English or French, with transcripts, summari
 
 ### 6. Great Question: best if you mostly run live interviews
 
-Great Question combines interviews, scheduling, surveys and a participant CRM, with AI moderation as an add-on. Self-serve is $129 per seat/month after a 14-day free trial, with up to 5 seats ([Great Question, Pricing](https://www.greatquestion.com/pricing)). It suits teams that still want humans on most calls and need scheduling and incentives handled.
+Great Question combines interviews, scheduling, surveys and a participant CRM; its pricing FAQ says AI-moderated interviews are an Enterprise add-on, not part of Self-serve. Self-serve is $129 per seat/month after a 14-day free trial, with up to 5 seats ([Great Question, Pricing](https://www.greatquestion.com/pricing)). It suits teams that still want humans on most calls and need scheduling and incentives handled.
 
 ## How to choose as a startup
 
