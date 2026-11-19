@@ -2,11 +2,11 @@
 
 **In short:** The best Conveo alternative depends on what you need instead of video-first enterprise research. Frank fits if you want AI-moderated voice interviews with customers you already have, on a published free plan. Listen Labs and Outset fit large recruited studies. Koji and Usercall fit self-serve teams that want published prices and optional recruiting.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with Conveo and other AI interview tools, using each company's live public pages, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices and features change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with Conveo and other AI interview tools, using each company's live public pages, opened on 19 November 2026 (Asia/Yerevan), including their structured data. It is not a paid ranking or a complete catalog. Prices and features change, so check each site before you buy. Frank does not recruit participants.
 
 ## What Conveo is, and why people look elsewhere
 
-Conveo describes itself as a fully AI-powered video interview platform covering study design, recruitment, interviews and analysis, with "AI-led, video-first asynchronous interviews across languages, globally, 24/7" ([Conveo, Product](https://conveo.ai/product)). It recruits through CSV lists, external panels, QR codes and WhatsApp invites, and lists GDPR, SOC 2 Type II and ISO 27001:2022, plus zero AI model training on client data (same source). Its site offers "Start for free" and "Book a demo" ([conveo.ai](https://conveo.ai/)); a full price list was not published on the pages reviewed.
+Conveo describes itself as a fully AI-powered video interview platform covering study design, recruitment, interviews and analysis, with "AI-led, video-first asynchronous interviews across languages, globally, 24/7" ([Conveo, Product](https://conveo.ai/product)). It recruits through CSV lists, external panels, QR codes and WhatsApp invites, and its product-page FAQ describes integrated recruitment via Respondent.io, typically a $6 recruitment fee per participant plus incentives of usually $1 per interview minute (about $21 for a 15-minute interview). You can also use your own panel or recruiter with a respondent link ([Conveo, Product FAQ](https://conveo.ai/product)). The page lists GDPR, SOC 2 Type II and ISO 27001:2022, plus zero AI model training on client data (same source). Its site offers "Start for free" and "Book a demo" ([conveo.ai](https://conveo.ai/)); a full price list was not published on the pages reviewed.
 
 Teams usually look for an alternative for one of four reasons:
 
@@ -36,7 +36,7 @@ Frank is voice-first. You create a study, share an [interviewer link](https://ww
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-**Choose Frank over Conveo** when you don't need video, you already have customers to invite, and you want to start on a free plan. **Stay with Conveo** if you need video-first interviews or built-in recruiting; Frank does not recruit participants.
+**Choose Frank over Conveo** when you don't need video, you already have customers to invite, and you want to start on a free plan. **Stay with Conveo** if you need video-first interviews or integrated recruiting through Respondent.io; Frank does not recruit participants.
 
 ### 2. Listen Labs: recruiting and moderation at enterprise scale
 
@@ -62,7 +62,7 @@ Strella combines AI moderation and live human moderation, and lets participants 
 
 1. **Do you need video?** If yes, compare Conveo, Outset and Strella. If voice is enough, Frank, Koji and Usercall are lighter to start.
 2. **Do you need recruiting?** If you have no audience, choose a tool with a panel. If you have customers, a link-based tool is simpler; Frank does not recruit participants.
-3. **Do you need a published price?** Frank, Usercall and Koji publish prices; Conveo, Listen Labs, Outset and Strella did not on the pages reviewed.
+3. **Do you need a published price?** Frank, Usercall and Koji publish plan prices. Conveo publishes typical Respondent.io recruiting costs but not a platform price list; Listen Labs, Outset and Strella did not publish prices on the pages reviewed.
 4. **Will you run research from an AI assistant?** Check MCP support and which clients have been tested.
 
 ## When Frank is a fit
