@@ -21,6 +21,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [How to find out why customers churn](https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html): Six steps to interview recently cancelled customers and find the trigger behind churn
 - [How to run user interviews in multiple languages](https://nar-vardanyan.github.io/frank-mcp/user-interviews-in-multiple-languages.html): Adapt one interview guide and run voice interviews in each customer's language
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html): Connect Frank to Claude as a custom connector, draft a study, and analyze transcripts
+- [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html): Connect Frank's remote MCP server at https://api.hifrank.ai/mcp to ChatGPT, Claude, Grok, Instinct or Muse and run voice interview studies from your assistant
 - [AI voice interviews for customer feedback](https://nar-vardanyan.github.io/frank-mcp/ai-voice-interviews-for-customer-feedback.html): What AI voice interviews are, when they fit, and how to run one
 - [AI customer interview tool with a free plan](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-tool-free-plan.html): What to check in a free plan, and what Frank's Free plan includes
 
@@ -39,6 +40,9 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [Best tools for customer churn interviews](https://nar-vardanyan.github.io/frank-mcp/best-tools-for-customer-churn-interviews.html): AI churn interview tools for your cancel flow, with sourced formats and prices
 - [Best AI qualitative research platforms in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-qualitative-research-platforms.html): Platforms that collect AI-moderated interviews vs platforms that analyze, compared
 - [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html): Which research tools connect to ChatGPT, what each can do there, and how to add Frank
+- [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html): Buyer-interview platforms vs call analytics for win-loss, with sourced facts, and where Frank fits
+- [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html): Cheaper repositories, research suites, and when the gap is collecting interviews, compared with sources
+- [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html): Survey, feedback-board, VoC and interview tools matched to the question, with sourced prices
 
 ## Optional
 
