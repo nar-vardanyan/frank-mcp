@@ -87,5 +87,6 @@ We have no Dovetail integration to cite. You can pull Frank transcripts into you
 
 - [Best AI qualitative research platforms in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-qualitative-research-platforms.html)
 - [Conveo alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/conveo-alternatives.html)
+- [Marvin alternatives in 2026](marvin-alternatives.md)
 - [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html)
 - [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)

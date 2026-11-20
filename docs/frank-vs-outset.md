@@ -1,37 +1,48 @@
 # Frank vs Outset: AI-Moderated Interviews Compared
 
-**In short:** Frank and Outset both run AI-moderated interviews and return transcripts, themes, and quotes you can check against the original conversation. Choose Outset if you need a recruited panel, video or on-screen usability testing, digital twins, or researcher-led live interviews; choose Frank if you want to interview customers you already have, starting from a free plan with published prices, with MCP included on every plan, including Free.
+**Short answer**
 
-We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. Outset is a separate AI-moderated research platform. This page compares them from both companies' live public pages, opened on 18 November 2026 (Asia/Yerevan). Prices and feature lists change, so check each site before you buy.
+Frank AI Researcher is a voice-first alternative to Outset for interviewing your own customers. Share a link or website widget; Frank runs AI-moderated voice interviews, including hundreds overnight, and returns transcripts and themes. It has a Free plan (60 voice minutes a month), published prices from $49/month billed yearly, and MCP on every plan. Outset runs video, voice or text interviews, can recruit participants, and offers custom pricing.
+
+**Last checked:** 2026-11-20.
+
+| Tool | Interview format | Who you talk to | Languages | Public pricing | MCP |
+|---|---|---|---|---|---|
+| **Frank AI Researcher** | AI-moderated voice interviews. Video, WhatsApp and text chat are Coming soon. ([hifrank.ai](https://www.hifrank.ai), 20 Nov 2026) | Your own customers. Frank does not recruit. Share an interviewer link or website widget. | 50+ interview languages | Free plan: 60 voice minutes/month, no credit card. Starter $49/month billed yearly ($590/year) or $59 monthly. 14-day free trial on paid plans. ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026) | Included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. ([MCP](https://www.hifrank.ai/mcp), 20 Nov 2026) |
+| **Outset** | Text, voice, video, and voice-to-voice responses. ([Pricing](https://outset.ai/pricing), 20 Nov 2026) | Outset can recruit, or you can bring your own list or panel. Recruit page: 25+ native panel integrations and "over 1.1 billion global participants in over 85 countries." ([Recruit](https://outset.ai/platform/recruit), 20 Nov 2026) | 40+ languages, with automatic translation of transcripts and synthesis. ([Pricing](https://outset.ai/pricing), [Multilingual](https://outset.ai/platform/multilingual), 20 Nov 2026) | Custom pricing. The pricing page says "Get custom pricing" and "Access varies by your custom plan and add-ons." No public starting dollar price. ([Pricing](https://outset.ai/pricing), 20 Nov 2026) | Outset documents MCP support to launch studies, analyze results, or chat with digital twins, and names Claude, ChatGPT, Cursor, Figma, Notion, and Glean. Help docs say official connectors currently work with the US deployment only (EU-hosted orgs should use a custom connector). Plan-by-plan inclusion is not documented. ([MCP changelog](https://outset.ai/resources/changeblog/outset-mcp), [Using Outset's MCP](https://help.outset.ai/articles/2997399296-using-outset-s-mcp), 20 Nov 2026) |
+
+The attribute table later on this page keeps extra rows (security, interview length, on-screen testing, digital twins, live interviews) from the 18 November 2026 review. Where that table and this one overlap, this one is the 20 November 2026 check.
+
+We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. Outset is a separate AI-moderated research platform. Prices and feature lists change, so check each site before you buy.
 
 ## When to choose which
 
 **Choose Outset** when you need people you do not already have. Outset recruits through 25+ native panel integrations, and its recruit page says you can reach over 1.1 billion global participants in over 85 countries, or you can bring your own list. It is also the better pick when the interview itself has to be video, text, or voice-to-voice, when a researcher needs to run on-screen usability or prototype tests (including Figma files, live websites, or mobile apps, with picture-in-picture screen sharing), when you want to interview digital twins grounded in prior human interviews, or when you want to lead a human interview yourself in the same platform, with a backroom for teammates. Outset also states HIPAA compliance and ISO 42001 certification alongside SOC 2 Type II and GDPR, and it offers custom pricing plus optional managed support for study setup and recruitment.
 
-**Choose Frank** when you already have customers to invite and you do not need a panel. Frank does not recruit participants. You share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), let voice conversations run (including overnight), and read the transcripts and themes. Frank publishes a Free plan with monthly voice minutes and no credit card, and MCP is included on every plan, including Free. Frank works today in ChatGPT, Claude, Grok, Instinct and Muse, so you can set up a study and read transcripts from those assistants. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). Frank also states 50+ interview languages, compared with the 40+ languages Outset lists. If you want many consistent voice conversations with your own customers, rather than a recruited or multimodal study, that is the fit.
+**Choose Frank** when you already have customers to invite and you do not need a panel. Frank does not recruit participants. You share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), let voice conversations run (including overnight), and read the transcripts and themes. Frank publishes a Free plan with monthly voice minutes and no credit card, and MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). Frank also states 50+ interview languages, compared with the 40+ languages Outset lists. If you want many consistent voice conversations with your own customers, rather than a recruited or multimodal study, that is the fit.
 
-**Either tool can work** if you only need to share a link with people you already know, run interviews without a calendar, and read themes linked back to quotes. Both document an MCP connector, and both state SOC 2 Type II and GDPR compliance. Those overlaps are why the choice usually comes down to recruiting, interview format (voice-only vs video, text, and on-screen testing), plan structure, and how much security documentation you need, not to whether both can run an AI-moderated interview.
+**Either tool can work** if you need to share a link with people you already know, run interviews without a calendar, and read themes linked back to quotes. Both document an MCP connector, and both state SOC 2 Type II and GDPR compliance. Those overlaps are why the choice usually comes down to recruiting, interview format (Frank is voice-first; Outset also runs video, text, and on-screen testing), plan structure, and how much security documentation you need, not to whether both can run an AI-moderated interview.
 
 ## Frank vs Outset at a glance
 
-Every Outset cell is taken from Outset's own live pages, opened on 18 November 2026 (Asia/Yerevan). Every Frank cell is taken from [hifrank.ai](https://www.hifrank.ai) pages opened the same day, or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2 Type II, hundreds of interviews overnight, and GDPR). If a fact was not on the pages reviewed, it is marked as not stated, not assumed to be absent from the product.
+Cells below are from Outset's own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2 Type II, hundreds of interviews overnight, and GDPR). A cell dated 20 November 2026 was checked that day; other cells were opened on 18 November 2026 (Asia/Yerevan). If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
 
 | | Frank | Outset |
 |---|---|---|
 | What it is | An AI researcher that runs AI-moderated voice interviews with your own customers ([hifrank.ai](https://www.hifrank.ai), as of Nov 18, 2026) | An AI-moderated research platform for interviews, recruiting, and synthesis ([outset.ai](https://outset.ai/), as of Nov 18, 2026) |
-| Interview format | AI-moderated voice interviews ([hifrank.ai](https://www.hifrank.ai), as of Nov 18, 2026) | Text, voice, video, and voice-to-voice ([Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
+| Interview format | AI-moderated voice interviews. Video, WhatsApp and text chat are Coming soon. ([hifrank.ai](https://www.hifrank.ai), 20 Nov 2026) | Text, voice, video, and voice-to-voice ([Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
 | Who you talk to | Your own customers. Frank does not recruit participants. | Outset can recruit, or you can bring your own list or panel. Recruiting is described as 25+ native panel integrations (examples include Prolific and User Interviews), "over 1.1 billion global participants in over 85 countries," covering B2C and B2B ([Recruit](https://outset.ai/platform/recruit), as of Nov 18, 2026) |
 | How people join | Shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) (as of Nov 18, 2026) | Share an interview link, recruit via Outset, or use your own panel or customer list ([Recruit](https://outset.ai/platform/recruit), [Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
-| On-screen concept / prototype / usability testing | Not stated as on-screen image, mockup, or Figma testing on the Frank pages reviewed | Picture-in-picture usability studies using Figma files, prototypes, or live mobile apps and websites; load multiple concepts or stimuli in one study ([Interviews](https://outset.ai/platform/interviews), as of Nov 18, 2026) |
-| Other research modes | Not stated on the Frank pages reviewed | Digital twins grounded in real human interviews; researcher-led Live Interviews in the same platform, with a backroom for teammates; upload of researcher-led interviews for analysis ([Digital Twins](https://outset.ai/digital-twins), [Live Interviews](https://outset.ai/resources/blog/live-interviews), [Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
+| On-screen concept / prototype / usability testing | Not documented as on-screen image, mockup, or Figma testing on the Frank pages reviewed | Picture-in-picture usability studies using Figma files, prototypes, or live mobile apps and websites; load multiple concepts or stimuli in one study ([Interviews](https://outset.ai/platform/interviews), as of Nov 18, 2026) |
+| Other research modes | Not documented on the Frank pages reviewed | Digital twins grounded in real human interviews; researcher-led Live Interviews in the same platform, with a backroom for teammates; upload of researcher-led interviews for analysis ([Digital Twins](https://outset.ai/digital-twins), [Live Interviews](https://outset.ai/resources/blog/live-interviews), [Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
 | Languages | 50+ interview languages | 40+ languages, with automatic translation of transcripts and synthesis ([Multilingual](https://outset.ai/platform/multilingual), [Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
-| Interview length | Free: up to 10 minutes. Starter and Growth: up to 20 minutes. Business: up to 30 minutes ([Pricing](https://www.hifrank.ai/pricing), as of Nov 18, 2026) | Not stated on the Outset pages reviewed |
+| Interview length | Free: up to 10 minutes. Starter and Growth: up to 20 minutes. Business: up to 30 minutes ([Pricing](https://www.hifrank.ai/pricing), as of Nov 18, 2026) | Not documented on the Outset pages reviewed |
 | What you get back | Transcripts and thematic analysis, with insights tied back to the source conversations ([Transparency & Security](https://www.hifrank.ai/features/transparency-security), as of Nov 18, 2026) | Structured summaries, themes, quotes, highlight reels, chat-with-your-data, and exports including CSV, PPT, PDF, and video ([Synthesis](https://outset.ai/platform/synthesis), [Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
-| MCP / use from an AI assistant | Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. MCP is included on all plans, including Free. New research is created as a draft and is not published to participants without separate approval ([MCP](https://www.hifrank.ai/mcp), as of Nov 18, 2026; plan inclusion is an approved claim) | Outset documents native MCP support to launch studies, analyze results, or chat with digital twins. The platform page names Claude, Cursor, or any MCP-compatible tool; the MCP changelog also names ChatGPT, Figma, Notion, and Glean. Plan-by-plan inclusion is not stated on outset.ai ([Platform](https://outset.ai/platform), [Outset MCP](https://outset.ai/resources/changeblog/outset-mcp), as of Nov 18, 2026) |
+| MCP / use from an AI assistant | Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. MCP is included on all plans, including Free. New research is created as a draft and is not published to participants without separate approval ([MCP](https://www.hifrank.ai/mcp), 20 Nov 2026; plan inclusion is an approved claim) | Outset documents native MCP support to launch studies, analyze results, or chat with digital twins, and names Claude, ChatGPT, Cursor, Figma, Notion, and Glean. Help docs say official connectors currently work with the US deployment only (EU-hosted orgs should use a custom connector). Plan-by-plan inclusion is not documented. ([Platform](https://outset.ai/platform), [Outset MCP](https://outset.ai/resources/changeblog/outset-mcp), [Using Outset's MCP](https://help.outset.ai/articles/2997399296-using-outset-s-mcp), 20 Nov 2026) |
 | Security and privacy | SOC 2 Type II (approved claim; the live page says "SOC 2"). GDPR compliant. AES-256 at rest and TLS 1.2+ in transit ([Transparency & Security](https://www.hifrank.ai/features/transparency-security), as of Nov 18, 2026) | SOC 2 Type II certified, GDPR compliant, ISO 42001 certified, and HIPAA compliant. Encrypted at rest; TLS 1.3+ in transit; SSO. Outset says it does not train on customer data ([Trust & Safety](https://outset.ai/trust-safety), [Official company information](https://outset.ai/official-outset-company-information), [Pricing](https://outset.ai/pricing), as of Nov 18, 2026) |
 | Starting price (as shown Nov 18, 2026) | Free plan with 60 voice minutes/month, no credit card required. Paid plans start at $59/mo, or $49/mo when billed yearly ($590/year). All paid plans include a 14-day free trial ([Pricing](https://www.hifrank.ai/pricing), as of Nov 18, 2026). Prices change. | No public starting price on the pages reviewed. Outset offers custom pricing based on the research team, research needs, and support needs, and invites teams to get a quote or book a demo ([Pricing](https://outset.ai/pricing), as of Nov 18, 2026). Prices change. |
 
-Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [outset.ai](https://outset.ai/), [Outset pricing](https://outset.ai/pricing), [Outset Trust & Safety](https://outset.ai/trust-safety), [Outset official company information](https://outset.ai/official-outset-company-information), [Outset platform](https://outset.ai/platform), [Outset interviews](https://outset.ai/platform/interviews), [Outset recruit](https://outset.ai/platform/recruit), [Outset multilingual](https://outset.ai/platform/multilingual), [Outset synthesis](https://outset.ai/platform/synthesis), [Outset Digital Twins](https://outset.ai/digital-twins), [Outset MCP changelog](https://outset.ai/resources/changeblog/outset-mcp), [Outset Live Interviews](https://outset.ai/resources/blog/live-interviews). All opened 18 November 2026, Asia/Yerevan.
+Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [outset.ai](https://outset.ai/), [Outset pricing](https://outset.ai/pricing), [Outset Trust & Safety](https://outset.ai/trust-safety), [Outset official company information](https://outset.ai/official-outset-company-information), [Outset platform](https://outset.ai/platform), [Outset interviews](https://outset.ai/platform/interviews), [Outset recruit](https://outset.ai/platform/recruit), [Outset multilingual](https://outset.ai/platform/multilingual), [Outset synthesis](https://outset.ai/platform/synthesis), [Outset Digital Twins](https://outset.ai/digital-twins), [Outset MCP changelog](https://outset.ai/resources/changeblog/outset-mcp), [Outset Live Interviews](https://outset.ai/resources/blog/live-interviews). Opened 18 November 2026 unless a cell cites 20 November 2026. Asia/Yerevan.
 
 ## How Frank works
 
@@ -47,7 +58,7 @@ On Outset's site, you set up an interview guide from your research goals (Outset
 
 After the sessions, Outset synthesizes themes, quotes, and highlight reels, and you can chat with the data. The interviews page also describes visual and on-screen studies: the moderator can see click paths and facial reactions, and can run usability tests on Figma files, prototypes, or live apps and sites. Outset also documents Digital Twins, built from AI-moderated human interviews, and Live Interviews, where a researcher leads the conversation in the same platform and teammates can listen from a backroom.
 
-A hosted MCP connector is documented so a team can launch studies, analyze results, or chat with digital twins from tools such as Claude or Cursor. Plan-by-plan MCP inclusion is not stated on the Outset pages reviewed ([Platform](https://outset.ai/platform), [Outset MCP](https://outset.ai/resources/changeblog/outset-mcp), as of Nov 18, 2026).
+A hosted MCP connector is documented so a team can launch studies, analyze results, or chat with digital twins from tools such as Claude or Cursor. Plan-by-plan MCP inclusion is not documented on the Outset pages reviewed ([Platform](https://outset.ai/platform), [Outset MCP](https://outset.ai/resources/changeblog/outset-mcp), as of Nov 18, 2026).
 
 ## Pricing
 
@@ -76,6 +87,22 @@ A like-for-like monthly cost is hard to state because Outset does not publish pl
 
 ## FAQ
 
+### Is Frank an Outset alternative for interviewing my own customers?
+
+Yes, if you already have customers to invite and you want voice interviews. Frank AI Researcher runs AI-moderated voice interviews from a shareable link or website widget, including hundreds overnight, and returns transcripts and themes. It has a Free plan (60 voice minutes a month), published paid prices, and MCP on every plan, including Free.
+
+### Does Outset recruit participants?
+
+Yes. Outset's recruit page describes 25+ native panel integrations and over 1.1 billion global participants in over 85 countries, or you can bring your own list. Frank does not recruit participants.
+
+### Does Outset publish a starting price?
+
+No public starting dollar price. Outset's pricing page offers custom pricing. Frank publishes a Free plan (60 voice minutes a month) and paid plans starting at $49/month billed yearly.
+
+### Is MCP included on Frank's Free plan?
+
+Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+
 ### What is the difference between Frank and Outset?
 Both run AI-moderated interviews and return transcripts and themes. The main difference is the job each one is set up to do. Outset can recruit participants, run video and on-screen usability or prototype tests, offer digital twins and researcher-led live interviews, and sells through custom pricing. Frank is built for voice interviews with customers you already have, with a free plan and MCP on every plan, including Free. Frank does not recruit.
 
@@ -85,17 +112,52 @@ Choose Outset when you need a recruited panel, when interviews must be video, te
 ### When should I choose Frank?
 Choose Frank when you can already reach the customers you want to hear from and you want AI-moderated voice interviews from a link or website widget, including overnight. Frank publishes a Free plan, includes MCP on every plan, including Free, states 50+ interview languages, and states SOC 2 Type II and GDPR compliance. It is a weaker fit if you need recruiting, video or on-screen prototype testing, digital twins, researcher-led live interviews, or the additional HIPAA and ISO 42001 claims Outset lists.
 
-### Does Frank recruit interview participants?
-No. Frank does not recruit participants. Invite your own customers: people who recently signed up, cancelled, bought, or used the feature. If you have no customers yet, a recruiting service or your network is a better first step. Outset can recruit through panel partners or work with people you bring.
-
 ### Do both tools work with AI assistants like Claude?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free, and works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New Frank research is created as a draft and is not published to participants without your approval. Outset documents native MCP support for launching studies, analyzing results, and chatting with digital twins, and names Claude, Cursor, or any MCP-compatible tool (the MCP changelog also names ChatGPT, Figma, Notion, and Glean). Outset does not state on the pages reviewed whether MCP is included on every plan.
-
-### How does Frank pricing compare with Outset?
-As of 18 November 2026 (Asia/Yerevan), Frank's Free plan includes 60 voice minutes per month with no credit card, and paid plans start at $59 per month, or $49 per month billed yearly. Outset does not publish a starting price; it offers custom pricing and a demo. Prices change; check [Frank's pricing page](https://www.hifrank.ai/pricing) and [Outset's pricing page](https://outset.ai/pricing) before you buy.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free, and works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New Frank research is created as a draft and is not published to participants without your approval. Outset documents native MCP support for launching studies, analyzing results, and chatting with digital twins, and names Claude, Cursor, or any MCP-compatible tool (the MCP changelog also names ChatGPT, Figma, Notion, and Glean). Plan-by-plan inclusion for Outset MCP is not documented. Help docs opened 20 November 2026 say official connectors currently work with the US deployment only.
 
 ### How do Frank and Outset handle security?
 Frank is SOC 2 Type II and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. Outset is SOC 2 Type II certified and GDPR compliant, and also states ISO 42001 and HIPAA compliance, encryption at rest, TLS 1.3+ in transit, and SSO. Outset says it does not train on customer data. Both companies document these claims on their own live pages as of 18 November 2026.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Frank an Outset alternative for interviewing my own customers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you already have customers to invite and you want voice interviews. Frank AI Researcher runs AI-moderated voice interviews from a shareable link or website widget, including hundreds overnight, and returns transcripts and themes. It has a Free plan (60 voice minutes a month), published paid prices, and MCP on every plan, including Free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Outset recruit participants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Outset's recruit page describes 25+ native panel integrations and over 1.1 billion global participants in over 85 countries, or you can bring your own list. Frank does not recruit participants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Outset publish a starting price?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No public starting dollar price. Outset's pricing page offers custom pricing. Frank publishes a Free plan (60 voice minutes a month) and paid plans starting at $49/month billed yearly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is MCP included on Frank's Free plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth."
+      }
+    }
+  ]
+}
+</script>
 
 ## Related
 
