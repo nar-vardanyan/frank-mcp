@@ -1,0 +1,1207 @@
+{
+  "name": "Research MCP Index",
+  "title": "MCP servers for user research, compared (Nov 2026)",
+  "checked_on": "2026-11-20",
+  "next_recheck": "2026-12-20",
+  "method": "Last verified 2026-11-20. Vendor public pages opened on 2026-11-20, plus OAuth metadata where docs did not state DCR or CIMD. Cells that could not be sourced say not documented.",
+  "vendors": [
+    {
+      "vendor": "Frank",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://api.hifrank.ai/mcp (streamable HTTP).",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md",
+            "https://www.hifrank.ai/docs/frank-mcp-connector"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. Read tools cover studies, interviews and transcripts, and products. Write tools create and edit studies, publish a study, create products, and change website-widget settings. New studies stay drafts until publish_research, which spends credits and is a separate approval.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Yes. publish_research publishes a study and returns an interviewer link for an AI-moderated voice interview with your own customers. Frank does not recruit participants.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "Included on every plan, including Free.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "Yes. The Free plan includes 60 voice minutes a month and resets monthly, with no credit card required. Starter is $49 per month when billed yearly ($590 per year) or $59 billed monthly.",
+          "source_urls": [
+            "https://www.hifrank.ai/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "OAuth 2.1 with PKCE (S256). Authorization-server metadata sets client_id_metadata_document_supported to true (Client ID Metadata Documents, CIMD) and does not publish a registration_endpoint. The README says Cursor and Gemini CLI can't connect yet because they require dynamic client registration (DCR).",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md",
+            "https://api.hifrank.ai/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Codex is not in the tested list. Cursor and Gemini CLI can't connect (they require DCR).",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "Voice is the mode treated as available. The README says video, WhatsApp, and chat interviews are Coming soon. That is the product rule used here, so those modes are not listed as available. The pricing page, opened the same day, says \"Frank supports voice interviews, video interviews, WhatsApp chat, and web chat.\" Those two pages disagree.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md",
+            "https://www.hifrank.ai/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "50+ interview languages.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not listed. The README documents adding a custom MCP server in ChatGPT. It does not document a ChatGPT app-directory listing.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "not listed. The README documents a custom connector for Claude. It does not document a Claude connector-directory listing.",
+          "source_urls": [
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Listen Labs",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://listenlabs.ai/mcp. The connect docs also give https://mcp.listenlabs.ai/mcp as an equivalent endpoint. Transport is stateless streamable HTTP.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs/connect"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. The connect docs say an approved integration can view studies, read transcripts and analysis, create and edit studies, launch studies and start recruitment, and organize folders.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs/connect"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Yes. The MCP overview says you can create, edit, and launch studies. The connect docs say launch can start recruitment where the user has permission. The interview runs in Listen.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs",
+            "https://docs.listenlabs.com/mcp-docs/connect"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "The current connect docs and MCP overview do not name a plan. The MCP announcement says existing customers should reach out to their account team to get access.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs/connect",
+            "https://listenlabs.com/blog/listen-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "No public price list. https://listenlabs.com/pricing returned HTTP 404 on 2026-11-20. A Listen article says companies with more than 100 employees go through a demo and pilot, and smaller companies can use the self-serve platform. That article does not state a free allowance.",
+          "source_urls": [
+            "https://listenlabs.com/pricing",
+            "https://listenlabs.com/articles/startup-research-pricing-free-trials/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "OAuth. Troubleshooting docs say OAuth 2.1 with dynamic client registration. Authorization-server metadata publishes registration_endpoint https://mcp.listenlabs.ai/register and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs/troubleshooting",
+            "https://listenlabs.ai/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "Current MCP docs name Claude, ChatGPT, Codex, and other MCP clients that support remote servers with OAuth. The announcement also names Notion, Figma, Cursor, and Microsoft Copilot.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs",
+            "https://listenlabs.com/blog/listen-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "The user guide says Listen runs each video interview. A separate announcement says a Voice Interviewer reads questions aloud, with voice options in 42 languages. The MCP docs say interview mode can be changed and do not list the mode names on that page.",
+          "source_urls": [
+            "https://userguide.listenlabs.ai/",
+            "https://listenlabs.com/whatsnew/voice-interviewer-available-in-42-languages",
+            "https://docs.listenlabs.com/mcp-docs"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "Listen's own pages do not use one figure. The homepage and a product announcement say 120+ languages. The user guide and the AI moderator page say 100+. The Voice Interviewer announcement says audio playback in 42 languages. All of these pages were checked on 2026-11-20.",
+          "source_urls": [
+            "https://listenlabs.com/",
+            "https://listenlabs.com/whatsnew/120-interview-reporting-languages",
+            "https://userguide.listenlabs.ai/",
+            "https://listenlabs.com/features/ai-moderator",
+            "https://listenlabs.com/whatsnew/voice-interviewer-available-in-42-languages"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "Listed. The connect docs say Listen Labs is officially available in the OpenAI App Store, and that in ChatGPT you go to Apps and search Listen Labs.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs/connect"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "Listed. The connect docs say Listen Labs is officially available in the Claude connector directory.",
+          "source_urls": [
+            "https://docs.listenlabs.com/mcp-docs/connect"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Outset",
+      "fields": {
+        "endpoint_url": {
+          "value": "US: https://api.outset.ai/mcp/. EU: https://mcp.eu.outset.ai/mcp/.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. The help article says the MCP can create projects and studies, design guides, screeners, and questions, publish, and query findings. Authorization-server metadata includes studies:read, studies:write, and studies:launch. The same help article says Outset's MCP is the only write-enabled research MCP and that every other research MCP is read-only. That sentence is Outset's claim. This index does not adopt it.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp",
+            "https://api.outset.ai/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Yes, as launching a study on Outset. The help article says you can create and launch a study from the AI platform, including recruitment by a third-party panel or self-recruit, and publish when ready. Authorization-server metadata lists studies:launch as its own scope, alongside studies:read and studies:write.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp",
+            "https://api.outset.ai/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "Named plan required for the MCP: not documented. The help article says that on a Team or Enterprise plan a workspace admin adds the connector, and that Enterprise customers likely need an admin to approve it first. It does not say other plans are excluded.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "No free tier and no public dollar price on the pricing page. The page says access varies by custom plan and add-ons, and that pricing is set from the team's research and support needs. It also says Outset offers custom enterprise pricing.",
+          "source_urls": [
+            "https://outset.ai/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "OAuth 2.1 with PKCE and dynamic client registration. The publisher's GitHub README says compliant clients connect with no pre-registration. Authorization-server metadata publishes registration_endpoint https://api.outset.ai/users/oauth/register/ and client_id_metadata_document_supported true (CIMD).",
+          "source_urls": [
+            "https://github.com/Outset-AI/outset-mcp",
+            "https://api.outset.ai/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The help article names Claude, ChatGPT, Gemini, Figma, and anything that supports an MCP connection, and it names Cursor as one place the connectors page is called MCP Servers. The changelog names Claude, ChatGPT, Cursor, Figma, Notion, Glean, and other MCP-compatible tools. The GitHub README also documents Claude Code and VS Code.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp",
+            "https://outset.ai/resources/changeblog/outset-mcp",
+            "https://github.com/Outset-AI/outset-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "The pricing page lists text, voice, video, and voice-to-voice responses under AI-moderated interviewing.",
+          "source_urls": [
+            "https://outset.ai/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "The pricing page says multilingual capabilities (40+ languages). The platform page says over 40 languages.",
+          "source_urls": [
+            "https://outset.ai/pricing",
+            "https://outset.ai/platform"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not documented as a ChatGPT directory listing. The help article documents a custom connector and says that if Outset is not in a platform's connector marketplace, you add it by URL. Its example of an official marketplace connector is Claude.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "Listed for the US deployment. The help article says the Outset connector is listed in Claude's connector directory, and that official connectors currently work with the US deployment only. EU customers are told to add a custom connector with the EU URL.",
+          "source_urls": [
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Strella",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://app.strella.io/api/mcp. The connect page says directory clients do not need the URL, and other clients add this URL as a custom connector.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp/connect"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. The MCP page says the assistant can list projects, read transcripts, participants, and recordings, and can create projects, add and edit questions and screeners, and draft recruitment orders. Creating and editing is available to everyone in the organization except Viewers.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Creating a project, questions, and screeners, and drafting a recruitment order, are documented. Publishing a study or starting a live interview from the MCP is not documented on the MCP page. The product quickstart says Publish, in the Strella app, opens the study to participants.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp",
+            "https://app.strella.io/docs/product/get-started/quickstart"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "Named Strella plan required for the MCP: not documented. The announcement says the connector is open to current Strella customers. The connect page does not name a Strella plan. It does say ChatGPT's own plan must be Pro, Plus, Business, or Education.",
+          "source_urls": [
+            "https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector",
+            "https://app.strella.io/docs/product/mcp/connect"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "No free plan is stated. The billing page says new organizations start with a $0 wallet. Strella charges when you place a panel order or pay out self-recruited participants, from wallet credits, a one-time card checkout, or an enterprise invoice. No seat price is published on that page.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/account/billing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "The MCP page says OAuth 2.0 through the Strella account. Authorization-server metadata publishes registration_endpoint https://app.strella.io/api/oauth/register (DCR), PKCE S256, and client_id_metadata_document_supported true (CIMD).",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp",
+            "https://app.strella.io/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The connect page names Claude (web, desktop, and Cowork), ChatGPT, Figma Make, Claude Code, Cursor, and other clients by custom connector. The announcement also names Microsoft Copilot Studio, Notion, Lovable, Bolt.new, v0, Windsurf, VS Code with GitHub Copilot, and Replit.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp/connect",
+            "https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "The languages page describes an AI moderator, voice (availability varies by language), and call screens. The quickstart describes watching the call and its recording. Video, chat, or other modes: not documented on those pages.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/reference/languages",
+            "https://app.strella.io/docs/product/get-started/quickstart"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "The languages reference says Strella supports interviews in about 50 languages and lists the codes. A Strella comparison page says 40+ languages with auto-translation. Both were checked on 2026-11-20.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/reference/languages",
+            "https://www.strella.io/compare/strella-vs-outset"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "Listed. The connect page says Strella is listed in ChatGPT's plugin directory. The changelog also says the connector is in the ChatGPT directory.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp/connect",
+            "https://app.strella.io/docs/product/changelog"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "Listed. The connect page says Strella is a Claude directory connector and gives claude.ai/directory/connectors/strella. The announcement calls it a featured connector. The changelog says it is in the Claude directory.",
+          "source_urls": [
+            "https://app.strella.io/docs/product/mcp/connect",
+            "https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Dovetail",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://dovetail.com/api/mcp. Streamable HTTP. A self-hosted stdio server is also documented for clients that cannot use the hosted endpoint.",
+          "source_urls": [
+            "https://developers.dovetail.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. The product page says the assistant can search the workspace and can create projects, docs, data, highlights, and channel data. The developer tool list includes those creates plus edits to docs, highlights, tags, comments, folders, and file import. Claude's connect screen can be limited to read-only.",
+          "source_urls": [
+            "https://docs.dovetail.com/integrations/mcp-server",
+            "https://developers.dovetail.com/docs/mcp",
+            "https://docs.dovetail.com/integrations/claude"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "No. The developer tool list searches the workspace and creates workspace content. No tool on that list conducts or launches a live interview.",
+          "source_urls": [
+            "https://developers.dovetail.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "The product MCP page says the server is available in all Dovetail workspaces, except workspaces with the HIPAA add-on.",
+          "source_urls": [
+            "https://docs.dovetail.com/integrations/mcp-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "The pages do not all say the same thing. On the Dovetail One pricing page, the Bronze card says \"5 users\" and \"Coming soon\", and it states \"$4,800 a year for the platform, plus credits at 15c each\". An FAQ on that page says Bronze is $4,800 a year for the platform and 5 users, paid by card. The same page shows MCP on Bronze, Silver, and Gold, and it offers a free 30-day trial of Gold (\"Start a free 30-day trial of Dovetail One Gold\"). It does not use the words \"no free plan\". A Dovetail article says \"There is no free plan\" and that Gold includes a 30-day free trial. Help at https://docs.dovetail.com/help/purchase-a-paid-plan, which currently opens the Dovetail One plans page, says: \"We no longer offer a Free plan. Workspaces already on the Free plan can keep using it.\" It does not describe a current Free plan limited to one project, one channel, and one dashboard.",
+          "source_urls": [
+            "https://dovetail.com/pricing/",
+            "https://dovetail.com/customer-research/what-is-a-customer-context-layer/",
+            "https://docs.dovetail.com/help/purchase-a-paid-plan",
+            "https://docs.dovetail.com/help/dovetail-one-plans"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "OAuth 2.1 or a Bearer API token. The developer docs say the hosted endpoint does not support OAuth 2.0 Dynamic Client Registration (DCR) or Client-Initiated Metadata Discovery (CIMD). Other servers in this index use CIMD for Client ID Metadata Documents. Dovetail's page uses Client-Initiated Metadata Discovery. Enterprise customers can ask Dovetail to register an OAuth client. Authorization-server metadata has no registration_endpoint and no client_id_metadata_document_supported field.",
+          "source_urls": [
+            "https://developers.dovetail.com/docs/mcp",
+            "https://auth.dovetail.com/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "Developer docs list first-party integrations for ChatGPT, Claude, Figma, and Copilot. Custom hosted examples name Cursor, Windsurf, and Microsoft Copilot Studio. The product page's connected-apps list also names Microsoft 365 Copilot, Cursor, and Visual Studio Code. The pricing page says Dovetail MCP connects Claude, Copilot, Codex, Cursor, and Atlassian Rovo. A local server is documented for clients that support stdio, with Claude Desktop given as the example.",
+          "source_urls": [
+            "https://developers.dovetail.com/docs/mcp",
+            "https://docs.dovetail.com/integrations/mcp-server",
+            "https://dovetail.com/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "Dovetail does not document conducting interviews. The projects page says projects are where teams analyze uploaded recordings of interviews, usability tests, sales calls, and surveys. Interview modes conducted by Dovetail: not documented on the MCP or projects pages checked.",
+          "source_urls": [
+            "https://docs.dovetail.com/help/projects",
+            "https://developers.dovetail.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "A list of languages for interviews Dovetail conducts is not documented. Dovetail's pages describe analyzing uploaded recordings rather than running those interviews. The pricing page says transcription of calls and recordings works \"in any language\", and that summaries can be in the team's language.",
+          "source_urls": [
+            "https://developers.dovetail.com/docs/mcp",
+            "https://docs.dovetail.com/help/projects",
+            "https://dovetail.com/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "Listed as a first-party integration. The ChatGPT docs say there is no manual server configuration, and the developer docs list ChatGPT under app stores or marketplaces.",
+          "source_urls": [
+            "https://docs.dovetail.com/integrations/chatgpt",
+            "https://developers.dovetail.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "Listed as a first-party connector. The Claude docs say you find Dovetail under Settings, Customize, Connectors, and select Connect.",
+          "source_urls": [
+            "https://docs.dovetail.com/integrations/claude"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Great Question",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://greatquestion.co/api/mcp/v1.",
+          "source_urls": [
+            "https://www.greatquestion.com/features/mcp-integration",
+            "https://github.com/greatquestion/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. The 9 July 2026 changelog entry says the server gives read and write access to studies, sessions, transcripts, highlights, insights, and participant data, and that it can build studies and handle recruitment and scheduling. The feature page describes creating interviews and surveys. The GitHub README says tools can create and launch interview studies, surveys, and prototype tests.",
+          "source_urls": [
+            "https://greatquestion.co/support/releases-updates/changelog",
+            "https://www.greatquestion.com/features/mcp-integration",
+            "https://github.com/greatquestion/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Yes, as creating and launching studies that run on Great Question. The GitHub README says the server can launch interview studies, surveys, and prototype tests. Pricing says AI-moderated interviews are an Enterprise add-on, and that human interviews can use Zoom, Google Meet, or Microsoft Teams.",
+          "source_urls": [
+            "https://github.com/greatquestion/mcp",
+            "https://www.greatquestion.com/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "The pages disagree. Pricing says you need Enterprise rather than Self-serve when you need the Great Question MCP. The feature page says the MCP is included with Enterprise plans. The GitHub README prerequisites say a Great Question workspace on any plan.",
+          "source_urls": [
+            "https://www.greatquestion.com/pricing",
+            "https://www.greatquestion.com/features/mcp-integration",
+            "https://github.com/greatquestion/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "No free plan. Pricing says there is no free plan. Self-serve is $129 per seat per month, or $1,290 per seat per year, for up to 5 seats. A 14-day free trial does not require a credit card. Enterprise is custom and annual.",
+          "source_urls": [
+            "https://www.greatquestion.com/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "The changelog says every path uses OAuth 2.1 with PKCE. The feature page says OAuth 2.1. The GitHub README says \"Authentication is OAuth 2.0.\" Authorization-server metadata publishes registration_endpoint https://greatquestion.co/api/mcp/v1/oauth/register (DCR) and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
+          "source_urls": [
+            "https://greatquestion.co/support/releases-updates/changelog",
+            "https://www.greatquestion.com/features/mcp-integration",
+            "https://github.com/greatquestion/mcp",
+            "https://greatquestion.co/.well-known/oauth-authorization-server/api/mcp/v1"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The feature page names Claude, Claude Code, Cursor, ChatGPT, Gemini, and Copilot. The changelog names Claude Desktop, Claude Code, ChatGPT, Cursor, or any other MCP-compatible tool. The GitHub README also names Windsurf and Gemini CLI.",
+          "source_urls": [
+            "https://www.greatquestion.com/features/mcp-integration",
+            "https://greatquestion.co/support/releases-updates/changelog",
+            "https://github.com/greatquestion/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "The AI-moderation feature page describes surveys, interviews, and prototype tests. The changelog says AI-moderated interview participants respond via video. Pricing says Self-serve includes interviews with round-robin scheduling, surveys, and unmoderated prototype tests, and that AI-moderated interviews are an Enterprise add-on. It also says Zoom, Google Meet, and Microsoft Teams work for interviews.",
+          "source_urls": [
+            "https://www.greatquestion.com/features/ai-moderated-interviews",
+            "https://greatquestion.co/support/releases-updates/changelog",
+            "https://www.greatquestion.com/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "The pages disagree. The AI-moderated interviews page says English at launch, with more languages on the roadmap, and a table on that page says dozens of languages with instant localization coming soon. The changelog says AI-moderated interviews are available in English, French, German, Italian, Spanish, Russian, and Japanese, and a later entry adds Dutch and Simplified and Traditional Chinese to the participant language picker.",
+          "source_urls": [
+            "https://www.greatquestion.com/features/ai-moderated-interviews",
+            "https://greatquestion.co/support/releases-updates/changelog"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not documented as a ChatGPT app-directory listing. The GitHub README says to add a connector with the server URL under Settings, Connectors.",
+          "source_urls": [
+            "https://github.com/greatquestion/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "not documented as a Claude connector-directory listing. The feature page shows a Claude Code command that adds the server URL.",
+          "source_urls": [
+            "https://www.greatquestion.com/features/mcp-integration"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Maze",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://connect.maze.co/mcp.",
+          "source_urls": [
+            "https://help.maze.co/articles/8675970764-set-up-maze-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write, following the user's Maze role. The privacy article says the app can read research, and can create or edit studies when the user can do that in Maze. Nothing reaches participants until the study is published.",
+          "source_urls": [
+            "https://help.maze.co/articles/5736723999-maze-mcp-data-privacy"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Partly. The create-studies article says the MCP can create unmoderated studies and AI-moderated studies, and that moderated interview studies are not supported. Unmoderated studies can be published from the AI app or in Maze. The same article both says AI-moderated studies can be published from the AI app or in Maze, and says they cannot be edited or published from the AI app after creation and should be published in Maze. Recruiting from the Maze panel happens in Maze.",
+          "source_urls": [
+            "https://help.maze.co/articles/1040520478-create-studies-with-maze-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "Enterprise. The privacy article says Maze MCP is available on Enterprise plans. The create-studies article says creating studies via MCP is available on Enterprise plans. The pricing page marks the MCP server Available on Enterprise.",
+          "source_urls": [
+            "https://help.maze.co/articles/5736723999-maze-mcp-data-privacy",
+            "https://help.maze.co/articles/1040520478-create-studies-with-maze-mcp",
+            "https://maze.co/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "Yes, and the Free plan does not include MCP. Maze's UserTesting-alternatives page says Free is $0 per month, with 1 study per month, 5 seats, essential prototype testing, surveys, and pay-per-use panel credits. Enterprise is custom. The pricing page says Try Maze for free and marks MCP, AI-moderated interviews, and moderated interview studies as Enterprise.",
+          "source_urls": [
+            "https://maze.co/compare/usertesting-alternatives/",
+            "https://maze.co/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "The privacy article says authorization uses OAuth 2.1. The Microsoft Copilot setup says OAuth 2.0 and Dynamic discovery. Discovery from the MCP host redirects to authorization-server metadata that publishes registration_endpoint https://identity.maze.co/oauth2/register (DCR), PKCE S256, and client_id_metadata_document_supported true (CIMD).",
+          "source_urls": [
+            "https://help.maze.co/articles/5736723999-maze-mcp-data-privacy",
+            "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
+            "https://identity.maze.co/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The available-tools article says setup steps exist for Claude, ChatGPT, Cursor, GitHub Copilot, Claude Code, Codex, and Microsoft Copilot. The setup article documents Cursor, Gemini CLI, GitHub Copilot in VS Code, and Microsoft Copilot. The overview names Claude, Cursor, Copilot, and ChatGPT.",
+          "source_urls": [
+            "https://help.maze.co/articles/4404370008-maze-mcp-available-tools",
+            "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
+            "https://help.maze.co/articles/3603930517-maze-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "Via MCP: unmoderated studies (prototype tests on Figma, live website tests, surveys, and question blocks) and AI-moderated studies (a goal, context, questions, and optional images). Moderated interview studies exist in Maze and are not created via MCP. The AI-moderated studies article does not label those sessions as voice, video, or chat.",
+          "source_urls": [
+            "https://help.maze.co/articles/1040520478-create-studies-with-maze-mcp",
+            "https://help.maze.co/articles/9869812038-ai-moderated-studies"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "The AI-moderated studies article lists speaker and analysis languages: English (US), English (UK), Chinese (Mandarin, Simplified), Czech, Danish, Dutch, Finnish, French, German, Greek, Hungarian, Italian, Norwegian, Polish, Portuguese (European), Portuguese (Brazilian), Romanian, Russian, Spanish, and Swedish. That page does not give a single product-wide number.",
+          "source_urls": [
+            "https://help.maze.co/articles/9869812038-ai-moderated-studies"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not documented as a ChatGPT app-directory listing. The help articles describe adding the server URL.",
+          "source_urls": [
+            "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
+            "https://help.maze.co/articles/4404370008-maze-mcp-available-tools"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "not documented as a Claude connector-directory listing. The help articles describe adding the server URL or a Claude Code command.",
+          "source_urls": [
+            "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
+            "https://help.maze.co/articles/4404370008-maze-mcp-available-tools"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Koji",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://www.koji.so/api/mcp/mcp. Streamable HTTP.",
+          "source_urls": [
+            "https://www.koji.so/docs/mcp-setup-claude",
+            "https://www.koji.so/docs/building-with-ai"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. Building-with-AI lists read scopes for studies, interviews, and account, and write scopes for studies, reports, and respondents. Tools include create study, update brief, publish study, generate and publish reports, and import respondents. The consent screen separates reading from making changes.",
+          "source_urls": [
+            "https://www.koji.so/docs/building-with-ai",
+            "https://www.koji.so/docs/mcp-authentication-security"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Yes. koji_publish_study is described as publishing a study so it starts collecting interviews. The participant then opens Koji's interview link. Voice and text are both documented.",
+          "source_urls": [
+            "https://www.koji.so/docs/building-with-ai",
+            "https://www.koji.so/docs/setting-up-voice-interviews"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "Interviews or Enterprise. Building-with-AI says the MCP server is not included on Free or Insights, and that sign-in on another plan stops with the message that the MCP connector is not included in the plan. The upgrading page says the API, API keys, and the MCP connector are included on Interviews and Enterprise.",
+          "source_urls": [
+            "https://www.koji.so/docs/building-with-ai",
+            "https://www.koji.so/docs/upgrading-your-plan"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "Yes. Free is \u20ac0, with 10 one-time credits at sign-up and no card required, 1 active study, and 1 seat. The plan guide says a text interview costs 1 credit and a voice interview costs 3 credits, so 10 credits is ten text interviews or three voice interviews. The Free plan does not include the MCP server. Interviews is \u20ac79 per month or \u20ac790 per year.",
+          "source_urls": [
+            "https://www.koji.so/docs/plan-comparison-guide",
+            "https://www.koji.so/docs/upgrading-your-plan",
+            "https://www.koji.so/docs/building-with-ai"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "OAuth 2.1 with PKCE (S256) and Dynamic Client Registration (RFC 7591). The auth docs say the client registers at https://www.koji.so/oauth/register. Authorization-server metadata publishes that registration_endpoint. CIMD: not documented. The auth page does not mention it, and the metadata has no client_id_metadata_document_supported field.",
+          "source_urls": [
+            "https://www.koji.so/docs/mcp-authentication-security",
+            "https://www.koji.so/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The MCP overview names Claude Desktop, Claude.ai, Cursor, Windsurf, and any MCP-compatible client, and it links a Claude Code setup guide. The Claude setup page links a VS Code Copilot Chat guide at https://www.koji.so/docs/mcp-setup-vscode. Building with AI says: \"Pick your app (Claude, ChatGPT, Cursor or VS Code).\" ChatGPT is named on that page and is not named in the overview's client list. Both pages were checked on 2026-11-20.",
+          "source_urls": [
+            "https://www.koji.so/docs/mcp-overview",
+            "https://www.koji.so/docs/mcp-setup-claude",
+            "https://www.koji.so/docs/mcp-setup-vscode",
+            "https://www.koji.so/docs/building-with-ai"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "Voice, text, or both. When both are on, the landing page offers Start Voice Chat and Start Text Chat.",
+          "source_urls": [
+            "https://www.koji.so/docs/setting-up-voice-interviews",
+            "https://www.koji.so/docs/interview-landing-page"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "30+ languages, in voice and text. The multilingual guide lists English, Spanish, French, German, Portuguese, Portuguese (Brazil), Italian, Dutch, Japanese, Korean, Chinese, Hindi, Arabic, Russian, Turkish, Polish, Swedish, Danish, Norwegian, Finnish, Czech, Romanian, Hungarian, Greek, Indonesian, Vietnamese, Slovak, Ukrainian, Bulgarian, Croatian, Malay, Filipino, and Tamil.",
+          "source_urls": [
+            "https://www.koji.so/docs/multilingual-research-guide"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not documented. The MCP overview and the Claude setup page do not mention a ChatGPT directory listing.",
+          "source_urls": [
+            "https://www.koji.so/docs/mcp-overview",
+            "https://www.koji.so/docs/mcp-setup-claude"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "not documented as a directory listing. The Claude setup page says to add a custom MCP server with the Koji URL.",
+          "source_urls": [
+            "https://www.koji.so/docs/mcp-setup-claude"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Voicepanel",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://app.voicepanel.co/api/v1/mcp.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write for admins and editors. The MCP docs say admins and editors get all 33 tools and viewers get 18 read-only tools. The same page also says \"41 tools, grouped by what you are trying to do.\" A Voicepanel article says \"our MCP server has 41 tools.\" The assistant can design a study and publish link and intercept distributions. Publishing a panel recruit is not available over MCP.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp",
+            "https://www.voicepanel.com/articles/usertesting-alternatives"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Yes for a study shared by link or on-site intercept. The docs say the assistant can design research, launch it, and read results, and that link and intercept distributions publish through the connector. A panel recruit can be drafted, and the docs say panel publishing is not yet enabled over MCP.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "The pricing page lists REST API and MCP access on the Enterprise license, starting at $30,000 a year, and does not list MCP under pay-per-project, which starts at $5,000. The MCP docs say there is no separate charge and that connector access is included with the Voicepanel subscription. A Voicepanel article says the MCP server is on Enterprise.",
+          "source_urls": [
+            "https://www.voicepanel.com/pricing",
+            "https://www.voicepanel.com/docs/mcp",
+            "https://www.voicepanel.com/articles/usertesting-alternatives"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "No free tier is stated. Pay-per-project starts at $5,000. Enterprise starts at $30,000 a year. The pricing FAQ says an Enterprise evaluation can be arranged. It does not describe a free plan.",
+          "source_urls": [
+            "https://www.voicepanel.com/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "OAuth. The MCP docs say the server supports dynamic client registration, so there is no client id or secret to create first. Authorization-server metadata publishes registration_endpoint https://app.voicepanel.co/api/v1/oauth/register and PKCE S256. CIMD: not documented. The docs do not mention it, and the metadata has no client_id_metadata_document_supported field.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp",
+            "https://app.voicepanel.co/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The docs say Voicepanel tests against Claude, Claude Code, and ChatGPT. Any other client that supports remote MCP over HTTP with OAuth uses the server URL. Directory install is documented for Claude and ChatGPT.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "The study reference says respondents answer by voice, by text, or with taps and clicks, and that Voicepanel can record voice, webcam, and screen. An AI conversation step has response formats audio, audio_only, chat, and chat_only. An article says the AI interviewer works in voice, video, and chat.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/study-reference",
+            "https://www.voicepanel.com/articles/ai-customer-research"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "The pages disagree. The study reference says respondents take a study in any of 37 languages. The homepage FAQ says studies can run in any of 43 supported languages and lists them. Both were checked on 2026-11-20.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/study-reference",
+            "https://www.voicepanel.com/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "Listed. The MCP docs say Voicepanel has an official connector in the ChatGPT directory and tell you to install that listing rather than a custom connector.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "Listed. The MCP docs say Voicepanel has an official connector in the Claude directory and tell you to install that listing rather than a custom connector.",
+          "source_urls": [
+            "https://www.voicepanel.com/docs/mcp"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "CleverX",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://mcp.cleverx.com/mcp. A separate beta connector for launch and approve uses an address the guide says is shown in Settings, AI tools, Permissions. That second URL is not printed on the guide.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read, and write for drafts. The guide says the connector answers questions about research and drafts new studies. Launching or approving a study is a separate beta connector.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "Not with the main connector alone. Launch and approve is documented as a beta an Owner or Admin turns on. Each launch or approval asks for confirmation and uses credits and funds already in the account. Pricing says Pro or Enterprise is required to launch a study.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/",
+            "https://cleverx.com/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "A paid plan. The guide says you need a CleverX account on a paid plan, and that AI tools are included in paid plans. In a team, an Owner, Admin, or Researcher can connect. Observers cannot. Pricing says a study can be built for free, and Pro or Enterprise is required to launch it.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/",
+            "https://cleverx.com/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "A free account can build a study. It cannot launch one, and the guide says the MCP needs a paid plan. Pro is $149 per user per month. Enterprise is a custom annual plan. There is no free plan that includes the MCP.",
+          "source_urls": [
+            "https://cleverx.com/pricing/",
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "The guide says you sign in to CleverX and click Allow access. It does not name OAuth, DCR, or CIMD. Protected-resource metadata names authorization server https://voluntary-statue-12.authkit.app. That server's metadata publishes a registration_endpoint (DCR), PKCE S256, and client_id_metadata_document_supported true (CIMD).",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/",
+            "https://mcp.cleverx.com/.well-known/oauth-protected-resource",
+            "https://voluntary-statue-12.authkit.app/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The guide names Claude (web, desktop, or mobile), Claude Code, ChatGPT as a custom MCP server, and Cursor.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "Pricing lists six methods: survey, AI-moderated interview, human-moderated interview, website test, prototype test, and video answers. It says the AI interviewer talks by voice, and that human-moderated interviews are hosted on built-in video.",
+          "source_urls": [
+            "https://cleverx.com/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "Pricing says the AI interviewer talks to people by voice in 15 languages. The page does not list the 15.",
+          "source_urls": [
+            "https://cleverx.com/pricing/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not listed. The guide says CleverX is coming to the ChatGPT plugin directory, and that until it is listed you connect a custom MCP server.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "Listed. The guide says to open Customize, Connectors, search for CleverX, and click Connect. On a Claude Team or Enterprise plan, an owner may need to enable it first.",
+          "source_urls": [
+            "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    },
+    {
+      "vendor": "Usercall",
+      "fields": {
+        "endpoint_url": {
+          "value": "https://mcp.usercall.co. The API docs say https://app.usercall.co/docs/mcp opens the same page. A local stdio package, @usercall/mcp, is also documented and uses an API key.",
+          "source_urls": [
+            "https://app.usercall.co/docs/api",
+            "https://github.com/junetic/usercall-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "read_vs_write": {
+          "value": "Read and write. The hosted connector exposes 17 tools. Documented writes include create, update, and delete study, review study, and create, update, and delete research triggers. Reads include study status and results. The docs say there is no share tool and no tool that activates a trigger.",
+          "source_urls": [
+            "https://app.usercall.co/docs/api"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "can_run_live_interviews": {
+          "value": "It can create an AI-moderated interview study and return an interview link, and it can run a simulation, capped at five simulations per account per UTC day. It cannot send the link or activate a research trigger. The API docs say a person shares interview_link or opens the activation URL, and that a real participant is not sent the link until a simulation or review.",
+          "source_urls": [
+            "https://app.usercall.co/docs/api"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "plan_required_for_mcp": {
+          "value": "Named plan required to connect the MCP: not documented. The API docs say open agent studies follow the account plan limit, default 5, and that creating a study reserves 10 credits per interview. Short credits return HTTP 402 with a checkout URL.",
+          "source_urls": [
+            "https://app.usercall.co/docs/api"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "free_tier": {
+          "value": "No priced free plan with a monthly allowance. The pricing page says you can sign up and launch the first interview or analysis free, with no demo or sales call. Paid plans start at Lite, $89 per month or $899 yearly, with 100 credits a month.",
+          "source_urls": [
+            "https://www.usercall.co/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "auth": {
+          "value": "The API docs say the hosted connector uses OAuth and no API key. Machine clients use a personal API key instead. Authorization-server metadata publishes registration_endpoint https://mcp.usercall.co/register (DCR), PKCE S256, and client_id_metadata_document_supported true (CIMD).",
+          "source_urls": [
+            "https://app.usercall.co/docs/api",
+            "https://mcp.usercall.co/.well-known/oauth-authorization-server"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "documented_clients": {
+          "value": "The API docs say to add the hosted URL in Claude, ChatGPT, Codex, or Cursor. The usercall-mcp repository, which documents the @usercall/mcp package and the same hosted URL, also names Grok Bot for the hosted connector and says Grok Bot cannot run the local package.",
+          "source_urls": [
+            "https://app.usercall.co/docs/api",
+            "https://github.com/junetic/usercall-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_modes": {
+          "value": "The API accepts interview_mode voice (the default), text, or voice_and_text. The pricing page describes AI-moderated voice interviews. The API also accepts study media of type image or prototype for web participants.",
+          "source_urls": [
+            "https://app.usercall.co/docs/api",
+            "https://www.usercall.co/pricing"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "interview_languages_claimed": {
+          "value": "The pricing page and the company-information page say 50+ languages, on every plan. The API lists 25 locale codes it accepts: en-US, en-GB, en-AU, en-IN, hi-IN, ta-IN, mr-IN, kn-IN, ur-IN, pt-BR, es-ES, es-419, fr-FR, de-DE, zh-CN, ja-JP, it-IT, th-TH, ms-MY, vi-VN, id-ID, ar-SA, ko-KR, sv-SE, and ru-RU. Both were checked on 2026-11-20.",
+          "source_urls": [
+            "https://www.usercall.co/pricing",
+            "https://www.usercall.co/official-usercall-company-information",
+            "https://app.usercall.co/docs/api"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "chatgpt_directory": {
+          "value": "not documented as a ChatGPT app-directory listing. The integrations page links a ChatGPT plugin. The API docs say to add the URL yourself. The usercall-mcp repository says its ChatGPT plugin package should not be uploaded unless someone asks.",
+          "source_urls": [
+            "https://www.usercall.co/integrations",
+            "https://app.usercall.co/docs/api",
+            "https://github.com/junetic/usercall-mcp"
+          ],
+          "checked_on": "2026-11-20"
+        },
+        "claude_directory": {
+          "value": "not documented as a Claude connector-directory listing. The integrations page links a Claude plugin. The API docs say to add the URL in Claude.",
+          "source_urls": [
+            "https://www.usercall.co/integrations",
+            "https://app.usercall.co/docs/api"
+          ],
+          "checked_on": "2026-11-20"
+        }
+      }
+    }
+  ],
+  "cells_marked_not_documented": [
+    {
+      "vendor": "Listen Labs",
+      "field": "auth",
+      "field_label": "Auth (OAuth / DCR / CIMD)",
+      "value": "OAuth. Troubleshooting docs say OAuth 2.1 with dynamic client registration. Authorization-server metadata publishes registration_endpoint https://mcp.listenlabs.ai/register and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
+      "source_urls": [
+        "https://docs.listenlabs.com/mcp-docs/troubleshooting",
+        "https://listenlabs.ai/.well-known/oauth-authorization-server"
+      ]
+    },
+    {
+      "vendor": "Outset",
+      "field": "plan_required_for_mcp",
+      "field_label": "Plan required to use the MCP",
+      "value": "Named plan required for the MCP: not documented. The help article says that on a Team or Enterprise plan a workspace admin adds the connector, and that Enterprise customers likely need an admin to approve it first. It does not say other plans are excluded.",
+      "source_urls": [
+        "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+      ]
+    },
+    {
+      "vendor": "Outset",
+      "field": "chatgpt_directory",
+      "field_label": "ChatGPT app directory",
+      "value": "not documented as a ChatGPT directory listing. The help article documents a custom connector and says that if Outset is not in a platform's connector marketplace, you add it by URL. Its example of an official marketplace connector is Claude.",
+      "source_urls": [
+        "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+      ]
+    },
+    {
+      "vendor": "Strella",
+      "field": "can_run_live_interviews",
+      "field_label": "Can it run live interviews",
+      "value": "Creating a project, questions, and screeners, and drafting a recruitment order, are documented. Publishing a study or starting a live interview from the MCP is not documented on the MCP page. The product quickstart says Publish, in the Strella app, opens the study to participants.",
+      "source_urls": [
+        "https://app.strella.io/docs/product/mcp",
+        "https://app.strella.io/docs/product/get-started/quickstart"
+      ]
+    },
+    {
+      "vendor": "Strella",
+      "field": "plan_required_for_mcp",
+      "field_label": "Plan required to use the MCP",
+      "value": "Named Strella plan required for the MCP: not documented. The announcement says the connector is open to current Strella customers. The connect page does not name a Strella plan. It does say ChatGPT's own plan must be Pro, Plus, Business, or Education.",
+      "source_urls": [
+        "https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector",
+        "https://app.strella.io/docs/product/mcp/connect"
+      ]
+    },
+    {
+      "vendor": "Strella",
+      "field": "interview_modes",
+      "field_label": "Interview modes",
+      "value": "The languages page describes an AI moderator, voice (availability varies by language), and call screens. The quickstart describes watching the call and its recording. Video, chat, or other modes: not documented on those pages.",
+      "source_urls": [
+        "https://app.strella.io/docs/product/reference/languages",
+        "https://app.strella.io/docs/product/get-started/quickstart"
+      ]
+    },
+    {
+      "vendor": "Dovetail",
+      "field": "interview_modes",
+      "field_label": "Interview modes",
+      "value": "Dovetail does not document conducting interviews. The projects page says projects are where teams analyze uploaded recordings of interviews, usability tests, sales calls, and surveys. Interview modes conducted by Dovetail: not documented on the MCP or projects pages checked.",
+      "source_urls": [
+        "https://docs.dovetail.com/help/projects",
+        "https://developers.dovetail.com/docs/mcp"
+      ]
+    },
+    {
+      "vendor": "Dovetail",
+      "field": "interview_languages_claimed",
+      "field_label": "Interview languages claimed",
+      "value": "A list of languages for interviews Dovetail conducts is not documented. Dovetail's pages describe analyzing uploaded recordings rather than running those interviews. The pricing page says transcription of calls and recordings works \"in any language\", and that summaries can be in the team's language.",
+      "source_urls": [
+        "https://developers.dovetail.com/docs/mcp",
+        "https://docs.dovetail.com/help/projects",
+        "https://dovetail.com/pricing/"
+      ]
+    },
+    {
+      "vendor": "Great Question",
+      "field": "auth",
+      "field_label": "Auth (OAuth / DCR / CIMD)",
+      "value": "The changelog says every path uses OAuth 2.1 with PKCE. The feature page says OAuth 2.1. The GitHub README says \"Authentication is OAuth 2.0.\" Authorization-server metadata publishes registration_endpoint https://greatquestion.co/api/mcp/v1/oauth/register (DCR) and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
+      "source_urls": [
+        "https://greatquestion.co/support/releases-updates/changelog",
+        "https://www.greatquestion.com/features/mcp-integration",
+        "https://github.com/greatquestion/mcp",
+        "https://greatquestion.co/.well-known/oauth-authorization-server/api/mcp/v1"
+      ]
+    },
+    {
+      "vendor": "Great Question",
+      "field": "chatgpt_directory",
+      "field_label": "ChatGPT app directory",
+      "value": "not documented as a ChatGPT app-directory listing. The GitHub README says to add a connector with the server URL under Settings, Connectors.",
+      "source_urls": [
+        "https://github.com/greatquestion/mcp"
+      ]
+    },
+    {
+      "vendor": "Great Question",
+      "field": "claude_directory",
+      "field_label": "Claude connectors directory",
+      "value": "not documented as a Claude connector-directory listing. The feature page shows a Claude Code command that adds the server URL.",
+      "source_urls": [
+        "https://www.greatquestion.com/features/mcp-integration"
+      ]
+    },
+    {
+      "vendor": "Maze",
+      "field": "chatgpt_directory",
+      "field_label": "ChatGPT app directory",
+      "value": "not documented as a ChatGPT app-directory listing. The help articles describe adding the server URL.",
+      "source_urls": [
+        "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
+        "https://help.maze.co/articles/4404370008-maze-mcp-available-tools"
+      ]
+    },
+    {
+      "vendor": "Maze",
+      "field": "claude_directory",
+      "field_label": "Claude connectors directory",
+      "value": "not documented as a Claude connector-directory listing. The help articles describe adding the server URL or a Claude Code command.",
+      "source_urls": [
+        "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
+        "https://help.maze.co/articles/4404370008-maze-mcp-available-tools"
+      ]
+    },
+    {
+      "vendor": "Koji",
+      "field": "auth",
+      "field_label": "Auth (OAuth / DCR / CIMD)",
+      "value": "OAuth 2.1 with PKCE (S256) and Dynamic Client Registration (RFC 7591). The auth docs say the client registers at https://www.koji.so/oauth/register. Authorization-server metadata publishes that registration_endpoint. CIMD: not documented. The auth page does not mention it, and the metadata has no client_id_metadata_document_supported field.",
+      "source_urls": [
+        "https://www.koji.so/docs/mcp-authentication-security",
+        "https://www.koji.so/.well-known/oauth-authorization-server"
+      ]
+    },
+    {
+      "vendor": "Koji",
+      "field": "chatgpt_directory",
+      "field_label": "ChatGPT app directory",
+      "value": "not documented. The MCP overview and the Claude setup page do not mention a ChatGPT directory listing.",
+      "source_urls": [
+        "https://www.koji.so/docs/mcp-overview",
+        "https://www.koji.so/docs/mcp-setup-claude"
+      ]
+    },
+    {
+      "vendor": "Koji",
+      "field": "claude_directory",
+      "field_label": "Claude connectors directory",
+      "value": "not documented as a directory listing. The Claude setup page says to add a custom MCP server with the Koji URL.",
+      "source_urls": [
+        "https://www.koji.so/docs/mcp-setup-claude"
+      ]
+    },
+    {
+      "vendor": "Voicepanel",
+      "field": "auth",
+      "field_label": "Auth (OAuth / DCR / CIMD)",
+      "value": "OAuth. The MCP docs say the server supports dynamic client registration, so there is no client id or secret to create first. Authorization-server metadata publishes registration_endpoint https://app.voicepanel.co/api/v1/oauth/register and PKCE S256. CIMD: not documented. The docs do not mention it, and the metadata has no client_id_metadata_document_supported field.",
+      "source_urls": [
+        "https://www.voicepanel.com/docs/mcp",
+        "https://app.voicepanel.co/.well-known/oauth-authorization-server"
+      ]
+    },
+    {
+      "vendor": "Usercall",
+      "field": "plan_required_for_mcp",
+      "field_label": "Plan required to use the MCP",
+      "value": "Named plan required to connect the MCP: not documented. The API docs say open agent studies follow the account plan limit, default 5, and that creating a study reserves 10 credits per interview. Short credits return HTTP 402 with a checkout URL.",
+      "source_urls": [
+        "https://app.usercall.co/docs/api"
+      ]
+    },
+    {
+      "vendor": "Usercall",
+      "field": "chatgpt_directory",
+      "field_label": "ChatGPT app directory",
+      "value": "not documented as a ChatGPT app-directory listing. The integrations page links a ChatGPT plugin. The API docs say to add the URL yourself. The usercall-mcp repository says its ChatGPT plugin package should not be uploaded unless someone asks.",
+      "source_urls": [
+        "https://www.usercall.co/integrations",
+        "https://app.usercall.co/docs/api",
+        "https://github.com/junetic/usercall-mcp"
+      ]
+    },
+    {
+      "vendor": "Usercall",
+      "field": "claude_directory",
+      "field_label": "Claude connectors directory",
+      "value": "not documented as a Claude connector-directory listing. The integrations page links a Claude plugin. The API docs say to add the URL in Claude.",
+      "source_urls": [
+        "https://www.usercall.co/integrations",
+        "https://app.usercall.co/docs/api"
+      ]
+    }
+  ]
+}

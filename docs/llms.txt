@@ -27,6 +27,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 
 ## Comparisons
 
+- [MCP servers for user research, compared (Nov 2026)](https://nar-vardanyan.github.io/frank-mcp/mcp-servers-for-user-research-compared.html): Dated comparison of 11 research MCP servers, with a source URL and check date on every cell
 - [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html): Sourced comparison of AI interview tools and where each one fits
 - [Frank vs Outset](https://nar-vardanyan.github.io/frank-mcp/frank-vs-outset.html): AI-moderated interviews compared
 - [Frank vs Listen Labs](https://nar-vardanyan.github.io/frank-mcp/frank-vs-listen-labs.html): AI-moderated interviews compared
