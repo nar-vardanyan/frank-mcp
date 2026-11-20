@@ -20,7 +20,7 @@ metadata:
 
 # Customer interviews
 
-Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. It supports 50+ interview languages and is SOC 2 Type II and GDPR compliant, and it can run hundreds of interviews overnight. MCP is on every plan, including Free.
+Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. It supports 50+ interview languages and is SOC 2 Type II and GDPR compliant. MCP is on every plan, including Free.
 
 Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -38,15 +38,15 @@ Write this before any questions or tool calls. If the decision or the audience i
 - **Audience.** Who, how recent (for example, cancelled in the last 30 days), and how the user will reach them (email, in-app message, cancellation page, billing list). A target count is how many people the user plans to invite. It is not a panel Frank will find.
 - **Hypotheses.** Two to four statements the interviews could challenge, about past behavior. Keep them out of the questions. Hypothesis: "Imports fail and people leave." Question: "Walk me through the last time you tried to get your data in."
 
-Pick `researchType` when you create the study:
+Pick `researchType` when you create the study. `list_researches` and `get_research` return that value as `type`, which is null when none was set.
 
 | Situation | `researchType` |
 | --- | --- |
-| Churn, renewal, downgrade, pricing of current customers, PMF follow-up | `retention_growth` |
-| Onboarding, setup, feature use, in-product friction | `product_experience` |
+| Churn, renewal, downgrade, trial non-conversion, pricing of current customers, PMF follow-up | `retention_growth` |
+| Onboarding, setup, checkout abandon, feature use, in-product friction | `product_experience` |
 | Win/loss, why they bought, a job they already do | `discovery` |
 
-Leave `researchType` unset when none of these fits.
+Trial non-conversion maps to `retention_growth`. Checkout abandon maps to `product_experience`. Either of those can be left unset. Leave `researchType` unset when none of the rows fits.
 
 ## 2. Write the guide
 
@@ -60,7 +60,7 @@ Shape:
 - For each question, a probe the interviewer uses when the answer is thin: what happened next, what they tried, who else decided. Probes stay non-leading.
 - A short close that thanks them and does not pitch.
 
-On the Free plan, interviews are up to 10 minutes (60 voice minutes a month). Paid plans allow longer interviews, including 20 or 30 minutes. Check https://www.hifrank.ai/pricing before you promise a length. Write the guide so a participant can finish inside the plan they are on.
+On the Free plan, interviews are up to 10 minutes (60 voice minutes a month). Paid plans allow longer interviews, including 20 or 30 minutes. Check https://www.hifrank.ai/pricing before you promise a length. Write the guide so a participant can finish inside the plan they are on. When you store that length, `duration` on `edit_research`, `publish_research`, and `get_research` is in minutes. Completed interviews are different: `list_interviews` and `get_interview` return `duration` in seconds. Convert those seconds before you report a length.
 
 Show the plan and the full guide in the chat. Wait for the user to confirm the goal and the questions before you create anything in Frank.
 
@@ -85,32 +85,32 @@ Use these tools by these names. Do not invent tools. A refusal that names a miss
 ### Create a draft
 
 1. `list_products`. A study can be attached to a product. Call `create_product` when nothing suitable exists. Required: `name`, `description`, `category`. Category is one of `saas_software`, `mobile_app`, `apparel_accessories`, `beauty_personal_care`, `home_living`, `electronics_consumer_tech`, `sports_outdoor`, `toys_hobbies`, `food_beverages`, `health_wellness`, `pet_products`, `automotive_accessories`, `office_stationery`, `online_services`, `offline_services`, `other`. Optional: `brief`, `urls`.
-2. `create_research`. Required: `name`, `description`, `goals` (one string per goal), `topics`. Each topic has `name` and `questions`. Each question has `text`. Set `followUpDepth` to `1-2 follow-ups` or `2-3 follow-ups`. Set `botTypes` to `["audio"]`. Put the spoken welcome in `greetingMessage.audio`. Set `researchType` from the table above. `create_research` does not take a product id, and it does not take `language` or `duration`. The study is a draft. No participant can open it yet.
+2. `create_research`. Required: `name`, `description`, `goals` (one string per goal), `topics`. Each topic has `name` and `questions`. Each question has `text`. Set `followUpDepth` to `none`, `1-2 follow-ups`, or `2-3 follow-ups`. Those are the spellings `edit_research` accepts. `create_research` will take other strings, but do not send the legacy shorthand `1-2` or `2-3`, and do not copy that shorthand into `edit_research` later. Optionally set `probing` (a string) on a question here. Set `followUpGuidelines` afterward with `edit_research`, once `get_research` has returned question ids. Set `botTypes` to `["audio"]`. Put the spoken welcome in `greetingMessage.audio`. Set `researchType` from the table above. `create_research` does not take a product id, and it does not take `language` or `duration`. Duration on `edit_research`, `publish_research`, and `get_research` is in minutes. The study is a draft. No participant can open it yet.
 3. `link_product` with `researchId` and `productId` when a product should be attached.
-4. `get_research` with `researchId`. Read it back. Use the topic and question ids for edits.
+4. `get_research` with `researchId`. Read it back. Use the topic and question ids for edits. `duration` here is in minutes (`5` means five minutes). The study type comes back as `type`, which may be null. If a question's `followUpDepth` is the legacy shorthand `1-2` or `2-3`, rewrite it to `1-2 follow-ups` or `2-3 follow-ups` before any `edit_research` call. Do not copy `1-2` or `2-3` through.
 
 ### Set length, language, and probes
 
 `edit_research` changes an existing study. Pass `researchId` and the fields you want to change.
 
-- `duration`: `5`, `10`, `15`, `20`, or `30` (minutes). On the Free plan, stay at 5 or 10.
+- `duration` is in minutes: `5`, `10`, `15`, `20`, or `30`. On the Free plan, stay at 5 or 10. This is the study length. It is not the `duration` on `list_interviews` or `get_interview`, which is in seconds.
 - `language`: `zh`, `en`, `fr`, `de`, `it`, `ja`, `ko`, `pt`, `es`, or `multi`. Frank supports 50+ interview languages. These are the codes this tool accepts. Changing `language` does not translate the guide. Write the questions in the language participants will hear. For several languages, pass `multi`, or create one study per code so each guide is written in that language. Ask the user to have a native speaker check wording before publish.
 - `welcomeMessage` and `closingMessage`: what the interviewer says at the start and at the end. Match `welcomeMessage` to `greetingMessage.audio`.
-- `changes`: an ordered list of `add_topic`, `rename_topic`, `move_topic`, `remove_topic`, `add_question`, `edit_question`, `move_question`, `remove_question`. A new topic in the same call cannot be referenced by id; give it `questions` directly. On `add_question` and `edit_question`, set `followUpDepth` and `followUpGuidelines` (how to probe, without suggesting the answer). `followUpGuidelines` needs a depth other than `none`.
+- `changes`: an ordered list of `add_topic`, `rename_topic`, `move_topic`, `remove_topic`, `add_question`, `edit_question`, `move_question`, `remove_question`. A new topic in the same call cannot be referenced by id; give it `questions` directly. On `add_question` and `edit_question`, set `followUpDepth` to `none`, `1-2 follow-ups`, or `2-3 follow-ups`, and set `followUpGuidelines` (how to probe, without suggesting the answer). `followUpGuidelines` needs a depth other than `none`. Never send the legacy shorthand `1-2` or `2-3`.
 
 On a live study, an edit reaches the next participant and there is no undo. Confirm the exact change with the user before you call `edit_research`. Call it because the user asked, in their own words.
 
 ### Publish the voice interview
 
-`publish_research` makes the study live and starts spending credits. It is not reversible from this tool. Call it when the user has asked, in their own words, for this study to go live. Show them the name, the language, and the duration, and wait for that yes.
+`publish_research` makes the study live and starts spending credits. It is not reversible from this tool. Call it when the user has asked, in their own words, for this study to go live. Show them the name, the language, and the duration in minutes, and wait for that yes.
 
-Required: `researchId`, `language` (same codes as above). Optional: `duration` (the same number you set with `edit_research`), `persona` (`olivia` or `frank`; omit unless the user asks). The result is the interviewer link. `list_researches` also returns that link once the study is published.
+Required: `researchId`, `language` (same codes as above). Optional: `duration` in minutes, the same value you set with `edit_research` (5, 10, 15, 20, or 30). `publish_research` accepts any integer of at least 1; still pass that minute value. Optional `persona` is `olivia` or `frank`; omit it unless the user asks. The result is the interviewer link. `list_researches` also returns that link once the study is published. `get_research` after publish still reports `duration` in minutes.
 
 Ask the user to take the interview once before they invite customers.
 
 ### Share a link or a widget
 
-Frank does not recruit participants. Draft a short invite the user can send: who it is for, that it is a voice conversation of about N minutes, and that it is not a sales call. The user sends it from their own email, product, or cancellation flow.
+Frank does not recruit participants. Draft a short invite the user can send: who it is for, that it is a voice conversation of about N minutes, and that it is not a sales call. N is the study `duration` in minutes, not the seconds field on a completed interview. The user sends the invite from their own email, product, or cancellation flow.
 
 For a website widget on a study:
 
@@ -120,8 +120,10 @@ For a website widget on a study:
 
 ### Pull transcripts and summarize themes
 
-1. `list_interviews` with `researchId`. It returns status and completion, not the words.
-2. `get_interview` with `interviewId`, one interview at a time. Read the transcript.
+1. `list_interviews` with `researchId`. It returns status and completion, not the words. Its `duration` is in seconds.
+2. `get_interview` with `interviewId`, one interview at a time. Read the transcript. Its `duration` is in seconds too.
+
+Duration units: `edit_research`, `publish_research`, and `get_research` use `duration` in minutes (`edit_research` allows 5, 10, 15, 20, or 30). `list_interviews` and `get_interview` use `duration` in seconds. A value of 193 is about 3 minutes 13 seconds, not 193 minutes. Convert seconds to minutes and seconds before you report how long an interview ran.
 
 There is no themes tool. Write the summary from transcripts you fetched:
 
