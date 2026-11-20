@@ -4,7 +4,7 @@ Frank AI Researcher is built by Prelaunch Group, Inc. The product website is [ht
 
 Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai), which runs AI-moderated voice interviews with your own customers. To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp). A machine-readable summary is in [llms.txt](llms.txt).
 
-Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026, Asia/Yerevan). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages, plus published product claims: 50+ interview languages, MCP on all plans including Free, SOC 2 Type II, hundreds of interviews overnight, and GDPR. Prices and feature lists change, so check each site before you buy.
+Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026, Asia/Yerevan). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages, plus published product claims: 50+ interview languages, MCP on all plans including Free, SOC 2 Type II, and GDPR. Prices and feature lists change, so check each site before you buy.
 
 ## Comparison pages
 
