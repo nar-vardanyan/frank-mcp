@@ -3,7 +3,7 @@
   "title": "MCP servers for user research, compared (Nov 2026)",
   "checked_on": "2026-11-20",
   "next_recheck": "2026-12-20",
-  "method": "Vendor public pages opened on 2026-11-20, plus OAuth metadata where docs did not state DCR or CIMD. Cells that could not be sourced say not documented.",
+  "method": "Last verified 2026-11-20. Vendor public pages opened on 2026-11-20, plus OAuth metadata where docs did not state DCR or CIMD. Cells that could not be sourced say not documented.",
   "vendors": [
     {
       "vendor": "Frank",
@@ -53,16 +53,17 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "Tested: ChatGPT, Claude, Grok, Instinct, and Muse, plus other MCP clients that support remote servers with OAuth. Codex is not in the tested list. Cursor and Gemini CLI can't connect (they require DCR).",
+          "value": "Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Codex is not in the tested list. Cursor and Gemini CLI can't connect (they require DCR).",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
           ],
           "checked_on": "2026-11-20"
         },
         "interview_modes": {
-          "value": "Voice. The README says video, WhatsApp, and chat interviews are coming soon. They are not listed here as available.",
+          "value": "Voice is the mode treated as available. The README says video, WhatsApp, and chat interviews are Coming soon. That is the product rule used here, so those modes are not listed as available. The pricing page, opened the same day, says \"Frank supports voice interviews, video interviews, WhatsApp chat, and web chat.\" Those two pages disagree.",
           "source_urls": [
-            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
+            "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md",
+            "https://www.hifrank.ai/pricing"
           ],
           "checked_on": "2026-11-20"
         },
@@ -201,9 +202,10 @@
           "checked_on": "2026-11-20"
         },
         "can_run_live_interviews": {
-          "value": "Yes, as launching a study on Outset. The help article says you can create and launch a study from the AI platform, including recruitment by a third-party panel or self-recruit, and publish when ready. Launching is a separate permission.",
+          "value": "Yes, as launching a study on Outset. The help article says you can create and launch a study from the AI platform, including recruitment by a third-party panel or self-recruit, and publish when ready. Authorization-server metadata lists studies:launch as its own scope, alongside studies:read and studies:write.",
           "source_urls": [
-            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
+            "https://help.outset.ai/articles/2997399296-using-outset-s-mcp",
+            "https://api.outset.ai/.well-known/oauth-authorization-server"
           ],
           "checked_on": "2026-11-20"
         },
@@ -393,16 +395,17 @@
           "checked_on": "2026-11-20"
         },
         "free_tier": {
-          "value": "The pages do not all say the same thing. On the Dovetail One pricing page, the Bronze card says \"5 users\" and \"Coming soon\", and it states \"$4,800 a year for the platform, plus credits at 15c each\". An FAQ on that page says Bronze is $4,800 a year for the platform and 5 users, paid by card. The same page shows MCP on Bronze, Silver, and Gold, and it offers a free 30-day trial of Gold (\"Start a free 30-day trial of Dovetail One Gold\"). It does not use the words \"no free plan\". A Dovetail article says \"There is no free plan\" and that Gold includes a 30-day free trial. Help still describes a Free plan limited to one project, one channel, and one dashboard.",
+          "value": "The pages do not all say the same thing. On the Dovetail One pricing page, the Bronze card says \"5 users\" and \"Coming soon\", and it states \"$4,800 a year for the platform, plus credits at 15c each\". An FAQ on that page says Bronze is $4,800 a year for the platform and 5 users, paid by card. The same page shows MCP on Bronze, Silver, and Gold, and it offers a free 30-day trial of Gold (\"Start a free 30-day trial of Dovetail One Gold\"). It does not use the words \"no free plan\". A Dovetail article says \"There is no free plan\" and that Gold includes a 30-day free trial. Help at https://docs.dovetail.com/help/purchase-a-paid-plan, which currently opens the Dovetail One plans page, says: \"We no longer offer a Free plan. Workspaces already on the Free plan can keep using it.\" It does not describe a current Free plan limited to one project, one channel, and one dashboard.",
           "source_urls": [
             "https://dovetail.com/pricing/",
             "https://dovetail.com/customer-research/what-is-a-customer-context-layer/",
-            "https://docs.dovetail.com/help/purchase-a-paid-plan"
+            "https://docs.dovetail.com/help/purchase-a-paid-plan",
+            "https://docs.dovetail.com/help/dovetail-one-plans"
           ],
           "checked_on": "2026-11-20"
         },
         "auth": {
-          "value": "OAuth 2.1 or a Bearer API token. The developer docs say the hosted endpoint does not support dynamic client registration (DCR) or Client ID Metadata Documents (CIMD). Enterprise customers can ask Dovetail to register an OAuth client. Authorization-server metadata has no registration_endpoint and no client_id_metadata_document_supported field.",
+          "value": "OAuth 2.1 or a Bearer API token. The developer docs say the hosted endpoint does not support OAuth 2.0 Dynamic Client Registration (DCR) or Client-Initiated Metadata Discovery (CIMD). Other servers in this index use CIMD for Client ID Metadata Documents. Dovetail's page uses Client-Initiated Metadata Discovery. Enterprise customers can ask Dovetail to register an OAuth client. Authorization-server metadata has no registration_endpoint and no client_id_metadata_document_supported field.",
           "source_urls": [
             "https://developers.dovetail.com/docs/mcp",
             "https://auth.dovetail.com/.well-known/oauth-authorization-server"
@@ -497,10 +500,11 @@
           "checked_on": "2026-11-20"
         },
         "auth": {
-          "value": "The changelog says every path uses OAuth 2.1 with PKCE. The feature page says OAuth 2.1. Authorization-server metadata publishes registration_endpoint https://greatquestion.co/api/mcp/v1/oauth/register (DCR) and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
+          "value": "The changelog says every path uses OAuth 2.1 with PKCE. The feature page says OAuth 2.1. The GitHub README says \"Authentication is OAuth 2.0.\" Authorization-server metadata publishes registration_endpoint https://greatquestion.co/api/mcp/v1/oauth/register (DCR) and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
           "source_urls": [
             "https://greatquestion.co/support/releases-updates/changelog",
             "https://www.greatquestion.com/features/mcp-integration",
+            "https://github.com/greatquestion/mcp",
             "https://greatquestion.co/.well-known/oauth-authorization-server/api/mcp/v1"
           ],
           "checked_on": "2026-11-20"
@@ -692,9 +696,12 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The MCP overview names Claude, Cursor, Windsurf, and any AI assistant that supports MCP. Docs linked from that section also cover Claude Code and VS Code with Copilot Chat. ChatGPT is not named on the overview page.",
+          "value": "The MCP overview names Claude Desktop, Claude.ai, Cursor, Windsurf, and any MCP-compatible client, and it links a Claude Code setup guide. The Claude setup page links a VS Code Copilot Chat guide at https://www.koji.so/docs/mcp-setup-vscode. Building with AI says: \"Pick your app (Claude, ChatGPT, Cursor or VS Code).\" ChatGPT is named on that page and is not named in the overview's client list. Both pages were checked on 2026-11-20.",
           "source_urls": [
-            "https://www.koji.so/docs/mcp-overview"
+            "https://www.koji.so/docs/mcp-overview",
+            "https://www.koji.so/docs/mcp-setup-claude",
+            "https://www.koji.so/docs/mcp-setup-vscode",
+            "https://www.koji.so/docs/building-with-ai"
           ],
           "checked_on": "2026-11-20"
         },
@@ -741,9 +748,10 @@
           "checked_on": "2026-11-20"
         },
         "read_vs_write": {
-          "value": "Read and write for admins and editors, who get all 33 tools. Viewers get 18 read-only tools. The docs say the assistant can design a study and publish link and intercept distributions. Publishing a panel recruit is not available over MCP.",
+          "value": "Read and write for admins and editors. The MCP docs say admins and editors get all 33 tools and viewers get 18 read-only tools. The same page also says \"41 tools, grouped by what you are trying to do.\" A Voicepanel article says \"our MCP server has 41 tools.\" The assistant can design a study and publish link and intercept distributions. Publishing a panel recruit is not available over MCP.",
           "source_urls": [
-            "https://www.voicepanel.com/docs/mcp"
+            "https://www.voicepanel.com/docs/mcp",
+            "https://www.voicepanel.com/articles/usertesting-alternatives"
           ],
           "checked_on": "2026-11-20"
         },
@@ -1080,10 +1088,11 @@
       "vendor": "Great Question",
       "field": "auth",
       "field_label": "Auth (OAuth / DCR / CIMD)",
-      "value": "The changelog says every path uses OAuth 2.1 with PKCE. The feature page says OAuth 2.1. Authorization-server metadata publishes registration_endpoint https://greatquestion.co/api/mcp/v1/oauth/register (DCR) and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
+      "value": "The changelog says every path uses OAuth 2.1 with PKCE. The feature page says OAuth 2.1. The GitHub README says \"Authentication is OAuth 2.0.\" Authorization-server metadata publishes registration_endpoint https://greatquestion.co/api/mcp/v1/oauth/register (DCR) and PKCE S256. CIMD: not documented. That metadata has no client_id_metadata_document_supported field.",
       "source_urls": [
         "https://greatquestion.co/support/releases-updates/changelog",
         "https://www.greatquestion.com/features/mcp-integration",
+        "https://github.com/greatquestion/mcp",
         "https://greatquestion.co/.well-known/oauth-authorization-server/api/mcp/v1"
       ]
     },
