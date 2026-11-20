@@ -4,7 +4,7 @@ Frank AI Researcher is built by Prelaunch Group, Inc. The product website is [ht
 
 Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai), which runs AI-moderated voice interviews with your own customers. To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp). A machine-readable summary is in [llms.txt](llms.txt).
 
-Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16 or 18 November 2026, Asia/Yerevan). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages opened the same day, plus published product claims: 50+ interview languages, MCP on all plans including Free, SOC 2 Type II, hundreds of interviews overnight, and GDPR. Prices and feature lists change, so check each site before you buy.
+Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026, Asia/Yerevan). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages, plus published product claims: 50+ interview languages, MCP on all plans including Free, SOC 2 Type II, and GDPR. Prices and feature lists change, so check each site before you buy.
 
 ## Comparison pages
 
@@ -15,6 +15,8 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Frank vs Usercall](frank-vs-usercall.md)
 - [Best AI user-interview tools in 2026](best-ai-user-interview-tools-2026.md)
 - [Conveo alternatives in 2026](conveo-alternatives.md)
+- [GetWhy alternatives in 2026](getwhy-alternatives.md)
+- [Marvin alternatives in 2026](marvin-alternatives.md)
 - [Best customer interview tools for startups](best-customer-interview-tools-for-startups.md)
 - [AI tools that interview customers for you](ai-tools-that-interview-customers-for-you.md)
 - [Best AI voice survey tools in 2026](best-ai-voice-survey-tools.md)

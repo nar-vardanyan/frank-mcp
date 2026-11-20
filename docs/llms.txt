@@ -34,6 +34,8 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [Frank vs Strella](https://nar-vardanyan.github.io/frank-mcp/frank-vs-strella.html): AI-moderated interviews compared
 - [Frank vs Usercall](https://nar-vardanyan.github.io/frank-mcp/frank-vs-usercall.html): AI-moderated interviews compared
 - [Conveo alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/conveo-alternatives.html): Six AI interview tools compared with Conveo, with sourced formats, recruiting and prices
+- [GetWhy alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/getwhy-alternatives.html): Frank and GetWhy compared for voice interviews with your own customers versus recruited video interviews
+- [Marvin alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/marvin-alternatives.html): When Frank fits for new voice interviews and Marvin (HeyMarvin) fits as a research repository
 - [Best customer interview tools for startups](https://nar-vardanyan.github.io/frank-mcp/best-customer-interview-tools-for-startups.html): Self-serve interview tools startups can start free or cheaply, compared
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html): Which AI interviewers handle design, recruiting, moderation and analysis
 - [Best AI voice survey tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-voice-survey-tools.html): Recorded voice answers vs conversational AI voice interviews, tools compared
