@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nar-vardanyan.github.io/frank-mcp/sitemap.xml

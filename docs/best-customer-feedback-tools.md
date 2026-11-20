@@ -94,4 +94,7 @@ Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, 
 - [Typeform alternative for customer interviews](https://nar-vardanyan.github.io/frank-mcp/typeform-alternative-for-customer-interviews.html)
 - [Best AI voice survey tools](https://nar-vardanyan.github.io/frank-mcp/best-ai-voice-survey-tools.html)
 - [User feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
+- [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html)
+- [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html)
+- [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
 - [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)

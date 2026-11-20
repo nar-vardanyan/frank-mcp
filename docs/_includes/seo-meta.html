@@ -1,0 +1,29 @@
+{% comment %}
+  Same meta tags jekyll-seo-tag 2.8 emits, without its JSON-LD script.
+  Used when a page supplies its own WebPage+TechArticle graph.
+{% endcomment %}
+{% assign page_title = page.title | default: site.title %}
+{% assign site_title = site.title %}
+{% if site_title and page_title != site_title %}
+  {% assign html_title = page_title | append: " | " | append: site_title %}
+{% else %}
+  {% assign html_title = page_title %}
+{% endif %}
+{% assign meta_description = page.description | default: site.description %}
+<title>{{ html_title | escape }}</title>
+<meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+<meta property="og:title" content="{{ page_title | escape }}" />
+<meta property="og:locale" content="en_US" />
+{% if meta_description %}
+<meta name="description" content="{{ meta_description | escape }}" />
+<meta property="og:description" content="{{ meta_description | escape }}" />
+{% endif %}
+{% assign canonical_url = page.url | absolute_url | replace: "/index.html", "/" %}
+<link rel="canonical" href="{{ canonical_url }}" />
+<meta property="og:url" content="{{ canonical_url }}" />
+{% if site_title %}
+<meta property="og:site_name" content="{{ site_title | escape }}" />
+{% endif %}
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="{{ page_title | escape }}" />
