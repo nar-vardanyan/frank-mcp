@@ -140,6 +140,27 @@ Official reference: [How Muse works with Connectors](https://www.meta.com/help/s
 
 Add a remote MCP server with the URL `https://api.hifrank.ai/mcp`, then sign in to your Frank account. Instinct does not publish official setup docs, so the exact screen may vary.
 
+## Agent skill: customer interviews
+
+[skills/customer-interviews/SKILL.md](skills/customer-interviews/SKILL.md) is an open [Agent Skill](https://agentskills.io/specification). It plans a study (goal, audience, hypotheses), writes a non-leading Mom Test voice guide, and, when the Frank MCP is connected, creates the study, publishes a voice interview link or website widget after you approve, and summarizes transcripts. Without Frank connected, it still writes the guide and explains how to connect.
+
+Twelve copy-paste starter prompts, covering churn, onboarding friction, pricing perception, feature discovery, win/loss, PMF survey follow-ups, and a multilingual study: [skills/customer-interviews/prompts/](skills/customer-interviews/prompts/).
+
+### Install the skill
+
+**Claude Code.** Copy the `customer-interviews` folder so `SKILL.md` sits at `~/.claude/skills/customer-interviews/SKILL.md` (all projects on this machine) or `.claude/skills/customer-interviews/SKILL.md` (this repository). Start Claude Code, ask it to interview customers, or run `/customer-interviews`. Details: [Extend Claude with skills](https://code.claude.com/docs/en/skills).
+
+**Claude skills (claude.ai and the desktop app).** Zip the skill folder from its parent directory so the archive contains `customer-interviews/SKILL.md`:
+
+```bash
+cd skills
+zip -r customer-interviews.zip customer-interviews/
+```
+
+Upload that zip under **Customize > Skills** and turn the skill on. Details: [Create custom skills](https://claude.com/docs/skills/how-to).
+
+**Any agent that loads SKILL.md.** Point the agent at [skills/customer-interviews/SKILL.md](skills/customer-interviews/SKILL.md), or copy the `customer-interviews` folder into the directory that agent reads skills from. Running the interviews still needs the Frank MCP at `https://api.hifrank.ai/mcp`.
+
 ## FAQ
 
 **What is Frank AI Researcher?**
