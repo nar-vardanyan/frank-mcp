@@ -8,6 +8,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 ## Comparison pages
 
+- [MCP servers for user research, compared (Nov 2026)](mcp-servers-for-user-research-compared.md)
 - [Frank vs Outset](frank-vs-outset.md)
 - [Frank vs Listen Labs](frank-vs-listen-labs.md)
 - [Frank vs Strella](frank-vs-strella.md)

@@ -21,6 +21,8 @@ You can get interview-depth user feedback without a calendar by sharing an AI-mo
 
 More guides and comparisons: [docs/](docs/README.md)
 
+Sourced comparison of research MCP servers, checked 20 November 2026: [MCP servers for user research, compared (Nov 2026)](docs/mcp-servers-for-user-research-compared.md). The dataset is [data/research-mcp-index.csv](data/research-mcp-index.csv) and [data/research-mcp-index.json](data/research-mcp-index.json).
+
 ## What agents can do
 
 Run studies
