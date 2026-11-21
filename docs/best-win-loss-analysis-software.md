@@ -89,4 +89,7 @@ Yes, in a limited way. Clozd and Klue both offer AI interviews, and Frank runs A
 - [Best tools for customer churn interviews](https://nar-vardanyan.github.io/frank-mcp/best-tools-for-customer-churn-interviews.html)
 - [Frank vs Listen Labs](https://nar-vardanyan.github.io/frank-mcp/frank-vs-listen-labs.html)
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
+- [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html)
+- [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html)
+- [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
 - [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)

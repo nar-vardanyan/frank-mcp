@@ -1,4 +1,8 @@
 <meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58" />
+{% assign twitter_description = page.description | default: site.description %}
+{% if twitter_description %}
+<meta name="twitter:description" content="{{ twitter_description | escape }}" />
+{% endif %}
 {% comment %}
   Entity JSON-LD for Frank AI Researcher. jekyll-theme-primer includes this
   file from _includes/head.html. Product URL is always https://www.hifrank.ai
@@ -53,3 +57,6 @@
   }
 }
 </script>
+{% if page.schema_page %}
+{% include structured-data.html %}
+{% endif %}

@@ -1,6 +1,6 @@
 # MCP Server for Customer Interviews
 
-**In short:** Frank AI Researcher has a remote MCP server at https://api.hifrank.ai/mcp. You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. MCP is included on every plan, including Free.
+**In short:** Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. MCP is included on every plan, including Free.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers, in 50+ interview languages. Frank does not recruit participants. Video, WhatsApp and chat interviews are Coming soon. This page is about the MCP server, using the public setup as of 19 November 2026 (Asia/Yerevan).
 
@@ -83,4 +83,7 @@ No. MCP is included on every plan, including Free.
 
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
 - [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html)
+- [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html)
+- [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html)
+- [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html)
 - [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)

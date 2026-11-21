@@ -10,3 +10,31 @@ plugins:
   - jekyll-sitemap
 include:
   - llms.txt
+
+# Page-specific descriptions. Kept out of the markdown files so those
+# sources stay front-matter-free and GitHub Pages still publishes the .md copies.
+defaults:
+  - scope:
+      path: README.md
+    values:
+      description: "Frank AI Researcher docs: guides and sourced comparisons for AI-moderated voice interviews, plus how to connect the Frank MCP server at https://api.hifrank.ai/mcp."
+  - scope:
+      path: dovetail-alternatives.md
+    values:
+      description: "Dovetail alternatives in 2026: cheaper repositories (Condens, Marvin, Looppanel), a broader suite (Great Question), and when Frank is the right fit for collecting AI-moderated voice interviews. Sourced 19 November 2026."
+      schema_page: true
+  - scope:
+      path: best-win-loss-analysis-software.md
+    values:
+      description: "Best win-loss analysis software in 2026: buyer-interview platforms, call analytics, and Frank's free-starting AI voice interviews with buyers you invite yourself. Sourced 19 November 2026."
+      schema_page: true
+  - scope:
+      path: best-customer-feedback-tools.md
+    values:
+      description: "Best customer feedback tools in 2026: surveys, feedback boards, voice-of-customer analysis, and Frank for AI-moderated voice interviews that explain the why. Sourced 19 November 2026."
+      schema_page: true
+  - scope:
+      path: mcp-server-for-customer-interviews.md
+    values:
+      description: "MCP server for customer interviews: connect https://api.hifrank.ai/mcp with OAuth. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. MCP is on every plan, including Free."
+      schema_page: true
