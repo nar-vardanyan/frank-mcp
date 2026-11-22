@@ -34,7 +34,7 @@ Nielsen Norman Group describes AI-moderated interviews as a way to collect struc
 
 ### If you already have customers to talk to
 
-You don't need to pay for recruiting. A link-based tool lets you put the interview in an onboarding email, a cancellation flow or an in-app message. Frank is built for this: customers join from an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk by voice whenever they have time. Frank can run hundreds of interviews overnight. Most other tools in the table also accept your own list.
+You don't need to pay for recruiting. A link-based tool lets you put the interview in an onboarding email, a cancellation flow or an in-app message. Frank is built for this: customers join from an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk by voice whenever they have time. Most other tools in the table also accept your own list.
 
 ### If you need people you can't reach yourself
 

@@ -28,7 +28,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: voice interviews instead of a form
 
-Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank can run hundreds of interviews overnight and supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 

@@ -45,7 +45,7 @@ Good interview questions look like:
 
 A live 1:1 interview is still the right choice when you need a relationship conversation or a shared screen. An AI-moderated voice interview is a better fit when you want that same kind of "why" conversation from many of your own customers, and you cannot schedule a call with each of them. Participants open a [link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), talk when they have time, and the AI interviewer asks follow-ups. You read the transcripts and themes afterwards.
 
-That is the main shift AI interviews introduce: the method is still an interview, so the sample-size logic is still saturation, not a percentage. What changes is the cost of running enough conversations to reach that point. With Frank, interviews can run in parallel, including hundreds of interviews overnight, because nobody has to moderate each one live.
+That is the main shift AI interviews introduce: the method is still an interview, so the sample-size logic is still saturation, not a percentage. What changes is the cost of running enough conversations to reach that point. With Frank, interviews can run in parallel, because nobody has to moderate each one live.
 
 For the setup steps, see [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md). For specific decisions, see [churn](https://www.hifrank.ai/use-case/ai-churn-interviews), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery).
 

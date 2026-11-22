@@ -16,7 +16,7 @@ For the non-agent workflow (set up a study, share a link or widget, read the the
 
 ## Frank vs Usercall at a glance
 
-Every Usercall cell is taken from Usercall's own live pages, opened on 16 November 2026 (Asia/Yerevan). Every Frank cell is taken from [hifrank.ai](https://www.hifrank.ai) pages opened the same day, or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2 Type II, hundreds of interviews overnight, and GDPR). If a fact was not on the pages reviewed, it is marked as not stated, not assumed to be absent from the product.
+Every Usercall cell is taken from Usercall's own live pages, opened on 16 November 2026 (Asia/Yerevan). Every Frank cell is taken from [hifrank.ai](https://www.hifrank.ai) pages opened the same day, or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2 Type II, and GDPR). If a fact was not on the pages reviewed, it is marked as not stated, not assumed to be absent from the product.
 
 | | Frank | Usercall |
 |---|---|---|
@@ -41,7 +41,7 @@ You set a research goal and an interview guide. Frank suggests topics from that 
 
 After each conversation you get a transcript. Answers are grouped into themes you can trace back to the original quotes. If you already work in an AI assistant, you can [connect Frank as an MCP server](https://www.hifrank.ai/mcp) and ask it to help draft a study or read transcripts without leaving that chat. New research is created as a draft, so it is not published to participants until you approve it.
 
-Frank can run hundreds of interviews overnight with customers you can already reach. It does not find those people for you. If you have no customers yet, you will need another way to recruit. Typical uses include [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) in a cancellation flow, [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery).
+Frank interviews customers you can already reach. It does not find those people for you. If you have no customers yet, you will need another way to recruit. Typical uses include [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) in a cancellation flow, [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery).
 
 ## How Usercall works
 

@@ -56,7 +56,7 @@ The AI interviewer does not recruit a panel for you. If you have no customers to
 
 ### 5. Let the interviews run
 
-Participants join when they have time and talk with the AI interviewer by voice. Questions stay consistent, and follow-ups happen in the moment. With Frank, many interviews can run at the same time, including hundreds of interviews overnight, because nobody has to be on a call with each person.
+Participants join when they have time and talk with the AI interviewer by voice. Questions stay consistent, and follow-ups happen in the moment. With Frank, many interviews can run at the same time, because nobody has to be on a call with each person.
 
 ### 6. Read the transcripts and themes, then decide
 

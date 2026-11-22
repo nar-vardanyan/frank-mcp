@@ -75,7 +75,7 @@ Nielsen Norman Group lists cases to avoid an AI interviewer: topics that need de
 
 ## When Frank is a fit
 
-Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Video, WhatsApp and chat interviews are Coming soon. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages and can run hundreds of interviews overnight. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Video, WhatsApp and chat interviews are Coming soon. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 **[Try AI voice interviews free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
 
