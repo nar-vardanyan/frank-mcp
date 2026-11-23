@@ -49,3 +49,4 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [How to measure product-market fit with customer interviews](measure-product-market-fit-with-customer-interviews.md)
 - [Customer interview questions template](customer-interview-questions-template.md)
 - [How to validate a startup idea with customer interviews](validate-a-startup-idea-with-customer-interviews.md)
+- [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.md)

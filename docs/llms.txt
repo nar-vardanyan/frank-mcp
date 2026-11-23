@@ -31,6 +31,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [How to measure product-market fit with customer interviews](https://nar-vardanyan.github.io/frank-mcp/measure-product-market-fit-with-customer-interviews.html): Ask recent users the Sean Ellis question, then interview them about the benefit, the alternative, and what is missing
 - [Customer interview questions template](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html): A copyable list of open customer interview questions, plus short variants for churn, discovery, product-market fit, and win-loss
 - [How to validate a startup idea with customer interviews](https://nar-vardanyan.github.io/frank-mcp/validate-a-startup-idea-with-customer-interviews.html): Interview people about a job they already do, not about whether they like your idea. Frank does not recruit participants
+- [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html): A neutral checklist for comparing AI customer interview tools: voice vs text, own customers vs a panel, languages, analysis, security, pricing transparency, integrations and MCP, and moderation quality
 
 ## Comparisons
 
