@@ -1,8 +1,8 @@
 # MCP Server for Customer Interviews
 
-**In short:** Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. MCP is included on every plan, including Free.
+**In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers, in 50+ interview languages. Frank does not recruit participants. Video, WhatsApp and chat interviews are Coming soon. This page is about the MCP server, using the public setup as of 19 November 2026 (Asia/Yerevan).
+**We make [Frank AI Researcher](https://www.hifrank.ai)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 23 November 2026 (Asia/Yerevan).
 
 ## What is an MCP server for customer interviews?
 
@@ -10,22 +10,19 @@ An MCP server for customer interviews lets an AI assistant create and read inter
 
 Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-Cursor can't connect yet (it requires dynamic client registration).
-
 ## Is this also a user research MCP server?
 
 Yes, if the research you want is interviews with customers you already have. From the same server you can draft a study, attach it to a product, share an interviewer link or website widget, and pull transcripts back into the assistant. It is not a recruiting MCP server, a prototype-testing server, or an analytics server.
 
 ## Compared: which clients can connect
 
-| Client | Best for | Status (19 Nov 2026) |
+| Client | Best for | Status (23 Nov 2026) |
 |---|---|---|
 | **ChatGPT** | Running studies from a ChatGPT custom MCP server | Tested |
 | **Claude** (Claude.ai, Claude Desktop, Claude Code) | Drafting studies and reading transcripts from Claude or Claude Code | Tested |
 | **Grok** | The same remote URL in Grok | Tested |
 | **Instinct** | The same remote URL in Instinct | Tested |
 | **Muse** | The same remote URL in Muse | Tested |
-| **Cursor** | Not a fit today | Can't connect yet (requires dynamic client registration) |
 
 Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -54,14 +51,22 @@ The hosted tools can draft and edit a study, publish it when you approve, list i
 ## When this is a poor fit
 
 - You need the assistant to recruit a panel. Frank does not recruit participants.
-- Your client cannot do remote MCP with OAuth (including Cursor, today).
+- Your client cannot do remote MCP with OAuth.
 - You only need a prototype test or a click test, not a voice interview.
 
 ## FAQ
 
-### Is there an MCP server for customer interviews?
+### What is an MCP server for customer interviews?
 
-Yes. Frank AI Researcher's MCP server is `https://api.hifrank.ai/mcp`. It is included on every plan, including Free. Official registry name: `ai.hifrank/frank`.
+An MCP server for customer interviews lets your assistant create interview studies and read transcripts in the same chat, through the Model Context Protocol. Frank AI Researcher's server is `https://api.hifrank.ai/mcp`. It is a remote server: you add that URL in a client that supports remote servers with OAuth, then sign in.
+
+### Which MCP clients work with Frank?
+
+Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+
+### Is MCP included on the Free plan?
+
+Yes. MCP is included on every plan, including Free. Official registry name: `ai.hifrank/frank`.
 
 ### Is there an MCP server for user research?
 
@@ -71,10 +76,6 @@ Frank's MCP server is for user research that takes the form of AI-moderated voic
 
 Yes. Add Frank with `claude mcp add --transport http frank https://api.hifrank.ai/mcp`, sign in, and you can draft studies and read transcripts from Claude Code. MCP is included on every plan, including Free.
 
-### Which assistants work with Frank's MCP server?
-
-Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Cursor can't connect yet.
-
 ### Does it cost extra to use MCP?
 
 No. MCP is included on every plan, including Free.
@@ -83,7 +84,8 @@ No. MCP is included on every plan, including Free.
 
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
 - [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html)
-- [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html)
+- [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
+- [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html)
 - [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html)
 - [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html)
 - [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)

@@ -121,6 +121,14 @@ None of those is a ranking. Re-check each site before you buy.
 
 A one-to-one research conversation in which software asks the questions, listens, and follows up, instead of a human moderator. It is sometimes called an AI customer interview.
 
+### Are AI-moderated interviews as good as interviews run by a person?
+
+They are a fit for structured work with your own customers, when you already know what to ask. A human moderator is still better for relationship-heavy talks, messy discovery, or anything where someone needs to show you their screen. Nielsen Norman Group found AI interviewers work best as a complement to human moderation, not a replacement.
+
+### Do customers actually talk to an AI moderator?
+
+Yes. In an AI-moderated voice interview, the customer opens a link and speaks with the AI moderator. The software asks your questions, listens, and follows up. With Frank AI Researcher, that conversation is by voice.
+
 ### Can I use more than one tool?
 
 Yes. Many teams interview their own customers with one tool and use a panel or a full research platform for studies that need recruiting or prototype tests.
@@ -139,6 +147,9 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 ## Related
 
+- [AI tools that interview customers for you](ai-tools-that-interview-customers-for-you.md)
+- [AI voice interviewer for customer feedback](ai-voice-interviews-for-customer-feedback.md)
+- [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [AI-moderated customer interviews for founders: Frank vs survey tools](frank-vs-survey-tools-for-founders.md)
 - [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md)
 - [How to run customer interviews](how-to-run-customer-interviews.md)
