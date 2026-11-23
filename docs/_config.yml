@@ -97,3 +97,13 @@ defaults:
     values:
       description: "An AI voice interviewer asks your customers questions out loud, follows up, and produces a transcript and summary. Frank AI Researcher is voice-first and interviews customers you already have. Free plan: 60 voice minutes a month."
       schema_page: true
+  - scope:
+      path: ai-agent-that-interviews-customers.md
+    values:
+      description: "An AI agent that interviews customers can set up studies and read transcripts in the same chat. Frank AI Researcher runs AI-moderated voice interviews with your own customers and includes a remote MCP server on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth."
+      schema_page: true
+  - scope:
+      path: ai-moderated-interviews.md
+    values:
+      description: "AI-moderated interviews are customer interviews led by an AI moderator that asks questions, follows up, and produces a transcript and summary. When to use them, when a human moderator is better, and where Frank AI Researcher fits. Free plan: 60 voice minutes a month."
+      schema_page: true
