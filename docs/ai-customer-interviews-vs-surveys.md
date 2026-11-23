@@ -105,6 +105,7 @@ An exit survey is useful for tallying a category, such as "price" or "missing fe
 
 ## Related
 
+- [How to get customer feedback](how-to-get-customer-feedback.md)
 - Also in this folder: [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md) · [Frank vs Outset](frank-vs-outset.md) · [Frank vs Listen Labs](frank-vs-listen-labs.md) · [Frank vs Strella](frank-vs-strella.md) · [Frank vs Usercall](frank-vs-usercall.md) · [Best AI user-interview tools 2026](best-ai-user-interview-tools-2026.md)
 - [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md)
 - [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)

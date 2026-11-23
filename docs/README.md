@@ -44,3 +44,8 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [AI voice interviews for customer feedback](ai-voice-interviews-for-customer-feedback.md)
 - [AI customer interview tool with a free plan](ai-customer-interview-tool-free-plan.md)
+- [How to get customer feedback](how-to-get-customer-feedback.md)
+- [How to run customer interviews](how-to-run-customer-interviews.md)
+- [How to measure product-market fit with customer interviews](measure-product-market-fit-with-customer-interviews.md)
+- [Customer interview questions template](customer-interview-questions-template.md)
+- [How to validate a startup idea with customer interviews](validate-a-startup-idea-with-customer-interviews.md)

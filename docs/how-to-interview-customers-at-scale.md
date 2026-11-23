@@ -91,6 +91,7 @@ Frank is SOC 2 Type II and GDPR compliant. The live security page also states AE
 
 ## Related
 
+- [How to run customer interviews](how-to-run-customer-interviews.md)
 - [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
 - [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions)
 - [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data)

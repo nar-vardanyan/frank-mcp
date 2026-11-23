@@ -107,6 +107,7 @@ Frank is SOC 2 Type II and GDPR compliant. Interviews, transcripts, and insights
 
 ## Related
 
+- [How to run customer interviews](how-to-run-customer-interviews.md)
 - Also in this folder: [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md) · [Frank vs Outset](frank-vs-outset.md) · [Frank vs Listen Labs](frank-vs-listen-labs.md) · [Frank vs Strella](frank-vs-strella.md) · [Frank vs Usercall](frank-vs-usercall.md) · [Best AI user-interview tools 2026](best-ai-user-interview-tools-2026.md)
 - [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md)
 - [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)

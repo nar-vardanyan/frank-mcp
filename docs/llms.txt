@@ -26,6 +26,11 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html): Connect Frank's remote MCP server at https://api.hifrank.ai/mcp to ChatGPT, Claude, Grok, Instinct or Muse and run voice interview studies from your assistant
 - [AI voice interviews for customer feedback](https://nar-vardanyan.github.io/frank-mcp/ai-voice-interviews-for-customer-feedback.html): What AI voice interviews are, when they fit, and how to run one
 - [AI customer interview tool with a free plan](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-tool-free-plan.html): What to check in a free plan, and what Frank's Free plan includes
+- [How to get customer feedback](https://nar-vardanyan.github.io/frank-mcp/how-to-get-customer-feedback.html): Pick a decision, choose a method, invite your own customers, and use an AI agent such as Claude or ChatGPT to help draft questions and summarize answers
+- [How to run customer interviews](https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html): Set a goal, write open questions about a recent event, invite people you already have, and analyze transcripts, including from Claude or ChatGPT via MCP
+- [How to measure product-market fit with customer interviews](https://nar-vardanyan.github.io/frank-mcp/measure-product-market-fit-with-customer-interviews.html): Ask recent users the Sean Ellis question, then interview them about the benefit, the alternative, and what is missing
+- [Customer interview questions template](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html): A copyable list of open customer interview questions, plus short variants for churn, discovery, product-market fit, and win-loss
+- [How to validate a startup idea with customer interviews](https://nar-vardanyan.github.io/frank-mcp/validate-a-startup-idea-with-customer-interviews.html): Interview people about a job they already do, not about whether they like your idea. Frank does not recruit participants
 
 ## Comparisons
 

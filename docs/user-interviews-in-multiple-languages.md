@@ -88,6 +88,7 @@ No. Frank does not recruit participants. You invite customers you already reach 
 
 ## Related
 
+- [How to run customer interviews](how-to-run-customer-interviews.md)
 - [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html)
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
 - [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions)
