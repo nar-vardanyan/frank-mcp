@@ -100,6 +100,7 @@ Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every 
 
 ## Related
 
+- [How to run customer interviews](how-to-run-customer-interviews.md)
 - [Churn interviews with Frank](https://www.hifrank.ai/use-case/ai-churn-interviews)
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
 - [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html)

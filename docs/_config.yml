@@ -53,3 +53,28 @@ defaults:
     values:
       description: "How to run customer discovery interviews with Claude and Frank MCP: connect https://api.hifrank.ai/mcp, draft a non-leading voice guide about a job people already do, and analyze transcripts in Claude. Frank does not recruit participants."
       schema_page: true
+  - scope:
+      path: how-to-get-customer-feedback.md
+    values:
+      description: "How to get customer feedback: pick a decision, choose a method, invite your own customers, and use an AI agent such as Claude or ChatGPT to help draft questions and summarize answers. Frank AI Researcher runs AI-moderated voice interviews."
+      schema_page: true
+  - scope:
+      path: how-to-run-customer-interviews.md
+    values:
+      description: "How to run customer interviews: set a goal, write open questions about a recent event, invite people you already have, and analyze transcripts. Includes a Claude or ChatGPT MCP workflow for Frank AI Researcher."
+      schema_page: true
+  - scope:
+      path: measure-product-market-fit-with-customer-interviews.md
+    values:
+      description: "How to measure product-market fit with customer interviews: ask recent users the Sean Ellis question, then interview them about the benefit, the alternative, and what is missing. Frank does not recruit participants."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-template.md
+    values:
+      description: "Customer interview questions template: a copyable list of open questions, plus short variants for churn, discovery, product-market fit, and win-loss. Use it on a live call or in Frank AI Researcher."
+      schema_page: true
+  - scope:
+      path: validate-a-startup-idea-with-customer-interviews.md
+    values:
+      description: "How to validate a startup idea with customer interviews: interview people about a job they already do, not about whether they like your idea. Frank AI Researcher does not recruit participants."
+      schema_page: true
