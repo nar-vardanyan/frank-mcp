@@ -1,18 +1,19 @@
-# AI Voice Interviews for Customer Feedback: How They Work
+# AI Voice Interviewer for Customer Feedback
 
-**In short:** AI voice interviews are short spoken conversations in which an AI interviewer asks your customers open questions, follows up when answers are thin, and turns each conversation into a transcript and themes. Customers join from a link when they have time, so you get the "why" behind feedback without scheduling calls. They complement, not replace, live interviews and surveys.
+**In short:** An AI voice interviewer asks your customers questions out loud, follows up on their answers, and produces a transcript and summary. Frank AI Researcher is voice-first: you bring the customers, and it does not run video or chat interviews. The Free plan includes 60 voice minutes per month; Starter is $49/month billed yearly. MCP is included on every plan, including Free.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The guidance below applies to AI voice interviews in general; we note where Frank is one option. Frank does not recruit participants.
 
-## What an AI voice interview is
+## What an AI voice interviewer is
 
-An AI voice interview replaces the human moderator on a customer call with an AI interviewer that speaks. You write the goal and questions. The customer opens a link, talks, and the AI asks follow-ups. Nielsen Norman Group describes AI interviewers as a voice that asks questions, and notes that participants can complete the interview at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
+An AI voice interviewer replaces the human moderator on a customer call with an AI interviewer that speaks. You write the goal and questions. The customer opens a link, talks, and the AI asks follow-ups. Nielsen Norman Group describes AI interviewers as a voice that asks questions, and notes that participants can complete the interview at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
 It is different from:
 
 - **A survey with a voice-recording field.** That collects one answer per question with no follow-up.
 - **A phone survey (IVR).** That reads fixed questions and captures keypad or short spoken responses.
 - **A live interview.** That has a human who can read the room and change course at any moment.
+- **A job interview tool.** An AI voice interviewer for customer feedback talks to customers you already have, about a product or service. It is not a tool for hiring or screening candidates.
 
 ## Why voice for customer feedback
 
@@ -28,7 +29,7 @@ Nielsen Norman Group says AI-moderated interviews are best when you already know
 - **Churn and cancellation.** The story behind "too expensive" or "not using it" ([churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews)).
 - **Onboarding.** Why new users stall in their first week.
 - **Win-loss.** Why a buyer chose you or someone else ([win-loss](https://www.hifrank.ai/use-case/win-loss-analysis)).
-- **Feedback across markets.** The same questions in several languages.
+- **Feedback across markets.** The same questions in each customer's language.
 
 ## How AI voice interviews compare
 
@@ -63,7 +64,7 @@ Group answers into themes, and check each theme you'll act on against exact quot
 
 - **Follow-up quality.** Does it probe thin answers without leading?
 - **Transcripts you can check.** Themes should link back to exact quotes.
-- **Languages.** Can customers answer in their own language?
+- **Languages.** Can customers answer in their own language? Confirm the current list in a trial, and do not rely on a marketing round number.
 - **Length and minutes.** Does the plan allow interviews long enough for your guide?
 - **Security.** Look for SOC 2 and GDPR compliance before you put customer conversations in it.
 - **Participants.** Most tools, Frank included, expect you to bring your own customers.
@@ -75,35 +76,49 @@ Nielsen Norman Group lists cases to avoid an AI interviewer: topics that need de
 
 ## When Frank is a fit
 
-Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Video, WhatsApp and chat interviews are Coming soon. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 60 voice minutes a month; Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-**[Try AI voice interviews free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
+**[Try an AI voice interviewer free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
 
 ## FAQ
 
-### What are AI voice interviews?
-Spoken conversations in which an AI interviewer asks your customers open questions, follows up when answers are thin, and produces a transcript. Customers join from a link when they have time.
+### What is an AI voice interviewer?
+
+An AI voice interviewer asks your customers questions out loud, follows up when answers are thin, and produces a transcript and summary. Customers join from a link when they have time. Frank AI Researcher is a voice-first interviewer for customers you already have.
+
+### Is an AI voice interviewer for job interviews or for customer interviews?
+
+Frank's AI voice interviewer is for customer interviews, not hiring. You invite people you already have: customers, users, or buyers. It does not screen job candidates and it does not recruit participants.
+
+### Can I try Frank's AI voice interviewer for free?
+
+Yes. The Free plan includes 60 voice minutes a month, with interviews up to 10 minutes, and no credit card required. MCP is included on every plan, including Free. Starter is $49 a month when billed yearly.
 
 ### Are AI voice interviews better than surveys?
+
 They answer a different question. Surveys measure how many people feel a certain way; voice interviews explain why. Use both.
 
 ### Can AI voice interviews replace talking to customers myself?
+
 No. Nielsen Norman Group found AI interviewers work best as a complement to human moderation. Keep live conversations for messy discovery and key accounts.
 
 ### Does Frank offer video or WhatsApp interviews?
-Not yet. Frank is voice-first. Video, WhatsApp and chat interviews are Coming soon.
 
-### How many languages does Frank support?
-Frank supports 50+ interview languages.
+No. Frank is voice-first. It runs voice interviews, not video, WhatsApp, or chat interviews.
 
 ### Is it secure?
-Frank is SOC 2 Type II and GDPR compliant.
+
+Frank is SOC 2 and GDPR compliant.
 
 ### Does Frank find customers to interview?
+
 No. Frank does not recruit participants. You invite your own customers.
 
 ## Related
 
 - [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html)
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
+- [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html)
+- [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
+- [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
 - [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
