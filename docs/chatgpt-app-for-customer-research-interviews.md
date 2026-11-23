@@ -49,7 +49,7 @@ MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude,
 1. **Ask for a draft.** "Use Frank to create a study on why trial users don't upgrade. Six open questions about recent behavior, under 10 minutes."
 2. **Review it.** In Frank, new research created through MCP stays a draft and is not published to participants until you approve it. Take the interview yourself.
 3. **Share the link.** Send the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) to your own customers, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Frank does not recruit participants.
-4. **Let it run.** Customers talk with the AI interviewer by voice when they have time. Frank can run hundreds of interviews overnight.
+4. **Let it run.** Customers talk with the AI interviewer by voice when they have time.
 5. **Analyze in chat.** "Summarize the top reasons, with two exact quotes each." Then open a few full transcripts to check the quotes in context.
 
 Keep the questions open and about recent events ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). AI interviewers stick to the script and probe when answers are short or unclear, but don't chase unexpected insights ([Nielsen Norman Group, AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).

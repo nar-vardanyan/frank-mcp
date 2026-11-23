@@ -36,7 +36,7 @@ Invite more people than you need, because not everyone will finish. If you do no
 
 ### Days 2 to 4: Let interviews run in parallel, and read daily
 
-Because nobody sits on each call, conversations can run at the same time and at any hour. With Frank, that includes hundreds of interviews overnight. Use that time to read, not to wait. Each morning, open a handful of full transcripts per segment and note what is new. If a question keeps producing confusion, fix it before the next batch of invites.
+Because nobody sits on each call, conversations can run at the same time and at any hour. Use that time to read, not to wait. Each morning, open a handful of full transcripts per segment and note what is new. If a question keeps producing confusion, fix it before the next batch of invites.
 
 ### Day 5: Check themes against quotes and write the readout
 
@@ -57,7 +57,7 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank can run hundreds of interviews overnight and supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you already have customers to invite and want many consistent voice conversations in days. It is a weaker fit if you need a recruited panel or a live screen-share.
 

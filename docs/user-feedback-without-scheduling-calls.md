@@ -42,7 +42,7 @@ In your interview tool, create the study, add the goal and questions, and test t
 
 Invite your own customers: people who recently signed up, cancelled, bought, or used the feature. Frank does not recruit participants. If you have no customers to invite yet, a recruiting service or your network is a better first step.
 
-With Frank, interviews can run in parallel, including hundreds of interviews overnight, because nobody has to moderate each one live. The stopping rule is still saturation, not a large round number. In Guest, Bunce and Johnson's study, saturation occurred within the first 12 interviews for a relatively homogeneous group, with the basic elements of themes present as early as 6 ([Guest, Bunce & Johnson, 2006](https://www.sfu.ca/~palys/GuestEtAl-2006-HowManyInterviewsAreEnough.pdf)).
+With Frank, interviews can run in parallel, because nobody has to moderate each one live. The stopping rule is still saturation, not a large round number. In Guest, Bunce and Johnson's study, saturation occurred within the first 12 interviews for a relatively homogeneous group, with the basic elements of themes present as early as 6 ([Guest, Bunce & Johnson, 2006](https://www.sfu.ca/~palys/GuestEtAl-2006-HowManyInterviewsAreEnough.pdf)).
 
 More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions). A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data).
 
@@ -54,7 +54,7 @@ In those cases, book a live conversation. You can still use an unscheduled AI in
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank can run hundreds of interviews overnight. It states 50+ interview languages. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states 50+ interview languages. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you want interview-depth answers from customers you can already reach, and you do not want to book a meeting for each one. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself. It is not a survey tool.
 
