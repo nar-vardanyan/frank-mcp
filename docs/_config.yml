@@ -38,3 +38,18 @@ defaults:
     values:
       description: "MCP server for customer interviews: connect https://api.hifrank.ai/mcp with OAuth. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. MCP is on every plan, including Free."
       schema_page: true
+  - scope:
+      path: frank-vs-survey-tools-for-founders.md
+    values:
+      description: "AI-moderated customer interviews for founders vs survey tools: when to measure how many, when to learn why, and where Frank AI Researcher fits. Sourced comparison, checked 23 November 2026."
+      schema_page: true
+  - scope:
+      path: how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md
+    values:
+      description: "How to run churn interviews with ChatGPT and Frank MCP: connect https://api.hifrank.ai/mcp, draft a cancel-flow study, share the voice interview link with customers you already have, and check transcripts in ChatGPT."
+      schema_page: true
+  - scope:
+      path: how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md
+    values:
+      description: "How to run customer discovery interviews with Claude and Frank MCP: connect https://api.hifrank.ai/mcp, draft a non-leading voice guide about a job people already do, and analyze transcripts in Claude. Frank does not recruit participants."
+      schema_page: true
