@@ -12,6 +12,8 @@
 2. **A full research platform.** Interviews sit next to surveys, prototype tests, scheduling, a participant panel, and a repository.
 3. **Analysis of interviews you already ran.** The tool transcribes and themes conversations; a person still leads the interview.
 
+A longer explainer of the method, including when a human moderator is the better fit, is in [AI moderated interviews: when to use them](ai-moderated-interviews.md).
+
 If you need people you cannot already reach, you need recruiting or a panel. If you need someone to click through a prototype, you need a tool that tests on-screen behavior. If you already have customers and you want to hear why they bought, stalled, or cancelled, a voice interviewer you can share as a link may be enough.
 
 ## What the best AI customer interviewers for product discovery depend on
@@ -147,6 +149,8 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 ## Related
 
+- [AI moderated interviews: when to use them](ai-moderated-interviews.md)
+- [AI agent that interviews customers](ai-agent-that-interviews-customers.md)
 - [AI tools that interview customers for you](ai-tools-that-interview-customers-for-you.md)
 - [AI voice interviewer for customer feedback](ai-voice-interviews-for-customer-feedback.md)
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.md)

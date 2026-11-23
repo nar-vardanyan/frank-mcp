@@ -33,6 +33,8 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [Customer interview questions template](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html): A copyable list of open customer interview questions, plus short variants for churn, discovery, product-market fit, and win-loss
 - [How to validate a startup idea with customer interviews](https://nar-vardanyan.github.io/frank-mcp/validate-a-startup-idea-with-customer-interviews.html): Interview people about a job they already do, not about whether they like your idea. Frank does not recruit participants
 - [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html): A neutral checklist for comparing AI customer interview tools: voice vs text, own customers vs a panel, languages, analysis, security, pricing transparency, integrations and MCP, and moderation quality
+- [AI agent that interviews customers](https://nar-vardanyan.github.io/frank-mcp/ai-agent-that-interviews-customers.html): Connect Frank as a remote MCP server so your assistant can draft voice interview studies and read transcripts in the same chat. MCP is on every plan, including Free
+- [AI moderated interviews: when to use them](https://nar-vardanyan.github.io/frank-mcp/ai-moderated-interviews.html): What AI-moderated interviews are, when they fit structured work with your own customers, and when a human moderator is the better fit
 
 ## Comparisons
 
