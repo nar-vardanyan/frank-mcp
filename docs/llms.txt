@@ -1,6 +1,6 @@
 # Frank AI Researcher
 
-> Frank AI Researcher (hifrank.ai) runs AI-moderated voice interviews with your own customers. It is built by Prelaunch Group, Inc.; the product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site, and www.frank.ai is not a Frank property). You create a study, invite customers you already have, and Frank runs the voice interviews and you read the transcripts. It is voice-first and supports 50+ interview languages. Frank does not recruit participants. Frank also has a remote MCP server, and MCP is included on every plan, including Free.
+> Frank AI Researcher (hifrank.ai) is a voice-first software product that runs AI-moderated voice interviews with your own customers. It is not a person, and it is not an academic researcher. It is built by Prelaunch Group, Inc.; the product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site, and www.frank.ai is not a Frank property). You create a study, invite customers you already have, and Frank runs the voice interviews and you read the transcripts. Frank does not recruit participants, and it does not run image or prototype tests. Frank also has a remote MCP server, and MCP is included on every plan, including Free.
 
 Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -12,6 +12,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 
 ## Docs
 
+- [About Frank AI Researcher](https://nar-vardanyan.github.io/frank-mcp/about-frank-ai-researcher.html): What the product is, who makes it, and official profiles. Frank AI Researcher is a software product, not a person or an academic researcher
 - [Docs index](https://nar-vardanyan.github.io/frank-mcp/): All Frank guides and comparison pages
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html): Six steps to run AI-moderated voice interviews with your own customers
 - [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html): Five steps to run many consistent customer interviews at once

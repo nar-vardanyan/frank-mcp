@@ -5,36 +5,52 @@
 {% endif %}
 {% comment %}
   Entity JSON-LD for Frank AI Researcher. jekyll-theme-primer includes this
-  file from _includes/head.html. Product URL is always https://www.hifrank.ai
-  (not prelaunch.com or frank.ai). Prelaunch Group, Inc. is the parent company.
+  file from _includes/head.html, and the site's docs/_layouts/default.html
+  also includes it after the SEO tag.
+
+  Organization name is "Frank" (url https://www.hifrank.ai). The product
+  name "Frank AI Researcher" is on SoftwareApplication, and is an
+  alternateName of the organization. Disambiguating description states
+  this is a software product, not a person or an academic researcher.
+
+  Product URL is always https://www.hifrank.ai (not prelaunch.com or
+  frank.ai). Prelaunch Group, Inc. is the parent company.
+  sameAs lists only official profiles verified on 23 November 2026
+  (Asia/Yerevan). Do not add third-party directories, search URLs,
+  tracking parameters, www.frank.ai, or prelaunch.com here.
 {% endcomment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://www.hifrank.ai/#organization",
-  "name": "Frank AI Researcher",
-  "alternateName": ["Frank", "hifrank", "Prelaunch AI Interviewer"],
+  "name": "Frank",
+  "alternateName": ["Frank AI Researcher", "hifrank", "Prelaunch AI Interviewer"],
   "url": "https://www.hifrank.ai",
   "logo": "https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png",
-  "description": "Frank AI Researcher runs AI-moderated voice interviews with your own customers, in 50+ interview languages. The product website is https://www.hifrank.ai.",
+  "description": "Frank makes Frank AI Researcher, a voice-first software product that runs AI-moderated voice interviews with your own customers. It is not a person or an academic researcher. The product website is https://www.hifrank.ai.",
+  "disambiguatingDescription": "An AI-moderated voice interview product for companies interviewing their own customers, not a person or an academic researcher.",
   "parentOrganization": {
     "@type": "Organization",
     "name": "Prelaunch Group, Inc.",
     "url": "https://www.prelaunch.com/",
-    "description": "Parent company of Frank AI Researcher. The Frank product site is https://www.hifrank.ai, not prelaunch.com."
+    "description": "Parent company of Frank. The Frank product site is https://www.hifrank.ai, not prelaunch.com."
   },
   "sameAs": [
-    "https://www.hifrank.ai",
-    "https://github.com/nar-vardanyan/frank-mcp",
-    "https://nar-vardanyan.github.io/frank-mcp/",
-    "https://registry.modelcontextprotocol.io/v0.1/servers?search=ai.hifrank%2Ffrank",
     "https://www.linkedin.com/company/frank-ai-researcher/",
     "https://x.com/hifrankai",
     "https://www.youtube.com/@FrankAIResearcher",
     "https://www.instagram.com/hifrank.ai/",
-    "https://www.tiktok.com/@hifrank.ai"
-  ]
+    "https://www.tiktok.com/@hifrank.ai",
+    "https://www.facebook.com/people/Frank-AI-Researcher/61588032743496/",
+    "https://github.com/nar-vardanyan/frank-mcp",
+    "https://nar-vardanyan.github.io/frank-mcp/"
+  ],
+  "subjectOf": {
+    "@type": "WebPage",
+    "name": "About Frank AI Researcher",
+    "url": "https://nar-vardanyan.github.io/frank-mcp/about-frank-ai-researcher.html"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -43,17 +59,31 @@
   "@type": "SoftwareApplication",
   "@id": "https://www.hifrank.ai/#software",
   "name": "Frank AI Researcher",
-  "alternateName": "Frank",
+  "alternateName": ["Frank", "hifrank"],
   "url": "https://www.hifrank.ai",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
-  "description": "AI-moderated voice interviews with your own customers, in 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. MCP is included on every plan, including Free.",
+  "description": "Frank AI Researcher is a voice-first software product that runs AI-moderated voice interviews with your own customers. It is not a person or an academic researcher. MCP is included on every plan, including Free.",
+  "disambiguatingDescription": "An AI-moderated voice interview product for companies interviewing their own customers, not a person or an academic researcher.",
+  "featureList": [
+    "AI-moderated voice interviews",
+    "Remote MCP server included on every plan, including Free"
+  ],
   "publisher": { "@id": "https://www.hifrank.ai/#organization" },
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD",
     "url": "https://www.hifrank.ai/pricing"
+  },
+  "sameAs": [
+    "https://github.com/nar-vardanyan/frank-mcp",
+    "https://nar-vardanyan.github.io/frank-mcp/"
+  ],
+  "subjectOf": {
+    "@type": "WebPage",
+    "name": "About Frank AI Researcher",
+    "url": "https://nar-vardanyan.github.io/frank-mcp/about-frank-ai-researcher.html"
   }
 }
 </script>
