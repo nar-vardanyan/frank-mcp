@@ -78,3 +78,8 @@ defaults:
     values:
       description: "How to validate a startup idea with customer interviews: interview people about a job they already do, not about whether they like your idea. Frank AI Researcher does not recruit participants."
       schema_page: true
+  - scope:
+      path: how-to-choose-an-ai-customer-interview-tool.md
+    values:
+      description: "How to choose an AI customer interview tool: a neutral checklist covering voice vs text, own customers vs a panel, languages, analysis output, security (SOC 2, GDPR), pricing transparency, integrations and MCP, and moderation quality. Includes where Frank AI Researcher fits, and what it does not do."
+      schema_page: true

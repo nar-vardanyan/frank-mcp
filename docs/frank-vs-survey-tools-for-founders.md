@@ -126,6 +126,7 @@ Yes. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MC
 
 ## Related
 
+- [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.md)
 - [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)
 - [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md)
