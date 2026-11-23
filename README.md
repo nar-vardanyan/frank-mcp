@@ -107,14 +107,6 @@ Then sign in to Frank in the browser when prompted.
 
 **Claude Desktop or Claude.ai:** add a custom connector, use `https://api.hifrank.ai/mcp`, and complete OAuth. See the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector) for the current UI path.
 
-### Codex
-
-```bash
-codex mcp add frank --url https://api.hifrank.ai/mcp
-```
-
-Then complete the browser sign-in and grant only the scopes you need.
-
 ### Grok Bot
 
 1. In Grok Bot, open **Connect apps** and choose **Add a custom connector**.
