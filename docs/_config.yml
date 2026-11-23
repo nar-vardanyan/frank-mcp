@@ -83,3 +83,7 @@ defaults:
     values:
       description: "How to choose an AI customer interview tool: a neutral checklist covering voice vs text, own customers vs a panel, languages, analysis output, security (SOC 2, GDPR), pricing transparency, integrations and MCP, and moderation quality. Includes where Frank AI Researcher fits, and what it does not do."
       schema_page: true
+  - scope:
+      path: about-frank-ai-researcher.md
+    values:
+      description: "About Frank AI Researcher: a voice-first software product that runs AI-moderated voice interviews with your own customers. It is not a person or an academic researcher. Built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai."
