@@ -16,7 +16,7 @@ Typeform knows this: it now offers **Research Flow**, which it describes as an e
 
 | Tool | How it collects feedback | Participants | Starting price (19 Nov 2026) |
 |---|---|---|---|
-| **Frank** | AI-moderated voice interviews with follow-ups; 50+ interview languages ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; your own customers via link or widget | Free: 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews with follow-ups; 50+ interview languages ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; your own customers via link or widget | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
 | **Typeform Research Flow** | Structured questions plus AI-moderated conversations ([Research Flow](https://www.typeform.com/research-flow)) | Verified panel or your own audience ([Research Flow](https://www.typeform.com/research-flow)) | Demo; price not shown |
 | **Koji** | AI-moderated voice and chat interviews, plus phone; "Convert any survey in a click" ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | €79/month for 79 credits; 3 credits per voice interview ([Koji blog](https://www.koji.so/blog/conveo-alternatives-2026)) |
 | **TheySaid** | AI interviews, surveys, forms and polls; voice conversations; 70+ languages ([theysaid.io](https://theysaid.io/)) | Your own users at no cost, or TheySaid's panel ([Pricing](https://www.theysaid.io/pricing)) | Free plan: 5 AI user tests/month; Enterprise custom ([Pricing](https://www.theysaid.io/pricing)) |
@@ -28,7 +28,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: voice interviews instead of a form
 
-Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 

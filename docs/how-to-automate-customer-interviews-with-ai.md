@@ -76,7 +76,7 @@ If you already work in an AI assistant, you can also set up the study and read t
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security), and MCP is included on every plan, including Free.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security), and MCP is included on every plan, including Free.
 
 Frank fits when you want many consistent voice conversations with customers you can already reach. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself.
 
@@ -103,7 +103,7 @@ Long enough for a few open questions with follow-ups, short enough that people f
 Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-automate-customer-interviews-with-ai). Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
 
 ### Is this secure enough for customer conversations?
-Frank is SOC 2 Type II and GDPR compliant. Interviews, transcripts, and insights are encrypted and access-controlled. You still choose who on your team can see the data.
+Frank is SOC 2 and GDPR compliant. Interviews, transcripts, and insights are encrypted and access-controlled. You still choose who on your team can see the data.
 
 ## Related
 

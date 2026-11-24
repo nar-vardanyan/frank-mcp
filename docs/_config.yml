@@ -91,12 +91,12 @@ defaults:
   - scope:
       path: ai-tools-that-interview-customers-for-you.md
     values:
-      description: "An AI tool that interviews customers for you asks your questions, follows up, and returns a transcript and summary. Frank AI Researcher does this by voice with customers you already have. Free plan: 60 voice minutes a month. MCP on every plan."
+      description: "An AI tool that interviews customers for you asks your questions, follows up, and returns a transcript and summary. Frank AI Researcher does this by voice with customers you already have. Free plan: 225 signup credits plus 60 voice minutes a month. MCP on every plan."
       schema_page: true
   - scope:
       path: ai-voice-interviews-for-customer-feedback.md
     values:
-      description: "An AI voice interviewer asks your customers questions out loud, follows up, and produces a transcript and summary. Frank AI Researcher is voice-first and interviews customers you already have. Free plan: 60 voice minutes a month."
+      description: "An AI voice interviewer asks your customers questions out loud, follows up, and produces a transcript and summary. Frank AI Researcher is voice-first and interviews customers you already have. Free plan: 225 signup credits plus 60 voice minutes a month."
       schema_page: true
   - scope:
       path: ai-agent-that-interviews-customers.md
@@ -106,5 +106,5 @@ defaults:
   - scope:
       path: ai-moderated-interviews.md
     values:
-      description: "AI-moderated interviews are customer interviews led by an AI moderator that asks questions, follows up, and produces a transcript and summary. When to use them, when a human moderator is better, and where Frank AI Researcher fits. Free plan: 60 voice minutes a month."
+      description: "AI-moderated interviews are customer interviews led by an AI moderator that asks questions, follows up, and produces a transcript and summary. When to use them, when a human moderator is better, and where Frank AI Researcher fits. Free plan: 225 signup credits plus 60 voice minutes a month."
       schema_page: true

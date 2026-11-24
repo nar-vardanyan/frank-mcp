@@ -1,6 +1,6 @@
 # AI Moderated Interviews: When to Use Them
 
-**In short:** AI-moderated interviews are customer interviews led by an AI moderator that asks questions, follows up, and produces a transcript and summary. They suit structured discovery, churn, or feedback work with your own customers. A human moderator is still better for relationship-heavy or very complex talks. Frank AI Researcher runs these interviews by voice. The Free plan includes 60 voice minutes a month; Starter is $49 a month when billed yearly.
+**In short:** AI-moderated interviews are customer interviews led by an AI moderator that asks questions, follows up, and produces a transcript and summary. They suit structured discovery, churn, or feedback work with your own customers. A human moderator is still better for relationship-heavy or very complex talks. Frank AI Researcher runs these interviews by voice. The Free plan includes 225 signup credits plus 60 voice minutes a month; Starter is $49 a month when billed yearly.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants, and it does not run image or prototype tests. This page explains the method and when to use it. For a buying checklist, see [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.html).
 
@@ -63,7 +63,7 @@ If you already work in an AI assistant, you can also draft the study and read tr
 
 Frank AI Researcher is a fit when you can already reach the people you want to hear from, and you want AI-moderated voice interviews joined from a link or website widget, without a calendar. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
 
-As of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
+As of 24 November 2026 (Asia/Yerevan): the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
 
 Frank is not a fit when you need the vendor to recruit a panel, when you need image or prototype testing, or when you need a live on-camera interview. In those cases, use a tool that publishes those capabilities, and confirm them in a trial.
 
@@ -91,7 +91,7 @@ No. Frank does not recruit participants. You invite people you can already reach
 
 ### What does the Free plan include?
 
-The Free plan includes 60 voice minutes a month, with interviews up to 10 minutes, and no credit card required. MCP is included on every plan, including Free. Starter is $49 a month when billed yearly.
+The Free plan includes 225 signup credits plus 60 voice minutes a month, with interviews up to 10 minutes, and no credit card required. MCP is included on every plan, including Free. Starter is $49 a month when billed yearly.
 
 ## Related
 

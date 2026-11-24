@@ -20,7 +20,7 @@ metadata:
 
 # Customer interviews
 
-Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. It supports 50+ interview languages and is SOC 2 Type II and GDPR compliant. MCP is on every plan, including Free.
+Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. It supports 50+ interview languages and is SOC 2 and GDPR compliant. MCP is on every plan, including Free.
 
 Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -60,7 +60,7 @@ Shape:
 - For each question, a probe the interviewer uses when the answer is thin: what happened next, what they tried, who else decided. Probes stay non-leading.
 - A short close that thanks them and does not pitch.
 
-On the Free plan, interviews are up to 10 minutes (60 voice minutes a month). Paid plans allow longer interviews, including 20 or 30 minutes. Check https://www.hifrank.ai/pricing before you promise a length. Write the guide so a participant can finish inside the plan they are on. When you store that length, `duration` on `edit_research`, `publish_research`, and `get_research` is in minutes. Completed interviews are different: `list_interviews` and `get_interview` return `duration` in seconds. Convert those seconds before you report a length.
+On the Free plan, interviews are up to 10 minutes (225 signup credits plus 60 voice minutes a month). Paid plans allow longer interviews, including 20 or 30 minutes. Check https://www.hifrank.ai/pricing before you promise a length. Write the guide so a participant can finish inside the plan they are on. When you store that length, `duration` on `edit_research`, `publish_research`, and `get_research` is in minutes. Completed interviews are different: `list_interviews` and `get_interview` return `duration` in seconds. Convert those seconds before you report a length.
 
 Show the plan and the full guide in the chat. Wait for the user to confirm the goal and the questions before you create anything in Frank.
 

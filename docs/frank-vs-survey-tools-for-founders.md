@@ -78,11 +78,11 @@ A product-market fit study is a familiar version of this: a survey question can 
 
 Frank AI Researcher runs AI-moderated voice interviews with your own customers. It is a way to get interview-depth answers without scheduling each call. It is not a survey tool, and it does not replace a survey when you need a comparable number.
 
-Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
+Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 
 [MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) is included on every plan, including Free, so you can draft a study and read transcripts from an AI assistant. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Setup is in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 
-As of 23 November 2026 (Asia/Yerevan), the [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) page lists a Free plan with 60 voice minutes a month and a 10-minute maximum interview length, and a Starter plan at $49 a month when billed yearly. MCP is on every plan. Check that page before you buy; plan details change.
+As of 24 November 2026 (Asia/Yerevan), the Free plan includes 225 signup credits plus 60 voice minutes a month (10-minute max per interview), and Starter is $49 a month when billed yearly. MCP is on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). Check that page before you buy; plan details change.
 
 Use Frank when the decision needs "why" from customers you can already invite. Use a survey (or analytics) when the decision needs a comparable number. Use both when you need the reason and the scale.
 

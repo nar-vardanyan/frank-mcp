@@ -176,7 +176,7 @@ Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. 
 Frank returns full transcripts, thematic analysis, sentiment, a Performance tab that groups responses by theme and frequency, Action Items linked to exact quotes, and a chat assistant for asking questions across interviews. Through MCP, an assistant can list interviews and read a transcript with `list_interviews` and `get_interview`.
 
 **Are AI-moderated customer interviews a replacement for surveys?**
-Not completely. Surveys are useful for quick, structured measurement. AI-moderated voice interviews are better when you need to understand why customers buy, churn, or hesitate, because the interviewer can ask follow-up questions. Frank is SOC 2 Type II and GDPR compliant.
+Not completely. Surveys are useful for quick, structured measurement. AI-moderated voice interviews are better when you need to understand why customers buy, churn, or hesitate, because the interviewer can ask follow-up questions. Frank is SOC 2 and GDPR compliant.
 
 ## Privacy and safety
 

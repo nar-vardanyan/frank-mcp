@@ -28,7 +28,7 @@ A popular roundup, Comms Advisor's guide (last updated 7 October 2026), names Zo
 | **Canny** | Product feedback boards | Plans from $0 to enterprise; Free includes unlimited feedback sources and 25 tracked users ([Canny pricing](https://canny.io/pricing)) |
 | **Chattermill** | Analysis of feedback at volume | Pricing by demo ([Chattermill](https://chattermill.com/)) |
 | **Zonka Feedback** | NPS and CSAT surveys | 14-day free trial; no prices on the pricing page we opened ([Zonka](https://www.zonkafeedback.com/pricing)) |
-| **Frank** | Why customers did something, in their own words | Free: 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | Why customers did something, in their own words | Free: 225 signup credits plus 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing)) |
 
 ## Surveys: Typeform, Survicate, Zonka
 
@@ -46,7 +46,7 @@ Chattermill calls itself AI-native voice-of-customer software that unifies surve
 
 Frank runs AI-moderated voice interviews. You share an interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) at the moment that matters, such as a cancellation page or post-onboarding email; customers answer by voice when it suits them; and each interview returns a transcript and themes you can check against the original words. Nielsen Norman Group notes participants can complete AI-moderated interviews at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
-Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -81,7 +81,7 @@ Pick by job. Typeform, Survicate or Zonka Feedback for surveys; Canny for featur
 Nielsen Norman Group describes quantitative questions as how many or how much, and qualitative ones as why something occurs. Surveys measure the first; interviews explain the second.
 
 ### Is there a free customer feedback tool?
-Yes. Canny has a Free plan (25 tracked users), Survicate and Zonka Feedback offer free trials (10 and 14 days), and Frank's Free plan includes 60 voice minutes a month with no credit card, per each company's pricing page.
+Yes. Canny has a Free plan (25 tracked users), Survicate and Zonka Feedback offer free trials (10 and 14 days), and Frank's Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card, per each company's pricing page.
 
 ### Does Frank recruit participants?
 No. Frank does not recruit participants. You invite your own customers by link or website widget.

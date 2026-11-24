@@ -20,7 +20,7 @@ You also don't need hundreds of interviews to learn something. For a fairly simi
 
 | Tool | How interviews run | Recruiting | Starting price (19 Nov 2026) |
 |---|---|---|---|
-| **Frank** | AI-moderated voice interviews from a link or widget; 50+ interview languages ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; you invite your own customers | Free: 60 voice minutes/month, 10-minute max, no credit card. Starter $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews from a link or widget; 50+ interview languages ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; you invite your own customers | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card. Starter $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
 | **Usercall** | AI voice interviews; 50+ languages ([Pricing](https://www.usercall.co/pricing)) | Can recruit for you, or bring your own ([Recruit](https://www.usercall.co/recruit-participants)) | First interview free; Lite $89/month or $899/year, interviews up to 12 minutes ([Pricing](https://www.usercall.co/pricing)) |
 | **User Intuition** | AI-moderated interviews via chat, audio or video ([Pricing](https://www.userintuition.ai/pricing/)) | Your own customers at no extra cost, or a 4M+ vetted panel billed separately ([Pricing](https://www.userintuition.ai/pricing/)) | 3 free quality interviews; then $30 per quality voice interview with your sample, $0/month ([Pricing](https://www.userintuition.ai/pricing/)) |
 | **Koji** | AI interviews by voice, chat or phone; 30+ languages ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | €79/month for 79 credits; a voice interview uses 3 credits ([Koji blog](https://www.koji.so/blog/conveo-alternatives-2026)) |
@@ -33,7 +33,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: best for voice interviews with your own users on a free plan
 
-Frank runs AI-moderated voice interviews with your own customers. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in an onboarding email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and users talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. It is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank runs AI-moderated voice interviews with your own customers. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in an onboarding email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and users talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 The Free plan includes 225 signup credits plus 60 voice minutes a month, interviews up to 10 minutes, sentiment and thematic analysis, and unlimited anonymous viewers, with no credit card. Paid plans have no free trial, and you can cancel anytime; a paid plan runs to the end of the period you've paid for, with no refund for the unused time ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -79,10 +79,10 @@ Frank fits startups that already have users, want to hear from them by voice wit
 ## FAQ
 
 ### What is the best customer interview tool for a startup?
-One you can start free with your own users. For AI-moderated voice interviews, Frank has a Free plan with 60 voice minutes a month. Usercall, User Intuition, Koji and Raconte also publish self-serve prices. For mostly live interviews, Great Question.
+One you can start free with your own users. For AI-moderated voice interviews, Frank has a Free plan with 225 signup credits plus 60 voice minutes a month. Usercall, User Intuition, Koji and Raconte also publish self-serve prices. For mostly live interviews, Great Question.
 
 ### Is there a free customer interview tool?
-Frank's Free plan includes 60 voice minutes a month, no credit card. Raconte offers 60 free minutes a month. Usercall's first interview is free, and User Intuition offers three free quality interviews.
+Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, no credit card. Raconte offers 60 free minutes a month. Usercall's first interview is free, and User Intuition offers three free quality interviews.
 
 ### Do I need a research panel as a startup?
 Only if you have no users to invite. Frank does not recruit participants; Usercall, User Intuition and Koji offer recruiting.

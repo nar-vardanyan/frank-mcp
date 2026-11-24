@@ -20,7 +20,7 @@ People leave an analysis platform for three different reasons, and each points t
 | **Marvin** | Repository plus add-on interviews | Free plan. AI-moderated interviews are in an add-on for paid plans ([Pricing](https://heymarvin.com/pricing), 20 Nov 2026) | Free plan. Paid prices are behind Book a demo or Contact us. Dollar prices are not documented on Marvin's site as of Nov 2026 ([Pricing](https://heymarvin.com/pricing)) |
 | **Looppanel** | Solo and small-team analysis | Transcription and translation in 96+ languages ([Looppanel](https://www.looppanel.com/), 20 Nov 2026). MCP is not documented on the pages opened 20 Nov 2026 | $49 per month, and "Try 15 Days Free" ([Pricing](https://www.looppanel.com/pricing), 20 Nov 2026) |
 | **Great Question** | Broader research suite | AI-moderated interviews are an Enterprise add-on. Recruit your own customers with no per-participant fee ([Pricing](https://www.greatquestion.com/pricing), 20 Nov 2026) | Self-serve $129 per seat per month, or $1,290 per seat per year, up to 5 seats. 14-day trial. No free plan ([Pricing](https://www.greatquestion.com/pricing), 20 Nov 2026) |
-| **Frank AI Researcher** | Collecting new voice interviews | AI-moderated voice interviews with your own customers. Video, WhatsApp and text chat are Coming soon | Free: 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026) |
+| **Frank AI Researcher** | Collecting new voice interviews | AI-moderated voice interviews with your own customers. Video, WhatsApp and text chat are Coming soon | Free: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026) |
 
 ## The repositories
 
@@ -42,7 +42,7 @@ Great Question's pricing page, opened 20 Nov 2026, says you can recruit your own
 
 ## Frank: when the gap is collection
 
-Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant, or keep them in a repository you already use.
 
@@ -72,7 +72,7 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 It depends on the reason. For a lower published starting price, Condens Lite is 15€ per month and Looppanel lists $49 per month. Marvin has a free plan. For a broader suite, Great Question. For collecting new interviews by voice, Frank is a fit.
 
 ### Is there a free alternative to Dovetail?
-Marvin lists a free plan, Condens and Looppanel offer free trials (15 days each), and Frank's Free plan includes 60 voice minutes a month with no credit card. Dovetail offers a 30-day free trial of Gold, per each company's pricing page.
+Marvin lists a free plan, Condens and Looppanel offer free trials (15 days each), and Frank's Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card. Dovetail offers a 30-day free trial of Gold, per each company's pricing page.
 
 ### Is Frank a Dovetail alternative?
 For collection, Frank runs AI-moderated voice interviews and returns transcripts and themes. It is not a repository for calls, tickets and reviews. Many teams use Frank to collect and a repository to organize.

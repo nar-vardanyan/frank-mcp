@@ -1,8 +1,8 @@
 # AI Customer Interview Tool with a Free Plan: What to Check
 
-**In short:** Frank AI Researcher has a free plan with 60 voice minutes a month and interviews up to 10 minutes long, with no credit card required. Before you pick any free AI interview tool, check how many interview minutes you get, the maximum interview length, whether transcripts and analysis are included, and whether you must bring your own participants.
+**In short:** Frank AI Researcher has a free plan with 225 signup credits plus 60 voice minutes a month and interviews up to 10 minutes long, with no credit card required. Before you pick any free AI interview tool, check how many interview minutes you get, the maximum interview length, whether transcripts and analysis are included, and whether you must bring your own participants.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Plan details below were taken from the live [Frank pricing page](https://www.hifrank.ai/pricing) on 19 November 2026 (Asia/Yerevan); check it before you sign up, because plans change. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Plan details below were confirmed on 24 November 2026 (Asia/Yerevan). Check the [Frank pricing page](https://www.hifrank.ai/pricing) before you sign up, because plans change. Frank does not recruit participants.
 
 ## What a free plan should let you do
 
@@ -12,8 +12,9 @@ A small study is enough to judge. For a fairly similar group and a focused quest
 
 ## Checklist: what to compare across free plans
 
-| Check | Why it matters | Frank Free (live pricing, 19 Nov 2026) |
+| Check | Why it matters | Frank Free (confirmed 24 Nov 2026) |
 |---|---|---|
+| Signup credits at signup | Extra allowance when you create an account | 225 signup credits |
 | Interview minutes per month | Caps how many conversations you can run | 60 voice minutes per month |
 | Maximum interview length | Short caps force short guides | 10 minutes per interview |
 | Credit card required | Lowers the risk of trying | No credit card required |
@@ -65,7 +66,7 @@ If you have no customers to invite, the bottleneck is recruiting, not tooling; F
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a link or website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages; how many interviews you can run depends on your plan's minutes. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a link or website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages; how many interviews you can run depends on your plan's minutes. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 **[Start free at hifrank.ai](https://www.hifrank.ai)**, no credit card required · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
 
@@ -75,7 +76,7 @@ Frank runs AI-moderated voice interviews with your own customers. Participants j
 Yes. Frank AI Researcher has a Free plan with 225 signup credits plus 60 voice minutes a month and interviews up to 10 minutes, with no credit card required.
 
 ### How many interviews can I run on Frank's Free plan?
-Up to 60 voice minutes a month, with a 10-minute maximum per interview. That is up to six full-length interviews, more if people finish early.
+The Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum per interview. The monthly minutes cover up to six full-length interviews, more if people finish early.
 
 ### Does the free plan include analysis?
 Yes. Frank's Free plan includes sentiment and thematic analysis, and unlimited anonymous viewers for sharing results.
