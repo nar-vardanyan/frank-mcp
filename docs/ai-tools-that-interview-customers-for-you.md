@@ -20,7 +20,7 @@ Nielsen Norman Group describes AI-moderated interviews as a way to collect struc
 
 ### If you already have customers to talk to
 
-You don't need to pay for recruiting. A link-based tool lets you put the interview in an onboarding email, a cancellation flow or an in-app message. Frank is built for this: customers join from an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk by voice whenever they have time.
+You don't need to pay for recruiting. A link-based tool lets you put the interview in an onboarding email, a cancellation flow or an in-app message. Frank is built for this: customers join from an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk by voice whenever they have time. For more on [whether people talk to an AI interviewer](https://www.hifrank.ai/blog/do-people-talk-to-ai), see Frank's write-up.
 
 ### If you need people you can't reach yourself
 
@@ -41,7 +41,7 @@ Look for design and reporting as well as moderation. With Frank, you can work fr
 ## A simple first study
 
 1. Write one sentence: we will interview [who] to decide [what].
-2. Draft 6 to 8 open questions about recent behavior, with a follow-up for each ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)).
+2. Draft 6 to 8 open questions about recent behavior, with a follow-up for each ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). Example questions by stage are in [what to ask customers at each lifecycle stage](https://www.hifrank.ai/blog/questions-to-ask-customers-at-each-lifecycle-stage).
 3. Take the interview yourself and fix what sounds off.
 4. Invite people who just did the thing you're studying: signed up, cancelled, bought.
 5. Read transcripts as they arrive; stop when new ones add no new themes. For a fairly similar group, that is often within about a dozen ([Guest, Bunce & Johnson, 2006](https://www.sfu.ca/~palys/GuestEtAl-2006-HowManyInterviewsAreEnough.pdf)).

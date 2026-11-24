@@ -27,6 +27,26 @@
         line-height: 1.25;
         border-bottom: 1px solid #eaecef;
       }
+      .docs-signup-cta {
+        margin-top: 2.5rem;
+        padding: 1.25rem 1.25rem 1rem;
+        border: 1px solid #eaecef;
+        border-radius: 6px;
+        background: #f6f8fa;
+      }
+      .docs-signup-cta h2 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0;
+        border-bottom: 0;
+        font-size: 1.25em;
+      }
+      .docs-signup-cta p:last-child {
+        margin-bottom: 0;
+      }
+      .docs-signup-cta-link {
+        font-weight: 600;
+      }
     </style>
     {% include head-custom.html %}
   </head>
@@ -37,6 +57,8 @@
       {% endif %}
 
       {{ content }}
+
+      {% include signup-cta.html %}
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">

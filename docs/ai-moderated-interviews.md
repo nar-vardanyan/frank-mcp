@@ -20,7 +20,7 @@ Frank AI Researcher runs this method by voice. Customers speak; they do not fill
 4. The moderator asks your questions and follows up when an answer is thin.
 5. You read the transcript and check any theme you will act on against exact quotes.
 
-Yes, customers actually talk to the AI moderator. In a Frank interview, that conversation is spoken.
+Yes, customers actually talk to the AI moderator. In a Frank interview, that conversation is spoken. For more on [whether people talk to an AI interviewer](https://www.hifrank.ai/blog/do-people-talk-to-ai?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews), see Frank's write-up.
 
 Nielsen Norman Group describes AI interviewers as a voice that asks questions, and notes that participants can complete the interview at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
@@ -57,7 +57,7 @@ An AI moderator does not replace your judgment.
 - You invite your own customers. Frank does not recruit participants.
 - You check summaries and themes against exact quotes before you act.
 
-If you already work in an AI assistant, you can also draft the study and read transcripts there. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. See [AI agent that interviews customers](ai-agent-that-interviews-customers.html) and [MCP server for customer interviews](mcp-server-for-customer-interviews.html).
+If you already work in an AI assistant, you can also draft the study and read transcripts there. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. See [AI agent that interviews customers](ai-agent-that-interviews-customers.html), [MCP server for customer interviews](mcp-server-for-customer-interviews.html), and [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
 
 ## When Frank is a fit
 
@@ -67,7 +67,7 @@ As of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice minutes a
 
 Frank is not a fit when you need the vendor to recruit a panel, when you need image or prototype testing, or when you need a live on-camera interview. In those cases, use a tool that publishes those capabilities, and confirm them in a trial.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)
 
 ## FAQ
 

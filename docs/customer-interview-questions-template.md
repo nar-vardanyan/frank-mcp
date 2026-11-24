@@ -93,7 +93,7 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 Frank does not recruit participants. The template is useful on a live call too, if you would rather hold the conversation yourself.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template)
 
 ## FAQ
 
