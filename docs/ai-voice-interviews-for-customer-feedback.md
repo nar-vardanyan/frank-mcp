@@ -70,6 +70,8 @@ Group answers into themes, and check each theme you'll act on against exact quot
 - **Participants.** Most tools, Frank included, expect you to bring your own customers.
 - **Agent access.** Can you set up studies and read results from your AI assistant?
 
+When you are [comparing voice interview tools](https://www.hifrank.ai/blog/best-conveo-alternatives), use that list as the scorecard.
+
 ## When AI voice interviews are a poor fit
 
 Nielsen Norman Group lists cases to avoid an AI interviewer: topics that need deep domain knowledge, early exploration of a problem you don't understand, studies where each conversation should take a different path, and anything where people need to show you their screen ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)). For those, run live interviews yourself.

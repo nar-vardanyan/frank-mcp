@@ -53,6 +53,8 @@ As of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice minutes a
 
 In those cases, run the interviews yourself, or use a tool that publishes the capability you actually need. For a buying checklist, see [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.html).
 
+If you are still [comparing AI interview platforms](https://www.hifrank.ai/blog/listen-labs-alternatives) before you connect an assistant, start with whether you can bring your own customers and whether the interviewer is voice-first.
+
 **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers)
 
 ## FAQ

@@ -54,6 +54,8 @@ The hosted tools can draft and edit a study, publish it when you approve, list i
 - Your client cannot do remote MCP with OAuth.
 - You only need a prototype test or a click test, not a voice interview.
 
+If the job you need is [research repository options](https://www.hifrank.ai/blog/marvin-alternatives) for interviews you already ran, that is a different category from an interview MCP server.
+
 ## FAQ
 
 ### What is an MCP server for customer interviews?
