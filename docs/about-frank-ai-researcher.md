@@ -27,7 +27,7 @@ Frank states that it is SOC 2 and [GDPR](https://www.hifrank.ai/features/transpa
 
 Plan details below were checked against standing product facts on 23 November 2026 (Asia/Yerevan). Check the live [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) before you sign up, because plans change.
 
-- **Free:** 60 voice minutes a month. MCP is included.
+- **Free:** 225 signup credits plus 60 voice minutes a month. MCP is included.
 - **Starter:** $49 a month, billed yearly. MCP is included.
 
 [Start free](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=about-frank-ai-researcher), no credit card required.

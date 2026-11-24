@@ -69,7 +69,7 @@ Frank is SOC 2 and GDPR compliant. The [transparency and security page](https://
 
 If a price is not published, you cannot budget a study without a sales call. That is not automatically a reason to reject the tool; it is a fact to plan for.
 
-Frank, as of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice minutes a month, with a 10-minute maximum interview length. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
+Frank, as of 23 November 2026 (Asia/Yerevan): the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
 
 ### 7. Integrations and MCP
 
@@ -149,7 +149,7 @@ No. Frank does not recruit participants, and it does not run image or prototype 
 
 ### What does Frank cost, and what is the MCP server URL?
 
-As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a month. Starter is $49 a month when billed yearly. MCP is included on every plan. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
+As of 24 November 2026 (Asia/Yerevan), the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. MCP is included on every plan. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
 
 ## Related
 

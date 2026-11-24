@@ -2,7 +2,7 @@
 
 This repository holds usage documentation and MCP metadata for the hosted Frank AI Researcher server. The server itself runs at [api.hifrank.ai](https://api.hifrank.ai). There is no server source code in this repository.
 
-Frank is SOC 2 Type II and GDPR compliant. Privacy policy: https://www.hifrank.ai/privacy-policy. Terms of service: https://www.hifrank.ai/terms-of-service.
+Frank is SOC 2 and GDPR compliant. Privacy policy: https://www.hifrank.ai/privacy-policy. Terms of service: https://www.hifrank.ai/terms-of-service.
 
 ## Supported versions
 

@@ -43,7 +43,7 @@ The official registry name is `ai.hifrank/frank`. MCP is included on every plan,
 
 ## What it costs
 
-As of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers).
+As of 24 November 2026 (Asia/Yerevan): the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers).
 
 ## When this is a poor fit
 

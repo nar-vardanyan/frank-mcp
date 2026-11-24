@@ -14,7 +14,7 @@ So the first decision is which evidence you need, not which logo to buy.
 
 | Option | Best for | Evidence it gives you | How buyers are reached | Public price (19 Nov 2026) |
 |---|---|---|---|---|
-| **Frank** | Won and lost buyers you can invite yourself, starting free | AI-moderated voice interviews, transcripts and themes | You invite won and lost buyers by link; Frank does not recruit | Free: 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | Won and lost buyers you can invite yourself, starting free | AI-moderated voice interviews, transcripts and themes | You invite won and lost buyers by link; Frank does not recruit | Free: 225 signup credits plus 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing)) |
 | **Clozd** | Live and AI buyer interviews from one vendor | Live interviews and AI interviews ([clozd.com](https://www.clozd.com/)) | Live or AI interviews; "Book a demo" ([clozd.com](https://www.clozd.com/)) | No price on the homepage; clozd.com/pricing returns 404 (19 Nov) |
 | **Klue Win-Loss** | Human expert interviews plus AI, with competitive intelligence | Human expert interviews by Klue's analyst team, plus an AI Interviewer for short voice conversations with buyers and sellers ([Klue](https://klue.com/win-loss)) | Klue's analyst team or its AI Interviewer; "Get a demo" ([Klue](https://klue.com/win-loss)) | "Get a demo" on the pricing page ([Klue](https://klue.com/pricing)) |
 | **Gong** | Patterns across recorded calls, with no extra outreach | Call and deal analytics (sorted by Sybill as conversation-based, [Sybill](https://www.sybill.ai/blogs/best-win-loss-analysis-software)) | No outreach; uses recorded calls | Licenses priced per user plus a platform fee ([Gong](https://www.gong.io/pricing)) |
@@ -40,7 +40,7 @@ Gong and Sybill analyze what was said on recorded calls across deals ([Sybill's 
 
 ## Where Frank fits
 
-Frank is not a win-loss suite. It is an interviewer: you send won and lost buyers a link, an AI interviewer asks short open questions by voice and follows up on thin answers, and you read transcripts and themes you can check against the buyer's exact words. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 60 voice minutes a month with no credit card, with a 10-minute maximum interview length ([Pricing](https://www.hifrank.ai/pricing)).
+Frank is not a win-loss suite. It is an interviewer: you send won and lost buyers a link, an AI interviewer asks short open questions by voice and follows up on thin answers, and you read transcripts and themes you can check against the buyer's exact words. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card, with a 10-minute maximum interview length ([Pricing](https://www.hifrank.ai/pricing)).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 

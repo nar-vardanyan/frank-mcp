@@ -1,6 +1,6 @@
 # AI Tools That Interview Customers for You
 
-**In short:** An AI tool that interviews customers for you runs the conversation itself: it asks your questions, follows up, and returns a transcript and summary. Frank AI Researcher does this by voice. You send a link to people you already have; an AI moderator asks follow-ups and returns a transcript and summary. You can also connect Frank as an MCP server. The Free plan includes 60 voice minutes per month; Starter is $49/month billed yearly. MCP is on every plan, including Free.
+**In short:** An AI tool that interviews customers for you runs the conversation itself: it asks your questions, follows up, and returns a transcript and summary. Frank AI Researcher does this by voice. You send a link to people you already have; an AI moderator asks follow-ups and returns a transcript and summary. You can also connect Frank as an MCP server. The Free plan includes 225 signup credits plus 60 voice minutes per month; Starter is $49/month billed yearly. MCP is on every plan, including Free.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page explains what that job covers, how to pick a tool, and where Frank fits. Frank does not recruit participants.
 
@@ -48,7 +48,7 @@ Look for design and reporting as well as moderation. With Frank, you can work fr
 
 ## When Frank is a fit
 
-Frank is voice-first: AI-moderated voice interviews with your own customers. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 60 voice minutes a month and no credit card; Starter is $49 a month when billed yearly ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. It is a weaker fit if you need recruiting or on-screen tasks.
+Frank is voice-first: AI-moderated voice interviews with your own customers. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month and no credit card; Starter is $49 a month when billed yearly ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. It is a weaker fit if you need recruiting or on-screen tasks.
 
 If you are [comparing AI interview platforms](https://www.hifrank.ai/blog/listen-labs-alternatives), start with whether you already have customers to invite and whether the tool interviews by voice.
 
@@ -66,7 +66,7 @@ No. Frank does not recruit participants. You invite your own customers by link o
 
 ### What is included on the Free plan?
 
-Frank's Free plan includes 60 voice minutes a month, with interviews up to 10 minutes, and no credit card required. MCP is included on every plan, including Free. Starter is $49 a month when billed yearly.
+Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, with interviews up to 10 minutes, and no credit card required. MCP is included on every plan, including Free. Starter is $49 a month when billed yearly.
 
 ### Can the AI write the interview questions?
 

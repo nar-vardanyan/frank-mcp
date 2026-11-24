@@ -60,7 +60,7 @@ A longer method for the analysis step: [how to analyze conversational data](http
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable interviewer link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states 50+ interview languages. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable interviewer link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states 50+ interview languages. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you want many consistent voice conversations with customers you can already reach. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself.
 
@@ -87,7 +87,7 @@ No. Interviews answer why; surveys answer how many. Nielsen Norman Group places 
 Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-interview-customers-at-scale). Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ### Is this secure enough for customer conversations?
-Frank is SOC 2 Type II and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.
+Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.
 
 ## Related
 

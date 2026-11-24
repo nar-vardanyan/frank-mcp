@@ -89,7 +89,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 
 Frank AI Researcher runs AI-moderated voice interviews with your own customers. You paste a guide, invite people you already have, and read transcripts and themes afterwards. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template) or a website widget, so they do not have to book a call. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template).
+As of 24 November 2026 (Asia/Yerevan), the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template).
 
 Frank does not recruit participants. The template is useful on a live call too, if you would rather hold the conversation yourself.
 
