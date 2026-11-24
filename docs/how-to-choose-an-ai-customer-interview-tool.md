@@ -16,6 +16,8 @@ A longer explainer of the method, including when a human moderator is the better
 
 If you need people you cannot already reach, you need recruiting or a panel. If you need someone to click through a prototype, you need a tool that tests on-screen behavior. If you already have customers and you want to hear why they bought, stalled, or cancelled, a voice interviewer you can share as a link may be enough. If you are choosing questions, [what to ask customers at each lifecycle stage](https://www.hifrank.ai/blog/questions-to-ask-customers-at-each-lifecycle-stage?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) is a starting list.
 
+If you are [switching from a survey suite](https://www.hifrank.ai/blog/qualtrics-alternatives), look at whether the new tool can hold a conversation, not only collect form answers.
+
 ## What the best AI customer interviewers for product discovery depend on
 
 For product discovery, the better interviewer is the one that matches the job, not the one with the longest feature list. Start with whether you already have people to invite, whether you need a prototype test, and whether you can read every theme back to a transcript. Use the checklist below on any tool, including ours. If you are interviewing people about a job they already do, see [How to validate a startup idea with customer interviews](validate-a-startup-idea-with-customer-interviews.md) and [How to run customer interviews](how-to-run-customer-interviews.md).
@@ -104,6 +106,8 @@ Frank is not a fit when:
 - You need a live on-camera interview, or a multi-method platform that also holds surveys, card sorts, and a research repository in one contract.
 
 In those cases, look for a tool that publishes those capabilities, and confirm them in a trial.
+
+If you mainly need [research repository options](https://www.hifrank.ai/blog/marvin-alternatives) for interviews you already ran, that is a different job from an AI interviewer.
 
 **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)
 

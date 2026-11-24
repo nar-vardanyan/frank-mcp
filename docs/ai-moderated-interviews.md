@@ -67,6 +67,8 @@ As of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice minutes a
 
 Frank is not a fit when you need the vendor to recruit a panel, when you need image or prototype testing, or when you need a live on-camera interview. In those cases, use a tool that publishes those capabilities, and confirm them in a trial.
 
+If you are looking at [AI-moderated interview options](https://www.hifrank.ai/blog/strella-alternatives), use the same test: can you already reach the people, and is a human still better for the messy cases?
+
 **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews)
 
 ## FAQ
