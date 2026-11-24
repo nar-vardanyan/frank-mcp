@@ -57,7 +57,7 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 Frank fits when you want consistent voice conversations with customers you can already reach. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself. Frank does not recruit participants.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-get-customer-feedback)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-get-customer-feedback)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-get-customer-feedback)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-get-customer-feedback)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-get-customer-feedback)
 
 ## FAQ
 

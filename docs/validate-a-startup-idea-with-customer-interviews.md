@@ -65,7 +65,7 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 Frank does not recruit participants and does not test prototypes or images. Use it when you can already invite people and you want voice interviews about a job they already do.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=validate-a-startup-idea-with-customer-interviews)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=validate-a-startup-idea-with-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=validate-a-startup-idea-with-customer-interviews)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=validate-a-startup-idea-with-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=validate-a-startup-idea-with-customer-interviews)
 
 ## FAQ
 

@@ -1,0 +1,15 @@
+{% comment %}
+  Shared signup CTA, rendered at the end of every docs page by _layouts/default.html.
+  Campaign slug is the page filename without .md or .html.
+  The docs homepage (README.md, which GitHub Pages publishes as index) uses 'home'.
+{% endcomment %}
+{% assign cta_file = page.name | default: page.path | split: '/' | last %}
+{% assign cta_slug = cta_file | remove: '.md' | remove: '.html' %}
+{% if cta_slug == 'README' or cta_slug == 'index' or cta_slug == '' %}
+  {% assign cta_slug = 'home' %}
+{% endif %}
+<aside class="docs-signup-cta" aria-label="Start on the Free plan">
+  <h2>Start on the Free plan</h2>
+  <p>Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. The Free plan includes 60 voice minutes a month. MCP is included on every plan, including Free.</p>
+  <p><a class="docs-signup-cta-link" href="https://app.hifrank.ai/signup?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign={{ cta_slug }}">Start on the Free plan</a></p>
+</aside>

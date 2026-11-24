@@ -59,7 +59,7 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 Frank fits when you already have users you can invite and you want the "why" behind a PMF score. It is a weaker fit if you have no users yet, or if you only need a form that counts the three answers. Frank does not calculate an official product-market fit score for you; you count the closed answers and read the themes. Frank does not recruit participants.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)
 
 ## FAQ
 

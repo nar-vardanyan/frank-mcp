@@ -14,7 +14,7 @@
 
 A longer explainer of the method, including when a human moderator is the better fit, is in [AI moderated interviews: when to use them](ai-moderated-interviews.md).
 
-If you need people you cannot already reach, you need recruiting or a panel. If you need someone to click through a prototype, you need a tool that tests on-screen behavior. If you already have customers and you want to hear why they bought, stalled, or cancelled, a voice interviewer you can share as a link may be enough.
+If you need people you cannot already reach, you need recruiting or a panel. If you need someone to click through a prototype, you need a tool that tests on-screen behavior. If you already have customers and you want to hear why they bought, stalled, or cancelled, a voice interviewer you can share as a link may be enough. If you are choosing questions, [what to ask customers at each lifecycle stage](https://www.hifrank.ai/blog/questions-to-ask-customers-at-each-lifecycle-stage?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) is a starting list.
 
 ## What the best AI customer interviewers for product discovery depend on
 
@@ -26,7 +26,7 @@ Use these eight questions on any tool, including ours. After each question, a sh
 
 ### 1. Voice or text?
 
-Speaking is a different task from typing, and an on-camera session is a different one again. Some people will say more out loud; others will not join a call with a camera. Ask:
+Speaking is a different task from typing, and an on-camera session is a different one again. Some people will say more out loud; others will not join a call with a camera. For more on [whether people talk to an AI interviewer](https://www.hifrank.ai/blog/do-people-talk-to-ai?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool), see Frank's write-up. Ask:
 
 - Which formats are available today, not on a roadmap?
 - Can the participant switch mid-interview?
@@ -73,7 +73,7 @@ Frank, as of 23 November 2026 (Asia/Yerevan): the Free plan includes 60 voice mi
 
 If your team already works in an AI assistant, ask whether the tool has an MCP server, which plans include it, and which clients are supported.
 
-Frank includes MCP on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. A study created through MCP stays a draft until you approve publishing. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
+Frank includes MCP on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. A study created through MCP stays a draft until you approve publishing. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) and [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
 
 ### 8. Moderation quality
 
@@ -105,7 +105,7 @@ Frank is not a fit when:
 
 In those cases, look for a tool that publishes those capabilities, and confirm them in a trial.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)
 
 ## The best AI tool for customer interviews depends on the job
 

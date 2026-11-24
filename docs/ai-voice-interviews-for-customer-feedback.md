@@ -17,7 +17,7 @@ It is different from:
 
 ## Why voice for customer feedback
 
-Speaking is easier than typing for most people, so open questions get longer, more specific answers. People tell stories out loud that they would never type into a text box: what they were trying to do, what went wrong, what they did next. Those stories are what turn feedback into a decision.
+Speaking is easier than typing for most people, so open questions get longer, more specific answers. People tell stories out loud that they would never type into a text box: what they were trying to do, what went wrong, what they did next. Those stories are what turn feedback into a decision. For more on [whether people talk to an AI interviewer](https://www.hifrank.ai/blog/do-people-talk-to-ai), see Frank's write-up.
 
 The trade-off is control. Nielsen Norman Group found AI interviewers stick to the script and may probe when an answer is short or unclear, or when told to, but don't chase unexpected insights the way a skilled human does. They also can't read facial expressions, so they can't always tell whether someone is still thinking ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
@@ -76,7 +76,7 @@ Nielsen Norman Group lists cases to avoid an AI interviewer: topics that need de
 
 ## When Frank is a fit
 
-Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 60 voice minutes a month; Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 60 voice minutes a month; Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. See [Frank's MCP page](https://www.hifrank.ai/mcp).
 
 **[Try an AI voice interviewer free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
 

@@ -30,7 +30,7 @@ Plan details below were checked against standing product facts on 23 November 20
 - **Free:** 60 voice minutes a month. MCP is included.
 - **Starter:** $49 a month, billed yearly. MCP is included.
 
-[Start free](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher), no credit card required.
+[Start free](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=about-frank-ai-researcher), no credit card required.
 
 ## Official profiles
 
@@ -53,4 +53,4 @@ If a page about "Frank AI Researcher" describes a person, an academic, or a diff
 - [Frank AI Researcher docs]({{ "/" | relative_url }})
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [AI customer interview tool with a free plan](ai-customer-interview-tool-free-plan.md)
-- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) · [Start free](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher)

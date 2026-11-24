@@ -68,7 +68,7 @@ As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a
 
 Frank fits when you want consistent voice conversations with customers you can already reach. Choose a live interview for a relationship conversation or a shared screen. Frank does not recruit participants. If you have no customers to invite yet, a recruiting service or your network is a better first step.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-interviews)** · **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-interviews)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-interviews)
 
 ## FAQ
 

@@ -6,7 +6,7 @@
 
 ## What is an MCP server for customer interviews?
 
-An MCP server for customer interviews lets an AI assistant create and read interview studies through the Model Context Protocol, instead of switching to a separate research app for every step. Frank's server is remote (no local install, no API key to paste). You add `https://api.hifrank.ai/mcp` in a client that supports remote servers with OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256).
+An MCP server for customer interviews lets an AI assistant create and read interview studies through the Model Context Protocol, instead of switching to a separate research app for every step. Frank's server is remote (no local install, no API key to paste). You add `https://api.hifrank.ai/mcp` in a client that supports remote servers with OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). Product-site setup is also on [Frank's MCP page](https://www.hifrank.ai/mcp).
 
 Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
@@ -66,7 +66,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 
 ### Is MCP included on the Free plan?
 
-Yes. MCP is included on every plan, including Free. Official registry name: `ai.hifrank/frank`.
+Yes. MCP is included on every plan, including Free. Official registry name: `ai.hifrank/frank`. Current plan details are on [Frank's pricing page](https://www.hifrank.ai/pricing).
 
 ### Is there an MCP server for user research?
 
