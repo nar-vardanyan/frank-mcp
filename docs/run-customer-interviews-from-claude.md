@@ -28,6 +28,8 @@ Anthropic's steps for an individual Pro or Max plan are: open **Customize > Conn
 4. Sign in to Frank in your browser and approve access. There is no API key.
 5. To check it works, ask: "List my Frank studies."
 
+[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=run-customer-interviews-from-claude)
+
 MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
 Anthropic notes that custom connectors let Claude access and act in services that Anthropic has not verified, so only connect servers you trust; you can revoke access by disconnecting the connector ([Claude Help Center](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp)).
@@ -77,7 +79,7 @@ If you need deep discovery on a messy problem, interview people yourself; Nielse
 
 Frank runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 Type II and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-**[Connect Frank to Claude free at hifrank.ai/mcp](https://www.hifrank.ai/mcp)** · [Pricing](https://www.hifrank.ai/pricing)
+**[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=run-customer-interviews-from-claude)** · [Pricing](https://www.hifrank.ai/pricing)
 
 ## FAQ
 
