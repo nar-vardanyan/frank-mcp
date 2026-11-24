@@ -125,7 +125,7 @@ An exit survey is useful for tallying a category. Interview the people who cance
 
 ### Can I do the same from Claude?
 
-Yes. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. For a discovery-focused Claude walkthrough, see [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md).
+Yes. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp). For a discovery-focused Claude walkthrough, see [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md).
 
 ## Related
 

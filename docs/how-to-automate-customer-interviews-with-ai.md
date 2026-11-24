@@ -100,7 +100,7 @@ Keep going until new interviews stop adding themes. In one widely cited study, s
 Long enough for a few open questions with follow-ups, short enough that people finish. Ten to fifteen minutes covers 6 to 8 questions for many studies. Match the length to your plan: Frank's Free plan allows interviews up to 10 minutes, and paid plans allow 20 or 30.
 
 ### Can I do this from Claude or ChatGPT instead of the Frank dashboard?
-Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
+Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-automate-customer-interviews-with-ai). Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 Type II and GDPR compliant. Interviews, transcripts, and insights are encrypted and access-controlled. You still choose who on your team can see the data.

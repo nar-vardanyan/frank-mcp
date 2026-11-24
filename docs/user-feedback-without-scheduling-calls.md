@@ -81,7 +81,7 @@ No. For most product decisions, invite your own customers: people who recently s
 Keep going until new interviews stop adding themes. In one widely cited study, saturation occurred within the first 12 interviews for a relatively homogeneous group, with the basic elements of themes present as early as 6. Broader questions or mixed audiences often need more.
 
 ### Can I do this from Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=user-feedback-without-scheduling-calls). Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 Type II and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.

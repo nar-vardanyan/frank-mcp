@@ -105,7 +105,7 @@ claude mcp add --transport http frank https://api.hifrank.ai/mcp
 
 Then sign in to Frank in the browser when prompted.
 
-**Claude Desktop or Claude.ai:** add a custom connector, use `https://api.hifrank.ai/mcp`, and complete OAuth. See the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector) for the current UI path.
+**Claude Desktop or Claude.ai:** add a custom connector, use `https://api.hifrank.ai/mcp`, and complete OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=readme). See the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector) for the current UI path.
 
 ### Grok Bot
 

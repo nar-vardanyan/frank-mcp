@@ -96,7 +96,7 @@ Fewer will book a call than will answer a short interview at a time they choose.
 No. Frank does not recruit participants. You invite your own cancelled customers from your product or email list.
 
 ### Can I analyze churn interviews in Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Check any summary against the original quotes before you act.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-find-out-why-customers-churn). Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Check any summary against the original quotes before you act.
 
 ## Related
 

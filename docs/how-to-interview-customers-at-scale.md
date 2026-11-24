@@ -84,7 +84,7 @@ Only if you do not already have people to invite. Frank does not recruit partici
 No. Interviews answer why; surveys answer how many. Nielsen Norman Group places surveys as a quantitative, attitudinal method, and AI-moderated interviews as a way to collect structured qualitative input. Use both when you need the reason and the scale.
 
 ### Can I set this up from Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-interview-customers-at-scale). Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 Type II and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.

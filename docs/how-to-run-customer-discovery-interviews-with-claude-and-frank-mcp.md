@@ -39,6 +39,8 @@ Anthropic's steps for an individual Pro or Max plan are: open **Customize > Conn
 4. Sign in to Frank in your browser and approve access. There is no API key.
 5. To check it works, ask: "List my Frank studies."
 
+[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp)
+
 **Claude Code:**
 
 ```bash
@@ -112,7 +114,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 
 As of 23 November 2026 (Asia/Yerevan), the Free plan includes 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 
-**[Connect Frank to Claude](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp)** · [Product site](https://www.hifrank.ai/?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp)
+**[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp)** · [Product site](https://www.hifrank.ai/?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp)
 
 ## FAQ
 

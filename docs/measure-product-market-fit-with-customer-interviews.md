@@ -49,7 +49,7 @@ After interviews come back:
 
 > From my Frank study, group interviews by how people answered the "no longer use" question. For each group, summarize the main benefit and what is missing, with two exact quotes each.
 
-Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Server URL: `https://api.hifrank.ai/mcp`. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews).
+Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Server URL: `https://api.hifrank.ai/mcp`. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=measure-product-market-fit-with-customer-interviews). Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews).
 
 ## When Frank is a fit
 

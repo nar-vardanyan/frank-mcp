@@ -36,7 +36,7 @@ claude mcp add --transport http frank https://api.hifrank.ai/mcp
 
 Then sign in to Frank in the browser when prompted. After that you can ask Claude Code to draft a study (draft only), list studies, or read a completed transcript. Publishing uses a separate `publish_research` tool and should be approved explicitly, because it makes the study live and spends credits.
 
-For Claude Desktop or Claude.ai, add a custom connector with the same URL. Step-by-step UI paths: [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html) and the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector).
+For Claude Desktop or Claude.ai, add a custom connector with the same URL. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=mcp-server-for-customer-interviews). Step-by-step UI paths: [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html) and the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector).
 
 ## Connect from ChatGPT, Grok, Instinct or Muse
 
