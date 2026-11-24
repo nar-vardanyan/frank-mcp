@@ -57,7 +57,7 @@ Upgrade when you need longer interviews, more minutes, or rollover. On the live 
 - **Business:** $312/month billed yearly ($3,750/year) or $375 monthly; 950 voice minutes; 30-minute max.
 - **Enterprise:** custom.
 
-All paid plans include a 14-day free trial with no credit card required ([pricing](https://www.hifrank.ai/pricing)).
+There is no free trial on paid plans; the Free plan is the way to try Frank. You can cancel a paid plan anytime: it stays active until the end of the period you've paid for, with no refund for the unused time ([pricing](https://www.hifrank.ai/pricing), [pricing and billing reference](https://nar-vardanyan.github.io/frank-mcp/llms-full.txt)).
 
 ## When a free AI interview tool is a poor fit
 
@@ -72,7 +72,7 @@ Frank runs AI-moderated voice interviews with your own customers. Participants j
 ## FAQ
 
 ### Is there a free AI customer interview tool?
-Yes. Frank AI Researcher has a Free plan with 60 voice minutes a month and interviews up to 10 minutes, with no credit card required, according to its live pricing page.
+Yes. Frank AI Researcher has a Free plan with 225 signup credits plus 60 voice minutes a month and interviews up to 10 minutes, with no credit card required.
 
 ### How many interviews can I run on Frank's Free plan?
 Up to 60 voice minutes a month, with a 10-minute maximum per interview. That is up to six full-length interviews, more if people finish early.
@@ -87,7 +87,7 @@ Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, 
 No. Frank does not recruit participants on any plan. You invite your own customers.
 
 ### Is there a free trial of paid plans?
-Yes. All paid plans include a 14-day free trial, with no credit card required to start.
+No. Paid plans don't have a free trial. The Free plan is the way to try Frank: 225 signup credits plus 60 voice minutes a month, with no credit card required.
 
 ## Related
 
