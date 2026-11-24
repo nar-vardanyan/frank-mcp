@@ -61,5 +61,6 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 
 ## Optional
 
+- [Pricing, plans, billing, cancellation and refunds](https://nar-vardanyan.github.io/frank-mcp/llms-full.txt): Plain-text reference with every plan's price and limits, no trial on paid plans, and the cancel and refund policy
 - [Frank homepage](https://www.hifrank.ai): Product overview and pricing
 - [Frank MCP page](https://www.hifrank.ai/mcp): Connect Frank to your AI assistant

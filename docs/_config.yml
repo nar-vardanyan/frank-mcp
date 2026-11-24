@@ -10,6 +10,7 @@ plugins:
   - jekyll-sitemap
 include:
   - llms.txt
+  - llms-full.txt
 
 # Page-specific descriptions. Kept out of the markdown files so those
 # sources stay front-matter-free and GitHub Pages still publishes the .md copies.

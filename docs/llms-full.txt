@@ -1,0 +1,46 @@
+# Frank AI Researcher: pricing, plans, billing, cancellation and refunds
+
+> Frank AI Researcher (https://www.hifrank.ai) runs AI-moderated voice interviews with a team's own customers. This file is the plain-text reference for what Frank costs, what each plan includes, and how billing, cancellation and refunds work. Prices are from https://www.hifrank.ai/pricing (24 November 2026). Plan terms were confirmed by Frank on 24 November 2026. Amounts are in U.S. dollars.
+
+## Pricing and plans
+
+Free: 225 signup credits plus 60 voice minutes a month (10-minute max per interview). No credit card required.
+Included: 60 voice minutes / month (about 6 interviews of up to 10 minutes); 10-minute max interview length; Sentiment & thematic analysis; Video reels compilation (highlight clips of completed interviews, not a video-interview format); Unlimited anonymous viewers.
+
+Starter: $49/mo billed as $590/year, or $59/mo billed monthly.
+Included: 120 voice minutes / month; 20-minute max interview length; Full analytics suite; Average at $0.50/min.
+
+Growth (Most popular): $166/mo billed as $1,990/year, or $199/mo billed monthly.
+Included: 450 voice minutes / month; ~30 interviews (15 min each); 20-minute max interview length; Credit rollovers (30 days); Average at $0.45/min.
+
+Business: $312/mo billed as $3,750/year, or $375/mo billed monthly.
+Included: 950 voice minutes / month; ~63 interviews (15 min each); 30-minute max interview length; Everything in Growth; Average at $0.40/min.
+
+Yearly billing: Save 2 months.
+
+Enterprise: custom minute pools, SSO, API integration, and dedicated support. Book a demo at https://www.hifrank.ai/pricing.
+Students: 50% off after student status is verified.
+
+Credits: 10 credits equals roughly 1 minute of voice interview.
+Unused credits: On Growth and above, unused credits roll over for 30 days. Free and Starter plans reset monthly.
+If minutes are exceeded: You can keep interviewing at the overage rate for your plan. There are no hard caps.
+
+MCP is included on every plan, including Free.
+
+Setup: Connect Frank through MCP at https://api.hifrank.ai/mcp. Approve access once in the browser. There is no API key to paste. Docs: https://www.hifrank.ai/docs/frank-mcp-connector
+
+## Billing, cancellation and refunds
+
+Trial: There is no free trial on paid plans. The Free plan is the way to try Frank.
+
+Cancel: Cancel anytime. Your plan stays active until the end of the period you've paid for, and there's no refund for the unused time.
+
+Plan changes: You can upgrade or downgrade at any time. When upgrading, you get immediate access to new plan features. Downgrades take effect at the next billing cycle.
+
+Refund: Fees are non-refundable except as stated in the Terms of Service, which provide a refund of prepaid fees for the unused part of the term if Frank cannot fix a warranty non-conformity, if Frank ends the affected services because of a third-party infringement claim, or if the customer ends the subscription because of Frank's uncured material breach.
+
+## Links
+
+- Plans and pricing: https://www.hifrank.ai/pricing
+- Terms of Service: https://www.hifrank.ai/terms-of-service
+- MCP connector docs: https://www.hifrank.ai/docs/frank-mcp-connector
