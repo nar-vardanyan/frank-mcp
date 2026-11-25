@@ -108,3 +108,9 @@ defaults:
     values:
       description: "AI-moderated interviews are customer interviews led by an AI moderator that asks questions, follows up, and produces a transcript and summary. When to use them, when a human moderator is better, and where Frank AI Researcher fits. Free plan: 225 signup credits plus 60 voice minutes a month."
       schema_page: true
+
+  - scope:
+      path: churn-interviews.md
+    values:
+      description: "How to find out why customers churn with AI-moderated voice interviews of your own churned customers. Frank AI Researcher by hifrank.ai runs those interviews and returns transcripts and themes. You bring the customers. Free plan: 225 signup credits plus 60 voice minutes a month. MCP on every plan."
+      schema_page: true
