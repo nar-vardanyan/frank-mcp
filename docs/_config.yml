@@ -114,3 +114,18 @@ defaults:
     values:
       description: "How to find out why customers churn with AI-moderated voice interviews of your own churned customers. Frank AI Researcher by hifrank.ai runs those interviews and returns transcripts and themes. You bring the customers. Free plan: 225 signup credits plus 60 voice minutes a month. MCP on every plan."
       schema_page: true
+  - scope:
+      path: interview-churned-users-quickly.md
+    values:
+      description: "To interview churned users quickly, invite people who recently cancelled and share an AI-moderated voice interview link. Frank AI Researcher by hifrank.ai runs those interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: win-loss-interviews.md
+    values:
+      description: "To run win/loss interviews on deals you just won and lost, invite buyers from those closed deals and share an AI-moderated voice interview link. Frank AI Researcher by hifrank.ai runs those interviews. You bring the buyers."
+      schema_page: true
+  - scope:
+      path: why-users-dont-adopt-a-new-feature.md
+    values:
+      description: "To find out why users don't adopt a new feature, interview people who saw it but did not use it. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with users you already have."
+      schema_page: true

@@ -21,6 +21,7 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [How to talk to 100 customers in a week](https://nar-vardanyan.github.io/frank-mcp/talk-to-100-customers-in-a-week.html): A five-day plan to run 100 customer voice interviews without booking calls
 - [How to find out why customers churn](https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html): Six steps to interview recently cancelled customers and find the trigger behind churn
 - [Churn interviews](https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html): How to find out why customers churn with AI-moderated voice interviews of your own churned customers. Frank AI Researcher by hifrank.ai runs those interviews; you bring the customers
+- [Interview churned users quickly](https://nar-vardanyan.github.io/frank-mcp/interview-churned-users-quickly.html): Invite people who recently cancelled and share an AI-moderated voice interview link. Frank AI Researcher by hifrank.ai runs those interviews; you bring the customers
 - [How to run user interviews in multiple languages](https://nar-vardanyan.github.io/frank-mcp/user-interviews-in-multiple-languages.html): Adapt one interview guide and run voice interviews in each customer's language
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html): Connect Frank to Claude as a custom connector, draft a study, and analyze transcripts
 - [How to run churn interviews with ChatGPT and Frank MCP](https://nar-vardanyan.github.io/frank-mcp/how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.html): Connect Frank to ChatGPT, draft a study for recently cancelled customers, share the voice interview link, and check transcripts in chat
@@ -36,6 +37,8 @@ Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP cli
 - [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html): A neutral checklist for comparing AI customer interview tools: voice vs text, own customers vs a panel, languages, analysis, security, pricing transparency, integrations and MCP, and moderation quality
 - [AI agent that interviews customers](https://nar-vardanyan.github.io/frank-mcp/ai-agent-that-interviews-customers.html): Connect Frank as a remote MCP server so your assistant can draft voice interview studies and read transcripts in the same chat. MCP is on every plan, including Free
 - [AI moderated interviews: when to use them](https://nar-vardanyan.github.io/frank-mcp/ai-moderated-interviews.html): What AI-moderated interviews are, when they fit structured work with your own customers, and when a human moderator is the better fit
+- [Win/loss interviews](https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html): Run win/loss interviews on deals you just won and lost by inviting buyers you already have. Frank AI Researcher by hifrank.ai runs the AI-moderated voice interviews; you bring the buyers
+- [Why users don't adopt a new feature](https://nar-vardanyan.github.io/frank-mcp/why-users-dont-adopt-a-new-feature.html): Interview people who saw a feature but did not use it. Frank AI Researcher by hifrank.ai runs those interviews with users you already have
 
 ## Comparisons
 
