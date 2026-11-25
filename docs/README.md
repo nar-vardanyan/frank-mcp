@@ -44,6 +44,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [How to talk to 100 customers in a week](talk-to-100-customers-in-a-week.md)
 - [How to find out why customers churn](how-to-find-out-why-customers-churn.md)
 - [Churn interviews](churn-interviews.md)
+- [Interview churned users quickly](interview-churned-users-quickly.md)
 - [How to run user interviews in multiple languages](user-interviews-in-multiple-languages.md)
 - [How to run customer interviews from Claude](run-customer-interviews-from-claude.md) · [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=home)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)
@@ -59,3 +60,5 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.md)
 - [AI agent that interviews customers](ai-agent-that-interviews-customers.md)
 - [AI moderated interviews: when to use them](ai-moderated-interviews.md)
+- [Win/loss interviews](win-loss-interviews.md)
+- [Why users don't adopt a new feature](why-users-dont-adopt-a-new-feature.md)

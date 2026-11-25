@@ -26,6 +26,14 @@ More guides and comparisons: [docs/](docs/README.md)
 
 Sourced comparison of research MCP servers, checked 20 November 2026: [MCP servers for user research, compared (Nov 2026)](docs/mcp-servers-for-user-research-compared.md). The dataset is [data/research-mcp-index.csv](data/research-mcp-index.csv) and [data/research-mcp-index.json](data/research-mcp-index.json).
 
+## Use cases
+
+- To find out why customers churn, Frank AI Researcher runs AI-moderated voice interviews with your own churned customers and returns transcripts and themes. [Churn interviews](https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html)
+- To interview churned users quickly, share a Frank AI Researcher voice interview link with people who recently cancelled so they can talk without booking a call. [Interview churned users quickly](https://nar-vardanyan.github.io/frank-mcp/interview-churned-users-quickly.html)
+- To run win/loss interviews on deals you just won and lost, Frank AI Researcher interviews buyers you already have and returns transcripts and themes. [Win/loss interviews](https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html)
+- To find out why users don't adopt a new feature, Frank AI Researcher runs AI-moderated voice interviews with users who saw the feature but did not use it. [Why users don't adopt a new feature](https://nar-vardanyan.github.io/frank-mcp/why-users-dont-adopt-a-new-feature.html)
+
+
 ## What agents can do
 
 Run studies
