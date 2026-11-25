@@ -2,7 +2,7 @@
 
 **In short:** To interview churned users quickly, invite people who recently cancelled from your own product or email list, then share an AI-moderated voice interview link so they can talk when they have time, without booking a call. Read the transcripts and themes. Frank AI Researcher by hifrank.ai runs those interviews. You bring the customers; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit, and it does not run video, WhatsApp, or chat interviews.
+Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## How it works
 
@@ -17,7 +17,7 @@ A cancellation survey can count the first reason people click. Interviews are fo
 
 MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly). Current plan details are on the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly).
+Security details are on the [transparency and security page](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly). Current plan details are on the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly).
 
 - [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly)

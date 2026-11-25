@@ -2,7 +2,7 @@
 
 **In short:** To find out why users don't adopt a new feature, interview people who saw it but did not use it. Invite them from your own product or email list and share an AI-moderated voice interview link so they can talk when they have time. Frank AI Researcher by hifrank.ai runs those interviews. You bring the users; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit, and it does not run video, WhatsApp, or chat interviews.
+Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## How it works
 
@@ -17,7 +17,7 @@ Product analytics can show who was exposed to a feature and who used it. Intervi
 
 MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
 
-Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Current plan details are on the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature).
+Security details are on the [transparency and security page](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Current plan details are on the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature).
 
 - [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature)
