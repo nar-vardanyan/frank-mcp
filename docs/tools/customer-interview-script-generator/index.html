@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Interview Script Generator (Free) | Frank AI Researcher docs</title>
+<meta name="description" content="Free customer interview script generator. Enter your product, your customer and your goal (churn, win-loss, onboarding, pricing, feature discovery or product-market fit) and get a ready-to-use interview guide with follow-up probes. No signup.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Customer Interview Script Generator (Free)">
+<meta property="og:description" content="Get a ready-to-use customer interview guide in seconds: intro, warm-up, core questions with probes, wrap-up and tips. Pick churn, win-loss, onboarding, pricing, feature discovery or product-market fit.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Customer Interview Script Generator (Free)">
+<meta name="twitter:description" content="Free interview guide generator for churn, win-loss, onboarding, pricing, feature discovery and product-market fit interviews.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/#app",
+      "name": "Customer Interview Script Generator",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based tool that writes a customer interview guide for churn, win-loss, onboarding, pricing, feature discovery or product-market fit research.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Customer Interview Script Generator", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a customer interview script?",
+          "acceptedAnswer": { "@type": "Answer", "text": "A customer interview script, also called an interview guide, is the plan for one conversation with a customer: how you open, a few warm-up questions, the core questions tied to your research goal, follow-up probes for each one, and how you close. It keeps interviews consistent so you can compare answers across people." }
+        },
+        {
+          "@type": "Question",
+          "name": "How many questions should a customer interview have?",
+          "acceptedAnswer": { "@type": "Answer", "text": "For a 20 to 30 minute interview, plan 6 to 8 core questions and expect to spend most of the time on follow-ups. A short list you can go deep on beats a long list you rush through. This generator lets you pick 15, 30 or 45 minutes and sizes the guide to match." }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I read the script word for word?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Use it as a guide. Keep the core questions the same across interviews so you can compare, but follow the participant's story, skip questions they already answered, and spend time where the answer is surprising." }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a good customer interview question?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Good questions are open, ask about something that already happened, and do not suggest the answer. Ask \"Tell me about the last time you...\" instead of \"Would you use...?\" or \"Do you like...?\". People are better at describing what they did than predicting what they will do." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this generator free? Do I need an account?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is free and needs no account. It runs entirely in your browser, and nothing you type is sent to a server or stored." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an AI run the interview for me?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank AI Researcher runs short AI-moderated voice interviews with your own customers: you share a link, Frank asks your questions out loud, follows up on the answers, and returns transcripts and themes. You can paste the guide from this page into a Frank study. Frank also has a remote MCP server, so you can set studies up from your AI assistant. It works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+  .full { grid-column: 1 / -1; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); }
+  input:focus, select:focus { outline: 2px solid #0969da33; border-color:#0969da; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:16px; align-items:center; }
+  #result { display:none; margin-top: 24px; }
+  #result.show { display:block; }
+  .script { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; }
+  .script h3 { color: var(--accent-dark); }
+  .script ol { padding-left: 22px; }
+  .script li { margin-bottom: 12px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; margin-left: 2px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .cta .btn { margin-top: 4px; }
+  .copied { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  details { border:1px solid var(--line); border-radius:8px; padding: 10px 14px; margin: 10px 0; }
+  summary { cursor:pointer; font-weight:600; }
+  .examples ul { margin-top: 6px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 1.7em; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } #result { display:block; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html">Interview questions template</a>
+  </nav>
+
+  <main>
+    <h1>Customer Interview Script Generator (Free)</h1>
+    <p class="lede">Tell us what you sell, who you want to talk to and what you need to learn. You get a complete interview guide in a few seconds: an intro you can read out, warm-up questions, core questions with follow-up probes, a wrap-up and practical tips. Free, no signup, and it runs in your browser.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="grid">
+        <div class="full">
+          <label for="product">Your product <span class="hint">(what it is, in a few words)</span></label>
+          <input id="product" name="product" maxlength="80" placeholder="e.g. Acme, an invoicing app for freelancers">
+        </div>
+        <div class="full">
+          <label for="customer">Who you will interview <span class="hint">(your target customer)</span></label>
+          <input id="customer" name="customer" maxlength="80" placeholder="e.g. freelance designers who send 5+ invoices a month">
+        </div>
+        <div>
+          <label for="goal">Research goal</label>
+          <select id="goal" name="goal">
+            <option value="churn">Churn: why customers cancel</option>
+            <option value="winloss">Win-loss: why deals are won or lost</option>
+            <option value="onboarding">Onboarding: what blocks new users</option>
+            <option value="pricing">Pricing: how buyers think about value and cost</option>
+            <option value="discovery">Feature discovery: what to build next</option>
+            <option value="pmf">Product-market fit: who loves it and why</option>
+          </select>
+        </div>
+        <div>
+          <label for="length">Interview length</label>
+          <select id="length" name="length">
+            <option value="15">15 minutes</option>
+            <option value="30" selected>30 minutes</option>
+            <option value="45">45 minutes</option>
+          </select>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Generate my interview script</button>
+      </div>
+    </form>
+
+    <section id="result" aria-live="polite">
+      <div class="actions">
+        <button class="btn btn-ghost" type="button" id="copy">Copy script</button>
+        <button class="btn btn-ghost" type="button" id="download">Download .txt</button>
+        <button class="btn btn-ghost" type="button" id="print">Print</button>
+        <span class="copied" id="copied" hidden>Copied</span>
+      </div>
+      <div class="cta">
+        <p><strong>Don't have time to run 10 of these calls?</strong> Run this interview with Frank, an AI user researcher that runs short voice interviews. Share one link with your customers, and Frank asks these questions, follows up on every answer and sends you transcripts and themes.</p>
+        <a class="btn btn-primary" id="cta-result" href="https://hifrank.ai/?utm_source=frank-docs&amp;utm_medium=tool&amp;utm_campaign=script-generator">Run this interview with Frank</a>
+      </div>
+      <article class="script" id="script"></article>
+    </section>
+
+    <div class="seo">
+    <h2>How to use this interview script</h2>
+    <ol>
+      <li><strong>Write down the one decision</strong> this research should change, such as "do we fix onboarding or pricing first?" Cut any question that does not help that decision.</li>
+      <li><strong>Interview people who did the thing recently.</strong> Someone who cancelled last week remembers why. Someone who cancelled last year tells you a story.</li>
+      <li><strong>Keep the core questions the same</strong> across interviews so you can compare answers, but let the conversation follow the person.</li>
+      <li><strong>Spend your time on the probes.</strong> The first answer is usually the polite one. The useful part comes after "Tell me more about that" and "What happened next?"</li>
+      <li><strong>Write up each interview the same day</strong>, then look for patterns after five or six conversations.</li>
+    </ol>
+
+    <h2>What makes a good customer interview question</h2>
+    <ul>
+      <li><strong>Ask about the past, not the future.</strong> "Tell me about the last time you..." gets a real story. "Would you use...?" gets a guess, and usually a polite yes.</li>
+      <li><strong>Keep it open.</strong> Start with what, how, tell me about, or walk me through. Avoid questions that can be answered with yes or no.</li>
+      <li><strong>Don't lead.</strong> "How frustrating was the setup?" assumes it was frustrating. "How did setup go?" does not.</li>
+      <li><strong>Ask one thing at a time.</strong> Double questions get half an answer.</li>
+      <li><strong>Get specific.</strong> When someone says "it was confusing," ask what exactly they were trying to do and what they saw.</li>
+      <li><strong>Get comfortable with silence.</strong> Wait a few seconds after an answer. People often add the most honest part when you don't jump in.</li>
+    </ul>
+
+    <h2>Example questions for each research goal</h2>
+    <div class="examples">
+      <details open>
+        <summary>Churn interview questions</summary>
+        <ul>
+          <li>When did you first start thinking about cancelling? What was happening at the time?</li>
+          <li>What were you hoping the product would do for you when you signed up?</li>
+          <li>What are you using instead now, if anything?</li>
+          <li>What, if anything, would have made you stay?</li>
+        </ul>
+        <p>More on this: <a href="https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html">churn interviews</a>.</p>
+      </details>
+      <details>
+        <summary>Win-loss interview questions</summary>
+        <ul>
+          <li>What made your team start looking for a solution in the first place?</li>
+          <li>Which options did you consider, and how did you narrow them down?</li>
+          <li>Who was involved in the final decision, and what did each person care about?</li>
+          <li>What was the moment you knew which way you were going to go?</li>
+        </ul>
+        <p>More on this: <a href="https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html">win/loss interviews</a>.</p>
+      </details>
+      <details>
+        <summary>Onboarding interview questions</summary>
+        <ul>
+          <li>Walk me through the first day you used the product. What did you do first?</li>
+          <li>Where did you get stuck or have to stop and figure something out?</li>
+          <li>When did it first feel useful, if it did?</li>
+          <li>What did you expect to be able to do that you couldn't?</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Pricing interview questions</summary>
+        <ul>
+          <li>How did you decide this was worth paying for?</li>
+          <li>What were you paying for before, in money or in time?</li>
+          <li>When you looked at the pricing page, what did you look at first?</li>
+          <li>At what point would it start to feel too expensive, and why there?</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Feature discovery interview questions</summary>
+        <ul>
+          <li>Tell me about the last time you tried to get this job done. What did you do, step by step?</li>
+          <li>What's the most annoying part of how you do it today?</li>
+          <li>What have you tried to fix that, and how did it go?</li>
+          <li>If this problem disappeared tomorrow, what would change for you?</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Product-market fit interview questions</summary>
+        <ul>
+          <li>How would you feel if you could no longer use the product? Why?</li>
+          <li>What is the main benefit you get from it?</li>
+          <li>What would you use instead if it disappeared?</li>
+          <li>Who do you think would get the most out of it?</li>
+        </ul>
+        <p>More on this: <a href="https://nar-vardanyan.github.io/frank-mcp/measure-product-market-fit-with-customer-interviews.html">how to measure product-market fit with customer interviews</a>.</p>
+      </details>
+    </div>
+
+    <div class="cta">
+      <p><strong>Run this interview with Frank, an AI user researcher that runs short voice interviews.</strong> You bring the customers and the questions. Frank talks to them by voice, follows up like a good interviewer, and gives you transcripts and themes, so you can hear from 20 customers without booking 20 calls.</p>
+      <a class="btn btn-primary" href="https://hifrank.ai/?utm_source=frank-docs&amp;utm_medium=tool&amp;utm_campaign=script-generator">Try Frank</a>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+    <h3>What is a customer interview script?</h3>
+    <p>A customer interview script, also called an interview guide, is the plan for one conversation with a customer: how you open, a few warm-up questions, the core questions tied to your research goal, follow-up probes for each one, and how you close. It keeps interviews consistent so you can compare answers across people.</p>
+    <h3>How many questions should a customer interview have?</h3>
+    <p>For a 20 to 30 minute interview, plan 6 to 8 core questions and expect to spend most of the time on follow-ups. A short list you can go deep on beats a long list you rush through. This generator lets you pick 15, 30 or 45 minutes and sizes the guide to match.</p>
+    <h3>Should I read the script word for word?</h3>
+    <p>No. Use it as a guide. Keep the core questions the same across interviews so you can compare, but follow the participant's story, skip questions they already answered, and spend time where the answer is surprising.</p>
+    <h3>What makes a good customer interview question?</h3>
+    <p>Good questions are open, ask about something that already happened, and do not suggest the answer. Ask "Tell me about the last time you..." instead of "Would you use...?" or "Do you like...?". People are better at describing what they did than predicting what they will do.</p>
+    <h3>Is this generator free? Do I need an account?</h3>
+    <p>Yes, it is free and needs no account. It runs entirely in your browser, and nothing you type is sent to a server or stored.</p>
+    <h3>Can an AI run the interview for me?</h3>
+    <p>Yes. <a href="https://hifrank.ai/?utm_source=frank-docs&amp;utm_medium=tool&amp;utm_campaign=script-generator">Frank AI Researcher</a> runs short AI-moderated voice interviews with your own customers: you share a link, Frank asks your questions out loud, follows up on the answers, and returns transcripts and themes. You can paste the guide from this page into a Frank study. Frank also has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a>, so you can set studies up from your AI assistant. It works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html">Customer interview questions template</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html">How to find out why customers churn</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/validate-a-startup-idea-with-customer-interviews.html">How to validate a startup idea with customer interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/why-users-dont-adopt-a-new-feature.html">Why users don't adopt a new feature</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-docs&amp;utm_medium=tool&amp;utm_campaign=script-generator">Frank AI Researcher</a>. The questions are starting points: edit them so they sound like you. Nothing you type on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+(function () {
+  var CTA_BASE = "https://hifrank.ai/?utm_source=frank-docs&utm_medium=tool&utm_campaign=script-generator";
+
+  // q: [question, [probes...]]. Core lists are ordered by priority; shorter interviews keep the first N.
+  var G = {
+    churn: {
+      label: "churn",
+      purpose: "understand why people stop using {P}",
+      decision: "what to fix first to keep customers like this",
+      warm: [
+        "To start, tell me a bit about your role and what a normal week looks like for you.",
+        "What were you using {P} for, day to day?"
+      ],
+      core: [
+        ["Think back to when you first signed up for {P}. What was going on that made you look for something like it?", ["What had you tried before?", "What did you hope would be different?"]],
+        ["When did you first start thinking about cancelling? What was happening at the time?", ["Was there a specific moment or event?", "Who else was involved in that decision?"]],
+        ["Walk me through the day you actually cancelled. What did you do, step by step?", ["What almost made you stay?", "How did the cancel process itself feel?"]],
+        ["What did {P} do well for you, even if it wasn't enough?", ["Is there anything you miss now?"]],
+        ["What are you doing instead now?", ["How did you pick that?", "What does it do better, and what is worse?"]],
+        ["If you could go back, what would have needed to be true for you to keep using {P}?", ["Is that something you told anyone at the time?"]],
+        ["How much was price part of the decision, compared with everything else?", ["What would have felt like a fair price for what you were getting?"]],
+        ["Was there anything you expected {P} to do that it never did?", ["Where did that expectation come from?"]],
+        ["Is there anything we didn't ask about that would help us understand why you left?", ["Who else should we talk to?"]]
+      ],
+      tips: [
+        "Talk to people within a few weeks of cancelling. Memory of the real reason fades fast and gets replaced by a tidy story.",
+        "\"Too expensive\" is often a proxy for \"not enough value.\" Ask what they would have needed to get for that price.",
+        "Don't defend the product or explain features. If they missed something, write it down and move on.",
+        "Separate the trigger (the moment they started looking) from the reason (why they were open to leaving)."
+      ]
+    },
+    winloss: {
+      label: "win-loss",
+      purpose: "understand how buyers like you choose a solution, and why they did or didn't choose {P}",
+      decision: "what to change in the product, pitch or sales process to win more deals",
+      warm: [
+        "To start, tell me about your role and your team.",
+        "How does your team usually go about buying new tools?"
+      ],
+      core: [
+        ["What made your team start looking for a solution in the first place?", ["Why then, and not six months earlier?", "What would have happened if you did nothing?"]],
+        ["Which options did you look at, and how did you find them?", ["Where did {P} come from on your list?"]],
+        ["How did you narrow the list down?", ["What were the must-haves?", "What ruled options out?"]],
+        ["Who was involved in the decision, and what did each person care about most?", ["Who had the final say?", "Was anyone against the choice you made?"]],
+        ["What was the moment you knew which way you were going to go?", ["What tipped it?"]],
+        ["How did {P} come across during the process, compared with what you expected?", ["What stood out, good or bad?", "Was anything unclear or hard to get an answer on?"]],
+        ["How did price and contract terms affect the decision?", ["Was the budget set before you started, or after?"]],
+        ["Looking back, what would you tell a team about to make the same decision?", ["Would you make the same choice again?"]],
+        ["If you were advising our team, what is the one thing we should change?", ["Anything you think we should keep exactly as it is?"]]
+      ],
+      tips: [
+        "Interview both wins and losses. Wins tell you what to repeat. Losses tell you what to fix.",
+        "Ideally someone outside the sales team runs these calls. Buyers are more honest with a neutral person.",
+        "Talk to buyers within a month of the decision, while the details are still fresh.",
+        "Listen for the buying trigger. It tells marketing when and where to show up."
+      ]
+    },
+    onboarding: {
+      label: "onboarding",
+      purpose: "understand what the first days with {P} are really like",
+      decision: "what to change in the first-run experience so more people get value quickly",
+      warm: [
+        "To start, tell me a bit about your role and what you work on.",
+        "How did you first hear about {P}?"
+      ],
+      core: [
+        ["What were you hoping to get done when you signed up for {P}?", ["What made you try it that week?", "What were you using before?"]],
+        ["Walk me through your first session. What did you do first?", ["What did you expect to see?", "What did you actually see?"]],
+        ["Where did you get stuck or have to stop and figure something out?", ["What did you do to get unstuck?", "Did you ever leave and come back?"]],
+        ["When, if ever, did {P} first feel useful to you?", ["What exactly happened in that moment?", "How long did it take to get there?"]],
+        ["Was there anything you expected to be able to do that you couldn't?", ["Where did that expectation come from?"]],
+        ["Did you need help from anyone, like a teammate, docs or support?", ["How did that go?"]],
+        ["What did you have to set up or bring in before it was worth using?", ["Which part of that felt like a chore?"]],
+        ["If a friend were signing up tomorrow, what would you tell them to do first?", ["What would you tell them to skip?"]],
+        ["Is there anything else about getting started that we should know?", []]
+      ],
+      tips: [
+        "Interview a mix: people who became active, and people who signed up and went quiet. The second group explains most of the drop-off.",
+        "Ask them to share their screen and show you, if the format allows. What people do and what they remember doing often differ.",
+        "Pin down the first moment of value. The goal of onboarding is to get everyone there faster.",
+        "Write down the exact words people use for what they wanted. Those words belong in your onboarding copy."
+      ]
+    },
+    pricing: {
+      label: "pricing",
+      purpose: "understand how people like you think about the value and cost of {P}",
+      decision: "how to package and price {P} so the right customers say yes",
+      warm: [
+        "To start, tell me about your role and who decides on tools in your team.",
+        "What does your team use {P} for today, or what were you looking at it for?"
+      ],
+      core: [
+        ["Before {P}, how were you solving this problem, and what did it cost you in money or time?", ["What else were you paying for in this area?"]],
+        ["How did you decide whether {P} was worth paying for?", ["Who else had to agree?", "What did you compare it against?"]],
+        ["When you looked at our pricing, what did you look at first?", ["What was clear?", "What made you hesitate?"]],
+        ["What part of {P} would you be most upset to lose?", ["What part could you live without?"]],
+        ["How do you think about paying for it: per person, per use, or a flat amount?", ["Why does that feel right for your team?"]],
+        ["At what point would {P} start to feel too expensive? Why there?", ["What would make it feel like a bargain?"]],
+        ["How does the budget for a tool like this get approved where you work?", ["Is there a number above which it needs extra sign-off?"]],
+        ["Have you ever downgraded or cancelled a tool because of price? What happened?", ["What would have kept you?"]],
+        ["Is there anything about how we charge that we should change?", []]
+      ],
+      tips: [
+        "Don't ask \"How much would you pay?\" People lowball hypothetical prices. Ask what they pay today and how they decided.",
+        "Listen for the unit of value: per seat, per project, per interview, per month. Pricing that matches it feels fair.",
+        "Talk to people who bought, people who didn't, and people who downgraded. Each tells you something different.",
+        "Find out who signs off on the purchase. The user and the buyer are often not the same person."
+      ]
+    },
+    discovery: {
+      label: "feature discovery",
+      purpose: "understand how people get this job done today and where it breaks down",
+      decision: "what to build next for customers like this, and what to leave out",
+      warm: [
+        "To start, tell me about your role and what a normal week looks like.",
+        "What part of your work takes more time than it should?"
+      ],
+      core: [
+        ["Tell me about the last time you had to do this job. What were you trying to get done?", ["When was that?", "What triggered it?"]],
+        ["Walk me through what you did, step by step.", ["What tools did you use?", "Who else was involved?"]],
+        ["Which part took the longest or was the most annoying?", ["Why is that part hard?", "How often does that happen?"]],
+        ["What have you tried to make it easier?", ["What happened?", "Why did you stop, if you did?"]],
+        ["What are you using today, including {P} if you use it? What do you like and what do you work around?", ["Any spreadsheets, scripts or hacks you rely on?"]],
+        ["If this problem disappeared tomorrow, what would change for you?", ["What would you do with the time?"]],
+        ["How do you know when this job was done well?", ["Who notices when it isn't?"]],
+        ["Have you ever paid for something to solve this? What happened?", ["What made it worth it, or not?"]],
+        ["Is there anything about this job we haven't talked about that matters?", ["Who else does this job that we should talk to?"]]
+      ],
+      tips: [
+        "Don't pitch the feature you have in mind. Once people know what you want to hear, they'll often say it.",
+        "Look for workarounds: spreadsheets, scripts, copy and paste. They show where the pain is strong enough to act on.",
+        "Ask how often the problem happens. A painful problem that happens once a year is a weak case for a feature.",
+        "When someone asks for a feature, ask what they would do with it. The goal behind the request is the real insight."
+      ]
+    },
+    pmf: {
+      label: "product-market fit",
+      purpose: "understand who gets the most value from {P} and why",
+      decision: "which customers to focus on and what to double down on",
+      warm: [
+        "To start, tell me about your role and what you work on.",
+        "How long have you been using {P}, and how often?"
+      ],
+      core: [
+        ["How would you feel if you could no longer use {P}? Very disappointed, somewhat disappointed, or not disappointed?", ["Why that answer?", "What would you miss first?"]],
+        ["What is the main benefit you get from {P}?", ["Can you give me a recent example?"]],
+        ["What would you use instead if {P} disappeared?", ["How would that change your work?"]],
+        ["Tell me about the moment {P} first clicked for you.", ["What were you doing when it happened?"]],
+        ["What kind of person do you think would get the most out of {P}?", ["Have you recommended it to anyone? What did you say?"]],
+        ["What would make {P} better for you?", ["What is the one thing you'd change first?"]],
+        ["Is there anything that almost stopped you from using it?", ["How did you get past that?"]],
+        ["How would you describe {P} to a colleague in one sentence?", []],
+        ["Is there anything else you think we should know?", []]
+      ],
+      tips: [
+        "Ask the \"how would you feel\" question to recent, active users, not to everyone who ever signed up.",
+        "Spend most of your time with the people who said \"very disappointed.\" Their reasons describe your product-market fit.",
+        "Pay attention to the exact words people use for the benefit. Reuse them on your homepage.",
+        "Note who would be \"somewhat disappointed\" and what's holding them back. That is often your fastest path to more fit."
+      ]
+    }
+  };
+
+  var COUNTS = { "15": 4, "30": 7, "45": 9 };
+
+  function clean(s) { return (s || "").replace(/\s+/g, " ").trim(); }
+  function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+  function build(product, customer, goalKey, length) {
+    var g = G[goalKey];
+    var P = product || "the product";
+    var C = customer || "your customers";
+    function f(s) { return s.replace(/\{P\}/g, P).replace(/\{C\}/g, C); }
+    var n = COUNTS[length] || 7;
+    var core = g.core.slice(0, n);
+    var title = "Customer interview script: " + g.label + (product ? " for " + product : "");
+    var intro = "Hi, thanks for making time today. I'm [your name], and I'm talking with " + C +
+      " to " + f(g.purpose) + ". This will take about " + length + " minutes. There are no right or wrong answers, and you won't hurt anyone's feelings. Honest is more useful than nice. " +
+      "Is it OK if I record this so I can focus on our conversation? It's only used by our team.";
+    return {
+      title: title,
+      meta: { who: C, goal: g.label, length: length, decision: f(g.decision) },
+      intro: intro,
+      warm: g.warm.map(f),
+      core: core.map(function (q) { return { q: f(q[0]), probes: q[1].map(f) }; }),
+      wrap: [
+        "That's everything I wanted to ask. Is there anything we didn't cover that you think matters?",
+        "If you could change one thing about " + (product ? product : "the product") + " tomorrow, what would it be?",
+        "Is there anyone else you think I should talk to about this?",
+        "Thanks so much. This really helps. Can I follow up with you if I have a quick question later?"
+      ],
+      tips: g.tips.concat([
+        "Use the probes when the first answer is short or general. \"Tell me more\" and \"What happened next?\" work almost everywhere.",
+        "Write up the three most surprising things right after each call, before you talk to the next person."
+      ])
+    };
+  }
+
+  function toHTML(s) {
+    var h = "<h2 style=\"border:0;margin-top:16px\">" + esc(s.title) + "</h2>";
+    h += "<p><strong>Who:</strong> " + esc(s.meta.who) + "<br><strong>Goal:</strong> " + esc(s.meta.goal) +
+      "<br><strong>Length:</strong> about " + esc(s.meta.length) + " minutes<br><strong>Decision this informs:</strong> " + esc(s.meta.decision) + "</p>";
+    h += "<h3>1. Intro (read this out)</h3><p class=\"say\">" + esc(s.intro) + "</p>";
+    h += "<h3>2. Warm-up</h3><ol>" + s.warm.map(function (q) { return "<li>" + esc(q) + "</li>"; }).join("") + "</ol>";
+    h += "<h3>3. Core questions</h3><ol>" + s.core.map(function (c) {
+      return "<li>" + esc(c.q) + c.probes.map(function (p) { return "<span class=\"probe\">Probe: " + esc(p) + "</span>"; }).join("") + "</li>";
+    }).join("") + "</ol>";
+    h += "<h3>4. Wrap-up</h3><ol>" + s.wrap.map(function (q) { return "<li>" + esc(q) + "</li>"; }).join("") + "</ol>";
+    h += "<h3>5. Tips for this interview</h3><ul>" + s.tips.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>";
+    return h;
+  }
+
+  function toText(s) {
+    var L = [];
+    L.push(s.title.toUpperCase(), "");
+    L.push("Who: " + s.meta.who, "Goal: " + s.meta.goal, "Length: about " + s.meta.length + " minutes", "Decision this informs: " + s.meta.decision, "");
+    L.push("1. INTRO (read this out)", s.intro, "");
+    L.push("2. WARM-UP");
+    s.warm.forEach(function (q, i) { L.push((i + 1) + ". " + q); });
+    L.push("", "3. CORE QUESTIONS");
+    s.core.forEach(function (c, i) {
+      L.push((i + 1) + ". " + c.q);
+      c.probes.forEach(function (p) { L.push("   Probe: " + p); });
+    });
+    L.push("", "4. WRAP-UP");
+    s.wrap.forEach(function (q, i) { L.push((i + 1) + ". " + q); });
+    L.push("", "5. TIPS");
+    s.tips.forEach(function (t) { L.push("- " + t); });
+    L.push("", "Run this interview with Frank, an AI user researcher that runs short voice interviews: " + CTA_BASE);
+    return L.join("\n");
+  }
+
+  var current = null;
+  var form = document.getElementById("gen");
+  var out = document.getElementById("script");
+  var result = document.getElementById("result");
+  var copied = document.getElementById("copied");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var goal = document.getElementById("goal").value;
+    current = build(clean(document.getElementById("product").value), clean(document.getElementById("customer").value), goal, document.getElementById("length").value);
+    out.innerHTML = toHTML(current);
+    document.getElementById("cta-result").href = CTA_BASE + "&utm_content=" + goal;
+    result.classList.add("show");
+    copied.hidden = true;
+    result.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  document.getElementById("copy").addEventListener("click", function () {
+    if (!current) return;
+    var text = toText(current);
+    function done() { copied.hidden = false; copied.textContent = "Copied"; }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else { fallback(); }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); done(); } catch (err) { copied.hidden = false; copied.textContent = "Select the text and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+  });
+
+  document.getElementById("download").addEventListener("click", function () {
+    if (!current) return;
+    var blob = new Blob([toText(current)], { type: "text/plain;charset=utf-8" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "customer-interview-script.txt";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  });
+
+  document.getElementById("print").addEventListener("click", function () { window.print(); });
+})();
+</script>
+</body>
+</html>
