@@ -48,7 +48,7 @@ Frank runs AI-moderated voice interviews. You share an interviewer link or a [we
 
 Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
-MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **Weaker fit:** you need scored, comparable numbers, a feedback board, or analysis of existing review and ticket volume. Pair Frank with one of the tools above.
 
@@ -87,7 +87,7 @@ Yes. Canny has a Free plan (25 tracked users), Survicate and Zonka Feedback offe
 No. Frank does not recruit participants. You invite your own customers by link or website widget.
 
 ### Can I connect Frank to ChatGPT or Claude?
-Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## Related
 

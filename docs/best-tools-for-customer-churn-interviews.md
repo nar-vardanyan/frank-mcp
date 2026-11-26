@@ -33,7 +33,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 Put Frank's [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in the cancellation email, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on the cancellation page. Cancelled customers talk with the AI interviewer by voice whenever they have time, and it asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). See [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews).
 
-MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ### 2. User Intuition: pay per quality interview, with researcher support
 
@@ -88,7 +88,7 @@ On the cancellation confirmation page and in the confirmation email, as soon aft
 No. Frank does not recruit participants. You invite your own cancelled customers.
 
 ### Can I analyze churn interviews in ChatGPT or Claude?
-With Frank, yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+With Frank, yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## Related
 

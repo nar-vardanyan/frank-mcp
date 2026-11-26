@@ -57,7 +57,7 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you already have customers to invite and want many consistent voice conversations in days. It is a weaker fit if you need a recruited panel or a live screen-share.
 
@@ -78,7 +78,7 @@ Start with people you already reach: recent sign-ups, active users, recent cance
 Yes, for a few. Keep live calls for messy discovery, high-stakes accounts, or anything where someone needs to show you their screen. Use AI-moderated interviews for the consistent set.
 
 ### Can I run the sprint from my AI assistant?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ## Related
 

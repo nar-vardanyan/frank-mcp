@@ -53,7 +53,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Codex is not in the tested list. Cursor and Gemini CLI can't connect (they require DCR).",
+          "value": "Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Codex is not in that client list. Cursor and Gemini CLI can't connect (they require DCR).",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
           ],

@@ -74,7 +74,7 @@ If very few customers cancel, call them yourself. If the churn question needs de
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. You can put an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in a cancellation email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. You can put an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in a cancellation email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **[Start a churn study free at hifrank.ai](https://www.hifrank.ai)** · [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) · [Pricing](https://www.hifrank.ai/pricing)
 
@@ -96,7 +96,7 @@ Fewer will book a call than will answer a short interview at a time they choose.
 No. Frank does not recruit participants. You invite your own cancelled customers from your product or email list.
 
 ### Can I analyze churn interviews in Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-find-out-why-customers-churn). Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Check any summary against the original quotes before you act.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-find-out-why-customers-churn). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Check any summary against the original quotes before you act.
 
 ## Related
 

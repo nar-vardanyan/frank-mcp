@@ -1,6 +1,6 @@
 # AI Agent That Interviews Customers
 
-**In short:** An AI agent that interviews customers is an assistant that can set up customer interviews and bring the transcripts back into the same chat. Frank AI Researcher is a voice-first product that runs AI-moderated voice interviews with your own customers, and you can connect it as a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
+**In short:** An AI agent that interviews customers is an assistant that can set up customer interviews and bring the transcripts back into the same chat. Frank AI Researcher is a voice-first product that runs AI-moderated voice interviews with your own customers, and you can connect it as a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about using your assistant, through Frank's MCP server, to draft studies and read transcripts. Setup details that change are dated 23 November 2026 (Asia/Yerevan).
 
@@ -37,7 +37,7 @@ The assistant cannot:
 
 ## Which clients work
 
-Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 The official registry name is `ai.hifrank/frank`. MCP is included on every plan, including Free. See [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers). If a client cannot do remote MCP with OAuth, it cannot connect; use a supported client, or set the study up in Frank and share the link yourself. A non-agent path is in [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.html).
 
@@ -65,7 +65,7 @@ It is an assistant that can help you set up customer interviews and read the tra
 
 ### Can I run Frank interviews from ChatGPT, Claude, or Grok?
 
-Yes. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Add `https://api.hifrank.ai/mcp`, sign in, and you can draft a study and later read transcripts in that chat.
+Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Add `https://api.hifrank.ai/mcp`, sign in, and you can draft a study and later read transcripts in that chat.
 
 ### Is MCP included on every Frank plan?
 

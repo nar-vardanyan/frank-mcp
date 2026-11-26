@@ -66,7 +66,7 @@ If you have no customers to invite, the bottleneck is recruiting, not tooling; F
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a link or website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages; how many interviews you can run depends on your plan's minutes. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a link or website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports 50+ interview languages; how many interviews you can run depends on your plan's minutes. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **[Start free at hifrank.ai](https://www.hifrank.ai)**, no credit card required · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
 
@@ -82,7 +82,7 @@ The Free plan includes 225 signup credits plus 60 voice minutes a month, with a 
 Yes. Frank's Free plan includes sentiment and thematic analysis, and unlimited anonymous viewers for sharing results.
 
 ### Can I use Frank's MCP server on the Free plan?
-Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ### Does Frank provide participants on the Free plan?
 No. Frank does not recruit participants on any plan. You invite your own customers.
