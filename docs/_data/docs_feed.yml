@@ -1,5 +1,45 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: Customer interview questions for product managers
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-product-managers.html
+    updated: 2026-11-26T16:00:00Z
+    summary: Why a shipped feature goes unused, what to build next, and time to first value.
+  - title: Customer interview questions for UX researchers
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-ux-researchers.html
+    updated: 2026-11-26T16:00:00Z
+    summary: A recent task, first use, and the context around a workflow.
+  - title: Customer interview questions for founders
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-founders.html
+    updated: 2026-11-26T16:00:00Z
+    summary: A recent problem, early use, and willingness to pay.
+  - title: Customer interview questions for marketers
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-marketers.html
+    updated: 2026-11-26T16:00:00Z
+    summary: Why customers chose you, campaign mismatch, and the words they use.
+  - title: Customer interview questions for customer success teams
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-customer-success-teams.html
+    updated: 2026-11-26T16:00:00Z
+    summary: Account health, onboarding gaps, and renewal risk.
+  - title: Churn interview questions for B2B SaaS
+    url: https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-b2b-saas.html
+    updated: 2026-11-26T16:00:00Z
+    summary: The cancel trigger, who decided, and what would have kept them.
+  - title: Churn interview questions for fintech
+    url: https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-fintech.html
+    updated: 2026-11-26T16:00:00Z
+    summary: Where trust broke, the account close, and fees or verification.
+  - title: Churn interview questions for DTC ecommerce
+    url: https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-dtc-ecommerce.html
+    updated: 2026-11-26T16:00:00Z
+    summary: Subscription cancel, a first order with no return, and returns or delivery.
+  - title: Churn interview questions for consumer mobile apps
+    url: https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-consumer-mobile-apps.html
+    updated: 2026-11-26T16:00:00Z
+    summary: The last session, uninstalls, and in-app subscription cancel.
+  - title: Churn interview questions for edtech
+    url: https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-edtech.html
+    updated: 2026-11-26T16:00:00Z
+    summary: Mid-term drop-off, school non-renewal, and classroom setup.
   - title: Customer interview study templates
     url: https://nar-vardanyan.github.io/frank-mcp/templates/
     updated: 2026-11-26T16:30:00Z

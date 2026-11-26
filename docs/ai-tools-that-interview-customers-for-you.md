@@ -78,6 +78,8 @@ No. Frank is voice-first. It runs voice interviews, not video, WhatsApp, or chat
 
 {% include industry-interview-guides.md %}
 
+{% include role-churn-interview-guides.md %}
+
 ## Related
 
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)

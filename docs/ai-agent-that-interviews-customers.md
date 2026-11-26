@@ -81,6 +81,8 @@ No. A study created through MCP stays a draft until you approve publishing.
 
 {% include industry-interview-guides.md %}
 
+{% include role-churn-interview-guides.md %}
+
 ## Related
 
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.html)

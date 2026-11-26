@@ -31,6 +31,22 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.md): An 8-question guide about the first session, return visits, and why people keep or delete an app.
 - [Customer interview guide generator](tools/customer-interview-guide-generator/): a free, no-login tool that writes an 8-question customer interview guide for a goal and product type.
 
+## Interview questions by role
+
+- [Customer interview questions for product managers](customer-interview-questions-for-product-managers.md): Why a shipped feature goes unused, what to build next, and time to first value.
+- [Customer interview questions for UX researchers](customer-interview-questions-for-ux-researchers.md): A recent task, first use, and the context around a workflow.
+- [Customer interview questions for founders](customer-interview-questions-for-founders.md): A recent problem, early use, and willingness to pay.
+- [Customer interview questions for marketers](customer-interview-questions-for-marketers.md): Why customers chose you, campaign mismatch, and the words they use.
+- [Customer interview questions for customer success teams](customer-interview-questions-for-customer-success-teams.md): Account health, onboarding gaps, and renewal risk.
+
+## Churn interview questions by industry
+
+- [Churn interview questions for B2B SaaS](churn-interview-questions-for-b2b-saas.md): The cancel trigger, who decided, and what would have kept them.
+- [Churn interview questions for fintech](churn-interview-questions-for-fintech.md): Where trust broke, the account close, and fees or verification.
+- [Churn interview questions for DTC ecommerce](churn-interview-questions-for-dtc-ecommerce.md): Subscription cancel, a first order with no return, and returns or delivery.
+- [Churn interview questions for consumer mobile apps](churn-interview-questions-for-consumer-mobile-apps.md): The last session, uninstalls, and in-app subscription cancel.
+- [Churn interview questions for edtech](churn-interview-questions-for-edtech.md): Mid-term drop-off, school non-renewal, and classroom setup.
+
 ## About
 
 - [About Frank AI Researcher](about-frank-ai-researcher.md)
