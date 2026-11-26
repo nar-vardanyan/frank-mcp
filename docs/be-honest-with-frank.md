@@ -1,8 +1,8 @@
 ---
-# Swap this one value for the live interview URL when the study is published.
 # The primary button reads page.study_url. If the value starts with "#",
-# the page also shows a "Link opens soon" note so the placeholder is not a dead button.
-study_url: "#study-link-coming"
+# the page also shows a "Link opens soon" note so a placeholder is not a dead button.
+# Staged pending Editor's confirmation that the study is published and Narek's yes to merge.
+study_url: "https://app.hifrank.ai/research/88ff6d41-ae92-4538-b975-b116e2f47c53/interview?botType=audio&utm_source=frank-mcp-docs&utm_medium=landing&utm_campaign=be-honest-with-frank"
 layout: default
 hide_signup_cta: true
 schema_page: true
@@ -15,7 +15,7 @@ A ten minute voice conversation.
 
 Tell Frank about a product decision you got wrong because you didn't talk to customers. 10 questions, about 10 minutes.
 
-<p class="docs-study-cta-wrap"><a class="docs-study-cta" href="{{ page.study_url }}">Take the ten minute interview</a></p>
+<p class="docs-study-cta-wrap"><a class="docs-study-cta" href="{{ page.study_url | escape }}">Take the ten minute interview</a></p>
 {% assign study_url_prefix = page.study_url | slice: 0, 1 %}
 {% if study_url_prefix == "#" %}
 <p class="docs-study-cta-note">Link opens soon.</p>
@@ -39,6 +39,7 @@ Interviews, transcripts, and related outputs are encrypted in transit and at res
 
 Read the [Privacy Policy](https://www.hifrank.ai/privacy-policy) and the [security overview](https://www.hifrank.ai/features/transparency-security).
 
-## Run this for your own customers
+## Run your own study on Frank
 
-Want to run a similar voice interview with people you already have? [Run this for your own customers](https://www.hifrank.ai/try-frank?utm_source=frank-mcp-docs&utm_medium=study-landing&utm_campaign=be-honest-with-frank). The Free plan includes 60 voice minutes a month, with no card.
+You can run a study like this one with your own customers on Frank. [Run your own study on Frank](https://www.hifrank.ai/try-frank?utm_source=frank-mcp-docs&utm_medium=study-landing&utm_campaign=be-honest-with-frank)
+<!-- free-study terms: pending Narek -->
