@@ -53,6 +53,33 @@
       .docs-signup-cta-link {
         font-weight: 600;
       }
+      .docs-study-cta-wrap {
+        margin: 1.25rem 0 0.5rem;
+      }
+      a.docs-study-cta {
+        display: inline-block;
+        padding: 0.7rem 1.2rem;
+        border-radius: 6px;
+        background: #1f883d;
+        color: #fff !important;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a.docs-study-cta:hover,
+      a.docs-study-cta:focus {
+        background: #1a7f37;
+        text-decoration: none;
+      }
+      .docs-study-cta-note {
+        margin-top: 0.4rem;
+        color: #57606a;
+      }
+      @media (max-width: 600px) {
+        a.docs-study-cta {
+          display: block;
+          text-align: center;
+        }
+      }
     </style>
     {% include head-custom.html %}
   </head>
@@ -64,7 +91,9 @@
 
       {{ content }}
 
+      {% unless page.hide_signup_cta %}
       {% include signup-cta.html %}
+      {% endunless %}
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">

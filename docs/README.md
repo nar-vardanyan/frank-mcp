@@ -51,6 +51,10 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 - [About Frank AI Researcher](about-frank-ai-researcher.md)
 
+## Open studies
+
+- [Be honest with Frank](be-honest-with-frank.md): A 10-minute voice interview.
+
 ## Comparison pages
 
 - [MCP servers for user research, compared (Nov 2026)](mcp-servers-for-user-research-compared.md)
