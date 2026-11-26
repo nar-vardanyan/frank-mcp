@@ -14,7 +14,7 @@ AI now helps with both, but in different products. AI interviewers moderate conv
 
 | Tool | Format | Recruiting | Languages | Public price (19 Nov 2026) |
 |---|---|---|---|---|
-| **Frank** | AI-moderated voice interviews ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; your own customers via link or widget | 50+ interview languages | Free: 225 signup credits plus 60 voice minutes/month, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; your own customers via link or widget | Multilingual interviews | Free: 225 signup credits plus 60 voice minutes/month, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
 | **Listen Labs** | AI moderator with follow-ups; deliverables from highlight reels to slides ([listenlabs.com](https://listenlabs.com/)) | 50M+ participant network, or your own contacts ([listenlabs.com](https://listenlabs.com/)) | 120+ ([listenlabs.com](https://listenlabs.com/)) | Not shown on the homepage |
 | **Outset** | Text, voice, video and voice-to-voice ([Pricing](https://outset.ai/pricing)) | 25+ panel integrations, or your own lists ([Recruit](https://outset.ai/platform/recruit)) | 40+ ([Pricing](https://outset.ai/pricing)) | Custom ([Pricing](https://outset.ai/pricing)) |
 | **Conveo** | AI-led, video-first asynchronous interviews ([Product](https://conveo.ai/product)) | CSV lists, external panels, QR codes; integrated Respondent.io recruiting at typically $6 per participant plus about $1 per interview minute in incentives ([Product FAQ](https://conveo.ai/product)) | "Across languages"; count not stated ([Product](https://conveo.ai/product)) | Platform price not published; "Start for free" offered ([conveo.ai](https://conveo.ai/)) |
@@ -33,7 +33,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### Frank: voice interviews with customers you already have
 
-Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing)). Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing)). Frank supports multilingual interviews.
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant for further analysis.
 

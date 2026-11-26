@@ -78,7 +78,7 @@ Nielsen Norman Group lists cases to avoid an AI interviewer: topics that need de
 
 ## When Frank is a fit
 
-Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month; Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [Frank's MCP page](https://www.hifrank.ai/mcp).
+Frank is voice-first: it runs AI-moderated voice interviews with your own customers. Participants join from a shareable link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. The Free plan includes 225 signup credits plus 60 voice minutes a month; Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [Frank's MCP page](https://www.hifrank.ai/mcp).
 
 **[Try an AI voice interviewer free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
 
@@ -110,7 +110,7 @@ No. Frank is voice-first. It runs voice interviews, not video, WhatsApp, or chat
 
 ### Is it secure?
 
-Frank is SOC 2 and GDPR compliant.
+Frank's [transparency and security page](https://www.hifrank.ai/features/transparency-security) states AES-256 encryption at rest and TLS 1.2+ in transit.
 
 ### Does Frank find customers to interview?
 

@@ -13,7 +13,7 @@ Early product work tends to produce two kinds of questions:
 
 Survey tools are built for the first kind. An interview is built for the second. Nielsen Norman Group places surveys, among common UX methods, as the one that is both quantitative and attitudinal: a good fit for questions like "what percentage of users feel confident after filing?", and a poor fit for questions like "why are people abandoning the cart?" ([Should You Run a Survey?](https://www.nngroup.com/articles/should-you-run-a-survey/)).
 
-If you cannot say how a finding would change a decision — a pricing change, an onboarding step, a feature you will or will not build — tighten the question before you pick a tool.
+If you cannot say how a finding would change a decision (a pricing change, an onboarding step, a feature you will or will not build), tighten the question before you pick a tool.
 
 ## Survey tools vs AI-moderated voice interviews
 
@@ -78,7 +78,7 @@ A product-market fit study is a familiar version of this: a survey question can 
 
 Frank AI Researcher runs AI-moderated voice interviews with your own customers. It is a way to get interview-depth answers without scheduling each call. It is not a survey tool, and it does not replace a survey when you need a comparable number.
 
-Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
+Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation.
 
 [MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) is included on every plan, including Free, so you can draft a study and read transcripts from an AI assistant. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Setup is in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 

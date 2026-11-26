@@ -61,7 +61,7 @@ If you already work in an AI assistant, you can also draft the study and read tr
 
 ## When Frank is a fit
 
-Frank AI Researcher is a fit when you can already reach the people you want to hear from, and you want AI-moderated voice interviews joined from a link or website widget, without a calendar. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
+Frank AI Researcher is a fit when you can already reach the people you want to hear from, and you want AI-moderated voice interviews joined from a link or website widget, without a calendar. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation.
 
 As of 24 November 2026: the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
 

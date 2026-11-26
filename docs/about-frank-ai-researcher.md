@@ -21,8 +21,6 @@ The source repository for these docs and the MCP metadata is [nar-vardanyan/fran
 
 The MCP page is [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher). The MCP endpoint is `https://api.hifrank.ai/mcp`.
 
-Frank states that it is SOC 2 and [GDPR](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) compliant.
-
 ## Plans
 
 Plan details below were checked against standing product facts on 23 November 2026. Check the live [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) before you sign up, because plans change.

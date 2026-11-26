@@ -59,7 +59,7 @@ Give Claude the decision, who you can already invite, and the job those people a
 
 A good guide has a short spoken welcome that says this is not a sales call, two to four topics, and a probe for each question when the answer is thin: what happened next, what they tried, who else decided. Open questions let people answer in their own words ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). AI interviewers follow the script and probe when answers are short or unclear, or when you told them to ([Nielsen Norman Group, AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)), so the guide deserves a careful read.
 
-If you already ran a product-market fit survey, you can interview a segment from it — for example, people who said they would be disappointed if the product went away — and ask about the work they already do, not about the score they gave.
+If you already ran a product-market fit survey, you can interview a segment from it (for example, people who said they would be disappointed if the product went away) and ask about the work they already do, not about the score they gave.
 
 ## Step 3: Review, test, and approve
 
@@ -73,7 +73,7 @@ When you are ready, approve publish in your own words. Publishing makes the stud
 
 Share the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) by email, in-app message, or a follow-up after signup, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). Participants talk with the AI interviewer by voice when they have time, so nobody schedules a call.
 
-Frank does not recruit participants. If you do not yet have people you can invite — customers, trial users, a waitlist, or a list you collected yourself — this workflow cannot find them for you. Start with people you can already reach, and be clear in the invite that this is a short voice conversation, not a sales call.
+Frank does not recruit participants. If you do not yet have people you can invite (customers, trial users, a waitlist, or a list you collected yourself), this workflow cannot find them for you. Start with people you can already reach, and be clear in the invite that this is a short voice conversation, not a sales call.
 
 Claude can help write the invite; sending it is still your step, from your own email or product.
 
@@ -110,7 +110,7 @@ If the problem is messy and you do not yet know what to ask, interview a few peo
 
 ## When Frank is a fit
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 

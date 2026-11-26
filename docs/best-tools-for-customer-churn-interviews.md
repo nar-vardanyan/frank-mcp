@@ -18,7 +18,7 @@ Churn interviews are different from other research. The people you need just lef
 
 | Tool | Interview format | Participants | Starting price (19 Nov 2026) |
 |---|---|---|---|
-| **Frank** | AI-moderated voice interviews; 50+ interview languages ([hifrank.ai](https://www.hifrank.ai)) | Your own customers via link or widget; does not recruit | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews; multilingual interviews ([hifrank.ai](https://www.hifrank.ai)) | Your own customers via link or widget; does not recruit | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
 | **User Intuition** | AI-moderated voice, video or chat interviews ([userintuition.ai](https://www.userintuition.ai/)) | Your own customer list at no recruiting cost, or a 4M+ vetted panel ([userintuition.ai](https://www.userintuition.ai/)) | 3 free quality voice interviews; then $30 per quality voice interview with your sample, no monthly fee ([Pricing](https://www.userintuition.ai/pricing/)) |
 | **Koji** | AI-moderated voice and chat interviews, plus phone ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | From €1 per qualified interview and €3 per qualified voice interview, per Koji's own churn roundup ([Koji blog](https://www.koji.so/blog/best-customer-churn-interview-tools-2026)) |
 | **TheySaid** | AI interviews, surveys and polls; voice conversations; in-app popup widget ([theysaid.io](https://theysaid.io/)) | Your own users at no cost, or TheySaid's panel ([Pricing](https://www.theysaid.io/pricing)) | Free plan; Enterprise custom ([Pricing](https://www.theysaid.io/pricing)) |
@@ -31,7 +31,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: voice churn interviews from your cancel flow
 
-Put Frank's [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in the cancellation email, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on the cancellation page. Cancelled customers talk with the AI interviewer by voice whenever they have time, and it asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). See [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews).
+Put Frank's [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in the cancellation email, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on the cancellation page. Cancelled customers talk with the AI interviewer by voice whenever they have time, and it asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. See [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 

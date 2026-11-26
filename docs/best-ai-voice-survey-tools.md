@@ -23,7 +23,7 @@ So voice tends to buy depth, and can cost completion. Two practical lessons foll
 
 | Tool | Type | Languages | Recruiting | Starting price (19 Nov 2026) |
 |---|---|---|---|---|
-| **Frank** | Conversational AI voice interviews ([hifrank.ai](https://www.hifrank.ai)) | 50+ interview languages | Does not recruit; invite your own customers by link or widget | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | Conversational AI voice interviews ([hifrank.ai](https://www.hifrank.ai)) | Multilingual interviews | Does not recruit; invite your own customers by link or widget | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
 | **Voiceform** | Voice and video interviews and surveys; pick voice or video responses, AI follow-ups ([voiceform.com](https://www.voiceform.com/)) | 50 languages ([voiceform.com](https://www.voiceform.com/)) | Share a link, embed, or use Voiceform's pre-vetted respondents ([voiceform.com](https://www.voiceform.com/)) | Lite plan with a free trial: 200 answers/month, 40 AI follow-ups/month, 2:30 per-question recording limit; price not shown in the page text ([Pricing](https://www.voiceform.com/pricing)) |
 | **Raconte** | Conversational AI voice interviews ([raconte.ai](https://raconte.ai/en)) | English or French ([raconte.ai](https://raconte.ai/en)) | Email and link invitations ([Pricing](https://raconte.ai/en/pricing)) | Free: 60 interview minutes/month, no credit card; then $0.12 per minute of active speech ([Pricing](https://raconte.ai/en/pricing)) |
 | **Koji** | AI interviews by voice, chat or phone ([koji.so](https://www.koji.so/)) | 30+ languages ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | €79/month for 79 credits; 3 credits per voice interview ([Koji blog](https://www.koji.so/blog/conveo-alternatives-2026)) |
@@ -35,7 +35,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: conversational voice interviews with your own customers
 
-Frank runs AI-moderated voice interviews: customers open an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews: customers open an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **Choose Frank** when you want real conversations with customers you can reach, starting free. **Weaker fit:** you need a recruited audience, or a long survey with many closed questions.
 
@@ -83,7 +83,7 @@ They get longer answers. One randomized smartphone study found oral answers had 
 Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, no credit card. Raconte offers 60 free minutes a month.
 
 ### Does Frank support video answers?
-Not yet. Frank is voice-first. Video, WhatsApp and chat interviews are Coming soon.
+Frank is voice-first: it runs AI-moderated voice interviews.
 
 ### Does Frank provide respondents?
 No. Frank does not recruit participants. You invite your own customers.

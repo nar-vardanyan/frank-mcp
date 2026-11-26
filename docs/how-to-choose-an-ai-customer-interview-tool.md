@@ -63,7 +63,7 @@ Frank gives every interview a transcript, and groups answers into themes you can
 
 Compare what is written on a live trust or security page, and ask for the report if procurement needs it.
 
-Frank is SOC 2 and GDPR compliant. The [transparency and security page](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) states that data is AES-256 encrypted at rest and TLS 1.2+ in transit, with access controls you manage.
+The [transparency and security page](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) states that data is AES-256 encrypted at rest and TLS 1.2+ in transit, with access controls you manage.
 
 ### 6. Pricing transparency
 

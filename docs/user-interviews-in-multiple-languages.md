@@ -2,7 +2,7 @@
 
 **In short:** To run user interviews in multiple languages, write one core guide, adapt it (not just translate it) for each language with a native speaker, and let people answer in their own language. An AI interviewer can run the conversations in each language without a bilingual moderator, but a native speaker should still check the guide and key quotes.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers in 50+ interview languages. The method below works with human moderators or any AI interviewer; we note where Frank is one option. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers in multiple languages. The method below works with human moderators or any AI interviewer; we note where Frank is one option. Frank does not recruit participants.
 
 ## Why language matters in interviews
 
@@ -62,7 +62,7 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers and supports 50+ interview languages, so one study can reach several markets without hiring a moderator for each. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Video, WhatsApp and chat interviews are Coming soon. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers and supports multilingual interviews, so one study can reach several markets without hiring a moderator for each. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **[Run a multilingual study free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
 
@@ -75,7 +75,7 @@ Write one core guide, adapt it with a native speaker for each language, and let 
 Yes. Nielsen Norman Group lists multilingual interviews without translators as a good use of AI-moderated interviews. Have a native speaker review the guide and check the key quotes.
 
 ### How many languages does Frank support?
-Frank supports 50+ interview languages.
+Frank supports multilingual interviews.
 
 ### Should I translate transcripts before analysis?
 Translate to compare across markets, but check every quote you will act on in the original language. Translations can lose tone and nuance.
