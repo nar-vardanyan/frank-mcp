@@ -46,6 +46,22 @@ Sourced comparison of research MCP servers, checked 20 November 2026: [MCP serve
 - An 8-question guide about install, first success, and switching. [Customer interview questions for developer tools](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-developer-tools.html)
 - An 8-question guide about the first session, return visits, and why people keep or delete an app. [Customer interview questions for consumer mobile apps](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-consumer-mobile-apps.html)
 
+## Interview questions by role
+
+- Why a shipped feature goes unused, what to build next, and time to first value. [Customer interview questions for product managers](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-product-managers.html)
+- A recent task, first use, and the context around a workflow. [Customer interview questions for UX researchers](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-ux-researchers.html)
+- A recent problem, early use, and willingness to pay. [Customer interview questions for founders](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-founders.html)
+- Why customers chose you, campaign mismatch, and the words they use. [Customer interview questions for marketers](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-marketers.html)
+- Account health, onboarding gaps, and renewal risk. [Customer interview questions for customer success teams](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-customer-success-teams.html)
+
+## Churn interview questions by industry
+
+- The cancel trigger, who decided, and what would have kept them. [Churn interview questions for B2B SaaS](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-b2b-saas.html)
+- Where trust broke, the account close, and fees or verification. [Churn interview questions for fintech](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-fintech.html)
+- Subscription cancel, a first order with no return, and returns or delivery. [Churn interview questions for DTC ecommerce](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-dtc-ecommerce.html)
+- The last session, uninstalls, and in-app subscription cancel. [Churn interview questions for consumer mobile apps](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-consumer-mobile-apps.html)
+- Mid-term drop-off, school non-renewal, and classroom setup. [Churn interview questions for edtech](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-edtech.html)
+
 ## What agents can do
 
 Run studies

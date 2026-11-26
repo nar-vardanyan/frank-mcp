@@ -190,6 +190,67 @@ defaults:
       description: "Customer interview questions for consumer mobile apps: an 8-question guide about the first session, return visits, and why people keep or delete an app. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with users you already have."
       schema_page: true
   - scope:
+      path: customer-interview-questions-for-product-managers.md
+    values:
+      seo_title: "Customer Interview Questions for Product Managers (Copy and Use)"
+      description: "Customer interview questions for product managers: why a feature goes unused, what to build next, and time to first value. Frank AI Researcher runs voice interviews with users you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-ux-researchers.md
+    values:
+      seo_title: "Customer Interview Questions for UX Researchers (Copy and Use)"
+      description: "Customer interview questions for UX researchers: a recent task, first use, and context of use. Frank AI Researcher runs AI-moderated voice interviews with people you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-founders.md
+    values:
+      seo_title: "Customer Interview Questions for Founders (Copy and Use)"
+      description: "Customer interview questions for founders: a recent problem, early use, and willingness to pay. Frank AI Researcher runs AI-moderated voice interviews with people you already know."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-marketers.md
+    values:
+      seo_title: "Customer Interview Questions for Marketers (Copy and Use)"
+      description: "Customer interview questions for marketers: why customers chose you, campaign mismatch, and the words they use. Frank AI Researcher runs voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-customer-success-teams.md
+    values:
+      seo_title: "Customer Interview Questions for Customer Success Teams (Copy and Use)"
+      description: "Customer interview questions for customer success teams: account health, onboarding gaps, and renewal risk. Frank AI Researcher runs voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: churn-interview-questions-for-b2b-saas.md
+    values:
+      seo_title: "Churn Interview Questions for B2B SaaS (Copy and Use)"
+      description: "Churn interview questions for B2B SaaS: the cancel trigger, who decided, and what would have kept them. Frank AI Researcher runs voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: churn-interview-questions-for-fintech.md
+    values:
+      seo_title: "Churn Interview Questions for Fintech (Copy and Use)"
+      description: "Churn interview questions for fintech: where trust broke, the account close, and fees or verification. Frank AI Researcher runs voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: churn-interview-questions-for-dtc-ecommerce.md
+    values:
+      seo_title: "Churn Interview Questions for DTC Ecommerce (Copy and Use)"
+      description: "Churn interview questions for DTC ecommerce: subscription cancel, a first order with no return, and returns or delivery. Frank AI Researcher runs voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: churn-interview-questions-for-consumer-mobile-apps.md
+    values:
+      seo_title: "Churn Interview Questions for Consumer Mobile Apps (Copy and Use)"
+      description: "Churn interview questions for consumer mobile apps: the last session, uninstalls, and in-app subscription cancel. Frank AI Researcher runs voice interviews with users you already have."
+      schema_page: true
+  - scope:
+      path: churn-interview-questions-for-edtech.md
+    values:
+      seo_title: "Churn Interview Questions for Edtech (Copy and Use)"
+      description: "Churn interview questions for edtech: mid-term drop-off, school non-renewal, and classroom setup. Frank AI Researcher runs voice interviews with people you already have."
+      schema_page: true
+
+  - scope:
       path: integrations/n8n-churn-interview/README.md
     values:
       description: "n8n workflow template that emails a Frank AI Researcher voice-interview invite after a Stripe subscription ends. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth."
