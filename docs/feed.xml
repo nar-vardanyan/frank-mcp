@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /feed.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Frank AI Researcher docs</title>
+  <subtitle>Guides for AI-moderated voice interviews with your own customers.</subtitle>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html"/>
+  <id>{{ site.url }}{{ site.baseurl }}/feed.xml</id>
+  <author>
+    <name>Frank AI Researcher</name>
+    <uri>https://www.hifrank.ai</uri>
+  </author>
+  <updated>{{ site.data.docs_feed.entries | map: "updated" | sort | last }}</updated>
+{% for entry in site.data.docs_feed.entries %}
+  <entry>
+    <title>{{ entry.title | xml_escape }}</title>
+    <link href="{{ entry.url }}" rel="alternate" type="text/html"/>
+    <id>{{ entry.url }}</id>
+    <updated>{{ entry.updated }}</updated>
+    <summary type="text">{{ entry.summary | xml_escape }}</summary>
+  </entry>
+{% endfor %}
+</feed>

@@ -81,6 +81,8 @@ Yes. Add Frank with `claude mcp add --transport http frank https://api.hifrank.a
 
 No. MCP is included on every plan, including Free.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [AI agent that interviews customers](https://nar-vardanyan.github.io/frank-mcp/ai-agent-that-interviews-customers.html)

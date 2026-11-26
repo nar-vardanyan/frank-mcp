@@ -93,6 +93,8 @@ No. Frank does not recruit participants. You invite people you can already reach
 
 The Free plan includes 225 signup credits plus 60 voice minutes a month, with interviews up to 10 minutes, and no credit card required. MCP is included on every plan, including Free. Starter is $49 a month when billed yearly.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.html)

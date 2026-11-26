@@ -14,7 +14,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Customer Interview Script Generator (free)](tools/customer-interview-script-generator/): enter your product, your customer and your goal (churn, win-loss, onboarding, pricing, feature discovery or product-market fit) and get a ready-to-use interview guide with follow-up probes.
 
 
-## Industry guides
+## Industry interview guides
 
 - [Customer interview questions for Shopify apps](customer-interview-questions-for-shopify-apps.md): An 8-question guide about why merchants install or uninstall a Shopify app.
 - [Customer interview questions for B2B SaaS](customer-interview-questions-for-b2b-saas.md): An 8-question guide about the buying committee and switching.
@@ -26,6 +26,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Customer interview questions for HR tech](customer-interview-questions-for-hr-tech.md): An 8-question guide about admin, manager, and employee workflows.
 - [Customer interview questions for developer tools](customer-interview-questions-for-developer-tools.md): An 8-question guide about install, first success, and switching.
 - [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.md): An 8-question guide about the first session, return visits, and why people keep or delete an app.
+- [Customer interview guide generator](tools/customer-interview-guide-generator/): a free, no-login tool that writes an 8-question customer interview guide for a goal and product type.
 
 ## About
 

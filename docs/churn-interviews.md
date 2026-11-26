@@ -61,6 +61,8 @@ The Free plan includes 225 signup credits plus 60 voice minutes a month, with a 
 
 Yes. Use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [How to find out why customers churn](how-to-find-out-why-customers-churn.html)

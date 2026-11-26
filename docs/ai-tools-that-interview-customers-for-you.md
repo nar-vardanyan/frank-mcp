@@ -76,6 +76,8 @@ Several tools draft guides. With Frank, your AI assistant can draft the study ov
 
 No. Frank is voice-first. It runs voice interviews, not video, WhatsApp, or chat interviews.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)

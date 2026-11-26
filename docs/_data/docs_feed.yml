@@ -1,0 +1,90 @@
+# Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
+entries:
+  - title: Customer interview questions for Shopify apps
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-shopify-apps.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about why merchants install or uninstall a Shopify app.
+  - title: Customer interview questions for B2B SaaS
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-b2b-saas.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about the buying committee and switching.
+  - title: Customer interview questions for fintech
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-fintech.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about trust and money-movement worries.
+  - title: Customer interview questions for healthtech
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-healthtech.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about clinician and patient workflows.
+  - title: Customer interview questions for marketplaces
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-marketplaces.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about supply and demand on both sides.
+  - title: Customer interview questions for edtech
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-edtech.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about classroom and school workflows.
+  - title: Customer interview questions for DTC ecommerce
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-dtc-ecommerce.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about orders, carts, returns, and repeat purchases.
+  - title: Customer interview questions for HR tech
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-hr-tech.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about admin, manager, and employee workflows.
+  - title: Customer interview questions for developer tools
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-developer-tools.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about install, first success, and switching.
+  - title: Customer interview questions for consumer mobile apps
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-consumer-mobile-apps.html
+    updated: 2026-11-26T12:00:00Z
+    summary: An 8-question guide about the first session, return visits, and why people keep or delete an app.
+  - title: Customer interview guide generator
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/
+    updated: 2026-11-26T12:00:00Z
+    summary: A free, no-login tool that writes an 8-question customer interview guide for a goal and product type.
+  - title: Customer interview questions template
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html
+    updated: 2026-11-26T12:00:00Z
+    summary: A copyable list of open customer interview questions, plus short variants for churn, discovery, product-market fit, and win-loss.
+  - title: Churn interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html
+    updated: 2026-11-26T12:00:00Z
+    summary: How to find out why customers churn with AI-moderated voice interviews of your own churned customers.
+  - title: Interview churned users quickly
+    url: https://nar-vardanyan.github.io/frank-mcp/interview-churned-users-quickly.html
+    updated: 2026-11-25T12:00:00Z
+    summary: Invite people who recently cancelled and share an AI-moderated voice interview link.
+  - title: Win/loss interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html
+    updated: 2026-11-25T12:00:00Z
+    summary: Run win/loss interviews on deals you just won and lost by inviting buyers you already have.
+  - title: "Why users don't adopt a new feature"
+    url: https://nar-vardanyan.github.io/frank-mcp/why-users-dont-adopt-a-new-feature.html
+    updated: 2026-11-25T12:00:00Z
+    summary: Interview people who saw a feature but did not use it.
+  - title: "AI moderated interviews: when to use them"
+    url: https://nar-vardanyan.github.io/frank-mcp/ai-moderated-interviews.html
+    updated: 2026-11-26T12:00:00Z
+    summary: What AI-moderated interviews are, when they fit, and when a human moderator is the better fit.
+  - title: AI tools that interview customers for you
+    url: https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html
+    updated: 2026-11-26T12:00:00Z
+    summary: How an AI tool interviews customers for you, and where Frank AI Researcher fits for voice interviews with your own customers.
+  - title: MCP server for customer interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html
+    updated: 2026-11-26T12:00:00Z
+    summary: "Connect Frank's remote MCP server at https://api.hifrank.ai/mcp. MCP is on every plan, including Free."
+  - title: AI voice interviews for customer feedback
+    url: https://nar-vardanyan.github.io/frank-mcp/ai-voice-interviews-for-customer-feedback.html
+    updated: 2026-11-26T12:00:00Z
+    summary: What an AI voice interviewer is, when it fits customer feedback, and how to run one.
+  - title: AI agent that interviews customers
+    url: https://nar-vardanyan.github.io/frank-mcp/ai-agent-that-interviews-customers.html
+    updated: 2026-11-26T12:00:00Z
+    summary: Connect Frank as a remote MCP server so your assistant can draft voice interview studies and read transcripts in the same chat.
+  - title: Frank AI Researcher docs
+    url: https://nar-vardanyan.github.io/frank-mcp/
+    updated: 2026-11-26T12:00:00Z
+    summary: Guides and comparisons for AI-moderated voice interviews, plus how to connect the Frank MCP server.
