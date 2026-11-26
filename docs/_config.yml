@@ -57,7 +57,8 @@ defaults:
   - scope:
       path: how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md
     values:
-      description: "How to run customer discovery interviews with Claude and Frank MCP: connect https://api.hifrank.ai/mcp, draft a non-leading voice guide about a job people already do, and analyze transcripts in Claude. Frank does not recruit participants."
+      description: "Run customer discovery interviews from Claude: draft an open voice guide, share the link with people you can reach, and check each theme against the quotes."
+      seo_title: "AI Customer Discovery Interviews with Claude and Frank MCP"
       schema_page: true
   - scope:
       path: how-to-get-customer-feedback.md
@@ -77,7 +78,8 @@ defaults:
   - scope:
       path: customer-interview-questions-template.md
     values:
-      description: "Customer interview questions template: a copyable list of open questions, plus short variants for churn, discovery, product-market fit, and win-loss. Use it on a live call or in Frank AI Researcher."
+      description: "A copyable customer interview questions template: open questions about a recent event, plus short sets for churned customers, discovery, PMF and win-loss."
+      seo_title: "Customer Interview Questions Template: Copy and Use"
       schema_page: true
   - scope:
       path: validate-a-startup-idea-with-customer-interviews.md
@@ -101,7 +103,8 @@ defaults:
   - scope:
       path: ai-voice-interviews-for-customer-feedback.md
     values:
-      description: "An AI voice interviewer asks your customers questions out loud, follows up, and produces a transcript and summary. Frank AI Researcher is voice-first and interviews customers you already have. Free plan: 225 signup credits plus 60 voice minutes a month."
+      description: "An AI voice interviewer asks your customers open questions out loud, follows up, and returns transcripts and summaries. Free: 60 voice min/mo, no card."
+      seo_title: "AI Voice Interviewer for Customer Feedback (Free Plan)"
       schema_page: true
   - scope:
       path: ai-agent-that-interviews-customers.md
@@ -191,3 +194,41 @@ defaults:
     values:
       description: "n8n workflow template that emails a Frank AI Researcher voice-interview invite after a Stripe subscription ends. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth."
       schema_page: true
+
+  # CTR rewrites, 26 November 2026: search title and meta description
+  # for pages that had no page-specific description.
+  - scope:
+      path: ai-customer-interview-tool-free-plan.md
+    values:
+      seo_title: "Free AI Customer Interview Tool: 60 Voice Min/Mo, No Card"
+      description: "What to check in a free AI customer interview tool: minutes, interview length, transcripts, analysis. Frank AI Researcher: 60 voice min a month, no card."
+  - scope:
+      path: best-ai-qualitative-research-platforms.md
+    values:
+      seo_title: "AI Qualitative Research Platforms Compared (2026)"
+      description: "AI qualitative research platforms compared: tools that run AI-moderated interviews vs tools that analyze data you have. Prices checked; Frank starts free."
+  - scope:
+      path: best-ai-user-interview-tools-2026.md
+    values:
+      seo_title: "AI User Interview Tools Compared (2026): Pricing, Free Plans"
+      description: "AI user interview tools compared on format and published prices. Frank AI Researcher runs voice interviews with users you already have. Free plan, no card."
+  - scope:
+      path: best-tools-for-customer-churn-interviews.md
+    values:
+      seo_title: "Customer Churn Interview Tools Compared (2026 Prices)"
+      description: "Churn interview tools compared on what cancelled customers will use, follow-ups, transcripts and public prices. Frank runs voice churn interviews, free plan."
+  - scope:
+      path: how-to-automate-customer-interviews-with-ai.md
+    values:
+      seo_title: "How to Automate Customer Interviews with AI in 6 Steps"
+      description: "Automate customer interviews with an AI voice interviewer: set up a study, share a link, read transcripts and themes. Free plan: 60 voice min/mo, no card."
+  - scope:
+      path: best-customer-interview-tools-for-startups.md
+    values:
+      seo_title: "Customer Interview Tools for Startups (Free and Low-Cost)"
+      description: "Customer interview tools startups can start free, point at users they already have, and get transcripts from in days. Self-serve prices compared for 2026."
+  - scope:
+      path: how-to-interview-customers-at-scale.md
+    values:
+      seo_title: "How to Interview Customers at Scale with AI Voice Interviews"
+      description: "Interview customers at scale: an AI interviewer runs consistent voice conversations in parallel while you set the questions and check quotes. 5 steps."

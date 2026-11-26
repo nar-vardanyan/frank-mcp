@@ -1,6 +1,7 @@
 {% comment %}
   Same meta tags jekyll-seo-tag 2.8 emits, without its JSON-LD script.
   Used when a page supplies its own WebPage+TechArticle graph.
+  seo_title (set in _config.yml defaults) is the full search title, without the site suffix.
 {% endcomment %}
 {% assign page_title = page.title | default: site.title %}
 {% assign site_title = site.title %}
@@ -9,6 +10,7 @@
 {% else %}
   {% assign html_title = page_title %}
 {% endif %}
+{%- if page.seo_title -%}{%- assign html_title = page.seo_title -%}{%- endif %}
 {% assign meta_description = page.description | default: site.description %}
 <title>{{ html_title | escape }}</title>
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />

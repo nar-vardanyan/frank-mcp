@@ -10,9 +10,14 @@
   The site title is a paragraph so the article heading is the only h1.
   schema_page skips the SEO tag's generic WebPage JSON-LD; those pages
   emit WebPage+TechArticle from head-custom.html instead.
+  seo_title (from _config.yml defaults) replaces the <title> tag only;
+  the H1 and og:title still come from the page heading.
 {% endcomment %}
 {% if page.schema_page %}
 {% include seo-meta.html %}
+{% elsif page.seo_title %}
+    <title>{{ page.seo_title | escape }}</title>
+{% seo title=false %}
 {% else %}
 {% seo %}
 {% endif %}
