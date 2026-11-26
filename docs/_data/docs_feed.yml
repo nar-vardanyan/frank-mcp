@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: Customer interview study templates
+    url: https://nar-vardanyan.github.io/frank-mcp/templates/
+    updated: 2026-11-26T16:30:00Z
+    summary: 30 free customer interview study templates, each with when to use it, who to interview, and an 8-question open interview guide.
   - title: Customer interview cost calculator
     url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/
     updated: 2026-11-26T16:00:00Z

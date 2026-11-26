@@ -43,6 +43,7 @@ Yes. Use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude
 
 ## Related
 
+- [Customer interview study templates: win-loss and sales](templates/?cat=winloss)
 - [Customer interview questions template](customer-interview-questions-template.html)
 - [How to interview customers at scale](how-to-interview-customers-at-scale.html)
 - [How to get user feedback without scheduling calls](user-feedback-without-scheduling-calls.html)

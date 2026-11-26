@@ -12,3 +12,4 @@
 - [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.html)
 - [Customer interview guide generator](tools/customer-interview-guide-generator/)
 - [Customer interview cost calculator](tools/customer-interview-cost-calculator/)
+- [30 customer interview study templates](templates/)
