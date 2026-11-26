@@ -21,6 +21,11 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Customer interview questions for fintech](customer-interview-questions-for-fintech.md): An 8-question guide about trust and money-movement worries.
 - [Customer interview questions for healthtech](customer-interview-questions-for-healthtech.md): An 8-question guide about clinician and patient workflows.
 - [Customer interview questions for marketplaces](customer-interview-questions-for-marketplaces.md): An 8-question guide about supply and demand on both sides.
+- [Customer interview questions for edtech](customer-interview-questions-for-edtech.md): An 8-question guide about classroom and school workflows.
+- [Customer interview questions for DTC ecommerce](customer-interview-questions-for-dtc-ecommerce.md): An 8-question guide about orders, carts, returns, and repeat purchases.
+- [Customer interview questions for HR tech](customer-interview-questions-for-hr-tech.md): An 8-question guide about admin, manager, and employee workflows.
+- [Customer interview questions for developer tools](customer-interview-questions-for-developer-tools.md): An 8-question guide about install, first success, and switching.
+- [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.md): An 8-question guide about the first session, return visits, and why people keep or delete an app.
 
 ## About
 

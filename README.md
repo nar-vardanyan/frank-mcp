@@ -40,6 +40,11 @@ Sourced comparison of research MCP servers, checked 20 November 2026: [MCP serve
 - An 8-question guide about trust and money-movement worries. [Customer interview questions for fintech](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-fintech.html)
 - An 8-question guide about clinician and patient workflows. [Customer interview questions for healthtech](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-healthtech.html)
 - An 8-question guide about supply and demand on both sides. [Customer interview questions for marketplaces](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-marketplaces.html)
+- An 8-question guide about classroom and school workflows. [Customer interview questions for edtech](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-edtech.html)
+- An 8-question guide about orders, carts, returns, and repeat purchases. [Customer interview questions for DTC ecommerce](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-dtc-ecommerce.html)
+- An 8-question guide about admin, manager, and employee workflows. [Customer interview questions for HR tech](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-hr-tech.html)
+- An 8-question guide about install, first success, and switching. [Customer interview questions for developer tools](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-developer-tools.html)
+- An 8-question guide about the first session, return visits, and why people keep or delete an app. [Customer interview questions for consumer mobile apps](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-consumer-mobile-apps.html)
 
 ## What agents can do
 
