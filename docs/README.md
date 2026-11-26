@@ -53,7 +53,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 ## Open studies
 
-- [Be honest with Frank](be-honest-with-frank.md): A 10-minute voice interview.
+- [Be honest with Frank](be-honest-with-frank.md): A ten minute voice conversation.
 
 ## Comparison pages
 
