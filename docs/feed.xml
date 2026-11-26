@@ -14,13 +14,13 @@ sitemap: false
     <name>Frank AI Researcher</name>
     <uri>https://www.hifrank.ai</uri>
   </author>
-  <updated>{{ site.data.docs_feed.entries | map: "updated" | sort | last }}</updated>
+  <updated>{{ site.data.docs_feed.entries | map: "updated" | sort | last | date_to_xmlschema }}</updated>
 {% for entry in site.data.docs_feed.entries %}
   <entry>
     <title>{{ entry.title | xml_escape }}</title>
     <link href="{{ entry.url }}" rel="alternate" type="text/html"/>
     <id>{{ entry.url }}</id>
-    <updated>{{ entry.updated }}</updated>
+    <updated>{{ entry.updated | date_to_xmlschema }}</updated>
     <summary type="text">{{ entry.summary | xml_escape }}</summary>
   </entry>
 {% endfor %}
