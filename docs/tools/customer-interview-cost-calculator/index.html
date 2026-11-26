@@ -455,8 +455,14 @@ if (typeof module !== "undefined" && module.exports) { module.exports = CALC; }
     $("plans-wrap").hidden = false;
 
     var q = CALC.toQuery(raw, planChoice);
+    if (UTM) q += (q ? "&" : "?") + UTM;
     if (window.history && history.replaceState) { try { history.replaceState(null, "", location.pathname + q); } catch (e) {} }
   }
+
+  // Keep incoming utm_* tags in the address bar, and pass utm_source on to the CTA as utm_content.
+  var UTM = location.search.replace(/^\?/, "").split("&").filter(function (x) { return /^utm_[a-z]+=[A-Za-z0-9._-]{1,40}$/.test(x); }).join("&");
+  var src = (UTM.match(/(?:^|&)utm_source=([A-Za-z0-9._-]+)/) || [])[1];
+  if (src) { var cta = $("cta"); cta.href = cta.href + "&utm_content=" + encodeURIComponent(src); }
 
   // Load shared values from the URL, if any.
   var shared = CALC.fromQuery(location.search);
