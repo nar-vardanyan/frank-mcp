@@ -70,7 +70,7 @@ No. Frank AI Researcher does not recruit participants. You invite users from you
 
 ### Can people take the interview on their phone?
 
-Yes. Frank runs AI-moderated voice interviews. You send a link, and people can talk when they have time, including on a phone, without booking a call. Frank does not run video, WhatsApp, or chat interviews.
+Yes. Frank runs AI-moderated voice interviews. You send a link, and people can talk when they have time, including on a phone, without booking a call.
 
 ### Can I run these interviews from ChatGPT or Claude?
 
