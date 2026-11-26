@@ -52,6 +52,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [How to run user interviews in multiple languages](user-interviews-in-multiple-languages.md)
 - [How to run customer interviews from Claude](run-customer-interviews-from-claude.md) · [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=home)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)
+- [How to send a Frank churn interview invite from n8n](integrations/n8n-churn-interview/)
 - [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md)
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [AI voice interviews for customer feedback](ai-voice-interviews-for-customer-feedback.md)

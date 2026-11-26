@@ -1,0 +1,487 @@
+{
+  "name": "Stripe subscription cancelled \u2192 Frank churn interview invite",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "### How it works\nThis workflow helps subscription product teams invite a customer to a short Frank AI Researcher (Frank) voice interview after a Stripe subscription ends. Frank is a voice-first, AI-moderated voice interview product. The Stripe Trigger listens for `customer.subscription.deleted`. A Stripe node then loads the customer so the workflow can read their email. If the customer has no email, the workflow stops. If they do, it sends an invite from your mailbox with the interviewer link you paste into the configuration node. The default path does not call Frank over MCP. An optional branch can look up a published study with Frank's `list_researches` tool after you connect an MCP OAuth2 credential. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Frank MCP has not been validated in n8n.\n\n### Setup\nConnect a Stripe credential (Secret key, and a Signature Secret after you publish the workflow). Connect an SMTP credential for the Send Email node. In Frank, create and publish a churn study, then paste the interviewer link into the configuration node, along with your from-address, company name, and study name. Test in Stripe test mode before going live.\n\n### Customization\nEdit the email subject and body. To invite someone when they cancel at period end, rather than when the subscription actually ends, see the README. The MCP branch is optional: Frank does not offer Dynamic Client Registration, so you need MCP OAuth2 set up as described in the README.",
+        "height": 620,
+        "width": 520,
+        "color": 1
+      },
+      "id": "1a2b3c4d-0001-4000-8000-000000000001",
+      "name": "Overview",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        -200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 1. Detect a subscription that has ended\n\nStripe sends `customer.subscription.deleted` when the subscription actually ends, which may be after a cancel-at-period-end request. The next node loads the customer so the workflow can read their email.",
+        "height": 300,
+        "width": 420,
+        "color": 7
+      },
+      "id": "1a2b3c4d-0002-4000-8000-000000000002",
+      "name": "Section: Stripe",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        0,
+        -220
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 2. Configure the invite and send email\n\nPaste your published Frank interviewer link and sender details here. If the customer has no email, the workflow stops instead of sending a blank invite.",
+        "height": 260,
+        "width": 480,
+        "color": 7
+      },
+      "id": "1a2b3c4d-0003-4000-8000-000000000003",
+      "name": "Section: Configure and send",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        520,
+        -220
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 3. Optional: look up a published study via Frank MCP\n\nOff by default. Needs an MCP OAuth2 credential. Frank does not support Dynamic Client Registration (`POST /oauth/register` returns 404). See the README. This branch only calls `list_researches` (read). It does not create or publish a study.",
+        "height": 280,
+        "width": 460,
+        "color": 7
+      },
+      "id": "1a2b3c4d-0004-4000-8000-000000000004",
+      "name": "Section: Optional MCP",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        520,
+        620
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Replace the interviewer link before you publish\n\nDo not send customers the placeholder URL. Create and publish a churn study in Frank, then paste the interviewer link into the configuration node.",
+        "height": 200,
+        "width": 360,
+        "color": 3
+      },
+      "id": "1a2b3c4d-0005-4000-8000-000000000005",
+      "name": "Warning: paste interviewer link",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        520,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Optional MCP step: needs Frank OAuth\n\nLeave `useFrankMcp` set to false unless you have connected an MCP OAuth2 credential for https://api.hifrank.ai/mcp. Generic OAuth2 is a poor fit (no Resource URL field). See the README.",
+        "height": 200,
+        "width": 360,
+        "color": 3
+      },
+      "id": "1a2b3c4d-0006-4000-8000-000000000006",
+      "name": "Warning: MCP needs OAuth",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1000,
+        620
+      ]
+    },
+    {
+      "parameters": {
+        "events": [
+          "customer.subscription.deleted"
+        ]
+      },
+      "id": "1a2b3c4d-1001-4000-8000-000000000011",
+      "name": "Subscription ended",
+      "type": "n8n-nodes-base.stripeTrigger",
+      "typeVersion": 1,
+      "position": [
+        80,
+        80
+      ],
+      "credentials": {
+        "stripeApi": {
+          "id": "PLACEHOLDER_STRIPE_CREDENTIAL",
+          "name": "Stripe account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "customer",
+        "operation": "get",
+        "customerId": "={{ typeof $json.data.object.customer === 'string' ? $json.data.object.customer : $json.data.object.customer.id }}"
+      },
+      "id": "1a2b3c4d-1002-4000-8000-000000000012",
+      "name": "Get customer email",
+      "type": "n8n-nodes-base.stripe",
+      "typeVersion": 1,
+      "position": [
+        300,
+        80
+      ],
+      "credentials": {
+        "stripeApi": {
+          "id": "PLACEHOLDER_STRIPE_CREDENTIAL",
+          "name": "Stripe account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000001",
+              "name": "interviewLink",
+              "value": "https://PASTE-YOUR-PUBLISHED-FRANK-INTERVIEWER-LINK",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000002",
+              "name": "fromEmail",
+              "value": "YOUR_TEAM <research@example.com>",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000003",
+              "name": "companyName",
+              "value": "YOUR_COMPANY_NAME",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000004",
+              "name": "productName",
+              "value": "YOUR_PRODUCT_NAME",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000005",
+              "name": "studyName",
+              "value": "Subscription cancellation interview",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000006",
+              "name": "useFrankMcp",
+              "value": false,
+              "type": "boolean"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000007",
+              "name": "emailSubject",
+              "value": "A short interview about your experience",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000008",
+              "name": "customerEmail",
+              "value": "={{ $json.email }}",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000009",
+              "name": "customerName",
+              "value": "={{ $json.name || '' }}",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000010",
+              "name": "customerId",
+              "value": "={{ $json.id }}",
+              "type": "string"
+            },
+            {
+              "id": "a0000000-0000-4000-8000-000000000011",
+              "name": "subscriptionId",
+              "value": "={{ $('Subscription ended').item.json.data.object.id }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "1a2b3c4d-1003-4000-8000-000000000013",
+      "name": "Set invite details",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        600,
+        80
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "b0000000-0000-4000-8000-000000000001",
+              "leftValue": "={{ $json.customerEmail }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "1a2b3c4d-1004-4000-8000-000000000014",
+      "name": "Customer has email?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.4,
+      "position": [
+        840,
+        80
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "1a2b3c4d-1005-4000-8000-000000000015",
+      "name": "Skip when email is missing",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "b0000000-0000-4000-8000-000000000002",
+              "leftValue": "={{ $json.useFrankMcp }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "1a2b3c4d-1006-4000-8000-000000000016",
+      "name": "Look up study via Frank MCP?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.4,
+      "position": [
+        1100,
+        80
+      ]
+    },
+    {
+      "parameters": {
+        "serverTransport": "httpStreamable",
+        "endpointUrl": "https://api.hifrank.ai/mcp",
+        "authentication": "mcpOAuth2Api",
+        "tool": {
+          "mode": "id",
+          "value": "list_researches"
+        },
+        "inputMode": "json",
+        "jsonInput": "{}",
+        "options": {
+          "timeout": 60000
+        }
+      },
+      "id": "1a2b3c4d-1007-4000-8000-000000000017",
+      "name": "List Frank studies (optional MCP)",
+      "type": "@n8n/n8n-nodes-langchain.mcpClient",
+      "typeVersion": 1.1,
+      "position": [
+        1360,
+        280
+      ],
+      "onError": "continueRegularOutput",
+      "credentials": {
+        "mcpOAuth2Api": {
+          "id": "PLACEHOLDER_FRANK_MCP_OAUTH",
+          "name": "Frank MCP OAuth2 (optional)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "language": "javaScript",
+        "jsCode": "// Optional helper: try to find an interviewer link in the list_researches\n// MCP output. Frank's exact JSON field names are not hard-coded here.\n// Config and customer fields are read from the Set invite details node,\n// because the MCP Client output replaces the previous item JSON.\nconst mcp = $input.item.json;\nconst cfg = $('Set invite details').item.json;\nconst fallback = typeof cfg.interviewLink === 'string' ? cfg.interviewLink : '';\nconst studyName = String(cfg.studyName || '').trim().toLowerCase();\n\nfunction collect(value, bag, depth) {\n  if (depth > 8 || value == null) return;\n  if (typeof value === 'string') {\n    bag.strings.push(value);\n    const urlRe = /https?:\\/\\/[^\\s\"'<>\\\\)]+/g;\n    const found = value.match(urlRe);\n    if (found) bag.urls.push(...found);\n    return;\n  }\n  if (Array.isArray(value)) {\n    for (const entry of value) collect(entry, bag, depth + 1);\n    return;\n  }\n  if (typeof value === 'object') {\n    bag.objects.push(value);\n    for (const key of Object.keys(value)) collect(value[key], bag, depth + 1);\n  }\n}\n\nconst bag = { strings: [], urls: [], objects: [] };\ncollect(mcp.structuredContent, bag, 0);\ncollect(mcp.content, bag, 0);\nif (mcp.error) collect(mcp.error, bag, 0);\n\nfunction objectText(obj) {\n  try { return JSON.stringify(obj).toLowerCase(); } catch (e) { return ''; }\n}\n\nfunction urlsFromObject(obj) {\n  const found = [];\n  collect(obj, { strings: [], urls: found, objects: [] }, 0);\n  return found;\n}\n\nlet chosen = '';\nif (studyName) {\n  for (const obj of bag.objects) {\n    const text = objectText(obj);\n    if (!text.includes(studyName)) continue;\n    const urls = urlsFromObject(obj);\n    if (urls.length) {\n      chosen = urls[0];\n      break;\n    }\n  }\n}\nif (!chosen && bag.urls.length) {\n  chosen = bag.urls[0];\n}\n\nconst interviewLink = chosen || fallback;\nreturn {\n  json: {\n    interviewLink,\n    fromEmail: cfg.fromEmail,\n    companyName: cfg.companyName,\n    productName: cfg.productName,\n    studyName: cfg.studyName,\n    useFrankMcp: cfg.useFrankMcp,\n    emailSubject: cfg.emailSubject,\n    customerEmail: cfg.customerEmail,\n    customerName: cfg.customerName,\n    customerId: cfg.customerId,\n    subscriptionId: cfg.subscriptionId,\n    mcpLookupFound: Boolean(chosen),\n    mcpLookupNote: mcp && mcp.error\n      ? 'Frank MCP call did not succeed. Using the interviewLink from the configuration node.'\n      : (chosen\n        ? 'Used a URL found in the list_researches output. Confirm it is the interviewer link for your published study before going live.'\n        : 'No URL found in the list_researches output. Using the interviewLink from the configuration node.'),\n  },\n};\n"
+      },
+      "id": "1a2b3c4d-1008-4000-8000-000000000018",
+      "name": "Use MCP link or fallback",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1600,
+        280
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "email",
+        "operation": "send",
+        "fromEmail": "={{ $json.fromEmail }}",
+        "toEmail": "={{ $json.customerEmail }}",
+        "subject": "={{ $json.emailSubject }}",
+        "emailFormat": "both",
+        "text": "Hi {{ $json.customerName ? $json.customerName : 'there' }},\n\nWe're sorry to see your {{ $json.productName }} subscription end. If you have a few minutes, we would value hearing about your experience in a short voice interview with Frank, our AI researcher.\n\nStart the interview: {{ $json.interviewLink }}\n\nYou can stop at any time. Thank you for your time.\n\n{{ $json.companyName }}",
+        "html": "<p>Hi {{ $json.customerName ? $json.customerName : 'there' }},</p>\n<p>We're sorry to see your {{ $json.productName }} subscription end. If you have a few minutes, we would value hearing about your experience in a short voice interview with Frank, our AI researcher.</p>\n<p><a href=\"{{ $json.interviewLink }}\">Start the interview</a></p>\n<p>You can stop at any time. Thank you for your time.</p>\n<p>{{ $json.companyName }}</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "1a2b3c4d-1009-4000-8000-000000000019",
+      "name": "Send churn interview invite",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        1840,
+        80
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "PLACEHOLDER_SMTP_CREDENTIAL",
+          "name": "SMTP account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Subscription ended": {
+      "main": [
+        [
+          {
+            "node": "Get customer email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get customer email": {
+      "main": [
+        [
+          {
+            "node": "Set invite details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set invite details": {
+      "main": [
+        [
+          {
+            "node": "Customer has email?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Customer has email?": {
+      "main": [
+        [
+          {
+            "node": "Look up study via Frank MCP?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Skip when email is missing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Look up study via Frank MCP?": {
+      "main": [
+        [
+          {
+            "node": "List Frank studies (optional MCP)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send churn interview invite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "List Frank studies (optional MCP)": {
+      "main": [
+        [
+          {
+            "node": "Use MCP link or fallback",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Use MCP link or fallback": {
+      "main": [
+        [
+          {
+            "node": "Send churn interview invite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": []
+}

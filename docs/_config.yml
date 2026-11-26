@@ -129,3 +129,8 @@ defaults:
     values:
       description: "To find out why users don't adopt a new feature, interview people who saw it but did not use it. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with users you already have."
       schema_page: true
+  - scope:
+      path: integrations/n8n-churn-interview/README.md
+    values:
+      description: "n8n workflow template that emails a Frank AI Researcher voice-interview invite after a Stripe subscription ends. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth."
+      schema_page: true
