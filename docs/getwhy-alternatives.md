@@ -13,7 +13,7 @@ Frank AI Researcher is a voice-first alternative to GetWhy for teams that interv
 
 If a fact was not on the pages opened, the cell says not documented.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. GetWhy is a separate company. This page compares them from both companies' public pages, opened on 20 November 2026 (Asia/Yerevan). It is not a complete catalog of every GetWhy alternative. Prices and features change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. GetWhy is a separate company. This page compares them from both companies' public pages, opened on 20 November 2026. It is not a complete catalog of every GetWhy alternative. Prices and features change, so check each site before you buy. Frank does not recruit participants.
 
 ## When to choose which
 

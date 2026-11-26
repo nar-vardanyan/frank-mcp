@@ -2,7 +2,7 @@
 
 **In short:** An AI agent that interviews customers is an assistant that can set up customer interviews and bring the transcripts back into the same chat. Frank AI Researcher is a voice-first product that runs AI-moderated voice interviews with your own customers, and you can connect it as a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about using your assistant, through Frank's MCP server, to draft studies and read transcripts. Setup details that change are dated 23 November 2026 (Asia/Yerevan).
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about using your assistant, through Frank's MCP server, to draft studies and read transcripts. Setup details that change are dated 23 November 2026.
 
 ## What is an AI agent that interviews customers?
 
@@ -43,7 +43,7 @@ The official registry name is `ai.hifrank/frank`. MCP is included on every plan,
 
 ## What it costs
 
-As of 24 November 2026 (Asia/Yerevan): the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers).
+As of 24 November 2026: the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length, and no credit card. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers).
 
 ## When this is a poor fit
 

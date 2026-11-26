@@ -25,7 +25,7 @@ We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product bui
 
 ## Frank vs Outset at a glance
 
-Cells below are from Outset's own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). The cells below were checked on 20 November 2026 (Asia/Yerevan). If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
+Cells below are from Outset's own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). The cells below were checked on 20 November 2026. If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
 
 | | Frank | Outset |
 |---|---|---|
@@ -42,7 +42,7 @@ Cells below are from Outset's own pages and from [hifrank.ai](https://www.hifran
 | Security and privacy | SOC 2. GDPR compliant. AES-256 at rest and TLS 1.2+ in transit ([Transparency & Security](https://www.hifrank.ai/features/transparency-security), 20 Nov 2026) | SOC 2 Type II certified, GDPR compliant, ISO 42001 certified, and HIPAA compliant. Encrypted at rest; TLS 1.3+ in transit; SSO. Outset says it does not train on customer data ([Trust & Safety](https://outset.ai/trust-safety), [Official company information](https://outset.ai/official-outset-company-information), [Pricing](https://outset.ai/pricing), 20 Nov 2026) |
 | Starting price (24 Nov 2026) | Free plan: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026). Prices change. | No public starting price on the pages reviewed. Outset offers custom pricing based on the research team, research needs, and support needs, and invites teams to get a quote or book a demo ([Pricing](https://outset.ai/pricing), 20 Nov 2026). Prices change. |
 
-Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [outset.ai](https://outset.ai/), [Outset pricing](https://outset.ai/pricing), [Outset Trust & Safety](https://outset.ai/trust-safety), [Outset official company information](https://outset.ai/official-outset-company-information), [Outset platform](https://outset.ai/platform), [Outset interviews](https://outset.ai/platform/interviews), [Outset recruit](https://outset.ai/platform/recruit), [Outset multilingual](https://outset.ai/platform/multilingual), [Outset synthesis](https://outset.ai/platform/synthesis), [Outset Digital Twins](https://outset.ai/digital-twins), [Outset MCP changelog](https://outset.ai/resources/changeblog/outset-mcp), [Outset Live Interviews](https://outset.ai/resources/blog/live-interviews). Opened 20 November 2026. Asia/Yerevan.
+Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [outset.ai](https://outset.ai/), [Outset pricing](https://outset.ai/pricing), [Outset Trust & Safety](https://outset.ai/trust-safety), [Outset official company information](https://outset.ai/official-outset-company-information), [Outset platform](https://outset.ai/platform), [Outset interviews](https://outset.ai/platform/interviews), [Outset recruit](https://outset.ai/platform/recruit), [Outset multilingual](https://outset.ai/platform/multilingual), [Outset synthesis](https://outset.ai/platform/synthesis), [Outset Digital Twins](https://outset.ai/digital-twins), [Outset MCP changelog](https://outset.ai/resources/changeblog/outset-mcp), [Outset Live Interviews](https://outset.ai/resources/blog/live-interviews). Opened 20 November 2026.
 
 ## How Frank works
 
@@ -62,7 +62,7 @@ A hosted MCP connector is documented so a team can launch studies, analyze resul
 
 ## Pricing
 
-Prices below are quoted as they appeared on each company's live pricing page on 20 November 2026 (Asia/Yerevan). Prices change. Confirm the live page before you buy.
+Prices below are quoted as they appeared on each company's live pricing page on 20 November 2026. Prices change. Confirm the live page before you buy.
 
 **Frank**, from [hifrank.ai/pricing](https://www.hifrank.ai/pricing), opened 20 Nov 2026:
 

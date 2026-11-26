@@ -2,7 +2,7 @@
 
 **In short:** The right Dovetail alternative depends on why you are leaving. For a cheaper research repository, look at Condens, Marvin or Looppanel. For a broader research suite, Great Question. If your real gap is collecting fresh interviews rather than organizing them, Frank runs AI-moderated voice interviews with your own customers, starting on a free plan.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank is not a Dovetail replacement for analysis, and we say so below. This page uses each company's public pages and structured data, opened on 20 November 2026 (Asia/Yerevan) for the prices restated below. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank is not a Dovetail replacement for analysis, and we say so below. This page uses each company's public pages and structured data, opened on 20 November 2026 for the prices restated below. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Why are you looking?
 

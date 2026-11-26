@@ -2,7 +2,7 @@
 
 **In short:** Searches like "AI customer interview tool" and "AI moderated interviews" often cover three different jobs: an AI interviewer that talks to a recruited panel, a research platform that also runs surveys and prototype tests, and a tool that interviews customers you already have. Before you pick a product, work through a checklist: voice vs text, own customers vs a panel, language support, what the analysis actually gives you, security, whether prices are published, integrations and MCP, and whether the moderator asks useful follow-ups. Then pick the tool that matches the job, and run a short pilot so you can read the transcripts yourself.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants, and it does not run image or prototype tests. This page is a buying checklist, not a ranked list. Frank facts below are dated 23 November 2026 (Asia/Yerevan) and pointed at live [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) pages. Prices and feature lists change, so check the site before you buy.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants, and it does not run image or prototype tests. This page is a buying checklist, not a ranked list. Frank facts below are dated 23 November 2026 and pointed at live [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) pages. Prices and feature lists change, so check the site before you buy.
 
 ## What AI customer interviews and AI-moderated interviews are
 
@@ -69,7 +69,7 @@ Frank is SOC 2 and GDPR compliant. The [transparency and security page](https://
 
 If a price is not published, you cannot budget a study without a sales call. That is not automatically a reason to reject the tool; it is a fact to plan for.
 
-Frank, as of 23 November 2026 (Asia/Yerevan): the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
+Frank, as of 23 November 2026: the Free plan includes 225 signup credits plus 60 voice minutes a month, with a 10-minute maximum interview length. Starter is $49 a month when billed yearly. MCP is included on every plan, including Free. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
 
 ### 7. Integrations and MCP
 
@@ -149,7 +149,7 @@ No. Frank does not recruit participants, and it does not run image or prototype 
 
 ### What does Frank cost, and what is the MCP server URL?
 
-As of 24 November 2026 (Asia/Yerevan), the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. MCP is included on every plan. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
+As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. MCP is included on every plan. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
 
 ## Related
 

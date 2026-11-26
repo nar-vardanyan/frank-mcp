@@ -2,7 +2,7 @@
 
 **In short:** AI voice survey tools come in two kinds: surveys that record a spoken answer to each written question, and AI interviewers that hold a live voice conversation and ask follow-ups. Pick a survey-style tool such as Voiceform, which adds AI follow-ups to spoken answers, for survey-scale studies, and a conversational tool such as Frank, Raconte, Koji or Usercall when you need the "why".
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares AI voice survey and interview tools, using each company's live public pages, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares AI voice survey and interview tools, using each company's live public pages, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you buy. Frank does not recruit participants.
 
 ## Why voice instead of a typed survey
 

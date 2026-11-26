@@ -2,7 +2,7 @@
 
 **In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 23 November 2026 (Asia/Yerevan).
+**We make [Frank AI Researcher](https://www.hifrank.ai)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 23 November 2026.
 
 ## What is an MCP server for customer interviews?
 

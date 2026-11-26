@@ -2,7 +2,7 @@
 
 **In short:** The best customer feedback tool depends on the question. Use a survey tool (Typeform, Survicate) for scores and counts, a feedback board (Canny) for feature requests, and a voice-of-customer platform (Chattermill) for large volumes. For the reasons behind the numbers, Frank runs AI-moderated voice interviews with your own customers, starting free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares feedback tools using each company's public pages and structured data, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares feedback tools using each company's public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Match the tool to the question
 

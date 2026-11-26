@@ -2,7 +2,7 @@
 
 **In short:** AI qualitative research platforms split into two groups: tools that collect qualitative data by running AI-moderated interviews (Frank, Listen Labs, Outset, Conveo) and tools that analyze data you already have (Dovetail, Marvin, Condens). Most teams need one of each. Frank fits AI-moderated voice interviews with your own customers, starting on a free plan.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares AI qualitative research platforms, using each company's live public pages and structured data, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares AI qualitative research platforms, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Collect, analyze, or both?
 

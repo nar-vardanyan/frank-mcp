@@ -2,7 +2,7 @@
 
 **In short:** The best churn interview tool is one cancelled customers will actually use: a short interview they can start from the cancellation page or email, with follow-up questions and transcripts. Frank runs AI-moderated voice churn interviews with your own customers on a free plan. User Intuition, Koji, TheySaid, Usercall and Raconte are other AI options with public prices.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with other churn interview tools, using each company's live public pages and structured data, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with other churn interview tools, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## What a churn interview tool must do
 
