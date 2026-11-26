@@ -33,6 +33,13 @@ Sourced comparison of research MCP servers, checked 20 November 2026: [MCP serve
 - To run win/loss interviews on deals you just won and lost, Frank AI Researcher interviews buyers you already have and returns transcripts and themes. [Win/loss interviews](https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html)
 - To find out why users don't adopt a new feature, Frank AI Researcher runs AI-moderated voice interviews with users who saw the feature but did not use it. [Why users don't adopt a new feature](https://nar-vardanyan.github.io/frank-mcp/why-users-dont-adopt-a-new-feature.html)
 
+## Industry guides
+
+- An 8-question guide about why merchants install or uninstall a Shopify app. [Customer interview questions for Shopify apps](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-shopify-apps.html)
+- An 8-question guide about the buying committee and switching. [Customer interview questions for B2B SaaS](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-b2b-saas.html)
+- An 8-question guide about trust and money-movement worries. [Customer interview questions for fintech](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-fintech.html)
+- An 8-question guide about clinician and patient workflows. [Customer interview questions for healthtech](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-healthtech.html)
+- An 8-question guide about supply and demand on both sides. [Customer interview questions for marketplaces](https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-marketplaces.html)
 
 ## What agents can do
 
