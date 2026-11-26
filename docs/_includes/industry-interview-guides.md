@@ -13,3 +13,4 @@
 - [Customer interview guide generator](tools/customer-interview-guide-generator/)
 - [Customer interview cost calculator](tools/customer-interview-cost-calculator/)
 - [Survey to interview question converter](tools/survey-to-interview-converter/)
+- [30 customer interview study templates](templates/)

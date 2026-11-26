@@ -63,5 +63,6 @@ Yes. Use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude
 - [Customer interview questions for developer tools](customer-interview-questions-for-developer-tools.html)
 - [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.html)
 - [Customer interview questions template](customer-interview-questions-template.html)
+- [30 customer interview study templates](templates/)
 - [Churn interviews](churn-interviews.html)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-hr-tech) · [MCP setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-hr-tech)
