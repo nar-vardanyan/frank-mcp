@@ -17,6 +17,8 @@ Use this guide when you have a concrete decision, such as improving the first se
 7. How do you decide whether an app is worth the monthly charge, and who else is involved?
 8. If you could change one thing about how this app fits into running your store, what would it be?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20Shopify%20apps&q=Tell%20me%20about%20the%20last%20time%20you%20installed%20%5Bapp%5D%2C%20or%20an%20app%20like%20it%2C%20in%20your%20Shopify%20store.%20What%20were%20you%20trying%20to%20get%20done%3F&q=What%20almost%20stopped%20you%20from%20installing%20it%3F&q=Walk%20me%20through%20the%20first%20time%20you%20used%20it%20after%20install.%20Where%20did%20you%20get%20stuck%3F&q=Tell%20me%20about%20a%20time%20you%20uninstalled%20an%20app%2C%20or%20came%20close%20to%20uninstalling%20this%20one.%20What%20triggered%20that%3F&q=What%20had%20changed%20between%20the%20day%20you%20installed%20it%20and%20the%20day%20you%20considered%20removing%20it%3F&q=What%2C%20if%20anything%2C%20would%20have%20made%20you%20keep%20it%3F&q=How%20do%20you%20decide%20whether%20an%20app%20is%20worth%20the%20monthly%20charge%2C%20and%20who%20else%20is%20involved%3F&q=If%20you%20could%20change%20one%20thing%20about%20how%20this%20app%20fits%20into%20running%20your%20store%2C%20what%20would%20it%20be%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank

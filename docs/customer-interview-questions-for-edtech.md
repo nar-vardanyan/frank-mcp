@@ -17,6 +17,8 @@ Use this guide when a workflow spans teachers, students, and admins, and you nee
 7. What would need to be true for the other group to use it the way you hoped?
 8. If you could change one step in the workflow, which step and why?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20edtech&q=Tell%20me%20about%20the%20last%20time%20you%20used%20%5Bproduct%5D%20in%20a%20real%20class%2C%20school%20day%2C%20or%20admin%20task.%20What%20were%20you%20trying%20to%20get%20done%3F&q=Who%20else%20is%20involved%20in%20choosing%20or%20using%20it%20%28teacher%2C%20student%2C%20parent%2C%20or%20admin%29%2C%20and%20what%20does%20each%20person%20care%20about%3F&q=Walk%20me%20through%20how%20a%20new%20person%20first%20starts%20using%20it.%20Where%20do%20they%20get%20stuck%3F&q=What%20did%20you%20use%20before%20this%2C%20and%20what%20do%20you%20still%20do%20outside%20it%2C%20such%20as%20paper%2C%20another%20tool%2C%20or%20a%20workaround%3F&q=Tell%20me%20about%20a%20time%20it%20got%20in%20the%20way%20of%20teaching%2C%20learning%2C%20or%20school%20operations.&q=What%20almost%20made%20you%20stop%20using%20it%2C%20or%20use%20it%20only%20for%20some%20classes%20or%20students%3F&q=What%20would%20need%20to%20be%20true%20for%20the%20other%20group%20to%20use%20it%20the%20way%20you%20hoped%3F&q=If%20you%20could%20change%20one%20step%20in%20the%20workflow%2C%20which%20step%20and%20why%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank

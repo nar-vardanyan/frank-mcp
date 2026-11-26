@@ -17,6 +17,8 @@ Use this guide when you need to understand a completed order, a left cart, a ret
 7. What would make you choose this brand over another one next time, or the other way around?
 8. If you could change one thing about buying from this brand, what would it be?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20DTC%20ecommerce&q=Tell%20me%20about%20the%20last%20time%20you%20bought%20from%20%5Bbrand%5D%2C%20or%20almost%20bought%20and%20left%20the%20cart.%20What%20were%20you%20trying%20to%20get%3F&q=What%20almost%20stopped%20you%20from%20placing%20the%20order%3F&q=Walk%20me%20through%20what%20happened%20after%20you%20paid%3A%20delivery%2C%20a%20question%2C%20or%20a%20problem.&q=Tell%20me%20about%20a%20return%20or%20an%20exchange.%20What%20triggered%20it%2C%20and%20how%20did%20it%20go%3F&q=What%20made%20you%20come%20back%20for%20another%20order%2C%20or%20kept%20you%20from%20coming%20back%3F&q=How%20do%20promotions%2C%20shipping%2C%20or%20what%20arrived%20affect%20whether%20you%20order%20again%3F&q=What%20would%20make%20you%20choose%20this%20brand%20over%20another%20one%20next%20time%2C%20or%20the%20other%20way%20around%3F&q=If%20you%20could%20change%20one%20thing%20about%20buying%20from%20this%20brand%2C%20what%20would%20it%20be%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank
