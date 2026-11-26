@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: Customer interview cost calculator
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/
+    updated: 2026-11-26T16:00:00Z
+    summary: A free calculator that compares the hours and cost of a manual customer interview study with AI-moderated voice interviews in Frank, using only numbers you enter.
   - title: Customer interview questions for Shopify apps
     url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-shopify-apps.html
     updated: 2026-11-26T12:00:00Z

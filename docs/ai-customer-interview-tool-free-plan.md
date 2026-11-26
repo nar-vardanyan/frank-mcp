@@ -92,6 +92,7 @@ No. Paid plans don't have a free trial. The Free plan is the way to try Frank: 2
 
 ## Related
 
+- [Customer interview cost calculator](tools/customer-interview-cost-calculator/): your own hours and cost, manual vs Frank
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
 - [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html)
 - [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)

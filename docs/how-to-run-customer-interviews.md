@@ -94,6 +94,7 @@ Long enough for a few open questions with follow-ups, short enough that people f
 
 ## Related
 
+- [Customer interview cost calculator](tools/customer-interview-cost-calculator/): your own hours and cost, manual vs Frank
 - [How to get customer feedback](how-to-get-customer-feedback.md)
 - [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md)
 - [How to interview customers at scale](how-to-interview-customers-at-scale.md)
