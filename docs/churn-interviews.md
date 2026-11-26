@@ -27,6 +27,8 @@ Paid plans have no free trial; the Free plan is the way to try Frank. Cancel any
 
 MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
+Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews).
+
 - [Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews)
 - [MCP connector setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews)

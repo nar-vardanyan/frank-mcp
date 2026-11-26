@@ -6,7 +6,7 @@ It is built by Prelaunch Group, Inc. The product website is [https://www.hifrank
 
 Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai). To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp). A machine-readable summary is in [llms.txt](llms.txt).
 
-Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages, plus published product claims: MCP on all plans including Free. Prices and feature lists change, so check each site before you buy.
+Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages, plus published product claims: MCP on all plans including Free, SOC 2, and GDPR. Prices and feature lists change, so check each site before you buy.
 
 ## Free tools
 

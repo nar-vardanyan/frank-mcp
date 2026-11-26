@@ -35,7 +35,7 @@ Teams usually look for an alternative for one of four reasons:
 
 ### 1. Frank: voice interviews with your own customers
 
-Frank is voice-first. You create a study, share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and customers talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews.
+Frank is voice-first. You create a study, share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and customers talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 

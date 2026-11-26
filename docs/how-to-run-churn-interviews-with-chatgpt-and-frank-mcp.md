@@ -95,7 +95,7 @@ If very few customers cancel, call them yourself. If the churn question needs de
 
 ## When Frank is a fit
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. You can put an interviewer link in a cancellation email or embed a website widget on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. You can put an interviewer link in a cancellation email or embed a website widget on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 

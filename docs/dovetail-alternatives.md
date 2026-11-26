@@ -42,7 +42,7 @@ Great Question's pricing page, opened 20 Nov 2026, says you can recruit your own
 
 ## Frank: when the gap is collection
 
-Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews.
+Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant, or keep them in a repository you already use.
 

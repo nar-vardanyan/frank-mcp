@@ -27,7 +27,7 @@ Frank is row 1. Security claims that are not in this table stay in [When to choo
 
 ## When to choose which
 
-**Choose Frank** when you already have customers to invite and you want AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Frank publishes a Free plan, includes MCP on every plan, including Free, and supports multilingual interviews. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Frank does not recruit participants. On-screen prototype testing is not documented on the Frank pages reviewed.
+**Choose Frank** when you already have customers to invite and you want AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Frank publishes a Free plan, includes MCP on every plan, including Free, and supports multilingual interviews. It is SOC 2 and [GDPR](https://www.hifrank.ai/features/transparency-security) compliant. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Frank does not recruit participants. On-screen prototype testing is not documented on the Frank pages reviewed.
 
 **Choose Outset** when you need a large recruited sample, video or voice-to-voice interviews, on-screen usability or prototype testing, digital twins, or researcher-led live interviews in the same platform. Outset's recruit page says you can reach over 1.1 billion participants in over 85 countries through 25+ panel integrations. Outset also states HIPAA and ISO 42001 compliance alongside SOC 2 Type II and GDPR, on pages opened 20 November 2026. Pricing is custom; there is no public starting price on the pages reviewed 20 November 2026.
 
@@ -78,7 +78,7 @@ If you have no customers yet, or if the study itself has to show a prototype on 
 
 ### What is Frank AI Researcher?
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an interviewer link or website widget, then read transcripts and themes. It supports multilingual interviews.
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an interviewer link or website widget, then read transcripts and themes. It supports multilingual interviews, and is SOC 2 and GDPR compliant.
 
 ### Does Frank recruit participants?
 
@@ -106,7 +106,7 @@ Frank can be a fit when a startup already has users to invite and wants to start
 
 ### How should I compare security claims?
 
-Compare what each vendor states on a live page, and ask for the report if you need it for procurement. Outset, Listen Labs, Conveo, Koji, User Intuition, and Voicepanel also state SOC 2 Type II on the pages reviewed, and several of those vendors list additional certifications such as ISO or HIPAA. Strella states SOC 2 compliance without "Type II" on the pages reviewed 20 November 2026. A SOC 2 claim was not documented on the Usercall pages reviewed. Security claims for Glaut, Userology, and Great Question were not documented on the pages opened 20 November 2026.
+Compare what each vendor states on a live page, and ask for the report if you need it for procurement. Frank states SOC 2 and GDPR. The live security page says "SOC 2" and "GDPR." Outset, Listen Labs, Conveo, Koji, User Intuition, and Voicepanel also state SOC 2 Type II on the pages reviewed, and several of those vendors list additional certifications such as ISO or HIPAA. Strella states SOC 2 compliance without "Type II" on the pages reviewed 20 November 2026. A SOC 2 claim was not documented on the Usercall pages reviewed. Security claims for Glaut, Userology, and Great Question were not documented on the pages opened 20 November 2026.
 
 <script type="application/ld+json">
 {
@@ -118,7 +118,7 @@ Compare what each vendor states on a live page, and ask for the report if you ne
       "name": "What is Frank AI Researcher?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an interviewer link or website widget, then read transcripts and themes. It supports multilingual interviews."
+        "text": "Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an interviewer link or website widget, then read transcripts and themes. It supports multilingual interviews, and is SOC 2 and GDPR compliant."
       }
     },
     {

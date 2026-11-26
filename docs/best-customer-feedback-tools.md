@@ -46,7 +46,7 @@ Chattermill calls itself AI-native voice-of-customer software that unifies surve
 
 Frank runs AI-moderated voice interviews. You share an interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) at the moment that matters, such as a cancellation page or post-onboarding email; customers answer by voice when it suits them; and each interview returns a transcript and themes you can check against the original words. Nielsen Norman Group notes participants can complete AI-moderated interviews at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
-Frank supports multilingual interviews.
+Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 

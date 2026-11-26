@@ -54,7 +54,7 @@ In those cases, book a live conversation. You can still use an unscheduled AI in
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states multilingual interviews. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you want interview-depth answers from customers you can already reach, and you do not want to book a meeting for each one. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself. It is not a survey tool.
 
@@ -84,7 +84,7 @@ Keep going until new interviews stop adding themes. In one widely cited study, s
 Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=user-feedback-without-scheduling-calls). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ### Is this secure enough for customer conversations?
-Frank's live security page states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.
+Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.
 
 ## Related
 

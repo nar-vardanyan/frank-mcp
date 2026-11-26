@@ -33,7 +33,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### Frank: voice interviews with customers you already have
 
-Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing)). Frank supports multilingual interviews.
+Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing)). Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant for further analysis.
 

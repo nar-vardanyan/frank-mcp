@@ -68,7 +68,7 @@ An assistant can draft questions, but you still pick the decision and check the 
 
 ## When Frank is a fit
 
-Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews. The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing)).
+Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing)).
 
 **[Connect Frank to ChatGPT free at hifrank.ai/mcp](https://www.hifrank.ai/mcp)** · [Pricing](https://www.hifrank.ai/pricing)
 

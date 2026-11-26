@@ -48,7 +48,7 @@ Look for design and reporting as well as moderation. With Frank, you can work fr
 
 ## When Frank is a fit
 
-Frank is voice-first: AI-moderated voice interviews with your own customers. The Free plan includes 225 signup credits plus 60 voice minutes a month and no credit card; Starter is $49 a month when billed yearly ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. It is a weaker fit if you need recruiting or on-screen tasks.
+Frank is voice-first: AI-moderated voice interviews with your own customers. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month and no credit card; Starter is $49 a month when billed yearly ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. It is a weaker fit if you need recruiting or on-screen tasks.
 
 If you are [comparing AI interview platforms](https://www.hifrank.ai/blog/listen-labs-alternatives), start with whether you already have customers to invite and whether the tool interviews by voice.
 

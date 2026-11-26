@@ -78,7 +78,7 @@ A product-market fit study is a familiar version of this: a survey question can 
 
 Frank AI Researcher runs AI-moderated voice interviews with your own customers. It is a way to get interview-depth answers without scheduling each call. It is not a survey tool, and it does not replace a survey when you need a comparable number.
 
-Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation.
+Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 
 [MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) is included on every plan, including Free, so you can draft a study and read transcripts from an AI assistant. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Setup is in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 
