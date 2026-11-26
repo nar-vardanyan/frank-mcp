@@ -79,6 +79,8 @@ No. Frank does not recruit participants. You invite people you can already reach
 
 No. A study created through MCP stays a draft until you approve publishing.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.html)

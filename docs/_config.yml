@@ -8,6 +8,11 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
   - jekyll-sitemap
+  - jekyll-feed
+feed:
+  title: Frank AI Researcher docs
+  url: https://nar-vardanyan.github.io
+  path: /posts-feed.xml
 include:
   - llms.txt
   - llms-full.txt

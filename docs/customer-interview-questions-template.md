@@ -113,6 +113,8 @@ Use them as a guide. Keep the core wording consistent enough to compare answers,
 
 No. Frank does not recruit participants. You invite people from your own product or email list.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [How to run customer interviews](how-to-run-customer-interviews.md)

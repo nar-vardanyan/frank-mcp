@@ -116,6 +116,8 @@ Frank is SOC 2 and GDPR compliant.
 
 No. Frank does not recruit participants. You invite your own customers.
 
+{% include industry-interview-guides.md %}
+
 ## Related
 
 - [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html)

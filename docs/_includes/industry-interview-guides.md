@@ -1,0 +1,13 @@
+## Industry interview guides
+
+- [Customer interview questions for Shopify apps](customer-interview-questions-for-shopify-apps.html)
+- [Customer interview questions for B2B SaaS](customer-interview-questions-for-b2b-saas.html)
+- [Customer interview questions for fintech](customer-interview-questions-for-fintech.html)
+- [Customer interview questions for healthtech](customer-interview-questions-for-healthtech.html)
+- [Customer interview questions for marketplaces](customer-interview-questions-for-marketplaces.html)
+- [Customer interview questions for edtech](customer-interview-questions-for-edtech.html)
+- [Customer interview questions for DTC ecommerce](customer-interview-questions-for-dtc-ecommerce.html)
+- [Customer interview questions for HR tech](customer-interview-questions-for-hr-tech.html)
+- [Customer interview questions for developer tools](customer-interview-questions-for-developer-tools.html)
+- [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.html)
+- [Customer interview guide generator](tools/customer-interview-guide-generator/)
