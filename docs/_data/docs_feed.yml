@@ -48,6 +48,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/
     updated: 2026-11-26T12:00:00Z
     summary: A free, no-login tool that writes an 8-question customer interview guide for a goal and product type.
+  - title: Survey to interview question converter
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/
+    updated: 2026-11-26T16:00:00Z
+    summary: A free, no-login tool that turns survey questions into open interview questions about real past events, with a follow-up for each.
   - title: Customer interview questions template
     url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html
     updated: 2026-11-26T12:00:00Z

@@ -12,6 +12,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 - [Customer Interview Guide Generator (free, no login)](tools/customer-interview-guide-generator/): pick a goal (churn, win-loss, discovery or pricing) and a product type, and get 8 open interview questions with follow-ups. Copy or download as Markdown or text.
 - [Customer Interview Cost Calculator (free)](tools/customer-interview-cost-calculator/): enter your own hours for recruiting, scheduling, interviewing and analysis, plus your hourly cost, and compare a manual study with AI-moderated voice interviews in Frank, including whether the Free plan covers it.
+- [Survey to Interview Question Converter (free, no login)](tools/survey-to-interview-converter/): paste survey questions (NPS, rating, yes/no, multiple choice, hypothetical) and get open interview questions about real past events, each with a follow-up and the reason for the change.
 - [Customer Interview Script Generator (free)](tools/customer-interview-script-generator/): enter your product, your customer and your goal (churn, win-loss, onboarding, pricing, feature discovery or product-market fit) and get a ready-to-use interview guide with follow-up probes.
 
 
