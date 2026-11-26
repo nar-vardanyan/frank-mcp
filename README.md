@@ -6,7 +6,7 @@ AI-moderated voice interviews with your customers: create studies, run them, rea
 
 Frank AI Researcher is an MCP server for customer interviews: it lets ChatGPT, Claude, and other MCP clients run AI-moderated voice interviews with your own customers and return transcripts and insights. You bring the customers; Frank does not recruit, and it does not run video, WhatsApp, or chat interviews. MCP is included on every plan, including Free.
 
-Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 - MCP endpoint: `https://api.hifrank.ai/mcp` (streamable HTTP)
 - Official MCP registry: `ai.hifrank/frank`
@@ -96,7 +96,7 @@ You can disconnect an assistant at any time under **Connected apps** in Frank.
 
 Frank is a remote MCP server. There is no install and no API key to paste. You add `https://api.hifrank.ai/mcp` as a remote connector in an MCP client that supports OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). MCP is included on every plan, including Free.
 
-Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
@@ -141,10 +141,6 @@ Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`,
 
 Official reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
 
-### Instinct
-
-Add a remote MCP server with the URL `https://api.hifrank.ai/mcp`, then sign in to your Frank account. Instinct does not publish official setup docs, so the exact screen may vary.
-
 ## Agent skill: customer interviews
 
 [skills/customer-interviews/SKILL.md](skills/customer-interviews/SKILL.md) is an open [Agent Skill](https://agentskills.io/specification). It plans a study (goal, audience, hypotheses), writes a non-leading Mom Test voice guide, and, when the Frank MCP is connected, creates the study, publishes a voice interview link or website widget after you approve, and summarizes transcripts. Without Frank connected, it still writes the guide and explains how to connect.
@@ -175,7 +171,7 @@ Frank AI Researcher (short name: Frank) is an AI customer interviewer built by P
 Share an interview link, or embed the Frank widget on your site or app. Participants talk when it suits them. Frank asks your questions, follows up, and can run interviews in parallel. You do not need to schedule one-to-one calls. Frank interviews your own customers, users or prospects; it does not recruit participants.
 
 **Can I run customer interviews from ChatGPT, Claude, or another MCP client?**
-Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Grok, Instinct and Muse (tested), plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
+Yes. Connect the MCP server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Cursor and Gemini CLI can't connect yet (they require dynamic client registration).
 
 **What languages can Frank interview in?**
 50+ languages.
