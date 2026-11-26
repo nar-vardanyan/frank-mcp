@@ -17,6 +17,8 @@ Use this guide when you need to understand install, the first successful use, te
 7. What would make you recommend this tool to another team, or warn them off it?
 8. If you could change one thing about getting from install to daily use, what would it be?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20developer%20tools&q=Tell%20me%20about%20the%20last%20time%20you%20installed%20or%20tried%20%5Bproduct%5D.%20What%20were%20you%20trying%20to%20get%20done%3F&q=Walk%20me%20through%20the%20first%20time%20you%20got%20it%20working.%20Where%20did%20you%20get%20stuck%3F&q=What%20docs%2C%20examples%2C%20or%20error%20messages%20did%20you%20use%2C%20and%20what%20was%20missing%3F&q=How%20does%20it%20fit%20into%20your%20existing%20stack%2C%20and%20what%20do%20you%20still%20do%20outside%20it%3F&q=Who%20else%20on%20the%20team%20had%20to%20agree%2C%20and%20what%20did%20they%20care%20about%3F&q=Tell%20me%20about%20a%20time%20you%20almost%20switched%20away%2C%20or%20did%20switch.%20What%20triggered%20that%3F&q=What%20would%20make%20you%20recommend%20this%20tool%20to%20another%20team%2C%20or%20warn%20them%20off%20it%3F&q=If%20you%20could%20change%20one%20thing%20about%20getting%20from%20install%20to%20daily%20use%2C%20what%20would%20it%20be%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank

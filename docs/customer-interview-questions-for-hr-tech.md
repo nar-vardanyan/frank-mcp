@@ -17,6 +17,8 @@ Use this guide when a workflow spans admins, managers, and employees, and you ne
 7. What would need to be true for employees or managers to use it the way you hoped?
 8. If you could change one step in the workflow, which step and why?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20HR%20tech&q=Tell%20me%20about%20the%20last%20time%20you%20used%20%5Bproduct%5D%20for%20a%20real%20HR%20task%2C%20such%20as%20hiring%2C%20onboarding%2C%20payroll%2C%20or%20a%20review.%20What%20were%20you%20trying%20to%20get%20done%3F&q=Walk%20me%20through%20who%20does%20which%20steps%3A%20admin%2C%20manager%2C%20and%20employee.&q=Where%20does%20the%20workflow%20break%2C%20or%20get%20handed%20off%20badly%2C%20between%20those%20groups%3F&q=What%20did%20you%20use%20before%20this%2C%20and%20what%20do%20you%20still%20do%20in%20a%20spreadsheet%20or%20another%20tool%3F&q=Tell%20me%20about%20a%20time%20implementation%2C%20a%20data%20load%2C%20or%20a%20switch%20caused%20a%20problem.&q=What%20almost%20made%20you%20stop%20using%20it%2C%20or%20use%20it%20only%20for%20some%20teams%20or%20tasks%3F&q=What%20would%20need%20to%20be%20true%20for%20employees%20or%20managers%20to%20use%20it%20the%20way%20you%20hoped%3F&q=If%20you%20could%20change%20one%20step%20in%20the%20workflow%2C%20which%20step%20and%20why%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank

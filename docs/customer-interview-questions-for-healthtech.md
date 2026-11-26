@@ -17,6 +17,8 @@ Use this guide when a workflow spans clinicians, staff, and patients, and you ne
 7. What would need to be true for the other group (clinicians, staff, or patients) to use it the way you hoped?
 8. If you could change one step in the workflow, which step and why?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20healthtech&q=Tell%20me%20about%20the%20last%20time%20you%20used%20%5Bproduct%5D%20during%20a%20real%20patient%20encounter%20or%20workday.%20What%20were%20you%20trying%20to%20get%20done%3F&q=Walk%20me%20through%20who%20does%20which%20steps%3A%20clinician%2C%20staff%2C%20and%20patient.&q=Where%20does%20the%20workflow%20break%2C%20or%20get%20handed%20off%20badly%2C%20between%20those%20groups%3F&q=What%20did%20you%20do%20before%20this%20product%2C%20and%20what%20do%20you%20still%20do%20outside%20it%3F&q=Tell%20me%20about%20a%20time%20the%20product%20got%20in%20the%20way%20of%20care%2C%20or%20added%20work%20you%20did%20not%20expect.&q=What%20almost%20made%20you%20stop%20using%20it%2C%20or%20use%20it%20only%20for%20some%20patients%20or%20tasks%3F&q=What%20would%20need%20to%20be%20true%20for%20the%20other%20group%20%28clinicians%2C%20staff%2C%20or%20patients%29%20to%20use%20it%20the%20way%20you%20hoped%3F&q=If%20you%20could%20change%20one%20step%20in%20the%20workflow%2C%20which%20step%20and%20why%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank

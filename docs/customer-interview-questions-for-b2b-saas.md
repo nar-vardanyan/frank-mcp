@@ -17,6 +17,8 @@ Use this guide after a recent win, loss, renewal, or switch, when you need to kn
 7. After you bought, what took longer than you expected before the team got value?
 8. If you were choosing again tomorrow, what would you need to see earlier?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20B2B%20SaaS&q=Walk%20me%20through%20the%20last%20time%20your%20team%20evaluated%20a%20tool%20like%20%5Bproduct%5D.%20What%20prompted%20the%20search%3F&q=Who%20else%20was%20involved%20in%20the%20decision%2C%20and%20what%20did%20each%20person%20care%20about%3F&q=What%20options%20did%20you%20compare%2C%20including%20staying%20with%20what%20you%20already%20had%3F&q=What%20almost%20blocked%20the%20purchase%2C%20or%20almost%20made%20you%20choose%20something%20else%3F&q=Tell%20me%20about%20the%20last%20time%20you%20switched%20away%20from%20a%20tool%20in%20this%20category.%20What%20triggered%20the%20switch%3F&q=What%20was%20painful%20about%20moving%20data%2C%20workflows%2C%20or%20people%20off%20the%20old%20tool%3F&q=After%20you%20bought%2C%20what%20took%20longer%20than%20you%20expected%20before%20the%20team%20got%20value%3F&q=If%20you%20were%20choosing%20again%20tomorrow%2C%20what%20would%20you%20need%20to%20see%20earlier%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank
