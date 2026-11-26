@@ -17,6 +17,8 @@ Use this guide when you need to understand hesitation, failed or delayed money m
 7. What would make you move this workflow to a different provider?
 8. If you could change one thing about how money moves through this product, what would it be?
 
+Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
+
 ## Run this guide with Frank
 
 Paste these eight questions into a new Frank study, take the interview yourself before you share it, then send the interviewer link to people you already know, or embed a website widget. People can talk when they have time, without booking a call. You invite customers you already have; Frank does not recruit participants.
@@ -53,6 +55,11 @@ Yes. Use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude
 - [Customer interview questions for B2B SaaS](customer-interview-questions-for-b2b-saas.html)
 - [Customer interview questions for healthtech](customer-interview-questions-for-healthtech.html)
 - [Customer interview questions for marketplaces](customer-interview-questions-for-marketplaces.html)
+- [Customer interview questions for edtech](customer-interview-questions-for-edtech.html)
+- [Customer interview questions for DTC ecommerce](customer-interview-questions-for-dtc-ecommerce.html)
+- [Customer interview questions for HR tech](customer-interview-questions-for-hr-tech.html)
+- [Customer interview questions for developer tools](customer-interview-questions-for-developer-tools.html)
+- [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.html)
 - [Customer interview questions template](customer-interview-questions-template.html)
 - [Churn interviews](churn-interviews.html)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-fintech) · [MCP setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-fintech)

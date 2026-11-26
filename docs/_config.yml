@@ -155,6 +155,32 @@ defaults:
     values:
       description: "Customer interview questions for marketplaces: an 8-question guide about supply and demand on both sides. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with buyers and sellers you already have."
       schema_page: true
+
+  - scope:
+      path: customer-interview-questions-for-edtech.md
+    values:
+      description: "Customer interview questions for edtech: an 8-question guide about classroom and school workflows. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with teachers, students, or admins you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-dtc-ecommerce.md
+    values:
+      description: "Customer interview questions for DTC ecommerce: an 8-question guide about orders, carts, returns, and repeat purchases. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-hr-tech.md
+    values:
+      description: "Customer interview questions for HR tech: an 8-question guide about admin, manager, and employee workflows. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with people you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-developer-tools.md
+    values:
+      description: "Customer interview questions for developer tools: an 8-question guide about install, first success, and switching. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with developers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-consumer-mobile-apps.md
+    values:
+      description: "Customer interview questions for consumer mobile apps: an 8-question guide about the first session, return visits, and why people keep or delete an app. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with users you already have."
+      schema_page: true
   - scope:
       path: integrations/n8n-churn-interview/README.md
     values:
