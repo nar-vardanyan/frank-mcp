@@ -117,6 +117,7 @@ No. Frank does not recruit participants. You invite people from your own product
 
 ## Related
 
+- [30 customer interview study templates](templates/): one 8-question guide per study type
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - [How to get customer feedback](how-to-get-customer-feedback.md)
 - [How to validate a startup idea with customer interviews](validate-a-startup-idea-with-customer-interviews.md)

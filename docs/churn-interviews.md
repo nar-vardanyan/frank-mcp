@@ -65,6 +65,7 @@ Yes. Use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude
 
 ## Related
 
+- [Customer interview study templates: churn and retention](templates/?cat=churn)
 - [How to find out why customers churn](how-to-find-out-why-customers-churn.html)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.html)
 - [How to interview customers at scale](how-to-interview-customers-at-scale.html)
