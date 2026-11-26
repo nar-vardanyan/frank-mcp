@@ -8,7 +8,7 @@ Frank AI Researcher is a voice-first alternative to Conveo for interviewing your
 
 | Tool | Interview format | Who you talk to | Languages | Public pricing | MCP |
 |---|---|---|---|---|---|
-| **Frank AI Researcher** | AI-moderated voice interviews. Video, WhatsApp and text chat are Coming soon. ([hifrank.ai](https://www.hifrank.ai), 20 Nov 2026) | Your own customers. Frank does not recruit. Share an interviewer link or website widget. | 50+ interview languages | Free plan: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly. ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026) | Included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. ([MCP](https://www.hifrank.ai/mcp), 20 Nov 2026) |
+| **Frank AI Researcher** | AI-moderated voice interviews. ([hifrank.ai](https://www.hifrank.ai), 20 Nov 2026) | Your own customers. Frank does not recruit. Share an interviewer link or website widget. | Multilingual interviews | Free plan: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly. ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026) | Included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. ([MCP](https://www.hifrank.ai/mcp), 20 Nov 2026) |
 | **Conveo** | "AI-led video interviews" and "video-first asynchronous interviews," and also "AI-moderated voice or video interviews." ([Product](https://conveo.ai/product), 20 Nov 2026) | Upload CSVs, public links, QR codes, WhatsApp invites, or panels such as Respondent.io. The product-page FAQ also describes integrated recruitment via Respondent.io, typically a $6 recruitment fee per participant plus incentives of usually $1 per interview minute, or your own panel or recruiter with a respondent link. ([Product](https://conveo.ai/product), 20 Nov 2026; fee detail as reviewed 20 Nov 2026) | "Across languages," globally. A specific language count is not documented on the product page. ([Product](https://conveo.ai/product), 20 Nov 2026) | No public interview-platform price list. https://www.conveo.ai/pricing redirected to the book-a-demo page on 20 Nov 2026. The product page has a "Start for free" CTA; what that includes is not documented. ([Product](https://conveo.ai/product), 20 Nov 2026) | Conveo documents an MCP server. Plan-by-plan inclusion is not documented. ([MCP docs](https://conveo.ai/docs/api-reference/mcp), 20 Nov 2026) |
 | **Listen Labs** | Official user guide describes Listen running each "video interview" with dynamic follow-ups. ([User guide](https://userguide.listenlabs.ai/), 20 Nov 2026) | Can recruit, or you can use your own list. Homepage: "50m+ Possible respondents for studies." ([Homepage](https://listenlabs.com/), 20 Nov 2026) | Homepage: "120+ Languages spoken." Other Listen pages used 100+ or 110+ on earlier checks; this cell uses the homepage figure. ([Homepage](https://listenlabs.com/), 20 Nov 2026) | No public dollar price list (https://listenlabs.com/pricing returned 404 on 20 Nov 2026). User guide: platform fee (priced by commitment) plus interview credits per complete (1 for self-recruited, 5 to 8 for general consumers, 10 to 20 for niche segments, 40+ for targeted decision-makers). ([User guide](https://userguide.listenlabs.ai/), 20 Nov 2026) | Listen MCP is documented. Docs name ChatGPT, Claude, and Codex. The product blog says existing customers should "reach out to your account team to get access." Plan-by-plan inclusion is not documented. ([Connect](https://docs.listenlabs.com/mcp-docs/connect), [Listen MCP](https://listenlabs.com/blog/listen-mcp), 20 Nov 2026) |
 | **Outset** | Text, voice, video, and voice-to-voice responses. ([Pricing](https://outset.ai/pricing), 20 Nov 2026) | Outset can recruit, or you can bring your own list or panel. Recruit page: 25+ native panel integrations and "over 1.1 billion global participants in over 85 countries." ([Recruit](https://outset.ai/platform/recruit), 20 Nov 2026) | 40+ languages, with automatic translation of transcripts and synthesis. ([Pricing](https://outset.ai/pricing), [Multilingual](https://outset.ai/platform/multilingual), 20 Nov 2026) | Custom pricing. The pricing page says "Get custom pricing" and "Access varies by your custom plan and add-ons." No public starting dollar price. ([Pricing](https://outset.ai/pricing), 20 Nov 2026) | Outset documents MCP support to launch studies, analyze results, or chat with digital twins, and names Claude, ChatGPT, Cursor, Figma, Notion, and Glean. Help docs say official connectors currently work with the US deployment only. Plan-by-plan inclusion is not documented. ([MCP changelog](https://outset.ai/resources/changeblog/outset-mcp), [Using Outset's MCP](https://help.outset.ai/articles/2997399296-using-outset-s-mcp), 20 Nov 2026) |
@@ -35,7 +35,7 @@ Teams usually look for an alternative for one of four reasons:
 
 ### 1. Frank: voice interviews with your own customers
 
-Frank is voice-first. You create a study, share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and customers talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports 50+ interview languages. Video, WhatsApp and chat interviews are Coming soon. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank is voice-first. You create a study, share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and customers talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -70,7 +70,7 @@ Strella combines AI moderation and live human moderation, and lets participants 
 
 ## When Frank is a fit
 
-Frank fits when you want AI-moderated voice interviews with customers you can already reach, without scheduling calls, starting on a free plan. It is a weaker fit if you need a recruited panel, video interviews today, or on-screen tasks. Video, WhatsApp and chat are Coming soon.
+Frank fits when you want AI-moderated voice interviews with customers you can already reach, without scheduling calls, starting on a free plan. It is a weaker fit if you need a recruited panel, video interviews, or on-screen tasks.
 
 **[Try Frank free at hifrank.ai](https://www.hifrank.ai)** · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
 
@@ -82,7 +82,7 @@ Yes, if you want to interview customers you already have. Frank AI Researcher is
 
 ### Does Frank run video-first interviews like Conveo?
 
-No. Frank is voice-first: it runs AI-moderated voice interviews. Video, WhatsApp and text chat are Coming soon. Conveo's product page describes AI-led video-first asynchronous interviews, and also AI-moderated voice or video interviews.
+No. Frank is voice-first: it runs AI-moderated voice interviews. Conveo's product page describes AI-led video-first asynchronous interviews, and also AI-moderated voice or video interviews.
 
 ### Does Frank recruit participants?
 
@@ -118,7 +118,7 @@ Frank has a Free plan with 225 signup credits plus 60 voice minutes a month and 
       "name": "Does Frank run video-first interviews like Conveo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Frank is voice-first: it runs AI-moderated voice interviews. Video, WhatsApp and text chat are Coming soon. Conveo's product page describes AI-led video-first asynchronous interviews, and also AI-moderated voice or video interviews."
+        "text": "No. Frank is voice-first: it runs AI-moderated voice interviews. Conveo's product page describes AI-led video-first asynchronous interviews, and also AI-moderated voice or video interviews."
       }
     },
     {

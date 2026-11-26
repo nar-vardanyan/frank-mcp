@@ -1,6 +1,6 @@
 # How to Automate Customer Interviews with AI: 6 Steps
 
-**In short:** You automate customer interviews by letting an AI interviewer run consistent voice conversations with your own customers, instead of scheduling and moderating each call yourself. You set up the study, share an interviewer link or a website widget, let the interviews run (including overnight), then read the transcripts and themes and decide what to change.
+**In short:** You automate customer interviews by letting an AI interviewer run consistent voice conversations with your own customers, instead of scheduling and moderating each call yourself. You set up the study, share an interviewer link or a website widget, let the AI interviewer run many interviews in parallel, then read the transcripts and themes and decide what to change.
 
 This page is the non-agent path: you set the study up in the interview tool and share it yourself. If you already work in an AI assistant, you can also connect Frank as an MCP server and ask the assistant to help draft the study or summarize transcripts. Frank works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth; see the section below.
 

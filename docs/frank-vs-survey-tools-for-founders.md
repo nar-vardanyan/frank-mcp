@@ -13,7 +13,7 @@ Early product work tends to produce two kinds of questions:
 
 Survey tools are built for the first kind. An interview is built for the second. Nielsen Norman Group places surveys, among common UX methods, as the one that is both quantitative and attitudinal: a good fit for questions like "what percentage of users feel confident after filing?", and a poor fit for questions like "why are people abandoning the cart?" ([Should You Run a Survey?](https://www.nngroup.com/articles/should-you-run-a-survey/)).
 
-If you cannot say how a finding would change a decision — a pricing change, an onboarding step, a feature you will or will not build — tighten the question before you pick a tool.
+If you cannot say how a finding would change a decision (a pricing change, an onboarding step, a feature you will or will not build), tighten the question before you pick a tool.
 
 ## Survey tools vs AI-moderated voice interviews
 

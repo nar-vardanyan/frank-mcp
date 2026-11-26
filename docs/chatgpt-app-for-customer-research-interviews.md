@@ -22,7 +22,7 @@ OpenAI also warns that an untrusted server may access information shared through
 
 | Tool | What ChatGPT can do through it (per the vendor) | Interviews | Participants |
 |---|---|---|---|
-| **Frank** | Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp)) | AI-moderated voice interviews, 50+ interview languages | Your own customers via link or widget; does not recruit |
+| **Frank** | Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp)) | AI-moderated voice interviews, multilingual interviews | Your own customers via link or widget; does not recruit |
 | **Outset** | "Create studies, configure recruitment, launch research, and analyze findings" ([Outset MCP](https://outset.ai/resources/changeblog/outset-mcp)) | Text, voice, video and voice-to-voice ([Pricing](https://outset.ai/pricing)) | 25+ panel integrations, or your own lists ([Recruit](https://outset.ai/platform/recruit)) |
 | **Strella** | "Explore projects, analyze transcripts, and manage studies" ([Strella MCP docs](https://app.strella.io/docs/product/mcp)) | AI and human moderation ([Product](https://www.strella.io/product)) | Panel of "over 8 million participants" ([Product](https://www.strella.io/product)) |
 | **Listen Labs** | Pull "themes, quotes, and cross-study synthesis" from your Listen workspace ([Listen MCP](https://listenlabs.com/blog/listen-mcp)) | AI moderator, 120+ languages ([listenlabs.com](https://listenlabs.com/)) | 50M+ network, or your own contacts ([listenlabs.com](https://listenlabs.com/)) |
@@ -68,7 +68,7 @@ An assistant can draft questions, but you still pick the decision and check the 
 
 ## When Frank is a fit
 
-Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first; video, WhatsApp and chat interviews are Coming soon. It supports 50+ interview languages and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing)).
+Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing)).
 
 **[Connect Frank to ChatGPT free at hifrank.ai/mcp](https://www.hifrank.ai/mcp)** · [Pricing](https://www.hifrank.ai/pricing)
 
