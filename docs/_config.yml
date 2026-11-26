@@ -129,6 +129,32 @@ defaults:
     values:
       description: "To find out why users don't adopt a new feature, interview people who saw it but did not use it. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with users you already have."
       schema_page: true
+
+  - scope:
+      path: customer-interview-questions-for-shopify-apps.md
+    values:
+      description: "Customer interview questions for Shopify apps: an 8-question guide about merchant install and uninstall triggers. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with merchants you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-b2b-saas.md
+    values:
+      description: "Customer interview questions for B2B SaaS: an 8-question guide about the buying committee and switching. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with buyers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-fintech.md
+    values:
+      description: "Customer interview questions for fintech: an 8-question guide about trust and money movement. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-healthtech.md
+    values:
+      description: "Customer interview questions for healthtech: an 8-question guide about clinician and patient workflows. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with people you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-marketplaces.md
+    values:
+      description: "Customer interview questions for marketplaces: an 8-question guide about supply and demand on both sides. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with buyers and sellers you already have."
+      schema_page: true
   - scope:
       path: integrations/n8n-churn-interview/README.md
     values:

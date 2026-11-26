@@ -13,6 +13,15 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Customer Interview Guide Generator (free, no login)](tools/customer-interview-guide-generator/): pick a goal (churn, win-loss, discovery or pricing) and a product type, and get 8 open interview questions with follow-ups. Copy or download as Markdown or text.
 - [Customer Interview Script Generator (free)](tools/customer-interview-script-generator/): enter your product, your customer and your goal (churn, win-loss, onboarding, pricing, feature discovery or product-market fit) and get a ready-to-use interview guide with follow-up probes.
 
+
+## Industry guides
+
+- [Customer interview questions for Shopify apps](customer-interview-questions-for-shopify-apps.md): An 8-question guide about why merchants install or uninstall a Shopify app.
+- [Customer interview questions for B2B SaaS](customer-interview-questions-for-b2b-saas.md): An 8-question guide about the buying committee and switching.
+- [Customer interview questions for fintech](customer-interview-questions-for-fintech.md): An 8-question guide about trust and money-movement worries.
+- [Customer interview questions for healthtech](customer-interview-questions-for-healthtech.md): An 8-question guide about clinician and patient workflows.
+- [Customer interview questions for marketplaces](customer-interview-questions-for-marketplaces.md): An 8-question guide about supply and demand on both sides.
+
 ## About
 
 - [About Frank AI Researcher](about-frank-ai-researcher.md)
