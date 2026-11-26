@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Interview Guide Generator (Free, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free customer interview guide generator. Pick a goal (churn, win-loss, discovery or pricing) and a product type, and get 8 open, non-leading interview questions with follow-ups. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Customer Interview Guide Generator (Free, No Login)">
+<meta property="og:description" content="Pick churn, win-loss, discovery or pricing, choose your product type, and get 8 customer interview questions with follow-ups. Copy or download as Markdown or text.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Customer Interview Guide Generator (Free, No Login)">
+<meta name="twitter:description" content="8 open customer interview questions for churn, win-loss, discovery or pricing interviews, tailored to your product type.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/#app",
+      "name": "Customer Interview Guide Generator",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to customize the guide. A default guide is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based tool that builds an 8-question customer interview guide for churn, win-loss, discovery or pricing interviews, tailored to B2B SaaS, consumer apps, marketplaces, developer tools, e-commerce stores or other products. No login; nothing is sent to a server.",
+      "featureList": ["Churn interview questions", "Win-loss interview questions", "Customer discovery interview questions", "Pricing interview questions", "Follow-up probe for every question", "Copy to clipboard", "Download as Markdown or plain text"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Customer Interview Guide Generator", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/" }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+  .full { grid-column: 1 / -1; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); }
+  input:focus, select:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 12px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  dl.goals dt { font-weight:600; margin-top:10px; }
+  dl.goals dd { margin:0 0 6px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/">Full interview script generator</a>
+  </nav>
+
+  <main>
+    <h1>Customer Interview Guide Generator</h1>
+    <p class="lede">Pick what you need to learn and what kind of product you have. You get 8 open, non-leading interview questions, each with a follow-up for when the first answer is short. Free, no login, and it runs in your browser: nothing you type is sent anywhere.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="grid">
+        <div>
+          <label for="goal">Interview goal</label>
+          <select id="goal" name="goal">
+            <option value="churn" selected>Churn</option>
+            <option value="winloss">Win-loss</option>
+            <option value="discovery">Discovery</option>
+            <option value="pricing">Pricing</option>
+          </select>
+        </div>
+        <div>
+          <label for="ptype">Product type</label>
+          <select id="ptype" name="ptype">
+            <option value="saas" selected>B2B SaaS</option>
+            <option value="consumer">Consumer app</option>
+            <option value="marketplace">Marketplace</option>
+            <option value="devtool">Developer tool</option>
+            <option value="ecommerce">E-commerce store</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="full">
+          <label for="pname">Product name <span class="hint">(optional, used in the questions)</span></label>
+          <input id="pname" name="pname" maxlength="60" placeholder="e.g. Acme Invoices">
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Generate 8 questions</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Your interview guide</h2>
+      <div class="actions js-only" role="group" aria-label="Guide actions">
+        <button class="btn btn-ghost" type="button" id="copy">Copy guide</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <button class="btn btn-ghost" type="button" id="dl-txt">Download .txt</button>
+        <span class="status" id="status" role="status" aria-live="polite"></span>
+      </div>
+      <article class="guide" id="guide" aria-live="polite">
+        <h2>Churn interview guide: B2B SaaS</h2><p class="say"><strong>Welcome (say this):</strong> Thanks for talking with me. This is a short conversation about a recent time you decided to cancel the software. It is not a sales call, and there are no right or wrong answers.</p><ol><li>Think back to when you first signed up for the software. What was going on that made you look for something like it?<span class="probe">Follow-up if the answer is short: What had you tried before?</span></li><li>Walk me through the moment you decided to cancel the software.<span class="probe">Follow-up if the answer is short: What happened right before that?</span></li><li>What had changed, compared with when you started?<span class="probe">Follow-up if the answer is short: When did you first notice it?</span></li><li>Who else on your team was involved in the decision to cancel, and what did they care about?<span class="probe">Follow-up if the answer is short: Who had the final say?</span></li><li>What almost made you stay?<span class="probe">Follow-up if the answer is short: What happened after that?</span></li><li>What do you use now, including a spreadsheet or &quot;nothing&quot;?<span class="probe">Follow-up if the answer is short: How did you pick that?</span></li><li>What did the software do well for you, even if it wasn't enough?<span class="probe">Follow-up if the answer is short: Is there anything you miss now?</span></li><li>What, if anything, would have changed your mind, and when would it have needed to happen?<span class="probe">Follow-up if the answer is short: Did you tell anyone about it at the time?</span></li></ol><p><strong>Close:</strong> Thank you. That's everything I wanted to ask.</p><h3>Tips</h3><ul><li>Talk to people within a few weeks of leaving, while the real reason is still fresh.</li><li>Separate the trigger (the moment they started looking) from the reason (why they were open to leaving).</li><li>Don't defend the product or explain features. If they missed something, write it down and move on.</li></ul>
+      </article>
+      <noscript><p>JavaScript is off, so the example above (churn, B2B SaaS) is shown. Copy it as it is, or turn on JavaScript to tailor it.</p></noscript>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> Paste this guide into a Frank study and share one link with customers you already have. Frank asks the questions out loud, follows up on the answers, and returns transcripts and themes. The Free plan includes 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=docs&amp;utm_medium=tool&amp;utm_campaign=guide-generator">Run it as a voice interview with Frank</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>Which interview goal should I pick?</h2>
+    <dl class="goals">
+      <dt>Churn</dt>
+      <dd>Why customers stopped using or cancelled. Talk to people who left recently.</dd>
+      <dt>Win-loss</dt>
+      <dd>How buyers chose between you, a competitor, or doing nothing. Talk to recent buyers from deals you won and lost.</dd>
+      <dt>Discovery</dt>
+      <dd>How people get a job done today and where it breaks down, before you decide what to build. Replace [the job] with the customer's words.</dd>
+      <dt>Pricing</dt>
+      <dd>How customers judge value and cost, based on what they actually paid and decided. Talk to people who bought, didn't buy, or downgraded.</dd>
+    </dl>
+
+    <h2>How the questions are written</h2>
+    <ul>
+      <li><strong>About a recent, real event.</strong> "Tell me about the last time…" gets a story. "Would you use…?" gets a guess.</li>
+      <li><strong>Open and neutral.</strong> No question hides the answer you hope to hear, and none asks people to price a hypothetical plan.</li>
+      <li><strong>One follow-up each.</strong> Use it only when the first answer is short. Stay in the story: "What happened next?"</li>
+      <li><strong>8 questions.</strong> Enough for about 10 to 15 minutes with follow-ups. Cut any question that does not help the decision you are making.</li>
+    </ul>
+    <p>The questions come from our <a href="https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html">customer interview questions template</a>. Need an intro script, warm-up, wrap-up and a longer guide? Use the <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/">customer interview script generator</a>.</p>
+
+    <h2>FAQ</h2>
+    <h3>Is this free? Do I need an account?</h3>
+    <p>Yes, it is free and needs no login. It runs in your browser, and nothing you type is sent to a server or stored.</p>
+    <h3>Can I use the guide without Frank?</h3>
+    <p>Yes. It is a list of questions. Use it on a live call, in a document, or in any interview tool.</p>
+    <h3>Does Frank find people to interview?</h3>
+    <p>No. Frank does not recruit participants. You invite customers you already have, from your product or your email list.</p>
+    <h3>Can I set up the interview from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html">Churn interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html">Win-loss interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/validate-a-startup-idea-with-customer-interviews.html">How to validate a startup idea with customer interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=docs&amp;utm_medium=tool&amp;utm_campaign=guide-generator">Frank AI Researcher</a>. The questions are starting points: edit them so they sound like you. Nothing you type on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+var GUIDE = (function () {
+  // Question bank. Sources: frank-mcp docs/customer-interview-questions-template.md,
+  // agent-skill references/guide-and-probes.md, and the script generator (PR #40).
+  // Each goal: 7 shared questions plus 1 product-type question inserted at position 4.
+  // Each item: [question, probe]. Tokens: {P} product, {JOIN} start verb, {LEAVE} stop verb.
+  var TYPES = {
+    saas:        { label: "B2B SaaS",            P: "the software",    JOIN: "signed up for",      LEAVE: "cancel" },
+    consumer:    { label: "Consumer app",        P: "the app",         JOIN: "downloaded",         LEAVE: "stop using" },
+    marketplace: { label: "Marketplace",         P: "the marketplace", JOIN: "joined",             LEAVE: "stop using" },
+    devtool:     { label: "Developer tool",      P: "the tool",        JOIN: "started using",      LEAVE: "stop using" },
+    ecommerce:   { label: "E-commerce store",    P: "the store",       JOIN: "first ordered from", LEAVE: "stop buying from" },
+    other:       { label: "Other",               P: "the product",     JOIN: "started using",      LEAVE: "stop using" }
+  };
+
+  var GOALS = {
+    churn: {
+      label: "Churn",
+      desc: "Why customers stopped using or cancelled. Talk to people who left recently.",
+      episode: "decided to {LEAVE} {P}",
+      core: [
+        ["Think back to when you first {JOIN} {P}. What was going on that made you look for something like it?", "What had you tried before?"],
+        ["Walk me through the moment you decided to {LEAVE} {P}.", "What happened right before that?"],
+        ["What had changed, compared with when you started?", "When did you first notice it?"],
+        ["What almost made you stay?", "What happened after that?"],
+        ["What do you use now, including a spreadsheet or \"nothing\"?", "How did you pick that?"],
+        ["What did {P} do well for you, even if it wasn't enough?", "Is there anything you miss now?"],
+        ["What, if anything, would have changed your mind, and when would it have needed to happen?", "Did you tell anyone about it at the time?"]
+      ],
+      byType: {
+        saas:        ["Who else on your team was involved in the decision to cancel, and what did they care about?", "Who had the final say?"],
+        consumer:    ["What were you using the app for in a normal week, before you stopped?", "When was the last time you opened it?"],
+        marketplace: ["Tell me about the last transaction you made on {P}. How did it go?", "What did you do the next time you needed the same thing?"],
+        devtool:     ["Walk me through how {P} fit into your workflow before you stopped using it.", "What did you have to change to remove it?"],
+        ecommerce:   ["Tell me about your last order from {P}. How did it go?", "Where did you buy the next time you needed something similar?"],
+        other:       ["What were you using {P} for, day to day?", "When was the last time you used it?"]
+      },
+      tips: [
+        "Talk to people within a few weeks of leaving, while the real reason is still fresh.",
+        "Separate the trigger (the moment they started looking) from the reason (why they were open to leaving).",
+        "Don't defend the product or explain features. If they missed something, write it down and move on."
+      ]
+    },
+    winloss: {
+      label: "Win-loss",
+      desc: "How buyers chose between you, a competitor, or doing nothing. Talk to recent buyers from deals you won and lost.",
+      episode: "compared options and made a decision",
+      core: [
+        ["What made you start looking for a solution in the first place?", "Why then, and not earlier?"],
+        ["Which options did you look at, and how did you find them?", "Where did {P} come in on your list?"],
+        ["How did you narrow the list down?", "What ruled options out?"],
+        ["Walk me through how you decided.", "What was the moment you knew which way you were going to go?"],
+        ["What almost tipped it the other way?", "What happened next?"],
+        ["How did {P} come across during the process, compared with what you expected?", "Was anything unclear or hard to get an answer on?"],
+        ["What would have needed to be true for the decision to go the other way?", "Is there anything we didn't ask about that mattered?"]
+      ],
+      byType: {
+        saas:        ["Who else was involved in the decision, and what did each person care about?", "Who had the final say?"],
+        consumer:    ["Where did you first hear about the options you compared?", "What did you read or watch before choosing?"],
+        marketplace: ["What did you check before you trusted an option enough to use it?", "Where did you look for that?"],
+        devtool:     ["How did you try the options out before deciding?", "What did you test first?"],
+        ecommerce:   ["Tell me about the moment you were ready to buy. What were you looking at?", "What did you check before you paid?"],
+        other:       ["Who else was involved in the decision, and what did they care about?", "Who had the final say?"]
+      },
+      tips: [
+        "Interview both wins and losses. Wins tell you what to repeat. Losses tell you what to fix.",
+        "Talk to buyers within a month of the decision, while the details are still fresh.",
+        "Buyers are often more open with someone outside the sales team."
+      ]
+    },
+    discovery: {
+      label: "Discovery",
+      desc: "How people get a job done today and where it breaks down, before you decide what to build. Replace [the job] with the customer's words.",
+      episode: "tried to [the job]",
+      core: [
+        ["Tell me about the last time you tried to [the job]. What were you trying to get done?", "What triggered it?"],
+        ["What did you try first? What did you try after that?", "What tools did you use?"],
+        ["Where did you get stuck, or what took longer than you expected?", "How often does that happen?"],
+        ["What do you use now to get this done? What do you like about it, and what do you work around?", "Any spreadsheets, scripts or workarounds you rely on?"],
+        ["When was the last time you actively looked for a better way?", "What happened?"],
+        ["What does this cost you today, in money or time?", "How did you decide it was worth it, or not?"],
+        ["If this problem disappeared tomorrow, what would change in your week?", "Is there anything we didn't cover that matters?"]
+      ],
+      byType: {
+        saas:        ["Who else on your team is involved in this job, and what do they care about?", "Who notices when it goes wrong?"],
+        consumer:    ["Where were you, and what were you using, the last time this came up?", "What else were you doing at the time?"],
+        marketplace: ["The last time, how did you find the person or thing you needed?", "What did you check before you trusted them?"],
+        devtool:     ["Walk me through how this fits into your build, deploy or review workflow.", "Where do you switch between tools?"],
+        ecommerce:   ["Tell me about the last time you bought something for this. How did you choose where to buy?", "What did you check before you paid?"],
+        other:       ["Who else was involved, and what did they care about?", "Who notices when it goes wrong?"]
+      },
+      tips: [
+        "Don't pitch the idea you have in mind. Once people know what you want to hear, they'll often say it.",
+        "Look for workarounds: spreadsheets, scripts, copy and paste. They show where the pain is strong enough to act on.",
+        "When someone asks for a feature, ask what they would do with it. The goal behind the request is the insight."
+      ]
+    },
+    pricing: {
+      label: "Pricing",
+      desc: "How customers judge value and cost, based on what they actually paid and decided. Talk to people who bought, didn't buy, or downgraded.",
+      episode: "decided whether to pay for {P}",
+      core: [
+        ["Before {P}, how were you solving this problem, and what did it cost you in money or time?", "What else were you paying for in this area?"],
+        ["How did you decide whether {P} was worth paying for?", "What did you compare it against?"],
+        ["When you looked at the pricing, what did you look at first?", "What made you hesitate?"],
+        ["What part of {P} would you be most upset to lose?", "What part could you live without?"],
+        ["Tell me about the last time you paid for {P}. How did it go?", "Was anything unclear?"],
+        ["Have you ever downgraded or cancelled something like this because of price? What happened?", "What did you do instead?"],
+        ["Is there anything about how {P} charges that you would change?", "What makes you say that?"]
+      ],
+      byType: {
+        saas:        ["How does the budget for a tool like this get approved where you work?", "Who else has to agree?"],
+        consumer:    ["How do you usually decide whether an app is worth paying for?", "What was the last app you paid for, and why?"],
+        marketplace: ["Tell me about the last fee you paid on {P}. How did you think about it?", "How does it compare with what you pay elsewhere?"],
+        devtool:     ["How was the decision to pay for {P} made: by you, your team, or someone else?", "What did you need to show them?"],
+        ecommerce:   ["Tell me about the last time you compared prices before buying from {P}.", "What else did you look at besides the price?"],
+        other:       ["Who decides whether to pay for something like {P}?", "What did they need to see?"]
+      },
+      tips: [
+        "Don't ask \"How much would you pay?\" People guess low on hypothetical prices. Ask what they pay today and how they decided.",
+        "Listen for the unit of value people use: per seat, per order, per project, per month.",
+        "Find out who signs off on the purchase. The user and the buyer are often different people."
+      ]
+    }
+  };
+
+  function clean(s) { return (s || "").replace(/\s+/g, " ").trim().slice(0, 60); }
+
+  function build(goalKey, typeKey, name) {
+    var g = GOALS[goalKey] || GOALS.churn;
+    var t = TYPES[typeKey] || TYPES.other;
+    var P = clean(name) || t.P;
+    function f(s) {
+      s = s.replace(/\{P\}/g, P).replace(/\{JOIN\}/g, t.JOIN).replace(/\{LEAVE\}/g, t.LEAVE);
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+    var items = g.core.slice(0, 3).concat([g.byType[typeKey] || g.byType.other], g.core.slice(3));
+    return {
+      title: g.label + " interview guide: " + (clean(name) ? clean(name) + " (" + t.label + ")" : t.label),
+      welcome: "Thanks for talking with me. This is a short conversation about a recent time you " +
+        f(g.episode).replace(/^./, function (c) { return c.toLowerCase(); }) +
+        ". It is not a sales call, and there are no right or wrong answers.",
+      questions: items.map(function (q) { return { q: f(q[0]), probe: f(q[1]) }; }),
+      close: "Thank you. That's everything I wanted to ask.",
+      tips: g.tips
+    };
+  }
+
+  function toMarkdown(s, cta) {
+    var L = ["# " + s.title, "", "**Welcome (say this):** " + s.welcome, "", "## Questions", ""];
+    s.questions.forEach(function (x, i) {
+      L.push((i + 1) + ". " + x.q, "   - Follow-up if the answer is short: " + x.probe);
+    });
+    L.push("", "**Close:** " + s.close, "", "## Tips", "");
+    s.tips.forEach(function (t) { L.push("- " + t); });
+    L.push("", "Run it as a voice interview with Frank: " + cta);
+    return L.join("\n");
+  }
+
+  return { TYPES: TYPES, GOALS: GOALS, build: build, toMarkdown: toMarkdown };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=docs&utm_medium=tool&utm_campaign=guide-generator";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var current;
+  function render() {
+    current = GUIDE.build($("goal").value, $("ptype").value, $("pname").value);
+    $("guide").innerHTML = GUIDE_HTML(current);
+    $("status").textContent = "";
+  }
+  window.GUIDE_HTML = GUIDE_HTML;
+  function GUIDE_HTML(s) { return (function guideHTML(s, esc) {
+  return "<h2>" + esc(s.title) + "</h2>" +
+    "<p class=\"say\"><strong>Welcome (say this):</strong> " + esc(s.welcome) + "</p>" +
+    "<ol>" + s.questions.map(function (x) {
+      return "<li>" + esc(x.q) + "<span class=\"probe\">Follow-up if the answer is short: " + esc(x.probe) + "</span></li>";
+    }).join("") + "</ol>" +
+    "<p><strong>Close:</strong> " + esc(s.close) + "</p>" +
+    "<h3>Tips</h3><ul>" + s.tips.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>";
+})(s, esc); }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  ["goal", "ptype"].forEach(function (id) { $(id).addEventListener("change", render); });
+  $("pname").addEventListener("input", render);
+  function md() { return GUIDE.toMarkdown(current, CTA); }
+  function txt() { return md().replace(/^#+ /gm, "").replace(/\*\*/g, ""); }
+  $("copy").addEventListener("click", function () {
+    var text = md();
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the guide and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  });
+  function download(body, ext, type) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([body], { type: type + ";charset=utf-8" }));
+    a.download = "customer-interview-guide-" + $("goal").value + "-" + $("ptype").value + "." + ext;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  }
+  $("dl-md").addEventListener("click", function () { download(md(), "md", "text/markdown"); });
+  $("dl-txt").addEventListener("click", function () { download(txt(), "txt", "text/plain"); });
+  render();
+})();
+</script>
+</body>
+</html>
