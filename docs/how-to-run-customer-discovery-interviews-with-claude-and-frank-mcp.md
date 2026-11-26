@@ -65,7 +65,7 @@ If you already ran a product-market fit survey, you can interview a segment from
 
 In Frank, new research created through MCP is a draft and is not published to participants until you approve it. Read every question for leading wording. Take the interview yourself. If a question sounds like a pitch, rewrite it around a past event.
 
-Set the time limit to fit your plan. As of 24 November 2026 (Asia/Yerevan), the Free plan includes 225 signup credits plus 60 voice minutes a month (10-minute maximum interview length). Starter, which is $49 a month when billed yearly, has a 20-minute maximum. Paid plans above Starter allow 20 or 30 minutes. MCP is on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). Check that page before you promise a length.
+Set the time limit to fit your plan. As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month (10-minute maximum interview length). Starter, which is $49 a month when billed yearly, has a 20-minute maximum. Paid plans above Starter allow 20 or 30 minutes. MCP is on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). Check that page before you promise a length.
 
 When you are ready, approve publish in your own words. Publishing makes the study live and starts spending interview credits.
 
@@ -112,7 +112,7 @@ If the problem is messy and you do not yet know what to ask, interview a few peo
 
 Frank AI Researcher runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-As of 24 November 2026 (Asia/Yerevan), the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
+As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp).
 
 **[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp)** · [Product site](https://www.hifrank.ai/?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=github&utm_medium=docs&utm_campaign=frank-mcp)
 

@@ -2,7 +2,7 @@
 
 **In short:** Several research tools now connect to ChatGPT through MCP, but they do different things there. Some run new customer interviews from a chat; others only search research you already have. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read the transcripts, with nothing published until you approve it.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
 
 ## How research tools get into ChatGPT
 

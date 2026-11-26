@@ -25,7 +25,7 @@ We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product bui
 
 ## Frank vs Listen Labs at a glance
 
-Cells below are from Listen Labs' own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). The cells below were checked on 20 November 2026 (Asia/Yerevan). If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
+Cells below are from Listen Labs' own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). The cells below were checked on 20 November 2026. If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
 
 | | Frank | Listen Labs |
 |---|---|---|
@@ -42,7 +42,7 @@ Cells below are from Listen Labs' own pages and from [hifrank.ai](https://www.hi
 | Security and privacy | SOC 2. GDPR compliant. AES-256 at rest and TLS 1.2+ in transit ([Transparency & Security](https://www.hifrank.ai/features/transparency-security), 20 Nov 2026) | SOC 2 Type II, GDPR, and CCPA, plus ISO 42001, ISO 27001, and ISO 27701. 256-bit encryption and optional EU data hosting. Listen says it never uses customer data to train AI models ([Quality Guard](https://listenlabs.com/features/quality-guard), [Trust Center](https://trust.listenlabs.ai/), [Privacy](https://listenlabs.com/privacy), 20 Nov 2026) |
 | Starting price (24 Nov 2026) | Free plan: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026). Prices change. | No public dollar price list (listenlabs.com/pricing returned 404). The official user guide describes a platform fee (priced by commitment) plus interview credits consumed per completed interview: 1 credit for self-recruited participants, 5 to 8 for general consumers, 10 to 20 for niche segments, and 40+ for targeted decision-makers. The homepage CTA opened 20 Nov 2026 is Book a demo. A "Try for Free" label was not on the homepage or user guide that day ([Homepage](https://listenlabs.com/), [User guide](https://userguide.listenlabs.ai/), 20 Nov 2026). Prices change. |
 
-Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [listenlabs.com](https://listenlabs.com/), [AI moderator](https://listenlabs.com/features/ai-moderator), [Quality Guard](https://listenlabs.com/features/quality-guard), [User guide](https://userguide.listenlabs.ai/), [Trust Center](https://trust.listenlabs.ai/), [Privacy](https://listenlabs.com/privacy), [Listen MCP](https://listenlabs.com/blog/listen-mcp), [120+ languages](https://listenlabs.com/whatsnew/120-interview-reporting-languages), [Voice Interviewer](https://listenlabs.com/whatsnew/voice-interviewer-available-in-42-languages). Opened 20 November 2026. Asia/Yerevan.
+Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [listenlabs.com](https://listenlabs.com/), [AI moderator](https://listenlabs.com/features/ai-moderator), [Quality Guard](https://listenlabs.com/features/quality-guard), [User guide](https://userguide.listenlabs.ai/), [Trust Center](https://trust.listenlabs.ai/), [Privacy](https://listenlabs.com/privacy), [Listen MCP](https://listenlabs.com/blog/listen-mcp), [120+ languages](https://listenlabs.com/whatsnew/120-interview-reporting-languages), [Voice Interviewer](https://listenlabs.com/whatsnew/voice-interviewer-available-in-42-languages). Opened 20 November 2026.
 
 ## How Frank works
 
@@ -62,7 +62,7 @@ Listen MCP is documented so tools such as Claude, Cursor, or Notion can query th
 
 ## Pricing
 
-Prices below are quoted as they appeared on each company's live pages on 20 November 2026 (Asia/Yerevan). Prices change. Confirm the live page before you buy.
+Prices below are quoted as they appeared on each company's live pages on 20 November 2026. Prices change. Confirm the live page before you buy.
 
 **Frank**, from [hifrank.ai/pricing](https://www.hifrank.ai/pricing), opened 20 Nov 2026:
 

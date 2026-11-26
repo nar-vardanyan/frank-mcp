@@ -2,7 +2,7 @@
 
 **In short:** Win-loss software falls into three groups: buyer-interview platforms (Clozd, Klue Win-Loss) that ask buyers why they decided, call and CRM analytics (Gong, Sybill) that mine what was said, and competitive suites. Frank adds a fourth, lighter option: AI-moderated voice interviews with won and lost buyers you invite yourself, starting free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares win-loss options using each company's public pages and structured data, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares win-loss options using each company's public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Start with where the reasons come from
 

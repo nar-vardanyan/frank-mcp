@@ -2,7 +2,7 @@
 
 **In short:** Frank AI Researcher has a free plan with 225 signup credits plus 60 voice minutes a month and interviews up to 10 minutes long, with no credit card required. Before you pick any free AI interview tool, check how many interview minutes you get, the maximum interview length, whether transcripts and analysis are included, and whether you must bring your own participants.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Plan details below were confirmed on 24 November 2026 (Asia/Yerevan). Check the [Frank pricing page](https://www.hifrank.ai/pricing) before you sign up, because plans change. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Plan details below were confirmed on 24 November 2026. Check the [Frank pricing page](https://www.hifrank.ai/pricing) before you sign up, because plans change. Frank does not recruit participants.
 
 ## What a free plan should let you do
 

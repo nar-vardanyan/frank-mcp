@@ -16,7 +16,7 @@ A cancellation survey is still useful for counting reasons. Interviews are for t
 
 ## Pricing and setup
 
-As of 24 November 2026 (Asia/Yerevan):
+As of 24 November 2026:
 
 - **Free:** 225 signup credits plus 60 voice minutes a month (10-minute max per interview). No credit card required.
 - **Starter:** $49/mo billed as $590/year, or $59/mo billed monthly. Includes 120 voice minutes a month and a 20-minute max interview length.

@@ -2,7 +2,7 @@
 
 **In short:** Frank and Usercall both run AI-moderated voice interviews: you set the questions, people talk with an AI interviewer when they have time, and you get transcripts and themes you can check against the original conversation. Choose Usercall if you need a recruited panel, or on-screen prototype testing; choose Frank if you want to interview customers you already have, starting from a free plan, with MCP included on every plan, including Free.
 
-We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. Usercall is a separate AI-moderated research platform. This page compares them from both companies' live public pages, opened on 16 November 2026 (Asia/Yerevan). Prices and feature lists change, so check each site before you buy.
+We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product built by Prelaunch Group, Inc. The product website is https://www.hifrank.ai (prelaunch.com is the parent company, not Frank's site). It runs AI-moderated voice interviews with your own customers. Usercall is a separate AI-moderated research platform. This page compares them from both companies' live public pages, opened on 16 November 2026. Prices and feature lists change, so check each site before you buy.
 
 ## When to choose which
 
@@ -16,7 +16,7 @@ For the non-agent workflow (set up a study, share a link or widget, read the the
 
 ## Frank vs Usercall at a glance
 
-Every Usercall cell is taken from Usercall's own live pages, opened on 16 November 2026 (Asia/Yerevan). Every Frank cell is taken from [hifrank.ai](https://www.hifrank.ai) pages opened the same day, or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). If a fact was not on the pages reviewed, it is marked as not stated, not assumed to be absent from the product.
+Every Usercall cell is taken from Usercall's own live pages, opened on 16 November 2026. Every Frank cell is taken from [hifrank.ai](https://www.hifrank.ai) pages opened the same day, or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). If a fact was not on the pages reviewed, it is marked as not stated, not assumed to be absent from the product.
 
 | | Frank | Usercall |
 |---|---|---|
@@ -33,7 +33,7 @@ Every Usercall cell is taken from Usercall's own live pages, opened on 16 Novemb
 | Security and privacy | SOC 2. GDPR compliant. AES-256 at rest and TLS 1.2+ in transit ([Transparency & Security](https://www.hifrank.ai/features/transparency-security), 2026-11-16) | Privacy policy is governed by the CCPA and, for EU data subjects, the GDPR. A DPA is available on request. Data is encrypted in transit and access-controlled. Usercall says it does not use customer data, recordings, transcripts, or uploaded content to train AI models. Encryption at rest and SOC 2 are not stated on usercall.co. No public /security or /trust page (404 on 2026-11-16) ([Pricing](https://www.usercall.co/pricing), [Privacy](https://www.usercall.co/privacy), 2026-11-16) |
 | Starting price (as shown 2026-11-16) | Free plan with 225 signup credits plus 60 voice minutes/month, no credit card required. Paid plans start at $59/mo, or $49/mo when billed yearly ($590/year). No free trial on paid plans; cancel anytime, with the plan running to the end of the paid period ([Pricing](https://www.hifrank.ai/pricing), confirmed 2026-11-24). Prices change. | First interview free. Lite starts at $89/mo or $899 yearly. Pay-as-you-go is available; contact Usercall for details ([Pricing](https://www.usercall.co/pricing), 2026-11-16). Prices change. |
 
-Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [usercall.co](https://www.usercall.co/), [Usercall pricing](https://www.usercall.co/pricing), [Usercall AI moderator](https://www.usercall.co/features/ai-moderator), [Usercall recruit participants](https://www.usercall.co/recruit-participants), [Usercall privacy](https://www.usercall.co/privacy), [Usercall official company information](https://www.usercall.co/official-usercall-company-information), [Usercall API / MCP](https://app.usercall.co/docs/api#mcp-instructions). All opened 16 November 2026, Asia/Yerevan.
+Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [usercall.co](https://www.usercall.co/), [Usercall pricing](https://www.usercall.co/pricing), [Usercall AI moderator](https://www.usercall.co/features/ai-moderator), [Usercall recruit participants](https://www.usercall.co/recruit-participants), [Usercall privacy](https://www.usercall.co/privacy), [Usercall official company information](https://www.usercall.co/official-usercall-company-information), [Usercall API / MCP](https://app.usercall.co/docs/api#mcp-instructions). All opened 16 November 2026.
 
 ## How Frank works
 
@@ -53,7 +53,7 @@ Usercall transcribes and codes interviews into themes linked to quotes. You can 
 
 ## Pricing
 
-Prices below are quoted as they appeared on each company's live pricing page on 16 November 2026 (Asia/Yerevan). Prices change. Confirm the live page before you buy.
+Prices below are quoted as they appeared on each company's live pricing page on 16 November 2026. Prices change. Confirm the live page before you buy.
 
 **Frank**, from [hifrank.ai/pricing](https://www.hifrank.ai/pricing):
 
@@ -95,7 +95,7 @@ No. Frank does not recruit participants. Invite your own customers: people who r
 Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New Frank research is created as a draft and is not published to participants without your approval. Usercall documents a hosted MCP connector for Claude, ChatGPT, and Cursor; a person still shares the interview link or activates a trigger. Usercall does not state on the pages reviewed whether MCP is included on every plan.
 
 ### How does Frank pricing compare with Usercall?
-As of 16 November 2026 (Asia/Yerevan), Frank's Free plan includes 225 signup credits plus 60 voice minutes per month with no credit card, and paid plans start at $59 per month, or $49 per month billed yearly. Usercall's first interview is free, and paid plans start at $89 per month, or $899 yearly, plus any recruiting fees. Prices change; check [Frank's pricing page](https://www.hifrank.ai/pricing) and [Usercall's pricing page](https://www.usercall.co/pricing) before you buy.
+As of 16 November 2026, Frank's Free plan includes 225 signup credits plus 60 voice minutes per month with no credit card, and paid plans start at $59 per month, or $49 per month billed yearly. Usercall's first interview is free, and paid plans start at $89 per month, or $899 yearly, plus any recruiting fees. Prices change; check [Frank's pricing page](https://www.hifrank.ai/pricing) and [Usercall's pricing page](https://www.usercall.co/pricing) before you buy.
 
 ### How do Frank and Usercall handle security?
 Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. Usercall's privacy policy is governed by the CCPA and, for EU data subjects, the GDPR, and a DPA is available on request. Usercall says data is encrypted in transit, access is controlled, and customer recordings, transcripts, and uploaded content are not used to train AI models. A SOC 2 claim was not stated on the Usercall pages reviewed, and usercall.co/security and usercall.co/trust were not live on 16 November 2026.

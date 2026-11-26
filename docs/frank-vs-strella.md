@@ -25,7 +25,7 @@ We make [Frank AI Researcher](https://www.hifrank.ai), a voice-first product bui
 
 ## Frank vs Strella at a glance
 
-Cells below are from Strella's own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). The cells below were checked on 20 November 2026 (Asia/Yerevan). If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
+Cells below are from Strella's own pages and from [hifrank.ai](https://www.hifrank.ai), or from Frank's published product claims (50+ interview languages, MCP on all plans including Free, SOC 2, and GDPR). The cells below were checked on 20 November 2026. If a fact was not on the pages reviewed, it is marked as not documented, not assumed to be absent from the product.
 
 | | Frank | Strella |
 |---|---|---|
@@ -41,7 +41,7 @@ Cells below are from Strella's own pages and from [hifrank.ai](https://www.hifra
 | Security and privacy | SOC 2. GDPR compliant. AES-256 at rest and TLS 1.2+ in transit ([Transparency & Security](https://www.hifrank.ai/features/transparency-security), 20 Nov 2026) | The CPG page says Strella is "SOC 2 compliant and GDPR ready" and supports SSO ([CPG](https://www.strella.io/cpg), 20 Nov 2026). The AI-moderation page says "Adherence to SOC-II and GDPR security standards" ([AI moderation](https://www.strella.io/ai-moderation), 20 Nov 2026). "Type II" is not in those sentences. strella.io/security and strella.io/trust were not opened on 20 Nov 2026. |
 | Starting price (24 Nov 2026) | Free plan: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026). Prices change. | No public dollar price list (www.strella.io/pricing redirects to the homepage). Docs list three payment methods: pre-purchased wallet credits, pay-as-you-go card checkout, or an enterprise invoice. New organizations start at a $0 wallet balance until credits are purchased. Participant incentives are billed in addition to interview credits ([AI-moderated interviews](https://www.strella.io/ai-moderation), [Billing & credits](https://app.strella.io/docs/product/account/billing), 20 Nov 2026). Prices change. |
 
-Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [strella.io](https://www.strella.io/), [AI-moderated interviews](https://www.strella.io/ai-moderation), [Product](https://www.strella.io/product), [Human moderation](https://www.strella.io/human-moderation), [CPG](https://www.strella.io/cpg), [Privacy policy](https://www.strella.io/privacy-policy), [Billing & credits](https://app.strella.io/docs/product/account/billing), [MCP server](https://app.strella.io/docs/product/mcp), [Hire from a participant panel](https://app.strella.io/docs/product/recruit/hire-from-panel), [AI connector post](https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector). Opened 20 November 2026. Asia/Yerevan.
+Sources: [hifrank.ai](https://www.hifrank.ai), [Frank pricing](https://www.hifrank.ai/pricing), [Frank MCP](https://www.hifrank.ai/mcp), [Frank Transparency & Security](https://www.hifrank.ai/features/transparency-security); [strella.io](https://www.strella.io/), [AI-moderated interviews](https://www.strella.io/ai-moderation), [Product](https://www.strella.io/product), [Human moderation](https://www.strella.io/human-moderation), [CPG](https://www.strella.io/cpg), [Privacy policy](https://www.strella.io/privacy-policy), [Billing & credits](https://app.strella.io/docs/product/account/billing), [MCP server](https://app.strella.io/docs/product/mcp), [Hire from a participant panel](https://app.strella.io/docs/product/recruit/hire-from-panel), [AI connector post](https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector). Opened 20 November 2026.
 
 ## How Frank works
 
@@ -61,7 +61,7 @@ After the conversations, Strella produces themes, transcripts, reports, and high
 
 ## Pricing
 
-Prices below are quoted as they appeared on each company's live pages on 20 November 2026 (Asia/Yerevan). Prices change. Confirm the live page before you buy.
+Prices below are quoted as they appeared on each company's live pages on 20 November 2026. Prices change. Confirm the live page before you buy.
 
 **Frank**, from [hifrank.ai/pricing](https://www.hifrank.ai/pricing), opened 20 Nov 2026:
 

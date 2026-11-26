@@ -2,7 +2,7 @@
 
 **In short:** For most startups, the best customer interview tool is one you can start free, point at the users you already have, and get readable transcripts from within days. Frank fits AI-moderated voice interviews on a free plan. Usercall, User Intuition, Koji and Raconte also publish self-serve prices. Great Question fits teams that mostly run live interviews.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with other self-serve interview tools, using each company's live public pages, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with other self-serve interview tools, using each company's live public pages, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## What startups actually need from an interview tool
 

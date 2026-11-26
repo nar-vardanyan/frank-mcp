@@ -25,7 +25,7 @@ Frank states that it is SOC 2 and [GDPR](https://www.hifrank.ai/features/transpa
 
 ## Plans
 
-Plan details below were checked against standing product facts on 23 November 2026 (Asia/Yerevan). Check the live [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) before you sign up, because plans change.
+Plan details below were checked against standing product facts on 23 November 2026. Check the live [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher) before you sign up, because plans change.
 
 - **Free:** 225 signup credits plus 60 voice minutes a month. MCP is included.
 - **Starter:** $49 a month, billed yearly. MCP is included.
@@ -34,7 +34,7 @@ Plan details below were checked against standing product facts on 23 November 20
 
 ## Official profiles
 
-These are Frank's official profiles, checked on 23 November 2026 (Asia/Yerevan):
+These are Frank's official profiles, checked on 23 November 2026:
 
 - Product site: [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher)
 - Docs: [https://nar-vardanyan.github.io/frank-mcp/](https://nar-vardanyan.github.io/frank-mcp/)

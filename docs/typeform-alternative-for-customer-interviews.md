@@ -2,7 +2,7 @@
 
 **In short:** If you use Typeform for customer feedback but need real interviews, choose a tool that asks follow-up questions instead of only collecting form answers. Frank runs AI-moderated voice interviews with your own customers on a free plan. Koji, TheySaid and Voiceform mix forms with AI follow-ups. Typeform's own Research Flow adds AI-moderated studies, sold by demo.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with Typeform and other tools, using each company's live public pages and structured data, opened on 19 November 2026 (Asia/Yerevan). It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with Typeform and other tools, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Why a form isn't an interview
 
