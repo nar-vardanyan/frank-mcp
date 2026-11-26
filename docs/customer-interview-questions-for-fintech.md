@@ -17,6 +17,8 @@ Use this guide when you need to understand hesitation, failed or delayed money m
 7. What would make you move this workflow to a different provider?
 8. If you could change one thing about how money moves through this product, what would it be?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20fintech&q=Tell%20me%20about%20the%20last%20time%20you%20moved%20money%20or%20ran%20a%20payment%20with%20%5Bproduct%5D.%20What%20were%20you%20trying%20to%20get%20done%3F&q=Where%20did%20you%20hesitate%2C%20and%20what%20made%20you%20continue%20or%20stop%3F&q=Walk%20me%20through%20a%20time%20a%20transfer%2C%20payout%2C%20or%20reconciliation%20did%20not%20go%20as%20expected.&q=What%20do%20you%20check%20before%20you%20trust%20a%20financial%20product%20with%20a%20real%20transaction%3F&q=Who%20else%20has%20to%20sign%20off%2C%20and%20what%20do%20they%20worry%20about%3F&q=Tell%20me%20about%20a%20moment%20when%20a%20fee%2C%20delay%2C%20or%20error%20caused%20a%20problem%20for%20you%20or%20a%20customer.&q=What%20would%20make%20you%20move%20this%20workflow%20to%20a%20different%20provider%3F&q=If%20you%20could%20change%20one%20thing%20about%20how%20money%20moves%20through%20this%20product%2C%20what%20would%20it%20be%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank

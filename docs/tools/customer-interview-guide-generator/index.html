@@ -85,6 +85,7 @@
   .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
   .cta p { margin: 0 0 10px; }
   .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .loaded { background:#ddf4ff; border:1px solid #9cd1f5; border-radius:6px; padding:8px 12px; }
   .js-only { display:none; }
   .has-js .js-only { display:flex; }
   dl.goals dt { font-weight:600; margin-top:10px; }
@@ -145,6 +146,7 @@
         <button class="btn btn-ghost" type="button" id="dl-txt">Download .txt</button>
         <span class="status" id="status" role="status" aria-live="polite"></span>
       </div>
+      <p class="loaded" id="loaded" hidden></p>
       <article class="guide" id="guide" aria-live="polite">
         <h2>Churn interview guide: B2B SaaS</h2><p class="say"><strong>Welcome (say this):</strong> Thanks for talking with me. This is a short conversation about a recent time you decided to cancel the software. It is not a sales call, and there are no right or wrong answers.</p><ol><li>Think back to when you first signed up for the software. What was going on that made you look for something like it?<span class="probe">Follow-up if the answer is short: What had you tried before?</span></li><li>Walk me through the moment you decided to cancel the software.<span class="probe">Follow-up if the answer is short: What happened right before that?</span></li><li>What had changed, compared with when you started?<span class="probe">Follow-up if the answer is short: When did you first notice it?</span></li><li>Who else on your team was involved in the decision to cancel, and what did they care about?<span class="probe">Follow-up if the answer is short: Who had the final say?</span></li><li>What almost made you stay?<span class="probe">Follow-up if the answer is short: What happened after that?</span></li><li>What do you use now, including a spreadsheet or &quot;nothing&quot;?<span class="probe">Follow-up if the answer is short: How did you pick that?</span></li><li>What did the software do well for you, even if it wasn't enough?<span class="probe">Follow-up if the answer is short: Is there anything you miss now?</span></li><li>What, if anything, would have changed your mind, and when would it have needed to happen?<span class="probe">Follow-up if the answer is short: Did you tell anyone about it at the time?</span></li></ol><p><strong>Close:</strong> Thank you. That's everything I wanted to ask.</p><h3>Tips</h3><ul><li>Talk to people within a few weeks of leaving, while the real reason is still fresh.</li><li>Separate the trigger (the moment they started looking) from the reason (why they were open to leaving).</li><li>Don't defend the product or explain features. If they missed something, write it down and move on.</li></ul>
       </article>
@@ -350,18 +352,36 @@ var GUIDE = (function () {
     };
   }
 
+  // Custom guide from URL params, e.g. an industry page deep link:
+  // ?guide=<Title>&q=<question>&q=<question>... Questions are kept exactly as given (max 12, 300 chars each).
+  function fromParams(search) {
+    var p = new URLSearchParams(search || "");
+    var qs = p.getAll("q").map(function (x) { return x.replace(/\s+/g, " ").trim().slice(0, 300); }).filter(Boolean).slice(0, 12);
+    var title = (p.get("guide") || "").replace(/\s+/g, " ").trim().slice(0, 120);
+    var out = { goal: GOALS[p.get("goal")] ? p.get("goal") : null, type: TYPES[p.get("type")] ? p.get("type") : null, name: clean(p.get("name") || "") };
+    if (qs.length) out.custom = {
+      title: title || "Customer interview guide",
+      welcome: "Thanks for talking with me. This is a short conversation about your recent experience. It is not a sales call, and there are no right or wrong answers.",
+      questions: qs.map(function (q) { return { q: q, probe: "" }; }),
+      close: "Thank you. That's everything I wanted to ask.",
+      tips: []
+    };
+    return out;
+  }
+
   function toMarkdown(s, cta) {
     var L = ["# " + s.title, "", "**Welcome (say this):** " + s.welcome, "", "## Questions", ""];
     s.questions.forEach(function (x, i) {
-      L.push((i + 1) + ". " + x.q, "   - Follow-up if the answer is short: " + x.probe);
+      L.push((i + 1) + ". " + x.q);
+      if (x.probe) L.push("   - Follow-up if the answer is short: " + x.probe);
     });
-    L.push("", "**Close:** " + s.close, "", "## Tips", "");
-    s.tips.forEach(function (t) { L.push("- " + t); });
+    L.push("", "**Close:** " + s.close);
+    if (s.tips.length) { L.push("", "## Tips", ""); s.tips.forEach(function (t) { L.push("- " + t); }); }
     L.push("", "Run it as a voice interview with Frank: " + cta);
     return L.join("\n");
   }
 
-  return { TYPES: TYPES, GOALS: GOALS, build: build, toMarkdown: toMarkdown };
+  return { TYPES: TYPES, GOALS: GOALS, build: build, toMarkdown: toMarkdown, fromParams: fromParams };
 })();
 
 (function () {
@@ -380,10 +400,10 @@ var GUIDE = (function () {
   return "<h2>" + esc(s.title) + "</h2>" +
     "<p class=\"say\"><strong>Welcome (say this):</strong> " + esc(s.welcome) + "</p>" +
     "<ol>" + s.questions.map(function (x) {
-      return "<li>" + esc(x.q) + "<span class=\"probe\">Follow-up if the answer is short: " + esc(x.probe) + "</span></li>";
+      return "<li>" + esc(x.q) + (x.probe ? "<span class=\"probe\">Follow-up if the answer is short: " + esc(x.probe) + "</span>" : "") + "</li>";
     }).join("") + "</ol>" +
     "<p><strong>Close:</strong> " + esc(s.close) + "</p>" +
-    "<h3>Tips</h3><ul>" + s.tips.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>";
+    (s.tips.length ? "<h3>Tips</h3><ul>" + s.tips.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>" : "");
 })(s, esc); }
   $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
   ["goal", "ptype"].forEach(function (id) { $(id).addEventListener("change", render); });
@@ -405,14 +425,29 @@ var GUIDE = (function () {
   function download(body, ext, type) {
     var a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob([body], { type: type + ";charset=utf-8" }));
-    a.download = "customer-interview-guide-" + $("goal").value + "-" + $("ptype").value + "." + ext;
+    a.download = (P.custom && !$("loaded").hidden ? "customer-interview-guide" : "customer-interview-guide-" + $("goal").value + "-" + $("ptype").value) + "." + ext;
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
     $("status").textContent = "Downloaded";
   }
   $("dl-md").addEventListener("click", function () { download(md(), "md", "text/markdown"); });
   $("dl-txt").addEventListener("click", function () { download(txt(), "txt", "text/plain"); });
-  render();
+  // Deep links: ?goal=&type=&name= preselect the form; ?guide=&q=&q=... loads a ready-made guide as given.
+  var P = GUIDE.fromParams(window.location.search);
+  if (P.goal) $("goal").value = P.goal;
+  if (P.type) $("ptype").value = P.type;
+  if (P.name) $("pname").value = P.name;
+  if (P.custom) {
+    current = P.custom;
+    $("guide").innerHTML = GUIDE_HTML(current);
+    var b = $("loaded");
+    b.textContent = "Loaded " + current.questions.length + " questions from \u201c" + current.title + "\u201d. Copy or download them below, or pick a goal and product type above to build a different guide.";
+    b.hidden = false;
+    ["goal", "ptype", "pname"].forEach(function (id) { $(id).addEventListener("input", function () { b.hidden = true; }); });
+    $("gen").addEventListener("submit", function () { b.hidden = true; });
+  } else {
+    render();
+  }
 })();
 </script>
 </body>

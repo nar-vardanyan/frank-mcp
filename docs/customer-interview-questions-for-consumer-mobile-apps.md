@@ -17,6 +17,8 @@ Use this guide when you need to understand the first session, why someone came b
 7. How does it fit into your day, and when does it get in the way?
 8. If you could change one thing about the first week with this app, what would it be?
 
+**[Run this guide as a voice interview](tools/customer-interview-guide-generator/?guide=Customer%20interview%20questions%20for%20consumer%20mobile%20apps&q=Tell%20me%20about%20the%20last%20time%20you%20opened%20%5Bapp%5D.%20What%20were%20you%20trying%20to%20get%20done%3F&q=Walk%20me%20through%20your%20first%20session%20after%20install.%20Where%20did%20you%20get%20stuck%20or%20lose%20interest%3F&q=What%20brought%20you%20back%20on%20a%20later%20day%2C%20or%20what%20kept%20you%20from%20coming%20back%3F&q=Tell%20me%20about%20a%20notification%20or%20a%20prompt%20that%20you%20found%20useful%2C%20or%20one%20that%20made%20you%20want%20to%20leave.&q=What%20almost%20made%20you%20delete%20the%20app%2C%20or%20already%20made%20you%20delete%20a%20similar%20one%3F&q=When%20do%20you%20use%20this%20app%20instead%20of%20a%20website%2C%20another%20app%2C%20or%20doing%20nothing%3F&q=How%20does%20it%20fit%20into%20your%20day%2C%20and%20when%20does%20it%20get%20in%20the%20way%3F&q=If%20you%20could%20change%20one%20thing%20about%20the%20first%20week%20with%20this%20app%2C%20what%20would%20it%20be%3F)**: opens these 8 questions in the free guide generator, ready to copy or download and paste into a Frank study.
+
 Want a guide for your exact product? Try the [customer interview guide generator](tools/customer-interview-guide-generator/).
 
 ## Run this guide with Frank
