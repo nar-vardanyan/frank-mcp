@@ -54,6 +54,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)
 - [How to send a Frank churn interview invite from n8n](integrations/n8n-churn-interview/)
 - [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md)
+- [Run post-Black-Friday buyer interviews with Frank via MCP](run-post-black-friday-buyer-interviews-with-frank-via-mcp.md)
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [AI voice interviews for customer feedback](ai-voice-interviews-for-customer-feedback.md)
 - [AI customer interview tool with a free plan](ai-customer-interview-tool-free-plan.md)
