@@ -91,6 +91,7 @@ Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 en
 
 ## Related
 
+- [Customer interview cost calculator](tools/customer-interview-cost-calculator/): your own hours and cost, manual vs Frank
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
 - [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions)

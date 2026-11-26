@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Interview Cost Calculator (Free, Your Own Numbers) | Frank AI Researcher docs</title>
+<meta name="description" content="What does a customer interview cost? Enter your own hours for recruiting, scheduling, interviewing and analysis, plus your hourly cost, and compare a manual study with AI-moderated voice interviews in Frank. Free, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="What does a customer interview cost? Free calculator">
+<meta property="og:description" content="Enter your own hours and hourly cost. See total hours and cost for a manual interview study vs AI-moderated voice interviews with Frank, and whether the Free plan covers it.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="What does a customer interview cost? Free calculator">
+<meta name="twitter:description" content="Your numbers, not benchmarks: hours and cost of a manual customer interview study vs AI-moderated voice interviews with Frank.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["WebApplication", "SoftwareApplication"],
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/#app",
+      "name": "Customer Interview Cost Calculator",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based calculator. You enter the number of interviews, interview length, your hours per interview for recruiting, scheduling, interviewing and analysis, your hourly cost and any incentive. It returns total hours and cost for a manual study and for running the same interviews as AI-moderated voice interviews with Frank AI Researcher, and shows which Frank plan's monthly voice minutes cover the study. Nothing is sent to a server.",
+      "featureList": ["Uses only numbers you enter", "Manual vs Frank comparison of hours and cost", "Frank Free plan fit check (60 voice minutes a month)", "Shareable link with your inputs"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where do the numbers in this calculator come from?",
+          "acceptedAnswer": { "@type": "Answer", "text": "From you. The calculator has no built-in benchmarks or industry averages. The values shown when the page opens are example values only, so replace them with your own. The only fixed numbers are Frank's published plan prices and voice minutes, taken from hifrank.ai/pricing on 26 November 2026." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Frank recruit participants?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Frank does not recruit participants. You invite people you already have, such as customers, users or your email list. That is why recruiting time and incentives are the same in both columns." }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Frank remove from the manual approach?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Scheduling and live moderating. Participants open one interview link when it suits them, and Frank asks the questions out loud, follows up on the answers, and runs many interviews in parallel. Frank also returns transcripts, summaries and themes, but you still read and check them, so the calculator asks for your own review hours instead of assuming zero." }
+        },
+        {
+          "@type": "Question",
+          "name": "When does the Frank Free plan cover my study?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The Free plan includes 60 voice minutes a month with no credit card, and interviews up to 10 minutes long. If your number of interviews times minutes per interview is 60 or less, and each interview is 10 minutes or shorter, the study fits in one month of the Free plan. Otherwise the calculator shows which paid plan's monthly minutes and interview length cover it." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is anything I type stored or sent anywhere?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. The math runs in your browser. If you copy the share link, your inputs are in that link's address, and only the people you send it to will see them." }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Customer Interview Cost Calculator", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/" }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; --warn:#9a6700; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.calc { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  fieldset { border:0; padding:0; margin:0 0 18px; }
+  legend { font-weight:700; font-size:15px; margin-bottom:8px; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+  .full { grid-column: 1 / -1; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); }
+  input:focus, select:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .example { background:#fff8c5; border:1px solid #d4a72c; border-radius:6px; padding:8px 12px; font-size:14px; margin: 0 0 16px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .tablewrap { overflow-x:auto; }
+  table { border-collapse: collapse; width:100%; margin: 10px 0; font-size: 15px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background: var(--soft); }
+  td.num, th.num { text-align:right; white-space:nowrap; }
+  tr.total td { font-weight:700; background:#eaf6f1; }
+  .summary { font-size:1.05em; }
+  .fit { border-radius:8px; padding:12px 16px; margin:14px 0; border:1px solid #b7e1cf; background:#eaf6f1; }
+  .fit.over { border-color:#d4a72c; background:#fff8c5; }
+  .errors { color:#cf222e; font-weight:600; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 1.7em; } th, td { padding:6px; font-size:14px; } }
+  @media print { form.calc, .cta, .top, .actions, footer { display:none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Interview guide generator</a>
+  </nav>
+
+  <main>
+    <h1>What does a customer interview cost?</h1>
+    <p class="lede">A free calculator that uses only your numbers. Enter how many interviews you plan, how long they run, and how many hours each step takes you. You get the total hours and cost of running the study yourself, next to the same study run as AI-moderated voice interviews with Frank AI Researcher. It runs in your browser: nothing you type is sent anywhere.</p>
+
+    <form class="calc" id="calc" autocomplete="off" novalidate>
+      <p class="example" id="example-note"><strong>Example values, replace with yours.</strong> The numbers below are placeholders so the page shows a result. They are not benchmarks or averages.</p>
+
+      <fieldset>
+        <legend>Your study</legend>
+        <div class="grid">
+          <div>
+            <label for="n">Number of interviews</label>
+            <input id="n" name="n" type="number" inputmode="numeric" min="0" step="1" value="6">
+          </div>
+          <div>
+            <label for="m">Minutes per interview</label>
+            <input id="m" name="m" type="number" inputmode="decimal" min="0" step="any" value="10">
+          </div>
+          <div>
+            <label for="rate">Hourly cost of the person's time <span class="hint">(USD)</span></label>
+            <input id="rate" name="rate" type="number" inputmode="decimal" min="0" step="any" value="50">
+          </div>
+          <div>
+            <label for="inc">Incentive per participant <span class="hint">(USD, optional)</span></label>
+            <input id="inc" name="inc" type="number" inputmode="decimal" min="0" step="any" value="0">
+          </div>
+          <div class="full">
+            <label for="setup">One-time setup hours <span class="hint">(writing the guide and planning; counted in both columns)</span></label>
+            <input id="setup" name="setup" type="number" inputmode="decimal" min="0" step="any" value="2">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your hours per interview, manual approach</legend>
+        <div class="grid">
+          <div>
+            <label for="rec">Recruiting <span class="hint">(finding and inviting each person)</span></label>
+            <input id="rec" name="rec" type="number" inputmode="decimal" min="0" step="any" value="0.5">
+          </div>
+          <div>
+            <label for="sch">Scheduling <span class="hint">(back and forth, reminders, no-shows)</span></label>
+            <input id="sch" name="sch" type="number" inputmode="decimal" min="0" step="any" value="0.25">
+          </div>
+          <div>
+            <label for="mod">Interviewing or moderating <span class="hint">(the call plus prep)</span></label>
+            <input id="mod" name="mod" type="number" inputmode="decimal" min="0" step="any" value="0.5">
+          </div>
+          <div>
+            <label for="ana">Note-taking and analysis</label>
+            <input id="ana" name="ana" type="number" inputmode="decimal" min="0" step="any" value="1">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your hours per interview, with Frank</legend>
+        <div class="grid">
+          <div class="full">
+            <label for="rev">Review hours per interview <span class="hint">(reading transcripts and checking Frank's themes against the quotes)</span></label>
+            <input id="rev" name="rev" type="number" inputmode="decimal" min="0" step="any" value="0.25">
+          </div>
+          <div class="full">
+            <label for="plan">Frank plan to price in</label>
+            <select id="plan" name="plan">
+              <option value="auto" selected>Smallest plan whose monthly minutes and interview length cover this study (billed monthly)</option>
+              <option value="auto-annual">Same, billed annually</option>
+              <option value="free">Free</option>
+              <option value="starter">Starter</option>
+              <option value="growth">Growth</option>
+              <option value="business">Business</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Calculate</button>
+        <button class="btn btn-ghost" type="button" id="clear">Clear all values</button>
+        <button class="btn btn-ghost" type="button" id="share">Copy share link</button>
+        <span class="status" id="status" role="status" aria-live="polite"></span>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title" aria-live="polite">
+      <h2 id="result-title">Your result</h2>
+      <p class="errors" id="errors"></p>
+      <p class="summary" id="summary">Turn on JavaScript to calculate. The method below explains the math, so you can also do it by hand.</p>
+      <div class="tablewrap"><table id="table" hidden>
+        <thead><tr><th>Step</th><th class="num">Manual hours</th><th class="num">With Frank hours</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table></div>
+      <div class="fit" id="fit" hidden></div>
+      <div id="plans-wrap" hidden>
+        <h3>Frank plans compared with your study</h3>
+        <div class="tablewrap"><table>
+          <thead><tr><th>Plan</th><th class="num">Voice minutes a month</th><th class="num">Max interview length</th><th class="num">Price a month</th><th>Covers this study in one month?</th></tr></thead>
+          <tbody id="plan-rows"></tbody>
+        </table></div>
+        <p class="hint">Plan details from <a href="https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=cost-calculator">hifrank.ai/pricing</a>, checked 26 November 2026. Prices change, so check the pricing page before you buy. Annual prices are the monthly equivalent of the yearly bill.</p>
+      </div>
+
+      <div class="cta">
+        <p><strong>Frank AI Researcher runs AI-moderated voice interviews with people you already have.</strong> Write your questions, share one link, and Frank asks them out loud, follows up on the answers, and returns transcripts and themes. Interviews run in parallel, so there are no calls to schedule. The Free plan includes 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://www.hifrank.ai/try-frank?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=cost-calculator">Try a live Frank interview</a>
+      </div>
+    </section>
+
+    <h2>How the calculator works</h2>
+    <p>Every hour and dollar figure comes from the fields above. The page does not add industry averages, and the values it opens with are only examples.</p>
+    <ul>
+      <li><strong>Manual hours</strong> = setup + interviews &times; (recruiting + scheduling + interviewing + analysis).</li>
+      <li><strong>Hours with Frank</strong> = setup + interviews &times; (recruiting + your review hours). Scheduling and live interviewing are zero, because participants open the interview link when it suits them and Frank moderates.</li>
+      <li><strong>Cost of time</strong> = hours &times; your hourly cost.</li>
+      <li><strong>Incentives</strong> = interviews &times; incentive per participant, in both columns.</li>
+      <li><strong>Frank plan cost</strong> = one month of the plan you pick. Voice minutes needed = interviews &times; minutes per interview.</li>
+    </ul>
+
+    <h3>Method notes</h3>
+    <ul>
+      <li><strong>Recruiting stays the same.</strong> Frank does not recruit participants. You still find and invite the people, so those hours and any incentive appear in both columns.</li>
+      <li><strong>Review is not zero.</strong> Frank returns transcripts, summaries and themes, but you should still read them and check each theme against the quotes. Enter the time that takes you.</li>
+      <li><strong>Voice minutes are an estimate.</strong> Frank counts the minutes interviews actually use, and real interviews run shorter or longer than planned. If you go over a plan's minutes, hifrank.ai/pricing says you can keep interviewing at that plan's overage rate; this calculator does not price overage.</li>
+      <li><strong>One month.</strong> The plan check assumes the whole study runs in one month. If you spread it over several months, each month's minutes count against that month's allowance.</li>
+      <li><strong>Not counted:</strong> tools you already pay for, calendar time until results arrive, and the value of what you learn.</li>
+    </ul>
+
+    <h2>FAQ</h2>
+    <h3>Where do the numbers in this calculator come from?</h3>
+    <p>From you. The calculator has no built-in benchmarks or industry averages. The values shown when the page opens are example values only, so replace them with your own. The only fixed numbers are Frank's published plan prices and voice minutes, taken from hifrank.ai/pricing on 26 November 2026.</p>
+    <h3>Does Frank recruit participants?</h3>
+    <p>No. Frank does not recruit participants. You invite people you already have, such as customers, users or your email list. That is why recruiting time and incentives are the same in both columns.</p>
+    <h3>What does Frank remove from the manual approach?</h3>
+    <p>Scheduling and live moderating. Participants open one interview link when it suits them, and Frank asks the questions out loud, follows up on the answers, and runs many interviews in parallel. Frank also returns transcripts, summaries and themes, but you still read and check them, so the calculator asks for your own review hours instead of assuming zero.</p>
+    <h3>When does the Frank Free plan cover my study?</h3>
+    <p>The Free plan includes 60 voice minutes a month with no credit card, and interviews up to 10 minutes long. If your number of interviews times minutes per interview is 60 or less, and each interview is 10 minutes or shorter, the study fits in one month of the Free plan. Otherwise the calculator shows which paid plan's monthly minutes and interview length cover it.</p>
+    <h3>Is anything I type stored or sent anywhere?</h3>
+    <p>No. The math runs in your browser. If you copy the share link, your inputs are in that link's address, and only the people you send it to will see them.</p>
+    <h3>Can I set up the study from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 open questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-script-generator/">Customer interview script generator</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-tool-free-plan.html">AI customer interview tool with a free plan</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html">User feedback without scheduling calls</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html">How to interview customers at scale</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://www.hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=cost-calculator">Frank AI Researcher</a>. Frank is built by Prelaunch Group, Inc. Results depend entirely on the numbers you enter. Nothing you type on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+var CALC = (function () {
+  // Plan data from https://www.hifrank.ai/pricing, checked 26 November 2026.
+  var PLANS = [
+    { id: "free",     label: "Free",     minutes: 60,  maxLen: 10, monthly: 0,   annual: 0 },
+    { id: "starter",  label: "Starter",  minutes: 120, maxLen: 20, monthly: 59,  annual: 49 },
+    { id: "growth",   label: "Growth",   minutes: 450, maxLen: 20, monthly: 199, annual: 166 },
+    { id: "business", label: "Business", minutes: 950, maxLen: 30, monthly: 375, annual: 312 }
+  ];
+  var FIELDS = ["n", "m", "rate", "inc", "setup", "rec", "sch", "mod", "ana", "rev"];
+  var LABELS = { n: "Number of interviews", m: "Minutes per interview", rate: "Hourly cost", inc: "Incentive per participant", setup: "Setup hours", rec: "Recruiting hours", sch: "Scheduling hours", mod: "Interviewing hours", ana: "Analysis hours", rev: "Review hours" };
+
+  // Turn raw strings into numbers. Blank means 0. Negative or non-numeric values are errors.
+  function parse(raw) {
+    var v = {}, errors = [];
+    FIELDS.forEach(function (k) {
+      var s = raw[k] == null ? "" : String(raw[k]).trim().replace(/,/g, "");
+      if (s === "") { v[k] = 0; return; }
+      var x = Number(s);
+      if (!isFinite(x)) { errors.push(LABELS[k] + " must be a number."); v[k] = 0; return; }
+      if (x < 0) { errors.push(LABELS[k] + " can't be negative."); v[k] = 0; return; }
+      v[k] = x;
+    });
+    if (v.n !== Math.floor(v.n)) { errors.push("Number of interviews must be a whole number."); v.n = Math.floor(v.n); }
+    return { values: v, errors: errors };
+  }
+
+  function covers(p, minutesNeeded, m) { return minutesNeeded <= p.minutes && m <= p.maxLen; }
+
+  function compute(v, planChoice) {
+    var n = v.n;
+    var manual = {
+      setup: v.setup, rec: n * v.rec, sch: n * v.sch, mod: n * v.mod, ana: n * v.ana
+    };
+    manual.hours = manual.setup + manual.rec + manual.sch + manual.mod + manual.ana;
+    var frank = { setup: v.setup, rec: n * v.rec, sch: 0, mod: 0, ana: n * v.rev };
+    frank.hours = frank.setup + frank.rec + frank.ana;
+    var incentives = n * v.inc;
+    var minutesNeeded = n * v.m;
+    var fits = PLANS.map(function (p) { return { plan: p, covers: covers(p, minutesNeeded, v.m) }; });
+    var smallest = null;
+    for (var i = 0; i < fits.length; i++) { if (fits[i].covers) { smallest = fits[i].plan; break; } }
+    var chosen = null, billing = "monthly";
+    planChoice = planChoice || "auto";
+    if (planChoice === "auto" || planChoice === "auto-annual") {
+      chosen = smallest;
+      if (planChoice === "auto-annual") billing = "annual";
+    } else {
+      chosen = PLANS.filter(function (p) { return p.id === planChoice; })[0] || null;
+    }
+    var planCost = chosen ? (billing === "annual" ? chosen.annual : chosen.monthly) : 0;
+    manual.cost = manual.hours * v.rate + incentives;
+    frank.cost = frank.hours * v.rate + incentives + planCost;
+    return {
+      manual: manual, frank: frank, incentives: incentives, minutesNeeded: minutesNeeded,
+      freeFits: covers(PLANS[0], minutesNeeded, v.m), fits: fits, smallest: smallest,
+      chosen: chosen, billing: billing, planCost: planCost,
+      chosenCovers: chosen ? covers(chosen, minutesNeeded, v.m) : false,
+      freeMonths: v.m <= PLANS[0].maxLen && minutesNeeded > 0 ? Math.ceil(minutesNeeded / PLANS[0].minutes) : null,
+      hoursSaved: manual.hours - frank.hours,
+      costDiff: manual.cost - frank.cost
+    };
+  }
+
+  function round(x, d) { var f = Math.pow(10, d); return Math.round((x + Number.EPSILON) * f) / f; }
+  function fmtHours(x) { return round(x, 2).toLocaleString("en-US", { maximumFractionDigits: 2 }); }
+  function fmtUSD(x) {
+    var neg = x < 0; x = Math.abs(x);
+    return (neg ? "-$" : "$") + round(x, 2).toLocaleString("en-US", { minimumFractionDigits: x % 1 ? 2 : 0, maximumFractionDigits: 2 });
+  }
+
+  function toQuery(raw, planChoice) {
+    var parts = [];
+    FIELDS.forEach(function (k) { if (raw[k] != null && String(raw[k]).trim() !== "") parts.push(k + "=" + encodeURIComponent(String(raw[k]).trim())); });
+    if (planChoice && planChoice !== "auto") parts.push("plan=" + encodeURIComponent(planChoice));
+    return parts.length ? "?" + parts.join("&") : "";
+  }
+  function fromQuery(search) {
+    var out = {}, s = String(search || "").replace(/^\?/, "");
+    if (!s) return out;
+    s.split("&").forEach(function (pair) {
+      var i = pair.indexOf("="); if (i < 0) return;
+      var k = decodeURIComponent(pair.slice(0, i)), val = decodeURIComponent(pair.slice(i + 1).replace(/\+/g, " "));
+      if (FIELDS.indexOf(k) >= 0 || k === "plan") out[k] = val.slice(0, 20);
+    });
+    return out;
+  }
+
+  return { PLANS: PLANS, FIELDS: FIELDS, parse: parse, compute: compute, fmtHours: fmtHours, fmtUSD: fmtUSD, toQuery: toQuery, fromQuery: fromQuery };
+})();
+if (typeof module !== "undefined" && module.exports) { module.exports = CALC; }
+
+(function () {
+  if (typeof document === "undefined") return;
+  var BASE = "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/";
+  var PLAN_IDS = ["auto", "auto-annual", "free", "starter", "growth", "business"];
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function readRaw() { var r = {}; CALC.FIELDS.forEach(function (k) { r[k] = $(k).value; }); return r; }
+  var H = CALC.fmtHours, U = CALC.fmtUSD;
+
+  function render() {
+    var raw = readRaw(), planChoice = $("plan").value;
+    var p = CALC.parse(raw), v = p.values;
+    $("errors").textContent = p.errors.join(" ");
+    if (v.n === 0) {
+      $("summary").textContent = "Enter the number of interviews to see a result.";
+      $("table").hidden = true; $("fit").hidden = true; $("plans-wrap").hidden = true;
+      return;
+    }
+    var r = CALC.compute(v, planChoice);
+    var rows = [
+      ["One-time setup", r.manual.setup, r.frank.setup],
+      ["Recruiting (Frank does not recruit, so this stays)", r.manual.rec, r.frank.rec],
+      ["Scheduling", r.manual.sch, r.frank.sch],
+      ["Interviewing or moderating", r.manual.mod, r.frank.mod],
+      ["Note-taking and analysis (with Frank: your review)", r.manual.ana, r.frank.ana]
+    ];
+    var html = rows.map(function (x) { return "<tr><td>" + esc(x[0]) + "</td><td class=\"num\">" + H(x[1]) + "</td><td class=\"num\">" + H(x[2]) + "</td></tr>"; }).join("");
+    html += "<tr class=\"total\"><td>Total hours</td><td class=\"num\">" + H(r.manual.hours) + "</td><td class=\"num\">" + H(r.frank.hours) + "</td></tr>";
+    html += "<tr><td>Cost of time at " + U(v.rate) + " an hour</td><td class=\"num\">" + U(r.manual.hours * v.rate) + "</td><td class=\"num\">" + U(r.frank.hours * v.rate) + "</td></tr>";
+    html += "<tr><td>Incentives</td><td class=\"num\">" + U(r.incentives) + "</td><td class=\"num\">" + U(r.incentives) + "</td></tr>";
+    var planLabel = r.chosen ? "Frank " + r.chosen.label + (r.chosen.id === "free" ? "" : (r.billing === "annual" ? ", billed annually" : ", billed monthly")) + ", one month" : "Frank plan (no listed plan covers this, see below)";
+    html += "<tr><td>" + esc(planLabel) + "</td><td class=\"num\">" + U(0) + "</td><td class=\"num\">" + (r.chosen ? U(r.planCost) : "Not priced") + "</td></tr>";
+    html += "<tr class=\"total\"><td>" + (r.chosen ? "Total cost" : "Total cost (Frank column without a plan fee)") + "</td><td class=\"num\">" + U(r.manual.cost) + "</td><td class=\"num\">" + U(r.frank.cost) + "</td></tr>";
+    $("rows").innerHTML = html;
+    $("table").hidden = false;
+
+    var diffH = r.hoursSaved, diffC = r.costDiff;
+    var s = "With your numbers, " + v.n + " interview" + (v.n === 1 ? "" : "s") + " take " + H(r.manual.hours) + " hours manually and " + H(r.frank.hours) + " hours with Frank";
+    s += diffH > 0 ? " (" + H(diffH) + " fewer hours). " : diffH < 0 ? " (" + H(-diffH) + " more hours). " : " (the same). ";
+    s += "Total cost: " + U(r.manual.cost) + " manual vs " + U(r.frank.cost) + " with Frank";
+    s += diffC > 0 ? ", a difference of " + U(diffC) + "." : diffC < 0 ? ", which is " + U(-diffC) + " more with Frank." : ".";
+    if (!r.chosen) s += " The Frank total leaves out a plan fee, because no listed self-serve plan covers this study in one month.";
+    $("summary").textContent = s;
+
+    var fit = $("fit");
+    var need = H(r.minutesNeeded) + " voice minutes (" + v.n + " &times; " + H(v.m) + ")";
+    if (r.freeFits) {
+      fit.className = "fit";
+      fit.innerHTML = "<strong>This fits the Free plan.</strong> Your study needs about " + need + ", within the Free plan's 60 voice minutes a month and 10-minute interview length. No card required.";
+    } else {
+      fit.className = "fit over";
+      var why = [];
+      if (r.minutesNeeded > 60) why.push("needs about " + need + ", more than the Free plan's 60 a month");
+      if (v.m > 10) why.push("uses " + H(v.m) + "-minute interviews, longer than the Free plan's 10-minute limit");
+      var t = "<strong>This is more than the Free plan covers in one month.</strong> Your study " + why.join(", and ") + ".";
+      if (r.freeMonths) t += " On Free alone it would take " + r.freeMonths + " months of allowance.";
+      if (r.smallest) t += " The smallest listed plan whose monthly minutes and interview length cover it is " + r.smallest.label + ".";
+      else t += " No listed self-serve plan covers it in one month (Business has 950 minutes and 30-minute interviews). Split the study across months, shorten interviews, or ask Frank about Enterprise.";
+      if (r.chosen && !r.chosenCovers) t += " Note: the plan you picked, " + r.chosen.label + ", does not cover this study in one month.";
+      fit.innerHTML = t;
+    }
+    fit.hidden = false;
+
+    $("plan-rows").innerHTML = r.fits.map(function (f) {
+      var pl = f.plan;
+      var price = pl.monthly === 0 ? "$0, no card" : U(pl.annual) + " billed annually, or " + U(pl.monthly) + " monthly";
+      return "<tr><td>" + pl.label + "</td><td class=\"num\">" + pl.minutes + "</td><td class=\"num\">" + pl.maxLen + " min</td><td class=\"num\">" + price + "</td><td>" + (f.covers ? "Yes" : "No") + "</td></tr>";
+    }).join("");
+    $("plans-wrap").hidden = false;
+
+    var q = CALC.toQuery(raw, planChoice);
+    if (window.history && history.replaceState) { try { history.replaceState(null, "", location.pathname + q); } catch (e) {} }
+  }
+
+  // Load shared values from the URL, if any.
+  var shared = CALC.fromQuery(location.search);
+  var hasShared = false;
+  CALC.FIELDS.forEach(function (k) { if (shared[k] != null) { $(k).value = shared[k]; hasShared = true; } });
+  if (shared.plan && PLAN_IDS.indexOf(shared.plan) >= 0) { $("plan").value = shared.plan; hasShared = true; }
+  if (hasShared) $("example-note").innerHTML = "<strong>These values came from a shared link.</strong> They are someone's own inputs, not benchmarks. Replace them with yours.";
+
+  $("calc").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  $("calc").addEventListener("input", render);
+  $("plan").addEventListener("change", render);
+  $("clear").addEventListener("click", function () {
+    CALC.FIELDS.forEach(function (k) { $(k).value = ""; });
+    $("plan").value = "auto";
+    $("example-note").innerHTML = "<strong>All values cleared.</strong> Enter your own numbers.";
+    render();
+  });
+  $("share").addEventListener("click", function () {
+    var link = BASE + CALC.toQuery(readRaw(), $("plan").value);
+    function ok() { $("status").textContent = "Link copied"; }
+    function fallback() { window.prompt("Copy this link:", link); }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(link).then(ok, fallback); else fallback();
+  });
+  render();
+})();
+</script>
+</body>
+</html>
