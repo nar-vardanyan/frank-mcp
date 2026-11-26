@@ -10,6 +10,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 ## Free tools
 
+- [Customer Interview Guide Generator (free, no login)](tools/customer-interview-guide-generator/): pick a goal (churn, win-loss, discovery or pricing) and a product type, and get 8 open interview questions with follow-ups. Copy or download as Markdown or text.
 - [Customer Interview Script Generator (free)](tools/customer-interview-script-generator/): enter your product, your customer and your goal (churn, win-loss, onboarding, pricing, feature discovery or product-market fit) and get a ready-to-use interview guide with follow-up probes.
 
 ## About
