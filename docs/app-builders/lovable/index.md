@@ -104,6 +104,8 @@ about what almost stopped them. Draft only. Do not publish it.
 
 A study created through MCP stays a draft until you approve publishing.
 
+Tested steps, the 14 tools and example prompts: [Use Frank in Lovable](../../use-frank-in-lovable.md).
+
 ## Start with Frank
 
 Frank is an AI user researcher that runs short voice interviews. Free plan: 60 voice minutes a month, no card required. Frank does not recruit participants: you invite your own users, and the widget is how they reach Frank inside your app.
