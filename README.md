@@ -24,6 +24,10 @@ You can get interview-depth user feedback without a calendar by sharing an AI-mo
 
 More guides and comparisons: [docs/](docs/README.md)
 
+## Free tools
+
+New free tools: the [Mom Test question checker](https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/) flags leading, hypothetical and yes/no interview questions and suggests a rewrite about past behaviour; the [JTBD switch interview question generator](https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/) writes a Jobs to Be Done interview guide for your product, for new or churned customers; and the [cancellation reason sorter](https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/) groups your cancellation survey answers into themes with interview follow-ups. All three are free, need no login and run in your browser, so nothing you type is sent anywhere. The [cancel-page churn survey widget](https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/) works differently: it is a free, open-source (MIT) script you add to your own cancel page. It runs in your customers' browsers, asks why they are leaving, then lets the cancel continue, and comes with copy-paste snippets for Stripe and Paddle. Answers go to your own callback or webhook. All free tools are listed on the [docs home](https://nar-vardanyan.github.io/frank-mcp/#free-tools).
+
 Sourced comparison of research MCP servers, checked 20 November 2026: [MCP servers for user research, compared (Nov 2026)](docs/mcp-servers-for-user-research-compared.md). The dataset is [data/research-mcp-index.csv](data/research-mcp-index.csv) and [data/research-mcp-index.json](data/research-mcp-index.json).
 
 ## Use cases
