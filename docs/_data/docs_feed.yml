@@ -180,6 +180,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/
     updated: 2026-11-27T08:30:00Z
     summary: A free, no-login planner that gives a guidance range of customer interviews per segment for discovery, churn, Jobs to Be Done or a focused question, with the reasons and links to the published studies.
+  - title: Interview consent form and recording disclosure generator
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/
+    updated: 2026-11-27T08:00:00Z
+    summary: A free, no-login tool that writes a plain-language interview consent form, a spoken recording disclosure and an AI interviewer notice for customer research. Template text only, not legal advice.
   - title: Cancellation reason sorter
     url: https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/
     updated: 2026-11-27T07:00:00Z
