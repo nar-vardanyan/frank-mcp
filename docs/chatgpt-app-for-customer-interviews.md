@@ -14,7 +14,7 @@ If the app is not available in your workspace, use the custom MCP server path in
 
 ## What you can do from a chat
 
-- **Draft a study.** Describe what you want to learn and who you want to hear from. ChatGPT creates the study in Frank. A study created through MCP stays a draft until you approve publishing, so nothing reaches participants or uses interview minutes before that step.
+- **Draft a study.** Describe what you want to learn and who you want to hear from. ChatGPT creates the study in Frank. A study created through MCP stays a draft until you approve publishing, so nothing reaches participants before that step.
 - **Review and publish.** Read the guide, take the interview yourself, fix anything confusing or leading, then approve publishing.
 - **Share the link with your own customers.** Send the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-answer) by email or in your product, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-answer). People talk with the AI interviewer by voice when they have time, without booking a call.
 - **Read transcripts and themes in chat.** Ask ChatGPT to list studies, read transcripts, and summarize themes with quotes. Then open a few full transcripts and check the quotes you plan to act on.
