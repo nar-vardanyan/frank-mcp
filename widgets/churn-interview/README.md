@@ -18,7 +18,7 @@ A tiny, dependency-free "Before you go, what made you cancel?" step for SaaS can
   Cancel subscription
 </a>
 
-<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
 ```
 
 That's it. When the customer clicks the link, the step opens. After they answer or skip, the answer is POSTed as JSON to `/api/cancel-reason` and the link continues to `/billing/cancel`.
@@ -29,7 +29,7 @@ That's it. When the customer clicks the link, the step opens. After they answer 
 <button id="cancel">Cancel subscription</button>
 
 <script type="module">
-  import { attach } from 'https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.mjs';
+  import { attach } from 'https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.mjs';
 
   attach('#cancel', {
     metadata: { plan: 'pro' },
@@ -157,7 +157,7 @@ npm run demo    # http://127.0.0.1:8080/ , webhook POSTs are printed in the term
 This widget lives in the `widgets/churn-interview/` folder of [nar-vardanyan/frank-mcp](https://github.com/nar-vardanyan/frank-mcp) and is served by jsDelivr straight from GitHub:
 
 - Latest (follows `main`, jsDelivr may cache it for a while): `https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js`
-- Pinned (recommended for production): replace `@main` with a commit SHA, for example `@<commit-sha>`. The snippets above use a pinned commit.
+- Pinned (recommended for production): `https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js` (v0.1.0). The snippets above use this commit.
 
 Files in `dist/`: `cancel-reasons.min.js` (script tag, `window.CancelReasons`), `cancel-reasons.min.mjs` and `cancel-reasons.mjs` (ES modules), `cancel-reasons.cjs` (CommonJS), `cancel-reasons.d.ts` (types).
 
@@ -168,7 +168,7 @@ Not done yet. If the widget moves to its own repo and npm:
 1. Create the repo (for example `cancel-reasons`) and copy this folder's contents to its root. Keep the history note in CHANGELOG.
 2. In `package.json`: remove `"private": true`, set `repository.url` to the new repo and drop `repository.directory`, set `homepage` and `bugs`.
 3. `npm ci && npm test`, then `npm publish --access public` from an npm account with 2FA. Check the name is still free first: `npm view cancel-reasons` should return 404.
-4. Run `node scripts/set-cdn.mjs npm` to switch the README and guides to `https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/...`, and restore the `npm install cancel-reasons` line.
+4. Run `node scripts/set-cdn.mjs npm` to switch the README and guides to `https://cdn.jsdelivr.net/npm/cancel-reasons@<version>/dist/...`, and restore the `npm install cancel-reasons` line.
 5. Tag the release (`v0.1.0`) and add a GitHub release.
 
 ## License

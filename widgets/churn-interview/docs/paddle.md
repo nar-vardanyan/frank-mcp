@@ -18,7 +18,7 @@ Base URLs: `https://api.paddle.com` (live) and `https://sandbox-api.paddle.com` 
 ```html
 <button id="cancel" type="button">Cancel subscription</button>
 
-<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
 <script>
   CancelReasons.attach('#cancel', {
     onContinue: async function (result) {
@@ -84,7 +84,7 @@ Each subscription entity has `management_urls.cancel`, a Paddle-hosted page wher
 
 ```html
 <a id="cancel" href="{{ subscription.management_urls.cancel }}">Cancel subscription</a>
-<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
 <script>CancelReasons.attach('#cancel', { webhookUrl: '/api/cancel-reason' });</script>
 ```
 

@@ -258,6 +258,7 @@ test('axe-core: no accessibility violations in the open dialog', async () => {
   await page.addScriptTag({ path: require.resolve('axe-core/axe.min.js') });
   await page.click('#cancel-js');
   await dialogOpen(page);
+  await new Promise((r) => setTimeout(r, 400)); // let the 140 ms fade-in finish so contrast is measured on final colors
   const res = await page.evaluate(async () => {
     const r = await axe.run(document, { runOnly: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'best-practice'] });
     return r.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) }));

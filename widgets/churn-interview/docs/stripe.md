@@ -28,7 +28,7 @@ Your "Cancel subscription" button goes to your own backend route, which creates 
   <button id="cancel" type="submit">Cancel subscription</button>
 </form>
 
-<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
 <script>
   CancelReasons.attach('#cancel', {
     webhookUrl: '/billing/cancel-reason', // your own endpoint, same origin
@@ -98,7 +98,7 @@ Use `onContinue` to call your backend yourself, with the answer in the same requ
 <button id="cancel" type="button">Cancel subscription</button>
 
 <script type="module">
-  import { attach } from 'https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.mjs';
+  import { attach } from 'https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.mjs';
 
   attach('#cancel', {
     onContinue: async (result) => {

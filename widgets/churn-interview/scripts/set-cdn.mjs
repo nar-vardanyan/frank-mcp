@@ -14,7 +14,7 @@ else { console.error('usage: set-cdn.mjs npm | gh <owner/repo> <tag> <folder>');
 const re = /https:\/\/cdn\.jsdelivr\.net\/(?:npm\/[^/\s"'`]+|gh\/[^/\s"'`]+\/[^@\s"'`]+@[^/\s"'`]+\/[^\s"'`]*?)\/dist\//g;
 for (const f of ['README.md', 'docs/stripe.md', 'docs/paddle.md']) {
   const s = readFileSync(f, 'utf8');
-  const out = s.replace(re, prefix);
+  const out = s.split('\n').map((l) => (l.includes('<version>') || l.includes('@main/') && l.startsWith('- Latest') ? l : l.replace(re, prefix))).join('\n');
   writeFileSync(f, out);
   console.log(`${f}: ${(s.match(re) || []).length} URL(s) -> ${prefix}`);
 }
