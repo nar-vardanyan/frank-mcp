@@ -90,7 +90,7 @@ Free plan: 60 voice minutes a month, no card required. MCP is included on every 
 
 ## Start with Frank
 
-Frank is an AI user researcher that runs short voice interviews. Free plan: 60 voice minutes a month, no card required. Frank is SOC 2 and GDPR compliant and runs interviews in 50+ interview languages.
+Frank is an AI user researcher that runs short voice interviews. Free plan: 60 voice minutes a month, no card required. Frank is SOC 2 and GDPR compliant and runs multilingual interviews.
 
 [Create a free Frank account](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=app-builder-guide&utm_campaign=app-builders). Want a free tool for your blog or docs site instead? See the [free customer interview embeds](../embeds/).
 

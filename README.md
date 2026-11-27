@@ -236,8 +236,6 @@ To let your app's users talk to Frank, add the Frank website widget with one pro
 
 Each guide also covers adding `https://api.hifrank.ai/mcp` as a remote MCP server in that builder, from the builder's own docs. Connections in these builders are not yet confirmed.
 
-[![Add to Replit](https://replit.com/badge?caption=Add%20to%20Replit)](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6IkZyYW5rIEFJIFJlc2VhcmNoZXIiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hcGkuaGlmcmFuay5haS9tY3AifQ==)
-
 ## Agent skill: customer interviews
 
 [skills/customer-interviews/SKILL.md](skills/customer-interviews/SKILL.md) is an open [Agent Skill](https://agentskills.io/specification). It plans a study (goal, audience, hypotheses), writes a non-leading Mom Test voice guide, and, when the Frank MCP is connected, creates the study, publishes a voice interview link or website widget after you approve, and summarizes transcripts. Without Frank connected, it still writes the guide and explains how to connect.

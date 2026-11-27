@@ -84,10 +84,6 @@ This part is optional. It lets the Replit AI read your Frank studies and transcr
 4. Select **Test & save**. Replit walks you through any OAuth sign-in the server needs [1]. Sign in to your Frank account and approve access.
 5. In Agent chat, mention the server by name, for example "Use Frank AI Researcher to list my studies." After a server connects, Agent fetches its tool list and can use it across your projects [1].
 
-Replit also supports install links [1]. This one fills in the name and URL above:
-
-[![Add to Replit](https://replit.com/badge?caption=Add%20to%20Replit)](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6IkZyYW5rIEFJIFJlc2VhcmNoZXIiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hcGkuaGlmcmFuay5haS9tY3AifQ==)
-
 Custom MCP options depend on feature availability and permissions for your account or workspace. If you do not see them, Replit says to ask your workspace administrator [1].
 
 Frank's sign-in supports OAuth client ID metadata documents, and Replit publishes one [3], so Replit may not need dynamic client registration. We have not confirmed that Frank connects in Replit yet.
