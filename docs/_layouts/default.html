@@ -53,6 +53,23 @@
       .docs-signup-cta-link {
         font-weight: 600;
       }
+      .docs-research-cta {
+        margin-top: 2.5rem;
+        padding: 1.25rem 1.25rem 1rem;
+        border: 1px solid #eaecef;
+        border-radius: 6px;
+        background: #f6f8fa;
+      }
+      .docs-research-cta h2 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0;
+        border-bottom: 0;
+        font-size: 1.25em;
+      }
+      .docs-research-cta ul:last-child {
+        margin-bottom: 0;
+      }
       .docs-study-cta-wrap {
         margin: 1.25rem 0 0.5rem;
       }
@@ -90,6 +107,8 @@
       {% endif %}
 
       {{ content }}
+
+      {% unless page.hide_research_cta %}{% include research-cta.html %}{% endunless %}
 
       {% unless page.hide_signup_cta %}
       {% include signup-cta.html %}
