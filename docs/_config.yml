@@ -352,8 +352,8 @@ defaults:
   - scope:
       path: glossary/win-loss-interview.md
     values:
-      seo_title: "Win-Loss Interview: Definition, Approaches, and How to Run One"
-      description: "A win-loss interview with buyers from deals you recently won or lost. Compares sales-led, third-party, and AI-moderated voice interviews for a small B2B team."
+      seo_title: "Win-Loss Interview for a Small B2B Team (2026)"
+      description: "A win-loss interview with buyers from deals you recently won or lost. A playbook for a small B2B team, plus a comparison of live calls, surveys, and AI-moderated voice interviews."
       schema_page: true
   - scope:
       path: glossary/voice-of-customer.md
@@ -364,8 +364,8 @@ defaults:
   - scope:
       path: glossary/discovery-interview.md
     values:
-      seo_title: "Discovery Interview: Definition, Approaches, and How PMs Can Run One"
-      description: "A discovery interview about a problem or job someone already has. Compares live interviews, surveys, and AI-moderated voice interviews for product managers."
+      seo_title: "Discovery Interview for Product Managers (2026)"
+      description: "A discovery interview about a problem or job someone already has. A playbook for product managers, plus a comparison of live calls, surveys, and AI-moderated voice interviews."
       schema_page: true
   - scope:
       path: glossary/usability-test-vs-customer-interview.md
