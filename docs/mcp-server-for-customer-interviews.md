@@ -2,11 +2,11 @@
 
 **In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 23 November 2026.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 23 November 2026.
 
 ## What is an MCP server for customer interviews?
 
-An MCP server for customer interviews lets an AI assistant create and read interview studies through the Model Context Protocol, instead of switching to a separate research app for every step. Frank's server is remote (no local install, no API key to paste). You add `https://api.hifrank.ai/mcp` in a client that supports remote servers with OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). Product-site setup is also on [Frank's MCP page](https://www.hifrank.ai/mcp).
+An MCP server for customer interviews lets an AI assistant create and read interview studies through the Model Context Protocol, instead of switching to a separate research app for every step. Frank's server is remote (no local install, no API key to paste). You add `https://api.hifrank.ai/mcp` in a client that supports remote servers with OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). Product-site setup is also on [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews).
 
 Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -35,7 +35,7 @@ claude mcp add --transport http frank https://api.hifrank.ai/mcp
 
 Then sign in to Frank in the browser when prompted. After that you can ask Claude Code to draft a study (draft only), list studies, or read a completed transcript. Publishing uses a separate `publish_research` tool and should be approved explicitly, because it makes the study live and spends credits.
 
-For Claude Desktop or Claude.ai, add a custom connector with the same URL. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=mcp-server-for-customer-interviews). Step-by-step UI paths: [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html) and the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector).
+For Claude Desktop or Claude.ai, add a custom connector with the same URL. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews&utm_content=use-in-claude). Step-by-step UI paths: [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html) and the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews).
 
 ## Connect from ChatGPT, Grok or Muse
 
@@ -53,7 +53,7 @@ The hosted tools can draft and edit a study, publish it when you approve, list i
 - Your client cannot do remote MCP with OAuth.
 - You only need a prototype test or a click test, not a voice interview.
 
-If the job you need is [research repository options](https://www.hifrank.ai/blog/marvin-alternatives) for interviews you already ran, that is a different category from an interview MCP server.
+If the job you need is [research repository options](https://www.hifrank.ai/blog/marvin-alternatives?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews) for interviews you already ran, that is a different category from an interview MCP server.
 
 ## FAQ
 
@@ -67,7 +67,7 @@ Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support r
 
 ### Is MCP included on the Free plan?
 
-Yes. MCP is included on every plan, including Free. Official registry name: `ai.hifrank/frank`. Current plan details are on [Frank's pricing page](https://www.hifrank.ai/pricing).
+Yes. MCP is included on every plan, including Free. Official registry name: `ai.hifrank/frank`. Current plan details are on [Frank's pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews).
 
 ### Is there an MCP server for user research?
 
@@ -94,4 +94,4 @@ No. MCP is included on every plan, including Free.
 - [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html)
 - [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html)
 - [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews)

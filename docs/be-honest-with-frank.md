@@ -37,7 +37,7 @@ Named quotes use name, title and company exactly as given, after a quote check b
 
 Interviews, transcripts, and related outputs are encrypted in transit and at rest. Frank is SOC 2 and GDPR compliant.
 
-Read the [Privacy Policy](https://www.hifrank.ai/privacy-policy) and the [security overview](https://www.hifrank.ai/features/transparency-security).
+Read the [Privacy Policy](https://www.hifrank.ai/privacy-policy?utm_source=frank-mcp-docs&utm_medium=landing&utm_campaign=be-honest-with-frank) and the [security overview](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=landing&utm_campaign=be-honest-with-frank).
 
 ## Run your own study on Frank
 

@@ -6,7 +6,7 @@ Frank is an AI user researcher that runs short voice interviews. Works with Chat
 
 Import file: [workflow.json](workflow.json)
 
-Learn more about Frank: [https://hifrank.ai/?utm_source=n8n&utm_medium=template&utm_campaign=churn-template](https://hifrank.ai/?utm_source=n8n&utm_medium=template&utm_campaign=churn-template)
+Learn more about Frank: [https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=template&utm_campaign=churn-template](https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=template&utm_campaign=churn-template)
 
 Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, with no card required.
 

@@ -2,7 +2,7 @@
 
 **In short:** To talk to 100 customers in a week, stop booking a call for each one. Pick one decision, write a short voice interview guide, invite customers you can already reach, and let an AI interviewer run the conversations in parallel while you read transcripts each day. Keep a few live calls for the topics that need a human.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The plan below works with any AI interviewer that can share a link; we note where Frank is one option. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The plan below works with any AI interviewer that can share a link; we note where Frank is one option. Frank does not recruit participants.
 
 ## Why 100 live calls in a week rarely happens
 
@@ -26,11 +26,11 @@ Write one sentence: we will talk to [who] to decide [what] by [date]. Then split
 
 Aim for 6 to 8 open questions about recent behavior, each with a follow-up you would ask if the first answer is thin. Ask "Tell me about the last time you…" rather than "Would you use…?". Open-ended questions let people answer in their own words and surface things you did not think to ask ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). Keep the core questions identical across segments so answers can be compared.
 
-AI interviewers follow the script and probe when an answer is short or unclear, or when you told them to, but they don't chase unexpected insights the way a skilled human does ([Nielsen Norman Group](https://www.nngroup.com/articles/ai-interviewers/)). A clear guide matters more here than in a loose live conversation. More help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions).
+AI interviewers follow the script and probe when an answer is short or unclear, or when you told them to, but they don't chase unexpected insights the way a skilled human does ([Nielsen Norman Group](https://www.nngroup.com/articles/ai-interviewers/)). A clear guide matters more here than in a loose live conversation. More help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week).
 
 ### Day 2: Test the interviewer, then invite your own customers
 
-Create the study, add the goal and questions, set a time limit people can finish, and take the interview yourself. Fix anything that sounds robotic or confusing. Then invite people you can already reach: a customer email, an in-app message, a post-purchase or cancellation flow, or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site).
+Create the study, add the goal and questions, set a time limit people can finish, and take the interview yourself. Fix anything that sounds robotic or confusing. Then invite people you can already reach: a customer email, an in-app message, a post-purchase or cancellation flow, or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week).
 
 Invite more people than you need, because not everyone will finish. If you do not have 100-plus reachable customers in a segment, the bottleneck is recruiting, not interviewing. Frank does not recruit participants; use your network, a community you belong to, or a recruiting service first.
 
@@ -40,7 +40,7 @@ Because nobody sits on each call, conversations can run at the same time and at 
 
 ### Day 5: Check themes against quotes and write the readout
 
-Group answers into themes, and check every theme you plan to act on against exact quotes in context. Write a one-page readout: what you heard in each segment, how often it came up, what you will do, and what you will not. Stop when new interviews stop adding themes. A method for this step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data).
+Group answers into themes, and check every theme you plan to act on against exact quotes in context. Write a one-page readout: what you heard in each segment, how often it came up, what you will do, and what you will not. Stop when new interviews stop adding themes. A method for this step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week).
 
 ## How the options compare for a one-week sprint
 
@@ -57,11 +57,11 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you already have customers to invite and want many consistent voice conversations in days. It is a weaker fit if you need a recruited panel or a live screen-share.
 
-**[Try Frank free at hifrank.ai](https://www.hifrank.ai)** · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+**[Try Frank free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week)
 
 ## FAQ
 
@@ -78,12 +78,12 @@ Start with people you already reach: recent sign-ups, active users, recent cance
 Yes, for a few. Keep live calls for messy discovery, high-stakes accounts, or anything where someone needs to show you their screen. Use AI-moderated interviews for the consistent set.
 
 ### Can I run the sprint from my AI assistant?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week) on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ## Related
 
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html)
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
-- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
-- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week)
+- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=talk-to-100-customers-in-a-week)

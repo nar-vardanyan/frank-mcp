@@ -2,7 +2,7 @@
 
 **In short:** AI qualitative research platforms split into two groups: tools that collect qualitative data by running AI-moderated interviews (Frank, Listen Labs, Outset, Conveo) and tools that analyze data you already have (Dovetail, Marvin, Condens). Most teams need one of each. Frank fits AI-moderated voice interviews with your own customers, starting on a free plan.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares AI qualitative research platforms, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares AI qualitative research platforms, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Collect, analyze, or both?
 
@@ -14,7 +14,7 @@ AI now helps with both, but in different products. AI interviewers moderate conv
 
 | Tool | Format | Recruiting | Languages | Public price (19 Nov 2026) |
 |---|---|---|---|---|
-| **Frank** | AI-moderated voice interviews ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; your own customers via link or widget | Multilingual interviews | Free: 225 signup credits plus 60 voice minutes/month, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews ([hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)) | Does not recruit; your own customers via link or widget | Multilingual interviews | Free: 225 signup credits plus 60 voice minutes/month, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)) |
 | **Listen Labs** | AI moderator with follow-ups; deliverables from highlight reels to slides ([listenlabs.com](https://listenlabs.com/)) | 50M+ participant network, or your own contacts ([listenlabs.com](https://listenlabs.com/)) | 120+ ([listenlabs.com](https://listenlabs.com/)) | Not shown on the homepage |
 | **Outset** | Text, voice, video and voice-to-voice ([Pricing](https://outset.ai/pricing)) | 25+ panel integrations, or your own lists ([Recruit](https://outset.ai/platform/recruit)) | 40+ ([Pricing](https://outset.ai/pricing)) | Custom ([Pricing](https://outset.ai/pricing)) |
 | **Conveo** | AI-led, video-first asynchronous interviews ([Product](https://conveo.ai/product)) | CSV lists, external panels, QR codes; integrated Respondent.io recruiting at typically $6 per participant plus about $1 per interview minute in incentives ([Product FAQ](https://conveo.ai/product)) | "Across languages"; count not stated ([Product](https://conveo.ai/product)) | Platform price not published; "Start for free" offered ([conveo.ai](https://conveo.ai/)) |
@@ -33,7 +33,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### Frank: voice interviews with customers you already have
 
-Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing)). Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)). Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant for further analysis.
 
@@ -70,7 +70,7 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank fits when you need fresh qualitative data from your own customers by voice, without scheduling calls, starting free. **[Try Frank free at hifrank.ai](https://www.hifrank.ai)** · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+Frank fits when you need fresh qualitative data from your own customers by voice, without scheduling calls, starting free. **[Try Frank free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)
 
 ## FAQ
 
@@ -94,4 +94,4 @@ Until new interviews stop adding themes. For a fairly similar group, one widely 
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
 - [Conveo alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/conveo-alternatives.html)
 - [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)

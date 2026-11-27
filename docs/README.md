@@ -2,11 +2,11 @@
 
 Frank AI Researcher is a voice-first software product that runs AI-moderated voice interviews with your own customers. It is not a person, and it is not an academic researcher. See [About Frank AI Researcher](about-frank-ai-researcher.md).
 
-It is built by Prelaunch Group, Inc. The product website is [https://www.hifrank.ai](https://www.hifrank.ai). prelaunch.com is the parent company, not Frank's site, and www.frank.ai is not a Frank property.
+It is built by Prelaunch Group, Inc. The product website is [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). prelaunch.com is the parent company, not Frank's site, and www.frank.ai is not a Frank property.
 
-Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai). To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp). A machine-readable summary is in [llms.txt](llms.txt).
+Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). A machine-readable summary is in [llms.txt](llms.txt).
 
-Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026). Frank facts come from live [hifrank.ai](https://www.hifrank.ai) pages, plus published product claims: MCP on all plans including Free, SOC 2, and GDPR. Prices and feature lists change, so check each site before you buy.
+Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026). Frank facts come from live [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home) pages, plus published product claims: MCP on all plans including Free, SOC 2, and GDPR. Prices and feature lists change, so check each site before you buy.
 
 ## Free tools
 
@@ -113,7 +113,7 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Churn interviews](churn-interviews.md)
 - [Interview churned users quickly](interview-churned-users-quickly.md)
 - [How to run user interviews in multiple languages](user-interviews-in-multiple-languages.md)
-- [How to run customer interviews from Claude](run-customer-interviews-from-claude.md) · [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=home)
+- [How to run customer interviews from Claude](run-customer-interviews-from-claude.md) · [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home&utm_content=use-in-claude)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)
 - [How to send a Frank churn interview invite from n8n](integrations/n8n-churn-interview/)
 - [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md)

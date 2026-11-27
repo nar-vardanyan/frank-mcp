@@ -2,7 +2,7 @@
 
 **In short:** The best customer feedback tool depends on the question. Use a survey tool (Typeform, Survicate) for scores and counts, a feedback board (Canny) for feature requests, and a voice-of-customer platform (Chattermill) for large volumes. For the reasons behind the numbers, Frank runs AI-moderated voice interviews with your own customers, starting free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares feedback tools using each company's public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-feedback-tools)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares feedback tools using each company's public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Match the tool to the question
 
@@ -28,7 +28,7 @@ A popular roundup, Comms Advisor's guide (last updated 7 October 2026), names Zo
 | **Canny** | Product feedback boards | Plans from $0 to enterprise; Free includes unlimited feedback sources and 25 tracked users ([Canny pricing](https://canny.io/pricing)) |
 | **Chattermill** | Analysis of feedback at volume | Pricing by demo ([Chattermill](https://chattermill.com/)) |
 | **Zonka Feedback** | NPS and CSAT surveys | 14-day free trial; no prices on the pricing page we opened ([Zonka](https://www.zonkafeedback.com/pricing)) |
-| **Frank** | Why customers did something, in their own words | Free: 225 signup credits plus 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | Why customers did something, in their own words | Free: 225 signup credits plus 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-feedback-tools)) |
 
 ## Surveys: Typeform, Survicate, Zonka
 
@@ -44,9 +44,9 @@ Chattermill calls itself AI-native voice-of-customer software that unifies surve
 
 ## Interviews: Frank
 
-Frank runs AI-moderated voice interviews. You share an interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) at the moment that matters, such as a cancellation page or post-onboarding email; customers answer by voice when it suits them; and each interview returns a transcript and themes you can check against the original words. Nielsen Norman Group notes participants can complete AI-moderated interviews at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
+Frank runs AI-moderated voice interviews. You share an interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-feedback-tools) at the moment that matters, such as a cancellation page or post-onboarding email; customers answer by voice when it suits them; and each interview returns a transcript and themes you can check against the original words. Nielsen Norman Group notes participants can complete AI-moderated interviews at a time of their choosing, without a human facilitator ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
-Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-feedback-tools).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -97,4 +97,4 @@ Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, 
 - [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html)
 - [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html)
 - [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-feedback-tools) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-feedback-tools)

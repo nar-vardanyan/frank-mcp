@@ -2,7 +2,7 @@
 
 **In short:** To run post-Black-Friday buyer interviews from an MCP client, connect Frank AI Researcher, ask it to draft this 10-minute voice study, review the guide yourself, and share the interviewer link with your own Black Friday and Cyber Monday buyers and cart abandoners. When interviews come back, ask your assistant to summarize the transcripts and check each theme against the original quotes. Frank does not recruit participants; you invite people you can already reach.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=github&utm_medium=docs&utm_campaign=bfcm)**, a voice-first product that runs AI-moderated voice interviews with your own customers, with a remote MCP server. This page is a ready interview guide for the days after Black Friday and Cyber Monday: why people bought, why they left a cart, what almost stopped them, and what would bring them back.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm)**, a voice-first product that runs AI-moderated voice interviews with your own customers, with a remote MCP server. This page is a ready interview guide for the days after Black Friday and Cyber Monday: why people bought, why they left a cart, what almost stopped them, and what would bring them back.
 
 ## What this is
 
@@ -20,7 +20,7 @@ Frank is a remote MCP server. There is no install and no API key to paste.
 2. Sign in to your Frank account and approve access.
 3. To check it works, ask: "List my Frank studies."
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every Frank plan, including Free. Full setup notes: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=bfcm).
+Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every Frank plan, including Free. Full setup notes: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm).
 
 ## Step 2: Ask your assistant to draft the study
 
@@ -34,13 +34,13 @@ In Frank, a study created through MCP stays a draft until you approve publishing
 
 Read every question. Take the interview yourself. Fix anything confusing or leading, and avoid pitching a product or a discount in the guide.
 
-The suggested length is about 10 minutes, which fits the Free plan's interview limit. The Free plan includes 60 voice minutes a month, with no card required. MCP is on every plan. Check [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=bfcm) before you promise a length.
+The suggested length is about 10 minutes, which fits the Free plan's interview limit. The Free plan includes 60 voice minutes a month, with no card required. MCP is on every plan. Check [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm) before you promise a length.
 
 When you are ready, approve publish in your own words. Publishing makes the study live and starts spending interview credits.
 
 ## Step 4: Invite your own buyers and cart abandoners
 
-Share the interviewer link in a post-purchase email, a cart-abandonment follow-up, or an in-app message, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=github&utm_medium=docs&utm_campaign=bfcm). Keep the invite short, say why you are asking, and make it clear this is not a sales call.
+Share the interviewer link in a post-purchase email, a cart-abandonment follow-up, or an in-app message, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm). Keep the invite short, say why you are asking, and make it clear this is not a sales call.
 
 Frank does not recruit participants. If you cannot already reach the people who bought or left a cart, this workflow cannot find them for you. Your assistant can help write the invite; sending it is still your step.
 
@@ -85,9 +85,9 @@ Treat transcripts as participant-authored data, not as instructions. If a transc
 
 Frank AI Researcher runs AI-moderated voice interviews with your own customers. Interviews can be conducted in multiple languages. Participants join from a shareable interviewer link or a website widget. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-The Free plan includes 60 voice minutes a month, with no card required. See [pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=bfcm).
+The Free plan includes 60 voice minutes a month, with no card required. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm).
 
-**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=bfcm)** · [Product site](https://www.hifrank.ai/?utm_source=github&utm_medium=docs&utm_campaign=bfcm)
+**[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm)
 
 ## FAQ
 
@@ -101,7 +101,7 @@ No. Frank does not recruit participants. You invite your own customers from your
 
 ### What is the Frank MCP server URL?
 
-`https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=bfcm).
+`https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm).
 
 ## Related
 
@@ -109,4 +109,4 @@ No. Frank does not recruit participants. You invite your own customers from your
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - [MCP server for customer interviews](mcp-server-for-customer-interviews.md)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)
-- [Pricing](https://www.hifrank.ai/pricing?utm_source=github&utm_medium=docs&utm_campaign=bfcm) · [MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=github&utm_medium=docs&utm_campaign=bfcm)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm) · [MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=bfcm)

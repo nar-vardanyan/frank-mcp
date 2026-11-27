@@ -2,7 +2,7 @@
 
 **In short:** Several research tools now connect to ChatGPT through MCP, but they do different things there. Some run new customer interviews from a chat; others only search research you already have. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read the transcripts, with nothing published until you approve it.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
 
 ## How research tools get into ChatGPT
 
@@ -22,7 +22,7 @@ OpenAI also warns that an untrusted server may access information shared through
 
 | Tool | What ChatGPT can do through it (per the vendor) | Interviews | Participants |
 |---|---|---|---|
-| **Frank** | Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp)) | AI-moderated voice interviews, multilingual interviews | Your own customers via link or widget; does not recruit |
+| **Frank** | Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)) | AI-moderated voice interviews, multilingual interviews | Your own customers via link or widget; does not recruit |
 | **Outset** | "Create studies, configure recruitment, launch research, and analyze findings" ([Outset MCP](https://outset.ai/resources/changeblog/outset-mcp)) | Text, voice, video and voice-to-voice ([Pricing](https://outset.ai/pricing)) | 25+ panel integrations, or your own lists ([Recruit](https://outset.ai/platform/recruit)) |
 | **Strella** | "Explore projects, analyze transcripts, and manage studies" ([Strella MCP docs](https://app.strella.io/docs/product/mcp)) | AI and human moderation ([Product](https://www.strella.io/product)) | Panel of "over 8 million participants" ([Product](https://www.strella.io/product)) |
 | **Listen Labs** | Pull "themes, quotes, and cross-study synthesis" from your Listen workspace ([Listen MCP](https://listenlabs.com/blog/listen-mcp)) | AI moderator, 120+ languages ([listenlabs.com](https://listenlabs.com/)) | 50M+ network, or your own contacts ([listenlabs.com](https://listenlabs.com/)) |
@@ -42,13 +42,13 @@ OpenAI documents the custom-server path on ChatGPT on the web: go to **Plugins**
 3. Choose OAuth, then sign in to Frank in your browser and approve access. There is no API key.
 4. Install the plugin, then ask: "@Frank list my Frank studies."
 
-MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [hifrank.ai/mcp](https://www.hifrank.ai/mcp).
+MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews).
 
 ## A study from ChatGPT, start to finish
 
 1. **Ask for a draft.** "Use Frank to create a study on why trial users don't upgrade. Six open questions about recent behavior, under 10 minutes."
 2. **Review it.** In Frank, new research created through MCP stays a draft and is not published to participants until you approve it. Take the interview yourself.
-3. **Share the link.** Send the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) to your own customers, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Frank does not recruit participants.
+3. **Share the link.** Send the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews) to your own customers, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews). Frank does not recruit participants.
 4. **Let it run.** Customers talk with the AI interviewer by voice when they have time.
 5. **Analyze in chat.** "Summarize the top reasons, with two exact quotes each." Then open a few full transcripts to check the quotes in context.
 
@@ -68,9 +68,9 @@ An assistant can draft questions, but you still pick the decision and check the 
 
 ## When Frank is a fit
 
-Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing)).
+Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)).
 
-**[Connect Frank to ChatGPT free at hifrank.ai/mcp](https://www.hifrank.ai/mcp)** · [Pricing](https://www.hifrank.ai/pricing)
+**[Connect Frank to ChatGPT free at hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)
 
 ## FAQ
 
@@ -97,4 +97,4 @@ Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support r
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
-- [Frank MCP](https://www.hifrank.ai/mcp) · [Pricing](https://www.hifrank.ai/pricing)
+- [Frank MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)

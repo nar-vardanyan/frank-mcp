@@ -2,7 +2,7 @@
 
 **In short:** To run customer interviews from Claude, connect an AI interviewer to Claude as a custom connector (a remote MCP server), then ask Claude to draft the study, review it yourself, and share the interview link with your customers. When interviews come back, ask Claude to summarize the transcripts and check each theme against the original quotes.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers, with a remote [MCP server](https://www.hifrank.ai/mcp). This page uses Frank as the example. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude)**, a voice-first product that runs AI-moderated voice interviews with your own customers, with a remote [MCP server](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude). This page uses Frank as the example. Frank does not recruit participants.
 
 ## What "running interviews from Claude" means
 
@@ -28,7 +28,7 @@ Anthropic's steps for an individual Pro or Max plan are: open **Customize > Conn
 4. Sign in to Frank in your browser and approve access. There is no API key.
 5. To check it works, ask: "List my Frank studies."
 
-[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=run-customer-interviews-from-claude)
+[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude&utm_content=use-in-claude)
 
 MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -44,11 +44,11 @@ A good guide has 6 to 8 open questions about recent behavior, each with a follow
 
 ## Step 3: Review, test and approve
 
-In Frank, new research created through MCP is a draft and is not published to participants until you approve it. Read the questions, take the interview yourself, and fix anything confusing. Set the time limit to fit your plan: up to 10 minutes on Free, and 20 or 30 minutes on paid plans ([pricing](https://www.hifrank.ai/pricing)).
+In Frank, new research created through MCP is a draft and is not published to participants until you approve it. Read the questions, take the interview yourself, and fix anything confusing. Set the time limit to fit your plan: up to 10 minutes on Free, and 20 or 30 minutes on paid plans ([pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude)).
 
 ## Step 4: Invite your own customers
 
-Share the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) by email, in-app message or a cancellation flow, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Participants talk with the AI interviewer by voice whenever they have time, so nobody schedules a call. Frank does not recruit participants; you need customers you can already reach.
+Share the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude) by email, in-app message or a cancellation flow, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude). Participants talk with the AI interviewer by voice whenever they have time, so nobody schedules a call. Frank does not recruit participants; you need customers you can already reach.
 
 Claude can help write the invite email, but sending it is still your step, from your own email or product.
 
@@ -77,9 +77,9 @@ If you need deep discovery on a messy problem, interview people yourself; Nielse
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-**[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=run-customer-interviews-from-claude)** · [Pricing](https://www.hifrank.ai/pricing)
+**[Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude&utm_content=use-in-claude)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude)
 
 ## FAQ
 
@@ -99,10 +99,10 @@ In Frank, new research created through MCP is a draft and is not published to pa
 No. Frank does not recruit participants. You invite your own customers by link or website widget.
 
 ### Can I do the same from ChatGPT?
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [hifrank.ai/mcp](https://www.hifrank.ai/mcp).
+Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude).
 
 ## Related
 
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
 - [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html)
-- [Frank MCP](https://www.hifrank.ai/mcp) · [Pricing](https://www.hifrank.ai/pricing)
+- [Frank MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=run-customer-interviews-from-claude)

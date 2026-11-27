@@ -2,7 +2,7 @@
 
 **In short:** To run user interviews in multiple languages, write one core guide, adapt it (not just translate it) for each language with a native speaker, and let people answer in their own language. An AI interviewer can run the conversations in each language without a bilingual moderator, but a native speaker should still check the guide and key quotes.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers in multiple languages. The method below works with human moderators or any AI interviewer; we note where Frank is one option. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages)**, a voice-first product that runs AI-moderated voice interviews with your own customers in multiple languages. The method below works with human moderators or any AI interviewer; we note where Frank is one option. Frank does not recruit participants.
 
 ## Why language matters in interviews
 
@@ -42,7 +42,7 @@ Take the interview in each language before you invite anyone. Listen for unnatur
 
 ### 5. Invite customers in their own language
 
-Write the invite in the participant's language and say plainly which language the interview will be in. Use channels you already have: customer email, in-app messages, or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on a localized page. Frank does not recruit participants, so you need customers you can already reach in each market. If you don't have them yet, use a local partner or a recruiting service first.
+Write the invite in the participant's language and say plainly which language the interview will be in. Use channels you already have: customer email, in-app messages, or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages) on a localized page. Frank does not recruit participants, so you need customers you can already reach in each market. If you don't have them yet, use a local partner or a recruiting service first.
 
 ### 6. Analyze across languages, check quotes in the original
 
@@ -62,9 +62,9 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers and supports multilingual interviews, so one study can reach several markets without hiring a moderator for each. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers and supports multilingual interviews, so one study can reach several markets without hiring a moderator for each. Participants join from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages) or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-**[Run a multilingual study free at hifrank.ai](https://www.hifrank.ai)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing)
+**[Run a multilingual study free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages)** · [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages)
 
 ## FAQ
 
@@ -91,5 +91,5 @@ No. Frank does not recruit participants. You invite customers you already reach 
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - [How to interview customers at scale](https://nar-vardanyan.github.io/frank-mcp/how-to-interview-customers-at-scale.html)
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
-- [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-interviews-in-multiple-languages)

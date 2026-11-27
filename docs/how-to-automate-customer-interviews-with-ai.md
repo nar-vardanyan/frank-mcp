@@ -4,7 +4,7 @@
 
 This page is the non-agent path: you set the study up in the interview tool and share it yourself. If you already work in an AI assistant, you can also connect Frank as an MCP server and ask the assistant to help draft the study or summarize transcripts. Frank works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth; see the section below.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The steps below work with any AI interviewer that can share a link; we note where Frank is one option.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The steps below work with any AI interviewer that can share a link; we note where Frank is one option.
 
 ## What "automate" means, and what it doesn't
 
@@ -42,15 +42,15 @@ Starter questions:
 - **Discovery:** Tell me about the last time you tried to [job]. What did you try first? Where did you get stuck?
 - **Win-loss:** Why did you choose us, the other option, or nothing? What almost tipped it the other way?
 
-More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions), plus guides for [churn](https://www.hifrank.ai/use-case/ai-churn-interviews), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery).
+More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai), plus guides for [churn](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai).
 
 ### 3. Set up the study
 
-In your interview tool, create the study, add the goal and questions, and set a time limit people can finish. Test the interviewer yourself before you share it. In Frank, you can set a time limit of up to 10 minutes on the Free plan, and 20 or 30 minutes on paid plans (see [pricing](https://www.hifrank.ai/pricing)).
+In your interview tool, create the study, add the goal and questions, and set a time limit people can finish. Test the interviewer yourself before you share it. In Frank, you can set a time limit of up to 10 minutes on the Free plan, and 20 or 30 minutes on paid plans (see [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)).
 
 ### 4. Share the interviewer link or a website widget
 
-Invite your own customers: people who recently signed up, cancelled, bought, or used the feature you are studying. Share the interviewer link by email, in-app message, or a cancellation flow. Or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) so people can start the interview without leaving your site or app.
+Invite your own customers: people who recently signed up, cancelled, bought, or used the feature you are studying. Share the interviewer link by email, in-app message, or a cancellation flow. Or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) so people can start the interview without leaving your site or app.
 
 The AI interviewer does not recruit a panel for you. If you have no customers to invite yet, use your network or a recruiting service first.
 
@@ -62,25 +62,25 @@ Participants join when they have time and talk with the AI interviewer by voice.
 
 As interviews complete, open the transcripts and the themes. Check that each theme you will act on is backed by an exact quote, and open a few full transcripts to confirm the quote is in context. Write a short readout: what you heard, how often, what you will do, and what you will not. Stop when new interviews stop adding themes, or tighten the question and run another short round.
 
-A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data).
+A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai).
 
 ## How many interviews to automate
 
 Interview until new conversations stop adding themes. In Guest, Bunce and Johnson's study, saturation occurred within the first 12 interviews, and the basic elements of overarching themes were present as early as 6, for a relatively homogeneous group. The authors caution that 12 is often not enough if the group is relatively heterogeneous, the data quality is poor, or the domain of inquiry is broad.
 
-A practical planning range, consistent with our [how many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need) post: usability friction often shows in 5 to 7 conversations, behavior patterns around 10 to 12, and fuller journeys 12 to 15 or more. "Run 20" is a planning number, not a finish line.
+A practical planning range, consistent with our [how many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) post: usability friction often shows in 5 to 7 conversations, behavior patterns around 10 to 12, and fuller journeys 12 to 15 or more. "Run 20" is a planning number, not a finish line.
 
 ## If you already work in an AI assistant
 
-If you already work in an AI assistant, you can also set up the study and read transcripts from there. Frank is available as an [MCP](https://www.hifrank.ai/mcp) server on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+If you already work in an AI assistant, you can also set up the study and read transcripts from there. Frank is available as an [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) server on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security), and MCP is included on every plan, including Free.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai), and MCP is included on every plan, including Free.
 
 Frank fits when you want many consistent voice conversations with customers you can already reach. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself.
 
-- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)
 
 ## FAQ
 
@@ -100,7 +100,7 @@ Keep going until new interviews stop adding themes. In one widely cited study, s
 Long enough for a few open questions with follow-ups, short enough that people finish. Ten to fifteen minutes covers 6 to 8 questions for many studies. Match the length to your plan: Frank's Free plan allows interviews up to 10 minutes, and paid plans allow 20 or 30.
 
 ### Can I do this from Claude or ChatGPT instead of the Frank dashboard?
-Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-automate-customer-interviews-with-ai). Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
+Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai&utm_content=use-in-claude). Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 and GDPR compliant. Interviews, transcripts, and insights are encrypted and access-controlled. You still choose who on your team can see the data.
@@ -110,6 +110,6 @@ Frank is SOC 2 and GDPR compliant. Interviews, transcripts, and insights are enc
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - Also in this folder: [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md) · [Frank vs Outset](frank-vs-outset.md) · [Frank vs Listen Labs](frank-vs-listen-labs.md) · [Frank vs Strella](frank-vs-strella.md) · [Frank vs Usercall](frank-vs-usercall.md) · [Best AI user-interview tools 2026](best-ai-user-interview-tools-2026.md)
 - [AI customer interviews vs surveys](ai-customer-interviews-vs-surveys.md)
-- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
-- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) · [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)
+- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) · [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)

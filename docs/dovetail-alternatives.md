@@ -2,7 +2,7 @@
 
 **In short:** The right Dovetail alternative depends on why you are leaving. For a cheaper research repository, look at Condens, Marvin or Looppanel. For a broader research suite, Great Question. If your real gap is collecting fresh interviews rather than organizing them, Frank runs AI-moderated voice interviews with your own customers, starting on a free plan.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank is not a Dovetail replacement for analysis, and we say so below. This page uses each company's public pages and structured data, opened on 20 November 2026 for the prices restated below. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Frank is not a Dovetail replacement for analysis, and we say so below. This page uses each company's public pages and structured data, opened on 20 November 2026 for the prices restated below. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Why are you looking?
 
@@ -20,7 +20,7 @@ People leave an analysis platform for three different reasons, and each points t
 | **Marvin** | Repository plus add-on interviews | Free plan. AI-moderated interviews are in an add-on for paid plans ([Pricing](https://heymarvin.com/pricing), 20 Nov 2026) | Free plan. Paid prices are behind Book a demo or Contact us. Dollar prices are not documented on Marvin's site as of Nov 2026 ([Pricing](https://heymarvin.com/pricing)) |
 | **Looppanel** | Solo and small-team analysis | Transcription and translation in 96+ languages ([Looppanel](https://www.looppanel.com/), 20 Nov 2026). MCP is not documented on the pages opened 20 Nov 2026 | $49 per month, and "Try 15 Days Free" ([Pricing](https://www.looppanel.com/pricing), 20 Nov 2026) |
 | **Great Question** | Broader research suite | AI-moderated interviews are an Enterprise add-on. Recruit your own customers with no per-participant fee ([Pricing](https://www.greatquestion.com/pricing), 20 Nov 2026) | Self-serve $129 per seat per month, or $1,290 per seat per year, up to 5 seats. 14-day trial. No free plan ([Pricing](https://www.greatquestion.com/pricing), 20 Nov 2026) |
-| **Frank AI Researcher** | Collecting new voice interviews | AI-moderated voice interviews with your own customers | Free: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing), 20 Nov 2026) |
+| **Frank AI Researcher** | Collecting new voice interviews | AI-moderated voice interviews with your own customers | Free: 225 signup credits plus 60 voice minutes/month, no credit card. Starter $49/month billed yearly ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives), 20 Nov 2026) |
 
 ## The repositories
 
@@ -42,7 +42,7 @@ Great Question's pricing page, opened 20 Nov 2026, says you can recruit your own
 
 ## Frank: when the gap is collection
 
-Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant, or keep them in a repository you already use.
 
@@ -92,4 +92,4 @@ We have no Dovetail integration to cite. You can pull Frank transcripts into you
 - [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html)
 - [Best win-loss analysis software in 2026](https://nar-vardanyan.github.io/frank-mcp/best-win-loss-analysis-software.html)
 - [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives)
