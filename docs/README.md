@@ -194,6 +194,7 @@ Add Frank's voice interview widget to an app built with an AI app builder, with 
 - [Get your first 5 interviews with Frank](get-your-first-5-interviews-with-frank.md)
 - [How to measure product-market fit with customer interviews](measure-product-market-fit-with-customer-interviews.md)
 - [Customer interview questions template](customer-interview-questions-template.md)
+- [Free Customer Interview Guide Templates](free-customer-interview-guide-templates.md): six five-question guides for startups, ready to run as voice interviews
 - [How to validate a startup idea with customer interviews](validate-a-startup-idea-with-customer-interviews.md)
 - [How to choose an AI customer interview tool](how-to-choose-an-ai-customer-interview-tool.md)
 - [AI agent that interviews customers](ai-agent-that-interviews-customers.md)
