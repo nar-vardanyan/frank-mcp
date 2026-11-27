@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cancel-Page Churn Survey Widget for Stripe and Paddle (Free, Open Source) | Frank AI Researcher docs</title>
+<meta name="description" content="Free, MIT-licensed cancel survey widget: ask cancelling customers why they are leaving, then let the cancel continue. Copy-paste snippets for Stripe Customer Portal, Stripe API and Paddle Billing. About 4 KB, no dependencies.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Cancel-Page Churn Survey Widget for Stripe and Paddle">
+<meta property="og:description" content="Ask cancelling customers why, then let the cancel continue. Free, open source, about 4 KB, with Stripe and Paddle snippets.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/widgets/churn-interview/docs/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cancel-Page Churn Survey Widget for Stripe and Paddle">
+<meta name="twitter:description" content="Free, open-source cancel survey that never blocks the cancel. Stripe and Paddle snippets.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/#code",
+      "name": "Cancel-page churn survey widget (cancel-reasons)",
+      "description": "Free, MIT-licensed, dependency-free JavaScript widget that asks cancelling customers why they are leaving, then lets the cancel continue. Works with Stripe and Paddle cancel pages.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/",
+      "codeRepository": "https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview",
+      "programmingLanguage": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "license": "https://opensource.org/licenses/MIT",
+      "isAccessibleForFree": true,
+      "runtimePlatform": "Web browser",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Frank AI Researcher docs",
+          "item": "https://nar-vardanyan.github.io/frank-mcp/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cancel-page churn survey widget",
+          "item": "https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does it stop people from cancelling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Answering is optional, \"Skip and continue cancelling\" is always one click, and the cancel continues even if your callback or webhook is slow or fails. If the dialog cannot render, the cancel continues straight away. There are no save offers or extra confirmation screens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a Stripe or Paddle key in the browser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The widget never talks to Stripe or Paddle. It hands the answer to your code or your own endpoint, and your backend calls the Stripe or Paddle API with keys that stay on the server."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do the answers go?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wherever you send them: an onSubmit callback, a cancelreasons:submit DOM event, or a JSON POST to a webhook URL you choose. Nothing is sent to us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the reasons match Stripe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The default reason values are the values Stripe accepts for cancellation_details.feedback, so a Stripe backend can pass them through. You can replace them with your own reasons and labels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I use Paddle Retain. Do I need this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paddle Retain cancellation flows already ask for a cancellation reason. Use either Retain's flow or this widget for that step, not both, so customers are not asked twice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it accessible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It uses a native modal dialog with a labelled radio group, works with the keyboard alone, returns focus to your button, and is checked with axe-core in headless Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nothing. It is MIT licensed, about 4 KB gzipped, with no dependencies."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  pre { background: var(--soft); border:1px solid var(--line); border-radius:8px; padding:12px 14px; overflow-x:auto; font-size:13px; line-height:1.5; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  p code, li code, td code { background: var(--soft); padding: 1px 5px; border-radius:4px; font-size: 0.9em; overflow-wrap:anywhere; }
+  pre { max-width:100%; }
+  main p, main li { overflow-wrap:anywhere; }
+  .demo { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; font-family:inherit; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-danger { background:#fff; color:#b42318; border:1px solid #f1b5ae; }
+  .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; min-height:1.6em; margin: 10px 0 0; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  label.inline { font-size:14px; display:inline-flex; gap:6px; align-items:center; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview">Source on GitHub</a>
+  </nav>
+
+  <main>
+    <h1>Cancel-Page Churn Survey Widget for Stripe and Paddle</h1>
+    <p class="lede">A free, open-source "Before you go, what made you cancel?" step for your cancel button. The customer picks a reason or writes a line, or skips, and the cancel continues. You get the answer as a callback, a DOM event or a JSON POST to your own endpoint. MIT licensed, about 4 KB gzipped, no dependencies, TypeScript types included.</p>
+
+    <section class="demo" aria-labelledby="demo-title">
+      <h2 id="demo-title" style="border:0;margin:0 0 8px;font-size:1.2em">Try it</h2>
+      <p style="margin-top:0">These buttons act like a cancel button on your billing page. Nothing is cancelled and nothing is sent anywhere: the answer just shows below.</p>
+      <div class="actions">
+        <a class="btn btn-danger" id="demo-link" href="#demo-cancelled">Cancel subscription</a>
+        <label class="inline"><input type="checkbox" id="demo-voice"> Show the optional voice chat link</label>
+      </div>
+      <p class="status" id="demo-status" role="status" aria-live="polite"></p>
+      <pre id="demo-out" aria-label="Last answer">No answer yet.</pre>
+      <noscript><p class="note">The live demo needs JavaScript. The snippets below work without this page.</p></noscript>
+    </section>
+
+    <h2>Copy-paste: the fastest setup</h2>
+    <p>Add <code>data-cancel-reasons</code> to your existing cancel link or button and load the script. When the customer clicks, the step opens. After they answer or skip, the answer is POSTed as JSON to your endpoint and the link continues as before.</p>
+    <pre><code class="language-html">&lt;a href=&quot;/billing/cancel&quot; data-cancel-reasons data-cancel-reasons-webhook=&quot;/api/cancel-reason&quot;&gt;
+  Cancel subscription
+&lt;/a&gt;
+
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+    <p>This URL follows the main branch. For production, pin it to a commit. <a href="https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview#versions-and-cdn-urls">Other builds and versions</a>.</p>
+
+    <h2>What the customer sees, and what it never does</h2>
+    <ul>
+      <li>A short dialog: eight common reasons, an optional comment box, "Send and continue cancelling" and "Skip and continue cancelling".</li>
+      <li>Answering is optional. Skipping is always one click. Escape or the close button just closes the dialog, like not clicking cancel.</li>
+      <li>Your callback and webhook get at most 1.5 seconds (you can change it) before the cancel continues anyway. If anything fails, the cancel continues.</li>
+      <li>No save offers, no discounts, no extra confirmation screens. Add those yourself only if you want them.</li>
+    </ul>
+
+    <h2>Stripe</h2>
+    <h3>Customer Portal cancel flow</h3>
+    <p>Your button posts to your backend, which creates a portal session with <code>flow_data[type]=subscription_cancel</code> and redirects. The widget sends the reason first. If you use this widget, turn off the portal's own cancellation reason question (<code>features.subscription_cancel.cancellation_reason</code>) so customers are not asked twice.</p>
+    <pre><code class="language-html">&lt;form method=&quot;post&quot; action=&quot;/billing/cancel&quot;&gt;
+  &lt;button id=&quot;cancel&quot; type=&quot;submit&quot;&gt;Cancel subscription&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  CancelReasons.attach(&#x27;#cancel&#x27;, { webhookUrl: &#x27;/billing/cancel-reason&#x27; });
+&lt;/script&gt;</code></pre>
+    <pre><code class="language-js">// Node + Express + the official stripe package. Secret key stays on the server.
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const FEEDBACK = new Set([&#x27;too_expensive&#x27;, &#x27;missing_features&#x27;, &#x27;switched_service&#x27;, &#x27;unused&#x27;,
+  &#x27;too_complex&#x27;, &#x27;low_quality&#x27;, &#x27;customer_service&#x27;, &#x27;other&#x27;]);
+
+// 1. Store the answer. Take the subscription from the logged-in user, never from the browser.
+app.post(&#x27;/billing/cancel-reason&#x27;, requireUser, express.json(), async (req, res) =&gt; {
+  const { reason, comment, skipped } = req.body || {};
+  await db.cancelReasons.insert({ userId: req.user.id, reason, comment, skipped, at: new Date() });
+  if (!skipped) {
+    await stripe.subscriptions.update(req.user.stripeSubscriptionId, {
+      cancellation_details: {
+        feedback: FEEDBACK.has(reason) ? reason : undefined,
+        comment: typeof comment === &#x27;string&#x27; ? comment.slice(0, 500) : undefined,
+      },
+    });
+  }
+  res.sendStatus(204);
+});
+
+// 2. Send the customer to the Customer Portal cancel flow.
+app.post(&#x27;/billing/cancel&#x27;, requireUser, async (req, res) =&gt; {
+  const session = await stripe.billingPortal.sessions.create({
+    customer: req.user.stripeCustomerId,
+    return_url: &#x27;https://example.com/account&#x27;,
+    flow_data: {
+      type: &#x27;subscription_cancel&#x27;,
+      subscription_cancel: { subscription: req.user.stripeSubscriptionId },
+    },
+  });
+  res.redirect(303, session.url);
+});</code></pre>
+    <p>The reason is sent before the customer reaches the portal, so it records intent. Confirm actual cancellations from your Stripe webhooks.</p>
+    <h3>Your own cancel flow with the Stripe API</h3>
+    <pre><code class="language-js">&lt;button id=&quot;cancel&quot; type=&quot;button&quot;&gt;Cancel subscription&lt;/button&gt;
+&lt;script type=&quot;module&quot;&gt;
+  import { attach } from &#x27;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.mjs&#x27;;
+  attach(&#x27;#cancel&#x27;, {
+    onContinue: async (result) =&gt; {
+      await fetch(&#x27;/api/subscription/cancel&#x27;, {
+        method: &#x27;POST&#x27;,
+        headers: { &#x27;Content-Type&#x27;: &#x27;application/json&#x27; },
+        body: JSON.stringify({ reason: result.reason, comment: result.comment }),
+      });
+      location.href = &#x27;/account/cancelled&#x27;;
+    },
+  });
+&lt;/script&gt;
+
+// Server: cancel at period end with the reason attached.
+await stripe.subscriptions.update(req.user.stripeSubscriptionId, {
+  cancel_at_period_end: true,
+  cancellation_details: { feedback: FEEDBACK.has(reason) ? reason : undefined, comment },
+});
+// Or cancel now: await stripe.subscriptions.cancel(id, { cancellation_details });</code></pre>
+    <p>The default reason values (<code>too_expensive</code>, <code>missing_features</code>, <code>switched_service</code>, <code>unused</code>, <code>too_complex</code>, <code>low_quality</code>, <code>customer_service</code>, <code>other</code>) are the values Stripe accepts for <code>cancellation_details.feedback</code>. Validate them on your server. References: <a href="https://docs.stripe.com/customer-management/portal-deep-links">portal deep links</a>, <a href="https://docs.stripe.com/api/subscriptions/update">update a subscription</a>, <a href="https://docs.stripe.com/api/subscriptions/cancel">cancel a subscription</a>.</p>
+
+    <h2>Paddle Billing</h2>
+    <h3>Cancel from your backend with the Paddle API</h3>
+    <pre><code class="language-html">&lt;button id=&quot;cancel&quot; type=&quot;button&quot;&gt;Cancel subscription&lt;/button&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  CancelReasons.attach(&#x27;#cancel&#x27;, {
+    onContinue: async function (result) {
+      await fetch(&#x27;/api/subscription/cancel&#x27;, {
+        method: &#x27;POST&#x27;,
+        headers: { &#x27;Content-Type&#x27;: &#x27;application/json&#x27; },
+        body: JSON.stringify({ reason: result.reason, comment: result.comment }),
+      });
+      location.href = &#x27;/account/cancelled&#x27;;
+    },
+  });
+&lt;/script&gt;</code></pre>
+    <pre><code class="language-js">// Node 18+, plain fetch. API key stays on the server.
+const PADDLE_API = process.env.PADDLE_API_BASE || &#x27;https://api.paddle.com&#x27;; // sandbox: https://sandbox-api.paddle.com
+const headers = { Authorization: `Bearer ${process.env.PADDLE_API_KEY}`, &#x27;Content-Type&#x27;: &#x27;application/json&#x27; };
+
+app.post(&#x27;/api/subscription/cancel&#x27;, requireUser, express.json(), async (req, res) =&gt; {
+  const subId = req.user.paddleSubscriptionId; // from your database
+  const { reason, comment } = req.body || {};
+
+  // Cancel at the end of the billing period (&#x27;immediately&#x27; cancels now).
+  const r = await fetch(`${PADDLE_API}/subscriptions/${subId}/cancel`, {
+    method: &#x27;POST&#x27;, headers, body: JSON.stringify({ effective_from: &#x27;next_billing_period&#x27; }),
+  });
+  if (!r.ok) return res.status(502).send(&#x27;Cancel failed&#x27;);
+
+  // Optional: keep the answer on the subscription. Send existing custom_data keys too.
+  const current = await fetch(`${PADDLE_API}/subscriptions/${subId}`, { headers }).then((x) =&gt; x.json());
+  await fetch(`${PADDLE_API}/subscriptions/${subId}`, {
+    method: &#x27;PATCH&#x27;, headers,
+    body: JSON.stringify({ custom_data: { ...(current.data &amp;&amp; current.data.custom_data),
+      cancel_reason: reason || null, cancel_comment: comment ? String(comment).slice(0, 500) : null } }),
+  });
+  res.sendStatus(204);
+});</code></pre>
+    <p>With <code>next_billing_period</code>, Paddle schedules the cancel and the subscription stays active until the period ends. References: <a href="https://developer.paddle.com/api-reference/subscriptions/cancel-subscription">cancel a subscription</a>, <a href="https://developer.paddle.com/api-reference/subscriptions/update-subscription">update a subscription</a>.</p>
+    <h3>Paddle's hosted cancel page</h3>
+    <pre><code class="language-html">&lt;!-- management_urls.cancel comes from the Paddle subscription entity --&gt;
+&lt;a id=&quot;cancel&quot; href=&quot;PADDLE_MANAGEMENT_CANCEL_URL&quot;&gt;Cancel subscription&lt;/a&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;CancelReasons.attach(&#x27;#cancel&#x27;, { webhookUrl: &#x27;/api/cancel-reason&#x27; });&lt;/script&gt;</code></pre>
+    <h3>Paddle Retain</h3>
+    <p>Paddle Retain cancellation flows (<code>Paddle.Retain.initCancellationFlow()</code>) already ask for a cancellation reason. Use either Retain's flow or this widget for that step, not both.</p>
+
+    <h2>The answer you get</h2>
+    <pre><code class="language-json">{
+  &quot;reason&quot;: &quot;too_expensive&quot;,
+  &quot;reasonLabel&quot;: &quot;It&#x27;s too expensive&quot;,
+  &quot;comment&quot;: &quot;Budget cut this quarter&quot;,
+  &quot;skipped&quot;: false,
+  &quot;timestamp&quot;: &quot;2026-11-27T10:00:00.000Z&quot;,
+  &quot;page&quot;: &quot;https://app.example.com/settings/billing&quot;,
+  &quot;metadata&quot;: { &quot;plan&quot;: &quot;pro&quot; }
+}</code></pre>
+    <p>Read it from <code>onSubmit(result)</code>, from the <code>cancelreasons:submit</code> event, or from the JSON POST to <code>webhookUrl</code>. Prefer a same-origin webhook URL, and never put secrets in the browser. Every option is in the <a href="https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview#options">README</a>.</p>
+
+    <h2 id="optional-voice-chat-link">Optional: invite a 5-minute voice chat</h2>
+    <p>Off by default. Set <code>interviewLink</code> to show one line under the form, "Want to tell us more in a 5-minute voice chat?", that opens your own interview link in a new tab. It never replaces or delays the cancel.</p>
+    <pre><code class="language-js">attach(&#x27;#cancel&#x27;, {
+  interviewLink: { url: &#x27;https://your-interview-link.example&#x27; }, // off unless you set it
+});</code></pre>
+
+    <div class="cta">
+      <p>Frank is an AI user researcher that runs short voice interviews. Put your Frank interview link in <code>interviewLink</code> and churned customers can tell you more in their own words.</p>
+      <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-tools&amp;utm_campaign=churn-widget">Try Frank for churn interviews</a>
+    </div>
+
+    <h2>FAQ</h2>
+    <h3>Does it stop people from cancelling?</h3><p>No. Answering is optional, &quot;Skip and continue cancelling&quot; is always one click, and the cancel continues even if your callback or webhook is slow or fails. If the dialog cannot render, the cancel continues straight away. There are no save offers or extra confirmation screens.</p><h3>Do I need a Stripe or Paddle key in the browser?</h3><p>No. The widget never talks to Stripe or Paddle. It hands the answer to your code or your own endpoint, and your backend calls the Stripe or Paddle API with keys that stay on the server.</p><h3>Where do the answers go?</h3><p>Wherever you send them: an onSubmit callback, a cancelreasons:submit DOM event, or a JSON POST to a webhook URL you choose. Nothing is sent to us.</p><h3>Do the reasons match Stripe?</h3><p>Yes. The default reason values are the values Stripe accepts for cancellation_details.feedback, so a Stripe backend can pass them through. You can replace them with your own reasons and labels.</p><h3>I use Paddle Retain. Do I need this?</h3><p>Paddle Retain cancellation flows already ask for a cancellation reason. Use either Retain&#x27;s flow or this widget for that step, not both, so customers are not asked twice.</p><h3>Is it accessible?</h3><p>It uses a native modal dialog with a labelled radio group, works with the keyboard alone, returns focus to your button, and is checked with axe-core in headless Chrome.</p><h3>What does it cost?</h3><p>Nothing. It is MIT licensed, about 4 KB gzipped, with no dependencies.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html">Churn interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html">How to find out why customers churn</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-tools&amp;utm_campaign=churn-widget">Frank AI Researcher</a>. The widget is MIT licensed: <a href="https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview">source, tests and README on GitHub</a>.
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
+<script>
+(function () {
+  var link = document.getElementById('demo-link');
+  var status = document.getElementById('demo-status');
+  var out = document.getElementById('demo-out');
+  if (!window.CancelReasons) { status.textContent = 'The widget script did not load, so this button skips the step.'; return; }
+  var handle;
+  function setup() {
+    if (handle) handle.detach();
+    handle = CancelReasons.attach(link, {
+      metadata: { demo: true },
+      interviewLink: document.getElementById('demo-voice').checked ? { url: 'https://example.com/your-interview-link' } : null,
+      onSubmit: function (r) { out.textContent = JSON.stringify(r, null, 2); },
+      onDismiss: function () { status.textContent = 'Closed without cancelling. Nothing was sent.'; }
+    });
+  }
+  document.getElementById('demo-voice').addEventListener('change', setup);
+  setup();
+  window.addEventListener('hashchange', function () {
+    if (location.hash === '#demo-cancelled') {
+      status.textContent = 'The cancel continued. In your app this is where the Stripe or Paddle cancel happens.';
+      history.replaceState(null, '', location.pathname);
+    }
+  });
+})();
+</script>
+</body>
+</html>

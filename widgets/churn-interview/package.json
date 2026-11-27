@@ -1,0 +1,64 @@
+{
+  "name": "cancel-reasons",
+  "version": "0.1.0",
+  "description": "Tiny, dependency-free 'why are you cancelling?' step for SaaS cancel pages. Works with Stripe and Paddle. Never blocks the cancel.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/cancel-reasons.cjs",
+  "module": "./dist/cancel-reasons.mjs",
+  "types": "./dist/cancel-reasons.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/cancel-reasons.d.ts",
+      "import": "./dist/cancel-reasons.mjs",
+      "require": "./dist/cancel-reasons.cjs"
+    },
+    "./min": "./dist/cancel-reasons.min.js",
+    "./package.json": "./package.json"
+  },
+  "jsdelivr": "dist/cancel-reasons.min.js",
+  "unpkg": "dist/cancel-reasons.min.js",
+  "files": [
+    "dist",
+    "docs/stripe.md",
+    "docs/paddle.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "demo": "node scripts/serve.mjs"
+  },
+  "keywords": [
+    "cancel",
+    "cancellation",
+    "churn",
+    "exit-survey",
+    "cancel-flow",
+    "stripe",
+    "paddle",
+    "saas",
+    "subscription",
+    "feedback",
+    "widget",
+    "accessible"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nar-vardanyan/frank-mcp.git",
+    "directory": "widgets/churn-interview"
+  },
+  "homepage": "https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/",
+  "bugs": {
+    "url": "https://github.com/nar-vardanyan/frank-mcp/issues"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.1",
+    "esbuild": "0.24.2",
+    "puppeteer-core": "^24.0.0"
+  },
+  "private": true
+}

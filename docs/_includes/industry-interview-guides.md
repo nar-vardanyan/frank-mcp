@@ -14,4 +14,5 @@
 - [Customer interview cost calculator](tools/customer-interview-cost-calculator/)
 - [Survey to interview question converter](tools/survey-to-interview-converter/)
 - [Mom Test question checker](tools/mom-test-checker/)
+- [Cancel-page churn survey widget](tools/churn-interview-widget/)
 - [30 customer interview study templates](templates/)
