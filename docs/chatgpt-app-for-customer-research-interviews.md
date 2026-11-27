@@ -1,10 +1,36 @@
-# ChatGPT Apps for Customer Research Interviews: What Each Can Do
+# ChatGPT Apps for Customer Research Interviews, Compared
 
-**In short:** Several research tools now connect to ChatGPT through MCP, but they do different things there. Some run new customer interviews from a chat; others only search research you already have. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read the transcripts, with nothing published until you approve it. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168).
+**In short:** The apps we reviewed on Nov 27, 2026, in the ChatGPT app directory or connected through MCP, differ on who you interview (your own customers or a recruited panel), the interview format (voice, video, text), languages, and published pricing. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read the transcripts, with nothing published until you approve it. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168).
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares ChatGPT apps for customer interviews. Each row links that app's own ChatGPT listing, and every cell about another product links the vendor's own page, accessed on 27 November 2026. Frank cells come from the Frank docs. It is not a paid ranking or a complete catalog, and vendors change their pages, so check each site before you connect anything. Frank does not recruit participants.
 
 > **Looking for a yes or no about one tool?** This page compares several research tools that connect to ChatGPT. For direct answers about Frank, see [Is there a ChatGPT app for customer interviews?](chatgpt-app-for-customer-interviews.html) and [Is there a ChatGPT app for user research?](chatgpt-app-for-user-research.html).
+
+## How to pick a ChatGPT app for customer interviews
+
+Start with the job, then check these criteria on each vendor's own pages. Several of them are columns in the table below.
+
+| Criterion | Why it matters | What to check |
+|---|---|---|
+| Who you interview | Some tools interview people you already have; others recruit from a panel. | Can you share a link with your own customers? Is a panel offered, and is recruiting billed separately? |
+| Interview format | Voice, video, text and screen tasks suit different questions. | Which formats run from ChatGPT today, not on a roadmap. |
+| Approval before anything reaches participants | An assistant can create and launch studies. A person should approve what participants see. | Does the vendor say studies stay drafts, or triggers stay paused, until you approve? |
+| Results in the chat | The point of a ChatGPT app is reading evidence where you work. | Can ChatGPT read transcripts, themes and quotes back, and can you open the full transcript? |
+| Languages | Interviews in the participant's own language get fuller answers. | The vendor's language claim, then a test interview in each language you need. |
+| Security and compliance | Interviews are personal data. | SOC 2, GDPR, and how transcripts are stored and deleted. |
+| Pricing you can see | Some tools publish prices; others quote after a demo. | Is there a free way to start, and what does one interview cost? |
+| Other assistants | Teams often use more than one AI client. | Is there a remote MCP server for Claude or other clients, with OAuth and no API key? |
+
+## Checklist before you connect one
+
+1. Write the decision the interviews should inform, and who you need to hear from.
+2. Open the app's ChatGPT listing and the vendor's pricing page. Note what the plan you would use includes.
+3. Connect it, then ask it to list your studies to confirm the connection.
+4. Ask it to draft a study and keep it as a draft. Check that nothing reaches participants before you approve.
+5. Take the interview yourself, then remove leading or stacked questions.
+6. Run a small pilot with five to ten of your own customers.
+7. Ask for themes with exact quotes, then open full transcripts and check the quotes in context.
+8. Check where transcripts are stored and how to delete them before you scale up.
 
 ## How research tools get into ChatGPT
 
@@ -20,20 +46,41 @@ OpenAI also warns that an untrusted server may access information shared through
 2. **Build and recruit.** The assistant can design a study and set up recruiting from a panel.
 3. **Search what you have.** The assistant can pull themes, quotes and synthesis from past studies, but doesn't start fieldwork.
 
-## Research tools that document a ChatGPT connection
+## ChatGPT apps for customer interviews, compared
 
-| Tool | What ChatGPT can do through it (per the vendor) | Interviews | Participants |
-|---|---|---|---|
-| **Frank** | Listed in the ChatGPT app directory ([install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168)). Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)) | AI-moderated voice interviews, multilingual interviews | Your own customers via link or widget; does not recruit |
-| **Outset** | "Create studies, configure recruitment, launch research, and analyze findings" ([Outset MCP](https://outset.ai/resources/changeblog/outset-mcp)) | Text, voice, video and voice-to-voice ([Pricing](https://outset.ai/pricing)) | 25+ panel integrations, or your own lists ([Recruit](https://outset.ai/platform/recruit)) |
-| **Strella** | "Explore projects, analyze transcripts, and manage studies" ([Strella MCP docs](https://app.strella.io/docs/product/mcp)) | AI and human moderation ([Product](https://www.strella.io/product)) | Panel of "over 8 million participants" ([Product](https://www.strella.io/product)) |
-| **Listen Labs** | Pull "themes, quotes, and cross-study synthesis" from your Listen workspace ([Listen MCP](https://listenlabs.com/blog/listen-mcp)) | AI moderator, 120+ languages ([listenlabs.com](https://listenlabs.com/)) | 50M+ network, or your own contacts ([listenlabs.com](https://listenlabs.com/)) |
-| **Usercall** | Hosted connector at `https://mcp.usercall.co`, sign in with OAuth, no API key ([Usercall API docs](https://app.usercall.co/docs/api)) | AI voice interviews, 50+ languages ([Pricing](https://www.usercall.co/pricing)) | Recruits for you, or bring your own ([Recruit](https://www.usercall.co/recruit-participants)) |
-| **User Intuition** | "API & MCP server access" listed on its Starter plan ([Pricing](https://www.userintuition.ai/pricing/)) | Chat, audio or video ([Pricing](https://www.userintuition.ai/pricing/)) | Your own customers, or a 4M+ vetted panel ([Pricing](https://www.userintuition.ai/pricing/)) |
-| **Koji** | "Run studies from Claude, ChatGPT" in plain language ([koji.so](https://www.koji.so/)) | Voice, chat or phone ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) |
-| **Great Question** | MCP access is part of Enterprise, not Self-serve ([Pricing](https://www.greatquestion.com/pricing)) | AI-moderated interviews are an Enterprise add-on ([Pricing](https://www.greatquestion.com/pricing)) | Research CRM and panel add-ons ([Pricing](https://www.greatquestion.com/pricing)) |
+The apps we reviewed on Nov 27, 2026 that are listed in the ChatGPT app directory and run interviews with people. Each app name links its ChatGPT listing. Vendor cells quote or summarize the vendor's own page, accessed 27 November 2026. "Not stated" means the vendor page we opened did not say; it does not mean the feature is missing. "Contact vendor (per vendor site)" means no public price was shown.
 
-Vendor descriptions are quoted from their own pages. If a capability isn't on the page reviewed, it isn't assumed missing.
+| App (ChatGPT listing) | Interview format | Participants | Languages | Pricing |
+|---|---|---|---|---|
+| **[Frank AI Researcher](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168)** | AI-moderated voice interviews, drafted and read from ChatGPT. Studies stay drafts until you approve publishing. ([Frank docs](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)) | Your own customers, by link, email, in your product, or website widget. Frank does not recruit participants. ([Frank docs](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)) | Multilingual interviews ([Frank docs](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)) | The Free plan includes 225 signup credits plus 60 voice minutes a month, no card. MCP is included on every plan. ([Frank docs](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)) |
+| **[Usercall: User Interviews](https://chatgpt.com/plugins/plugin_asdk_app_6abde61cdafc8191b1257f676fed1018)** | AI-moderated interviews by voice, text or both ([usercall.co](https://www.usercall.co/)) | Share a link, trigger after a product moment, recruit through panel partners, or bring existing data ([usercall.co](https://www.usercall.co/)) | Multiple languages (per vendor site) ([usercall.co/pricing](https://www.usercall.co/pricing)) | Published self-serve plans. First interview or analysis free. ([usercall.co/pricing](https://www.usercall.co/pricing)) |
+| **[Listen Labs](https://chatgpt.com/plugins/plugin_asdk_app_6a0765f330f08191a2e5d95f075948a9)** | AI-moderated interviews with follow-up questions ([listenlabs.com](https://listenlabs.com/)) | Its global participant network, or your own contact list ([listenlabs.com](https://listenlabs.com/)) | Multiple languages (per vendor site) ([listenlabs.com](https://listenlabs.com/)) | Contact vendor (per vendor site) ([listenlabs.com](https://listenlabs.com/)) |
+| **[Strella](https://chatgpt.com/plugins/plugin_asdk_app_69bd87a9820081919a9bdbbac64c05ba)** | AI-moderated and human-moderated interviews ([strella.io](https://www.strella.io/)) | Your own customers, or its participant panel ([strella.io](https://www.strella.io/)) | Multiple languages (per vendor site) ([strella.io](https://www.strella.io/)) | Contact vendor (per vendor site) ([strella.io](https://www.strella.io/)) |
+| **[Conveo](https://chatgpt.com/plugins/plugin_asdk_app_6abe512c9440819189c3248b09fdc8a2)** | AI-moderated voice and video interviews, plus concept, prototype and website tests ([conveo.ai](https://conveo.ai/)) | Recruiting with a screener and quotas ([conveo.ai/book-a-demo](https://conveo.ai/book-a-demo)) | Not stated ([conveo.ai](https://conveo.ai/)) | No public price. Book a demo or start for free (per vendor site) ([conveo.ai/book-a-demo](https://conveo.ai/book-a-demo)) |
+| **[Voicepanel](https://chatgpt.com/plugins/plugin_asdk_app_69ec465134088191977792a5d4f50c8f)** | Voice, video, screen, text and tasks in one study ([voicepanel.com](https://www.voicepanel.com/)) | Invite your own customers with a link, or recruit from integrated panels ([voicepanel.com](https://www.voicepanel.com/)) | Automatic translation into multiple languages (per vendor site) ([voicepanel.com/pricing](https://www.voicepanel.com/pricing)) | Published per-project and annual license pricing ([voicepanel.com/pricing](https://www.voicepanel.com/pricing)) |
+| **[Versive](https://chatgpt.com/plugins/plugin_asdk_app_6a91e524b44081918911ddb0e78a4958)** | AI-moderated interviews, surveys and concept tests, with real and synthetic users ([getversive.com](https://www.getversive.com/)) | Recruit from partner panels, invite your own users by email, or embed studies in your product ([getversive.com](https://www.getversive.com/)) | Multiple languages (per vendor site) ([getversive.com](https://www.getversive.com/)) | Published plans. The free plan covers surveys; AI-moderated interviews are on paid plans. ([getversive.com/pricing](https://www.getversive.com/pricing)) |
+| **[User Intuition](https://chatgpt.com/plugins/plugin_asdk_app_6ad5de9718bc8191bf0a468cb455fed1)** | AI-moderated interviews by chat, audio or video ([userintuition.ai/pricing](https://www.userintuition.ai/pricing/)) | Your own customers, or a vetted respondent panel (recruiting billed separately) ([userintuition.ai/pricing](https://www.userintuition.ai/pricing/)) | Multiple languages (per vendor site) ([userintuition.ai](https://www.userintuition.ai/)) | Published pay-per-interview pricing, with free interviews to start ([userintuition.ai/pricing](https://www.userintuition.ai/pricing/)) |
+| **[UserTold: AI User Research](https://chatgpt.com/plugins/plugin_asdk_app_6a8759c2dba48191b391f3915cc0ee5f)** | In-product user tests: screen and voice recordings, with a voice follow-up conversation ([usertold.ai](https://usertold.ai/)) | Users you can already reach. Does not recruit participants. ([usertold.ai](https://usertold.ai/)) | Not stated ([usertold.ai](https://usertold.ai/)) | Published per-minute pricing ([usertold.ai/pricing](https://usertold.ai/pricing)) |
+| **[CleverX](https://chatgpt.com/plugins/plugin_asdk_app_6ad7ea506e988191a95de021786872a9)** | AI-moderated interviews on video or audio, plus human-moderated interviews, surveys and tests ([cleverx.com](https://cleverx.com/)) | A verified participant pool, your own audience, or custom B2B recruitment ([cleverx.com/pricing](https://cleverx.com/pricing)) | Multiple languages for the AI moderator (per vendor site) ([cleverx.com](https://cleverx.com/)) | Published per-user plan plus credits per completed response. Studies can be built free; launching needs a paid plan. ([cleverx.com/pricing](https://cleverx.com/pricing)) |
+| **[Great Question](https://chatgpt.com/plugins/plugin_asdk_app_6abed98cf9b08191b2c40cc2c305459b)** | Interviews, surveys and tests. AI moderation is an add-on. ([greatquestion.com/pricing](https://www.greatquestion.com/pricing)) | People in your CRM, or its panel ([greatquestion.com](https://www.greatquestion.com/)) | Not stated ([greatquestion.com](https://www.greatquestion.com/)) | Published self-serve per-seat plan. Enterprise plans are custom. ([greatquestion.com/pricing](https://www.greatquestion.com/pricing)) |
+
+The same data is in [chatgpt-interview-apps.csv](https://github.com/nar-vardanyan/frank-mcp/blob/main/data/chatgpt-interview-apps.csv) and [chatgpt-interview-apps.json](https://github.com/nar-vardanyan/frank-mcp/blob/main/data/chatgpt-interview-apps.json), with a source URL and access date for every cell.
+
+### Also connect to ChatGPT through MCP
+
+These tools document a ChatGPT connection through MCP. We did not find them in the ChatGPT app directory mirrors we checked on 27 November 2026, so there is no listing link.
+
+| Tool | ChatGPT connection | Interview format | Participants | Languages | Pricing |
+|---|---|---|---|---|---|
+| **Outset** | Outset MCP connects to ChatGPT and other MCP tools ([outset.ai/resources/changeblog/outset-mcp](https://outset.ai/resources/changeblog/outset-mcp)) | AI-moderated interviews by video, voice or text ([outset.ai](https://outset.ai/)) | Recruit through Outset, or share the link with your own list ([outset.ai](https://outset.ai/)) | Multiple languages (per vendor site) ([outset.ai/pricing](https://outset.ai/pricing)) | Contact vendor (per vendor site) ([outset.ai/pricing](https://outset.ai/pricing)) |
+| **Koji** | Run studies from ChatGPT and other MCP clients ([koji.so](https://www.koji.so/)) | AI-moderated interviews by voice, chat or phone ([koji.so](https://www.koji.so/)) | Share a link or embed on your own site, or recruit from its managed panel ([koji.so](https://www.koji.so/)) | Interviews in each participant's own language (per vendor site) ([koji.so](https://www.koji.so/)) | Published plans. Free to start, no card (per vendor site) ([koji.so/pricing](https://www.koji.so/pricing)) |
+
+## Where each kind of tool fits
+
+- **You want to hear from customers you already have, by voice, started from a chat.** Frank fits here: ChatGPT drafts the study, you approve it, and Frank interviews the customers you invite. The Free plan includes 225 signup credits plus 60 voice minutes a month, and MCP is included on every plan.
+- **You need participants recruited for you.** Pick a tool whose page documents a panel or recruiting, and check how recruiting is billed. Frank does not recruit participants.
+- **You need video, screen recording, or prototype and website tasks.** Pick a tool that documents those formats. Frank runs voice interviews only and does not show designs or prototypes.
+- **You mostly want to search research you already ran.** A repository-style connection may be enough.
 
 ## Connecting Frank to ChatGPT
 
@@ -58,28 +105,23 @@ MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude,
 
 Keep the questions open and about recent events ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). AI interviewers stick to the script and probe when answers are short or unclear, but don't chase unexpected insights ([Nielsen Norman Group, AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
-## How to choose
-
-- **Want new evidence from your own customers, started from chat?** Pick a tool that runs interviews from a link you can share. Frank fits here.
-- **Need people you can't reach?** Pick one that sets up recruiting through MCP, such as Outset (per its changelog).
-- **Mostly want to query past research?** A repository-style connection, such as Listen MCP, is enough.
-- **Check the plan.** Some tools include MCP everywhere; Great Question puts it in Enterprise; Frank includes it on every plan, including Free.
-- **Check approval controls.** Make sure nothing goes to participants without a person approving it.
-
 ## Limits
 
 An assistant can draft questions, but you still pick the decision and check the guide. AI summaries can over-generalize; confirm themes against quotes. Nielsen Norman Group found AI interviewers work best as a complement to human moderation ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)). And interviews explain why; use a survey for how many ([Nielsen Norman Group, Should You Run a Survey?](https://www.nngroup.com/articles/should-you-run-a-survey/)).
 
 ## When Frank is a fit
 
-Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)).
+Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews). The Free plan includes 225 signup credits plus 60 voice minutes a month, with no card required ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)).
 
 **[Install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168)** · **[Connect Frank to other assistants at hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)
 
 ## FAQ
 
 ### Which ChatGPT apps can run customer research interviews?
-Yes. Several research tools connect to ChatGPT through MCP. Frank is available as an app in ChatGPT. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read transcripts. Outset, Strella, Listen Labs, Usercall, User Intuition and Koji also document ChatGPT connections, with different capabilities.
+Frank is available as an app in ChatGPT and lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read transcripts. The other apps in the table above are also listed in the ChatGPT app directory, and Outset and Koji document ChatGPT connections through MCP.
+
+### How do I choose a ChatGPT app for customer interviews?
+Decide who you need to hear from first. If you are interviewing your own customers, check the interview format, whether a person approves a study before it reaches participants, whether results come back into the chat, languages, security, and published pricing. If you need people you can't reach, pick a tool that documents recruiting. Then run a small pilot and read the transcripts yourself.
 
 ### Can ChatGPT start new research, or only read it?
 OpenAI's docs say ChatGPT supports both read and write tools from MCP servers. What you can do depends on the tool. In Frank, new research stays a draft until you approve it.
@@ -100,6 +142,8 @@ Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support r
 
 - [Is there a ChatGPT app for customer interviews?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)
 - [Is there a ChatGPT app for user research?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-user-research.html)
+- [How to choose an AI customer interview tool](https://nar-vardanyan.github.io/frank-mcp/how-to-choose-an-ai-customer-interview-tool.html)
+- [MCP servers for user research, compared](https://nar-vardanyan.github.io/frank-mcp/mcp-servers-for-user-research-compared.html)
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)

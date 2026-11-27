@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "ChatGPT apps for customer research interviews, compared"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html
+    updated: 2026-11-27T14:30:00Z
+    summary: "How to pick a ChatGPT app for customer interviews, then the apps we reviewed on Nov 27, 2026 compared, with each app's ChatGPT listing and a vendor source and access date on every cell. CSV and JSON included."
   - title: "ChatGPT app for UX researchers"
     url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-ux-researchers.html
     updated: 2026-11-27T18:00:00Z
