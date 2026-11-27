@@ -1,0 +1,367 @@
+{% comment %}
+  BreadcrumbList, WebPage+TechArticle for the AI app builder pages, plus FAQPage on the hub.
+  FAQ text matches the rendered FAQ on docs/app-builders/index.md (both generated from one source).
+{% endcomment %}
+{% if page.path == 'app-builders/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Add customer interviews to your AI-built app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage",
+    "TechArticle"
+  ],
+  "headline": "Add Customer Interviews to Your AI-Built App (Replit, Lovable, Bolt, v0, Base44)",
+  "name": "Add Customer Interviews to Your AI-Built App (Replit, Lovable, Bolt, v0, Base44)",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/app-builders/",
+  "description": "Add Frank's voice interview widget to an app built with Replit, Lovable, Bolt, v0 or Base44: one paste-in prompt, no OAuth, and where to place it. Plus remote MCP setup per builder, from each builder's docs.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I add customer interviews to an app I built with an AI app builder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create a study in Frank, open its Embed option, set the protected domain to your published app's domain, and copy the install code. Then paste a short prompt and the install code into your builder's chat and ask it to load the code once for the whole app, or only on one screen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need OAuth or an API key to add the Frank widget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The widget is browser code whose embed ID goes in your page's HTML, so it needs no OAuth, API key or secret. OAuth sign-in is only used if you also connect Frank's MCP server to your builder."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where should I put the interview widget in my app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three moments work well: right after sign-up, while new users remember what almost stopped them; after the first key action, when they can describe a real experience; and on the cancel or downgrade flow, when people can say what triggered the decision. Give each moment its own study, and never block the cancel button."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my AI app builder read Frank interviews over MCP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replit, Lovable, Bolt, v0 and Base44 all document a way to add a custom remote MCP server with OAuth. Frank's server is https://api.hifrank.ai/mcp. We have not confirmed that Frank connects in each builder yet, and builders that need dynamic client registration may not connect until Frank's sign-in offers it. The widget does not depend on MCP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Frank recruit participants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Frank does not recruit participants. You invite your own users, and the widget is how they reach Frank inside your app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Frank cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Free plan: 60 voice minutes a month, no card required. MCP is included on every plan, including Free."
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'app-builders/replit/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Add customer interviews to your AI-built app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Add customer interviews to your Replit app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/replit/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage",
+    "TechArticle"
+  ],
+  "headline": "Add Customer Interviews to Your Replit App with Frank",
+  "name": "Add Customer Interviews to Your Replit App with Frank",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/app-builders/replit/",
+  "description": "Add the Frank voice interview widget to an app built with Replit Agent: a paste-in prompt, the install code, and where to place it. Plus how to add a remote MCP server in Replit.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  }
+}
+</script>
+{% elsif page.path == 'app-builders/lovable/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Add customer interviews to your AI-built app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Add customer interviews to your Lovable app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/lovable/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage",
+    "TechArticle"
+  ],
+  "headline": "Add Customer Interviews to Your Lovable App with Frank",
+  "name": "Add Customer Interviews to Your Lovable App with Frank",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/app-builders/lovable/",
+  "description": "Add the Frank voice interview widget to a Lovable app: a paste-in prompt (or open it prefilled in Lovable), the install code, and where to place it. Plus how to add a remote MCP server in Lovable.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  }
+}
+</script>
+{% elsif page.path == 'app-builders/bolt/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Add customer interviews to your AI-built app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Add customer interviews to your Bolt app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/bolt/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage",
+    "TechArticle"
+  ],
+  "headline": "Add Customer Interviews to Your Bolt App with Frank",
+  "name": "Add Customer Interviews to Your Bolt App with Frank",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/app-builders/bolt/",
+  "description": "Add the Frank voice interview widget to an app built with Bolt: a paste-in prompt, the install code, and where to place it. Plus how to add a custom MCP server in Bolt.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  }
+}
+</script>
+{% elsif page.path == 'app-builders/v0/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Add customer interviews to your AI-built app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Add customer interviews to your v0 app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/v0/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage",
+    "TechArticle"
+  ],
+  "headline": "Add Customer Interviews to Your v0 App with Frank",
+  "name": "Add Customer Interviews to Your v0 App with Frank",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/app-builders/v0/",
+  "description": "Add the Frank voice interview widget to an app built with v0: a paste-in prompt, the install code as a Next.js Script, and where to place it. Plus how to add a remote MCP server in v0.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  }
+}
+</script>
+{% elsif page.path == 'app-builders/base44/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Add customer interviews to your AI-built app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Add customer interviews to your Base44 app",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/app-builders/base44/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "WebPage",
+    "TechArticle"
+  ],
+  "headline": "Add Customer Interviews to Your Base44 App with Frank",
+  "name": "Add Customer Interviews to Your Base44 App with Frank",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/app-builders/base44/",
+  "description": "Add the Frank voice interview widget to a Base44 app: a paste-in prompt, the install code, and where to place it. Plus how to add a custom MCP connection in Base44 (Builder plan and up).",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai"
+  }
+}
+</script>
+{% endif %}

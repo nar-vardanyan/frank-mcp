@@ -1,5 +1,29 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Add customer interviews to your AI-built app"
+    url: https://nar-vardanyan.github.io/frank-mcp/app-builders/
+    updated: 2026-11-27T20:00:00Z
+    summary: "Add Frank's voice interview widget to an app built with Replit, Lovable, Bolt, v0 or Base44 with one prompt and no OAuth, place it at three key moments, and connect Frank's MCP server where the builder supports it."
+  - title: "Add customer interviews to your Replit app"
+    url: https://nar-vardanyan.github.io/frank-mcp/app-builders/replit/
+    updated: 2026-11-27T20:00:00Z
+    summary: "Add the Frank voice interview widget to a Replit app with one Agent prompt, place it after sign-up, after the first key action or on the cancel flow, and add Frank as a remote MCP server."
+  - title: "Add customer interviews to your Lovable app"
+    url: https://nar-vardanyan.github.io/frank-mcp/app-builders/lovable/
+    updated: 2026-11-27T20:00:00Z
+    summary: "Add the Frank voice interview widget to a Lovable app with one prompt, open the prompt prefilled in Lovable, place the widget at three key moments, and add Frank as a custom MCP server."
+  - title: "Add customer interviews to your Bolt app"
+    url: https://nar-vardanyan.github.io/frank-mcp/app-builders/bolt/
+    updated: 2026-11-27T20:00:00Z
+    summary: "Add the Frank voice interview widget to a Bolt app with one prompt, place it after sign-up, after the first key action or on the cancel flow, and add Frank as a custom MCP connector."
+  - title: "Add customer interviews to your v0 app"
+    url: https://nar-vardanyan.github.io/frank-mcp/app-builders/v0/
+    updated: 2026-11-27T20:00:00Z
+    summary: "Add the Frank voice interview widget to a v0 (Next.js) app with one prompt or next/script, place it at three key moments, and add Frank as a custom MCP server in v0."
+  - title: "Add customer interviews to your Base44 app"
+    url: https://nar-vardanyan.github.io/frank-mcp/app-builders/base44/
+    updated: 2026-11-27T20:00:00Z
+    summary: "Add the Frank voice interview widget to a Base44 app through the AI chat, place it at three key moments, and add Frank as a custom MCP connection on the Builder plan or higher."
   - title: "ChatGPT apps for customer research interviews, compared"
     url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html
     updated: 2026-11-27T14:30:00Z
