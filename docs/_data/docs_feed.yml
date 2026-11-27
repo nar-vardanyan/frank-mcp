@@ -108,6 +108,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/
     updated: 2026-11-27T10:00:00Z
     summary: A free, MIT-licensed cancel survey widget for Stripe and Paddle cancel pages that asks why the customer is leaving and never blocks the cancel.
+  - title: JTBD switch interview question generator
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/
+    updated: 2026-11-27T07:30:00Z
+    summary: A free, no-login tool that writes a Jobs to Be Done switch interview guide for your product, with probes and push, pull, anxiety and habit tags, for new or churned customers.
   - title: Customer interview questions template
     url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html
     updated: 2026-11-26T12:00:00Z
