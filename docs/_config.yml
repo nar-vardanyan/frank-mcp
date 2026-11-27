@@ -528,3 +528,46 @@ defaults:
       seo_title: "ChatGPT App for Multilingual Customer Interviews"
       description: "Yes. Frank AI Researcher is available as an app in ChatGPT, and Frank supports multilingual interviews. Draft one core guide in chat, adapt it per market, invite customers in their own language, and read transcripts."
       schema_page: true
+  # AI app builder guides, 27 November 2026. Own CTA with app-builder-guide UTMs, so the shared signup CTA is hidden.
+  - scope:
+      path: app-builders/index.md
+    values:
+      seo_title: "Add Customer Interviews to Your AI-Built App (Replit, Lovable, Bolt, v0, Base44)"
+      description: "Add Frank's voice interview widget to an app built with Replit, Lovable, Bolt, v0 or Base44: one paste-in prompt, no OAuth, and where to place it. Plus remote MCP setup per builder, from each builder's docs."
+      schema_page: true
+      hide_signup_cta: true
+  - scope:
+      path: app-builders/replit/index.md
+    values:
+      seo_title: "Add Customer Interviews to Your Replit App with Frank"
+      description: "Add the Frank voice interview widget to an app built with Replit Agent: a paste-in prompt, the install code, and where to place it. Plus how to add a remote MCP server in Replit."
+      schema_page: true
+      hide_signup_cta: true
+  - scope:
+      path: app-builders/lovable/index.md
+    values:
+      seo_title: "Add Customer Interviews to Your Lovable App with Frank"
+      description: "Add the Frank voice interview widget to a Lovable app: a paste-in prompt (or open it prefilled in Lovable), the install code, and where to place it. Plus how to add a remote MCP server in Lovable."
+      schema_page: true
+      hide_signup_cta: true
+  - scope:
+      path: app-builders/bolt/index.md
+    values:
+      seo_title: "Add Customer Interviews to Your Bolt App with Frank"
+      description: "Add the Frank voice interview widget to an app built with Bolt: a paste-in prompt, the install code, and where to place it. Plus how to add a custom MCP server in Bolt."
+      schema_page: true
+      hide_signup_cta: true
+  - scope:
+      path: app-builders/v0/index.md
+    values:
+      seo_title: "Add Customer Interviews to Your v0 App with Frank"
+      description: "Add the Frank voice interview widget to an app built with v0: a paste-in prompt, the install code as a Next.js Script, and where to place it. Plus how to add a remote MCP server in v0."
+      schema_page: true
+      hide_signup_cta: true
+  - scope:
+      path: app-builders/base44/index.md
+    values:
+      seo_title: "Add Customer Interviews to Your Base44 App with Frank"
+      description: "Add the Frank voice interview widget to a Base44 app: a paste-in prompt, the install code, and where to place it. Plus how to add a custom MCP connection in Base44 (Builder plan and up)."
+      schema_page: true
+      hide_signup_cta: true

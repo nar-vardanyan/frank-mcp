@@ -224,6 +224,18 @@ Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`,
 
 Official reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
 
+### AI app builders (Replit, Lovable, Bolt, v0, Base44)
+
+To let your app's users talk to Frank, add the Frank website widget with one prompt to your builder. It needs no OAuth. Guides with the prompt, the install code and where to place it: [Add customer interviews to your AI-built app](https://nar-vardanyan.github.io/frank-mcp/app-builders/).
+
+- [Replit](https://nar-vardanyan.github.io/frank-mcp/app-builders/replit/)
+- [Lovable](https://nar-vardanyan.github.io/frank-mcp/app-builders/lovable/)
+- [Bolt](https://nar-vardanyan.github.io/frank-mcp/app-builders/bolt/)
+- [v0](https://nar-vardanyan.github.io/frank-mcp/app-builders/v0/)
+- [Base44](https://nar-vardanyan.github.io/frank-mcp/app-builders/base44/)
+
+Each guide also covers adding `https://api.hifrank.ai/mcp` as a remote MCP server in that builder, from the builder's own docs. Connections in these builders are not yet confirmed.
+
 ## Agent skill: customer interviews
 
 [skills/customer-interviews/SKILL.md](skills/customer-interviews/SKILL.md) is an open [Agent Skill](https://agentskills.io/specification). It plans a study (goal, audience, hypotheses), writes a non-leading Mom Test voice guide, and, when the Frank MCP is connected, creates the study, publishes a voice interview link or website widget after you approve, and summarizes transcripts. Without Frank connected, it still writes the guide and explains how to connect.

@@ -95,6 +95,16 @@ Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and anal
 - [ChatGPT prompts for usability testing and UX interviews](chatgpt-prompts-for-usability-testing-and-ux-interviews.md): 12 prompts to plan usability test tasks, write follow-up UX interview guides, and analyze sessions and transcripts.
 - [ChatGPT prompts for jobs-to-be-done interviews](chatgpt-prompts-for-jobs-to-be-done-interviews.md): 12 prompts to plan a JTBD switch study, write a timeline guide, and code pushes, pulls, anxieties and habits.
 
+## AI app builders
+
+Add Frank's voice interview widget to an app built with an AI app builder, with one paste-in prompt and no OAuth, plus remote MCP setup from each builder's docs. Start with [Add customer interviews to your AI-built app](app-builders/).
+
+- [Add customer interviews to your Replit app](app-builders/replit/)
+- [Add customer interviews to your Lovable app](app-builders/lovable/)
+- [Add customer interviews to your Bolt app](app-builders/bolt/)
+- [Add customer interviews to your v0 app](app-builders/v0/)
+- [Add customer interviews to your Base44 app](app-builders/base44/)
+
 ## About
 
 - [About Frank AI Researcher](about-frank-ai-researcher.md)

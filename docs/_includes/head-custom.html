@@ -91,6 +91,9 @@
 {% if page.schema_page %}
 {% include structured-data.html %}
 {% endif %}
+{% if page.path contains 'app-builders/' %}
+{% include app-builders-structured-data.html %}
+{% endif %}
 {% if page.path contains 'glossary/' %}
 {% include glossary-structured-data.html %}
 {% endif %}
