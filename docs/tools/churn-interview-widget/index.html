@@ -159,6 +159,11 @@
   footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
   label.inline { font-size:14px; display:inline-flex; gap:6px; align-items:center; }
   @media (max-width: 640px) { h1 { font-size: 1.7em; } }
+  /* chatgpt-cta */ .cta-chatgpt { margin-top:14px; padding-top:12px; border-top:1px solid #b7e1cf; }
+  .cta-chatgpt p { margin:0 0 10px; }
+  .btn-chatgpt { background:#fff; color:var(--accent); border:1px solid var(--accent); white-space:normal; max-width:100%; box-sizing:border-box; }
+  .btn-chatgpt:hover { background:#f6f8fa; }
+  .cta-signup { display:inline-block; margin:10px 0 0; }
 </style>
 </head>
 <body>
@@ -338,6 +343,12 @@ app.post(&#x27;/api/subscription/cancel&#x27;, requireUser, express.json(), asyn
     <div class="cta">
       <p>Frank is an AI user researcher that runs short voice interviews. Put your Frank interview link in <code>interviewLink</code> and churned customers can tell you more in their own words.</p>
       <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=churn-widget">Try Frank for churn interviews</a>
+      <!-- chatgpt-cta -->
+      <div class="cta-chatgpt">
+        <p>Frank AI Researcher is available as an app in ChatGPT.</p>
+        <a class="btn btn-chatgpt" href="https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168" target="_blank" rel="noopener">Run it as voice interviews with Frank in ChatGPT</a><br>
+        <a class="cta-signup" href="https://app.hifrank.ai/signup?utm_source=frank-tools&amp;utm_medium=tool&amp;utm_campaign=churn-interview-widget-chatgpt">Or create a free Frank account</a>
+      </div>
     </div>
 
     <h2>FAQ</h2>
