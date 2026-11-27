@@ -456,3 +456,9 @@ defaults:
       seo_title: "ChatGPT Prompts for Jobs-to-Be-Done (JTBD) Interviews"
       description: "12 copy-paste ChatGPT prompts for jobs-to-be-done (JTBD) interviews: plan a switch study, write a timeline guide, code pushes, pulls, anxieties and habits, and write job statements. Then run AI-moderated voice interviews with Frank in ChatGPT."
       schema_page: true
+  - scope:
+      path: chatgpt-app-for-customer-interviews.md
+    values:
+      seo_title: "ChatGPT App for Customer Interviews: Frank AI Researcher"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT: draft a customer interview study in chat, share the voice interview link with your own customers, and read transcripts and themes. Free: 60 voice min/mo, no card."
+      schema_page: true

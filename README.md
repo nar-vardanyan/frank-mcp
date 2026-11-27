@@ -72,6 +72,7 @@ Sourced comparison of research MCP servers, checked 20 November 2026: [MCP serve
 
 ## ChatGPT prompts for customer interviews
 
+- A direct answer: Frank AI Researcher is available as an app in ChatGPT. How to install it, what you can do from chat, example prompts, and what it does not do. [Is there a ChatGPT app for customer interviews?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)
 - 12 prompts to plan a churn study, write the guide and invite, and analyze why customers cancelled. [ChatGPT prompts for churn customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-churn-customer-interviews.html)
 - 12 prompts to map assumptions, write a past-behavior discovery guide, and test an idea against what people actually do. [ChatGPT prompts for customer discovery interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-customer-discovery-interviews.html)
 - 12 prompts to pick deals, write win, loss and no-decision guides, and compare buyer stories with CRM reasons. [ChatGPT prompts for win-loss customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-win-loss-customer-interviews.html)
@@ -193,6 +194,8 @@ On [grok.com](https://grok.com/connectors), go to **New Connector** → **Custom
 Official references: [Grok Bot apps](https://docs.x.ai/grok-bot/computer-and-apps) and [grok.com connectors](https://docs.x.ai/grok/connectors). A Grok Bot marketplace listing is in review; until it is live, use the custom URL path above.
 
 ### ChatGPT
+
+Is there a ChatGPT app for customer interviews? Yes: see [ChatGPT app for customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html).
 
 Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Open the listing in ChatGPT, add Frank, and sign in to your Frank account when asked (OAuth). In a chat, type `@` and select Frank.
 
