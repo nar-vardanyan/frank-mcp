@@ -23,4 +23,5 @@
 - [JTBD switch interview question generator](tools/jtbd-interview-question-generator/)
 - [Cancellation reason sorter](tools/cancellation-reason-sorter/)
 - [How many customer interviews planner](tools/customer-interview-sample-size-planner/)
+- [Customer interview summary template](tools/customer-interview-summary-template/)
 - [30 customer interview study templates](templates/)
