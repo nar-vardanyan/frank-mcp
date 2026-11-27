@@ -103,6 +103,7 @@ No. MCP is included on every plan, including Free.
 
 ## Related
 
+- [Customer interview use cases](https://nar-vardanyan.github.io/frank-mcp/use-cases/): 10 task flows with the tools to call, a sample guide and an example prompt
 - [AI agent that interviews customers](https://nar-vardanyan.github.io/frank-mcp/ai-agent-that-interviews-customers.html)
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
 - [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html)

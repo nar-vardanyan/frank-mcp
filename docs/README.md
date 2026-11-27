@@ -95,6 +95,21 @@ Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and anal
 - [ChatGPT prompts for usability testing and UX interviews](chatgpt-prompts-for-usability-testing-and-ux-interviews.md): 12 prompts to plan usability test tasks, write follow-up UX interview guides, and analyze sessions and transcripts.
 - [ChatGPT prompts for jobs-to-be-done interviews](chatgpt-prompts-for-jobs-to-be-done-interviews.md): 12 prompts to plan a JTBD switch study, write a timeline guide, and code pushes, pulls, anxieties and habits.
 
+## Use cases
+
+Ten customer interview use cases, each with a step-by-step MCP task flow, a sample interview guide and an example agent prompt. Start with [Customer interview use cases](use-cases/).
+
+- [Onboarding Friction Interviews: Find Where New Users Get Stuck](use-cases/onboarding-friction-interviews.md)
+- [Pricing Change Reaction Interviews: Hear How Customers Respond Before You Announce](use-cases/pricing-change-reaction-interviews.md)
+- [Feature Prioritization Interviews: Rank Requests by the Problem Behind Them](use-cases/feature-prioritization-interviews.md)
+- [Signup Motivation Interviews: Learn Why New Users Signed Up](use-cases/signup-motivation-interviews.md)
+- [NPS Follow-up Interviews: Find Out What Is Behind the Score](use-cases/nps-follow-up-interviews.md)
+- [Beta Feedback Interviews: Talk to Every Beta User About Real Use](use-cases/beta-feedback-interviews.md)
+- [Persona Discovery Interviews: Learn Who Your Best Customers Really Are](use-cases/persona-discovery-interviews.md)
+- [Support Follow-up Interviews: Learn the Root Cause Behind Support Tickets](use-cases/support-follow-up-interviews.md)
+- [Trial Conversion Interviews: Learn Why Trial Users Did or Did Not Upgrade](use-cases/trial-conversion-interviews.md)
+- [Upgrade Motivation Interviews: Learn Why Customers Moved to a Paid Plan](use-cases/upgrade-motivation-interviews.md)
+
 ## AI app builders
 
 Add Frank's voice interview widget to an app built with an AI app builder, with one paste-in prompt and no OAuth, plus remote MCP setup from each builder's docs. Start with [Add customer interviews to your AI-built app](app-builders/).
