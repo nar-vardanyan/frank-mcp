@@ -462,3 +462,33 @@ defaults:
       seo_title: "ChatGPT App for Customer Interviews: Frank AI Researcher"
       description: "Yes. Frank AI Researcher is available as an app in ChatGPT: draft a customer interview study in chat, share the voice interview link with your own customers, and read transcripts and themes. Free: 60 voice min/mo, no card."
       schema_page: true
+  - scope:
+      path: chatgpt-app-for-user-research.md
+    values:
+      seo_title: "ChatGPT App for User Research: Frank AI Researcher"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT for user research interviews: draft a study in chat, share a voice interview link with your own users, and read transcripts and themes."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-product-managers-customer-interviews.md
+    values:
+      seo_title: "ChatGPT App for Product Managers to Run Customer Interviews"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT, so product managers can draft a customer interview study, share it with their own users, and read transcripts and themes from the same chat."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-churn-interviews.md
+    values:
+      seo_title: "ChatGPT App for Churn Interviews: Frank AI Researcher"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT for churn interviews: draft a churn study in chat, share the voice interview link with customers who cancelled, and read why they left."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-founders-customer-discovery.md
+    values:
+      seo_title: "ChatGPT App for Founders Doing Customer Discovery"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT for customer discovery: draft a past-behavior study in chat, share the voice interview link with people you can reach, and test assumptions against transcripts."
+      schema_page: true
+  - scope:
+      path: mcp-server-for-customer-interviews-in-claude-and-chatgpt.md
+    values:
+      seo_title: "MCP Server for Customer Interviews in Claude and ChatGPT"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT, and the same remote MCP server, https://api.hifrank.ai/mcp, connects to Claude as a custom connector. OAuth sign-in, no API key, MCP on every plan."
+      schema_page: true
