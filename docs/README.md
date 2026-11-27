@@ -30,6 +30,11 @@ Competitor facts were taken from each company's own public pages, opened on the 
 - [Customer interview questions for HR tech](customer-interview-questions-for-hr-tech.md): An 8-question guide about admin, manager, and employee workflows.
 - [Customer interview questions for developer tools](customer-interview-questions-for-developer-tools.md): An 8-question guide about install, first success, and switching.
 - [Customer interview questions for consumer mobile apps](customer-interview-questions-for-consumer-mobile-apps.md): An 8-question guide about the first session, return visits, and why people keep or delete an app.
+- [Customer interview questions for AI startups](customer-interview-questions-for-ai-startups.md): An 8-question guide about model trust, evaluation, and switching costs.
+- [Customer interview questions for cybersecurity](customer-interview-questions-for-cybersecurity.md): An 8-question guide about buyer trust, security review, and alert fatigue.
+- [Customer interview questions for proptech](customer-interview-questions-for-proptech.md): An 8-question guide about landlords, property managers, and tenants.
+- [Customer interview questions for legaltech](customer-interview-questions-for-legaltech.md): An 8-question guide about law firm partners, in-house counsel, and confidentiality.
+- [Customer interview questions for logistics](customer-interview-questions-for-logistics.md): An 8-question guide about shippers, carriers, and operations managers.
 - [Customer interview guide generator](tools/customer-interview-guide-generator/): a free, no-login tool that writes an 8-question customer interview guide for a goal and product type.
 
 ## Interview questions by role
