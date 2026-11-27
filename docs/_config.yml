@@ -493,6 +493,24 @@ defaults:
       description: "Yes. Frank AI Researcher is available as an app in ChatGPT, and the same remote MCP server, https://api.hifrank.ai/mcp, connects to Claude as a custom connector. OAuth sign-in, no API key, MCP on every plan."
       schema_page: true
   - scope:
+      path: ai-customer-interview-software-compared.md
+    values:
+      seo_title: "AI Customer Interview Software: 12 Tools Compared (2026)"
+      description: "AI customer interview software compared: 12 tools on interview mode, languages, public pricing, free plans and ChatGPT or MCP availability, each fact sourced to the vendor's own site, accessed Nov 27, 2026."
+      schema_page: true
+  - scope:
+      path: usercall-alternatives.md
+    values:
+      seo_title: "Usercall Alternatives: 7 AI Interview Tools Compared (2026)"
+      description: "Usercall alternatives compared: 7 AI interview tools, including Frank AI Researcher, on interview mode, languages, public pricing, free plans and ChatGPT or MCP availability, sourced to each vendor's site, accessed Nov 27, 2026."
+      schema_page: true
+  - scope:
+      path: listen-labs-alternatives.md
+    values:
+      seo_title: "Listen Labs Alternatives: 8 AI-Moderated Interview Platforms Compared (2026)"
+      description: "Listen Labs alternatives compared: 8 AI-moderated interview platforms, including Frank AI Researcher, on interview mode, languages, public pricing, free plans and ChatGPT or MCP availability, sourced to each vendor's site, accessed Nov 27, 2026."
+      schema_page: true
+  - scope:
       path: chatgpt-app-for-customer-research-interviews.md
     values:
       seo_title: "ChatGPT Apps for Customer Research Interviews, Compared"
