@@ -101,6 +101,7 @@ Add Frank's voice interview widget to an app built with an AI app builder, with 
 
 - [Add customer interviews to your Replit app](app-builders/replit/)
 - [Add customer interviews to your Lovable app](app-builders/lovable/)
+- [Use Frank in Lovable](use-frank-in-lovable.md): connect Frank as a custom MCP server with OAuth, then create a study, add the widget and read interviews from Lovable
 - [Add customer interviews to your Bolt app](app-builders/bolt/)
 - [Add customer interviews to your v0 app](app-builders/v0/)
 - [Add customer interviews to your Base44 app](app-builders/base44/)

@@ -697,7 +697,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The MCP overview names Claude Desktop, Claude.ai, Windsurf, and any MCP-compatible client, and it links a Claude Code setup guide. The Claude setup page links a VS Code Copilot Chat guide at https://www.koji.so/docs/mcp-setup-vscode. Building with AI says: \"Pick your app (Claude, ChatGPT, Cursor or VS Code).\" ChatGPT is named on that page and is not named in the overview's client list. Both pages were checked on 2026-11-20.",
+          "value": "The MCP overview names Claude Desktop, Claude.ai, Windsurf, and any MCP-compatible client, and it links a Claude Code setup guide. The Claude setup page links a VS Code Copilot Chat guide at https://www.koji.so/docs/mcp-setup-vscode. Koji's Building with AI setup guide covers Claude, ChatGPT and VS Code. ChatGPT is named on that page and is not named in the overview's client list. Both pages were checked on 2026-11-20.",
           "source_urls": [
             "https://www.koji.so/docs/mcp-overview",
             "https://www.koji.so/docs/mcp-setup-claude",

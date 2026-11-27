@@ -572,6 +572,12 @@ defaults:
       description: "Listen Labs alternatives compared: 8 AI-moderated interview platforms, including Frank AI Researcher, on interview mode, languages, public pricing, free plans and ChatGPT or MCP availability, sourced to each vendor's site, accessed Nov 27, 2026."
       schema_page: true
   - scope:
+      path: use-frank-in-lovable.md
+    values:
+      seo_title: "Use Frank in Lovable: Customer Interviews for Your Lovable App"
+      description: "Connect Frank AI Researcher to Lovable as a custom MCP server (https://api.hifrank.ai/mcp, OAuth), then ask Lovable to create a voice interview study, add Frank's interview widget to your app, and read the interviews back."
+      schema_page: true
+  - scope:
       path: chatgpt-app-for-customer-research-interviews.md
     values:
       seo_title: "ChatGPT Apps for Customer Research Interviews, Compared"

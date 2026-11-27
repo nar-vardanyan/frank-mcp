@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Use Frank in Lovable: Customer Interviews for Your Lovable App"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-frank-in-lovable.html
+    updated: 2026-11-27T21:00:00Z
+    summary: "Connect Frank AI Researcher to Lovable as a custom MCP server (https://api.hifrank.ai/mcp, OAuth), then ask Lovable to create a voice interview study, add Frank's interview widget to your app, and read the interviews back."
   - title: "AI Customer Interview Software: 12 Tools Compared (2026)"
     url: https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-software-compared.html
     updated: 2026-11-27T21:00:00Z
