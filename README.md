@@ -2,6 +2,8 @@
 
 # Frank AI Researcher
 
+[![Frank AI Researcher MCP connector](https://glama.ai/mcp/connectors/ai.hifrank/frank/badges/score.svg)](https://glama.ai/mcp/connectors/ai.hifrank/frank)
+
 AI-moderated voice interviews with your customers: create studies, run them, read transcripts.
 
 Frank AI Researcher is an MCP server for customer interviews: it lets ChatGPT, Claude, and other MCP clients run AI-moderated voice interviews with your own customers and return transcripts and insights. You bring the customers; Frank does not recruit participants. MCP is included on every plan, including Free.
