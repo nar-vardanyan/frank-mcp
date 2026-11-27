@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "How Founders Actually Talk to Customers, 2026"
+    url: https://nar-vardanyan.github.io/frank-mcp/founder-study/
+    updated: 2026-11-27T21:00:00Z
+    summary: "An open study for founders and PMs: a ten minute voice interview about your last real customer conversation. Results go public in mid-December."
   - title: "Use Frank in Lovable: Customer Interviews for Your Lovable App"
     url: https://nar-vardanyan.github.io/frank-mcp/use-frank-in-lovable.html
     updated: 2026-11-27T21:00:00Z
