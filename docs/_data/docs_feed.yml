@@ -1,5 +1,25 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: ChatGPT prompts for B2B SaaS user research interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-b2b-saas-user-research-interviews.html
+    updated: 2026-11-27T16:00:00Z
+    summary: "12 prompts to plan user research across admins, end users and buyers in B2B SaaS accounts, and analyze it by role."
+  - title: ChatGPT prompts for pricing interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-pricing-interviews.html
+    updated: 2026-11-27T16:00:00Z
+    summary: "Qualitative prompts about value perception, packaging, purchase triggers and how buyers compare options, with no made-up price points."
+  - title: ChatGPT prompts for feature prioritization interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-feature-prioritization-interviews.html
+    updated: 2026-11-27T16:00:00Z
+    summary: "12 prompts to turn feature requests into problems, interview the people behind them, and rank problems by evidence."
+  - title: ChatGPT prompts for usability testing and UX interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-usability-testing-and-ux-interviews.html
+    updated: 2026-11-27T16:00:00Z
+    summary: "12 prompts to plan usability test tasks, write follow-up UX interview guides, and analyze sessions and transcripts."
+  - title: ChatGPT prompts for jobs-to-be-done interviews
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-jobs-to-be-done-interviews.html
+    updated: 2026-11-27T16:00:00Z
+    summary: "12 prompts to plan a JTBD switch study, write a timeline guide, and code pushes, pulls, anxieties and habits."
   - title: ChatGPT prompts for churn customer interviews
     url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-churn-customer-interviews.html
     updated: 2026-11-27T12:00:00Z
