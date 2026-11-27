@@ -5,6 +5,7 @@
 study_url: "https://app.hifrank.ai/research/88ff6d41-ae92-4538-b975-b116e2f47c53/interview?botType=audio&utm_source=frank-mcp-docs&utm_medium=landing&utm_campaign=be-honest-with-frank"
 layout: default
 hide_signup_cta: true
+hide_research_cta: true
 schema_page: true
 seo_title: "Be honest with Frank: a ten minute voice conversation"
 description: "Be honest with Frank, a ten minute voice conversation. Tell Frank about a product decision you got wrong because you didn't talk to customers."
