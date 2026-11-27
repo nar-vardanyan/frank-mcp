@@ -1,6 +1,6 @@
 # How to Run Churn Interviews with ChatGPT and Frank MCP
 
-**In short:** To run churn interviews from ChatGPT, connect Frank AI Researcher as a custom MCP server, ask ChatGPT to draft a study about recently cancelled customers, review the guide yourself, and share the interviewer link in your cancellation email or cancel page. When interviews come back, ask ChatGPT to summarize the transcripts, then check each theme against the original quotes. Frank does not recruit participants; you invite people who already cancelled.
+**In short:** To run churn interviews from ChatGPT, install the official Frank AI Researcher app in ChatGPT (or add it as a custom MCP server), ask ChatGPT to draft a study about recently cancelled customers, review the guide yourself, and share the interviewer link in your cancellation email or cancel page. When interviews come back, ask ChatGPT to summarize the transcripts, then check each theme against the original quotes. Frank does not recruit participants; you invite people who already cancelled.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp)**, a voice-first product that runs AI-moderated voice interviews with your own customers, with a remote MCP server. This page is the ChatGPT workflow for churn. For the research method itself, see [How to find out why customers churn](how-to-find-out-why-customers-churn.md).
 
@@ -23,7 +23,9 @@ A cancellation survey is still useful for counting categories such as "price" or
 
 ## Step 1: Connect Frank to ChatGPT
 
-OpenAI documents the custom-server path on ChatGPT on the web: go to **Plugins**, select the plus button, choose **Add custom MCP server**, enter a name and the server URL, configure authentication, accept the risk warning, and select **Create as a plugin**. Then install it and type `@` in the prompt box to use it ([Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server)). Workspace permissions apply (same source). OpenAI also says to connect only servers you trust (same source). For Frank:
+Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Open the listing in ChatGPT, add Frank, then sign in to Frank in your browser and approve access. There is no API key. In a chat, type `@` and select Frank AI Researcher, then ask: "List my Frank studies."
+
+If the app isn't available in your workspace, use the custom MCP server path instead. OpenAI documents the custom-server path on ChatGPT on the web: go to **Plugins**, select the plus button, choose **Add custom MCP server**, enter a name and the server URL, configure authentication, accept the risk warning, and select **Create as a plugin**. Then install it and type `@` in the prompt box to use it ([Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server)). Workspace permissions apply (same source). OpenAI also says to connect only servers you trust (same source). For Frank:
 
 1. In ChatGPT on the web, add a custom MCP server named **Frank AI Researcher**.
 2. Server URL: `https://api.hifrank.ai/mcp`
@@ -105,7 +107,7 @@ As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice 
 
 ### Can ChatGPT run churn interviews on its own?
 
-No. Connect an AI interviewer such as Frank as a custom MCP server. ChatGPT can draft the study and analyze the transcripts; Frank runs the voice interviews with customers you invite.
+No. Connect an AI interviewer such as Frank: install the [official Frank app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), or add it as a custom MCP server. ChatGPT can draft the study and analyze the transcripts; Frank runs the voice interviews with customers you invite.
 
 ### What is the Frank MCP server URL?
 

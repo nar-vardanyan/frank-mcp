@@ -45,7 +45,7 @@
           "checked_on": "2026-11-20"
         },
         "auth": {
-          "value": "OAuth 2.1 with PKCE (S256). Authorization-server metadata sets client_id_metadata_document_supported to true (Client ID Metadata Documents, CIMD) and does not publish a registration_endpoint. The README says Cursor and Gemini CLI can't connect yet because they require dynamic client registration (DCR).",
+          "value": "OAuth 2.1 with PKCE (S256). Authorization-server metadata sets client_id_metadata_document_supported to true (Client ID Metadata Documents, CIMD) and does not publish a registration_endpoint. The README says clients that require dynamic client registration (DCR) can't connect yet.",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md",
             "https://api.hifrank.ai/.well-known/oauth-authorization-server"
@@ -53,14 +53,14 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Codex is not in that client list. Cursor and Gemini CLI can't connect (they require DCR).",
+          "value": "Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Codex is not in that client list. Clients that require DCR can't connect yet.",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
           ],
           "checked_on": "2026-11-20"
         },
         "interview_modes": {
-          "value": "Voice is the mode treated as available. The README says video, WhatsApp, and chat interviews are Coming soon. That is the product rule used here, so those modes are not listed as available. The pricing page, opened the same day, says \"Frank supports voice interviews, video interviews, WhatsApp chat, and web chat.\" Those two pages disagree.",
+          "value": "Voice. The README describes Frank as voice-first, so only voice is listed here.",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md",
             "https://www.hifrank.ai/pricing"
@@ -68,18 +68,19 @@
           "checked_on": "2026-11-20"
         },
         "interview_languages_claimed": {
-          "value": "50+ interview languages.",
+          "value": "Multilingual interviews.",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
           ],
           "checked_on": "2026-11-20"
         },
         "chatgpt_directory": {
-          "value": "not listed. The README documents adding a custom MCP server in ChatGPT. It does not document a ChatGPT app-directory listing.",
+          "value": "Listed. Frank AI Researcher is an official app in ChatGPT (https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). The README also documents adding a custom MCP server as a fallback.",
           "source_urls": [
+            "https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168",
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
           ],
-          "checked_on": "2026-11-20"
+          "checked_on": "2026-11-27"
         },
         "claude_directory": {
           "value": "not listed. The README documents a custom connector for Claude. It does not document a Claude connector-directory listing.",

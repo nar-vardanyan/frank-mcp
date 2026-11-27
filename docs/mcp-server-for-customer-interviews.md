@@ -1,8 +1,8 @@
 # MCP Server for Customer Interviews
 
-**In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is included on every plan, including Free.
+**In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). MCP is included on every plan, including Free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 23 November 2026.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 27 November 2026.
 
 ## What is an MCP server for customer interviews?
 
@@ -16,9 +16,9 @@ Yes, if the research you want is interviews with customers you already have. Fro
 
 ## Compared: which clients can connect
 
-| Client | Best for | Status (23 Nov 2026) |
+| Client | Best for | Status (27 Nov 2026) |
 |---|---|---|
-| **ChatGPT** | Running studies from a ChatGPT custom MCP server | Tested |
+| **ChatGPT** | Running studies from ChatGPT with the [official Frank app](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), or a custom MCP server | Official app |
 | **Claude** (Claude.ai, Claude Desktop, Claude Code) | Drafting studies and reading transcripts from Claude or Claude Code | Tested |
 | **Grok** | The same remote URL in Grok | Tested |
 | **Muse** | The same remote URL in Muse | Tested |
@@ -39,7 +39,9 @@ For Claude Desktop or Claude.ai, add a custom connector with the same URL. [Use 
 
 ## Connect from ChatGPT, Grok or Muse
 
-In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher. Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server). More detail: [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html).
+Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Open the listing in ChatGPT, add Frank, and sign in to your Frank account when asked. In a chat, type `@` and select Frank AI Researcher.
+
+If the app isn't available in your workspace, add Frank as a custom MCP server instead. In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher. Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server). More detail: [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html).
 
 Grok and Muse use the same URL. Paths for those clients are in the [frank-mcp README](https://github.com/nar-vardanyan/frank-mcp).
 
@@ -64,6 +66,10 @@ An MCP server for customer interviews lets your assistant create interview studi
 ### Which MCP clients work with Frank?
 
 Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+
+### Is Frank an official ChatGPT app?
+
+Yes. Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). You can also add `https://api.hifrank.ai/mcp` as a custom MCP server with OAuth, which is also how other MCP clients connect.
 
 ### Is MCP included on the Free plan?
 

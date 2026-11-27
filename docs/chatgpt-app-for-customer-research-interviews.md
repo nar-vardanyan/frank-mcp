@@ -1,6 +1,6 @@
 # ChatGPT Apps for Customer Research Interviews: What Each Can Do
 
-**In short:** Several research tools now connect to ChatGPT through MCP, but they do different things there. Some run new customer interviews from a chat; others only search research you already have. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read the transcripts, with nothing published until you approve it.
+**In short:** Several research tools now connect to ChatGPT through MCP, but they do different things there. Some run new customer interviews from a chat; others only search research you already have. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read the transcripts, with nothing published until you approve it. Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168).
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
 
@@ -22,7 +22,7 @@ OpenAI also warns that an untrusted server may access information shared through
 
 | Tool | What ChatGPT can do through it (per the vendor) | Interviews | Participants |
 |---|---|---|---|
-| **Frank** | Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)) | AI-moderated voice interviews, multilingual interviews | Your own customers via link or widget; does not recruit |
+| **Frank** | Official app in ChatGPT ([install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168)). Draft a study (kept as a draft until you approve), list studies, read transcripts and themes ([MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)) | AI-moderated voice interviews, multilingual interviews | Your own customers via link or widget; does not recruit |
 | **Outset** | "Create studies, configure recruitment, launch research, and analyze findings" ([Outset MCP](https://outset.ai/resources/changeblog/outset-mcp)) | Text, voice, video and voice-to-voice ([Pricing](https://outset.ai/pricing)) | 25+ panel integrations, or your own lists ([Recruit](https://outset.ai/platform/recruit)) |
 | **Strella** | "Explore projects, analyze transcripts, and manage studies" ([Strella MCP docs](https://app.strella.io/docs/product/mcp)) | AI and human moderation ([Product](https://www.strella.io/product)) | Panel of "over 8 million participants" ([Product](https://www.strella.io/product)) |
 | **Listen Labs** | Pull "themes, quotes, and cross-study synthesis" from your Listen workspace ([Listen MCP](https://listenlabs.com/blog/listen-mcp)) | AI moderator, 120+ languages ([listenlabs.com](https://listenlabs.com/)) | 50M+ network, or your own contacts ([listenlabs.com](https://listenlabs.com/)) |
@@ -35,7 +35,9 @@ Vendor descriptions are quoted from their own pages. If a capability isn't on th
 
 ## Connecting Frank to ChatGPT
 
-OpenAI documents the custom-server path on ChatGPT on the web: go to **Plugins**, select the plus button, choose **Add custom MCP server**, enter a name and the server URL, configure authentication, accept the risk warning, and select **Create as a plugin**. Then install it and type `@` in the prompt box to use it ([OpenAI, Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server)). Workspace permissions apply (same source). For Frank:
+Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Open the listing in ChatGPT, add Frank, then sign in to Frank in your browser and approve access. There is no API key. In a chat, type `@` and select Frank AI Researcher, then ask: "List my Frank studies."
+
+If the app isn't available in your workspace, or you prefer to add the server yourself, use the custom MCP server path. OpenAI documents the custom-server path on ChatGPT on the web: go to **Plugins**, select the plus button, choose **Add custom MCP server**, enter a name and the server URL, configure authentication, accept the risk warning, and select **Create as a plugin**. Then install it and type `@` in the prompt box to use it ([OpenAI, Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server)). Workspace permissions apply (same source). For Frank:
 
 1. In ChatGPT on the web, add a custom MCP server named **Frank**.
 2. Server URL: `https://api.hifrank.ai/mcp`
@@ -70,18 +72,18 @@ An assistant can draft questions, but you still pick the decision and check the 
 
 Frank fits when you want to start customer interviews from ChatGPT and get voice conversations with your own customers back in the chat. Frank is voice-first. It supports multilingual interviews and is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)).
 
-**[Connect Frank to ChatGPT free at hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)
+**[Install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168)** · **[Connect Frank to other assistants at hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)
 
 ## FAQ
 
 ### Is there a ChatGPT app for customer research interviews?
-Yes. Several research tools connect to ChatGPT through MCP. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read transcripts. Outset, Strella, Listen Labs, Usercall, User Intuition and Koji also document ChatGPT connections, with different capabilities.
+Yes. Several research tools connect to ChatGPT through MCP. Frank AI Researcher is an official app in ChatGPT. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read transcripts. Outset, Strella, Listen Labs, Usercall, User Intuition and Koji also document ChatGPT connections, with different capabilities.
 
 ### Can ChatGPT start new research, or only read it?
 OpenAI's docs say ChatGPT supports both read and write tools from MCP servers. What you can do depends on the tool. In Frank, new research stays a draft until you approve it.
 
 ### How do I add Frank to ChatGPT?
-On ChatGPT on the web, add a custom MCP server with the URL `https://api.hifrank.ai/mcp`, choose OAuth, sign in to Frank and approve access, then install it and mention it with @.
+Install the official app: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), then sign in to Frank and approve access. If the app isn't available in your workspace, on ChatGPT on the web add a custom MCP server with the URL `https://api.hifrank.ai/mcp`, choose OAuth, sign in to Frank and approve access, then install it and mention it with @.
 
 ### Does it cost extra to use Frank in ChatGPT?
 MCP is included on every Frank plan, including Free.
