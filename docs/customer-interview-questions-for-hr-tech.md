@@ -2,7 +2,7 @@
 
 **In short:** To understand an HR tech rollout or switch, invite admins, managers, or employees you already have, then share an AI-moderated voice interview link so they can talk when they have time. Ask who does each step and what almost blocked adoption. Frank AI Researcher by hifrank.ai runs those interviews. You bring the participants; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-hr-tech). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-hr-tech). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## Sample 8-question guide
 

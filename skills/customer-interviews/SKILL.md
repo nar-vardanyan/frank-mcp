@@ -156,6 +156,6 @@ Then sign in in the browser. Check with `ping`, then `list_researches`.
 
 Muse: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then complete sign-in.
 
-Cursor and Gemini CLI can't connect yet (they require dynamic client registration). Do not describe them as working.
+Gemini CLI can't connect yet (it requires dynamic client registration). Do not describe it as working.
 
 After the user connects, resume at section 3. Do not publish until they approve.

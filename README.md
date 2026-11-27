@@ -13,7 +13,7 @@ Works with ChatGPT, Claude, Grok and Muse.
 Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168).
 
 - MCP endpoint: `https://api.hifrank.ai/mcp` (streamable HTTP)
-- Official MCP registry: `ai.hifrank/frank`
+- MCP Registry: `ai.hifrank/frank`
 - ChatGPT app directory listing: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
 - Server card: https://api.hifrank.ai/.well-known/mcp/server-card.json
 - Website: https://www.hifrank.ai
@@ -208,7 +208,7 @@ Then sign in to Frank in the browser when prompted.
 
 On [grok.com](https://grok.com/connectors), go to **New Connector** → **Custom**, enter the same MCP URL, and complete auth. The server must be on the public internet. On Grok Business or Enterprise, an admin may need to add it first.
 
-Official references: [Grok Bot apps](https://docs.x.ai/grok-bot/computer-and-apps) and [grok.com connectors](https://docs.x.ai/grok/connectors). A Grok Bot marketplace listing is in review; until it is live, use the custom URL path above.
+References: [Grok Bot apps](https://docs.x.ai/grok-bot/computer-and-apps) and [grok.com connectors](https://docs.x.ai/grok/connectors). A Grok Bot marketplace listing is in review; until it is live, use the custom URL path above.
 
 ### ChatGPT
 
@@ -218,13 +218,13 @@ Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chat
 
 If the app isn't available in your workspace, or you prefer to add the server yourself, use a custom MCP server instead. In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher.
 
-Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server).
+Reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server).
 
 ### Muse
 
 Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then complete sign-in, and ask Muse to list your Frank studies to check the connection.
 
-Official reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
+Reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
 
 ### AI app builders (Replit, Lovable, Bolt, v0, Base44)
 
@@ -293,7 +293,7 @@ Not completely. Surveys are useful for quick, structured measurement. AI-moderat
 - Product: https://www.hifrank.ai
 - MCP connector docs: https://www.hifrank.ai/docs/frank-mcp-connector
 - ChatGPT app directory listing: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
-- Official MCP registry: https://registry.modelcontextprotocol.io/ (search `hifrank` or `ai.hifrank/frank`)
+- MCP Registry: https://registry.modelcontextprotocol.io/ (search `hifrank` or `ai.hifrank/frank`)
 - Support: [support@hifrank.ai](mailto:support@hifrank.ai)
 
 ## License

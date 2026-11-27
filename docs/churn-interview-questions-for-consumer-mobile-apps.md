@@ -2,7 +2,7 @@
 
 **In short:** To find out why someone deleted a mobile app or cancelled an in-app subscription, invite users you already have, then share an AI-moderated voice interview link so they can talk when they have time. Ask about the last session and why they left. Frank AI Researcher by hifrank.ai runs those interviews. You bring the users; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-consumer-mobile-apps). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-consumer-mobile-apps). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## When to use this guide
 

@@ -141,7 +141,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "Current MCP docs name Claude, ChatGPT, Codex, and other MCP clients that support remote servers with OAuth. The announcement also names Notion, Figma, Cursor, and Microsoft Copilot.",
+          "value": "Current MCP docs name Claude, ChatGPT, Codex, and other MCP clients that support remote servers with OAuth. The announcement also names Notion, Figma, and Microsoft Copilot.",
           "source_urls": [
             "https://docs.listenlabs.com/mcp-docs",
             "https://listenlabs.com/blog/listen-mcp"
@@ -169,14 +169,14 @@
           "checked_on": "2026-11-20"
         },
         "chatgpt_directory": {
-          "value": "Listed. The connect docs say Listen Labs is officially available in the OpenAI App Store, and that in ChatGPT you go to Apps and search Listen Labs.",
+          "value": "Listed. The connect docs say Listen Labs is available in the OpenAI App Store, and that in ChatGPT you go to Apps and search Listen Labs.",
           "source_urls": [
             "https://docs.listenlabs.com/mcp-docs/connect"
           ],
           "checked_on": "2026-11-20"
         },
         "claude_directory": {
-          "value": "Listed. The connect docs say Listen Labs is officially available in the Claude connector directory.",
+          "value": "Listed. The connect docs say Listen Labs is available in the Claude connector directory.",
           "source_urls": [
             "https://docs.listenlabs.com/mcp-docs/connect"
           ],
@@ -233,7 +233,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The help article names Claude, ChatGPT, Gemini, Figma, and anything that supports an MCP connection, and it names Cursor as one place the connectors page is called MCP Servers. The changelog names Claude, ChatGPT, Cursor, Figma, Notion, Glean, and other MCP-compatible tools. The GitHub README also documents Claude Code and VS Code.",
+          "value": "The help article names Claude, ChatGPT, Gemini, Figma, and anything that supports an MCP connection. The changelog names Claude, ChatGPT, Figma, Notion, Glean, and other MCP-compatible tools. The GitHub README also documents Claude Code and VS Code.",
           "source_urls": [
             "https://help.outset.ai/articles/2997399296-using-outset-s-mcp",
             "https://outset.ai/resources/changeblog/outset-mcp",
@@ -257,14 +257,14 @@
           "checked_on": "2026-11-20"
         },
         "chatgpt_directory": {
-          "value": "not documented as a ChatGPT directory listing. The help article documents a custom connector and says that if Outset is not in a platform's connector marketplace, you add it by URL. Its example of an official marketplace connector is Claude.",
+          "value": "not documented as a ChatGPT directory listing. The help article documents a custom connector and says that if Outset is not in a platform's connector marketplace, you add it by URL. Its example of a marketplace connector is Claude.",
           "source_urls": [
             "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
           ],
           "checked_on": "2026-11-20"
         },
         "claude_directory": {
-          "value": "Listed for the US deployment. The help article says the Outset connector is listed in Claude's connector directory, and that official connectors currently work with the US deployment only. EU customers are told to add a custom connector with the EU URL.",
+          "value": "Listed for the US deployment. The help article says the Outset connector is listed in Claude's connector directory, and that directory connectors currently work with the US deployment only. EU customers are told to add a custom connector with the EU URL.",
           "source_urls": [
             "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
           ],
@@ -321,7 +321,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The connect page names Claude (web, desktop, and Cowork), ChatGPT, Figma Make, Claude Code, Cursor, and other clients by custom connector. The announcement also names Microsoft Copilot Studio, Notion, Lovable, Bolt.new, v0, Windsurf, VS Code with GitHub Copilot, and Replit.",
+          "value": "The connect page names Claude (web, desktop, and Cowork), ChatGPT, Figma Make, Claude Code, and other clients by custom connector. The announcement also names Microsoft Copilot Studio, Notion, Lovable, Bolt.new, v0, Windsurf, VS Code with GitHub Copilot, and Replit.",
           "source_urls": [
             "https://app.strella.io/docs/product/mcp/connect",
             "https://www.strella.io/blog/strella-everywhere-you-work-introducing-our-ai-connector"
@@ -414,7 +414,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "Developer docs list first-party integrations for ChatGPT, Claude, Figma, and Copilot. Custom hosted examples name Cursor, Windsurf, and Microsoft Copilot Studio. The product page's connected-apps list also names Microsoft 365 Copilot, Cursor, and Visual Studio Code. The pricing page says Dovetail MCP connects Claude, Copilot, Codex, Cursor, and Atlassian Rovo. A local server is documented for clients that support stdio, with Claude Desktop given as the example.",
+          "value": "Developer docs list first-party integrations for ChatGPT, Claude, Figma, and Copilot. Custom hosted examples name Windsurf and Microsoft Copilot Studio. The product page's connected-apps list also names Microsoft 365 Copilot and Visual Studio Code. The pricing page says Dovetail MCP connects Claude, Copilot, Codex, and Atlassian Rovo. A local server is documented for clients that support stdio, with Claude Desktop given as the example.",
           "source_urls": [
             "https://developers.dovetail.com/docs/mcp",
             "https://docs.dovetail.com/integrations/mcp-server",
@@ -511,7 +511,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The feature page names Claude, Claude Code, Cursor, ChatGPT, Gemini, and Copilot. The changelog names Claude Desktop, Claude Code, ChatGPT, Cursor, or any other MCP-compatible tool. The GitHub README also names Windsurf and Gemini CLI.",
+          "value": "The feature page names Claude, Claude Code, ChatGPT, Gemini, and Copilot. The changelog names Claude Desktop, Claude Code, ChatGPT, or any other MCP-compatible tool. The GitHub README also names Windsurf and Gemini CLI.",
           "source_urls": [
             "https://www.greatquestion.com/features/mcp-integration",
             "https://greatquestion.co/support/releases-updates/changelog",
@@ -603,7 +603,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The available-tools article says setup steps exist for Claude, ChatGPT, Cursor, GitHub Copilot, Claude Code, Codex, and Microsoft Copilot. The setup article documents Cursor, Gemini CLI, GitHub Copilot in VS Code, and Microsoft Copilot. The overview names Claude, Cursor, Copilot, and ChatGPT.",
+          "value": "The available-tools article says setup steps exist for Claude, ChatGPT, GitHub Copilot, Claude Code, Codex, and Microsoft Copilot. The setup article documents Gemini CLI, GitHub Copilot in VS Code, and Microsoft Copilot. The overview names Claude, Copilot, and ChatGPT.",
           "source_urls": [
             "https://help.maze.co/articles/4404370008-maze-mcp-available-tools",
             "https://help.maze.co/articles/8675970764-set-up-maze-mcp",
@@ -697,7 +697,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The MCP overview names Claude Desktop, Claude.ai, Cursor, Windsurf, and any MCP-compatible client, and it links a Claude Code setup guide. The Claude setup page links a VS Code Copilot Chat guide at https://www.koji.so/docs/mcp-setup-vscode. Building with AI says: \"Pick your app (Claude, ChatGPT, Cursor or VS Code).\" ChatGPT is named on that page and is not named in the overview's client list. Both pages were checked on 2026-11-20.",
+          "value": "The MCP overview names Claude Desktop, Claude.ai, Windsurf, and any MCP-compatible client, and it links a Claude Code setup guide. The Claude setup page links a VS Code Copilot Chat guide at https://www.koji.so/docs/mcp-setup-vscode. Building with AI says: \"Pick your app (Claude, ChatGPT, Cursor or VS Code).\" ChatGPT is named on that page and is not named in the overview's client list. Both pages were checked on 2026-11-20.",
           "source_urls": [
             "https://www.koji.so/docs/mcp-overview",
             "https://www.koji.so/docs/mcp-setup-claude",
@@ -811,14 +811,14 @@
           "checked_on": "2026-11-20"
         },
         "chatgpt_directory": {
-          "value": "Listed. The MCP docs say Voicepanel has an official connector in the ChatGPT directory and tell you to install that listing rather than a custom connector.",
+          "value": "Listed. The MCP docs say Voicepanel has a connector in the ChatGPT directory and tell you to install that listing rather than a custom connector.",
           "source_urls": [
             "https://www.voicepanel.com/docs/mcp"
           ],
           "checked_on": "2026-11-20"
         },
         "claude_directory": {
-          "value": "Listed. The MCP docs say Voicepanel has an official connector in the Claude directory and tell you to install that listing rather than a custom connector.",
+          "value": "Listed. The MCP docs say Voicepanel has a connector in the Claude directory and tell you to install that listing rather than a custom connector.",
           "source_urls": [
             "https://www.voicepanel.com/docs/mcp"
           ],
@@ -877,7 +877,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The guide names Claude (web, desktop, or mobile), Claude Code, ChatGPT as a custom MCP server, and Cursor.",
+          "value": "The guide names Claude (web, desktop, or mobile), Claude Code, and ChatGPT as a custom MCP server.",
           "source_urls": [
             "https://cleverx.com/guides/use-cleverx-in-claude-and-chatgpt/"
           ],
@@ -961,7 +961,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "The API docs say to add the hosted URL in Claude, ChatGPT, Codex, or Cursor. The usercall-mcp repository, which documents the @usercall/mcp package and the same hosted URL, also names Grok Bot for the hosted connector and says Grok Bot cannot run the local package.",
+          "value": "The API docs say to add the hosted URL in Claude, ChatGPT, or Codex. The usercall-mcp repository, which documents the @usercall/mcp package and the same hosted URL, also names Grok Bot for the hosted connector and says Grok Bot cannot run the local package.",
           "source_urls": [
             "https://app.usercall.co/docs/api",
             "https://github.com/junetic/usercall-mcp"
@@ -1029,7 +1029,7 @@
       "vendor": "Outset",
       "field": "chatgpt_directory",
       "field_label": "ChatGPT app directory",
-      "value": "not documented as a ChatGPT directory listing. The help article documents a custom connector and says that if Outset is not in a platform's connector marketplace, you add it by URL. Its example of an official marketplace connector is Claude.",
+      "value": "not documented as a ChatGPT directory listing. The help article documents a custom connector and says that if Outset is not in a platform's connector marketplace, you add it by URL. Its example of a marketplace connector is Claude.",
       "source_urls": [
         "https://help.outset.ai/articles/2997399296-using-outset-s-mcp"
       ]

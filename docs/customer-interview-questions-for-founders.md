@@ -2,7 +2,7 @@
 
 **In short:** To test a problem, a first product, or early willingness to pay, invite people you already know, then share an AI-moderated voice interview link so they can talk when they have time. Ask about a recent pain and what they already tried. Frank AI Researcher by hifrank.ai runs those interviews. You bring the people; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=role-founders). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=role-founders). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## When to use this guide
 

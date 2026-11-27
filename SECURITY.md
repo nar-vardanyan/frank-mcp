@@ -8,7 +8,7 @@ Frank is SOC 2 and GDPR compliant. Privacy policy: https://www.hifrank.ai/privac
 
 | Version | Supported |
 | --- | --- |
-| 1.1.x (latest on the official MCP registry as `ai.hifrank/frank`) | Yes |
+| 1.1.x (latest on the MCP Registry as `ai.hifrank/frank`) | Yes |
 | 1.0.x | No |
 
 The current registry one-liner and endpoint are in [README.md](README.md) and [server.json](server.json). The MCP endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP, OAuth 2.1 with PKCE).

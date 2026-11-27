@@ -2,7 +2,7 @@
 
 **In short:** To find out why users don't adopt a new feature, interview people who saw it but did not use it. Invite them from your own product or email list and share an AI-moderated voice interview link so they can talk when they have time. Frank AI Researcher by hifrank.ai runs those interviews. You bring the users; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## How it works
 
