@@ -136,7 +136,7 @@ Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and anal
 - [AI-moderated customer interviews for founders: Frank vs survey tools](frank-vs-survey-tools-for-founders.md)
 - [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)
 - [Best AI qualitative research platforms in 2026](best-ai-qualitative-research-platforms.md)
-- [ChatGPT apps for customer research interviews, compared](chatgpt-app-for-customer-research-interviews.md): 14 tools that run interviews from ChatGPT, each with its ChatGPT listing and sourced cells, plus a how-to-pick checklist and a CSV and JSON dataset.
+- [ChatGPT apps for customer research interviews, compared](chatgpt-app-for-customer-research-interviews.md): Research tools that run interviews from ChatGPT, reviewed on Nov 27, 2026, each with its ChatGPT listing and sourced cells, plus a how-to-pick checklist and a CSV and JSON dataset.
 - [Best win-loss analysis software in 2026](best-win-loss-analysis-software.md)
 - [Dovetail alternatives in 2026](dovetail-alternatives.md)
 - [Best customer feedback tools in 2026](best-customer-feedback-tools.md)

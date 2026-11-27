@@ -496,7 +496,7 @@ defaults:
       path: chatgpt-app-for-customer-research-interviews.md
     values:
       seo_title: "ChatGPT Apps for Customer Research Interviews, Compared"
-      description: "How to pick a ChatGPT app for customer interviews, then 14 research tools compared on who you interview, format, languages, pricing and approval controls, with each app's ChatGPT listing and vendor sources."
+      description: "How to pick a ChatGPT app for customer interviews, then the apps we reviewed on Nov 27, 2026 compared on who you interview, format, languages and pricing, with each app's ChatGPT listing and vendor sources."
       schema_page: true
   - scope:
       path: chatgpt-app-for-ux-researchers.md
