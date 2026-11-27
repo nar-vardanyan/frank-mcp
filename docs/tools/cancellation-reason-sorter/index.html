@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cancellation Reason Sorter: Group Churn Survey Answers (Free, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free cancellation reason sorter. Paste churn or cancellation survey answers, one per line or a CSV column, and group them into themes based on Stripe's cancellation feedback values, with counts, percentages, example answers and past-behaviour interview follow-ups for each theme. Export CSV or Markdown. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Cancellation Reason Sorter (Free, No Login)">
+<meta property="og:description" content="Paste cancellation survey answers and sort them into themes like too expensive, missing features and switched to another product, with counts and interview follow-ups for each.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cancellation Reason Sorter (Free, No Login)">
+<meta name="twitter:description" content="Sort churn survey answers into themes, see counts and examples, and get past-behaviour interview follow-ups for each theme.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/#app",
+      "name": "Cancellation Reason Sorter",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to sort your own answers. A worked example is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based tool that sorts cancellation and churn survey answers into themes using keyword and phrase rules. Themes follow Stripe's cancellation_details.feedback values (too_expensive, missing_features, switched_service, unused, customer_service, too_complex, low_quality, other) plus an unclear bucket for answers no rule matches. Shows counts, percentages and example answers per theme, gives past-behaviour interview follow-up questions for each theme, drafts an interview invite email, and exports CSV or Markdown. No login, no AI model, nothing sent to a server.",
+      "featureList": ["Paste one answer per line or a CSV column", "Themes based on Stripe cancellation feedback values", "Unclear bucket instead of guessing", "Negation aware: not too expensive is not counted as price", "Counts, percentages and example answers per theme", "3 to 4 interview follow-up questions per theme", "Interview invite email draft", "Download CSV or Markdown"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Cancellation Reason Sorter", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Does this use AI?", "acceptedAnswer": { "@type": "Answer", "text": "No. It sorts answers with fixed keyword and phrase rules that run in your browser. The same answers always give the same result. That also means it can miss nuance, so check the example answers in each theme." } },
+        { "@type": "Question", "name": "Is my data sent anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. Nothing you paste is uploaded or stored. The page makes no network requests when you sort, copy or download." } },
+        { "@type": "Question", "name": "Why are the themes the same as Stripe's?", "acceptedAnswer": { "@type": "Answer", "text": "Stripe records a cancellation reason in cancellation_details.feedback with the values too_expensive, missing_features, switched_service, unused, customer_service, too_complex, low_quality and other. Using the same themes lets you compare free-text answers with what your billing data already shows." } },
+        { "@type": "Question", "name": "Why is an answer in Unclear?", "acceptedAnswer": { "@type": "Answer", "text": "No rule matched it, or it was too vague, such as \"n/a\" or \"not worth it\". The sorter never guesses. Unclear answers are often the best ones to follow up with an interview." } },
+        { "@type": "Question", "name": "Can one answer be in two themes?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. \"Switched to HubSpot, it was cheaper\" counts as both Switched to another product and Too expensive, so the percentages can add up to more than 100%." } },
+        { "@type": "Question", "name": "What can I export?", "acceptedAnswer": { "@type": "Answer", "text": "A CSV with every answer, its themes, the Stripe value and the phrase that matched, and a Markdown report with the counts, examples and follow-up questions." } },
+        { "@type": "Question", "name": "Does Frank find people to interview?", "acceptedAnswer": { "@type": "Answer", "text": "No. Frank does not recruit participants. You invite customers you already have, such as the ones who just cancelled." } },
+        { "@type": "Question", "name": "Can I set up the interview from an AI assistant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank has a remote MCP server at https://api.hifrank.ai/mcp, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+  fieldset { border:0; padding:0; margin:0 0 14px; }
+  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }
+  .radios label, .radios { font-weight:400; }
+  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }
+  .radios input { width:auto; }
+  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .tag.push { background:#ffebe9; color:#82071e; }
+  .tag.pull { background:#ddf4ff; color:#0a3069; }
+  .tag.anxiety { background:#fff1c2; color:#6c4a00; }
+  .tag.habit { background:#f3e8ff; color:#4c1d95; }
+  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }
+  .phase-goal { color:var(--muted); margin-top:-6px; }
+  .themes td.num { text-align:right; white-space:nowrap; }
+  .theme { border:1px solid var(--line); border-radius:10px; padding:4px 18px 12px; margin:16px 0; }
+  .theme h3 { margin-top:12px; }
+  .theme .meta { color:var(--muted); font-size:0.9em; margin-top:-6px; }
+  .theme blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--line); color:var(--ink); }
+  .theme.unclear { border-style:dashed; }
+  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; margin-right:6px; }
+  details.all { margin-top:12px; }
+  details.all li { margin-bottom:6px; }
+  .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid3 { grid-template-columns: 1fr; } }
+  .mail input { margin-bottom:8px; }
+  .mail textarea { min-height: 260px; }
+  #col-field[hidden] { display:none; }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/">Cancel-page churn survey widget</a>
+  </nav>
+
+  <main>
+    <h1>Cancellation Reason Sorter</h1>
+    <p class="lede">Paste the answers from your cancellation or churn survey and see them grouped into clear themes, with counts, percentages and real examples for each. Then get interview follow-up questions that find out what actually happened behind each reason. Free, no login: it runs in your browser and nothing you paste is sent anywhere.</p>
+    <p class="note"><strong>How it sorts:</strong> by keyword and phrase rules, not AI. It can miss nuance, sarcasm and unusual wording, so read the examples. Answers that match no rule go to <em>Unclear</em> instead of being forced into a theme, and an answer that names two reasons counts in both.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="field">
+        <label for="answers">Cancellation survey answers <span class="hint">(one per line, or paste a CSV export with a header row)</span></label>
+        <textarea id="answers" name="answers" spellcheck="false">Too expensive for a team our size
+Switched to HubSpot, it was cheaper
+we dont really use it anymore
+Missing a Salesforce integration
+Price was fine, just too complicated to set up
+App kept crashing on export
+Support never replied to my ticket
+not too expensive, just unused
+Closing the business at the end of the year
+n/a
+Moved to Notion
+not worth it</textarea>
+      </div>
+      <div class="grid2">
+        <div class="field">
+          <label for="format">Input format</label>
+          <select id="format" name="format">
+            <option value="auto" selected>Detect automatically</option>
+            <option value="lines">One answer per line</option>
+            <option value="csv">CSV with a header row</option>
+          </select>
+        </div>
+        <div class="field" id="col-field" hidden>
+          <label for="column">Column with the answers</label>
+          <select id="column" name="column"></select>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Sort the answers</button>
+        <button class="btn btn-ghost js-only" type="button" id="clear">Clear</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Themes in your answers</h2>
+      <article class="guide" id="out" aria-live="polite">
+        <p class="note">Example: these are the sample answers in the box above, written for this page. They are not real customer data.</p>
+        <p class="summary">12 answers sorted: 10 matched at least one theme, 2 unclear. 1 named more than one reason and count in each theme, so the percentages can add up to more than 100%.</p><div class="table-wrap"><table class="themes"><thead><tr><th scope="col">Theme</th><th scope="col">Answers</th><th scope="col">Share of your answers</th></tr></thead><tbody><tr data-theme="too_expensive"><td><a href="#t-too_expensive">Too expensive</a></td><td class="num">2</td><td><span class="bar" style="width:80px"></span>16.7%</td></tr><tr data-theme="switched_service"><td><a href="#t-switched_service">Switched to another product</a></td><td class="num">2</td><td><span class="bar" style="width:80px"></span>16.7%</td></tr><tr data-theme="unused"><td><a href="#t-unused">Not using it enough</a></td><td class="num">2</td><td><span class="bar" style="width:80px"></span>16.7%</td></tr><tr data-theme="missing_features"><td><a href="#t-missing_features">Missing features</a></td><td class="num">1</td><td><span class="bar" style="width:40px"></span>8.3%</td></tr><tr data-theme="too_complex"><td><a href="#t-too_complex">Too hard to use</a></td><td class="num">1</td><td><span class="bar" style="width:40px"></span>8.3%</td></tr><tr data-theme="low_quality"><td><a href="#t-low_quality">Bugs, reliability or quality</a></td><td class="num">1</td><td><span class="bar" style="width:40px"></span>8.3%</td></tr><tr data-theme="customer_service"><td><a href="#t-customer_service">Customer service</a></td><td class="num">1</td><td><span class="bar" style="width:40px"></span>8.3%</td></tr><tr data-theme="other"><td><a href="#t-other">Other clear reason</a></td><td class="num">1</td><td><span class="bar" style="width:40px"></span>8.3%</td></tr><tr data-theme="unclear"><td><a href="#t-unclear">Unclear</a></td><td class="num">2</td><td><span class="bar" style="width:80px"></span>16.7%</td></tr></tbody></table></div><section class="theme too_expensive" id="t-too_expensive" data-theme="too_expensive"><h3>Too expensive: 2 (16.7%)</h3><p class="meta">Stripe feedback value: <code>too_expensive</code></p><p><strong>Example answers</strong></p><blockquote>Too expensive for a team our size</blockquote><blockquote>Switched to HubSpot, it was cheaper</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about the moment you decided the price was too much. What was going on then?</li><li class="fq">What were you comparing the cost against when you made that call?</li><li class="fq">Who else was involved in the decision to cut this cost, and what did they say?</li><li class="fq">What do you use for this job now, and what does that cost you?</li></ol></section><section class="theme switched_service" id="t-switched_service" data-theme="switched_service"><h3>Switched to another product: 2 (16.7%)</h3><p class="meta">Stripe feedback value: <code>switched_service</code></p><p><strong>Example answers</strong></p><blockquote>Switched to HubSpot, it was cheaper</blockquote><blockquote>Moved to Notion</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about when you first started looking at other options. What set that off?</li><li class="fq">Walk me through the options you looked at and how you compared them.</li><li class="fq">What made you pick the one you use now?</li><li class="fq">What did you have to move over or set up again when you switched?</li></ol></section><section class="theme unused" id="t-unused" data-theme="unused"><h3>Not using it enough: 2 (16.7%)</h3><p class="meta">Stripe feedback value: <code>unused</code></p><p><strong>Example answers</strong></p><blockquote>we dont really use it anymore</blockquote><blockquote>not too expensive, just unused</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Think back to the last time you used it. What were you doing?</li><li class="fq">What changed between the weeks you used it a lot and the weeks you stopped?</li><li class="fq">How do you handle that task today?</li><li class="fq">When did you first notice you were paying for it without using it?</li></ol></section><section class="theme missing_features" id="t-missing_features" data-theme="missing_features"><h3>Missing features: 1 (8.3%)</h3><p class="meta">Stripe feedback value: <code>missing_features</code></p><p><strong>Example answers</strong></p><blockquote>Missing a Salesforce integration</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about the last time you needed to do something the product couldn't do. What were you trying to get done?</li><li class="fq">What did you do to work around it, and how long did that go on?</li><li class="fq">What happened that turned the missing piece into a reason to leave?</li><li class="fq">What do you use for that job now?</li></ol></section><section class="theme too_complex" id="t-too_complex" data-theme="too_complex"><h3>Too hard to use: 1 (8.3%)</h3><p class="meta">Stripe feedback value: <code>too_complex</code></p><p><strong>Example answers</strong></p><blockquote>Price was fine, just too complicated to set up</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about the last time you got stuck. What were you trying to do?</li><li class="fq">What did you do when you got stuck?</li><li class="fq">Who on your team was using it, and how did they learn it?</li><li class="fq">Which part took you the longest to get working?</li></ol></section><section class="theme low_quality" id="t-low_quality" data-theme="low_quality"><h3>Bugs, reliability or quality: 1 (8.3%)</h3><p class="meta">Stripe feedback value: <code>low_quality</code></p><p><strong>Example answers</strong></p><blockquote>App kept crashing on export</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about the last time it let you down. What happened?</li><li class="fq">How often did that happen before you decided to leave?</li><li class="fq">What did you do each time it happened?</li><li class="fq">What did that problem cost you or your team?</li></ol></section><section class="theme customer_service" id="t-customer_service" data-theme="customer_service"><h3>Customer service: 1 (8.3%)</h3><p class="meta">Stripe feedback value: <code>customer_service</code></p><p><strong>Example answers</strong></p><blockquote>Support never replied to my ticket</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about the last time you contacted us. What did you need?</li><li class="fq">What happened after you reached out, step by step?</li><li class="fq">How long did it take to get an answer, and what did you do in the meantime?</li></ol></section><section class="theme other" id="t-other" data-theme="other"><h3>Other clear reason: 1 (8.3%)</h3><p class="meta">Stripe feedback value: <code>other</code></p><p><strong>Example answers</strong></p><blockquote>Closing the business at the end of the year</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me what was going on around the time you cancelled.</li><li class="fq">Who made the call to cancel, and how did that happen?</li><li class="fq">What do you use for this job now?</li></ol></section><section class="theme unclear" id="t-unclear" data-theme="unclear"><h3>Unclear: 2 (16.7%)</h3><p class="meta">No rule matched these answers. Read them yourself, or ask in an interview.</p><p><strong>Example answers</strong></p><blockquote>n/a</blockquote><blockquote>not worth it</blockquote><p><strong>Ask in a follow-up interview</strong></p><ol><li class="fq">Tell me about the day you cancelled. What happened right before?</li><li class="fq">What were you using it for in the weeks before you left?</li><li class="fq">Walk me through the last time you used it.</li><li class="fq">What do you use for that job now?</li></ol></section><details class="all"><summary>Show every answer with its theme</summary><ol><li>Too expensive for a team our size <span class="tag">Too expensive</span></li><li>Switched to HubSpot, it was cheaper <span class="tag">Too expensive</span><span class="tag">Switched to another product</span></li><li>we dont really use it anymore <span class="tag">Not using it enough</span></li><li>Missing a Salesforce integration <span class="tag">Missing features</span></li><li>Price was fine, just too complicated to set up <span class="tag">Too hard to use</span></li><li>App kept crashing on export <span class="tag">Bugs, reliability or quality</span></li><li>Support never replied to my ticket <span class="tag">Customer service</span></li><li>not too expensive, just unused <span class="tag">Not using it enough</span></li><li>Closing the business at the end of the year <span class="tag">Other clear reason</span></li><li>n/a <span class="tag">Unclear</span></li><li>Moved to Notion <span class="tag">Switched to another product</span></li><li>not worth it <span class="tag">Unclear</span></li></ol></details>
+      </article>
+      <noscript><p>JavaScript is off, so the example above is shown, sorted from the sample answers in the box. Turn on JavaScript to sort your own answers.</p></noscript>
+      <div class="actions js-only">
+        <button class="btn btn-ghost" type="button" id="copy">Copy report</button>
+        <button class="btn btn-ghost" type="button" id="dl-csv">Download .csv</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> A survey tells you which box someone ticked. A short conversation tells you what happened. Put the follow-up questions above into a Frank study and share one link with customers who already left you. Frank asks them out loud, follows up on each answer, and gives you transcripts and themes. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=cancellation-reason-sorter">Let Frank ask them for you</a>
+      </div>
+    </section>
+
+    <section id="invite" aria-labelledby="invite-title">
+      <h2 id="invite-title">Last step: draft the interview invite</h2>
+      <p>Write a short, honest email to a churned customer you already have, asking for a short call about why they left. Edit anything that isn't true for you, and replace <code>[your link]</code> with your own booking or interview link.</p>
+      <form class="gen mail" id="mail" autocomplete="off">
+        <div class="grid3">
+          <div class="field">
+            <label for="m-product">Your product</label>
+            <input id="m-product" maxlength="60" placeholder="Acme">
+          </div>
+          <div class="field">
+            <label for="m-name">Your name</label>
+            <input id="m-name" maxlength="60" placeholder="Sam">
+          </div>
+          <div class="field">
+            <label for="m-minutes">Call length</label>
+            <select id="m-minutes">
+              <option value="10">10 minutes</option>
+              <option value="15" selected>15 minutes</option>
+              <option value="20">20 minutes</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="m-subject">Subject</label>
+          <input id="m-subject" value="Could I ask you about leaving [product]?">
+        </div>
+        <div class="field">
+          <label for="m-body">Email <span class="hint">(edit freely)</span></label>
+          <textarea id="m-body">Hi [first name],
+
+I saw you cancelled [product] recently. Thank you for giving it a try.
+
+I'd like to understand what happened, in your own words. Would you have 15 minutes for a short call about it? This is not a sales call. I want to learn what we got wrong.
+
+If you're up for it, you can pick a time here: [your link]
+
+If a call is hard to fit in, a few lines in reply to this email help just as much.
+
+Thanks,
+[your name]</textarea>
+        </div>
+        <div class="actions js-only">
+          <button class="btn btn-ghost" type="button" id="m-copy">Copy email</button>
+          <span class="status" id="m-status" role="status"></span>
+        </div>
+      </form>
+      <p class="hint">Only email people who already did business with you, and follow your own privacy policy and local email rules.</p>
+    </section>
+
+    <div class="seo">
+    <h2>The themes</h2>
+    <p>The themes match the values Stripe uses for <code>cancellation_details.feedback</code> when a customer cancels in the Stripe Customer Portal, so the results line up with what your billing data already collects. The <a href="https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/">cancel-page churn survey widget</a> uses the same values. Answers that match no rule go to Unclear.</p>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Theme</th><th scope="col">Stripe value</th><th scope="col">Phrases it looks for (examples)</th></tr></thead>
+      <tbody>
+        <tr><td>Too expensive</td><td><code>too_expensive</code></td><td>too expensive, pricey, can't afford, budget, price went up, cheaper, $49/mo</td></tr>
+        <tr><td>Missing features</td><td><code>missing_features</code></td><td>missing, lacks, doesn't have, no API or export, not enough integrations, limited</td></tr>
+        <tr><td>Switched to another product</td><td><code>switched_service</code></td><td>switched to, moved to, went with, found a better, competitor, built our own, back to spreadsheets</td></tr>
+        <tr><td>Not using it enough</td><td><code>unused</code></td><td>don't use it, stopped using, no longer need, no time, project ended, seasonal, pausing</td></tr>
+        <tr><td>Too hard to use</td><td><code>too_complex</code></td><td>too complicated, confusing, hard to set up, learning curve, couldn't figure out, clunky</td></tr>
+        <tr><td>Bugs, reliability or quality</td><td><code>low_quality</code></td><td>bugs, crashing, broken, slow, downtime, errors, stopped working, not accurate, lost data</td></tr>
+        <tr><td>Customer service</td><td><code>customer_service</code></td><td>support never replied, no response, slow support, rude, unhelpful, nobody got back</td></tr>
+        <tr><td>Other clear reason</td><td><code>other</code></td><td>business closed, acquired, retired, company policy, charged twice, signed up by mistake</td></tr>
+        <tr><td>Unclear</td><td>(none)</td><td>anything no rule matches: n/a, no reason, not worth it, very short or vague answers</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>How the sorting works</h2>
+    <ul>
+      <li><strong>Phrase rules, per clause.</strong> Each answer is split at commas, full stops and words like "but" and "just", and each part is checked against the phrase lists above.</li>
+      <li><strong>Negation.</strong> A phrase after "not", "never", "don't" and similar words is ignored, so "not too expensive, just unused" counts as Not using it enough only. A phrase followed by "was fine" or "wasn't the issue" is ignored too.</li>
+      <li><strong>No force-fitting.</strong> Vague answers such as "n/a" or "not worth it" go to Unclear. Those are often the best people to interview.</li>
+      <li><strong>Counts are of your answers only.</strong> Percentages are shares of the answers you pasted, not benchmarks. An answer with two reasons counts in both themes.</li>
+    </ul>
+
+    <h2>Why follow up with an interview</h2>
+    <p>"Too expensive" can mean the price went up, the budget was cut, a cheaper tool did enough, or the product never delivered enough value to justify any price. A survey answer can't tell those apart. A short interview about what happened, in order, can. The follow-up questions ask about real past events rather than opinions or hypotheticals, and each one passes the rules of our <a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>. For a full switched-away interview, use the <a href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/?mode=away">JTBD switch interview generator in "Customers who left you" mode</a>.</p>
+
+    <h2>FAQ</h2>
+    <h3>Does this use AI?</h3>
+    <p>No. It sorts answers with fixed keyword and phrase rules that run in your browser. The same answers always give the same result. That also means it can miss nuance, so check the example answers in each theme.</p>
+    <h3>Is my data sent anywhere?</h3>
+    <p>No. Nothing you paste is uploaded or stored. The page makes no network requests when you sort, copy or download.</p>
+    <h3>Why are the themes the same as Stripe's?</h3>
+    <p>Stripe records a cancellation reason in <code>cancellation_details.feedback</code> with the values too_expensive, missing_features, switched_service, unused, customer_service, too_complex, low_quality and other. Using the same themes lets you compare free-text answers with what your billing data already shows.</p>
+    <h3>Why is an answer in Unclear?</h3>
+    <p>No rule matched it, or it was too vague, such as &quot;n/a&quot; or &quot;not worth it&quot;. The sorter never guesses. Unclear answers are often the best ones to follow up with an interview.</p>
+    <h3>Can one answer be in two themes?</h3>
+    <p>Yes. &quot;Switched to HubSpot, it was cheaper&quot; counts as both Switched to another product and Too expensive, so the percentages can add up to more than 100%.</p>
+    <h3>What can I export?</h3>
+    <p>A CSV with every answer, its themes, the Stripe value and the phrase that matched, and a Markdown report with the counts, examples and follow-up questions.</p>
+    <h3>Does Frank find people to interview?</h3>
+    <p>No. Frank does not recruit participants. You invite customers you already have, such as the ones who just cancelled.</p>
+    <h3>Can I set up the interview from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/">Cancel-page churn survey widget</a>: ask cancelling customers why, for Stripe and Paddle</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/?mode=away">JTBD switch interview question generator</a>: a timeline interview for customers who left you</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/">Survey to interview question converter</a>: turn survey questions into interview questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html">Churn interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html">How to find out why customers churn</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/interview-churned-users-quickly.html">Interview churned users quickly</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=cancellation-reason-sorter">Frank AI Researcher</a>. Stripe is a trademark of Stripe, Inc.; this tool is not affiliated with Stripe. Nothing you paste on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+// Cancellation reason sorter rules. Pure functions, no network. Used by the page and by test_core.js.
+var CRS = (function () {
+  var MAX_ANSWERS = 2000, MAX_LEN = 1000;
+  // Themes follow Stripe's cancellation_details.feedback values, plus "unclear" for answers no rule matches.
+  var THEMES = {
+    too_expensive: { label: "Too expensive", stripe: "too_expensive" },
+    missing_features: { label: "Missing features", stripe: "missing_features" },
+    switched_service: { label: "Switched to another product", stripe: "switched_service" },
+    unused: { label: "Not using it enough", stripe: "unused" },
+    too_complex: { label: "Too hard to use", stripe: "too_complex" },
+    low_quality: { label: "Bugs, reliability or quality", stripe: "low_quality" },
+    customer_service: { label: "Customer service", stripe: "customer_service" },
+    other: { label: "Other clear reason", stripe: "other" },
+    unclear: { label: "Unclear", stripe: "" }
+  };
+  var ORDER = ["too_expensive", "missing_features", "switched_service", "unused", "too_complex", "low_quality", "customer_service", "other", "unclear"];
+  // A rule: [regex, unless] where unless (optional) is tested on the whole clause and cancels the hit.
+  var SUPPORTY = /\b(?:support|service|response|repl(?:y|ies|ied)|respond|answer|agent|ticket|help ?desk|chat)\b/i;
+  var R = {
+    too_expensive: [
+      [/\btoo (?:expensive|pricey|costly|much money)\b/], [/\b(?:expensive|pricey|overpriced|over-priced|costly|exorbitant)\b/],
+      [/\bcosts? (?:too much|a lot|more than)\b/], [/\b(?:can't|cannot|can not|couldn't|could not) (?:afford|justify (?:the )?(?:cost|price|spend|expense))\b/],
+      [/\bafford\b/], [/\b(?:no|don't have (?:the |a |any )?|do not have (?:the |a |any )?|didn't have (?:the |a |any )?|lost (?:the |our )?|cut (?:the |our )?|out of )budget\b/], [/\bbudget(?:s|ing)?\b/], [/\bsteep (?:price|pricing|cost)\b/], [/\b(?:cheaper|cost[- ]cutting|cut(?:ting)? costs?|save money|saving money|reduce (?:our )?(?:costs?|spend))\b/],
+      [/\bpric(?:e|es|ing|ed)\b/, /\bpric(?:e|es|ing)\b.{0,12}\b(?:feature|plan options)\b/], [/\bcosts?\b/, /\bcost (?:me|us) (?:time|hours|days)\b/],
+      [/\bnot worth (?:the )?(?:money|price|cost|fee|subscription)\b/], [/\b(?:fees?|subscription fee|too much for)\b/],
+      [/\bmoney\b/], [/[$\u20ac\u00a3] ?\d+|\b\d+(?:\.\d+)? ?(?:usd|eur|gbp|dollars|euros|bucks)\b|\b\d+ ?\/ ?(?:mo|month|yr|year|seat|user)\b/]
+    ],
+    missing_features: [
+      [/\bmissing\b/], [/\b(?:lacks?|lacking|lacked)\b/], [/\b(?:doesn't|does not|didn't|did not|don't|do not) (?:have|offer|support|include|integrate)\b/, /\b(?:have|had) (?:the |a |any |enough )?(?:budget|money|time|need|use|reason)\b/],
+      [/\bno (?:integration|api|export|import|mobile app|app for|offline|dark mode|way to|option to|support for|sso)\b/], [/\bintegrat(?:e|es|ion|ions)\b/],
+      [/\bfeatures?\b/, /\b(?:too many|more) features\b|\bfeatures? (?:than|we didn't|i didn't)\b/], [/\b(?:wish (?:it|you) had|needed (?:a |an )?(?:way|option) to|couldn't do|could not do|can't do|cannot do)\b/],
+      [/\b(?:not enough|too few|no) (?:integrations?|features?|options|reports?|reporting|customi[sz]ation|templates?)\b/],
+      [/\b(?:limited|limitations?|not flexible|too basic|not enough options)\b/], [/\bapi\b/i]
+    ],
+    switched_service: [
+      [/\b(?:switch(?:ed|ing)?|mov(?:ed|ing)|migrat(?:ed|ing)|went|going|changed) (?:over )?(?:to|with)\b/, /\b(?:moving|moved) to (?:a new|another) (?:city|country|house|state|job|role)\b/],
+      [/\b(?:competitor|alternative)s?\b/], [/\bfound (?:a |an )?(?:better|cheaper|different|another|new)\b/],
+      [/\b(?:another|a different|a new|a better|a cheaper) (?:tool|app|product|service|platform|provider|solution|vendor|software|option)\b/],
+      [/\b(?:replaced|replacing) (?:it|you|this)\b/], [/\binstead\b/], [/\b(?:in-house|in house|built our own|build our own|our own (?:tool|solution|system)|built (?:it|one) ourselves)\b/],
+      [/\bconsolidat(?:e|ed|ing)\b/], [/\bback to (?:excel|spreadsheets?|google sheets|pen and paper|paper|email|our old)\b/], [/\b(?:using|use) (?:something|another|a different) (?:else|tool|app|product|service)?\b/]
+    ],
+    unused: [
+      [/\b(?:don't|do not|didn't|did not|wasn't|was not|weren't|were not|not|never|rarely|hardly|barely|seldom|no longer|stopped|stop) (?:really |even |ever |actually |been )?(?:use|uses|using|used|log(?:ging)? in|logged in|need|needed|needing)\b/],
+      [/\b(?:unused|underused|under-used|no need|not needed|don't need|didn't need|no use for|use it enough|used it enough|enough use)\b/],
+      [/\b(?:forgot|forgotten) (?:about|i had|we had|to)\b/], [/\b(?:no time|too busy|not enough time|(?:didn't|don't|do not|did not|never) have (?:the |enough |any )?time)\b/],
+      [/\b(?:project|campaign|semester|contract|season|event|course) (?:is |was |has |had )?(?:ended|over|finished|done|complete|completed|wrapped up)\b/],
+      [/\b(?:only needed it|one[- ]time|one[- ]off|seasonal|temporar(?:y|ily)|pausing|pause|take a break|taking a break|come back later|be back)\b/]
+    ],
+    too_complex: [
+      [/\btoo (?:complicated|complex|hard|difficult|confusing|technical|many (?:steps|clicks|options|settings|features))\b/], [/\b(?:complicated|complex|confusing|confused|overwhelming|cumbersome|clunky|unintuitive|counterintuitive|counter-intuitive)\b/],
+      [/\b(?:hard|difficult|tough) to (?:use|learn|set up|setup|understand|figure|navigate|get started|configure|find)\b/], [/\b(?:learning curve|not intuitive|not user[- ]friendly|not easy to use|user[- ]unfriendly)\b/],
+      [/\b(?:couldn't|could not|can't|cannot|never) (?:figure|work) (?:it |out )?(?:out|how)\b/], [/\b(?:setup|set up|onboarding) (?:was|is|took) (?:too |really |very )?(?:hard|long|confusing|painful|difficult)\b/]
+    ],
+    low_quality: [
+      [/\b(?:bugs?|buggy|glitch(?:es|y)?|crash(?:es|ed|ing)?|broken|breaks|broke)\b/], [/\b(?:unreliable|unstable|outages?|downtime|kept going down|always down|went down)\b/],
+      [/\b(?:errors?|failing|kept failing|fails|failed to)\b/], [/\b(?:slow|sluggish|laggy|lag)\b/, SUPPORTY], [/\b(?:forever|ages) to load\b|\b(?:takes|took) (?:forever|ages)\b|\bloading\b/, SUPPORTY],
+      [/\b(?:not|wasn't|isn't|weren't|aren't|never) (?:very |always |that |really )?(?:accurate|reliable|stable)\b/],
+      [/\b(?:doesn't|does not|didn't|did not|wouldn't|would not) work\b(?! for (?:us|me|our))/], [/\b(?:stopped working|not working)\b/],
+      [/\b(?:inaccurate|wrong (?:results|data|numbers|answers)|data loss|lost (?:my |our )?data|sync (?:issues|problems|errors)|poor quality|low quality|bad quality|quality)\b/]
+    ],
+    customer_service: [
+      [/\b(?:customer service|customer support|support team|support staff|help ?desk)\b/], [/\bsupport\b(?! for)/, /\b(?:doesn't|does not|didn't|did not|no) support\b|\bsupport (?:for|of)\b/],
+      [/\b(?:no ?one|nobody|never) (?:replied|responded|answered|got back|helped|heard back)\b/], [/\b(?:never heard back|no response|no reply|slow (?:response|reply|replies|support)|response time|took (?:days|weeks|forever) to (?:reply|respond|answer|get back))\b/],
+      [/\b(?:rude|unhelpful|ignored (?:me|us|my|our))\b/], [/\b(?:account manager|onboarding call|sales rep)\b/]
+    ],
+    other: [
+      [/\b(?:business|company|shop|store|startup|agency|practice) (?:is |was |has |had )?(?:closed|closing|shut(?:ting)? down|shutting|winding down|sold|acquired|folding|going under)\b/],
+      [/\b(?:closing|closed|shut(?:ting)? down|selling|sold) (?:the|my|our) (?:business|company|shop|store|startup|agency|practice)\b/],
+      [/\b(?:bought by|taken over by|out of business|went under|retir(?:ed|ing|ement)|acquired|acquisition|merger|merged)\b/],
+      [/\b(?:lost (?:my|our|the) (?:job|client|funding|contract)|new job|changed jobs|left the company|leaving the company|laid off|layoffs?)\b/],
+      [/\b(?:company|management|boss|leadership|it department|procurement|legal|security team|head office) (?:decided|chose|policy|mandated|required|said)\b/], [/\b(?:company policy|compliance|security review)\b/],
+      [/\b(?:personal reasons|health reasons|family reasons|maternity|paternity)\b/],
+      [/\b(?:double[- ]charged|charged twice|duplicate (?:account|subscription)|by mistake|by accident|accidentally|signed up wrong|wrong plan|billing (?:issue|problem|error))\b/]
+    ]
+  };
+  // Words in the 4 words before a hit that negate it ("not too expensive", "never had bugs").
+  var NEG_BEFORE = /\b(?:not|no|never|nothing|wasn't|isn't|weren't|aren't|don't|doesn't|didn't|wouldn't|hardly|without|neither|nor)\b|n't\b/i;
+  // Text right after a hit that says it was not the reason ("price was fine", "bugs weren't the issue").
+  var OK_AFTER = /^\W*(?:\w+\W+){0,3}?(?:(?:is|was|are|were|seemed|felt)(?: (?:totally|perfectly|actually|really|pretty))? (?:fine|ok|okay|reasonable|fair|good|great|excellent|amazing|fantastic|helpful|fast|quick|not (?:the|an?) (?:issue|problem|reason))|(?:wasn't|isn't|weren't|aren't|was not|is not|were not) (?:the |an? )?(?:issue|problem|reason|bad|an issue|a problem))\b/i;
+  var VAGUE = /^(?:n\/?a|na|none|nothing|no|nope|no reason|no comment|other|misc|\.+|-+|\?+|idk|i don't know|dunno|just because|because|meh|whatever|x|test|asdf)$/i;
+
+  function cleanAnswer(s) {
+    return String(s == null ? "" : s).replace(/[\u0000-\u0008\u000b-\u001f\u007f]/g, " ").replace(/^\s*(?:[-*\u2022>]+|\(?\d{1,3}[.)\]:])\s+/, "")
+      .replace(/^["'\u201c\u2018]+|["'\u201d\u2019]+$/g, "").replace(/\s+/g, " ").trim().slice(0, MAX_LEN);
+  }
+  function norm(s) { return s.toLowerCase().replace(/[\u2018\u2019\u02bc`]/g, "'").replace(/\bdont\b/g, "don't").replace(/\bdidnt\b/g, "didn't").replace(/\bdoesnt\b/g, "doesn't").replace(/\bcant\b/g, "can't").replace(/\bwasnt\b/g, "wasn't").replace(/\bisnt\b/g, "isn't").replace(/\bwont\b/g, "won't").replace(/\bcouldnt\b/g, "couldn't"); }
+  function clauses(s) {
+    return s.split(/[.;!?,()\n]+|\s+(?:but|just|though|although|however|except|and|plus|also)\s+|\s+-+\s+/).map(function (c) { return c.trim(); }).filter(Boolean);
+  }
+  function classify(raw) {
+    var text = cleanAnswer(raw), low = norm(text), themes = [], hits = [], ignored = [];
+    if (!text) return null;
+    var parts = clauses(low);
+    ORDER.forEach(function (id) {
+      if (id === "unclear") return;
+      var found = null;
+      parts.forEach(function (c) {
+        R[id].forEach(function (rule) {
+          if (found) return;
+          var re = new RegExp(rule[0].source, "gi"), m;
+          if (rule[1] && rule[1].test(c)) return;
+          while ((m = re.exec(c))) {
+            var before = c.slice(0, m.index).trim().split(/\s+/).slice(-4).join(" ");
+            var after = c.slice(m.index + m[0].length);
+            if (NEG_BEFORE.test(before) || OK_AFTER.test(after)) { ignored.push({ theme: id, phrase: m[0] }); if (!m[0]) re.lastIndex++; continue; }
+            found = m[0]; break;
+          }
+        });
+      });
+      if (found) { themes.push(id); hits.push({ theme: id, phrase: found }); }
+    });
+    var vague = VAGUE.test(low.replace(/[.!?\s]+$/, "")) || !/[a-z]{2}/i.test(low);
+    if (!themes.length) themes.push("unclear");
+    return { text: text, themes: themes, hits: hits, ignored: ignored, vague: vague && themes[0] === "unclear" };
+  }
+
+  // Minimal RFC 4180 CSV parser.
+  function parseCSV(text) {
+    var rows = [], row = [], f = "", q = false, i, ch;
+    for (i = 0; i < text.length; i++) {
+      ch = text[i];
+      if (q) { if (ch === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += ch; }
+      else if (ch === '"' && f === "") q = true;
+      else if (ch === ",") { row.push(f); f = ""; }
+      else if (ch === "\n" || ch === "\r") { if (ch === "\r" && text[i + 1] === "\n") i++; row.push(f); rows.push(row); row = []; f = ""; }
+      else f += ch;
+    }
+    if (f !== "" || row.length) { row.push(f); rows.push(row); }
+    return rows.filter(function (r) { return r.some(function (x) { return x.trim(); }); });
+  }
+  function looksLikeCSV(text) {
+    var rows = parseCSV(text);
+    if (rows.length < 3) return false;
+    var head = rows[0], n = head.length;
+    if (n < 2 || head.some(function (h) { return h.length > 40 || /[.!?]$/.test(h.trim()); })) return false;
+    var same = rows.filter(function (r) { return r.length === n; }).length;
+    return same / rows.length >= 0.8;
+  }
+  var COL_HINT = /reason|feedback|comment|why|answer|response|cancel|churn|explain|text|note/i;
+  function pickColumn(rows) {
+    var head = rows[0], best = -1, bestLen = -1;
+    for (var c = 0; c < head.length; c++) if (COL_HINT.test(head[c])) return c;
+    for (c = 0; c < head.length; c++) {
+      var len = 0; rows.slice(1).forEach(function (r) { len += String(r[c] || "").length; });
+      if (len > bestLen) { bestLen = len; best = c; }
+    }
+    return best;
+  }
+  // format: "auto" | "lines" | "csv". column: index or -1 for automatic.
+  function parseInput(text, format, column) {
+    text = String(text || "").replace(/^\ufeff/, "");
+    var csv = format === "csv" || (format !== "lines" && looksLikeCSV(text));
+    var answers, columns = [], col = -1;
+    if (csv) {
+      var rows = parseCSV(text);
+      if (!rows.length) return { answers: [], csv: true, columns: [], column: -1, truncated: false };
+      columns = rows[0].map(function (h, i) { return cleanAnswer(h) || "Column " + (i + 1); });
+      col = typeof column === "number" && column >= 0 && column < columns.length ? column : pickColumn(rows);
+      answers = rows.slice(1).map(function (r) { return r[col]; });
+    } else {
+      answers = text.split(/\r?\n/);
+    }
+    answers = answers.map(cleanAnswer).filter(function (a) { return a.length > 0; });
+    var truncated = answers.length > MAX_ANSWERS;
+    return { answers: answers.slice(0, MAX_ANSWERS), csv: csv, columns: columns, column: col, truncated: truncated };
+  }
+  function pct(n, total) { return total ? Math.round(n / total * 1000) / 10 : 0; }
+  function sort(answers, maxExamples) {
+    maxExamples = maxExamples || 3;
+    var rows = answers.map(classify).filter(Boolean), total = rows.length, by = {};
+    ORDER.forEach(function (id) { by[id] = { id: id, label: THEMES[id].label, stripe: THEMES[id].stripe, count: 0, pct: 0, examples: [], questions: QUESTIONS[id] }; });
+    rows.forEach(function (r) {
+      r.themes.forEach(function (id) {
+        var t = by[id]; t.count++;
+        if (t.examples.length < maxExamples && t.examples.indexOf(r.text) < 0) t.examples.push(r.text);
+      });
+    });
+    ORDER.forEach(function (id) { by[id].pct = pct(by[id].count, total); });
+    var themes = ORDER.map(function (id) { return by[id]; }).filter(function (t) { return t.count > 0; })
+      .sort(function (a, b) { return a.id === "unclear" ? 1 : b.id === "unclear" ? -1 : b.count - a.count || ORDER.indexOf(a.id) - ORDER.indexOf(b.id); });
+    var multi = rows.filter(function (r) { return r.themes.length > 1; }).length;
+    return { total: total, rows: rows, themes: themes, by: by, unclear: by.unclear.count, multi: multi };
+  }
+  function summaryText(res) {
+    if (!res.total) return "";
+    var matched = res.total - res.unclear;
+    return res.total + (res.total === 1 ? " answer" : " answers") + " sorted: " + matched + " matched at least one theme, " + res.unclear + " unclear." +
+      (res.multi ? " " + res.multi + " named more than one reason and count in each theme, so the percentages can add up to more than 100%." : "");
+  }
+  // Past-behaviour follow-ups per theme. test_core.js checks every one with the Mom Test checker rules.
+  var QUESTIONS = {
+    too_expensive: [
+      "Tell me about the moment you decided the price was too much. What was going on then?",
+      "What were you comparing the cost against when you made that call?",
+      "Who else was involved in the decision to cut this cost, and what did they say?",
+      "What do you use for this job now, and what does that cost you?"
+    ],
+    missing_features: [
+      "Tell me about the last time you needed to do something the product couldn't do. What were you trying to get done?",
+      "What did you do to work around it, and how long did that go on?",
+      "What happened that turned the missing piece into a reason to leave?",
+      "What do you use for that job now?"
+    ],
+    switched_service: [
+      "Tell me about when you first started looking at other options. What set that off?",
+      "Walk me through the options you looked at and how you compared them.",
+      "What made you pick the one you use now?",
+      "What did you have to move over or set up again when you switched?"
+    ],
+    unused: [
+      "Think back to the last time you used it. What were you doing?",
+      "What changed between the weeks you used it a lot and the weeks you stopped?",
+      "How do you handle that task today?",
+      "When did you first notice you were paying for it without using it?"
+    ],
+    too_complex: [
+      "Tell me about the last time you got stuck. What were you trying to do?",
+      "What did you do when you got stuck?",
+      "Who on your team was using it, and how did they learn it?",
+      "Which part took you the longest to get working?"
+    ],
+    low_quality: [
+      "Tell me about the last time it let you down. What happened?",
+      "How often did that happen before you decided to leave?",
+      "What did you do each time it happened?",
+      "What did that problem cost you or your team?"
+    ],
+    customer_service: [
+      "Tell me about the last time you contacted us. What did you need?",
+      "What happened after you reached out, step by step?",
+      "How long did it take to get an answer, and what did you do in the meantime?"
+    ],
+    other: [
+      "Tell me what was going on around the time you cancelled.",
+      "Who made the call to cancel, and how did that happen?",
+      "What do you use for this job now?"
+    ],
+    unclear: [
+      "Tell me about the day you cancelled. What happened right before?",
+      "What were you using it for in the weeks before you left?",
+      "Walk me through the last time you used it.",
+      "What do you use for that job now?"
+    ]
+  };
+  function csvCell(s) {
+    s = String(s == null ? "" : s);
+    if (/^[=+\-@\t\r]/.test(s)) s = "'" + s; // stop spreadsheet formula injection
+    return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function toCSV(res) {
+    var out = [["answer", "themes", "stripe_feedback", "matched_phrases"].join(",")];
+    res.rows.forEach(function (r) {
+      out.push([r.text, r.themes.map(function (id) { return THEMES[id].label; }).join("; "), r.themes.map(function (id) { return THEMES[id].stripe; }).filter(Boolean).join("; "),
+        r.hits.map(function (h) { return h.phrase; }).join("; ")].map(csvCell).join(","));
+    });
+    return out.join("\r\n") + "\r\n";
+  }
+  function mdEsc(s) { return String(s).replace(/([\\`*_[\]|<>#])/g, "\\$1"); }
+  function toMarkdown(res, cta) {
+    var out = ["# Cancellation reasons, sorted", "", summaryText(res), "", "Sorted by keyword rules in the browser. Check the examples: the rules can miss nuance.", "",
+      "| Theme | Stripe feedback value | Answers | Share |", "| --- | --- | --- | --- |"];
+    res.themes.forEach(function (t) { out.push("| " + t.label + " | " + (t.stripe || "(none)") + " | " + t.count + " | " + t.pct + "% |"); });
+    out.push("");
+    res.themes.forEach(function (t) {
+      out.push("## " + t.label + " (" + t.count + ", " + t.pct + "%)", "", "Example answers:");
+      t.examples.forEach(function (e) { out.push("- \"" + mdEsc(e) + "\""); });
+      out.push("", "Interview follow-ups:");
+      t.questions.forEach(function (q, i) { out.push((i + 1) + ". " + q); });
+      out.push("");
+    });
+    if (cta) out.push("Let Frank AI Researcher ask these as short voice interviews: " + cta, "");
+    return out.join("\n");
+  }
+  function invite(o) {
+    o = o || {};
+    var product = cleanAnswer(o.product).slice(0, 60) || "[product]";
+    var name = cleanAnswer(o.name).slice(0, 60) || "[your name]";
+    var minutes = { "10": "10", "15": "15", "20": "20" }[String(o.minutes)] || "15";
+    return {
+      subject: "Could I ask you about leaving " + product + "?",
+      body: ["Hi [first name],", "",
+        "I saw you cancelled " + product + " recently. Thank you for giving it a try.", "",
+        "I'd like to understand what happened, in your own words. Would you have " + minutes + " minutes for a short call about it? This is not a sales call. I want to learn what we got wrong.", "",
+        "If you're up for it, you can pick a time here: [your link]", "",
+        "If a call is hard to fit in, a few lines in reply to this email help just as much.", "",
+        "Thanks,", name].join("\n")
+    };
+  }
+  return { THEMES: THEMES, ORDER: ORDER, QUESTIONS: QUESTIONS, MAX_ANSWERS: MAX_ANSWERS, MAX_LEN: MAX_LEN, classify: classify, parseCSV: parseCSV, looksLikeCSV: looksLikeCSV,
+    parseInput: parseInput, sort: sort, summaryText: summaryText, toCSV: toCSV, toMarkdown: toMarkdown, invite: invite, cleanAnswer: cleanAnswer };
+})();
+var CRS_SUMMARY = CRS.summaryText, CRS_MAX = CRS.MAX_ANSWERS, CRS_LABEL = function (id) { return CRS.THEMES[id].label; };
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=tool&utm_campaign=cancellation-reason-sorter";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var render_ = (function resultHTML(res, esc, truncated) {
+  var max = 0; res.themes.forEach(function (t) { if (t.count > max) max = t.count; });
+  return "<p class=\"summary\">" + esc(CRS_SUMMARY(res)) + "</p>" +
+    (truncated ? "<p class=\"note\">Only the first " + CRS_MAX + " answers were sorted.</p>" : "") +
+    "<div class=\"table-wrap\"><table class=\"themes\"><thead><tr><th scope=\"col\">Theme</th><th scope=\"col\">Answers</th><th scope=\"col\">Share of your answers</th></tr></thead><tbody>" +
+    res.themes.map(function (t) {
+      return "<tr data-theme=\"" + t.id + "\"><td><a href=\"#t-" + t.id + "\">" + esc(t.label) + "</a></td><td class=\"num\">" + t.count + "</td><td><span class=\"bar\" style=\"width:" + Math.round(t.count / max * 80) + "px\"></span>" + t.pct + "%</td></tr>";
+    }).join("") + "</tbody></table></div>" +
+    res.themes.map(function (t) {
+      return "<section class=\"theme " + t.id + "\" id=\"t-" + t.id + "\" data-theme=\"" + t.id + "\"><h3>" + esc(t.label) + ": " + t.count + " (" + t.pct + "%)</h3>" +
+        "<p class=\"meta\">" + (t.stripe ? "Stripe feedback value: <code>" + t.stripe + "</code>" : "No rule matched these answers. Read them yourself, or ask in an interview.") + "</p>" +
+        "<p><strong>Example answers</strong></p>" + t.examples.map(function (e) { return "<blockquote>" + esc(e) + "</blockquote>"; }).join("") +
+        "<p><strong>Ask in a follow-up interview</strong></p><ol>" + t.questions.map(function (q) { return "<li class=\"fq\">" + esc(q) + "</li>"; }).join("") + "</ol></section>";
+    }).join("") +
+    "<details class=\"all\"><summary>Show every answer with its theme</summary><ol>" + res.rows.map(function (r) {
+      return "<li>" + esc(r.text) + " " + r.themes.map(function (id) { return "<span class=\"tag\">" + esc(CRS_LABEL(id)) + "</span>"; }).join("") + "</li>";
+    }).join("") + "</ol></details>";
+});
+  var current, parsed, timer;
+  function render() {
+    var col = $("col-field").hidden ? -1 : parseInt($("column").value, 10);
+    parsed = CRS.parseInput($("answers").value, $("format").value, isNaN(col) ? -1 : col);
+    if (parsed.csv && parsed.columns.length) {
+      $("column").innerHTML = parsed.columns.map(function (c, i) { return "<option value=\"" + i + "\"" + (i === parsed.column ? " selected" : "") + ">" + esc(c) + "</option>"; }).join("");
+      $("col-field").hidden = false;
+    } else { $("col-field").hidden = true; $("column").innerHTML = ""; }
+    current = CRS.sort(parsed.answers);
+    var note = $("answers").value.trim() === $("answers").defaultValue.trim() ? "<p class=\"note\">Example: these are the sample answers in the box above, written for this page. They are not real customer data.</p>" : "";
+    $("out").innerHTML = current.total ? note + render_(current, esc, parsed.truncated) : "<p>Paste some answers above to see the themes.</p>";
+    $("status").textContent = "";
+  }
+  function later() { clearTimeout(timer); timer = setTimeout(render, 200); }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  $("answers").addEventListener("input", function () { $("col-field").hidden = true; later(); });
+  $("format").addEventListener("change", function () { $("col-field").hidden = true; render(); });
+  $("column").addEventListener("change", render);
+  $("clear").addEventListener("click", function () { $("answers").value = ""; render(); $("answers").focus(); });
+  function copyText(text, statusId, okMsg) {
+    function ok() { $(statusId).textContent = okMsg; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $(statusId).textContent = "Select the text and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  }
+  function md() { return CRS.toMarkdown(current, CTA); }
+  $("copy").addEventListener("click", function () { if (current.total) copyText(md(), "status", "Copied"); });
+  function download(body, ext, type) {
+    if (!current.total) return;
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([body], { type: type + ";charset=utf-8" }));
+    a.download = "cancellation-reasons-sorted." + ext;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  }
+  $("dl-csv").addEventListener("click", function () { download("\ufeff" + CRS.toCSV(current), "csv", "text/csv"); });
+  $("dl-md").addEventListener("click", function () { download(md(), "md", "text/markdown"); });
+  function mail() {
+    var m = CRS.invite({ product: $("m-product").value, name: $("m-name").value, minutes: $("m-minutes").value });
+    $("m-subject").value = m.subject; $("m-body").value = m.body; $("m-status").textContent = "";
+  }
+  ["m-product", "m-name"].forEach(function (id) { $(id).addEventListener("input", mail); });
+  $("m-minutes").addEventListener("change", mail);
+  $("mail").addEventListener("submit", function (e) { e.preventDefault(); });
+  $("m-copy").addEventListener("click", function () { copyText("Subject: " + $("m-subject").value + "\n\n" + $("m-body").value, "m-status", "Copied"); });
+  render();
+})();
+</script>
+</body>
+</html>

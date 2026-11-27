@@ -21,4 +21,5 @@
 - [Mom Test question checker](tools/mom-test-checker/)
 - [Cancel-page churn survey widget](tools/churn-interview-widget/)
 - [JTBD switch interview question generator](tools/jtbd-interview-question-generator/)
+- [Cancellation reason sorter](tools/cancellation-reason-sorter/)
 - [30 customer interview study templates](templates/)
