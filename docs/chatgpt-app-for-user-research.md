@@ -4,6 +4,8 @@
 
 We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-user-research), a voice-first software product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants.
 
+Comparing several ChatGPT apps for research? See [ChatGPT apps for customer research interviews, compared](chatgpt-app-for-customer-research-interviews.html). For UX research workflows, see [ChatGPT app for UX researchers](chatgpt-app-for-ux-researchers.html).
+
 ## What kind of user research it covers
 
 Frank runs interviews, the part of user research that explains why people do what they do. That includes discovery interviews about a problem someone already has, onboarding interviews with new users, interviews about a feature people saw but did not use, churn interviews, and jobs-to-be-done switch interviews.
@@ -99,9 +101,15 @@ Yes. Frank supports multilingual interviews. Have a native speaker check the gui
 - [ChatGPT app for churn interviews](chatgpt-app-for-churn-interviews.html)
 - [ChatGPT app for founders doing customer discovery](chatgpt-app-for-founders-customer-discovery.html)
 - [MCP server for customer interviews in Claude and ChatGPT](mcp-server-for-customer-interviews-in-claude-and-chatgpt.html)
+- [ChatGPT app for UX researchers](chatgpt-app-for-ux-researchers.html)
+- [ChatGPT app for customer research for marketers](chatgpt-app-for-marketers-customer-research.html)
+- [ChatGPT app for win-loss interviews](chatgpt-app-for-win-loss-interviews.html)
+- [ChatGPT app for startups checking product-market fit](chatgpt-app-for-startups-product-market-fit.html)
+- [ChatGPT app for multilingual customer interviews](chatgpt-app-for-multilingual-customer-interviews.html)
 
 ## Related
 
+- [ChatGPT apps for customer research interviews, compared](chatgpt-app-for-customer-research-interviews.html)
 - [Customer interview questions for UX researchers](customer-interview-questions-for-ux-researchers.html)
 - [Usability test vs customer interview (glossary)](glossary/usability-test-vs-customer-interview.html)
 - [How to run customer interviews](how-to-run-customer-interviews.html)

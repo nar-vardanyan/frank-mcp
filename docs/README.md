@@ -73,6 +73,11 @@ Direct answers about using Frank AI Researcher as an app in ChatGPT. Start with 
 - [ChatGPT app for churn interviews](chatgpt-app-for-churn-interviews.md): For churn: draft a churn study in ChatGPT, put the voice interview link on your cancellation page or email, and read the trigger, alternative and save point in chat.
 - [ChatGPT app for founders doing customer discovery](chatgpt-app-for-founders-customer-discovery.md): For founders: draft a discovery study in ChatGPT, share the voice interview link with your network or waitlist, and test assumptions against what people actually did.
 - [MCP server for customer interviews in Claude and ChatGPT](mcp-server-for-customer-interviews-in-claude-and-chatgpt.md): One remote MCP server for both: Frank's ChatGPT app or custom MCP server, and a Claude custom connector or Claude Code, with OAuth and no API key. Side-by-side setup and safety notes.
+- [ChatGPT app for UX researchers](chatgpt-app-for-ux-researchers.md): For UX researchers: when AI-moderated voice interviews fit and when to moderate yourself, a guide review checklist, and synthesis you can check against quotes, all from ChatGPT.
+- [ChatGPT app for customer research for marketers](chatgpt-app-for-marketers-customer-research.md): For marketing teams: draft interview studies in ChatGPT about why customers chose you, campaign mismatch and the words they use, then turn transcripts into messaging inputs.
+- [ChatGPT app for win-loss interviews](chatgpt-app-for-win-loss-interviews.md): For win-loss: draft a study in ChatGPT, send a voice interview link to buyers from recent wins, losses and no-decisions, and compare their stories with your CRM close reasons.
+- [ChatGPT app for startups checking product-market fit](chatgpt-app-for-startups-product-market-fit.md): For startups with early users: pair the Sean Ellis question with voice interviews drafted in ChatGPT, compare very and somewhat disappointed users, and read who already needs the product.
+- [ChatGPT app for multilingual customer interviews](chatgpt-app-for-multilingual-customer-interviews.md): For multilingual research: draft one core guide in ChatGPT, adapt it with native speakers, invite customers in their own language, and compare markets against original-language quotes.
 
 ## ChatGPT prompts for customer interviews
 
@@ -131,7 +136,7 @@ Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and anal
 - [AI-moderated customer interviews for founders: Frank vs survey tools](frank-vs-survey-tools-for-founders.md)
 - [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)
 - [Best AI qualitative research platforms in 2026](best-ai-qualitative-research-platforms.md)
-- [ChatGPT apps for customer research interviews](chatgpt-app-for-customer-research-interviews.md)
+- [ChatGPT apps for customer research interviews, compared](chatgpt-app-for-customer-research-interviews.md)
 - [Best win-loss analysis software in 2026](best-win-loss-analysis-software.md)
 - [Dovetail alternatives in 2026](dovetail-alternatives.md)
 - [Best customer feedback tools in 2026](best-customer-feedback-tools.md)

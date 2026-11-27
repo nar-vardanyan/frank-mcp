@@ -106,6 +106,11 @@ Yes. MCP is included on every plan, including Free. The Free plan includes 60 vo
 - [ChatGPT app for product managers to run customer interviews](chatgpt-app-for-product-managers-customer-interviews.html)
 - [ChatGPT app for churn interviews](chatgpt-app-for-churn-interviews.html)
 - [ChatGPT app for founders doing customer discovery](chatgpt-app-for-founders-customer-discovery.html)
+- [ChatGPT app for UX researchers](chatgpt-app-for-ux-researchers.html)
+- [ChatGPT app for customer research for marketers](chatgpt-app-for-marketers-customer-research.html)
+- [ChatGPT app for win-loss interviews](chatgpt-app-for-win-loss-interviews.html)
+- [ChatGPT app for startups checking product-market fit](chatgpt-app-for-startups-product-market-fit.html)
+- [ChatGPT app for multilingual customer interviews](chatgpt-app-for-multilingual-customer-interviews.html)
 
 ## Related
 
