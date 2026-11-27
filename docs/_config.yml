@@ -421,3 +421,33 @@ defaults:
       seo_title: "ChatGPT Prompts for Onboarding Customer Interviews (Copy and Use)"
       description: "12 copy-paste ChatGPT prompts for onboarding and activation customer interviews: define activation, write guides and invites for new users, map where people stall, and write the readout. Then run AI-moderated voice interviews with Frank in ChatGPT."
       schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-b2b-saas-user-research-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for B2B SaaS User Research Interviews"
+      description: "12 copy-paste ChatGPT prompts for B2B SaaS user research interviews: plan around roles in the account, write guides and invites for admins and end users, analyze transcripts by role, and write the readout. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-pricing-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Pricing Interviews (Copy and Use)"
+      description: "Copy-paste ChatGPT prompts for qualitative pricing interviews: value perception, packaging, purchase triggers, and how buyers compare options. No made-up price points. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-feature-prioritization-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Feature Prioritization Interviews"
+      description: "12 copy-paste ChatGPT prompts for feature prioritization interviews: turn requests into problems, write guides about past struggles, analyze transcripts, and rank problems by evidence. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-usability-testing-and-ux-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Usability Testing and UX Interviews"
+      description: "12 copy-paste ChatGPT prompts for usability testing and UX research interviews: plan tasks, write test scripts and follow-up interview guides, analyze sessions, and write the readout. Frank runs the voice interviews, not the usability tests."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-jobs-to-be-done-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Jobs-to-Be-Done (JTBD) Interviews"
+      description: "12 copy-paste ChatGPT prompts for jobs-to-be-done (JTBD) interviews: plan a switch study, write a timeline guide, code pushes, pulls, anxieties and habits, and write job statements. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true

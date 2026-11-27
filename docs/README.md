@@ -72,6 +72,11 @@ Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and anal
 - [ChatGPT prompts for win-loss customer interviews](chatgpt-prompts-for-win-loss-customer-interviews.md): 12 prompts to pick deals, write win, loss and no-decision guides, and compare buyer stories with CRM reasons.
 - [ChatGPT prompts for product-market fit customer interviews](chatgpt-prompts-for-product-market-fit-customer-interviews.md): 12 prompts to pair the Sean Ellis question with interviews and describe the customer who already needs your product.
 - [ChatGPT prompts for onboarding customer interviews](chatgpt-prompts-for-onboarding-customer-interviews.md): 12 prompts to define activation, interview new users, and map where people stall during onboarding.
+- [ChatGPT prompts for B2B SaaS user research interviews](chatgpt-prompts-for-b2b-saas-user-research-interviews.md): 12 prompts to plan user research across admins, end users and buyers in B2B SaaS accounts, and analyze it by role.
+- [ChatGPT prompts for pricing interviews](chatgpt-prompts-for-pricing-interviews.md): Qualitative prompts about value perception, packaging, purchase triggers and how buyers compare options, with no made-up price points.
+- [ChatGPT prompts for feature prioritization interviews](chatgpt-prompts-for-feature-prioritization-interviews.md): 12 prompts to turn feature requests into problems, interview the people behind them, and rank problems by evidence.
+- [ChatGPT prompts for usability testing and UX interviews](chatgpt-prompts-for-usability-testing-and-ux-interviews.md): 12 prompts to plan usability test tasks, write follow-up UX interview guides, and analyze sessions and transcripts.
+- [ChatGPT prompts for jobs-to-be-done interviews](chatgpt-prompts-for-jobs-to-be-done-interviews.md): 12 prompts to plan a JTBD switch study, write a timeline guide, and code pushes, pulls, anxieties and habits.
 
 ## About
 
