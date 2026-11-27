@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "First Study Quickstart: Create a Frank Study From Your Assistant in 3 Steps"
+    url: https://nar-vardanyan.github.io/frank-mcp/first-study-quickstart.html
+    updated: 2026-11-28T01:00:00Z
+    summary: "Connect Frank's MCP server, paste one prompt, and your assistant creates a draft voice interview study with a 10-minute guide. Includes the exact create_research input and what to do next."
   - title: "Customer Interview Use Cases: 10 Task Flows for Frank"
     url: https://nar-vardanyan.github.io/frank-mcp/use-cases/
     updated: 2026-11-28T00:00:00Z

@@ -97,7 +97,7 @@ Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and anal
 
 ## Use cases
 
-Ten customer interview use cases, each with a step-by-step MCP task flow, a sample interview guide and an example agent prompt. Start with [Customer interview use cases](use-cases/).
+Ten customer interview use cases, each with a step-by-step MCP task flow, a sample interview guide and an example agent prompt. Start with [Customer interview use cases](use-cases/). New to Frank? [First study quickstart](first-study-quickstart.md): connect, paste one prompt, review the draft.
 
 - [Onboarding Friction Interviews: Find Where New Users Get Stuck](use-cases/onboarding-friction-interviews.md)
 - [Pricing Change Reaction Interviews: Hear How Customers Respond Before You Announce](use-cases/pricing-change-reaction-interviews.md)
