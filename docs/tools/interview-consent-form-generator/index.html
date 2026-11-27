@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Consent Form and Recording Disclosure Generator (Free, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free interview consent form generator for customer and user research interviews. Get an editable consent form with opt-in tick boxes, a spoken recording disclosure script for the start of the call, an AI interviewer disclosure and a one-line notice for your invite. Template text only, not legal advice. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Interview Consent Form and Recording Disclosure Generator (Free, No Login)">
+<meta property="og:description" content="An editable consent form, a spoken recording disclosure and an AI interviewer notice for your customer interviews. Template text, not legal advice.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Interview Consent Form and Recording Disclosure Generator (Free, No Login)">
+<meta name="twitter:description" content="Consent form, spoken recording disclosure and AI interviewer notice for customer interviews. Template text, not legal advice.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/#app",
+      "name": "Interview Consent Form and Recording Disclosure Generator",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to fill in your own details. A worked example is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based generator of template text for customer and user research interviews: a plain-language consent form with opt-in tick boxes, a spoken recording disclosure for the start of the call, an optional AI interviewer disclosure and a one-line notice for the invite. Fill in your company, purpose, what you keep, who sees it and for how long. Template text only, not legal advice. No login, nothing sent to a server.",
+      "featureList": ["Plain-language interview consent form", "Opt-in tick boxes for taking part, recording, AI interviewer and quotes", "Spoken recording disclosure script", "AI interviewer disclosure", "One-line notice for the invite", "Copy, print, or download as Markdown or plain text"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Interview Consent Form and Recording Disclosure Generator", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is this legal advice?", "acceptedAnswer": { "@type": "Answer", "text": "No. It writes template text that you edit. Consent and recording rules differ by place and situation, so check the final text with your legal counsel and your local rules before you use it." } },
+        { "@type": "Question", "name": "Does using this form make my research compliant?", "acceptedAnswer": { "@type": "Answer", "text": "No. No template can do that on its own. What matters is that the text is true for your study and that you do what it says: ask before recording, keep data only as long as you said, and delete it when asked." } },
+        { "@type": "Question", "name": "Do I need consent to record an interview?", "acceptedAnswer": { "@type": "Answer", "text": "Rules differ by place, and some require every person on the call to agree before recording. The safest habit is to tell people before you start, ask for a clear yes, and record only after it. Ask your counsel what applies to you." } },
+        { "@type": "Question", "name": "Should I tell people an AI is asking the questions?", "acceptedAnswer": { "@type": "Answer", "text": "We think so. Say it in the invite, in the form and at the start of the call. Choose \"An AI interviewer\" and the generator adds a plain line to every part of the output." } },
+        { "@type": "Question", "name": "Does this use AI? Is anything sent to a server?", "acceptedAnswer": { "@type": "Answer", "text": "No. It fills your details into fixed text in your browser. Nothing you type is uploaded or stored." } },
+        { "@type": "Question", "name": "Does Frank find people to interview?", "acceptedAnswer": { "@type": "Answer", "text": "No. Frank does not recruit participants. You invite customers you already have." } },
+        { "@type": "Question", "name": "Can I set up the interview from an AI assistant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank has a remote MCP server at https://api.hifrank.ai/mcp, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+  fieldset { border:0; padding:0; margin:0 0 14px; }
+  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }
+  .radios label, .radios { font-weight:400; }
+  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }
+  .radios input { width:auto; }
+  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .tag.push { background:#ffebe9; color:#82071e; }
+  .tag.pull { background:#ddf4ff; color:#0a3069; }
+  .tag.anxiety { background:#fff1c2; color:#6c4a00; }
+  .tag.habit { background:#f3e8ff; color:#4c1d95; }
+  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }
+  .phase-goal { color:var(--muted); margin-top:-6px; }
+  .themes td.num { text-align:right; white-space:nowrap; }
+  .theme { border:1px solid var(--line); border-radius:10px; padding:4px 18px 12px; margin:16px 0; }
+  .theme h3 { margin-top:12px; }
+  .theme .meta { color:var(--muted); font-size:0.9em; margin-top:-6px; }
+  .theme blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--line); color:var(--ink); }
+  .theme.unclear { border-style:dashed; }
+  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; margin-right:6px; }
+  details.all { margin-top:12px; }
+  details.all li { margin-bottom:6px; }
+  .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid3 { grid-template-columns: 1fr; } }
+  .mail input { margin-bottom:8px; }
+  .mail textarea { min-height: 260px; }
+  #col-field[hidden] { display:none; }
+  .doc h3 { margin-top:18px; }
+  .doc .checks { list-style:none; padding-left:0; }
+  .doc .checks li::before { content:"\2610  "; }
+  .doc blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--accent); background:var(--soft); }
+  .doc .stage { color:var(--muted); font-style:italic; }
+  .checkrow label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-weight:400; font-size:16px; }
+  .checkrow input { width:auto; }
+  #ai-field[hidden] { display:none; }
+  @media print { .note.top, .seo, nav, footer, form.gen, .cta, .actions { display:none !important; } .guide { border:0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>
+  </nav>
+
+  <main>
+    <h1>Interview Consent Form and Recording Disclosure Generator</h1>
+    <p class="lede">Write a plain-language consent form for your customer or user interviews, plus what to say at the start of the call before you record. Fill in who you are, why you're talking to people, what you keep and for how long. If an AI interviewer asks the questions, the form and the script say so. Free, no login: it runs in your browser and nothing you type is sent anywhere.</p>
+    <p class="note top"><strong>Not legal advice.</strong> Template text only, not legal advice. Consent and recording rules differ by place and situation. Check with your legal counsel and your local rules before you use it, and edit it to match what you actually do. Using this text does not by itself make your research compliant with any law.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <fieldset class="radios">
+        <legend>Who asks the questions?</legend>
+        <label><input type="radio" name="mode" id="mode-person" value="person"> A person from our team</label>
+        <label><input type="radio" name="mode" id="mode-ai" value="ai" checked> An AI interviewer</label>
+      </fieldset>
+      <div class="grid2">
+        <div class="field">
+          <label for="company">Your company or team</label>
+          <input id="company" maxlength="120" value="Acme" placeholder="Acme">
+        </div>
+        <div class="field">
+          <label for="product">Your product</label>
+          <input id="product" maxlength="120" value="Acme Invoicing" placeholder="Acme Invoicing">
+        </div>
+        <div class="field" id="ai-field">
+          <label for="ai-name">AI interviewer name</label>
+          <input id="ai-name" maxlength="120" value="" placeholder="The name of your interview tool">
+        </div>
+        <div class="field">
+          <label for="minutes">Length</label>
+          <select id="minutes">
+            <option value="10">About 10 minutes</option>
+            <option value="15">About 15 minutes</option>
+            <option value="20" selected>About 20 minutes</option>
+            <option value="30">About 30 minutes</option>
+            <option value="45">About 45 minutes</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="purpose">Why you're talking to people <span class="hint">(finishes "We are talking to customers to ...")</span></label>
+        <input id="purpose" maxlength="200" value="" placeholder="learn how you use Acme Invoicing and what we could do better">
+      </div>
+      <fieldset class="checkrow">
+        <legend>What you keep</legend>
+        <label><input type="checkbox" id="keep-audio" value="audio" checked> Audio recording</label>
+        <label><input type="checkbox" id="keep-transcript" value="transcript" checked> Written transcript</label>
+        <label><input type="checkbox" id="keep-notes" value="notes"> Notes only</label>
+      </fieldset>
+      <div class="grid2">
+        <div class="field">
+          <label for="who">Who can see it</label>
+          <input id="who" maxlength="200" value="" placeholder="the people on our team who work on Acme Invoicing">
+        </div>
+        <div class="field">
+          <label for="retention">How long you keep it</label>
+          <input id="retention" maxlength="120" value="" placeholder="12 months">
+        </div>
+        <div class="field">
+          <label for="thanks">Thank-you <span class="hint">(optional, leave empty if none)</span></label>
+          <input id="thanks" maxlength="120" value="" placeholder="a gift card">
+        </div>
+        <div class="field">
+          <label for="contact">Contact for questions</label>
+          <input id="contact" maxlength="120" value="" placeholder="research@acme.com">
+        </div>
+      </div>
+      <fieldset class="checkrow">
+        <legend>Quotes</legend>
+        <label><input type="checkbox" id="quotes" checked> Ask to quote their words in internal reports without their name</label>
+      </fieldset>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Write my consent form</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Your consent form and disclosure</h2>
+      <article class="guide doc" id="doc" aria-live="polite">
+        <h2>Interview consent form: Acme Invoicing customer research</h2><h3>What this is</h3><p>We, Acme, are talking to customers to learn how you use Acme Invoicing and what we could do better. This is research, not a sales call.</p><h3>What you'll do</h3><p>You'll have a conversation of about 20 minutes. [AI interviewer name], an AI interviewer, will ask the questions out loud and follow up on your answers. It is not a person. There are no right or wrong answers, and you can skip any question.</p><h3>What we keep</h3><p>We keep an audio recording and a written transcript of the conversation. Recording starts only after you agree, and we tell you when it starts.</p><h3>Who sees it and for how long</h3><p>Only the people on our team who work on Acme Invoicing can see it. We keep it for [how long you keep it], then delete it. We don't sell it, and we use it only for the purpose above.</p><h3>How we use what you say</h3><p>We may quote your words in internal reports without your name. We'll ask you separately before using anything that could identify you outside our team.</p><h3>Your choices</h3><p>Taking part is up to you. You can stop at any time, during or after the conversation, and ask us to delete what we kept, without giving a reason. Saying no won't change how we treat you as a customer.</p><h3>Questions</h3><p>Contact [contact email] with any question or to ask us to delete your data.</p><h3>Consent</h3><ul class="checks"><li class="check">I have read this page and agree to take part.</li><li class="check">I agree to the conversation being recorded as an audio recording and a written transcript.</li><li class="check">I understand the questions are asked by an AI interviewer, not a person.</li><li class="check">I agree that my words may be quoted in internal reports without my name.</li></ul><p>Name: ____________________ Date: ____________</p><h2 id="script">Spoken disclosure for the start of the call</h2><blockquote class="say-line">Thanks for making time. Before we start, a few quick things.</blockquote><blockquote class="say-line">I'm [AI interviewer name], an AI interviewer working for Acme. I'm not a person.</blockquote><blockquote class="say-line">This conversation is research to learn how you use Acme Invoicing and what we could do better. It takes about 20 minutes, and you can skip any question or stop at any time.</blockquote><blockquote class="say-line">With your permission, this conversation is recorded so we keep an audio recording and a written transcript. Only the people on our team who work on Acme Invoicing will see it, and we keep it for [how long you keep it].</blockquote><blockquote class="say-line">Do you agree to take part and to the recording? Please say yes or no.</blockquote><p class="stage">If the answer is no, thank them and end the call. Don't start recording until they say yes.</p><h2>One-line notice for your invite</h2><p class="notice">Acme would like to talk with you for about 20 minutes about Acme Invoicing. The questions are asked by an AI interviewer, not a person. The conversation is recorded, and you'll be asked to agree before it starts. Taking part is up to you.</p>
+      </article>
+      <noscript><p>JavaScript is off, so the example is shown. Turn on JavaScript to fill in your own details.</p></noscript>
+      <div class="actions js-only">
+        <button class="btn btn-ghost" type="button" id="copy">Copy all</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <button class="btn btn-ghost" type="button" id="dl-txt">Download .txt</button>
+        <button class="btn btn-ghost" type="button" id="print">Print</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> Share one link with customers you already have, and Frank asks your questions out loud, follows up on each answer, and gives you transcripts and themes. Put your consent text where people read it before the interview starts. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=interview-consent-form-generator">Run your interviews by voice with Frank</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>What an interview consent form should cover</h2>
+    <ul>
+      <li><strong>Who you are and why you're asking.</strong> One or two plain sentences, and a clear line that this is research, not a sales call.</li>
+      <li><strong>What taking part involves.</strong> How long it takes, who asks the questions, and that people can skip any question.</li>
+      <li><strong>What you keep.</strong> Audio, a transcript or notes, and when recording starts.</li>
+      <li><strong>Who sees it and for how long.</strong> A named group, a real retention period, and what happens after it.</li>
+      <li><strong>How you use what people say.</strong> Internal quotes without names, and a separate ask before anything public.</li>
+      <li><strong>Their choices.</strong> Taking part is voluntary, they can stop at any time, and they can ask you to delete their data.</li>
+      <li><strong>A contact.</strong> A real person or inbox that answers.</li>
+      <li><strong>Separate tick boxes.</strong> One for taking part, one for recording and one for quotes, so people can agree to one without the others.</li>
+    </ul>
+
+    <h2>Recording disclosure: what to say at the start of the call</h2>
+    <p>Even with a signed form, say it out loud before you record: who you are, what the call is for, that it is recorded, who sees it and for how long, and that they can stop. Then ask for a clear yes, and start recording only after it. The generator writes this script for you. Some teams also start the recording right after the yes and ask the question again, so the agreement is on the recording.</p>
+
+    <h2>Telling people an AI is asking the questions</h2>
+    <p>If an AI interviewer runs the conversation, say so in the invite, in the form and at the start of the call. People answer more openly when nothing about the setup surprises them. Choose "An AI interviewer" above and every part of the output includes a plain line that the interviewer is an AI, not a person.</p>
+
+    <h2>Tips</h2>
+    <ul>
+      <li><strong>Only promise what you do.</strong> If you keep recordings for 12 months, don't write 30 days. Edit any line that isn't true for you.</li>
+      <li><strong>Keep the yes.</strong> Store the signed form or the recorded agreement with the interview, and delete both when the retention period ends.</li>
+      <li><strong>Get advice for special cases.</strong> People under 18, health or financial details, employees of a customer and interviews across borders can all need extra steps. Ask your counsel first.</li>
+      <li><strong>Make thank-yous unconditional.</strong> If you offer one, people get it whether or not they answer every question.</li>
+    </ul>
+
+    <h2>FAQ</h2>
+    <h3>Is this legal advice?</h3>
+    <p>No. It writes template text that you edit. Consent and recording rules differ by place and situation, so check the final text with your legal counsel and your local rules before you use it.</p>
+    <h3>Does using this form make my research compliant?</h3>
+    <p>No. No template can do that on its own. What matters is that the text is true for your study and that you do what it says: ask before recording, keep data only as long as you said, and delete it when asked.</p>
+    <h3>Do I need consent to record an interview?</h3>
+    <p>Rules differ by place, and some require every person on the call to agree before recording. The safest habit is to tell people before you start, ask for a clear yes, and record only after it. Ask your counsel what applies to you.</p>
+    <h3>Should I tell people an AI is asking the questions?</h3>
+    <p>We think so. Say it in the invite, in the form and at the start of the call. Choose &quot;An AI interviewer&quot; and the generator adds a plain line to every part of the output.</p>
+    <h3>Does this use AI? Is anything sent to a server?</h3>
+    <p>No. It fills your details into fixed text in your browser. Nothing you type is uploaded or stored.</p>
+    <h3>Does Frank find people to interview?</h3>
+    <p>No. Frank does not recruit participants. You invite customers you already have.</p>
+    <h3>Can I set up the interview from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/">JTBD switch interview question generator</a>: timeline questions tagged push, pull, anxiety and habit</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/">Cancellation reason sorter</a>: sort churn survey answers into themes, with interview follow-ups</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/">How many customer interviews planner</a>: a guidance range per segment, with cited studies</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/">Survey to interview question converter</a>: turn survey questions into interview questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=interview-consent-form-generator">Frank AI Researcher</a>. The text is a starting point, not legal advice: edit it so it is true for your study. Nothing you type on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+// Interview consent form and recording disclosure generator. Pure functions, no network. Used by the page and by test_core.js.
+var ICF = (function () {
+  var MAXLEN = 120;
+  var MODES = { person: "A person from our team", ai: "An AI interviewer" };
+  var KEEPS = { audio: "an audio recording", transcript: "a written transcript", notes: "written notes" };
+  function clean(s, max) {
+    return String(s == null ? "" : s).replace(/[\u0000-\u001f\u007f<>]/g, " ").replace(/[\u2014\u2013]/g, "-").replace(/\s+/g, " ").trim().slice(0, max || MAXLEN);
+  }
+  function list(items) {
+    if (items.length < 2) return items.join("");
+    return items.slice(0, -1).join(", ") + " and " + items[items.length - 1];
+  }
+  function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  function opts(o) {
+    o = o || {};
+    var product = clean(o.product) || "[product]";
+    var keep = (o.keep || ["audio", "transcript"]).filter(function (k) { return KEEPS[k]; });
+    var minutes = parseInt(o.minutes, 10);
+    return {
+      company: clean(o.company) || "[company]",
+      product: product,
+      purpose: clean(o.purpose, 200).replace(/[.\s]+$/, "") || "learn how you use " + product + " and what we could do better",
+      mode: MODES[o.mode] ? o.mode : "person",
+      aiName: clean(o.aiName) || "[AI interviewer name]",
+      minutes: minutes >= 5 && minutes <= 90 ? minutes : 20,
+      keep: keep.length ? keep : ["notes"],
+      who: clean(o.who, 200).replace(/[.\s]+$/, "") || "the people on our team who work on " + product,
+      retention: clean(o.retention) || "[how long you keep it]",
+      thanks: clean(o.thanks),
+      contact: clean(o.contact) || "[contact email]",
+      quotes: o.quotes === false ? false : true
+    };
+  }
+  function build(raw) {
+    var o = opts(raw), ai = o.mode === "ai";
+    var recorded = o.keep.indexOf("audio") >= 0 || o.keep.indexOf("transcript") >= 0;
+    var keepText = list(o.keep.map(function (k) { return KEEPS[k]; }));
+    var who = ai ? o.aiName + ", an AI interviewer, will ask the questions out loud and follow up on your answers. It is not a person." :
+      "Someone from our team will ask the questions.";
+    var sections = [
+      { h: "What this is", p: ["We, " + o.company + ", are talking to customers to " + o.purpose + ". This is research, not a sales call."] },
+      { h: "What you'll do", p: ["You'll have a conversation of about " + o.minutes + " minutes. " + who + " There are no right or wrong answers, and you can skip any question."] },
+      { h: "What we keep", p: ["We keep " + keepText + " of the conversation" + (recorded ? ". Recording starts only after you agree, and we tell you when it starts." : ".")] },
+      { h: "Who sees it and for how long", p: ["Only " + o.who + " can see it. We keep it for " + o.retention + ", then delete it. We don't sell it, and we use it only for the purpose above."] },
+      { h: "How we use what you say", p: [o.quotes ? "We may quote your words in internal reports without your name. We'll ask you separately before using anything that could identify you outside our team." : "We won't quote your words. We use your answers only to understand the topic above."] },
+      { h: "Your choices", p: ["Taking part is up to you. You can stop at any time, during or after the conversation, and ask us to delete what we kept, without giving a reason. Saying no won't change how we treat you as a customer."] }
+    ];
+    if (o.thanks) sections.push({ h: "Thank you", p: ["As a thank-you for your time, we'll offer " + o.thanks + ". You get it whether or not you answer every question."] });
+    sections.push({ h: "Questions", p: ["Contact " + o.contact + " with any question or to ask us to delete your data."] });
+    var checks = ["I have read this page and agree to take part."];
+    if (recorded) checks.push("I agree to the conversation being recorded as " + keepText + ".");
+    if (ai) checks.push("I understand the questions are asked by an AI interviewer, not a person.");
+    if (o.quotes) checks.push("I agree that my words may be quoted in internal reports without my name.");
+    var script = [
+      "Thanks for making time. Before we start, a few quick things.",
+      ai ? "I'm " + o.aiName + ", an AI interviewer working for " + o.company + ". I'm not a person." : "I'm [your name] from " + o.company + ".",
+      "This conversation is research to " + o.purpose + ". It takes about " + o.minutes + " minutes, and you can skip any question or stop at any time.",
+      recorded ? "With your permission, this conversation is recorded so we keep " + keepText + ". Only " + o.who + " will see it, and we keep it for " + o.retention + "." :
+        "We'll take " + keepText + ". Only " + o.who + " will see them, and we keep them for " + o.retention + ".",
+      recorded ? "Do you agree to take part and to the recording? Please say yes or no." : "Do you agree to take part? Please say yes or no.",
+      "If the answer is no, thank them and end the call. Don't start recording until they say yes."
+    ];
+    var notice = cap(o.company) + " would like to talk with you for about " + o.minutes + " minutes about " + o.product + ". " +
+      (ai ? "The questions are asked by an AI interviewer, not a person. " : "") +
+      (recorded ? "The conversation is recorded, and you'll be asked to agree before it starts." : "We'll take notes.") +
+      " Taking part is up to you.";
+    return { o: o, ai: ai, recorded: recorded, title: "Interview consent form: " + (o.product === "[product]" ? "customer research" : o.product + " customer research"),
+      sections: sections, checks: checks, script: script, notice: notice };
+  }
+  var NOTE = "Template text only, not legal advice. Consent and recording rules differ by place and situation. Check with your legal counsel and your local rules before you use it, and edit it to match what you actually do.";
+  function toMarkdown(d, cta) {
+    var out = ["# " + d.title, ""];
+    d.sections.forEach(function (s) { out.push("## " + s.h, ""); s.p.forEach(function (p) { out.push(p, ""); }); });
+    out.push("## Consent", "");
+    d.checks.forEach(function (c) { out.push("- [ ] " + c); });
+    out.push("", "Name: ____________________   Date: ____________", "", "---", "", "# Spoken disclosure for the start of the call", "");
+    d.script.forEach(function (l, i) { out.push(i === d.script.length - 1 ? "_" + l + "_" : "> " + l, ""); });
+    out.push("# One-line notice for your invite", "", d.notice, "", "---", "", "_" + NOTE + "_", "");
+    if (cta) out.push("Run your interviews by voice with Frank AI Researcher: " + cta, "");
+    return out.join("\n");
+  }
+  function toText(d) {
+    return toMarkdown(d).replace(/^#+ /gm, "").replace(/^> /gm, "").replace(/^_(.*)_$/gm, "$1").replace(/^- \[ \] /gm, "[ ] ");
+  }
+  function fromParams(search) {
+    var p = {};
+    String(search || "").replace(/^\?/, "").split("&").forEach(function (kv) {
+      if (!kv) return;
+      var i = kv.indexOf("="), k, v;
+      try { k = decodeURIComponent((i < 0 ? kv : kv.slice(0, i)).replace(/\+/g, " ")); v = i < 0 ? "" : decodeURIComponent(kv.slice(i + 1).replace(/\+/g, " ")); } catch (e) { return; }
+      p[k] = v;
+    });
+    var r = {};
+    if (MODES[p.mode]) r.mode = p.mode;
+    ["company", "product"].forEach(function (k) { if (p[k]) r[k] = clean(p[k]); });
+    return r;
+  }
+  return { build: build, opts: opts, toMarkdown: toMarkdown, toText: toText, fromParams: fromParams, clean: clean, MODES: MODES, KEEPS: KEEPS, NOTE: NOTE, MAXLEN: MAXLEN };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=tool&utm_campaign=interview-consent-form-generator";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var render_ = (function docHTML(d, esc) {
+  var last = d.script.length - 1;
+  return "<h2>" + esc(d.title) + "</h2>" +
+    d.sections.map(function (s) { return "<h3>" + esc(s.h) + "</h3>" + s.p.map(function (p) { return "<p>" + esc(p) + "</p>"; }).join(""); }).join("") +
+    "<h3>Consent</h3><ul class=\"checks\">" + d.checks.map(function (c) { return "<li class=\"check\">" + esc(c) + "</li>"; }).join("") + "</ul>" +
+    "<p>Name: ____________________ Date: ____________</p>" +
+    "<h2 id=\"script\">Spoken disclosure for the start of the call</h2>" +
+    d.script.map(function (l, i) { return i === last ? "<p class=\"stage\">" + esc(l) + "</p>" : "<blockquote class=\"say-line\">" + esc(l) + "</blockquote>"; }).join("") +
+    "<h2>One-line notice for your invite</h2><p class=\"notice\">" + esc(d.notice) + "</p>";
+});
+  var current;
+  function mode() { return $("mode-ai").checked ? "ai" : "person"; }
+  function opts() {
+    var keep = ["audio", "transcript", "notes"].filter(function (k) { return $("keep-" + k).checked; });
+    return { mode: mode(), company: $("company").value, product: $("product").value, aiName: $("ai-name").value, minutes: $("minutes").value, purpose: $("purpose").value,
+      keep: keep, who: $("who").value, retention: $("retention").value, thanks: $("thanks").value, contact: $("contact").value, quotes: $("quotes").checked };
+  }
+  function render() {
+    $("ai-field").hidden = mode() !== "ai";
+    current = ICF.build(opts());
+    $("doc").innerHTML = render_(current, esc);
+    $("status").textContent = "";
+  }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  Array.prototype.forEach.call(document.querySelectorAll("#gen input, #gen select"), function (el) { el.addEventListener(el.type === "radio" || el.type === "checkbox" || el.tagName === "SELECT" ? "change" : "input", render); });
+  function md() { return ICF.toMarkdown(current, CTA); }
+  $("copy").addEventListener("click", function () {
+    var text = ICF.toText(current);
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the text and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  });
+  function download(body, ext, type) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([body], { type: type + ";charset=utf-8" }));
+    a.download = "interview-consent-form." + ext;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  }
+  $("dl-md").addEventListener("click", function () { download(md(), "md", "text/markdown"); });
+  $("dl-txt").addEventListener("click", function () { download(ICF.toText(current), "txt", "text/plain"); });
+  $("print").addEventListener("click", function () { window.print(); });
+  // Deep links: ?mode=person|ai&company=&product= prefill the form.
+  var P = ICF.fromParams(window.location.search);
+  if (P.mode) $("mode-" + P.mode).checked = true;
+  if (P.company) $("company").value = P.company;
+  if (P.product) $("product").value = P.product;
+  render();
+})();
+</script>
+</body>
+</html>

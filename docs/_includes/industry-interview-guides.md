@@ -22,5 +22,6 @@
 - [Cancel-page churn survey widget](tools/churn-interview-widget/)
 - [JTBD switch interview question generator](tools/jtbd-interview-question-generator/)
 - [Cancellation reason sorter](tools/cancellation-reason-sorter/)
+- [Interview consent form generator](tools/interview-consent-form-generator/)
 - [How many customer interviews planner](tools/customer-interview-sample-size-planner/)
 - [30 customer interview study templates](templates/)
