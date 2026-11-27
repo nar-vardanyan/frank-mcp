@@ -1,5 +1,25 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "ChatGPT app for UX researchers"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-ux-researchers.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For UX researchers: when AI-moderated voice interviews fit and when to moderate yourself, a guide review checklist, and synthesis you can check against quotes, all from ChatGPT."
+  - title: "ChatGPT app for customer research for marketers"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-marketers-customer-research.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For marketing teams: draft interview studies in ChatGPT about why customers chose you, campaign mismatch and the words they use, then turn transcripts into messaging inputs."
+  - title: "ChatGPT app for win-loss interviews"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-win-loss-interviews.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For win-loss: draft a study in ChatGPT, send a voice interview link to buyers from recent wins, losses and no-decisions, and compare their stories with your CRM close reasons."
+  - title: "ChatGPT app for startups checking product-market fit"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-startups-product-market-fit.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For startups with early users: pair the Sean Ellis question with voice interviews drafted in ChatGPT, compare very and somewhat disappointed users, and read who already needs the product."
+  - title: "ChatGPT app for multilingual customer interviews"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-multilingual-customer-interviews.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For multilingual research: draft one core guide in ChatGPT, adapt it with native speakers, invite customers in their own language, and compare markets against original-language quotes."
   - title: "Is there a ChatGPT app for user research?"
     url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-user-research.html
     updated: 2026-11-27T18:00:00Z

@@ -492,3 +492,38 @@ defaults:
       seo_title: "MCP Server for Customer Interviews in Claude and ChatGPT"
       description: "Yes. Frank AI Researcher is available as an app in ChatGPT, and the same remote MCP server, https://api.hifrank.ai/mcp, connects to Claude as a custom connector. OAuth sign-in, no API key, MCP on every plan."
       schema_page: true
+  - scope:
+      path: chatgpt-app-for-customer-research-interviews.md
+    values:
+      seo_title: "ChatGPT Apps for Customer Research Interviews, Compared"
+      description: "A comparison of research tools that connect to ChatGPT, what each can do there (run interviews, set up recruiting, or search past research), and how to add Frank. For a direct answer about Frank, see the ChatGPT app answer pages."
+  - scope:
+      path: chatgpt-app-for-ux-researchers.md
+    values:
+      seo_title: "ChatGPT App for UX Researchers: Frank AI Researcher"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT. UX researchers can run AI-moderated voice interviews with users they invite, while keeping control of the guide, the publish step, and the synthesis."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-marketers-customer-research.md
+    values:
+      seo_title: "ChatGPT App for Customer Research for Marketers"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT. Marketing teams can draft a customer interview study in chat, invite recent customers, and get back the words customers use about why they chose you."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-win-loss-interviews.md
+    values:
+      seo_title: "ChatGPT App for Win-Loss Interviews: Frank AI Researcher"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT for win-loss interviews: draft a study in chat, send the voice interview link to buyers from recent deals, and compare their stories with CRM close reasons."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-startups-product-market-fit.md
+    values:
+      seo_title: "ChatGPT App for Startups Checking Product-Market Fit"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT. Startups with early users can pair the Sean Ellis question with AI-moderated voice interviews to learn who already needs the product and why."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-multilingual-customer-interviews.md
+    values:
+      seo_title: "ChatGPT App for Multilingual Customer Interviews"
+      description: "Yes. Frank AI Researcher is available as an app in ChatGPT, and Frank supports multilingual interviews. Draft one core guide in chat, adapt it per market, invite customers in their own language, and read transcripts."
+      schema_page: true

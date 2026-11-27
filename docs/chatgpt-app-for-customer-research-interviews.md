@@ -4,6 +4,8 @@
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares research tools that document a ChatGPT connection, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Check each site before you connect anything. Frank does not recruit participants.
 
+> **Looking for a yes or no about one tool?** This page compares several research tools that connect to ChatGPT. For direct answers about Frank, see [Is there a ChatGPT app for customer interviews?](chatgpt-app-for-customer-interviews.html) and [Is there a ChatGPT app for user research?](chatgpt-app-for-user-research.html).
+
 ## How research tools get into ChatGPT
 
 ChatGPT connects to outside tools through the Model Context Protocol (MCP), an open standard for linking AI applications to tools and data ([modelcontextprotocol.io](https://modelcontextprotocol.io/)). OpenAI's developer docs say you can connect an MCP server to ChatGPT as a plugin, and that ChatGPT supports both read and write tools from your server ([OpenAI, Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server)).
@@ -76,7 +78,7 @@ Frank fits when you want to start customer interviews from ChatGPT and get voice
 
 ## FAQ
 
-### Is there a ChatGPT app for customer research interviews?
+### Which ChatGPT apps can run customer research interviews?
 Yes. Several research tools connect to ChatGPT through MCP. Frank is available as an app in ChatGPT. Frank lets ChatGPT draft a study, run AI-moderated voice interviews with your own customers, and read transcripts. Outset, Strella, Listen Labs, Usercall, User Intuition and Koji also document ChatGPT connections, with different capabilities.
 
 ### Can ChatGPT start new research, or only read it?
@@ -96,6 +98,8 @@ Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support r
 
 ## Related
 
+- [Is there a ChatGPT app for customer interviews?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)
+- [Is there a ChatGPT app for user research?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-user-research.html)
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
