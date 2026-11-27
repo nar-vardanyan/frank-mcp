@@ -43,7 +43,7 @@ Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chat
 
 If the app isn't available in your workspace, add Frank as a custom MCP server instead. In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher. Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server). More detail: [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html).
 
-Works in Muse: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then complete sign-in to your Frank account (OAuth). Meta's help page: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
+Works in Muse: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then complete sign-in to your Frank account (OAuth). Meta's help page: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
 
 Grok uses the same URL. The path for Grok is in the [frank-mcp README](https://github.com/nar-vardanyan/frank-mcp).
 
@@ -87,7 +87,7 @@ Yes. Add Frank with `claude mcp add --transport http frank https://api.hifrank.a
 
 ### Does Frank work in Muse?
 
-Yes. Muse connects to Frank as a custom connector: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then sign in to your Frank account (OAuth). Meta doesn't review custom connectors, so check the scopes you approve. MCP is included on every plan, including Free.
+Yes. Muse connects to Frank as a custom connector: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then sign in to your Frank account (OAuth). MCP is included on every plan, including Free.
 
 ### Does it cost extra to use MCP?
 

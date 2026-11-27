@@ -154,7 +154,7 @@ claude mcp add --transport http frank https://api.hifrank.ai/mcp
 
 Then sign in in the browser. Check with `ping`, then `list_researches`.
 
-Muse: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then complete sign-in.
+Muse: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then complete sign-in.
 
 Cursor and Gemini CLI can't connect yet (they require dynamic client registration). Do not describe them as working.
 

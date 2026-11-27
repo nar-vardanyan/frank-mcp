@@ -220,7 +220,7 @@ Official reference: [Add custom MCP server](https://developers.openai.com/api/do
 
 ### Muse
 
-Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then complete sign-in. Then ask Muse to list your Frank studies to check the connection.
+Ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then complete sign-in, and ask Muse to list your Frank studies to check the connection.
 
 Official reference: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
 
