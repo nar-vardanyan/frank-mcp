@@ -117,6 +117,7 @@ Frank is available as an app in ChatGPT: https://chatgpt.com/plugins/plugin_asdk
 
 ## Use cases
 
+- [First Study Quickstart: Create a Frank Study From Your Assistant in 3 Steps](https://nar-vardanyan.github.io/frank-mcp/first-study-quickstart.html): Connect Frank's MCP server, paste one prompt, and your assistant creates a draft voice interview study with a 10-minute guide. Includes the exact create_research input and what to do next.
 - [Customer Interview Use Cases: 10 Task Flows for Frank](https://nar-vardanyan.github.io/frank-mcp/use-cases/): Ten customer interview use cases for Frank AI Researcher, each with a step-by-step MCP task flow, a sample voice interview guide, what you get back and an example agent prompt.
 - [Onboarding Friction Interviews: Find Where New Users Get Stuck](https://nar-vardanyan.github.io/frank-mcp/use-cases/onboarding-friction-interviews.html): Interview new users a few days after signup about their first session, so you hear in their words where onboarding slowed them down and what they expected instead.
 - [Pricing Change Reaction Interviews: Hear How Customers Respond Before You Announce](https://nar-vardanyan.github.io/frank-mcp/use-cases/pricing-change-reaction-interviews.html): Before you change a plan or a price, interview current customers about how they use the plan today and how they would react to the change, so you see the risk in their own words.

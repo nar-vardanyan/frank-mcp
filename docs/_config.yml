@@ -727,3 +727,9 @@ defaults:
       seo_title: "Upgrade Motivation Interviews: Learn Why Customers Moved to a Paid Plan"
       description: "Interview customers who recently upgraded or expanded about what was happening when they decided, so you can find more customers in the same situation and repeat it."
       schema_page: true
+  - scope:
+      path: first-study-quickstart.md
+    values:
+      seo_title: "First Study Quickstart: Create a Frank Study From Your Assistant in 3 Steps"
+      description: "Connect Frank's MCP server, paste one prompt, and your assistant creates a draft voice interview study with a 10-minute guide. Includes the exact create_research input and what to do next."
+      schema_page: true

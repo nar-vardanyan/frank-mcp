@@ -25,6 +25,7 @@ Frank AI Researcher (Frank) runs voice-first, AI-moderated voice interviews with
 
 ## Related
 
+- [First study quickstart](../first-study-quickstart.md): one copy-paste prompt for your first draft study
 - [Docs home](https://nar-vardanyan.github.io/frank-mcp/)
 - [MCP server for customer interviews](../mcp-server-for-customer-interviews.md)
 - [Add customer interviews to your AI-built app](https://nar-vardanyan.github.io/frank-mcp/app-builders/)
