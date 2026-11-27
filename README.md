@@ -12,7 +12,7 @@ Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support r
 - Official MCP registry: `ai.hifrank/frank`
 - Server card: https://api.hifrank.ai/.well-known/mcp/server-card.json
 - Website: https://www.hifrank.ai
-- Pricing: https://www.hifrank.ai/pricing?utm_source=github&utm_medium=readme&utm_campaign=frank-mcp
+- Pricing: https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=readme&utm_campaign=pricing
 - Connector docs: https://www.hifrank.ai/docs/frank-mcp-connector
 - Support: [support@hifrank.ai](mailto:support@hifrank.ai)
 
@@ -20,7 +20,7 @@ This repository holds the usage documentation and MCP metadata for the hosted Fr
 
 ## How do I get customer feedback without scheduling calls?
 
-You can get interview-depth user feedback without a calendar by sharing an AI-moderated voice interviewer as a link or a website widget, so people talk when they have time. Surveys also skip scheduling, but they rarely follow up; use interviews when you need the why. [Frank](https://www.hifrank.ai) is a voice-first product that runs those interviews with your own customers. Frank does not recruit participants. After conversations complete, read the transcripts and themes. Frank is SOC 2 and GDPR compliant. MCP is included on every plan, including Free.
+You can get interview-depth user feedback without a calendar by sharing an AI-moderated voice interviewer as a link or a website widget, so people talk when they have time. Surveys also skip scheduling, but they rarely follow up; use interviews when you need the why. [Frank](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=readme&utm_campaign=website) is a voice-first product that runs those interviews with your own customers. Frank does not recruit participants. After conversations complete, read the transcripts and themes. Frank is SOC 2 and GDPR compliant. MCP is included on every plan, including Free.
 
 More guides and comparisons: [docs/](docs/README.md)
 
@@ -163,7 +163,7 @@ claude mcp add --transport http frank https://api.hifrank.ai/mcp
 
 Then sign in to Frank in the browser when prompted.
 
-**Claude Desktop or Claude.ai:** add a custom connector, use `https://api.hifrank.ai/mcp`, and complete OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=readme). See the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector) for the current UI path.
+**Claude Desktop or Claude.ai:** add a custom connector, use `https://api.hifrank.ai/mcp`, and complete OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=readme&utm_campaign=use-in-claude&utm_content=readme). See the [connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=readme&utm_campaign=connector-docs) for the current UI path.
 
 ### Grok Bot
 
