@@ -69,7 +69,7 @@ An interview guide can be used in more than one kind of conversation, and some a
 | A rigid script with no room to follow up | Low planning cost, high quality cost | Can feel fast in the moment, because the interviewer just reads | People give short, cautious answers, and you miss the story that was not on the page | Almost never for research interviews. A script can help a new interviewer start, but the follow-up is part of the work |
 | No guide, or a new set of questions every time | Looks cheap, then becomes expensive when you cannot compare answers | The first chats can start immediately | You may hear a vivid story, and you will not know whether the next person would have said the same thing, because you asked something else | A single exploratory conversation can help you write the guide. It is not a substitute for a study |
 
-A founder can use these in sequence: an unguided conversation or a survey to find the decision, a written guide for a short round of interviews, and an AI-moderated voice interview when people will not book a call. The mistake is to skip the guide and then try to treat a pile of different conversations as one finding.
+A founder can use these in sequence: an unguided conversation or a survey to find the decision, a written guide for a short round of interviews, and an AI-moderated voice interview when people often will not book a call. The mistake is to skip the guide and then try to treat a pile of different conversations as one finding.
 
 ## How to run it with Frank AI Researcher
 
