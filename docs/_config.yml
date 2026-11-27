@@ -190,6 +190,31 @@ defaults:
       description: "Customer interview questions for consumer mobile apps: an 8-question guide about the first session, return visits, and why people keep or delete an app. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with users you already have."
       schema_page: true
   - scope:
+      path: customer-interview-questions-for-ai-startups.md
+    values:
+      description: "Customer interview questions for AI startups: an 8-question guide about model trust, evaluation, and switching costs. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-cybersecurity.md
+    values:
+      description: "Customer interview questions for cybersecurity: an 8-question guide about buyer trust, security review, and alert fatigue. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with buyers or users you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-proptech.md
+    values:
+      description: "Customer interview questions for proptech: an 8-question guide about landlords, property managers, and tenants. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with people you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-legaltech.md
+    values:
+      description: "Customer interview questions for legaltech: an 8-question guide about law firm partners, in-house counsel, and confidentiality. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with customers you already have."
+      schema_page: true
+  - scope:
+      path: customer-interview-questions-for-logistics.md
+    values:
+      description: "Customer interview questions for logistics: an 8-question guide about shippers, carriers, and operations managers. Frank AI Researcher by hifrank.ai runs AI-moderated voice interviews with customers you already have."
+      schema_page: true
+  - scope:
       path: customer-interview-questions-for-product-managers.md
     values:
       seo_title: "Customer Interview Questions for Product Managers (Copy and Use)"

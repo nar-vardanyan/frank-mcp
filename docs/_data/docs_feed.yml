@@ -1,5 +1,25 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: Customer interview questions for AI startups
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-ai-startups.html
+    updated: 2026-11-27T07:00:00Z
+    summary: An 8-question guide about model trust, evaluation, and switching costs.
+  - title: Customer interview questions for cybersecurity
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-cybersecurity.html
+    updated: 2026-11-27T07:00:00Z
+    summary: An 8-question guide about buyer trust, security review, and alert fatigue.
+  - title: Customer interview questions for proptech
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-proptech.html
+    updated: 2026-11-27T07:00:00Z
+    summary: An 8-question guide about landlords, property managers, and tenants.
+  - title: Customer interview questions for legaltech
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-legaltech.html
+    updated: 2026-11-27T07:00:00Z
+    summary: An 8-question guide about law firm partners, in-house counsel, and confidentiality.
+  - title: Customer interview questions for logistics
+    url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-logistics.html
+    updated: 2026-11-27T07:00:00Z
+    summary: An 8-question guide about shippers, carriers, and operations managers.
   - title: Be honest with Frank
     url: https://nar-vardanyan.github.io/frank-mcp/be-honest-with-frank.html
     updated: 2026-11-26T17:00:00Z
