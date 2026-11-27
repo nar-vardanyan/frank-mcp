@@ -17,7 +17,7 @@ The source repository for these docs and the MCP metadata is [nar-vardanyan/fran
 - Run AI-moderated voice interviews with customers you already have.
 - Invite people with a link or a website widget; nobody has to book a call.
 - Read transcripts after each interview.
-- Connect it to an AI assistant over MCP. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+- Connect it to an AI assistant over MCP. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 - Install it from the ChatGPT app directory: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168).
 
 The MCP page is [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher). The MCP endpoint is `https://api.hifrank.ai/mcp`.

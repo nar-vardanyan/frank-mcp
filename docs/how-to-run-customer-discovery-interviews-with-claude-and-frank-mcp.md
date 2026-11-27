@@ -49,7 +49,7 @@ claude mcp add --transport http frank https://api.hifrank.ai/mcp
 
 Then sign in to Frank in the browser when prompted.
 
-MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Anthropic notes that custom connectors let Claude access and act in services that Anthropic has not verified, so only connect servers you trust; you can revoke access by disconnecting the connector ([Claude Help Center](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp)).
+MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse. Anthropic notes that custom connectors let Claude access and act in services that Anthropic has not verified, so only connect servers you trust; you can revoke access by disconnecting the connector ([Claude Help Center](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp)).
 
 ## Step 2: Ask Claude to draft a discovery study
 
@@ -110,7 +110,7 @@ If the problem is messy and you do not yet know what to ask, interview a few peo
 
 ## When Frank is a fit
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 
 As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp).
 
@@ -144,7 +144,7 @@ No. These interviews ask about a job people already do. They are not image tests
 
 ### Can I do the same from ChatGPT?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. For a churn-focused ChatGPT walkthrough, see [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md).
+Yes. Works with ChatGPT, Claude, Grok and Muse. For a churn-focused ChatGPT walkthrough, see [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md).
 
 ## Related
 

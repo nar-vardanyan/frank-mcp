@@ -28,7 +28,7 @@ Choose a tool that publishes a panel or recruiting. Budget for incentives and re
 
 ### If you want the AI to do the whole study
 
-Look for design and reporting as well as moderation. With Frank, you can work from your AI assistant: MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Your assistant can draft the study and summarize transcripts, while new research stays a draft until you approve it.
+Look for design and reporting as well as moderation. With Frank, you can work from your AI assistant: MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse. Your assistant can draft the study and summarize transcripts, while new research stays a draft until you approve it.
 
 ## What an AI interviewer still can't do for you
 

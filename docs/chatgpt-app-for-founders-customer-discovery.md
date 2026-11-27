@@ -55,7 +55,7 @@ For deep discovery on a messy problem, run some interviews yourself as well. AI 
 
 <p class="docs-study-cta-wrap"><a class="docs-study-cta" href="https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168">Install Frank in ChatGPT</a></p>
 
-Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-founders-discovery). The Free plan includes 60 voice minutes a month, with no card required, and MCP is included on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-founders-discovery). Frank is voice-first, supports multilingual interviews, and is SOC 2 and GDPR compliant. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-founders-discovery). The Free plan includes 60 voice minutes a month, with no card required, and MCP is included on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-founders-discovery). Frank is voice-first, supports multilingual interviews, and is SOC 2 and GDPR compliant. Works with ChatGPT, Claude, Grok and Muse.
 
 ## FAQ
 
@@ -73,7 +73,7 @@ Yes, if you can reach people who have the problem, such as your network, a waitl
 
 ### Does it work in Claude too?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. There is a [Claude discovery walkthrough](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.html).
+Yes. Works with ChatGPT, Claude, Grok and Muse. There is a [Claude discovery walkthrough](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.html).
 
 ### Is it free?
 

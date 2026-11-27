@@ -1,6 +1,6 @@
 # MCP Server for Customer Interviews
 
-**In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). MCP is included on every plan, including Free.
+**In short:** An MCP server for customer interviews lets your assistant create studies and read transcripts in chat. Frank AI Researcher has a remote MCP server at [https://api.hifrank.ai/mcp](https://api.hifrank.ai/mcp). You connect it once with OAuth, then your assistant can draft an AI-moderated voice interview study, publish it only with your explicit approval, and read the transcripts. Works with ChatGPT, Claude, Grok and Muse. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). MCP is included on every plan, including Free.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews)** (short name Frank), a voice-first product that runs AI-moderated voice interviews with your own customers. Frank does not recruit participants. This page is about the MCP server, using the public setup as of 27 November 2026.
 
@@ -8,7 +8,7 @@
 
 An MCP server for customer interviews lets an AI assistant create and read interview studies through the Model Context Protocol, instead of switching to a separate research app for every step. Frank's server is remote (no local install, no API key to paste). You add `https://api.hifrank.ai/mcp` in a client that supports remote servers with OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). Product-site setup is also on [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=mcp-server-for-customer-interviews).
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 ## Is this also a user research MCP server?
 
@@ -23,7 +23,7 @@ Yes, if the research you want is interviews with customers you already have. Fro
 | **Grok** | The same remote URL in Grok | Tested |
 | **Muse** | Running studies from Muse with a custom connector at the same remote URL | Tested |
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 ## User research MCP server for Claude Code
 
@@ -67,7 +67,7 @@ An MCP server for customer interviews lets your assistant create interview studi
 
 ### Which MCP clients work with Frank?
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 ### Is Frank available as a ChatGPT app?
 

@@ -44,7 +44,7 @@ Great Question's pricing page, opened 20 Nov 2026, says you can recruit your own
 
 Frank runs AI-moderated voice interviews from a shareable interviewer link or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives). Each interview returns a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=dovetail-alternatives).
 
-MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant, or keep them in a repository you already use.
+MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse. That means you can pull Frank transcripts into your assistant, or keep them in a repository you already use.
 
 **Weaker fit:** you need a repository for calls, tickets and reviews, a recruited panel, or video interviews. Frank does not replace Dovetail's analysis; it feeds it.
 
@@ -81,7 +81,7 @@ For collection, Frank runs AI-moderated voice interviews and returns transcripts
 No. Frank does not recruit participants. You invite your own customers by link or website widget.
 
 ### Can I use Frank with Dovetail?
-We have no Dovetail integration to cite. You can pull Frank transcripts into your assistant over MCP, which is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+We have no Dovetail integration to cite. You can pull Frank transcripts into your assistant over MCP, which is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 
 ## Related
 

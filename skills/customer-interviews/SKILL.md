@@ -22,7 +22,7 @@ metadata:
 
 Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. It supports 50+ interview languages and is SOC 2 and GDPR compliant. MCP is on every plan, including Free.
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 This skill always produces a study plan and a guide. When the Frank MCP is connected, it also creates the study, and publishes a voice interview after the user explicitly approves. Frank does not recruit participants. The user shares the interviewer link or website widget with customers they can already reach.
 
@@ -144,7 +144,7 @@ Use this when the Frank tools are missing or `ping` fails. Still hand over the p
 2. Sign in with OAuth (authorization code + PKCE, S256) and approve the scopes in the table above, including `research:publish` if this study should go live.
 3. MCP is included on every plan, including Free. Account and pricing: https://www.hifrank.ai and https://www.hifrank.ai/pricing. Connector docs: https://www.hifrank.ai/docs/frank-mcp-connector.
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 Claude Code:
 

@@ -49,7 +49,7 @@ Paste the questions you need into a new Frank study, take the interview yourself
 
 [Open Frank AI Researcher](https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-edtech) to start a study, or [try a live interview](https://www.hifrank.ai/try-frank?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-edtech) first.
 
-If you work in Claude or ChatGPT, connect Frank as an MCP server at `https://api.hifrank.ai/mcp`. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+If you work in Claude or ChatGPT, connect Frank as an MCP server at `https://api.hifrank.ai/mcp`. Works with ChatGPT, Claude, Grok and Muse. A study created through MCP stays a draft until you approve publishing.
 
 - [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-edtech)
 - [Churn (cancelled customers) template](templates/#churn-cancellation)
@@ -74,7 +74,7 @@ Only if you are already allowed to contact them and you follow your school's or 
 
 ### Can I run these interviews from ChatGPT or Claude?
 
-Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse. A study created through MCP stays a draft until you approve publishing.
 
 ## Interview questions by role
 

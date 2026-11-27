@@ -41,7 +41,7 @@ Usercall is included as the reference row. Cells say "not publicly listed" when 
 
 ### 1. Frank AI Researcher (our product): for interviewing customers you already have
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives), interviews run in parallel, and you read transcripts and themes. Interviews are multilingual. Frank is [available as an app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), and its remote MCP server (`https://api.hifrank.ai/mcp`) is included on every plan, including Free. Works with ChatGPT, Claude and Muse. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives).
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives), interviews run in parallel, and you read transcripts and themes. Interviews are multilingual. Frank is [available as an app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), and its remote MCP server (`https://api.hifrank.ai/mcp`) is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives).
 
 - **Pricing:** The Free plan includes 225 signup credits plus 60 voice minutes a month, no credit card. Starter is $49/mo billed annually or $59 monthly, Growth $166/$199, Business $312/$375 ([pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=usercall-alternatives)).
 - **Best for:** teams that already have customers to invite and want a free start and published prices.
@@ -119,7 +119,7 @@ Listen Labs, Outset, Strella, User Intuition and Maze describe recruiting on the
 
 ### Which Usercall alternatives work in ChatGPT?
 
-Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is in the OpenAI App Store, Strella says it is a connector in ChatGPT, and Outset and User Intuition say their MCP servers connect to ChatGPT. Usercall's hosted MCP connector also works in ChatGPT. Works with ChatGPT, Claude and Muse.
+Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is in the OpenAI App Store, Strella says it is a connector in ChatGPT, and Outset and User Intuition say their MCP servers connect to ChatGPT. Usercall's hosted MCP connector also works in ChatGPT. Works with ChatGPT, Claude, Grok and Muse.
 
 ### Is Frank AI Researcher cheaper than Usercall?
 
@@ -187,7 +187,7 @@ On published entry prices, Frank's Starter plan is $49/mo billed annually or $59
       "name": "Which Usercall alternatives work in ChatGPT?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is in the OpenAI App Store, Strella says it is a connector in ChatGPT, and Outset and User Intuition say their MCP servers connect to ChatGPT. Usercall's hosted MCP connector also works in ChatGPT. Works with ChatGPT, Claude and Muse."
+        "text": "Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is in the OpenAI App Store, Strella says it is a connector in ChatGPT, and Outset and User Intuition say their MCP servers connect to ChatGPT. Usercall's hosted MCP connector also works in ChatGPT. Works with ChatGPT, Claude, Grok and Muse."
       }
     },
     {

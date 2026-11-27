@@ -35,7 +35,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 Frank runs AI-moderated voice interviews with your own customers. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups) in an onboarding email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups), and users talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups).
 
-The Free plan includes 225 signup credits plus 60 voice minutes a month, interviews up to 10 minutes, sentiment and thematic analysis, and unlimited anonymous viewers, with no credit card. Paid plans have no free trial, and you can cancel anytime; a paid plan runs to the end of the period you've paid for, with no refund for the unused time ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+The Free plan includes 225 signup credits plus 60 voice minutes a month, interviews up to 10 minutes, sentiment and thematic analysis, and unlimited anonymous viewers, with no credit card. Paid plans have no free trial, and you can cancel anytime; a paid plan runs to the end of the period you've paid for, with no refund for the unused time ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 
 **Weaker fit:** you have no users yet (Frank does not recruit participants), or you need on-screen tasks.
 
@@ -91,7 +91,7 @@ Only if you have no users to invite. Frank does not recruit participants; Userca
 Enough that new conversations stop adding themes. For a fairly similar group, one study found that within the first 12 interviews.
 
 ### Can I run interviews from ChatGPT or Claude?
-With Frank, yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+With Frank, yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 
 ## Related
 

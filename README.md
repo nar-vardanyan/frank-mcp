@@ -6,9 +6,9 @@
 
 AI-moderated voice interviews with your customers: create studies, run them, read transcripts.
 
-Frank AI Researcher is an MCP server for customer interviews: it lets ChatGPT, Claude, and other MCP clients run AI-moderated voice interviews with your own customers and return transcripts and insights. You bring the customers; Frank does not recruit participants. MCP is included on every plan, including Free.
+Frank AI Researcher is an MCP server for customer interviews: it lets ChatGPT, Claude, Grok and Muse run AI-moderated voice interviews with your own customers and return transcripts and insights. You bring the customers; Frank does not recruit participants. MCP is included on every plan, including Free.
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168).
 
@@ -177,7 +177,7 @@ You can disconnect an assistant at any time under **Connected apps** in Frank.
 
 Frank is a remote MCP server. There is no install and no API key to paste. You add `https://api.hifrank.ai/mcp` as a remote connector in an MCP client that supports OAuth and streamable HTTP, then sign in to your Frank account (OAuth 2.1, authorization code + PKCE, S256). MCP is included on every plan, including Free.
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 In ChatGPT, the quickest path is the Frank app: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Clients that require dynamic client registration can't connect yet.
 
@@ -268,7 +268,7 @@ Frank AI Researcher (short name: Frank) is an AI customer interviewer built by P
 Share an interview link, or embed the Frank widget on your site or app. Participants talk when it suits them. Frank asks your questions, follows up, and can run interviews in parallel. You do not need to schedule one-to-one calls. Frank interviews your own customers, users or prospects; it does not recruit participants.
 
 **Can I run customer interviews from ChatGPT, Claude, or another MCP client?**
-Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, connect the server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Clients that require dynamic client registration can't connect yet.
+Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, connect the server at `https://api.hifrank.ai/mcp` with OAuth sign-in. Works with ChatGPT, Claude, Grok and Muse. Your assistant can draft a study, publish it only when you explicitly approve, and read the transcripts. MCP is on every plan, including Free. Setup: https://www.hifrank.ai/docs/frank-mcp-connector. Clients that require dynamic client registration can't connect yet.
 
 **What languages can Frank interview in?**
 Frank runs multilingual interviews, so you can interview customers in their own language. See [How to run user interviews in multiple languages](https://nar-vardanyan.github.io/frank-mcp/user-interviews-in-multiple-languages.html).
