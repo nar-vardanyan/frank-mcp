@@ -70,6 +70,14 @@ Sourced comparison of research MCP servers, checked 20 November 2026: [MCP serve
 - Mid-term drop-off, school non-renewal, and classroom setup. [Churn interview questions for edtech](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-edtech.html)
 
 
+## Frank in ChatGPT: answers
+
+- Yes, for user research interviews: draft in ChatGPT, interview your own users by voice, read transcripts and themes. Where it fits next to usability tests, surveys and analytics. [Is there a ChatGPT app for user research?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-user-research.html)
+- For product managers: draft interview studies in ChatGPT for roadmap, feature adoption and onboarding decisions, interview your own users by voice, and read themes in chat. [ChatGPT app for product managers to run customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-product-managers-customer-interviews.html)
+- For churn: draft a churn study in ChatGPT, put the voice interview link on your cancellation page or email, and read the trigger, alternative and save point in chat. [ChatGPT app for churn interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-churn-interviews.html)
+- For founders: draft a discovery study in ChatGPT, share the voice interview link with your network or waitlist, and test assumptions against what people actually did. [ChatGPT app for founders doing customer discovery](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-founders-customer-discovery.html)
+- One remote MCP server for both: Frank's ChatGPT app or custom MCP server, and a Claude custom connector or Claude Code, with OAuth and no API key. Side-by-side setup and safety notes. [MCP server for customer interviews in Claude and ChatGPT](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews-in-claude-and-chatgpt.html)
+
 ## ChatGPT prompts for customer interviews
 
 - A direct answer: Frank AI Researcher is available as an app in ChatGPT. How to install it, what you can do from chat, example prompts, and what it does not do. [Is there a ChatGPT app for customer interviews?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)

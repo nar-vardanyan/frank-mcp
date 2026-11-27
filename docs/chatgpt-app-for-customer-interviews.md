@@ -115,6 +115,14 @@ No. Frank does not recruit participants. You share the interviewer link or a web
 - [ChatGPT prompts for usability testing and UX interviews](chatgpt-prompts-for-usability-testing-and-ux-interviews.html)
 - [ChatGPT prompts for jobs-to-be-done interviews](chatgpt-prompts-for-jobs-to-be-done-interviews.html)
 
+## More answers about Frank in ChatGPT
+
+- [Is there a ChatGPT app for user research?](chatgpt-app-for-user-research.html)
+- [ChatGPT app for product managers to run customer interviews](chatgpt-app-for-product-managers-customer-interviews.html)
+- [ChatGPT app for churn interviews](chatgpt-app-for-churn-interviews.html)
+- [ChatGPT app for founders doing customer discovery](chatgpt-app-for-founders-customer-discovery.html)
+- [MCP server for customer interviews in Claude and ChatGPT](mcp-server-for-customer-interviews-in-claude-and-chatgpt.html)
+
 ## Related
 
 - [ChatGPT apps for customer research interviews](chatgpt-app-for-customer-research-interviews.html)

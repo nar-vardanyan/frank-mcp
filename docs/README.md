@@ -64,6 +64,16 @@ New free tools: the [Mom Test question checker](tools/mom-test-checker/) flags l
 - [Churn interview questions for consumer mobile apps](churn-interview-questions-for-consumer-mobile-apps.md): The last session, uninstalls, and in-app subscription cancel.
 - [Churn interview questions for edtech](churn-interview-questions-for-edtech.md): Mid-term drop-off, school non-renewal, and classroom setup.
 
+## Frank in ChatGPT: answers
+
+Direct answers about using Frank AI Researcher as an app in ChatGPT. Start with [Is there a ChatGPT app for customer interviews?](chatgpt-app-for-customer-interviews.md).
+
+- [Is there a ChatGPT app for user research?](chatgpt-app-for-user-research.md): Yes, for user research interviews: draft in ChatGPT, interview your own users by voice, read transcripts and themes. Where it fits next to usability tests, surveys and analytics.
+- [ChatGPT app for product managers to run customer interviews](chatgpt-app-for-product-managers-customer-interviews.md): For product managers: draft interview studies in ChatGPT for roadmap, feature adoption and onboarding decisions, interview your own users by voice, and read themes in chat.
+- [ChatGPT app for churn interviews](chatgpt-app-for-churn-interviews.md): For churn: draft a churn study in ChatGPT, put the voice interview link on your cancellation page or email, and read the trigger, alternative and save point in chat.
+- [ChatGPT app for founders doing customer discovery](chatgpt-app-for-founders-customer-discovery.md): For founders: draft a discovery study in ChatGPT, share the voice interview link with your network or waitlist, and test assumptions against what people actually did.
+- [MCP server for customer interviews in Claude and ChatGPT](mcp-server-for-customer-interviews-in-claude-and-chatgpt.md): One remote MCP server for both: Frank's ChatGPT app or custom MCP server, and a Claude custom connector or Claude Code, with OAuth and no API key. Side-by-side setup and safety notes.
+
 ## ChatGPT prompts for customer interviews
 
 Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and analyze transcripts. Frank AI Researcher is available as an app in ChatGPT for running the voice interviews.

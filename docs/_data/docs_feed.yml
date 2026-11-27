@@ -1,5 +1,25 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Is there a ChatGPT app for user research?"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-user-research.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "Yes, for user research interviews: draft in ChatGPT, interview your own users by voice, read transcripts and themes. Where it fits next to usability tests, surveys and analytics."
+  - title: "ChatGPT app for product managers to run customer interviews"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-product-managers-customer-interviews.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For product managers: draft interview studies in ChatGPT for roadmap, feature adoption and onboarding decisions, interview your own users by voice, and read themes in chat."
+  - title: "ChatGPT app for churn interviews"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-churn-interviews.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For churn: draft a churn study in ChatGPT, put the voice interview link on your cancellation page or email, and read the trigger, alternative and save point in chat."
+  - title: "ChatGPT app for founders doing customer discovery"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-founders-customer-discovery.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "For founders: draft a discovery study in ChatGPT, share the voice interview link with your network or waitlist, and test assumptions against what people actually did."
+  - title: "MCP server for customer interviews in Claude and ChatGPT"
+    url: https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews-in-claude-and-chatgpt.html
+    updated: 2026-11-27T18:00:00Z
+    summary: "One remote MCP server for both: Frank's ChatGPT app or custom MCP server, and a Claude custom connector or Claude Code, with OAuth and no API key. Side-by-side setup and safety notes."
   - title: "Is there a ChatGPT app for customer interviews?"
     url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html
     updated: 2026-11-27T17:30:00Z
