@@ -75,7 +75,7 @@ Use this guide with active accounts. If the customer already cancelled or downgr
 
 ### Can I run these interviews from ChatGPT or Claude?
 
-Yes. Use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
 
 ## Interview questions by role
 
