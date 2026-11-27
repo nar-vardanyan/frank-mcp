@@ -172,6 +172,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/
     updated: 2026-11-27T10:00:00Z
     summary: A free, MIT-licensed cancel survey widget for Stripe and Paddle cancel pages that asks why the customer is leaving and never blocks the cancel.
+  - title: Customer interview question bank
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/
+    updated: 2026-11-27T09:00:00Z
+    summary: A free, no-login bank of open, non-leading customer interview questions you can filter by goal and interview stage, then pick and copy as your own guide with follow-ups.
   - title: Customer interview summary template
     url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/
     updated: 2026-11-27T08:45:00Z

@@ -24,4 +24,5 @@
 - [Cancellation reason sorter](tools/cancellation-reason-sorter/)
 - [How many customer interviews planner](tools/customer-interview-sample-size-planner/)
 - [Customer interview summary template](tools/customer-interview-summary-template/)
+- [Customer interview question bank](tools/customer-interview-question-bank/)
 - [30 customer interview study templates](templates/)
