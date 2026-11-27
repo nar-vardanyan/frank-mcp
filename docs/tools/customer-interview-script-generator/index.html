@@ -127,6 +127,11 @@
   footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 1.7em; } }
   @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } #result { display:block; } }
+  /* chatgpt-cta */ .cta-chatgpt { margin-top:14px; padding-top:12px; border-top:1px solid #b7e1cf; }
+  .cta-chatgpt p { margin:0 0 10px; }
+  .btn-chatgpt { background:#fff; color:var(--accent); border:1px solid var(--accent); white-space:normal; max-width:100%; box-sizing:border-box; }
+  .btn-chatgpt:hover { background:#f6f8fa; }
+  .cta-signup { display:inline-block; margin:10px 0 0; }
 </style>
 </head>
 <body>
@@ -273,6 +278,12 @@
     <div class="cta">
       <p><strong>Run this interview with Frank, an AI user researcher that runs short voice interviews.</strong> You bring the customers and the questions. Frank talks to them by voice, follows up like a good interviewer, and gives you transcripts and themes, so you can hear from 20 customers without booking 20 calls.</p>
       <a class="btn btn-primary" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=script-generator">Try Frank</a>
+      <!-- chatgpt-cta -->
+      <div class="cta-chatgpt">
+        <p>Frank AI Researcher is available as an app in ChatGPT.</p>
+        <a class="btn btn-chatgpt" href="https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168" target="_blank" rel="noopener">Run it as voice interviews with Frank in ChatGPT</a><br>
+        <a class="cta-signup" href="https://app.hifrank.ai/signup?utm_source=frank-tools&amp;utm_medium=tool&amp;utm_campaign=customer-interview-script-generator-chatgpt">Or create a free Frank account</a>
+      </div>
     </div>
 
     <h2>Frequently asked questions</h2>
