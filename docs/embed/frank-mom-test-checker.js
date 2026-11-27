@@ -1,0 +1,343 @@
+/*! Frank AI Researcher embed: Mom Test question checker v0.1.0 | MIT, Prelaunch Group, Inc. | no tracking, no network calls */
+(function () {
+"use strict";
+if (typeof window === "undefined") return;
+// Mom Test checker rules. Pure functions, no network. Used by the page and by test_rules.js.
+var MTC = (function () {
+  var MAX_IN = 40;
+  var LABELS = {
+    pitch: "Pitching",
+    compliment: "Seeks compliments",
+    price: "Hypothetical price",
+    future: "Future or would-you",
+    hypothetical: "Hypothetical",
+    leading: "Leading",
+    closed: "Yes/no or closed"
+  };
+  var ORDER = ["pitch", "compliment", "price", "future", "hypothetical", "leading", "closed"];
+  var AUX = "(?:do|does|did|is|are|was|were|am|have|has|had|can|could|will|would|should|shall|may|might|must|don't|doesn't|didn't|isn't|aren't|wasn't|weren't|haven't|hasn't|won't|wouldn't|can't|couldn't|shouldn't)";
+  var RE = {
+    pitch: [
+      /\b(?:we(?:'re| are)|i(?:'m| am)) (?:building|making|creating|launching|developing|working on)\b/i,
+      /\bwe(?:'ve| have)? (?:built|made|created|launched|developed)\b/i,
+      /\bour (?:new |upcoming )?(?:product|app|tool|platform|solution|service|feature|software|startup|idea|prototype|plugin|extension)s? (?:that|which|lets|helps|will|can|makes|gives|automatically)\b/i,
+      /\b(?:imagine|picture) (?:a|an|our) (?:app|tool|product|platform|service)\b/i
+    ],
+    compliment: [
+      /\b(?:do|did|would|will) you (?:like|love|enjoy) (?:our|my|the|this|it)\b/i,
+      /\bwhat do you think (?:of|about) (?:our|my|this|the idea|the product|the app|the design|the feature|it)\b/i,
+      /\bhow do you feel about (?:our|my|this)\b/i,
+      /\b(?:is|was) (?:this|it|that|our|my) (?:\w+ )?(?:a )?(?:good|great|cool|useful|helpful|nice) (?:idea|product|app|tool|feature|design)?\b/i,
+      /\bhow (?:much do you like|good is (?:our|my|this))\b/i,
+      /\b(?:our|my) (?:idea|product|app|tool|design)\b.*\b(?:good|great|useful|cool)\b/i
+    ],
+    price: [
+      /\bhow much (?:would|will|might|could) you (?:pay|spend)\b/i,
+      /\b(?:would|will|might|could) you (?:pay|spend|subscribe)\b/i,
+      /\b(?:willing|be willing|ready) to (?:pay|spend|buy)\b/i,
+      /\bwhat (?:would|will) you (?:pay|spend)\b/i,
+      /\bwhat price (?:would|will)\b/i
+    ],
+    future: [
+      /\b(?:would|will|might|could|wouldn't|won't) you\b/i,
+      /\b(?:are|were) you (?:going|planning|likely) to\b/i,
+      /\bdo you (?:plan|intend|expect|think you(?:'ll| will)) to\b/i,
+      /\bdo you think you (?:would|will|might)\b/i,
+      /\b(?:would|will) (?:it|this|that|they|your team)\b/i,
+      /\bin the future\b/i,
+      /\bnext (?:year|month|quarter)\b/i
+    ],
+    hypothetical: [
+      /^(?:if|imagine|suppose|assuming|say)\b/i,
+      /\bwhat if\b/i,
+      /\bif (?:you|we|there) (?:could|had|were|was|built|offered|added|made|launched|gave|got)\b/i,
+      /\b(?:imagine|suppose|pretend|hypothetically|ideally)\b/i,
+      /\bmagic wand\b/i,
+      /\byour (?:ideal|dream|perfect)\b/i
+    ],
+    leading: [
+      new RegExp("^" + "(?:don't|doesn't|didn't|isn't|aren't|wasn't|weren't|wouldn't|won't|haven't|hasn't|can't|shouldn't) ", "i"),
+      /\b(?:wouldn't you agree|do you agree|would you agree|don't you think|isn't it true|right\?\s*$|correct\?\s*$)/i,
+      /\bhow (?:much|often) do you (?:hate|struggle|suffer)\b/i,
+      /\bhow (?:frustrating|annoying|painful|hard|difficult|great|easy|amazing|helpful|useful|bad|terrible|awful|confusing|good) (?:is|was|are|were|would|will|has|does|did)\b/i,
+      /\b(?:obviously|surely|clearly|of course)\b/i,
+      /\b(?:most|many|all|other) (?:people|users|customers|teams|founders) (?:say|tell us|find|agree|love|hate)\b/i,
+      /\b(?:frustrat|annoy|pain(?:ful)?|struggl|hate)\w* (?:with|about|by|when)\b.*\?$/i
+    ]
+  };
+  var POLITE = /^(?:can|could|would|will) you (?:please )?(?:walk|tell|talk|describe|show|share|explain|take|give|help me understand|recall|remember|think back)\b|^would you mind\b/i;
+  var CLOSED_START = new RegExp("^" + AUX + "\\b", "i");
+  var CHOICE = /\b(?:or not|which (?:one|of (?:these|the following|them)))\b|\b\w+ or \w+\?$/i;
+  var SCALE = /\bon a scale\b|\b(?:1|one) (?:to|-) (?:5|10|five|ten)\b|\brate\b/i;
+
+  function clean(line) {
+    return String(line).replace(/^\s*(?:[-*\u2022>]+|\(?\d{1,3}[.)\]:]|[a-z][.)])\s*/i, "")
+      .replace(/^["'\u201c\u2018]+|["'\u201d\u2019]+$/g, "").replace(/\s+/g, " ").trim();
+  }
+  function any(list, s) { for (var i = 0; i < list.length; i++) if (list[i].test(s)) return true; return false; }
+  function lc(s) { return s.charAt(0).toLowerCase() + s.slice(1); }
+
+  // Light, safe rewrites. When the question shape is not recognised we use a bracketed placeholder to fill in.
+  function doYouRewrite(q) {
+    var m = q.match(/^do you (?!think|feel|like|love|agree|want|need|plan|intend|expect)([a-z][a-z' -]{2,60}?)\??$/i);
+    if (!m) return null;
+    var rest = m[1].replace(/\b(?:ever|usually|often|currently|regularly|really|still|now)\b\s*/gi, "").trim();
+    if (!rest || /\b(?:our|my)\b/i.test(rest)) return null;
+    return "Walk me through how you " + rest + " today. When was the last time?";
+  }
+  function rewriteFor(flag, q) {
+    switch (flag) {
+      case "pitch": return "Leave your product out of the question. Ask: What is the hardest part of [the task] for you today? Tell me about the last time it came up.";
+      case "compliment": return "Tell me about the last time you needed to [do the job your product does]. What did you use, and what was missing?";
+      case "price": return "What do you spend on [this problem] today, in money or time? How did you decide that was worth it?";
+      case "future": return "Tell me about the last time you [ran into this problem]. What did you do about it?";
+      case "hypothetical": return "Tell me about a recent time [this situation] actually happened. What did you do?";
+      case "leading": return "Drop the hint and ask about a real event: Tell me about the last time you [did this]. How did it go?";
+      case "closed": return doYouRewrite(q) || "Tell me about the last time [this happened]. What happened, step by step?";
+    }
+    return "";
+  }
+  var REASONS = {
+    pitch: "It describes your product, so people react to your pitch instead of telling you about their own life.",
+    compliment: "It asks for an opinion of your idea. People are polite, so you mostly hear compliments, not facts.",
+    price: "Asking what someone would pay for something that does not exist gets a guess. What they already spend is real.",
+    future: "It asks about the future. Answers about what people would or will do are predictions, often optimistic.",
+    hypothetical: "It asks people to imagine a situation. Imagined answers are guesses, not evidence.",
+    leading: "The wording hints at the answer you want, so people tend to agree.",
+    closed: "It can be answered with yes, no or a pick from a list, so you get no story and no detail."
+  };
+
+  function check(raw) {
+    var q = clean(raw);
+    var flags = [];
+    function add(id) { if (flags.indexOf(id) < 0) flags.push(id); }
+    if (!q) return null;
+    if (any(RE.pitch, q)) add("pitch");
+    if (any(RE.compliment, q)) add("compliment");
+    if (any(RE.price, q)) add("price");
+    var polite = POLITE.test(q);
+    var rest = polite ? q.replace(POLITE, "") : q;
+    if (any(RE.future, rest) && flags.indexOf("price") < 0) add("future");
+    if (any(RE.hypothetical, q)) add("hypothetical");
+    if (any(RE.leading, q)) add("leading");
+    var sentences = q.replace(/([.!?])\s+/g, "$1\n").split("\n");
+    var closedStart = sentences.some(function (x, i) { return (i === 0 ? !polite : !POLITE.test(x)) && CLOSED_START.test(x) && (i === 0 || /\?$/.test(x)); });
+    if (closedStart || CHOICE.test(q) || SCALE.test(q)) add("closed");
+    flags.sort(function (a, b) { return ORDER.indexOf(a) - ORDER.indexOf(b); });
+    return {
+      q: q,
+      ok: flags.length === 0,
+      flags: flags.map(function (id) { return { id: id, label: LABELS[id], reason: REASONS[id], rewrite: rewriteFor(id, q) }; })
+    };
+  }
+
+  function checkAll(text) {
+    var lines = String(text || "").split(/\r?\n/).map(clean).filter(function (l) { return l.length > 1; });
+    var truncated = lines.length > MAX_IN;
+    lines = lines.slice(0, MAX_IN);
+    var rows = lines.map(check).filter(Boolean);
+    var counts = {};
+    ORDER.forEach(function (id) { counts[id] = 0; });
+    rows.forEach(function (r) { r.flags.forEach(function (f) { counts[f.id]++; }); });
+    var good = rows.filter(function (r) { return r.ok; }).length;
+    return { rows: rows, good: good, flagged: rows.length - good, counts: counts, truncated: truncated };
+  }
+
+  function summaryText(res) {
+    if (!res.rows.length) return "";
+    var parts = ORDER.filter(function (id) { return res.counts[id]; }).map(function (id) { return LABELS[id].toLowerCase() + ": " + res.counts[id]; });
+    return res.good + " of " + res.rows.length + " questions look fine. " +
+      (res.flagged ? res.flagged + " to rework (" + parts.join(", ") + ")." : "Nothing flagged.");
+  }
+
+  return { MAX_IN: MAX_IN, LABELS: LABELS, ORDER: ORDER, REASONS: REASONS, clean: clean, check: check, checkAll: checkAll, summaryText: summaryText };
+})();
+
+// Shared embed shell. Concatenated into each build by scripts/build.mjs.
+// No network calls, no cookies, no storage, no analytics. The only outbound thing is a plain link to hifrank.ai.
+var FE_VERSION = "0.1.0";
+var FE_HOME = "https://hifrank.ai/";
+var FE_SCRIPT = (typeof document !== "undefined" && document.currentScript) || null;
+
+function feEsc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+// utm_source defaults to "embed". The embedding site may set data-frank-source="myblog" to name itself.
+// Only [a-z0-9._-] are kept, max 60 chars. Nothing is read from the host page automatically.
+function feSource(v) { v = String(v || "").toLowerCase().replace(/[^a-z0-9._-]/g, "").slice(0, 60); return v || "embed"; }
+function feLink(slug, source) {
+  return FE_HOME + "?utm_source=" + feSource(source) + "&utm_medium=embed&utm_campaign=" + slug + "-embed";
+}
+
+function feOpt(el, name) {
+  var v = el.getAttribute("data-frank-" + name);
+  if (v == null && FE_SCRIPT) v = FE_SCRIPT.getAttribute("data-frank-" + name);
+  return v;
+}
+
+var FE_CSS = [
+  ":host{all:initial;display:block;}",
+  ".fe{--ink:#1f2328;--muted:#59636e;--line:#d1d9e0;--soft:#f6f8fa;--bg:#fff;--accent:#0b6e4f;--accent-dark:#085a40;--tag:#eaf6f1;--warn:#bf8700;--warn-bg:#fff1c2;--warn-ink:#6c4a00;--link:#0969da;",
+  "box-sizing:border-box;max-width:760px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);",
+  "font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.55;text-align:left;overflow-wrap:anywhere;}",
+  ".fe.dark{--ink:#e6edf3;--muted:#9ea7b3;--line:#3d444d;--soft:#151b23;--bg:#0d1117;--accent:#2ea876;--accent-dark:#7ee2b8;--tag:#0f2e22;--warn:#d29922;--warn-bg:#3a2a00;--warn-ink:#f2cc60;--link:#4493f8;}",
+  "@media (prefers-color-scheme:dark){.fe.auto{--ink:#e6edf3;--muted:#9ea7b3;--line:#3d444d;--soft:#151b23;--bg:#0d1117;--accent:#2ea876;--accent-dark:#7ee2b8;--tag:#0f2e22;--warn:#d29922;--warn-bg:#3a2a00;--warn-ink:#f2cc60;--link:#4493f8;}}",
+  ".fe *{box-sizing:border-box;}",
+  ".fe h2{font-size:1.25em;line-height:1.3;margin:0 0 4px;}",
+  ".fe h3{font-size:1.05em;margin:16px 0 6px;}",
+  ".fe p{margin:0 0 10px;}",
+  ".fe .lede{color:var(--muted);font-size:.95em;}",
+  ".fe a{color:var(--link);}",
+  ".fe label{display:block;font-weight:600;font-size:14px;margin:0 0 4px;}",
+  ".fe .hint{font-weight:400;color:var(--muted);}",
+  ".fe .field{margin:0 0 12px;}",
+  ".fe input,.fe textarea,.fe select{width:100%;padding:10px 12px;font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;}",
+  ".fe textarea{min-height:180px;resize:vertical;line-height:1.5;}",
+  ".fe .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}",
+  "@media (max-width:520px){.fe{padding:14px;}.fe .grid{grid-template-columns:1fr;}}",
+  ".fe input:focus-visible,.fe textarea:focus-visible,.fe select:focus-visible,.fe button:focus-visible,.fe a:focus-visible{outline:2px solid var(--link);outline-offset:2px;}",
+  ".fe .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:4px 0 0;}",
+  ".fe button{font:inherit;font-size:15px;font-weight:600;border-radius:6px;padding:10px 16px;cursor:pointer;min-height:44px;}",
+  ".fe .primary{background:var(--accent);color:#fff;border:1px solid var(--accent);}",
+  ".fe.dark .primary{color:#06140e;}@media (prefers-color-scheme:dark){.fe.auto .primary{color:#06140e;}}",
+  ".fe .primary:hover{filter:brightness(.92);}",
+  ".fe .ghost{background:var(--bg);color:var(--ink);border:1px solid var(--line);}",
+  ".fe .ghost:hover{background:var(--soft);}",
+  ".fe .out{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;}",
+  ".fe ol{padding-left:22px;margin:8px 0;}",
+  ".fe li{margin:0 0 12px;}",
+  ".fe .status{color:var(--accent-dark);font-weight:600;font-size:14px;}",
+  ".fe .credit{margin-top:16px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}",
+  ".fe .credit p{margin:0 0 4px;}",
+  ".fe .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}",
+  "@media (prefers-reduced-motion:reduce){.fe *{transition:none!important;animation:none!important;}}",
+  "@media print{.fe form,.fe .actions{display:none!important;}}"
+].join("");
+
+function feCredit(slug, el) {
+  var href = feLink(slug, feOpt(el, "source"));
+  var blurb = feOpt(el, "blurb") === "off" ? "" :
+    "<p>Frank is an AI user researcher that runs short voice interviews. Free plan: 60 voice minutes a month, no card required.</p>";
+  return "<div class=\"credit\">" + blurb +
+    "<p><a class=\"credit-link\" href=\"" + feEsc(href) + "\" target=\"_blank\" rel=\"noopener nofollow\">Powered by Frank</a>" +
+    "<span class=\"sr\"> (opens in a new tab)</span></p><p>Runs in your browser; nothing you type is sent anywhere.</p></div>";
+}
+
+var FE_SEQ = 0;
+function feUid(p) { FE_SEQ++; return "fe-" + p + "-" + FE_SEQ; }
+
+// Mounts kind into every [data-frank-embed="kind"] element. If there is none,
+// a container is created right before the <script> tag, so one pasted <script> is enough.
+function feBoot(kind, mount) {
+  function mountEl(el) {
+    if (!el || el.__frankMounted) return;
+    el.__frankMounted = true;
+    el.setAttribute("data-frank-mounted", FE_VERSION);
+    var root = el.attachShadow ? el.attachShadow({ mode: "open" }) : el;
+    var style = document.createElement("style");
+    style.textContent = FE_CSS;
+    var box = document.createElement("div");
+    var theme = feOpt(el, "theme");
+    box.className = "fe " + (theme === "dark" ? "dark" : theme === "auto" ? "auto" : "light");
+    root.appendChild(style);
+    root.appendChild(box);
+    mount(box, el);
+  }
+  function isBox(n) { return n && n.nodeType === 1 && n.getAttribute("data-frank-embed") === kind; }
+  function run() {
+    // 1) The script's own spot: reuse the container right before it, or create one there.
+    //    A script placed in <head> creates nothing and only fills containers.
+    if (FE_SCRIPT && FE_SCRIPT.parentNode && FE_SCRIPT.parentNode.nodeName !== "HEAD") {
+      var prev = FE_SCRIPT.previousElementSibling;
+      if (!isBox(prev) || prev.__frankMounted) {
+        prev = document.createElement("div");
+        prev.setAttribute("data-frank-embed", kind);
+        FE_SCRIPT.parentNode.insertBefore(prev, FE_SCRIPT);
+      }
+      mountEl(prev);
+    }
+    // 2) Fill every other container of this kind on the page.
+    var all = document.querySelectorAll('[data-frank-embed="' + kind + '"]');
+    for (var i = 0; i < all.length; i++) mountEl(all[i]);
+  }
+  window.FrankEmbeds = window.FrankEmbeds || {};
+  window.FrankEmbeds[kind] = { version: FE_VERSION, mount: mountEl };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+}
+
+function feCopy(text, status) {
+  function ok() { status.textContent = "Copied"; }
+  function fallback() {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); ok(); } catch (e) { status.textContent = "Select the text and copy it manually"; }
+    document.body.removeChild(ta);
+  }
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+}
+
+// Mom Test question checker embed UI. Rules come from MTC (checker-core.js), unchanged from the live tool.
+var MTC_EXAMPLE = [
+  "1. Would you use an app that tracks team expenses?",
+  "2. How much would you pay for it?",
+  "3. Don't you think expense reports are a pain?",
+  "4. What do you think of our idea?",
+  "5. Do you track expenses in a spreadsheet?",
+  "6. Tell me about the last time you filed an expense report.",
+  "7. What did you try before your current process?"
+].join("\n");
+var MTC_CSS = [
+  ".fe .row{list-style:none;border:1px solid var(--line);border-left-width:4px;border-radius:8px;padding:10px 12px;margin:0 0 10px;}",
+  ".fe .rows{padding:0;}",
+  ".fe .row.ok{border-left-color:var(--accent);}",
+  ".fe .row.bad{border-left-color:var(--warn);}",
+  ".fe .q{font-weight:600;display:block;}",
+  ".fe .verdict{font-size:.88em;color:var(--accent-dark);font-weight:600;margin:4px 0 0;}",
+  ".fe .flag{margin:6px 0 0;font-size:.95em;}",
+  ".fe .tag{display:inline-block;font-size:.78em;font-weight:600;background:var(--warn-bg);color:var(--warn-ink);border-radius:10px;padding:0 8px;margin-right:6px;}",
+  ".fe .rw{display:block;color:var(--muted);}",
+  ".fe .summary{font-weight:600;}",
+  ".fe .note{font-size:.9em;color:var(--muted);}"
+].join("");
+
+function mtcResultHTML(res) {
+  if (!res.rows.length) return "<p class=\"note\">Paste at least one interview question above, one per line, then press Check my questions.</p>";
+  return (res.truncated ? "<p class=\"note\">Only the first " + MTC.MAX_IN + " questions were checked.</p>" : "") +
+    "<ol class=\"rows\">" + res.rows.map(function (r) {
+      return "<li class=\"row " + (r.ok ? "ok" : "bad") + "\"><span class=\"q\">" + feEsc(r.q) + "</span>" +
+        (r.ok ? "<p class=\"verdict\">Looks fine: open and about real experience.</p>" :
+          r.flags.map(function (f) {
+            return "<p class=\"flag\" data-flag=\"" + f.id + "\"><span class=\"tag\">" + feEsc(f.label) + "</span>" + feEsc(f.reason) +
+              "<span class=\"rw\">Try: " + feEsc(f.rewrite) + "</span></p>";
+          }).join("")) + "</li>";
+    }).join("") + "</ol>";
+}
+
+feBoot("mom-test-checker", function (box, el) {
+  var id = feUid("mtc");
+  var st = document.createElement("style"); st.textContent = MTC_CSS; box.parentNode.insertBefore(st, box);
+  var example = feOpt(el, "example") === "off" ? "" : MTC_EXAMPLE;
+  box.setAttribute("role", "group"); box.setAttribute("aria-labelledby", id + "-t");
+  box.innerHTML =
+    "<h2 id=\"" + id + "-t\">Mom Test question checker</h2>" +
+    "<p class=\"lede\">Paste the questions you plan to ask customers, one per line. Each one is checked for wording that tends to get polite guesses instead of facts, with a short reason and a rewrite.</p>" +
+    "<form autocomplete=\"off\">" +
+    "<div class=\"field\"><label for=\"" + id + "-qs\">Interview questions <span class=\"hint\">(one per line, up to " + MTC.MAX_IN + ")</span></label>" +
+    "<textarea id=\"" + id + "-qs\" name=\"qs\" spellcheck=\"true\">" + feEsc(example) + "</textarea></div>" +
+    "<div class=\"actions\"><button class=\"primary\" type=\"submit\">Check my questions</button>" +
+    "<button class=\"ghost\" type=\"button\" data-act=\"clear\">Clear</button></div></form>" +
+    "<section class=\"out\"><h3 class=\"sr\">Results</h3><p class=\"summary\" role=\"status\" aria-live=\"polite\"></p><div class=\"rows-wrap\"></div>" +
+    "<p class=\"note\">Simple pattern rules inspired by The Mom Test by Rob Fitzpatrick. Our own heuristics, not affiliated with or endorsed by the author. A flag can be wrong in context; use it as a second look.</p></section>" +
+    feCredit("mom-test-checker", el);
+  var qs = box.querySelector("textarea"), sum = box.querySelector(".summary"), wrap = box.querySelector(".rows-wrap");
+  function render() {
+    var res = MTC.checkAll(qs.value);
+    sum.textContent = MTC.summaryText(res);
+    wrap.innerHTML = mtcResultHTML(res);
+  }
+  box.querySelector("form").addEventListener("submit", function (e) { e.preventDefault(); render(); });
+  box.querySelector("[data-act=clear]").addEventListener("click", function () { qs.value = ""; render(); qs.focus(); });
+  render();
+});
+
+})();

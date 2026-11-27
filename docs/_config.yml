@@ -20,6 +20,11 @@ include:
 # Page-specific descriptions. Kept out of the markdown files so those
 # sources stay front-matter-free and GitHub Pages still publishes the .md copies.
 defaults:
+  # Embeddable tools: iframe pages are noindex, keep them out of the sitemap.
+  - scope:
+      path: embed
+    values:
+      sitemap: false
   - scope:
       path: README.md
     values:
