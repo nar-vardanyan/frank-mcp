@@ -153,6 +153,12 @@ defaults:
       seo_title: "Customer Interview Questions Template: Copy and Use"
       schema_page: true
   - scope:
+      path: free-customer-interview-guide-templates.md
+    values:
+      seo_title: "Free Customer Interview Guide Templates: 6 Voice Interview Guides"
+      description: "Six free customer interview guide templates for startups: sign-up reasons, churn, what to build next, price or concept tests, win-loss and onboarding. Five questions each, sized for a 10-minute interview, ready to run as AI-moderated voice interviews in Frank AI Researcher."
+      schema_page: true
+  - scope:
       path: validate-a-startup-idea-with-customer-interviews.md
     values:
       description: "How to validate a startup idea with customer interviews: interview people about a job they already do, not about whether they like your idea. Frank AI Researcher does not recruit participants."
@@ -662,3 +668,68 @@ defaults:
       description: "Add the Frank voice interview widget to a Base44 app: a paste-in prompt, the install code, and where to place it. Plus how to add a custom MCP connection in Base44 (Builder plan and up)."
       schema_page: true
       hide_signup_cta: true
+  - scope:
+      path: use-cases/index.md
+    values:
+      seo_title: "Customer Interview Use Cases: 10 Task Flows for Frank"
+      description: "Ten customer interview use cases for Frank AI Researcher, each with a step-by-step MCP task flow, a sample voice interview guide, what you get back and an example agent prompt."
+  - scope:
+      path: use-cases/onboarding-friction-interviews.md
+    values:
+      seo_title: "Onboarding Friction Interviews: Find Where New Users Get Stuck"
+      description: "Interview new users a few days after signup about their first session, so you hear in their words where onboarding slowed them down and what they expected instead."
+      schema_page: true
+  - scope:
+      path: use-cases/pricing-change-reaction-interviews.md
+    values:
+      seo_title: "Pricing Change Reaction Interviews: Hear How Customers Respond Before You Announce"
+      description: "Before you change a plan or a price, interview current customers about how they use the plan today and how they would react to the change, so you see the risk in their own words."
+      schema_page: true
+  - scope:
+      path: use-cases/feature-prioritization-interviews.md
+    values:
+      seo_title: "Feature Prioritization Interviews: Rank Requests by the Problem Behind Them"
+      description: "Interview the customers who asked for features on your roadmap about the problem behind each request, so you can rank work by how often and how badly the problem hurts."
+      schema_page: true
+  - scope:
+      path: use-cases/signup-motivation-interviews.md
+    values:
+      seo_title: "Signup Motivation Interviews: Learn Why New Users Signed Up"
+      description: "Interview people within a few days of signup about what was happening when they decided to try your product, so your homepage and onboarding speak to the real reason."
+      schema_page: true
+  - scope:
+      path: use-cases/nps-follow-up-interviews.md
+    values:
+      seo_title: "NPS Follow-up Interviews: Find Out What Is Behind the Score"
+      description: "After an NPS or satisfaction survey, invite detractors and passives to a short voice interview about the reason for their score, so you get the story behind the number."
+      schema_page: true
+  - scope:
+      path: use-cases/beta-feedback-interviews.md
+    values:
+      seo_title: "Beta Feedback Interviews: Talk to Every Beta User About Real Use"
+      description: "Interview beta users after they have used the new feature on real work, so you learn what worked, what broke and whether they would keep using it before general release."
+      schema_page: true
+  - scope:
+      path: use-cases/persona-discovery-interviews.md
+    values:
+      seo_title: "Persona Discovery Interviews: Learn Who Your Best Customers Really Are"
+      description: "Interview your most active customers about their role, their work and the job your product does for them, so your personas come from evidence instead of guesses."
+      schema_page: true
+  - scope:
+      path: use-cases/support-follow-up-interviews.md
+    values:
+      seo_title: "Support Follow-up Interviews: Learn the Root Cause Behind Support Tickets"
+      description: "After a support ticket is resolved, invite the customer to a short voice interview about what they were trying to do when the problem started, so you fix the cause and not only the ticket."
+      schema_page: true
+  - scope:
+      path: use-cases/trial-conversion-interviews.md
+    values:
+      seo_title: "Trial Conversion Interviews: Learn Why Trial Users Did or Did Not Upgrade"
+      description: "Interview users at the end of a trial or free period about what they tried, what they expected and what decided the upgrade, so you know what blocks conversion."
+      schema_page: true
+  - scope:
+      path: use-cases/upgrade-motivation-interviews.md
+    values:
+      seo_title: "Upgrade Motivation Interviews: Learn Why Customers Moved to a Paid Plan"
+      description: "Interview customers who recently upgraded or expanded about what was happening when they decided, so you can find more customers in the same situation and repeat it."
+      schema_page: true
