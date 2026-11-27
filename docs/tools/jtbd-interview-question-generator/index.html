@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JTBD Switch Interview Question Generator (Free, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free Jobs to Be Done switch interview question generator. Enter your product and what customers used before, and get a timeline interview guide with probes, each question tagged push, pull, anxiety or habit, plus a coding sheet. Works for churned customers too. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="JTBD Switch Interview Question Generator (Free, No Login)">
+<meta property="og:description" content="A Jobs to Be Done switch interview guide for your product: timeline questions with probes, tagged by the four forces of progress. For new customers or churned ones.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JTBD Switch Interview Question Generator (Free, No Login)">
+<meta name="twitter:description" content="Timeline interview questions with probes, tagged push, pull, anxiety or habit. For customers who switched to you or away from you.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/#app",
+      "name": "JTBD Switch Interview Question Generator",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to build a guide for your own product. A worked example is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based generator for Jobs to Be Done switch interviews. Enter your product, what customers used before (or moved to) and who they are, and get a timeline interview guide (first thought, passive looking, the event, deciding, first use) with a probe for every question, each tagged with the force of progress it uncovers: push, pull, anxiety or habit. Includes a switched-away mode for churned customers and a coding sheet. Fixed templates, no login, no AI model, nothing sent to a server.",
+      "featureList": ["Switch interview questions for new customers", "Switch interview questions for churned customers", "Short (8 questions) or full (13 questions) guide", "Probe for every question", "Questions tagged push, pull, anxiety or habit", "Coding sheet and job statement", "Copy to clipboard", "Download as Markdown or plain text"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "JTBD Switch Interview Question Generator", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is the difference between a switch interview and a normal customer interview?", "acceptedAnswer": { "@type": "Answer", "text": "A normal interview often asks about needs and opinions. A switch interview follows one real decision in order, from the first thought to the first weeks after, so the answers are facts about what happened rather than guesses about what people want." } },
+        { "@type": "Question", "name": "Can I use it with customers who cancelled?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Choose \"Customers who left you\" and the guide asks about the story of leaving: the first sign it stopped working, the event that made them go, what they chose instead and what they still miss." } },
+        { "@type": "Question", "name": "Does this use AI?", "acceptedAnswer": { "@type": "Answer", "text": "No. It fills your product and the other option into fixed question templates. The same input always gives the same guide." } },
+        { "@type": "Question", "name": "Is it free? Do I need an account?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is free and needs no login. It runs in your browser, and nothing you type is sent to a server or stored." } },
+        { "@type": "Question", "name": "Does Frank find people to interview?", "acceptedAnswer": { "@type": "Answer", "text": "No. Frank does not recruit participants. You invite customers you already have, such as recent signups or churned accounts." } },
+        { "@type": "Question", "name": "Can I set up the interview from an AI assistant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank has a remote MCP server at https://api.hifrank.ai/mcp, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+  fieldset { border:0; padding:0; margin:0 0 14px; }
+  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }
+  .radios label, .radios { font-weight:400; }
+  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }
+  .radios input { width:auto; }
+  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .tag.push { background:#ffebe9; color:#82071e; }
+  .tag.pull { background:#ddf4ff; color:#0a3069; }
+  .tag.anxiety { background:#fff1c2; color:#6c4a00; }
+  .tag.habit { background:#f3e8ff; color:#4c1d95; }
+  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }
+  .phase-goal { color:var(--muted); margin-top:-6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>
+  </nav>
+
+  <main>
+    <h1>JTBD Switch Interview Question Generator</h1>
+    <p class="lede">Build a Jobs to Be Done switch interview for your own product. Enter what customers used before and who they are, and get a timeline guide with a probe for every question, each tagged with the force it uncovers: push, pull, anxiety or habit. Works for customers who switched to you and for customers who left. Free, no login: it runs in your browser and nothing you type is sent anywhere.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <fieldset class="radios">
+        <legend>Who are you interviewing?</legend>
+        <label><input type="radio" name="mode" id="mode-to" value="to" checked> New customers who switched to you</label>
+        <label><input type="radio" name="mode" id="mode-away" value="away"> Customers who left you</label>
+      </fieldset>
+      <div class="grid2">
+        <div class="field">
+          <label for="product">Your product <span class="hint">(name)</span></label>
+          <input id="product" name="product" maxlength="60" value="Acme Invoicing" placeholder="Acme Invoicing">
+        </div>
+        <div class="field">
+          <label for="other"><span id="other-label">What they used before</span> <span class="hint">(optional)</span></label>
+          <input id="other" name="other" maxlength="60" value="spreadsheets" placeholder="spreadsheets">
+        </div>
+        <div class="field">
+          <label for="who">Who they are <span class="hint">(optional, plural)</span></label>
+          <input id="who" name="who" maxlength="60" value="Freelance designers" placeholder="Freelance designers">
+        </div>
+        <div class="field">
+          <label for="length">Length</label>
+          <select id="length" name="length">
+            <option value="short" selected>Short: 8 questions, 15 to 20 minutes</option>
+            <option value="full">Full timeline: 13 questions, 30 to 45 minutes</option>
+          </select>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Build my interview guide</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Your interview guide</h2>
+      <article class="guide" id="guide" aria-live="polite">
+        <h2>JTBD switch interview: why people switched to Acme Invoicing</h2><p><strong>Who to interview:</strong> Freelance designers who started using Acme Invoicing in the last 90 days and took part in the decision, while it is still fresh.</p><p><strong>Length:</strong> about 15 to 20 minutes, 8 questions.</p><p class="say"><strong>Opening:</strong> Thanks for making time. I'd like to hear the story of how you came to use Acme Invoicing, from the very first moment you thought about changing. There are no right answers, and I'm not here to sell you anything. It takes about 15 to 20 minutes.</p><h3 data-phase="first">First thought</h3><p class="phase-goal">Find the first moment the old way stopped being good enough.</p><ol start="1"><li class="q" data-force="push"><span class="tag push">Push</span>Think back to before you used Acme Invoicing. When did you first feel you needed something better than spreadsheets? What happened that day?<span class="probe">Probe: Keep going back in time until they reach the very first moment. Ask what else was going on at work or at home.</span></li><li class="q" data-force="habit"><span class="tag habit">Habit</span>What did you still like about spreadsheets at that point?<span class="probe">Probe: This is the habit force. Ask how long they had done it that way and what made it good enough.</span></li></ol><h3 data-phase="event">The event and active looking</h3><p class="phase-goal">The moment interest turned into a search, and what they compared.</p><ol start="3"><li class="q" data-force="push"><span class="tag push">Push</span>What happened that made you start looking seriously? Why then and not a month earlier?<span class="probe">Probe: Look for a dated event: a deadline, a cost, a complaint, a new boss, a failure. Ask how much time passed since the first thought.</span></li><li class="q" data-force="pull"><span class="tag pull">Pull</span>Which options did you look at, including doing nothing or building something yourself? Where did you find them?<span class="probe">Probe: Ask how each option got onto the list and which one they almost picked.</span></li></ol><h3 data-phase="decide">Deciding</h3><p class="phase-goal">The pull of the chosen option and the worries at the moment of choice.</p><ol start="5"><li class="q" data-force="pull"><span class="tag pull">Pull</span>What made you pick Acme Invoicing over the others? Tell me about the moment you knew.<span class="probe">Probe: If they name a feature, ask what that feature let them do that they couldn't do before.</span></li><li class="q" data-force="anxiety"><span class="tag anxiety">Anxiety</span>What worried you just before you signed up or paid? What made the worry go away?<span class="probe">Probe: Ask what reduced the worry: a free plan, a review, a colleague, a refund policy.</span></li></ol><h3 data-phase="after">First use and the new normal</h3><p class="phase-goal">Compare the progress they expected with what they got.</p><ol start="7"><li class="q" data-force="progress"><span class="tag progress">Progress</span>Tell me about the first time you used Acme Invoicing. What did you do first, and what happened?<span class="probe">Probe: Ask what they expected it to do that it did, or did not do. A gap here is a churn risk.</span></li><li class="q" data-force="habit"><span class="tag habit">Habit</span>What do you still miss about spreadsheets?<span class="probe">Probe: Habits that survive the switch show where people may drift back.</span></li></ol><h3>After each interview</h3><p>Write one job statement in the customer's words: <em>When [situation], I want to [motivation], so I can [expected outcome].</em> Then note the push, pull, anxiety and habit you heard, with exact quotes.</p>
+      </article>
+      <noscript><p>JavaScript is off, so the example guide is shown. Turn on JavaScript to build a guide for your own product.</p></noscript>
+      <div class="actions js-only">
+        <button class="btn btn-ghost" type="button" id="copy">Copy guide</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <button class="btn btn-ghost" type="button" id="dl-txt">Download .txt</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> A switch interview is a story told out loud, so it suits a voice conversation. Put these questions into a Frank study and share one link with customers you already have, new or churned. Frank asks them out loud, follows up on each answer, and gives you transcripts and themes. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-tools&amp;utm_campaign=jtbd-interview-question-generator">Run it as a voice interview with Frank</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>What is a JTBD switch interview?</h2>
+    <p>A switch interview is a Jobs to Be Done method for learning why people change from one way of doing something to another. Instead of asking what people want, you ask them to tell the story of one real switch, from the first moment the old way felt wrong to the first weeks with the new one. The story shows the job they were trying to get done, in their own words. You can run it with people who switched to your product, or with people who switched away from it.</p>
+
+    <h2>The four forces of progress</h2>
+    <p>Two forces push people toward a change, and two hold them back. Every question in the guide is tagged with the force its answer usually reveals.</p>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Force</th><th scope="col">What it is</th><th scope="col">Example question from the guide</th></tr></thead>
+      <tbody>
+        <tr><td><span class="tag push">Push</span></td><td>Pulls toward change: the problems with the current way that make people start looking.</td><td>Think back to before you used [your product]. When did you first feel you needed something better than [the old way]? What happened that day?</td></tr>
+        <tr><td><span class="tag pull">Pull</span></td><td>Pulls toward change: the outcome people picture with the new option.</td><td>After that first thought, what did you notice about other ways to do this, before you started looking properly?</td></tr>
+        <tr><td><span class="tag anxiety">Anxiety</span></td><td>Holds people back: worries about the new option, such as cost, effort or risk.</td><td>What kept you from changing at that point?</td></tr>
+        <tr><td><span class="tag habit">Habit</span></td><td>Holds people back: comfort with the current way, even when it is not great.</td><td>What did you still like about [the old way] at that point?</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>The timeline, phase by phase</h2>
+    <ol>
+      <li><strong>The switch.</strong> Anchor the story on the day they started. For example: "Roughly when did you start using [your product]? Where were you and what were you doing when you signed up?"</li>
+      <li><strong>First thought.</strong> Find the first moment the old way stopped being good enough. For example: "Think back to before you used [your product]. When did you first feel you needed something better than [the old way]? What happened that day?"</li>
+      <li><strong>Passive looking.</strong> What they noticed before they searched in earnest. For example: "After that first thought, what did you notice about other ways to do this, before you started looking properly?"</li>
+      <li><strong>The event and active looking.</strong> The moment interest turned into a search, and what they compared. For example: "What happened that made you start looking seriously? Why then and not a month earlier?"</li>
+      <li><strong>Deciding.</strong> The pull of the chosen option and the worries at the moment of choice. For example: "What made you pick [your product] over the others? Tell me about the moment you knew."</li>
+      <li><strong>First use and the new normal.</strong> Compare the progress they expected with what they got. For example: "Tell me about the first time you used [your product]. What did you do first, and what happened?"</li>
+    </ol>
+
+    <h2>Coding sheet: what to write after each interview</h2>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Field</th><th scope="col">What to write</th></tr></thead>
+      <tbody>
+        <tr><td>Who</td><td>Role, company size or segment, and the date of the switch</td></tr>
+        <tr><td>First thought</td><td>When it started and what triggered it</td></tr>
+        <tr><td>The event</td><td>The dated moment that turned "someday" into "now"</td></tr>
+        <tr><td>Push</td><td>Their exact words about what was going wrong</td></tr>
+        <tr><td>Pull</td><td>The outcome they pictured, in their words, not your feature names</td></tr>
+        <tr><td>Anxiety</td><td>What worried them, and what got them past it</td></tr>
+        <tr><td>Habit</td><td>What kept them on the old way, and what they still miss</td></tr>
+        <tr><td>Options considered</td><td>Including doing nothing, doing it by hand or building their own</td></tr>
+        <tr><td>Job statement</td><td>When [situation], I want to [motivation], so I can [expected outcome].</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>Tips for running switch interviews</h2>
+    <ul>
+      <li><strong>Talk to recent switchers.</strong> People remember the details of a decision best while it is fresh, so aim for the last few months.</li>
+      <li><strong>Talk to the person who decided.</strong> A user who had a tool chosen for them can tell you about use, not about the switch.</li>
+      <li><strong>Ask for the story, not the reasons.</strong> "What happened next?" gets better answers than "Why did you choose it?"</li>
+      <li><strong>Don't name the forces.</strong> Nobody can answer "what was your anxiety?" Ask about the moment, and listen for the force.</li>
+      <li><strong>Keep going until the stories repeat.</strong> Stop when new interviews stop adding new events, worries or alternatives.</li>
+    </ul>
+
+    <h2>About this method</h2>
+    <p>The switch interview and the four forces of progress (push, pull, anxiety and habit) come from the Jobs to Be Done work of Bob Moesta, Chris Spiek and The Re-Wired Group. Their own walkthrough of the <a href="https://jobstobedone.org/radio/unpacking-the-progress-making-forces-diagram/" rel="noopener">forces of progress diagram</a> is a good place to start. The questions on this page are our own wording, and this tool is not affiliated with or endorsed by them.</p>
+
+    <h2>FAQ</h2>
+    <h3>What is the difference between a switch interview and a normal customer interview?</h3>
+    <p>A normal interview often asks about needs and opinions. A switch interview follows one real decision in order, from the first thought to the first weeks after, so the answers are facts about what happened rather than guesses about what people want.</p>
+    <h3>Can I use it with customers who cancelled?</h3>
+    <p>Yes. Choose &quot;Customers who left you&quot; and the guide asks about the story of leaving: the first sign it stopped working, the event that made them go, what they chose instead and what they still miss.</p>
+    <h3>Does this use AI?</h3>
+    <p>No. It fills your product and the other option into fixed question templates. The same input always gives the same guide.</p>
+    <h3>Is it free? Do I need an account?</h3>
+    <p>Yes, it is free and needs no login. It runs in your browser, and nothing you type is sent to a server or stored.</p>
+    <h3>Does Frank find people to interview?</h3>
+    <p>No. Frank does not recruit participants. You invite customers you already have, such as recent signups or churned accounts.</p>
+    <h3>Can I set up the interview from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/templates/">30 customer interview study templates</a>, including a ready jobs-to-be-done switch template</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/">Survey to interview question converter</a>: turn survey questions into interview questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/">Cancel-page churn survey widget</a>: ask cancelling customers why, for Stripe and Paddle</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html">Churn interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/win-loss-interviews.html">Win-loss interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-tools&amp;utm_campaign=jtbd-interview-question-generator">Frank AI Researcher</a>. The questions are starting points: edit them so they sound like you. Nothing you type on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+// JTBD switch interview question generator: templates only, no network, no AI model.
+var JTBD = (function () {
+  var MAXLEN = 60;
+  var FORCES = {
+    push: { label: "Push", text: "what was going wrong with the old way" },
+    pull: { label: "Pull", text: "what drew them to the new option" },
+    anxiety: { label: "Anxiety", text: "what worried them about changing" },
+    habit: { label: "Habit", text: "what kept them on the old way" },
+    timeline: { label: "Timeline", text: "anchors the story to real dates and moments" },
+    progress: { label: "Progress", text: "what actually changed afterwards" }
+  };
+  var PHASES = [
+    { id: "anchor", title: { to: "The switch", away: "The switch" }, goal: { to: "Anchor the story on the day they started.", away: "Anchor the story on the day they left." } },
+    { id: "first", title: { to: "First thought", away: "First thought" }, goal: { to: "Find the first moment the old way stopped being good enough.", away: "Find the first moment the product stopped working for them." } },
+    { id: "passive", title: { to: "Passive looking", away: "Passive looking" }, goal: { to: "What they noticed before they searched in earnest.", away: "What they noticed before they decided to leave." } },
+    { id: "event", title: { to: "The event and active looking", away: "The event and active looking" }, goal: { to: "The moment interest turned into a search, and what they compared.", away: "The moment they decided to leave, and what they compared." } },
+    { id: "decide", title: { to: "Deciding", away: "Deciding" }, goal: { to: "The pull of the chosen option and the worries at the moment of choice.", away: "The pull of the new option and the worries about leaving." } },
+    { id: "after", title: { to: "First use and the new normal", away: "After leaving" }, goal: { to: "Compare the progress they expected with what they got.", away: "What changed after the move, and what they lost." } }
+  ];
+  // {P} = your product, {O} = the other option (what they used before, or what they use now)
+  var Q = {
+    to: [
+      { id: "to1", phase: "anchor", force: "timeline", core: false, q: "Roughly when did you start using {P}? Where were you and what were you doing when you signed up?", probe: "Ask for the week or the month. Small details like the room or the device help people remember the rest." },
+      { id: "to2", phase: "first", force: "push", core: true, q: "Think back to before you used {P}. When did you first feel you needed something better than {O}? What happened that day?", probe: "Keep going back in time until they reach the very first moment. Ask what else was going on at work or at home." },
+      { id: "to3", phase: "first", force: "habit", core: true, q: "What did you still like about {O} at that point?", probe: "This is the habit force. Ask how long they had done it that way and what made it good enough." },
+      { id: "to4", phase: "passive", force: "pull", core: false, q: "After that first thought, what did you notice about other ways to do this, before you started looking properly?", probe: "Ask about posts, conversations, ads and tools colleagues used. Ask if they saved or clicked anything." },
+      { id: "to5", phase: "passive", force: "anxiety", core: false, q: "What kept you from changing at that point?", probe: "Listen for \"it wasn't urgent\" or \"switching would take too long\". Ask what made it feel that way." },
+      { id: "to6", phase: "event", force: "push", core: true, q: "What happened that made you start looking seriously? Why then and not a month earlier?", probe: "Look for a dated event: a deadline, a cost, a complaint, a new boss, a failure. Ask how much time passed since the first thought." },
+      { id: "to7", phase: "event", force: "pull", core: true, q: "Which options did you look at, including doing nothing or building something yourself? Where did you find them?", probe: "Ask how each option got onto the list and which one they almost picked." },
+      { id: "to8", phase: "decide", force: "pull", core: true, q: "What made you pick {P} over the others? Tell me about the moment you knew.", probe: "If they name a feature, ask what that feature let them do that they couldn't do before." },
+      { id: "to9", phase: "decide", force: "anxiety", core: true, q: "What worried you just before you signed up or paid? What made the worry go away?", probe: "Ask what reduced the worry: a free plan, a review, a colleague, a refund policy." },
+      { id: "to10", phase: "decide", force: "anxiety", core: false, q: "Who else had a say in the decision, and what did they think?", probe: "If someone had doubts, ask how those doubts were answered." },
+      { id: "to11", phase: "after", force: "progress", core: true, q: "Tell me about the first time you used {P}. What did you do first, and what happened?", probe: "Ask what they expected it to do that it did, or did not do. A gap here is a churn risk." },
+      { id: "to12", phase: "after", force: "progress", core: false, q: "What can you do now that you couldn't do with {O}?", probe: "Listen for progress in their own words. Ask for one recent example." },
+      { id: "to13", phase: "after", force: "habit", core: true, q: "What do you still miss about {O}?", probe: "Habits that survive the switch show where people may drift back." }
+    ],
+    away: [
+      { id: "aw1", phase: "anchor", force: "timeline", core: false, q: "Roughly when did you stop using {P}? What was going on that week?", probe: "Ask for the week or the month, and whether they cancelled, downgraded or simply stopped logging in." },
+      { id: "aw2", phase: "first", force: "push", core: true, q: "When did you first feel that {P} was not working for you anymore? What happened that day?", probe: "Keep going back in time until they reach the first moment. Ask what else changed around then: team, budget, volume." },
+      { id: "aw3", phase: "first", force: "habit", core: true, q: "What did you still like about {P} at that point?", probe: "This is the habit force that kept them. Ask how long it kept them." },
+      { id: "aw4", phase: "passive", force: "pull", core: false, q: "After that, what did you notice about other ways to do this?", probe: "Ask about posts, conversations, ads and tools colleagues used." },
+      { id: "aw5", phase: "passive", force: "habit", core: false, q: "What kept you on {P} for a while after that?", probe: "Listen for setup work, data already in the product, or a team that was used to it." },
+      { id: "aw6", phase: "event", force: "push", core: true, q: "What happened that made you decide to leave? Why then and not a month earlier?", probe: "Look for a dated event: a renewal, a price change, a missed deadline, a new person in charge." },
+      { id: "aw7", phase: "event", force: "pull", core: true, q: "Which options did you look at, including stopping altogether or doing it by hand?", probe: "Ask how each option got onto the list and who suggested it." },
+      { id: "aw8", phase: "decide", force: "pull", core: true, q: "What made you choose {O}? Tell me about the moment you knew.", probe: "If they name a feature or price, ask what that let them do." },
+      { id: "aw9", phase: "decide", force: "anxiety", core: true, q: "What worried you about leaving {P}? What did you lose when you moved?", probe: "Ask about data, history, integrations and people who had to learn something new." },
+      { id: "aw10", phase: "decide", force: "anxiety", core: false, q: "Who else was involved in the decision to leave, and what did they think?", probe: "If someone argued to stay, ask what they said." },
+      { id: "aw11", phase: "after", force: "progress", core: true, q: "Tell me about the first weeks with {O}. What got better, and what got worse?", probe: "Ask for one concrete example of each." },
+      { id: "aw12", phase: "after", force: "progress", core: false, q: "Looking back, was there a moment when we could have kept you? What happened at that moment?", probe: "Ask what they told us at the time, if anything, and how we answered." },
+      { id: "aw13", phase: "after", force: "habit", core: true, q: "What do you still miss about {P}?", probe: "What they miss is what you do well. It is also what a win-back message can say." }
+    ]
+  };
+  var DEF = { product: "our product", to: "the way you did it before", away: "the option you moved to" };
+  function clean(s) {
+    return String(s == null ? "" : s).replace(/[\u0000-\u001f<>{}]/g, " ").replace(/\s+/g, " ").trim().replace(/[.?!,;:]+$/, "").slice(0, MAXLEN).trim();
+  }
+  function fill(t, P, O) { return t.split("{P}").join(P).split("{O}").join(O); }
+  function build(opts) {
+    opts = opts || {};
+    var dir = opts.direction === "away" ? "away" : "to";
+    var length = opts.length === "full" ? "full" : "short";
+    var product = clean(opts.product), other = clean(opts.other), who = clean(opts.who);
+    var P = product || DEF.product, O = other || DEF[dir];
+    var qs = Q[dir].filter(function (x) { return length === "full" || x.core; });
+    var phases = PHASES.map(function (ph) {
+      return {
+        id: ph.id, title: ph.title[dir], goal: ph.goal[dir],
+        questions: qs.filter(function (x) { return x.phase === ph.id; }).map(function (x) {
+          return { id: x.id, force: x.force, forceLabel: FORCES[x.force].label, q: fill(x.q, P, O), probe: x.probe };
+        })
+      };
+    }).filter(function (ph) { return ph.questions.length; });
+    var whoTxt = who ? who + " who " : "People who ";
+    var whom = dir === "to"
+      ? whoTxt + "started using " + P + " in the last 90 days and took part in the decision, while it is still fresh."
+      : whoTxt + "cancelled or stopped using " + P + " in the last 90 days and took part in the decision.";
+    var minutes = length === "full" ? "30 to 45" : "15 to 20";
+    var intro = dir === "to"
+      ? "Thanks for making time. I'd like to hear the story of how you came to use " + P + ", from the very first moment you thought about changing. There are no right answers, and I'm not here to sell you anything. It takes about " + minutes + " minutes."
+      : "Thanks for making time. I'd like to hear the story of how you decided to stop using " + P + ", from the first moment it stopped working for you. I'm not here to win you back, and nothing you say is wrong. It takes about " + minutes + " minutes.";
+    var title = dir === "to" ? "JTBD switch interview: why people switched to " + P : "JTBD switch interview: why people switched away from " + P;
+    var n = qs.length;
+    return { direction: dir, length: length, product: P, other: O, who: who, title: title, whom: whom, minutes: minutes, intro: intro, phases: phases, count: n,
+      jobStatement: "When [situation], I want to [motivation], so I can [expected outcome]." };
+  }
+  function toMarkdown(g, cta) {
+    var out = ["# " + g.title, "", "**Who to interview:** " + g.whom, "", "**Length:** about " + g.minutes + " minutes, " + g.count + " questions.", "", "**Opening:** " + g.intro, ""];
+    var i = 0;
+    g.phases.forEach(function (ph) {
+      out.push("## " + ph.title, "", ph.goal, "");
+      ph.questions.forEach(function (x) { i++; out.push(i + ". " + x.q + " (" + x.forceLabel + ")", "   - Probe: " + x.probe); });
+      out.push("");
+    });
+    out.push("## After each interview", "", "Write one job statement in the customer's words: " + g.jobStatement, "",
+      "Code the push, pull, anxiety and habit you heard, with exact quotes.", "");
+    if (cta) out.push("Run this as a voice interview with Frank AI Researcher: " + cta, "");
+    return out.join("\n");
+  }
+  function fromParams(search) {
+    var p = {};
+    String(search || "").replace(/^\?/, "").split("&").forEach(function (kv) {
+      if (!kv) return;
+      var i = kv.indexOf("="), k = decodeURIComponent((i < 0 ? kv : kv.slice(0, i)).replace(/\+/g, " "));
+      var v = i < 0 ? "" : kv.slice(i + 1);
+      try { v = decodeURIComponent(v.replace(/\+/g, " ")); } catch (e) { v = ""; }
+      p[k] = v;
+    });
+    var r = {};
+    if (p.mode === "to" || p.mode === "away") r.direction = p.mode;
+    if (p.length === "short" || p.length === "full") r.length = p.length;
+    if (p.product) r.product = clean(p.product);
+    if (p.other) r.other = clean(p.other);
+    if (p.who) r.who = clean(p.who);
+    return r;
+  }
+  return { build: build, toMarkdown: toMarkdown, fromParams: fromParams, clean: clean, FORCES: FORCES, PHASES: PHASES, Q: Q, MAXLEN: MAXLEN, DEF: DEF };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=frank-tools&utm_campaign=jtbd-interview-question-generator";
+  var LABELS = { to: "What they used before", away: "What they use now" };
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var render_ = (function guideHTML(g, esc) {
+  var n = 0;
+  return "<h2>" + esc(g.title) + "</h2>" +
+    "<p><strong>Who to interview:</strong> " + esc(g.whom) + "</p>" +
+    "<p><strong>Length:</strong> about " + esc(g.minutes) + " minutes, " + g.count + " questions.</p>" +
+    "<p class=\"say\"><strong>Opening:</strong> " + esc(g.intro) + "</p>" +
+    g.phases.map(function (ph) {
+      return "<h3 data-phase=\"" + ph.id + "\">" + esc(ph.title) + "</h3><p class=\"phase-goal\">" + esc(ph.goal) + "</p><ol start=\"" + (n + 1) + "\">" +
+        ph.questions.map(function (x) {
+          n++;
+          return "<li class=\"q\" data-force=\"" + x.force + "\"><span class=\"tag " + x.force + "\">" + esc(x.forceLabel) + "</span>" + esc(x.q) +
+            "<span class=\"probe\">Probe: " + esc(x.probe) + "</span></li>";
+        }).join("") + "</ol>";
+    }).join("") +
+    "<h3>After each interview</h3><p>Write one job statement in the customer's words: <em>" + esc(g.jobStatement) + "</em> Then note the push, pull, anxiety and habit you heard, with exact quotes.</p>";
+});
+  var current;
+  function mode() { return $("mode-away").checked ? "away" : "to"; }
+  function opts() { return { direction: mode(), length: $("length").value, product: $("product").value, other: $("other").value, who: $("who").value }; }
+  function render() {
+    $("other-label").textContent = LABELS[mode()];
+    current = JTBD.build(opts());
+    $("guide").innerHTML = render_(current, esc);
+    $("status").textContent = "";
+  }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  ["mode-to", "mode-away", "length"].forEach(function (id) { $(id).addEventListener("change", render); });
+  ["product", "other", "who"].forEach(function (id) { $(id).addEventListener("input", render); });
+  function md() { return JTBD.toMarkdown(current, CTA); }
+  function txt() { return md().replace(/^#+ /gm, "").replace(/\*\*/g, ""); }
+  $("copy").addEventListener("click", function () {
+    var text = md();
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the guide and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  });
+  function download(body, ext, type) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([body], { type: type + ";charset=utf-8" }));
+    a.download = "jtbd-switch-interview-" + current.direction + "." + ext;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  }
+  $("dl-md").addEventListener("click", function () { download(md(), "md", "text/markdown"); });
+  $("dl-txt").addEventListener("click", function () { download(txt(), "txt", "text/plain"); });
+  // Deep links: ?mode=to|away&length=short|full&product=&other=&who= prefill the form.
+  var P = JTBD.fromParams(window.location.search);
+  if (P.direction) { $("mode-" + P.direction).checked = true; }
+  if (P.length) $("length").value = P.length;
+  if (P.product) $("product").value = P.product;
+  if (P.other) $("other").value = P.other;
+  if (P.who) $("who").value = P.who;
+  render();
+})();
+</script>
+</body>
+</html>
