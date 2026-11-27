@@ -8,6 +8,9 @@
 {% if cta_slug == 'README' or cta_slug == 'index' or cta_slug == '' %}
   {% assign cta_slug = 'home' %}
 {% endif %}
+{% if page.path == 'glossary/index.md' %}
+  {% assign cta_slug = 'glossary' %}
+{% endif %}
 <aside class="docs-signup-cta" aria-label="Start on the Free plan">
   <h2>Start on the Free plan</h2>
   <p>Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. The Free plan includes 225 signup credits plus 60 voice minutes a month. MCP is included on every plan, including Free.</p>

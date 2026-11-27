@@ -1,5 +1,49 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: Customer research glossary
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/
+    updated: 2026-11-27T09:00:00Z
+    summary: "Ten customer-research interview terms, each with a short definition, examples, and common mistakes."
+  - title: Jobs to be Done (JTBD)
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "Jobs to be Done (JTBD) is a way to understand why someone hires a product to make progress in a situation. Associated with Clayton Christensen and Bob Moesta, with example questions."
+  - title: The Mom Test
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "The Mom Test, from Rob Fitzpatrick's book, is a set of interview rules: ask about past behavior in a real situation, not whether someone likes your idea."
+  - title: Churn interview
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, to learn what triggered the decision and what they did instead."
+  - title: Win-loss interview
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "A win-loss interview with buyers from deals you recently won or lost. Compares sales-led, third-party, and AI-moderated voice interviews for a small B2B team."
+  - title: Voice of customer
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, language, and experience, then using that evidence in decisions."
+  - title: Discovery interview
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "A discovery interview about a problem or job someone already has. Compares live interviews, surveys, and AI-moderated voice interviews for product managers."
+  - title: Usability test vs customer interview
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html
+    updated: 2026-11-27T09:00:00Z
+    summary: A usability test watches someone try a task in a product or design. A customer interview asks about a real event or job in their life. They answer different questions.
+  - title: Saturation (qualitative research)
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "In qualitative research, saturation is the point at which new interviews largely repeat themes you already have, rather than adding new ones. It is a judgment, not a fixed count."
+  - title: Leading question
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "A leading question nudges someone toward a particular answer by smuggling in a preference, a cause, or a compliment. Open questions about a recent event are a clearer start."
+  - title: Interview guide
+    url: https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html
+    updated: 2026-11-27T09:00:00Z
+    summary: "An interview guide is a planned list of topics or questions for a research interview, in a consistent order, with room to follow up, so interviews stay comparable."
   - title: Customer interview questions for AI startups
     url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-ai-startups.html
     updated: 2026-11-27T07:00:00Z
