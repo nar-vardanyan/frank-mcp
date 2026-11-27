@@ -156,7 +156,7 @@ defaults:
       path: free-customer-interview-guide-templates.md
     values:
       seo_title: "Free Customer Interview Guide Templates: 6 Voice Interview Guides"
-      description: "Six free customer interview guide templates for startups: sign-up reasons, churn, what to build next, price or concept tests, win-loss and onboarding. Five questions each, about eight minutes, ready to run as AI-moderated voice interviews in Frank AI Researcher."
+      description: "Six free customer interview guide templates for startups: sign-up reasons, churn, what to build next, price or concept tests, win-loss and onboarding. Five questions each, sized for a 10-minute interview, ready to run as AI-moderated voice interviews in Frank AI Researcher."
       schema_page: true
   - scope:
       path: validate-a-startup-idea-with-customer-interviews.md
