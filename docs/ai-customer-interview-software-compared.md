@@ -16,7 +16,7 @@
 - **Pay per interview, with an optional vetted panel:** User Intuition.
 - **Prototype tests and AI interviews in one platform:** Maze.
 - **Video interviews with global recruitment:** GetWhy.
-- **Enterprise voice and video consumer research:** Conveo.
+- **Enterprise consumer research with video interviews:** Conveo.
 - **A fully managed project:** Voicepanel.
 - **AI-moderated UX and prototype sessions with a panel:** Userology.
 - **Analyzing interviews you already have:** Dovetail.
@@ -26,17 +26,17 @@
 | Tool | Interview mode | Languages | Pricing start (as publicly listed) | Free plan | ChatGPT / MCP availability | Best for |
 |---|---|---|---|---|---|---|
 | **Frank AI Researcher** (our product) | AI-moderated voice interviews with your own customers, from a shareable link or website widget | Multilingual | Starter $49/mo billed annually or $59 monthly ([pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared)) | The Free plan includes 225 signup credits plus 60 voice minutes a month, no credit card | [Available as an app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168); remote MCP server ([MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared)) | Teams interviewing customers they already have who want a free start, published prices, and research run from ChatGPT or Claude |
-| **Usercall** | AI-moderated voice interviews; participants answer by voice, text or both ([source](https://www.usercall.co/), accessed Nov 27, 2026) | 50+ languages, on every plan ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026) | Lite plan $89/mo or $899 yearly ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026) | First interview free; no free plan tier listed ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026) | Hosted MCP connector (mcp.usercall.co) for Claude, ChatGPT, Codex or Cursor, with OAuth ([source](https://app.usercall.co/docs/api#mcp-instructions), accessed Nov 27, 2026) | Self-serve teams that want published monthly plans, interviews triggered by product events, and optional recruiting |
+| **Usercall** | AI-moderated voice interviews; participants answer by voice, text or both ([source](https://www.usercall.co/), accessed Nov 27, 2026) | 50+ languages, on every plan ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026) | Lite plan $89/mo or $899 yearly ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026) | First interview free; no free plan tier listed ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026) | Hosted MCP connector (mcp.usercall.co) for Claude, ChatGPT and Codex, with OAuth ([source](https://app.usercall.co/docs/api#mcp-instructions), accessed Nov 27, 2026) | Self-serve teams that want published monthly plans, interviews triggered by product events, and optional recruiting |
 | **Listen Labs** | AI-moderated video interviews with dynamic follow-up questions ([source](https://userguide.listenlabs.ai/), accessed Nov 27, 2026) | 120+ languages (homepage); the user guide says 100+ ([source](https://listenlabs.com/), accessed Nov 27, 2026) | No public price list (listenlabs.com/pricing returned 404); the user guide describes a platform fee plus interview credits per completed interview ([source](https://userguide.listenlabs.ai/), accessed Nov 27, 2026) | not publicly listed | Listen Labs MCP for ChatGPT (OpenAI App Store), Claude (connector directory) and Codex, with OAuth ([source](https://docs.listenlabs.com/mcp-docs/connect), accessed Nov 27, 2026) | Large studies that need recruiting, including B2B and hard-to-reach audiences, with video interviews |
 | **Outset** | AI-moderated interviews via video, voice or text; the pricing page also lists voice-to-voice responses ([source](https://outset.ai/), accessed Nov 27, 2026) | 40+ languages ([source](https://outset.ai/pricing), accessed Nov 27, 2026) | Custom pricing ([source](https://outset.ai/pricing), accessed Nov 27, 2026) | not publicly listed | Outset MCP; launch studies directly from Claude or ChatGPT ([source](https://outset.ai/resources/changeblog/outset-mcp), accessed Nov 27, 2026) | Enterprise teams that want several response formats and hands-on support from a research team |
-| **Strella** | AI-moderated interviews, plus live human-moderated interviews in Strella; video highlight reels ([source](https://www.strella.io/), accessed Nov 27, 2026) | 46+ languages ([source](https://www.strella.io/), accessed Nov 27, 2026) | not publicly listed (strella.io/pricing redirects to the homepage; Book a demo) ([source](https://www.strella.io/pricing), accessed Nov 27, 2026) | not publicly listed | Strella says it is "an official connector in Claude and ChatGPT" ([source](https://www.strella.io/), accessed Nov 27, 2026) | Teams that mix AI and human moderation and share video highlight reels |
-| **User Intuition** | AI-moderated interviews in voice, video or chat ([source](https://www.userintuition.ai/), accessed Nov 27, 2026) | 80+ languages ([source](https://www.userintuition.ai/), accessed Nov 27, 2026) | $30 per quality voice interview with your own sample, $60 with its panel; no monthly fee on Starter ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026) | 3 free voice interviews with your own participants ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026) | API and MCP server access to connect Claude, ChatGPT, Cursor and other AI agents ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026) | Teams that want pay-per-interview pricing and an optional vetted panel |
-| **Maze** | AI moderator for interviews (an Enterprise add-on), alongside prototype tests and surveys ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Count not publicly listed (the AI moderator page says it works across languages) ([source](https://maze.co/features/ai-moderator/), accessed Nov 27, 2026) | Free plan; Enterprise is custom pricing ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Free plan: 1 study/month, 5 seats, no credit card; AI-moderated interviews not included on Free ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Maze MCP is listed on the pricing page ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Product teams that already run prototype tests and want AI-moderated interviews in the same platform |
+| **Strella** | AI-moderated interviews, plus live human-moderated interviews in Strella; video highlight reels ([source](https://www.strella.io/), accessed Nov 27, 2026) | 46+ languages ([source](https://www.strella.io/), accessed Nov 27, 2026) | not publicly listed (strella.io/pricing redirects to the homepage; Book a demo) ([source](https://www.strella.io/pricing), accessed Nov 27, 2026) | not publicly listed | Strella says it is a connector in Claude and ChatGPT ([source](https://www.strella.io/), accessed Nov 27, 2026) | Teams that mix AI and human moderation and share video highlight reels |
+| **User Intuition** | AI-moderated interviews in voice, video or chat ([source](https://www.userintuition.ai/), accessed Nov 27, 2026) | 80+ languages ([source](https://www.userintuition.ai/), accessed Nov 27, 2026) | $30 per quality voice interview with your own sample, $60 with its panel; no monthly fee on Starter ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026) | 3 free voice interviews with your own participants ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026) | API and MCP server access to connect Claude, ChatGPT and other AI agents ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026) | Teams that want pay-per-interview pricing and an optional vetted panel |
+| **Maze** | AI moderator for interviews (an Enterprise add-on), alongside prototype tests and surveys ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Count not publicly listed (the AI moderator page says it works across languages) ([source](https://maze.co/features/ai-moderator/), accessed Nov 27, 2026) | Free plan; Enterprise is custom pricing ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Free plan: 1 study/month, 5 seats, no credit card; AI-moderated interviews not included on Free ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Maze MCP is listed under Enterprise on the pricing page (not included on Free) ([source](https://maze.co/pricing/), accessed Nov 27, 2026) | Product teams that already run prototype tests and want AI-moderated interviews in the same platform |
 | **GetWhy** | AI-moderated video interviews ([source](https://www.getwhy.io/), accessed Nov 27, 2026) | 100+ languages, with built-in translation ([source](https://www.getwhy.io/platform), accessed Nov 27, 2026) | not publicly listed (getwhy.io/pricing returned 404) ([source](https://www.getwhy.io/pricing), accessed Nov 27, 2026) | not publicly listed | not publicly listed on the pages opened | Video interview programs that need recruitment at global scale |
-| **Conveo** | AI-moderated voice and video interviews ([source](https://conveo.ai/), accessed Nov 27, 2026) | not publicly listed on the pages opened | not publicly listed (conveo.ai/pricing redirects to a Book a demo page) ([source](https://conveo.ai/pricing), accessed Nov 27, 2026) | "Start for free" sign-up offered; plan limits not publicly listed ([source](https://conveo.ai/), accessed Nov 27, 2026) | MCP and API listed under its open platform; supported clients not publicly listed ([source](https://conveo.ai/), accessed Nov 27, 2026) | Enterprise consumer and brand research teams that want voice and video interviews |
+| **Conveo** | AI-moderated video interviews, with voice and tone analysis ([source](https://conveo.ai/), accessed Nov 27, 2026) | not publicly listed on the pages opened | not publicly listed (conveo.ai/pricing redirects to a Book a demo page) ([source](https://conveo.ai/pricing), accessed Nov 27, 2026) | "Start for free" sign-up offered; plan limits not publicly listed ([source](https://conveo.ai/), accessed Nov 27, 2026) | MCP and API listed under its open platform; supported clients not publicly listed ([source](https://conveo.ai/), accessed Nov 27, 2026) | Enterprise consumer and brand research teams that want video interviews with voice and tone analysis |
 | **Voicepanel** | Voice and video, plus surveys and tasks ([source](https://www.voicepanel.com/), accessed Nov 27, 2026) | 43 supported languages ([source](https://www.voicepanel.com/), accessed Nov 27, 2026) | Pay per project from $5,000 (white-glove); Enterprise annual license from $30,000 ([source](https://www.voicepanel.com/pricing), accessed Nov 27, 2026) | not publicly listed | Says it integrates with the tools teams use via MCP; supported clients not publicly listed ([source](https://www.voicepanel.com/), accessed Nov 27, 2026) | Teams that want a fully managed research project or an enterprise license |
-| **Userology** | AI-moderated interviews over video calls, voice surveys, and prototype and live product tests ([source](https://www.userology.co/), accessed Nov 27, 2026) | not publicly listed | not publicly listed (the pricing page shows no prices) ([source](https://www.userology.co/pricing), accessed Nov 27, 2026) | not publicly listed | not publicly listed | UX teams running AI-moderated usability and prototype sessions with a recruited panel |
-| **Dovetail** | Not an AI interviewer: a customer insights repository that transcribes and analyzes calls, interviews and tickets you already have ([source](https://dovetail.com/), accessed Nov 27, 2026) | not publicly listed as a count | Bronze: $4,800 a year for the platform and 5 users, plus credits at 15c each ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026) | 30-day free trial of the Gold plan ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026) | Dovetail MCP connects Claude, Cursor, ChatGPT, Copilot, Slack and Teams ([source](https://dovetail.com/), accessed Nov 27, 2026) | Teams that already have interviews and calls and need a shared, searchable repository |
+| **Userology** | AI-moderated interviews over video calls, voice surveys, and prototype and live product tests ([source](https://www.userology.co/), accessed Nov 27, 2026) | 40+ languages ([source](https://www.userology.co/), accessed Nov 27, 2026) | not publicly listed (the pricing page shows no prices) ([source](https://www.userology.co/pricing), accessed Nov 27, 2026) | not publicly listed | not publicly listed | UX teams running AI-moderated usability and prototype sessions with a recruited panel |
+| **Dovetail** | Not an AI interviewer: a customer insights repository that transcribes and analyzes calls, interviews and tickets you already have ([source](https://dovetail.com/), accessed Nov 27, 2026) | not publicly listed as a count | Bronze (listed as coming soon): $4,800 a year for the platform and 5 users, plus credits at 15c each ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026) | 30-day free trial of the Gold plan ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026) | Dovetail MCP connects Claude, ChatGPT, Copilot, Slack and Teams ([source](https://dovetail.com/), accessed Nov 27, 2026) | Teams that already have interviews and calls and need a shared, searchable repository |
 
 Cells say "not publicly listed" when the vendor's own pages did not state the fact.
 
@@ -44,18 +44,18 @@ Cells say "not publicly listed" when the vendor's own pages did not state the fa
 
 ### 1. Frank AI Researcher (our product): for interviewing customers you already have
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared), interviews run in parallel, and you read transcripts and themes. Interviews are multilingual. Frank is [available as an app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), and its remote MCP server is included on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared).
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. You share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared), interviews run in parallel, and you read transcripts and themes. Interviews are multilingual. Frank is [available as an app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), and its remote MCP server (`https://api.hifrank.ai/mcp`) is included on every plan, including Free. Works with ChatGPT, Claude and Muse. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared).
 
 - **Pricing:** The Free plan includes 225 signup credits plus 60 voice minutes a month, no credit card. Starter is $49/mo billed annually or $59 monthly, Growth $166/$199, Business $312/$375 ([pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-software-compared)).
 - **Best for:** teams that already have customers to invite and want a free start and published prices.
-- **Where others fit better:** Frank does not recruit participants and runs voice interviews. If you need a recruited panel, video interviews or prototype testing, the tools below are a better fit for that job.
+- **Where others fit better:** Frank focuses on AI-moderated voice interviews with customers you invite, and it does not recruit participants. If you need a recruited panel, video interviews or prototype testing, the tools below are built for that.
 
 ### 2. Usercall: for self-serve teams that want published monthly plans, interviews triggered by product events, and optional recruiting
 
 - **Interview mode:** AI-moderated voice interviews; participants answer by voice, text or both ([source](https://www.usercall.co/), accessed Nov 27, 2026)
 - **Languages:** 50+ languages, on every plan ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026)
 - **Participants:** Invite your own audience, or recruit across panel partners (95M+ people in 151 countries) ([source](https://www.usercall.co/), accessed Nov 27, 2026)
-- **ChatGPT / MCP:** Hosted MCP connector (mcp.usercall.co) for Claude, ChatGPT, Codex or Cursor, with OAuth ([source](https://app.usercall.co/docs/api#mcp-instructions), accessed Nov 27, 2026)
+- **ChatGPT / MCP:** Hosted MCP connector (mcp.usercall.co) for Claude, ChatGPT and Codex, with OAuth ([source](https://app.usercall.co/docs/api#mcp-instructions), accessed Nov 27, 2026)
 - **Also:** Plans include mockup and prototype testing with screen recording ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026)
 - **Also:** Interviews can be triggered by customer behavior or segments (research triggers) ([source](https://www.usercall.co/), accessed Nov 27, 2026)
 - **Pricing:** Lite plan $89/mo or $899 yearly ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026). Free option: First interview free; no free plan tier listed ([source](https://www.usercall.co/pricing), accessed Nov 27, 2026).
@@ -83,7 +83,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 - **Interview mode:** AI-moderated interviews, plus live human-moderated interviews in Strella; video highlight reels ([source](https://www.strella.io/), accessed Nov 27, 2026)
 - **Languages:** 46+ languages ([source](https://www.strella.io/), accessed Nov 27, 2026)
 - **Participants:** Your own customers, or up to 8M global participants through Strella's panel ([source](https://www.strella.io/), accessed Nov 27, 2026)
-- **ChatGPT / MCP:** Strella says it is "an official connector in Claude and ChatGPT" ([source](https://www.strella.io/), accessed Nov 27, 2026)
+- **ChatGPT / MCP:** Strella says it is a connector in Claude and ChatGPT ([source](https://www.strella.io/), accessed Nov 27, 2026)
 - **Pricing:** not publicly listed (strella.io/pricing redirects to the homepage; Book a demo) ([source](https://www.strella.io/pricing), accessed Nov 27, 2026). Free option: not publicly listed.
 
 ### 6. User Intuition: for teams that want pay-per-interview pricing and an optional vetted panel
@@ -91,7 +91,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 - **Interview mode:** AI-moderated interviews in voice, video or chat ([source](https://www.userintuition.ai/), accessed Nov 27, 2026)
 - **Languages:** 80+ languages ([source](https://www.userintuition.ai/), accessed Nov 27, 2026)
 - **Participants:** 4M+ vetted panel across 58 countries, or bring your own sample ([source](https://www.userintuition.ai/), accessed Nov 27, 2026)
-- **ChatGPT / MCP:** API and MCP server access to connect Claude, ChatGPT, Cursor and other AI agents ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026)
+- **ChatGPT / MCP:** API and MCP server access to connect Claude, ChatGPT and other AI agents ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026)
 - **Pricing:** $30 per quality voice interview with your own sample, $60 with its panel; no monthly fee on Starter ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026). Free option: 3 free voice interviews with your own participants ([source](https://www.userintuition.ai/pricing/), accessed Nov 27, 2026).
 
 ### 7. Maze: for product teams that already run prototype tests and want AI-moderated interviews in the same platform
@@ -99,7 +99,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 - **Interview mode:** AI moderator for interviews (an Enterprise add-on), alongside prototype tests and surveys ([source](https://maze.co/pricing/), accessed Nov 27, 2026)
 - **Languages:** Count not publicly listed (the AI moderator page says it works across languages) ([source](https://maze.co/features/ai-moderator/), accessed Nov 27, 2026)
 - **Participants:** Maze Panel, or your own users via a shareable link or in-product prompts ([source](https://maze.co/features/ai-moderator/), accessed Nov 27, 2026)
-- **ChatGPT / MCP:** Maze MCP is listed on the pricing page ([source](https://maze.co/pricing/), accessed Nov 27, 2026)
+- **ChatGPT / MCP:** Maze MCP is listed under Enterprise on the pricing page (not included on Free) ([source](https://maze.co/pricing/), accessed Nov 27, 2026)
 - **Pricing:** Free plan; Enterprise is custom pricing ([source](https://maze.co/pricing/), accessed Nov 27, 2026). Free option: Free plan: 1 study/month, 5 seats, no credit card; AI-moderated interviews not included on Free ([source](https://maze.co/pricing/), accessed Nov 27, 2026).
 
 ### 8. GetWhy: for video interview programs that need recruitment at global scale
@@ -110,9 +110,9 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 - **ChatGPT / MCP:** not publicly listed on the pages opened
 - **Pricing:** not publicly listed (getwhy.io/pricing returned 404) ([source](https://www.getwhy.io/pricing), accessed Nov 27, 2026). Free option: not publicly listed.
 
-### 9. Conveo: for enterprise consumer and brand research teams that want voice and video interviews
+### 9. Conveo: for enterprise consumer and brand research teams that want video interviews with voice and tone analysis
 
-- **Interview mode:** AI-moderated voice and video interviews ([source](https://conveo.ai/), accessed Nov 27, 2026)
+- **Interview mode:** AI-moderated video interviews, with voice and tone analysis ([source](https://conveo.ai/), accessed Nov 27, 2026)
 - **Languages:** not publicly listed on the pages opened
 - **Participants:** Positions itself as reducing long recruitment cycles; panel details not publicly listed ([source](https://conveo.ai/), accessed Nov 27, 2026)
 - **ChatGPT / MCP:** MCP and API listed under its open platform; supported clients not publicly listed ([source](https://conveo.ai/), accessed Nov 27, 2026)
@@ -130,7 +130,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 ### 11. Userology: for UX teams running AI-moderated usability and prototype sessions with a recruited panel
 
 - **Interview mode:** AI-moderated interviews over video calls, voice surveys, and prototype and live product tests ([source](https://www.userology.co/), accessed Nov 27, 2026)
-- **Languages:** not publicly listed
+- **Languages:** 40+ languages ([source](https://www.userology.co/), accessed Nov 27, 2026)
 - **Participants:** AI-led recruitment from a panel pool of 15M+ users ([source](https://www.userology.co/), accessed Nov 27, 2026)
 - **ChatGPT / MCP:** not publicly listed
 - **Pricing:** not publicly listed (the pricing page shows no prices) ([source](https://www.userology.co/pricing), accessed Nov 27, 2026). Free option: not publicly listed.
@@ -140,8 +140,8 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 - **Interview mode:** Not an AI interviewer: a customer insights repository that transcribes and analyzes calls, interviews and tickets you already have ([source](https://dovetail.com/), accessed Nov 27, 2026)
 - **Languages:** not publicly listed as a count
 - **Participants:** Not a recruiting tool ([source](https://dovetail.com/), accessed Nov 27, 2026)
-- **ChatGPT / MCP:** Dovetail MCP connects Claude, Cursor, ChatGPT, Copilot, Slack and Teams ([source](https://dovetail.com/), accessed Nov 27, 2026)
-- **Pricing:** Bronze: $4,800 a year for the platform and 5 users, plus credits at 15c each ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026). Free option: 30-day free trial of the Gold plan ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026).
+- **ChatGPT / MCP:** Dovetail MCP connects Claude, ChatGPT, Copilot, Slack and Teams ([source](https://dovetail.com/), accessed Nov 27, 2026)
+- **Pricing:** Bronze (listed as coming soon): $4,800 a year for the platform and 5 users, plus credits at 15c each ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026). Free option: 30-day free trial of the Gold plan ([source](https://dovetail.com/pricing/), accessed Nov 27, 2026).
 
 ## How to choose
 
@@ -163,15 +163,15 @@ AI customer interview software runs one-to-one interviews with an AI moderator. 
 
 ### Which AI customer interview tools publish prices?
 
-As of Nov 27, 2026: Frank AI Researcher (Starter $49/mo billed annually or $59 monthly), Usercall (Lite $89/mo or $899 yearly), User Intuition ($30 per quality voice interview with your own sample, $60 with its panel), Voicepanel (projects from $5,000) and Dovetail (Bronze $4,800 a year plus credits). Maze publishes a Free plan and custom Enterprise pricing. Listen Labs, Outset, Strella, Conveo, GetWhy and Userology do not list prices on the pages we opened.
+As of Nov 27, 2026: Frank AI Researcher (Starter $49/mo billed annually or $59 monthly), Usercall (Lite $89/mo or $899 yearly), User Intuition ($30 per quality voice interview with your own sample, $60 with its panel), Voicepanel (projects from $5,000) and Dovetail (Bronze, listed as coming soon, $4,800 a year plus credits). Maze publishes a Free plan and custom Enterprise pricing. Listen Labs, Outset, Strella, Conveo, GetWhy and Userology do not list prices on the pages we opened.
 
 ### Which tools have a free plan or a free way to start?
 
-The Free plan includes 225 signup credits plus 60 voice minutes a month, with no credit card. Maze has a Free plan (1 study a month), but AI-moderated interviews are an Enterprise add-on. Usercall's first interview is free, User Intuition offers 3 free voice interviews with your own participants, Conveo offers a free sign-up, and Dovetail offers a 30-day trial of its Gold plan.
+Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, with no credit card. Maze has a Free plan (1 study a month), but AI-moderated interviews are an Enterprise add-on. Usercall's first interview is free, User Intuition offers 3 free voice interviews with your own participants, Conveo offers a free sign-up, and Dovetail offers a 30-day trial of its Gold plan.
 
 ### Which AI interview tools work inside ChatGPT?
 
-Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is available in the OpenAI App Store, and Strella says it is a connector in ChatGPT. Outset, Usercall, User Intuition and Dovetail say their MCP servers connect to ChatGPT. Frank's remote MCP server is on every plan. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is available in the OpenAI App Store, and Strella says it is a connector in ChatGPT. Outset, Usercall, User Intuition and Dovetail say their MCP servers connect to ChatGPT. Frank's remote MCP server is on every plan. Works with ChatGPT, Claude and Muse.
 
 ### Can I interview my own customers instead of a panel?
 
@@ -227,7 +227,7 @@ No. Frank runs AI-moderated voice interviews with customers you invite. If you n
       "name": "Which AI customer interview tools publish prices?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As of Nov 27, 2026: Frank AI Researcher (Starter $49/mo billed annually or $59 monthly), Usercall (Lite $89/mo or $899 yearly), User Intuition ($30 per quality voice interview with your own sample, $60 with its panel), Voicepanel (projects from $5,000) and Dovetail (Bronze $4,800 a year plus credits). Maze publishes a Free plan and custom Enterprise pricing. Listen Labs, Outset, Strella, Conveo, GetWhy and Userology do not list prices on the pages we opened."
+        "text": "As of Nov 27, 2026: Frank AI Researcher (Starter $49/mo billed annually or $59 monthly), Usercall (Lite $89/mo or $899 yearly), User Intuition ($30 per quality voice interview with your own sample, $60 with its panel), Voicepanel (projects from $5,000) and Dovetail (Bronze, listed as coming soon, $4,800 a year plus credits). Maze publishes a Free plan and custom Enterprise pricing. Listen Labs, Outset, Strella, Conveo, GetWhy and Userology do not list prices on the pages we opened."
       }
     },
     {
@@ -235,7 +235,7 @@ No. Frank runs AI-moderated voice interviews with customers you invite. If you n
       "name": "Which tools have a free plan or a free way to start?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Free plan includes 225 signup credits plus 60 voice minutes a month, with no credit card. Maze has a Free plan (1 study a month), but AI-moderated interviews are an Enterprise add-on. Usercall's first interview is free, User Intuition offers 3 free voice interviews with your own participants, Conveo offers a free sign-up, and Dovetail offers a 30-day trial of its Gold plan."
+        "text": "Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, with no credit card. Maze has a Free plan (1 study a month), but AI-moderated interviews are an Enterprise add-on. Usercall's first interview is free, User Intuition offers 3 free voice interviews with your own participants, Conveo offers a free sign-up, and Dovetail offers a 30-day trial of its Gold plan."
       }
     },
     {
@@ -243,7 +243,7 @@ No. Frank runs AI-moderated voice interviews with customers you invite. If you n
       "name": "Which AI interview tools work inside ChatGPT?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is available in the OpenAI App Store, and Strella says it is a connector in ChatGPT. Outset, Usercall, User Intuition and Dovetail say their MCP servers connect to ChatGPT. Frank's remote MCP server is on every plan. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth."
+        "text": "Frank AI Researcher is available as an app in ChatGPT. Listen Labs' docs say it is available in the OpenAI App Store, and Strella says it is a connector in ChatGPT. Outset, Usercall, User Intuition and Dovetail say their MCP servers connect to ChatGPT. Frank's remote MCP server is on every plan. Works with ChatGPT, Claude and Muse."
       }
     },
     {
