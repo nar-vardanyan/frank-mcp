@@ -540,7 +540,7 @@ defaults:
       path: app-builders/replit/index.md
     values:
       seo_title: "Add Customer Interviews to Your Replit App with Frank"
-      description: "Add the Frank voice interview widget to an app built with Replit Agent: a paste-in prompt, the install code, and where to place it. Plus how to add a remote MCP server in Replit."
+      description: "Add the Frank voice interview widget to an app built with Replit Agent: a paste-in prompt, the install code, and where to place it. Connecting Frank's MCP server from Replit does not work yet."
       schema_page: true
       hide_signup_cta: true
   - scope:
