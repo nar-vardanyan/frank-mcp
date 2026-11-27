@@ -318,3 +318,71 @@ defaults:
     values:
       seo_title: "How to Interview Customers at Scale with AI Voice Interviews"
       description: "Interview customers at scale: an AI interviewer runs consistent voice conversations in parallel while you set the questions and check quotes. 5 steps."
+
+  # Customer research glossary, 27 November 2026
+  - scope:
+      path: glossary/index.md
+    values:
+      seo_title: "Customer Research Glossary: 10 Interview Terms"
+      description: "A customer research glossary of ten interview terms, including Jobs to be Done, The Mom Test, churn interviews, win-loss, and leading questions, with examples."
+      schema_page: true
+  - scope:
+      path: glossary/jobs-to-be-done.md
+    values:
+      seo_title: "Jobs to be Done (JTBD): Definition and Example Questions"
+      description: "Jobs to be Done (JTBD) is a way to understand why someone hires a product to make progress in a situation. Associated with Clayton Christensen and Bob Moesta, with example questions."
+      schema_page: true
+  - scope:
+      path: glossary/the-mom-test.md
+    values:
+      seo_title: "The Mom Test: Definition and Interview Examples"
+      description: "The Mom Test, from Rob Fitzpatrick's book, is a set of interview rules: ask about past behavior in a real situation, not whether someone likes your idea."
+      schema_page: true
+  - scope:
+      path: glossary/churn-interview.md
+    values:
+      seo_title: "Churn Interview: Definition and Example Questions"
+      description: "A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, to learn what triggered the decision and what they did instead."
+      schema_page: true
+  - scope:
+      path: glossary/win-loss-interview.md
+    values:
+      seo_title: "Win-Loss Interview: Definition, Approaches, and How to Run One"
+      description: "A win-loss interview with buyers from deals you recently won or lost. Compares sales-led, third-party, and AI-moderated voice interviews for a small B2B team."
+      schema_page: true
+  - scope:
+      path: glossary/voice-of-customer.md
+    values:
+      seo_title: "Voice of Customer (VoC): Definition and How It Is Used"
+      description: "Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, language, and experience, then using that evidence in decisions."
+      schema_page: true
+  - scope:
+      path: glossary/discovery-interview.md
+    values:
+      seo_title: "Discovery Interview: Definition, Approaches, and How PMs Can Run One"
+      description: "A discovery interview about a problem or job someone already has. Compares live interviews, surveys, and AI-moderated voice interviews for product managers."
+      schema_page: true
+  - scope:
+      path: glossary/usability-test-vs-customer-interview.md
+    values:
+      seo_title: "Usability Test vs Customer Interview: What Each One Is For"
+      description: "A usability test watches someone try a task in a product or design. A customer interview asks about a real event or job in their life. They answer different questions."
+      schema_page: true
+  - scope:
+      path: glossary/saturation.md
+    values:
+      seo_title: "Saturation in Qualitative Research: Definition and How to Judge It"
+      description: "In qualitative research, saturation is the point at which new interviews largely repeat themes you already have, rather than adding new ones. It is a judgment, not a fixed count."
+      schema_page: true
+  - scope:
+      path: glossary/leading-question.md
+    values:
+      seo_title: "Leading Question: Definition and Better Interview Alternatives"
+      description: "A leading question nudges someone toward a particular answer by smuggling in a preference, a cause, or a compliment. Open questions about a recent event are a clearer start."
+      schema_page: true
+  - scope:
+      path: glossary/interview-guide.md
+    values:
+      seo_title: "Interview Guide: Definition and How to Use One"
+      description: "An interview guide is a planned list of topics or questions for a research interview, in a consistent order, with room to follow up, so interviews stay comparable."
+      schema_page: true

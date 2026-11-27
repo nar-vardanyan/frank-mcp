@@ -1,0 +1,808 @@
+{% comment %}
+  DefinedTerm / DefinedTermSet and BreadcrumbList for glossary pages.
+  Definition text matches the first paragraph of each term page.
+{% endcomment %}
+{% if page.path == 'glossary/index.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Customer research glossary",
+  "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+  "description": "A customer research glossary of ten interview terms, including Jobs to be Done, The Mom Test, churn interviews, win-loss, and leading questions, with examples.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "mainEntity": {
+    "@type": "DefinedTermSet",
+    "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+    "name": "Customer research glossary",
+    "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+    "description": "This glossary defines ten common customer-research terms used in interviews. Each page starts with a short definition, then explains how the idea is used, with examples and common mistakes. Frank AI Researcher is a voice-first product that runs AI-moderated voice interviews with customers you already have. Frank does not recruit participants.",
+    "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html#term",
+      "name": "Jobs to be Done (JTBD)",
+      "alternateName": "JTBD",
+      "description": "Jobs to be Done (JTBD) is a way of understanding why someone hires a product to make progress in a particular situation. The unit of analysis is the job, the circumstances around it, and the outcome they want, not a demographic or a feature list. The approach is associated with Clayton Christensen and Bob Moesta.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html#term",
+      "name": "The Mom Test",
+      "description": "The Mom Test is a set of rules for customer interviews from Rob Fitzpatrick\u2019s book The Mom Test. You ask about the person\u2019s past behavior in a real situation, not whether they like your idea. Compliments, hypothetical answers, and promises about the future are weak evidence, because even a supportive person can mislead you when the question is poor.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html#term",
+      "name": "Churn interview",
+      "description": "A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, held to learn what triggered that decision and what they did instead. It focuses on a recent event, not a general opinion of the product. The aim is to hear the story around the cancel or downgrade, including who else was involved.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html#term",
+      "name": "Win-loss interview",
+      "description": "A win-loss interview is a conversation with a buyer from a deal you recently won or lost. The goal is to learn what mattered in the decision, who else was involved, and what almost changed the outcome. It is based on a real closed deal, not a hypothetical purchase or a general review of your category.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html#term",
+      "name": "Voice of customer",
+      "alternateName": "VoC",
+      "description": "Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, the words they use, and their experience, then using that evidence in product and messaging decisions. Interviews, support tickets, reviews, and surveys can all feed a VoC program. Interviews help you hear the reasons behind those words.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html#term",
+      "name": "Discovery interview",
+      "description": "A discovery interview is a conversation meant to understand a problem, a workflow, or a job someone already has, before you shape a product. It focuses on recent, real events rather than reactions to a solution you have already decided to build. The output is a picture of the problem and current workarounds, not a yes on your idea.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html#term",
+      "name": "Usability test vs customer interview",
+      "description": "A usability test watches someone try a specific task in a product or design so you can see where they get stuck. A customer interview asks about a real event or job in their life, often with no design in front of them. The first studies whether people can use something; the second studies whether it matters and why.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html#term",
+      "name": "Saturation (qualitative research)",
+      "alternateName": "Data saturation",
+      "description": "In qualitative research, saturation is the point at which new interviews repeat themes you already have, rather than adding new ones. It is a judgment about whether more conversations are still changing what you understand, not a fixed interview count for every study. How soon it arrives depends on how focused the question is and how similar the people are.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html#term",
+      "name": "Leading question",
+      "description": "A leading question is a question that nudges the person toward a particular answer, often by smuggling in a preference, a cause, or a compliment. It makes agreement easy and makes disconfirming evidence harder to hear. Open questions about a recent event are usually a clearer starting point.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html#term",
+      "name": "Interview guide",
+      "description": "An interview guide is a planned list of topics or questions for a research interview, usually in a consistent order, with room to follow up. It keeps interviews comparable across people without turning the conversation into a rigid script. A good guide is built around a decision you need to make, not every topic you are curious about.",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html",
+      "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+    }
+    ]
+  }
+}
+</script>
+{% elsif page.path == 'glossary/jobs-to-be-done.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Jobs to be Done (JTBD)",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html#webpage",
+      "name": "Jobs to be Done (JTBD)",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html",
+      "description": "Jobs to be Done (JTBD) is a way to understand why someone hires a product to make progress in a situation. Associated with Clayton Christensen and Bob Moesta, with example questions.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html#term",
+        "name": "Jobs to be Done (JTBD)",
+        "alternateName": "JTBD",
+        "description": "Jobs to be Done (JTBD) is a way of understanding why someone hires a product to make progress in a particular situation. The unit of analysis is the job, the circumstances around it, and the outcome they want, not a demographic or a feature list. The approach is associated with Clayton Christensen and Bob Moesta.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/the-mom-test.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The Mom Test",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html#webpage",
+      "name": "The Mom Test",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html",
+      "description": "The Mom Test, from Rob Fitzpatrick\u2019s book, is a set of interview rules: ask about past behavior in a real situation, not whether someone likes your idea.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html#term",
+        "name": "The Mom Test",
+        "description": "The Mom Test is a set of rules for customer interviews from Rob Fitzpatrick\u2019s book The Mom Test. You ask about the person\u2019s past behavior in a real situation, not whether they like your idea. Compliments, hypothetical answers, and promises about the future are weak evidence, because even a supportive person can mislead you when the question is poor.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/churn-interview.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Churn interview",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html#webpage",
+      "name": "Churn interview",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html",
+      "description": "A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, to learn what triggered the decision and what they did instead.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html#term",
+        "name": "Churn interview",
+        "description": "A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, held to learn what triggered that decision and what they did instead. It focuses on a recent event, not a general opinion of the product. The aim is to hear the story around the cancel or downgrade, including who else was involved.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/win-loss-interview.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Win-loss interview",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html#webpage",
+      "name": "Win-loss interview",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html",
+      "description": "A win-loss interview with buyers from deals you recently won or lost. Compares sales-led, third-party, and AI-moderated voice interviews for a small B2B team.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html#term",
+        "name": "Win-loss interview",
+        "description": "A win-loss interview is a conversation with a buyer from a deal you recently won or lost. The goal is to learn what mattered in the decision, who else was involved, and what almost changed the outcome. It is based on a real closed deal, not a hypothetical purchase or a general review of your category.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best tool for win/loss interviews for a small B2B team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no single best tool for every team. A small B2B team that already has closed-deal contacts often needs a consistent way to interview those buyers without booking every call. Frank AI Researcher is a voice-first product that runs AI-moderated voice interviews with buyers you invite. It does not recruit participants, and it does not replace a human interviewer when the conversation is relationship-heavy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should the salesperson who closed the deal run the win-loss interview?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes, but candor can suffer. Buyers often soften criticism when they are talking to the person who sold them. If the sales team runs the interview, it helps if someone who did not own the deal asks the questions, and if the guide stays non-leading. An AI-moderated voice interview can also reduce that pressure, because the interviewer is not the salesperson."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should a small team use a third-party interviewer instead?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a third-party interviewer when the deal is sensitive, when you need a skilled human to follow a messy political story, or when the buyer is more likely to talk to a named interviewer than to a link. That option usually costs more and takes longer to schedule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Frank recruit buyers for win-loss interviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Frank AI Researcher does not recruit participants. You invite buyers from deals you already won or lost, for example from your CRM or email list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon after a deal should I run a win-loss interview?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Run it while the evaluation is still easy to recall, soon after the deal is won or lost. Waiting months makes it harder for people to remember the tradeoffs, and the people who evaluated the deal may have moved on."
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/voice-of-customer.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Voice of customer",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html#webpage",
+      "name": "Voice of customer",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html",
+      "description": "Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, language, and experience, then using that evidence in decisions.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html#term",
+        "name": "Voice of customer",
+        "alternateName": "VoC",
+        "description": "Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, the words they use, and their experience, then using that evidence in product and messaging decisions. Interviews, support tickets, reviews, and surveys can all feed a VoC program. Interviews help you hear the reasons behind those words.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/discovery-interview.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Discovery interview",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html#webpage",
+      "name": "Discovery interview",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html",
+      "description": "A discovery interview about a problem or job someone already has. Compares live interviews, surveys, and AI-moderated voice interviews for product managers.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html#term",
+        "name": "Discovery interview",
+        "description": "A discovery interview is a conversation meant to understand a problem, a workflow, or a job someone already has, before you shape a product. It focuses on recent, real events rather than reactions to a solution you have already decided to build. The output is a picture of the problem and current workarounds, not a yes on your idea.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a good AI tool for a PM to run product discovery interviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A product manager who can already reach users, customers, or people in the target job can use Frank AI Researcher to run AI-moderated voice interviews. You set the goal, write or generate an open guide about recent events, invite people you can already reach, and read the transcripts. Frank does not recruit participants, and it does not run usability or prototype tests. A live human interview is still a better fit when the discovery is messy or someone needs to show you their screen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I use a survey instead of a discovery interview?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a survey when you need counts: how many people do a job, how often it happens, or how they would choose among options you already understand. Use a discovery interview when you need the story: what they did last time, what they tried, and what was missing. Many teams use a survey to find a pattern, then interview a smaller set of people about that pattern."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use discovery interviews to validate an idea I have already decided to build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can learn something, but only if you still ask about the person\u2019s past behavior and current workarounds, not whether they like your idea. A compliment or a promise to use the idea is weak evidence. If you already have a design, a usability test answers whether people can use it; a discovery interview answers whether the job matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Frank recruit participants for discovery interviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Frank AI Researcher does not recruit participants. You invite people you can already reach who recently did the job or felt the problem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a discovery interview different from a usability test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A discovery interview asks about a real event or job in someone\u2019s life, often with no design in front of them. A usability test watches someone try a task in a product or design. Frank runs voice interviews, not usability tests, and it does not run image or prototype tests."
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/usability-test-vs-customer-interview.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Usability test vs customer interview",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html#webpage",
+      "name": "Usability test vs customer interview",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html",
+      "description": "A usability test watches someone try a task in a product or design. A customer interview asks about a real event or job in their life. They answer different questions.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html#term",
+        "name": "Usability test vs customer interview",
+        "description": "A usability test watches someone try a specific task in a product or design so you can see where they get stuck. A customer interview asks about a real event or job in their life, often with no design in front of them. The first studies whether people can use something; the second studies whether it matters and why.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/saturation.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Saturation (qualitative research)",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html#webpage",
+      "name": "Saturation (qualitative research)",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html",
+      "description": "In qualitative research, saturation is the point at which new interviews largely repeat themes you already have, rather than adding new ones. It is a judgment, not a fixed count.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html#term",
+        "name": "Saturation (qualitative research)",
+        "alternateName": "Data saturation",
+        "description": "In qualitative research, saturation is the point at which new interviews repeat themes you already have, rather than adding new ones. It is a judgment about whether more conversations are still changing what you understand, not a fixed interview count for every study. How soon it arrives depends on how focused the question is and how similar the people are.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/leading-question.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Leading question",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html#webpage",
+      "name": "Leading question",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html",
+      "description": "A leading question nudges someone toward a particular answer by smuggling in a preference, a cause, or a compliment. Open questions about a recent event are a clearer start.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html#term",
+        "name": "Leading question",
+        "description": "A leading question is a question that nudges the person toward a particular answer, often by smuggling in a preference, a cause, or a compliment. It makes agreement easy and makes disconfirming evidence harder to hear. Open questions about a recent event are usually a clearer starting point.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.path == 'glossary/interview-guide.md' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Frank AI Researcher docs",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Customer research glossary",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Interview guide",
+      "item": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html#webpage",
+      "name": "Interview guide",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html",
+      "description": "An interview guide is a planned list of topics or questions for a research interview, in a consistent order, with room to follow up, so interviews stay comparable.",
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
+      "mainEntity": { "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html#term" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary",
+      "name": "Customer research glossary",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/",
+      "hasDefinedTerm": {
+        "@type": "DefinedTerm",
+        "@id": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html#term",
+        "name": "Interview guide",
+        "description": "An interview guide is a planned list of topics or questions for a research interview, usually in a consistent order, with room to follow up. It keeps interviews comparable across people without turning the conversation into a rigid script. A good guide is built around a decision you need to make, not every topic you are curious about.",
+        "url": "https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html",
+        "inDefinedTermSet": "https://nar-vardanyan.github.io/frank-mcp/glossary/#glossary"
+      }
+    }
+  ]
+}
+</script>
+{% endif %}

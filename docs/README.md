@@ -63,6 +63,21 @@ Competitor facts were taken from each company's own public pages, opened on the 
 
 - [Be honest with Frank](be-honest-with-frank.md): A ten minute voice conversation.
 
+
+## Customer research glossary
+
+- [Customer research glossary](glossary/): Ten interview terms, each with a short definition, examples, and common mistakes.
+- [Jobs to be Done (JTBD)](glossary/jobs-to-be-done.md): Jobs to be Done (JTBD) is a way of understanding why someone hires a product to make progress in a particular situation.
+- [The Mom Test](glossary/the-mom-test.md): The Mom Test is a set of rules for customer interviews from Rob Fitzpatrick's book The Mom Test.
+- [Churn interview](glossary/churn-interview.md): A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, held to learn what triggered that decision and what they did instead.
+- [Win-loss interview](glossary/win-loss-interview.md): A win-loss interview is a conversation with a buyer from a deal you recently won or lost.
+- [Voice of customer](glossary/voice-of-customer.md): Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, the words they use, and their experience, then using that evidence in product and messaging decisions.
+- [Discovery interview](glossary/discovery-interview.md): A discovery interview is a conversation meant to understand a problem, a workflow, or a job someone already has, before you shape a product.
+- [Usability test vs customer interview](glossary/usability-test-vs-customer-interview.md): A usability test watches someone try a specific task in a product or design so you can see where they get stuck.
+- [Saturation](glossary/saturation.md): In qualitative research, saturation is the point at which new interviews repeat themes you already have, rather than adding new ones.
+- [Leading question](glossary/leading-question.md): A leading question is a question that nudges the person toward a particular answer, often by smuggling in a preference, a cause, or a compliment.
+- [Interview guide](glossary/interview-guide.md): An interview guide is a planned list of topics or questions for a research interview, usually in a consistent order, with room to follow up.
+
 ## Comparison pages
 
 - [MCP servers for user research, compared (Nov 2026)](mcp-servers-for-user-research-compared.md)

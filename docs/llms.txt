@@ -99,6 +99,20 @@ Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support r
 - [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html): Cheaper repositories, research suites, and when the gap is collecting interviews, compared with sources
 - [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html): Survey, feedback-board, VoC and interview tools matched to the question, with sourced prices
 
+## Glossary
+
+- [Customer research glossary](https://nar-vardanyan.github.io/frank-mcp/glossary/): Ten customer-research interview terms, each with a short definition, how it is used, examples, and common mistakes
+- [Jobs to be Done (JTBD)](https://nar-vardanyan.github.io/frank-mcp/glossary/jobs-to-be-done.html): Jobs to be Done (JTBD) is a way of understanding why someone hires a product to make progress in a particular situation.
+- [The Mom Test](https://nar-vardanyan.github.io/frank-mcp/glossary/the-mom-test.html): The Mom Test is a set of rules for customer interviews from Rob Fitzpatrick's book The Mom Test.
+- [Churn interview](https://nar-vardanyan.github.io/frank-mcp/glossary/churn-interview.html): A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, held to learn what triggered that decision and what they did instead.
+- [Win-loss interview](https://nar-vardanyan.github.io/frank-mcp/glossary/win-loss-interview.html): A win-loss interview is a conversation with a buyer from a deal you recently won or lost.
+- [Voice of customer](https://nar-vardanyan.github.io/frank-mcp/glossary/voice-of-customer.html): Voice of customer (VoC) is the practice of collecting and organizing what customers say about their needs, the words they use, and their experience, then using that evidence in product and messaging decisions.
+- [Discovery interview](https://nar-vardanyan.github.io/frank-mcp/glossary/discovery-interview.html): A discovery interview is a conversation meant to understand a problem, a workflow, or a job someone already has, before you shape a product.
+- [Usability test vs customer interview](https://nar-vardanyan.github.io/frank-mcp/glossary/usability-test-vs-customer-interview.html): A usability test watches someone try a specific task in a product or design so you can see where they get stuck.
+- [Saturation (qualitative research)](https://nar-vardanyan.github.io/frank-mcp/glossary/saturation.html): In qualitative research, saturation is the point at which new interviews repeat themes you already have, rather than adding new ones.
+- [Leading question](https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html): A leading question is a question that nudges the person toward a particular answer, often by smuggling in a preference, a cause, or a compliment.
+- [Interview guide](https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html): An interview guide is a planned list of topics or questions for a research interview, usually in a consistent order, with room to follow up.
+
 ## Optional
 
 - [Pricing, plans, billing, cancellation and refunds](https://nar-vardanyan.github.io/frank-mcp/llms-full.txt): Plain-text reference with every plan's price and limits, no trial on paid plans, and the cancel and refund policy
