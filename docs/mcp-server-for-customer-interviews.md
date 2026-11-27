@@ -21,7 +21,7 @@ Yes, if the research you want is interviews with customers you already have. Fro
 | **ChatGPT** | Running studies from ChatGPT with the [Frank app in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168), or a custom MCP server | Listed in the ChatGPT app directory |
 | **Claude** (Claude.ai, Claude Desktop, Claude Code) | Drafting studies and reading transcripts from Claude or Claude Code | Tested |
 | **Grok** | The same remote URL in Grok | Tested |
-| **Muse** | The same remote URL in Muse | Tested |
+| **Muse** | Running studies from Muse with a custom connector at the same remote URL | Tested |
 
 Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -43,7 +43,9 @@ Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chat
 
 If the app isn't available in your workspace, add Frank as a custom MCP server instead. In ChatGPT on the web, go to Plugins, select the plus button, then **Add custom MCP server**. Name it Frank AI Researcher, set the server URL to `https://api.hifrank.ai/mcp`, choose OAuth, then create and install the plugin and complete sign-in. In a chat, type `@` and select Frank AI Researcher. Official reference: [Add custom MCP server](https://developers.openai.com/api/docs/guides/custom-mcp-server). More detail: [ChatGPT apps for customer research interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-research-interviews.html).
 
-Grok and Muse use the same URL. Paths for those clients are in the [frank-mcp README](https://github.com/nar-vardanyan/frank-mcp).
+Works in Muse: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then complete sign-in to your Frank account (OAuth). Meta's help page: [How Muse works with Connectors](https://www.meta.com/help/superintelligence/1687253048996149/).
+
+Grok uses the same URL. The path for Grok is in the [frank-mcp README](https://github.com/nar-vardanyan/frank-mcp).
 
 ## What the assistant can do
 
@@ -82,6 +84,10 @@ Frank's MCP server is for user research that takes the form of AI-moderated voic
 ### Is there a user research MCP server for Claude Code?
 
 Yes. Add Frank with `claude mcp add --transport http frank https://api.hifrank.ai/mcp`, sign in, and you can draft studies and read transcripts from Claude Code. MCP is included on every plan, including Free.
+
+### Does Frank work in Muse?
+
+Yes. Muse connects to Frank as a custom connector: ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`, then sign in to your Frank account (OAuth). Meta doesn't review custom connectors, so check the scopes you approve. MCP is included on every plan, including Free.
 
 ### Does it cost extra to use MCP?
 

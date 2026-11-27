@@ -310,7 +310,7 @@ entries:
     summary: How an AI tool interviews customers for you, and where Frank AI Researcher fits for voice interviews with your own customers.
   - title: MCP server for customer interviews
     url: https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html
-    updated: 2026-11-26T12:00:00Z
+    updated: 2026-11-27T15:00:00Z
     summary: "Connect Frank's remote MCP server at https://api.hifrank.ai/mcp. MCP is on every plan, including Free."
   - title: AI voice interviews for customer feedback
     url: https://nar-vardanyan.github.io/frank-mcp/ai-voice-interviews-for-customer-feedback.html
