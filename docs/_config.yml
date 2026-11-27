@@ -346,8 +346,8 @@ defaults:
   - scope:
       path: glossary/churn-interview.md
     values:
-      seo_title: "Churn Interview: Definition and Example Questions"
-      description: "A churn interview is a conversation with a customer who cancelled, downgraded, or stopped using a product, to learn what triggered the decision and what they did instead."
+      seo_title: "Churn Interview for SaaS Founders (2026)"
+      description: "A churn interview with customers who cancelled, downgraded, or stopped using a product. A playbook for a SaaS founder, plus a comparison of live calls, exit surveys, and AI-moderated voice interviews."
       schema_page: true
   - scope:
       path: glossary/win-loss-interview.md
@@ -388,6 +388,6 @@ defaults:
   - scope:
       path: glossary/interview-guide.md
     values:
-      seo_title: "Interview Guide: Definition and How to Use One"
-      description: "An interview guide is a planned list of topics or questions for a research interview, in a consistent order, with room to follow up, so interviews stay comparable."
+      seo_title: "Interview Guide for SaaS Founders (2026)"
+      description: "An interview guide is a planned list of topics or questions for a research interview. A playbook for a SaaS founder, plus how to use the same guide in live calls and AI-moderated voice interviews."
       schema_page: true
