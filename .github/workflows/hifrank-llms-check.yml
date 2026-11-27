@@ -1,0 +1,20 @@
+name: hifrank.ai llms.txt check
+
+# Daily guard so a regression in https://www.hifrank.ai/llms.txt can't hide.
+# Fails if the file drops under 100 lines or links to a URL that isn't 2xx/3xx.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check hifrank.ai/llms.txt
+        run: bash .github/scripts/check-hifrank-llms.sh
