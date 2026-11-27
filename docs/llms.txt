@@ -11,10 +11,12 @@ Frank is available as an app in ChatGPT: https://chatgpt.com/plugins/plugin_asdk
 - MCP endpoint: https://api.hifrank.ai/mcp (Streamable HTTP, OAuth 2.1 with PKCE)
 - Official MCP Registry name: ai.hifrank/frank
 - ChatGPT app directory listing: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
+- Is there a ChatGPT app for customer interviews? Yes, Frank AI Researcher: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html
 - Source repo (docs and MCP metadata): https://github.com/nar-vardanyan/frank-mcp
 
 ## Docs
 
+- [Is there a ChatGPT app for customer interviews?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html): Yes. Frank AI Researcher is available as an app in ChatGPT. Draft a study in chat, share the voice interview link with your own customers, and read transcripts and themes. Install steps, example prompts, and what it does not do
 - [About Frank AI Researcher](https://nar-vardanyan.github.io/frank-mcp/about-frank-ai-researcher.html): What the product is, who makes it, and official profiles. Frank AI Researcher is a software product, not a person or an academic researcher
 - [Be honest with Frank](https://nar-vardanyan.github.io/frank-mcp/be-honest-with-frank.html): A ten minute voice conversation
 - [Docs index](https://nar-vardanyan.github.io/frank-mcp/): All Frank guides and comparison pages
