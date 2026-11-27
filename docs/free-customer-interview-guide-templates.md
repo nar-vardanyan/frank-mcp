@@ -7,7 +7,7 @@ intake_form_url: "FORM_URL_PLACEHOLDER"
 
 **Last updated:** Nov 28, 2026.
 
-Six free interview guides for startups that want to hear from their own customers. Each one has five open questions, a welcome and a closing message, and runs in about eight minutes, so it fits the Free plan's 10-minute interviews. Use them as AI-moderated voice interviews in Frank AI Researcher, or with any interview setup you already have.
+Six free interview guides for startups that want to hear from their own customers. Each one has five open questions, a welcome and a closing message. The questions take about eight minutes, so they fit a 10-minute interview, the Free plan cap. Use them as AI-moderated voice interviews in Frank AI Researcher, or with any interview setup you already have.
 
 {% assign form_is_placeholder = false %}{% if page.intake_form_url == "FORM_URL_PLACEHOLDER" %}{% assign form_is_placeholder = true %}{% endif %}
 {% capture intake_href %}{% if form_is_placeholder %}#{% else %}{{ page.intake_form_url }}?utm_source=frank-mcp-docs&utm_campaign=100-studies{% endif %}{% endcapture %}
@@ -49,9 +49,9 @@ Tell us about your product and the decision you need to make in the intake form.
 **Goal:** Understand what triggered the decision to try {product} and what almost stopped it.
 
 1. Think back to just before you started using {product}. What was going on that made you look for something?
-2. What were you using or doing before, and what was wrong with it?
+2. Before {product}, how were you handling that?
 3. {your question, as a past event}
-4. What almost stopped you from signing up or paying?
+4. Before you signed up or paid, did anything make you hesitate? Tell me about it.
 5. If {product} disappeared tomorrow, what would you do instead?
 
 ### 2. Why people cancel or go quiet
@@ -69,22 +69,22 @@ Tell us about your product and the decision you need to make in the intake form.
 **Goal:** Find the jobs {customer} still does by hand or with workarounds.
 
 1. Walk me through the last time you used {product}. What were you trying to get done?
-2. Where did you have to leave {product} or use something else to finish the job?
+2. During that time, did you have to leave {product} or use something else to finish the job? Tell me about that.
 3. {your question, as a past event}
-4. What's the most annoying part of that workaround?
+4. Think about the part of the job you finish outside {product}. Walk me through how you do it today.
 5. If you could change one thing about {product} tomorrow, what would it be and why?
 
 ### 4. Reaction to a price or a new idea
 
-**Goal:** Hear how {customer} reacts to {idea or price} and what drives the reaction.
+**Goal:** Hear how {customer} reacts to {idea} and what drives the reaction.
 
-**Tip:** Describe the concept or price in one or two plain sentences and add it to the welcome message.
+**Tip:** {idea} is the concept or price in one or two plain sentences. Paste the same text into question 2.
 
-1. How do you handle {problem the idea solves} today?
-2. Here's the idea: {one-sentence concept or price}. What's your first reaction?
-3. {your question}
-4. What would make this an easy yes for you? What would make it a no?
-5. Who else would be involved in deciding to pay for something like this?
+1. Tell me about the last time you had to deal with {problem}. How did you handle it?
+2. Here's the idea: {idea}. What's your first reaction?
+3. {your question, as a past event where it can be}
+4. What would you need to see or know before you'd pay for something like this?
+5. Think of the last time you paid for a tool like this. Who else was involved in that decision?
 
 ### 5. Why we win or lose deals
 
@@ -93,7 +93,7 @@ Tell us about your product and the decision you need to make in the intake form.
 **Tip:** Invite recent wins and recent losses separately. You can run two studies from this template, one for each.
 
 1. What made you start looking for a solution like this?
-2. Which options did you look at, and how did you compare them?
+2. Which other options did you look at at the time?
 3. {your question, as a past event}
 4. What was the deciding factor in the end?
 5. What could {company} have done better during the process?
@@ -103,7 +103,7 @@ Tell us about your product and the decision you need to make in the intake form.
 **Goal:** Find where new users get stuck in their first days with {product}.
 
 1. Think back to your first day with {product}. What were you hoping to get done?
-2. Walk me through what you did first. Where did it go smoothly, and where not?
+2. Walk me through what you did first, step by step.
 3. {your question, as a past event}
 4. Was there a moment you thought about giving up? What happened?
 5. What would you tell a friend to make their first day easier?
@@ -121,7 +121,7 @@ Tell us about your product and the decision you need to make in the intake form.
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Free Customer Interview Guide Templates",
-  "description": "Six free customer interview guide templates for startups: sign-up reasons, churn, what to build next, price or concept tests, win-loss and onboarding. Five questions each, about eight minutes, ready to run as AI-moderated voice interviews in Frank AI Researcher.",
+  "description": "Six free customer interview guide templates for startups: sign-up reasons, churn, what to build next, price or concept tests, win-loss and onboarding. Five questions each, sized for a 10-minute interview, ready to run as AI-moderated voice interviews in Frank AI Researcher.",
   "url": "https://nar-vardanyan.github.io/frank-mcp/free-customer-interview-guide-templates.html",
   "datePublished": "2026-11-28",
   "dateModified": "2026-11-28",
