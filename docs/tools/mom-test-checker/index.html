@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mom Test Question Checker (Free, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free Mom Test question checker. Paste your customer interview questions and see which are leading, hypothetical, future-tense, yes/no, compliment-seeking or pitching, with a plain reason and a past-behaviour rewrite for each. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Mom Test Question Checker (Free, No Login)">
+<meta property="og:description" content="Paste your interview questions. See which ones are leading, hypothetical, future-tense, yes/no, compliment-seeking or pitching, and how to ask about past behaviour instead.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mom Test Question Checker (Free, No Login)">
+<meta name="twitter:description" content="Check customer interview questions for leading, hypothetical and yes/no wording, with a rewrite for each.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/#app",
+      "name": "Mom Test Question Checker",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to check your own questions. A worked example is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based checker for customer interview questions. Rule-based heuristics, inspired by the book The Mom Test by Rob Fitzpatrick, flag leading, hypothetical, future-tense, yes/no or closed, compliment-seeking and pitching questions, with a short reason and a suggested rewrite about past behaviour. No login, no AI model, nothing sent to a server.",
+      "featureList": ["Flags leading questions", "Flags hypothetical and future-tense questions", "Flags hypothetical price questions", "Flags yes/no and closed questions", "Flags compliment-seeking and pitching questions", "Plain reason and past-behaviour rewrite for each flag", "Summary of all questions"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Mom Test Question Checker", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/" }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/">Survey to interview converter</a>
+  </nav>
+
+  <main>
+    <h1>Mom Test Question Checker</h1>
+    <p class="lede">Paste the questions you plan to ask customers, one per line. Each one is checked for wording that tends to get polite guesses instead of facts: leading, hypothetical, future-tense, yes/no, compliment-seeking and pitching. Flagged questions get a short reason and a rewrite about something that really happened. Free, no login: it runs in your browser and nothing you paste is sent anywhere.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="field">
+        <label for="qs">Interview questions <span class="hint">(one per line; numbers and bullets are fine; up to 40 questions)</span></label>
+        <textarea id="qs" name="qs" spellcheck="true">1. Would you use an app that tracks team expenses?
+2. How much would you pay for it?
+3. Don't you think expense reports are a pain?
+4. What do you think of our idea?
+5. Do you track expenses in a spreadsheet?
+6. Tell me about the last time you filed an expense report.
+7. What did you try before your current process?</textarea>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Check my questions</button>
+        <button class="btn btn-ghost" type="button" id="clear">Clear</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Results</h2>
+      <article class="guide" id="out" aria-live="polite">
+        <p class="summary" id="summary">2 of 7 questions look fine. 5 to rework (seeks compliments: 1, hypothetical price: 1, future or would-you: 1, leading: 1, yes/no or closed: 3).</p><ol class="rows"><li class="row bad"><span class="q">Would you use an app that tracks team expenses?</span><p class="flag" data-flag="future"><span class="tag">Future or would-you</span>It asks about the future. Answers about what people would or will do are predictions, often optimistic.<span class="rw">Try: Tell me about the last time you [ran into this problem]. What did you do about it?</span></p><p class="flag" data-flag="closed"><span class="tag">Yes/no or closed</span>It can be answered with yes, no or a pick from a list, so you get no story and no detail.<span class="rw">Try: Tell me about the last time [this happened]. What happened, step by step?</span></p></li><li class="row bad"><span class="q">How much would you pay for it?</span><p class="flag" data-flag="price"><span class="tag">Hypothetical price</span>Asking what someone would pay for something that does not exist gets a guess. What they already spend is real.<span class="rw">Try: What do you spend on [this problem] today, in money or time? How did you decide that was worth it?</span></p></li><li class="row bad"><span class="q">Don't you think expense reports are a pain?</span><p class="flag" data-flag="leading"><span class="tag">Leading</span>The wording hints at the answer you want, so people tend to agree.<span class="rw">Try: Drop the hint and ask about a real event: Tell me about the last time you [did this]. How did it go?</span></p><p class="flag" data-flag="closed"><span class="tag">Yes/no or closed</span>It can be answered with yes, no or a pick from a list, so you get no story and no detail.<span class="rw">Try: Tell me about the last time [this happened]. What happened, step by step?</span></p></li><li class="row bad"><span class="q">What do you think of our idea?</span><p class="flag" data-flag="compliment"><span class="tag">Seeks compliments</span>It asks for an opinion of your idea. People are polite, so you mostly hear compliments, not facts.<span class="rw">Try: Tell me about the last time you needed to [do the job your product does]. What did you use, and what was missing?</span></p></li><li class="row bad"><span class="q">Do you track expenses in a spreadsheet?</span><p class="flag" data-flag="closed"><span class="tag">Yes/no or closed</span>It can be answered with yes, no or a pick from a list, so you get no story and no detail.<span class="rw">Try: Walk me through how you track expenses in a spreadsheet today. When was the last time?</span></p></li><li class="row ok"><span class="q">Tell me about the last time you filed an expense report.</span><div class="verdict">Looks fine: open and about real experience.</div></li><li class="row ok"><span class="q">What did you try before your current process?</span><div class="verdict">Looks fine: open and about real experience.</div></li></ol>
+      </article>
+      <noscript><p>JavaScript is off, so the results for the example questions are shown. Turn on JavaScript to check your own questions.</p></noscript>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> Put your reworked questions into a Frank study and share one link with customers you already have. Frank asks them out loud and follows up on the answers. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-tools&amp;utm_campaign=mom-test-checker">Let Frank ask them for you</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>What the checker flags</h2>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Flag</th><th scope="col">Example</th><th scope="col">Why it is a problem</th><th scope="col">Suggested rewrite</th></tr></thead>
+      <tbody>
+        <tr><td>Pitching</td><td>Our app lets you book rooms in one click. How does that sound?</td><td>It describes your product, so people react to your pitch instead of telling you about their own life.</td><td>Leave your product out of the question. Ask: What is the hardest part of [the task] for you today? Tell me about the last time it came up.</td></tr>
+        <tr><td>Seeks compliments</td><td>What do you think of our idea?</td><td>It asks for an opinion of your idea. People are polite, so you mostly hear compliments, not facts.</td><td>Tell me about the last time you needed to [do the job your product does]. What did you use, and what was missing?</td></tr>
+        <tr><td>Hypothetical price</td><td>How much would you pay for this?</td><td>Asking what someone would pay for something that does not exist gets a guess. What they already spend is real.</td><td>What do you spend on [this problem] today, in money or time? How did you decide that was worth it?</td></tr>
+        <tr><td>Future or would-you</td><td>Would you use an app that tracks team expenses?</td><td>It asks about the future. Answers about what people would or will do are predictions, often optimistic.</td><td>Tell me about the last time you [ran into this problem]. What did you do about it?</td></tr>
+        <tr><td>Hypothetical</td><td>If you could change one thing, what would it be?</td><td>It asks people to imagine a situation. Imagined answers are guesses, not evidence.</td><td>Tell me about a recent time [this situation] actually happened. What did you do?</td></tr>
+        <tr><td>Leading</td><td>Don't you think onboarding is confusing?</td><td>The wording hints at the answer you want, so people tend to agree.</td><td>Drop the hint and ask about a real event: Tell me about the last time you [did this]. How did it go?</td></tr>
+        <tr><td>Yes/no or closed</td><td>Do you track expenses in a spreadsheet?</td><td>It can be answered with yes, no or a pick from a list, so you get no story and no detail.</td><td>Walk me through how you track expenses in a spreadsheet today. When was the last time?</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>Questions that ask about a specific past event, the current process, what someone already tried or spent, or who was involved are left unflagged. Polite openers such as "Can you walk me through..." are not counted as yes/no questions. Rewrites use [brackets] where you fill in your own topic.</p>
+
+    <h2>About these rules</h2>
+    <p>The checks are simple heuristics, inspired by Rob Fitzpatrick's book <a href="https://www.momtestbook.com/" rel="noopener"><cite>The Mom Test</cite></a>, which explains how to talk to customers without getting misled by polite answers. The rules on this page are our own wording and pattern matching. They are not taken from the book, and the tool is not affiliated with or endorsed by the author. Read the book for the full method.</p>
+    <p>Pattern matching can be wrong in both directions. A flagged question can be fine in context, and a clean result does not prove a question is good. Use the result as a second look, then edit by hand.</p>
+
+    <h2>How to ask better interview questions</h2>
+    <ul>
+      <li><strong>Ask about their life, not your idea.</strong> People are kind about ideas. They are accurate about what they did last week.</li>
+      <li><strong>Ask about the past, not the future.</strong> "Tell me about the last time..." gets a real story. "Would you use..." gets a guess.</li>
+      <li><strong>Ask what they spend today.</strong> Money and time already spent on a problem show how much it matters. A price for something imaginary does not.</li>
+      <li><strong>Keep questions open.</strong> A yes/no question ends the story before it starts.</li>
+      <li><strong>Don't pitch during the interview.</strong> Once you describe your product, people start reviewing it instead of telling you about their problem.</li>
+    </ul>
+
+    <h2>FAQ</h2>
+    <h3>Does this use AI?</h3>
+    <p>No. It uses fixed rules that look for common wording patterns. The same input always gives the same result.</p>
+    <h3>Is it free? Do I need an account?</h3>
+    <p>Yes, it is free and needs no login. It runs in your browser, and nothing you paste is sent to a server or stored.</p>
+    <h3>Does Frank find people to interview?</h3>
+    <p>No. Frank does not recruit participants. You invite customers you already have, from your product or your email list.</p>
+    <h3>Can I set up the interview from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/">Survey to interview question converter</a>: turn survey questions into interview questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/templates/">30 customer interview study templates</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/validate-a-startup-idea-with-customer-interviews.html">How to validate a startup idea with customer interviews</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-tools&amp;utm_campaign=mom-test-checker">Frank AI Researcher</a>. The rewrites are starting points: edit them so they sound like you. Nothing you paste on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+// Mom Test checker rules. Pure functions, no network. Used by the page and by test_rules.js.
+var MTC = (function () {
+  var MAX_IN = 40;
+  var LABELS = {
+    pitch: "Pitching",
+    compliment: "Seeks compliments",
+    price: "Hypothetical price",
+    future: "Future or would-you",
+    hypothetical: "Hypothetical",
+    leading: "Leading",
+    closed: "Yes/no or closed"
+  };
+  var ORDER = ["pitch", "compliment", "price", "future", "hypothetical", "leading", "closed"];
+  var AUX = "(?:do|does|did|is|are|was|were|am|have|has|had|can|could|will|would|should|shall|may|might|must|don't|doesn't|didn't|isn't|aren't|wasn't|weren't|haven't|hasn't|won't|wouldn't|can't|couldn't|shouldn't)";
+  var RE = {
+    pitch: [
+      /\b(?:we(?:'re| are)|i(?:'m| am)) (?:building|making|creating|launching|developing|working on)\b/i,
+      /\bwe(?:'ve| have)? (?:built|made|created|launched|developed)\b/i,
+      /\bour (?:new |upcoming )?(?:product|app|tool|platform|solution|service|feature|software|startup|idea|prototype|plugin|extension)s? (?:that|which|lets|helps|will|can|makes|gives|automatically)\b/i,
+      /\b(?:imagine|picture) (?:a|an|our) (?:app|tool|product|platform|service)\b/i
+    ],
+    compliment: [
+      /\b(?:do|did|would|will) you (?:like|love|enjoy) (?:our|my|the|this|it)\b/i,
+      /\bwhat do you think (?:of|about) (?:our|my|this|the idea|the product|the app|the design|the feature|it)\b/i,
+      /\bhow do you feel about (?:our|my|this)\b/i,
+      /\b(?:is|was) (?:this|it|that|our|my) (?:\w+ )?(?:a )?(?:good|great|cool|useful|helpful|nice) (?:idea|product|app|tool|feature|design)?\b/i,
+      /\bhow (?:much do you like|good is (?:our|my|this))\b/i,
+      /\b(?:our|my) (?:idea|product|app|tool|design)\b.*\b(?:good|great|useful|cool)\b/i
+    ],
+    price: [
+      /\bhow much (?:would|will|might|could) you (?:pay|spend)\b/i,
+      /\b(?:would|will|might|could) you (?:pay|spend|subscribe)\b/i,
+      /\b(?:willing|be willing|ready) to (?:pay|spend|buy)\b/i,
+      /\bwhat (?:would|will) you (?:pay|spend)\b/i,
+      /\bwhat price (?:would|will)\b/i
+    ],
+    future: [
+      /\b(?:would|will|might|could|wouldn't|won't) you\b/i,
+      /\b(?:are|were) you (?:going|planning|likely) to\b/i,
+      /\bdo you (?:plan|intend|expect|think you(?:'ll| will)) to\b/i,
+      /\bdo you think you (?:would|will|might)\b/i,
+      /\b(?:would|will) (?:it|this|that|they|your team)\b/i,
+      /\bin the future\b/i,
+      /\bnext (?:year|month|quarter)\b/i
+    ],
+    hypothetical: [
+      /^(?:if|imagine|suppose|assuming|say)\b/i,
+      /\bwhat if\b/i,
+      /\bif (?:you|we|there) (?:could|had|were|was|built|offered|added|made|launched|gave|got)\b/i,
+      /\b(?:imagine|suppose|pretend|hypothetically|ideally)\b/i,
+      /\bmagic wand\b/i,
+      /\byour (?:ideal|dream|perfect)\b/i
+    ],
+    leading: [
+      new RegExp("^" + "(?:don't|doesn't|didn't|isn't|aren't|wasn't|weren't|wouldn't|won't|haven't|hasn't|can't|shouldn't) ", "i"),
+      /\b(?:wouldn't you agree|do you agree|would you agree|don't you think|isn't it true|right\?\s*$|correct\?\s*$)/i,
+      /\bhow (?:much|often) do you (?:hate|struggle|suffer)\b/i,
+      /\bhow (?:frustrating|annoying|painful|hard|difficult|great|easy|amazing|helpful|useful|bad|terrible|awful|confusing|good) (?:is|was|are|were|would|will|has|does|did)\b/i,
+      /\b(?:obviously|surely|clearly|of course)\b/i,
+      /\b(?:most|many|all|other) (?:people|users|customers|teams|founders) (?:say|tell us|find|agree|love|hate)\b/i,
+      /\b(?:frustrat|annoy|pain(?:ful)?|struggl|hate)\w* (?:with|about|by|when)\b.*\?$/i
+    ]
+  };
+  var POLITE = /^(?:can|could|would|will) you (?:please )?(?:walk|tell|talk|describe|show|share|explain|take|give|help me understand|recall|remember|think back)\b|^would you mind\b/i;
+  var CLOSED_START = new RegExp("^" + AUX + "\\b", "i");
+  var CHOICE = /\b(?:or not|which (?:one|of (?:these|the following|them)))\b|\b\w+ or \w+\?$/i;
+  var SCALE = /\bon a scale\b|\b(?:1|one) (?:to|-) (?:5|10|five|ten)\b|\brate\b/i;
+
+  function clean(line) {
+    return String(line).replace(/^\s*(?:[-*\u2022>]+|\(?\d{1,3}[.)\]:]|[a-z][.)])\s*/i, "")
+      .replace(/^["'\u201c\u2018]+|["'\u201d\u2019]+$/g, "").replace(/\s+/g, " ").trim();
+  }
+  function any(list, s) { for (var i = 0; i < list.length; i++) if (list[i].test(s)) return true; return false; }
+  function lc(s) { return s.charAt(0).toLowerCase() + s.slice(1); }
+
+  // Light, safe rewrites. When the question shape is not recognised we use a bracketed placeholder to fill in.
+  function doYouRewrite(q) {
+    var m = q.match(/^do you (?!think|feel|like|love|agree|want|need|plan|intend|expect)([a-z][a-z' -]{2,60}?)\??$/i);
+    if (!m) return null;
+    var rest = m[1].replace(/\b(?:ever|usually|often|currently|regularly|really|still|now)\b\s*/gi, "").trim();
+    if (!rest || /\b(?:our|my)\b/i.test(rest)) return null;
+    return "Walk me through how you " + rest + " today. When was the last time?";
+  }
+  function rewriteFor(flag, q) {
+    switch (flag) {
+      case "pitch": return "Leave your product out of the question. Ask: What is the hardest part of [the task] for you today? Tell me about the last time it came up.";
+      case "compliment": return "Tell me about the last time you needed to [do the job your product does]. What did you use, and what was missing?";
+      case "price": return "What do you spend on [this problem] today, in money or time? How did you decide that was worth it?";
+      case "future": return "Tell me about the last time you [ran into this problem]. What did you do about it?";
+      case "hypothetical": return "Tell me about a recent time [this situation] actually happened. What did you do?";
+      case "leading": return "Drop the hint and ask about a real event: Tell me about the last time you [did this]. How did it go?";
+      case "closed": return doYouRewrite(q) || "Tell me about the last time [this happened]. What happened, step by step?";
+    }
+    return "";
+  }
+  var REASONS = {
+    pitch: "It describes your product, so people react to your pitch instead of telling you about their own life.",
+    compliment: "It asks for an opinion of your idea. People are polite, so you mostly hear compliments, not facts.",
+    price: "Asking what someone would pay for something that does not exist gets a guess. What they already spend is real.",
+    future: "It asks about the future. Answers about what people would or will do are predictions, often optimistic.",
+    hypothetical: "It asks people to imagine a situation. Imagined answers are guesses, not evidence.",
+    leading: "The wording hints at the answer you want, so people tend to agree.",
+    closed: "It can be answered with yes, no or a pick from a list, so you get no story and no detail."
+  };
+
+  function check(raw) {
+    var q = clean(raw);
+    var flags = [];
+    function add(id) { if (flags.indexOf(id) < 0) flags.push(id); }
+    if (!q) return null;
+    if (any(RE.pitch, q)) add("pitch");
+    if (any(RE.compliment, q)) add("compliment");
+    if (any(RE.price, q)) add("price");
+    var polite = POLITE.test(q);
+    var rest = polite ? q.replace(POLITE, "") : q;
+    if (any(RE.future, rest) && flags.indexOf("price") < 0) add("future");
+    if (any(RE.hypothetical, q)) add("hypothetical");
+    if (any(RE.leading, q)) add("leading");
+    var sentences = q.replace(/([.!?])\s+/g, "$1\n").split("\n");
+    var closedStart = sentences.some(function (x, i) { return (i === 0 ? !polite : !POLITE.test(x)) && CLOSED_START.test(x) && (i === 0 || /\?$/.test(x)); });
+    if (closedStart || CHOICE.test(q) || SCALE.test(q)) add("closed");
+    flags.sort(function (a, b) { return ORDER.indexOf(a) - ORDER.indexOf(b); });
+    return {
+      q: q,
+      ok: flags.length === 0,
+      flags: flags.map(function (id) { return { id: id, label: LABELS[id], reason: REASONS[id], rewrite: rewriteFor(id, q) }; })
+    };
+  }
+
+  function checkAll(text) {
+    var lines = String(text || "").split(/\r?\n/).map(clean).filter(function (l) { return l.length > 1; });
+    var truncated = lines.length > MAX_IN;
+    lines = lines.slice(0, MAX_IN);
+    var rows = lines.map(check).filter(Boolean);
+    var counts = {};
+    ORDER.forEach(function (id) { counts[id] = 0; });
+    rows.forEach(function (r) { r.flags.forEach(function (f) { counts[f.id]++; }); });
+    var good = rows.filter(function (r) { return r.ok; }).length;
+    return { rows: rows, good: good, flagged: rows.length - good, counts: counts, truncated: truncated };
+  }
+
+  function summaryText(res) {
+    if (!res.rows.length) return "";
+    var parts = ORDER.filter(function (id) { return res.counts[id]; }).map(function (id) { return LABELS[id].toLowerCase() + ": " + res.counts[id]; });
+    return res.good + " of " + res.rows.length + " questions look fine. " +
+      (res.flagged ? res.flagged + " to rework (" + parts.join(", ") + ")." : "Nothing flagged.");
+  }
+
+  return { MAX_IN: MAX_IN, LABELS: LABELS, ORDER: ORDER, REASONS: REASONS, clean: clean, check: check, checkAll: checkAll, summaryText: summaryText };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var render_ = (function resultHTML(res, esc, M) {
+  if (!res.rows.length) return "<p class=\"note\">Paste at least one interview question above, one per line, then press Check my questions.</p>";
+  return "<p class=\"summary\" id=\"summary\">" + esc(M.summaryText(res)) + "</p>" +
+    (res.truncated ? "<p class=\"note\">Only the first " + M.MAX_IN + " questions were checked.</p>" : "") +
+    "<ol class=\"rows\">" + res.rows.map(function (r) {
+      return "<li class=\"row " + (r.ok ? "ok" : "bad") + "\"><span class=\"q\">" + esc(r.q) + "</span>" +
+        (r.ok ? "<div class=\"verdict\">Looks fine: open and about real experience.</div>" :
+          r.flags.map(function (f) {
+            return "<p class=\"flag\" data-flag=\"" + f.id + "\"><span class=\"tag\">" + esc(f.label) + "</span>" + esc(f.reason) +
+              "<span class=\"rw\">Try: " + esc(f.rewrite) + "</span></p>";
+          }).join("")) + "</li>";
+    }).join("") + "</ol>";
+});
+  function render() { $("out").innerHTML = render_(MTC.checkAll($("qs").value), esc, MTC); }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  $("clear").addEventListener("click", function () { $("qs").value = ""; render(); $("qs").focus(); });
+  render();
+})();
+</script>
+</body>
+</html>

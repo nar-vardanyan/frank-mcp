@@ -100,6 +100,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/survey-to-interview-converter/
     updated: 2026-11-26T16:00:00Z
     summary: A free, no-login tool that turns survey questions into open interview questions about real past events, with a follow-up for each.
+  - title: Mom Test question checker
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/
+    updated: 2026-11-27T08:00:00Z
+    summary: A free, no-login tool that flags leading, hypothetical, future-tense, yes/no, compliment-seeking and pitching interview questions and suggests past-behaviour rewrites.
   - title: Customer interview questions template
     url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-template.html
     updated: 2026-11-26T12:00:00Z
