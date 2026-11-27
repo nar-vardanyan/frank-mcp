@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Many Customer Interviews? Sample Size Planner (Free, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free planner for how many customer interviews to run. Pick your goal, segments, how similar people are and how much you already know, and get a guidance range per segment with the reasons, based on published saturation studies with links. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="How Many Customer Interviews? Sample Size Planner (Free, No Login)">
+<meta property="og:description" content="A guidance range of interviews per segment for discovery, churn, Jobs to Be Done or a focused question, with the reasons and the published studies behind it.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How Many Customer Interviews? Sample Size Planner (Free, No Login)">
+<meta name="twitter:description" content="Guidance ranges for how many customer interviews to run, with reasons and cited studies.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/#app",
+      "name": "Customer Interview Sample Size Planner",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to plan your own study. A worked example is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based planner for how many customer interviews to run. Choose the goal (discovery, churn, Jobs to Be Done or a focused question), the number of segments, how similar people are and how much you already know, and get a guidance range per segment and in total, with the reasons and links to the published studies the ranges come from (Guest, Bunce and Johnson 2006; Hennink and Kaiser 2022; Griffin and Hauser 1993; Malterud, Siersma and Guassora 2016). Optionally converts the plan into voice minutes. No login, nothing sent to a server.",
+      "featureList": ["Guidance range of interviews per segment", "Totals across segments", "Reasons for the range", "Links to the published studies", "When to check your notes first", "Voice minutes for your planned interview length", "Download as Markdown"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Customer Interview Sample Size Planner", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How many customer interviews are enough?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single number. Published studies found that interviews with fairly similar people and a narrow question stop turning up new themes within about 9 to 17 interviews, and that finding most customer needs in a segment takes about 20 to 30. Use the range for your goal, per segment, and stop when new interviews stop adding new themes." } },
+        { "@type": "Question", "name": "Why per segment?", "acceptedAnswer": { "@type": "Answer", "text": "The studies count interviews within one fairly similar group of people. If you talk to two very different groups, such as small teams and large companies, each group needs its own set of interviews." } },
+        { "@type": "Question", "name": "Is this a statistical sample size calculator?", "acceptedAnswer": { "@type": "Answer", "text": "No. Interviews are qualitative, so there is no margin of error to calculate. The planner gives guidance ranges from published saturation studies and explains which one applies." } },
+        { "@type": "Question", "name": "Does this use AI? Is anything sent to a server?", "acceptedAnswer": { "@type": "Answer", "text": "No. It applies fixed rules in your browser and sends nothing anywhere." } },
+        { "@type": "Question", "name": "How many interviews fit in Frank's free plan?", "acceptedAnswer": { "@type": "Answer", "text": "Frank's free plan has 60 voice minutes a month, no card required. Enter your planned interview length and the planner shows how many interviews that covers each month. Real interviews often run shorter or longer than planned." } },
+        { "@type": "Question", "name": "Does Frank find people to interview?", "acceptedAnswer": { "@type": "Answer", "text": "No. Frank does not recruit participants. You invite customers you already have." } },
+        { "@type": "Question", "name": "Can I set up the interviews from an AI assistant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank has a remote MCP server at https://api.hifrank.ai/mcp, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+  fieldset { border:0; padding:0; margin:0 0 14px; }
+  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }
+  .radios label, .radios { font-weight:400; }
+  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }
+  .radios input { width:auto; }
+  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .tag.push { background:#ffebe9; color:#82071e; }
+  .tag.pull { background:#ddf4ff; color:#0a3069; }
+  .tag.anxiety { background:#fff1c2; color:#6c4a00; }
+  .tag.habit { background:#f3e8ff; color:#4c1d95; }
+  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }
+  .phase-goal { color:var(--muted); margin-top:-6px; }
+  .themes td.num { text-align:right; white-space:nowrap; }
+  .theme { border:1px solid var(--line); border-radius:10px; padding:4px 18px 12px; margin:16px 0; }
+  .theme h3 { margin-top:12px; }
+  .theme .meta { color:var(--muted); font-size:0.9em; margin-top:-6px; }
+  .theme blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--line); color:var(--ink); }
+  .theme.unclear { border-style:dashed; }
+  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; margin-right:6px; }
+  details.all { margin-top:12px; }
+  details.all li { margin-bottom:6px; }
+  .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid3 { grid-template-columns: 1fr; } }
+  .mail input { margin-bottom:8px; }
+  .mail textarea { min-height: 260px; }
+  #col-field[hidden] { display:none; }
+  .doc h3 { margin-top:18px; }
+  .doc .checks { list-style:none; padding-left:0; }
+  .doc .checks li::before { content:"\2610  "; }
+  .doc blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--accent); background:var(--soft); }
+  .doc .stage { color:var(--muted); font-style:italic; }
+  .checkrow label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-weight:400; font-size:16px; }
+  .checkrow input { width:auto; }
+  .big { font-size:1.25em; font-weight:700; margin:12px 0 6px; }
+  .src li { margin-bottom:10px; }
+  input[type=number] { max-width:160px; }
+  @media print { .note.top, .seo, nav, footer, form.gen, .cta, .actions { display:none !important; } .guide { border:0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>
+  </nav>
+
+  <main>
+    <h1>How Many Customer Interviews? Sample Size Planner</h1>
+    <p class="lede">Get a sensible range for how many customer interviews to run, with the reasons. Pick your goal, how many segments you have, how similar the people are and how much you already know. The ranges come from published studies on when interviews stop turning up new themes, linked below. Free, no login: it runs in your browser.</p>
+    <p class="note">These are guidance ranges, not a calculation. No study can tell you the exact number for your product. Plan with the range, check your notes as you go, and stop when new interviews stop adding new themes.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="grid2">
+        <div class="field">
+          <label for="goal">Goal of the interviews</label>
+          <select id="goal">
+            <option value="discovery">Discovery: find needs and problems in a market</option>
+            <option value="churn" selected>Churn: why customers left</option>
+            <option value="jtbd">Jobs to Be Done: why customers switched to you</option>
+            <option value="focused">A focused question: one feature, price or message</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="segments">Segments <span class="hint">(groups of quite different customers, 1 to 10)</span></label>
+          <input id="segments" type="number" min="1" max="10" step="1" value="2">
+        </div>
+      </div>
+      <fieldset class="radios">
+        <legend>Within a segment, how similar are the people?</legend>
+        <label><input type="radio" name="similar" id="similar-similar" value="similar" checked> Quite similar</label>
+        <label><input type="radio" name="similar" id="similar-mixed" value="mixed"> Very mixed</label>
+      </fieldset>
+      <div class="grid2">
+        <div class="field">
+          <label for="known">How much do you already know?</label>
+          <select id="known">
+            <option value="little">Little: this is new to us</option>
+            <option value="some" selected>Some: we have hunches</option>
+            <option value="lot">A lot: we have a specific question</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="minutes">Planned length of each interview <span class="hint">(minutes, optional)</span></label>
+          <input id="minutes" type="number" min="1" max="120" step="1" value="" placeholder="your planned length">
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Plan my interviews</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Your plan</h2>
+      <article class="guide" id="plan" aria-live="polite">
+        <p class="big" id="summary">Plan 9 to 17 interviews per segment, 18 to 34 in total across 2 segments. Plan for the range and stop when new interviews stop adding new themes.</p><p><strong>Goal:</strong> Churn: why customers left</p><p>Check your notes after about <strong>12</strong> interviews (6 per segment): basic themes often show up that early (Guest, Bunce &amp; Johnson 2006).</p><p id="minutes-out" class="hint">Enter your planned interview length to see the voice minutes.</p><h3>Why this range</h3><ul><li class="reason">A narrow goal about one decision, the kind of study where Hennink &amp; Kaiser found saturation within 9 to 17 interviews.</li><li class="reason">Each segment needs its own range, because the sources count interviews within one relatively similar group.</li></ul><h3>Sources for this plan</h3><ul class="src"><li><a href="https://doi.org/10.1016/j.socscimed.2021.114523" rel="noopener">Hennink &amp; Kaiser (2022)</a>: Across 17 empirical studies, saturation was reached within 9 to 17 interviews, particularly with relatively homogenous populations and narrowly defined objectives. Outliers such as multi-country research needed larger samples.</li><li><a href="https://doi.org/10.1177/1525822X05279903" rel="noopener">Guest, Bunce &amp; Johnson (2006)</a>: In 60 in-depth interviews, saturation occurred within the first twelve interviews, and basic elements for metathemes were present as early as six.</li><li><a href="https://doi.org/10.1177/1049732315617444" rel="noopener">Malterud, Siersma &amp; Guassora (2016)</a>: Information power: the more information the sample holds that is relevant for the study, the fewer participants are needed. It depends on the aim of the study, sample specificity, use of established theory, quality of dialogue and analysis strategy.</li></ul>
+      </article>
+      <noscript><p>JavaScript is off, so the example above is shown (churn interviews, 2 segments of quite similar customers, some prior knowledge). Turn on JavaScript to plan your own study.</p></noscript>
+      <div class="actions js-only">
+        <button class="btn btn-ghost" type="button" id="copy">Copy plan</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> Share one link with customers you already have, and Frank asks your questions out loud, follows up on each answer, and gives you transcripts and themes, so twenty interviews don't mean twenty calendar slots. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=customer-interview-sample-size-planner">Run the interviews by voice with Frank</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>What the research says</h2>
+    <p>Every number on this page comes from one of these studies. Each link goes to the published paper.</p>
+    <ul class="src">
+      <li><a href="https://doi.org/10.1177/1525822X05279903" rel="noopener">Guest, G., Bunce, A. &amp; Johnson, L. (2006). How Many Interviews Are Enough? An Experiment with Data Saturation and Variability. Field Methods, 18(1), 59 to 82.</a> In 60 in-depth interviews, saturation occurred within the first twelve interviews, and basic elements for metathemes were present as early as six.</li>
+      <li><a href="https://doi.org/10.1016/j.socscimed.2021.114523" rel="noopener">Hennink, M. &amp; Kaiser, B. N. (2022). Sample sizes for saturation in qualitative research: A systematic review of empirical tests. Social Science &amp; Medicine, 292, 114523.</a> Across 17 empirical studies, saturation was reached within 9 to 17 interviews, particularly with relatively homogenous populations and narrowly defined objectives. Outliers such as multi-country research needed larger samples.</li>
+      <li><a href="https://doi.org/10.1287/mksc.12.1.1" rel="noopener">Griffin, A. &amp; Hauser, J. R. (1993). The Voice of the Customer. Marketing Science, 12(1), 1 to 27.</a> Interviews with 20 to 30 customers should identify 90% or more of the customer needs in a relatively homogeneous customer segment.</li>
+      <li><a href="https://doi.org/10.1177/1049732315617444" rel="noopener">Malterud, K., Siersma, V. D. &amp; Guassora, A. D. (2016). Sample Size in Qualitative Interview Studies: Guided by Information Power. Qualitative Health Research, 26(13), 1753 to 1760.</a> Information power: the more information the sample holds that is relevant for the study, the fewer participants are needed. It depends on the aim of the study, sample specificity, use of established theory, quality of dialogue and analysis strategy.</li>
+    </ul>
+    <p>The studies measure "saturation": the point where new interviews add little or nothing new. Most of them looked at fairly similar groups of people with a narrow question, so treat the ranges as a starting point, not a rule.</p>
+
+    <h2>How the planner picks a range</h2>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Goal</th><th scope="col">Range per segment</th><th scope="col">Source</th></tr></thead>
+      <tbody>
+        <tr><td>Discovery: find needs and problems in a market</td><td>20 to 30</td><td><a href="https://doi.org/10.1287/mksc.12.1.1" rel="noopener">Griffin &amp; Hauser (1993)</a></td></tr>
+        <tr><td>Churn: why customers left</td><td>9 to 17</td><td><a href="https://doi.org/10.1016/j.socscimed.2021.114523" rel="noopener">Hennink &amp; Kaiser (2022)</a></td></tr>
+        <tr><td>Jobs to Be Done: why customers switched to you</td><td>9 to 17</td><td><a href="https://doi.org/10.1016/j.socscimed.2021.114523" rel="noopener">Hennink &amp; Kaiser (2022)</a></td></tr>
+        <tr><td>A focused question: one feature, price or message</td><td>9 to 17</td><td><a href="https://doi.org/10.1016/j.socscimed.2021.114523" rel="noopener">Hennink &amp; Kaiser (2022)</a></td></tr>
+      </tbody>
+    </table>
+    </div>
+    <ul>
+      <li><strong>Segments multiply the range.</strong> The studies count interviews within one fairly similar group, so each segment gets its own range.</li>
+      <li><strong>What you already know moves you within the range.</strong> A specific question and lots of prior knowledge point to the lower end; a new topic points to the upper end. This follows the idea of information power from Malterud and colleagues.</li>
+      <li><strong>Very mixed people push you up.</strong> Split them into segments if you can.</li>
+      <li><strong>Check early.</strong> Review your notes after about 6 interviews per segment, when basic themes often appear (Guest, Bunce and Johnson).</li>
+    </ul>
+
+    <h2>FAQ</h2>
+    <h3>How many customer interviews are enough?</h3>
+    <p>There is no single number. Published studies found that interviews with fairly similar people and a narrow question stop turning up new themes within about 9 to 17 interviews, and that finding most customer needs in a segment takes about 20 to 30. Use the range for your goal, per segment, and stop when new interviews stop adding new themes.</p>
+    <h3>Why per segment?</h3>
+    <p>The studies count interviews within one fairly similar group of people. If you talk to two very different groups, such as small teams and large companies, each group needs its own set of interviews.</p>
+    <h3>Is this a statistical sample size calculator?</h3>
+    <p>No. Interviews are qualitative, so there is no margin of error to calculate. The planner gives guidance ranges from published saturation studies and explains which one applies.</p>
+    <h3>Does this use AI? Is anything sent to a server?</h3>
+    <p>No. It applies fixed rules in your browser and sends nothing anywhere.</p>
+    <h3>How many interviews fit in Frank's free plan?</h3>
+    <p>Frank's free plan has 60 voice minutes a month, no card required. Enter your planned interview length and the planner shows how many interviews that covers each month. Real interviews often run shorter or longer than planned.</p>
+    <h3>Does Frank find people to interview?</h3>
+    <p>No. Frank does not recruit participants. You invite customers you already have.</p>
+    <h3>Can I set up the interviews from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/">JTBD switch interview question generator</a>: timeline questions tagged push, pull, anxiety and habit</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/">Cancellation reason sorter</a>: sort churn survey answers into themes, with interview follow-ups</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-cost-calculator/">Customer interview cost calculator</a></li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=customer-interview-sample-size-planner">Frank AI Researcher</a>. The ranges summarise the linked studies; read them before you commit to a number. Nothing you enter on this page leaves your browser.
+  </footer>
+</div>
+
+<script>
+// "How many customer interviews" planner. Pure functions, no network. Every number comes from SOURCES below.
+var SSP = (function () {
+  var SOURCES = {
+    guest: { short: "Guest, Bunce & Johnson (2006)", cite: "Guest, G., Bunce, A. & Johnson, L. (2006). How Many Interviews Are Enough? An Experiment with Data Saturation and Variability. Field Methods, 18(1), 59 to 82.", url: "https://doi.org/10.1177/1525822X05279903",
+      finding: "In 60 in-depth interviews, saturation occurred within the first twelve interviews, and basic elements for metathemes were present as early as six." },
+    hennink: { short: "Hennink & Kaiser (2022)", cite: "Hennink, M. & Kaiser, B. N. (2022). Sample sizes for saturation in qualitative research: A systematic review of empirical tests. Social Science & Medicine, 292, 114523.", url: "https://doi.org/10.1016/j.socscimed.2021.114523",
+      finding: "Across 17 empirical studies, saturation was reached within 9 to 17 interviews, particularly with relatively homogenous populations and narrowly defined objectives. Outliers such as multi-country research needed larger samples." },
+    griffin: { short: "Griffin & Hauser (1993)", cite: "Griffin, A. & Hauser, J. R. (1993). The Voice of the Customer. Marketing Science, 12(1), 1 to 27.", url: "https://doi.org/10.1287/mksc.12.1.1",
+      finding: "Interviews with 20 to 30 customers should identify 90% or more of the customer needs in a relatively homogeneous customer segment." },
+    malterud: { short: "Malterud, Siersma & Guassora (2016)", cite: "Malterud, K., Siersma, V. D. & Guassora, A. D. (2016). Sample Size in Qualitative Interview Studies: Guided by Information Power. Qualitative Health Research, 26(13), 1753 to 1760.", url: "https://doi.org/10.1177/1049732315617444",
+      finding: "Information power: the more information the sample holds that is relevant for the study, the fewer participants are needed. It depends on the aim of the study, sample specificity, use of established theory, quality of dialogue and analysis strategy." }
+  };
+  // Goal -> cited per-segment range.
+  var GOALS = {
+    discovery: { label: "Discovery: find needs and problems in a market", range: [20, 30], source: "griffin", why: "A broad goal: you are looking for the full set of needs, which Griffin & Hauser found takes 20 to 30 interviews per relatively homogeneous segment." },
+    churn: { label: "Churn: why customers left", range: [9, 17], source: "hennink", why: "A narrow goal about one decision, the kind of study where Hennink & Kaiser found saturation within 9 to 17 interviews." },
+    jtbd: { label: "Jobs to Be Done: why customers switched to you", range: [9, 17], source: "hennink", why: "A narrow goal about one decision, the kind of study where Hennink & Kaiser found saturation within 9 to 17 interviews." },
+    focused: { label: "A focused question: one feature, price or message", range: [9, 17], source: "hennink", why: "A narrowly defined objective, where Hennink & Kaiser found saturation within 9 to 17 interviews." }
+  };
+  var FIRST_CHECK = 6; // Guest et al. 2006: basic elements for metathemes present as early as six interviews.
+  var MAX_SEGMENTS = 10;
+  function int(v, lo, hi, d) { var n = parseInt(v, 10); return isNaN(n) || n < lo || n > hi ? d : n; }
+  function plan(o) {
+    o = o || {};
+    var goal = GOALS[o.goal] ? o.goal : "churn", G = GOALS[goal];
+    var segments = int(o.segments, 1, MAX_SEGMENTS, 1);
+    var similar = o.similar === "mixed" ? "mixed" : "similar";
+    var known = o.known === "lot" ? "lot" : o.known === "little" ? "little" : "some";
+    var minutes = int(o.minutes, 1, 120, 0);
+    var lo = G.range[0], hi = G.range[1];
+    var lean = known === "lot" && similar === "similar" ? "low" : known === "little" || similar === "mixed" ? "high" : "middle";
+    var reasons = [G.why];
+    if (known === "lot") reasons.push("You already know a lot and have a specific question, so each interview holds more relevant information. Malterud and colleagues call this information power: the more of it the sample holds, the fewer participants you need.");
+    if (known === "little") reasons.push("You know little so far, so each interview has to cover more ground. Malterud and colleagues list the aim of the study and how specific the sample is among the things that decide how many participants you need.");
+    if (similar === "mixed") reasons.push("The people in a segment differ a lot. Hennink & Kaiser's ranges come mostly from relatively homogenous groups, and outliers needed larger samples, so split very different people into separate segments if you can.");
+    if (segments > 1) reasons.push("Each segment needs its own range, because the sources count interviews within one relatively similar group.");
+    var leanText = { low: "The lower end is likely enough.", middle: "Plan for the range and stop when new interviews stop adding new themes.", high: "Plan for the upper end, or beyond it." }[lean];
+    var out = {
+      goal: goal, goalLabel: G.label, segments: segments, similar: similar, known: known, minutes: minutes,
+      perSegment: [lo, hi], total: [lo * segments, hi * segments], firstCheck: FIRST_CHECK * segments, lean: lean, leanText: leanText,
+      reasons: reasons, sources: [G.source, "guest", "malterud"].concat(similar === "mixed" && G.source !== "hennink" ? ["hennink"] : []).filter(function (s, i, a) { return a.indexOf(s) === i; })
+    };
+    if (minutes) {
+      out.voiceMinutes = [out.total[0] * minutes, out.total[1] * minutes];
+      out.freePerMonth = Math.floor(60 / minutes);
+      out.freeMonths = [Math.ceil(out.voiceMinutes[0] / 60), Math.ceil(out.voiceMinutes[1] / 60)];
+    }
+    return out;
+  }
+  function range(r) { return r[0] === r[1] ? String(r[0]) : r[0] + " to " + r[1]; }
+  function summary(p) {
+    return "Plan " + range(p.perSegment) + " interviews per segment" + (p.segments > 1 ? ", " + range(p.total) + " in total across " + p.segments + " segments" : "") + ". " + p.leanText;
+  }
+  function minutesText(p) {
+    if (!p.minutes) return "";
+    return "At " + p.minutes + " minutes each, that is " + range(p.voiceMinutes) + " voice minutes. Frank's free plan has 60 voice minutes a month, which covers about " + p.freePerMonth + " interviews of " + p.minutes + " minutes a month, so this plan would take " + range(p.freeMonths) + " months on the free plan. Real interviews often run shorter or longer than planned.";
+  }
+  function toMarkdown(p, cta) {
+    var out = ["# How many customer interviews: your plan", "", "**Goal:** " + p.goalLabel, "", "**" + summary(p) + "**", "",
+      "Check your notes after about " + p.firstCheck + " interviews" + (p.segments > 1 ? " (" + FIRST_CHECK + " per segment)" : "") + ": basic themes often show up that early (Guest, Bunce & Johnson 2006).", ""];
+    var mt = minutesText(p); if (mt) out.push(mt, "");
+    out.push("## Why", "");
+    p.reasons.forEach(function (r) { out.push("- " + r); });
+    out.push("", "These are guidance ranges from published studies, not a calculation. Stop when new interviews stop adding new themes.", "", "## Sources", "");
+    p.sources.forEach(function (k) { var s = SOURCES[k]; out.push("- " + s.cite + " " + s.url + " : " + s.finding); });
+    out.push("");
+    if (cta) out.push("Run the interviews by voice with Frank AI Researcher: " + cta, "");
+    return out.join("\n");
+  }
+  function fromParams(search) {
+    var p = {};
+    String(search || "").replace(/^\?/, "").split("&").forEach(function (kv) {
+      if (!kv) return;
+      var i = kv.indexOf("=");
+      try { p[decodeURIComponent(i < 0 ? kv : kv.slice(0, i))] = i < 0 ? "" : decodeURIComponent(kv.slice(i + 1).replace(/\+/g, " ")); } catch (e) {}
+    });
+    var r = {};
+    if (GOALS[p.goal]) r.goal = p.goal;
+    if (p.segments && int(p.segments, 1, MAX_SEGMENTS, 0)) r.segments = int(p.segments, 1, MAX_SEGMENTS, 1);
+    return r;
+  }
+  return { SOURCES: SOURCES, GOALS: GOALS, FIRST_CHECK: FIRST_CHECK, MAX_SEGMENTS: MAX_SEGMENTS, plan: plan, summary: summary, minutesText: minutesText, toMarkdown: toMarkdown, fromParams: fromParams, range: range };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=tool&utm_campaign=customer-interview-sample-size-planner";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var render_ = (function planHTML(p, esc, S) {
+  var mt = S.minutesText(p);
+  return "<p class=\"big\" id=\"summary\">" + esc(S.summary(p)) + "</p>" +
+    "<p><strong>Goal:</strong> " + esc(p.goalLabel) + "</p>" +
+    "<p>Check your notes after about <strong>" + p.firstCheck + "</strong> interviews" + (p.segments > 1 ? " (" + S.FIRST_CHECK + " per segment)" : "") + ": basic themes often show up that early (Guest, Bunce &amp; Johnson 2006).</p>" +
+    (mt ? "<p id=\"minutes-out\">" + esc(mt) + "</p>" : "<p id=\"minutes-out\" class=\"hint\">Enter your planned interview length to see the voice minutes.</p>") +
+    "<h3>Why this range</h3><ul>" + p.reasons.map(function (r) { return "<li class=\"reason\">" + esc(r) + "</li>"; }).join("") + "</ul>" +
+    "<h3>Sources for this plan</h3><ul class=\"src\">" + p.sources.map(function (k) { var s = S.SOURCES[k]; return "<li><a href=\"" + esc(s.url) + "\" rel=\"noopener\">" + esc(s.short) + "</a>: " + esc(s.finding) + "</li>"; }).join("") + "</ul>";
+});
+  var current;
+  function opts() { return { goal: $("goal").value, segments: $("segments").value, similar: $("similar-mixed").checked ? "mixed" : "similar", known: $("known").value, minutes: $("minutes").value }; }
+  function render() { current = SSP.plan(opts()); $("plan").innerHTML = render_(current, esc, SSP); $("status").textContent = ""; }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  Array.prototype.forEach.call(document.querySelectorAll("#gen input, #gen select"), function (el) { el.addEventListener(el.type === "radio" || el.tagName === "SELECT" ? "change" : "input", render); });
+  function md() { return SSP.toMarkdown(current, CTA); }
+  $("copy").addEventListener("click", function () {
+    var text = md();
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the plan and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  });
+  $("dl-md").addEventListener("click", function () {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([md()], { type: "text/markdown;charset=utf-8" }));
+    a.download = "customer-interview-plan.md";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  });
+  // Deep links: ?goal=discovery|churn|jtbd|focused&segments=N
+  var P = SSP.fromParams(window.location.search);
+  if (P.goal) $("goal").value = P.goal;
+  if (P.segments) $("segments").value = P.segments;
+  render();
+})();
+</script>
+</body>
+</html>
