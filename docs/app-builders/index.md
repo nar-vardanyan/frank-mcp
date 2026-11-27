@@ -13,7 +13,7 @@ Builder docs checked 27 November 2026. Each guide cites the builder's own docs.
 
 | Builder | Widget guide | Remote MCP, from the builder's docs |
 | --- | --- | --- |
-| Replit | [Add customer interviews to your Replit app](replit/) | Custom MCP server by URL with OAuth sign-in ([docs](https://docs.replit.com/build/connect-via-mcp)). Replit publishes an [OAuth client metadata document](https://replit.com/oauth/client.json), which Frank supports. Not yet confirmed. |
+| Replit | [Add customer interviews to your Replit app](replit/) | Custom MCP server by URL ([docs](https://docs.replit.com/build/connect-via-mcp)). Connecting Frank from Replit does not work yet: sign-in fails. Use the widget. |
 | Lovable | [Add customer interviews to your Lovable app](lovable/) | Custom MCP server on all plans, OAuth by default ([docs](https://docs.lovable.dev/integrations/custom-mcp)). Its docs do not say whether it needs dynamic client registration, which Frank does not offer yet. May not connect yet. |
 | Bolt | [Add customer interviews to your Bolt app](bolt/) | Custom MCP server with HTTP transport and MCP OAuth ([docs](https://support.bolt.new/integrations/mcp)). Its docs do not say whether it needs dynamic client registration, which Frank does not offer yet. May not connect yet. |
 | v0 | [Add customer interviews to your v0 app](v0/) | Custom MCP server with OAuth ([docs](https://v0.app/docs/MCP)). [v0 API docs](https://v0.app/docs/api/v1/guides/oauth-mcp-servers) describe client ID metadata documents, which Frank supports. Not yet confirmed. |
@@ -78,7 +78,7 @@ Three moments work well: right after sign-up, while new users remember what almo
 
 ### Can my AI app builder read Frank interviews over MCP?
 
-Replit, Lovable, Bolt, v0 and Base44 all document a way to add a custom remote MCP server with OAuth. Frank's server is https://api.hifrank.ai/mcp. We have not confirmed that Frank connects in each builder yet, and builders that need dynamic client registration may not connect until Frank's sign-in offers it. The widget does not depend on MCP.
+Replit, Lovable, Bolt, v0 and Base44 all document a way to add a custom remote MCP server with OAuth. Frank's server is https://api.hifrank.ai/mcp. Connecting Frank from Replit does not work yet: sign-in fails. We have not confirmed that Frank connects in the other builders, and builders that need dynamic client registration may not connect until Frank's sign-in offers it. The widget does not depend on MCP.
 
 ### Does Frank recruit participants?
 

@@ -76,31 +76,16 @@ The widget asks for the microphone only after a participant interacts with it, a
 
 ## How to add a remote MCP server in Replit
 
-This part is optional. It lets the Replit AI read your Frank studies and transcripts while you build, so what users said can shape the next change. Frank's MCP server is `https://api.hifrank.ai/mcp`, and you sign in with your Frank account (OAuth). There is no API key. MCP is included on every plan, including Free. For other clients, see [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=app-builder-guide&utm_campaign=replit).
+**Not working yet.** Connecting Frank's MCP server from Replit does not work today. When we tried it on 27 November 2026, **Test & save** returned "Failed to initialize connection. Please try again later." and Frank's sign-in page never opened. To use Frank in a Replit app today, use the widget above. Replit's steps for adding a custom MCP server are below for reference [1].
+
+Once it works, this would let the Replit AI read your Frank studies and transcripts while you build. Frank's MCP server is `https://api.hifrank.ai/mcp`, and you sign in with your Frank account (OAuth). There is no API key. MCP is included on every plan, including Free. For other clients, see [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=app-builder-guide&utm_campaign=replit).
 
 1. Open **Settings**, then **Integrations**, then **Your integrations**. Select **Add custom**, then **Add personal MCP server** [1]. To share it with your workspace, choose **Add workspace MCP server**, which needs permission to manage workspace integrations [1].
 2. Set the display name to `Frank AI Researcher` [1].
 3. Enter the server URL `https://api.hifrank.ai/mcp` [1].
-4. Select **Test & save**. Replit walks you through any OAuth sign-in the server needs [1]. Sign in to your Frank account and approve access.
-5. In Agent chat, mention the server by name, for example "Use Frank AI Researcher to list my studies." After a server connects, Agent fetches its tool list and can use it across your projects [1].
+4. Select **Test & save**. Replit says it walks you through any OAuth sign-in the server needs [1]. With Frank, this step currently fails (see above).
 
 Custom MCP options depend on feature availability and permissions for your account or workspace. If you do not see them, Replit says to ask your workspace administrator [1].
-
-Frank's sign-in supports OAuth client ID metadata documents, and Replit publishes one [3], so Replit may not need dynamic client registration. We have not confirmed that Frank connects in Replit yet.
-
-Prompts to try once Frank is connected:
-
-```text
-Use Frank AI Researcher to read my latest completed interviews, list the top 3 problems
-people mention, and suggest one change to this app for each.
-```
-
-```text
-Use Frank AI Researcher to draft a study that interviews people who signed up this week
-about what almost stopped them. Draft only. Do not publish it.
-```
-
-A study created through MCP stays a draft until you approve publishing.
 
 ## Start with Frank
 
@@ -119,6 +104,5 @@ Frank is an AI user researcher that runs short voice interviews. Free plan: 60 v
 
 1. [Replit Docs: Connect via MCP](https://docs.replit.com/build/connect-via-mcp), accessed 27 November 2026.
 2. [Replit Docs: Secrets](https://docs.replit.com/core-concepts/project-editor/app-setup/secrets), accessed 27 November 2026.
-3. [Replit OAuth client metadata document](https://replit.com/oauth/client.json), accessed 27 November 2026.
 
 Frank facts: [Frank widget docs](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=app-builder-guide&utm_campaign=replit) and [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=app-builder-guide&utm_campaign=replit), accessed 27 November 2026.

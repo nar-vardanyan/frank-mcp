@@ -7,7 +7,7 @@ entries:
   - title: "Add customer interviews to your Replit app"
     url: https://nar-vardanyan.github.io/frank-mcp/app-builders/replit/
     updated: 2026-11-27T20:00:00Z
-    summary: "Add the Frank voice interview widget to a Replit app with one Agent prompt, place it after sign-up, after the first key action or on the cancel flow, and add Frank as a remote MCP server."
+    summary: "Add the Frank voice interview widget to a Replit app with one Agent prompt, and place it after sign-up, after the first key action or on the cancel flow. The widget is the way to use Frank in Replit today; connecting Frank's MCP server from Replit does not work yet."
   - title: "Add customer interviews to your Lovable app"
     url: https://nar-vardanyan.github.io/frank-mcp/app-builders/lovable/
     updated: 2026-11-27T20:00:00Z
