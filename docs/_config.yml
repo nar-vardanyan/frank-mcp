@@ -584,6 +584,12 @@ defaults:
       description: "Connect Frank AI Researcher to Lovable as a custom MCP server (https://api.hifrank.ai/mcp, OAuth), then ask Lovable to create a voice interview study, add Frank's interview widget to your app, and read the interviews back."
       schema_page: true
   - scope:
+      path: founder-study.md
+    values:
+      seo_title: "How Founders Actually Talk to Customers, 2026: an open study"
+      description: "An open study for founders and PMs: a ten minute voice interview about your last real customer conversation. Results go public in mid-December."
+      schema_page: true
+  - scope:
       path: chatgpt-app-for-customer-research-interviews.md
     values:
       seo_title: "ChatGPT Apps for Customer Research Interviews, Compared"
