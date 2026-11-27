@@ -125,6 +125,7 @@ New free tools: the [Mom Test question checker](tools/mom-test-checker/) flags l
 - [AI customer interview tool with a free plan](ai-customer-interview-tool-free-plan.md)
 - [How to get customer feedback](how-to-get-customer-feedback.md)
 - [How to run customer interviews](how-to-run-customer-interviews.md)
+- [Get your first 5 interviews with Frank](get-your-first-5-interviews-with-frank.md)
 - [How to measure product-market fit with customer interviews](measure-product-market-fit-with-customer-interviews.md)
 - [Customer interview questions template](customer-interview-questions-template.md)
 - [How to validate a startup idea with customer interviews](validate-a-startup-idea-with-customer-interviews.md)

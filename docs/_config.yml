@@ -61,6 +61,11 @@ defaults:
       seo_title: "AI Customer Discovery Interviews with Claude and Frank MCP"
       schema_page: true
   - scope:
+      path: get-your-first-5-interviews-with-frank.md
+    values:
+      description: "Get your first 5 interviews with Frank: copy the interviewer link, test it once, and send it to people you can already reach, with short notes for email, LinkedIn, and Slack. Frank does not recruit participants."
+      schema_page: true
+  - scope:
       path: how-to-get-customer-feedback.md
     values:
       description: "How to get customer feedback: pick a decision, choose a method, invite your own customers, and use an AI agent such as Claude or ChatGPT to help draft questions and summarize answers. Frank AI Researcher runs AI-moderated voice interviews."
