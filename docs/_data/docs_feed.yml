@@ -1,5 +1,49 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Customer Interview Use Cases: 10 Task Flows for Frank"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/
+    updated: 2026-11-28T00:00:00Z
+    summary: "Ten customer interview use cases for Frank AI Researcher, each with a step-by-step MCP task flow, a sample voice interview guide, what you get back and an example agent prompt."
+  - title: "Onboarding Friction Interviews: Find Where New Users Get Stuck"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/onboarding-friction-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview new users a few days after signup about their first session, so you hear in their words where onboarding slowed them down and what they expected instead."
+  - title: "Pricing Change Reaction Interviews: Hear How Customers Respond Before You Announce"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/pricing-change-reaction-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Before you change a plan or a price, interview current customers about how they use the plan today and how they would react to the change, so you see the risk in their own words."
+  - title: "Feature Prioritization Interviews: Rank Requests by the Problem Behind Them"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/feature-prioritization-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview the customers who asked for features on your roadmap about the problem behind each request, so you can rank work by how often and how badly the problem hurts."
+  - title: "Signup Motivation Interviews: Learn Why New Users Signed Up"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/signup-motivation-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview people within a few days of signup about what was happening when they decided to try your product, so your homepage and onboarding speak to the real reason."
+  - title: "NPS Follow-up Interviews: Find Out What Is Behind the Score"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/nps-follow-up-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "After an NPS or satisfaction survey, invite detractors and passives to a short voice interview about the reason for their score, so you get the story behind the number."
+  - title: "Beta Feedback Interviews: Talk to Every Beta User About Real Use"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/beta-feedback-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview beta users after they have used the new feature on real work, so you learn what worked, what broke and whether they would keep using it before general release."
+  - title: "Persona Discovery Interviews: Learn Who Your Best Customers Really Are"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/persona-discovery-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview your most active customers about their role, their work and the job your product does for them, so your personas come from evidence instead of guesses."
+  - title: "Support Follow-up Interviews: Learn the Root Cause Behind Support Tickets"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/support-follow-up-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "After a support ticket is resolved, invite the customer to a short voice interview about what they were trying to do when the problem started, so you fix the cause and not only the ticket."
+  - title: "Trial Conversion Interviews: Learn Why Trial Users Did or Did Not Upgrade"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/trial-conversion-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview users at the end of a trial or free period about what they tried, what they expected and what decided the upgrade, so you know what blocks conversion."
+  - title: "Upgrade Motivation Interviews: Learn Why Customers Moved to a Paid Plan"
+    url: https://nar-vardanyan.github.io/frank-mcp/use-cases/upgrade-motivation-interviews.html
+    updated: 2026-11-28T00:00:00Z
+    summary: "Interview customers who recently upgraded or expanded about what was happening when they decided, so you can find more customers in the same situation and repeat it."
   - title: "Use Frank in Lovable: Customer Interviews for Your Lovable App"
     url: https://nar-vardanyan.github.io/frank-mcp/use-frank-in-lovable.html
     updated: 2026-11-27T21:00:00Z
@@ -12,10 +56,6 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/usercall-alternatives.html
     updated: 2026-11-27T21:00:00Z
     summary: "Usercall alternatives compared: 7 AI interview tools, including Frank AI Researcher, on interview mode, languages, public pricing, free plans and ChatGPT or MCP availability, sourced to each vendor's site, accessed Nov 27, 2026."
-  - title: "Free Customer Interview Guide Templates"
-    url: https://nar-vardanyan.github.io/frank-mcp/free-customer-interview-guide-templates.html
-    updated: 2026-11-28T08:00:00Z
-    summary: "Six free customer interview guide templates for startups: sign-up reasons, churn, what to build next, price or concept tests, win-loss and onboarding. Five questions each, about eight minutes, ready to run as AI-moderated voice interviews in Frank AI Researcher."
   - title: "Listen Labs Alternatives: 8 AI-Moderated Interview Platforms Compared (2026)"
     url: https://nar-vardanyan.github.io/frank-mcp/listen-labs-alternatives.html
     updated: 2026-11-27T21:00:00Z
