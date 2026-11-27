@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Interview Summary Template (Free Generator, No Login) | Frank AI Researcher docs</title>
+<meta name="description" content="Free customer interview summary template. Paste your interview notes, label lines like pain:, quote: or next:, and get a clean one-page summary with insights, verbatim quotes, open questions and next steps. Copy it or download Markdown. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Customer Interview Summary Template (Free Generator, No Login)">
+<meta property="og:description" content="Turn raw interview notes into a one-page customer interview summary: insights, quotes, pains, open questions and next steps.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Customer Interview Summary Template (Free Generator, No Login)">
+<meta name="twitter:description" content="Paste interview notes, get a one-page summary with insights, quotes and next steps.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/#app",
+      "name": "Customer Interview Summary Template Generator",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to summarize your own notes. A worked example is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based customer interview summary template. Fill in who you spoke to, paste your notes with simple labels (insight, goal, trigger, pain, workaround, quote, question, next), and get a one-page summary with the notes sorted into sections, checks for missing quotes and next steps, and Markdown or plain text to copy. A blank template is included. No login, no AI model, nothing sent to a server.",
+      "featureList": ["One-page interview summary from labelled notes", "Sections for insights, goals, triggers, pains, workarounds, quotes, open questions and next steps", "Checks for missing quotes and next steps", "Blank template", "Copy as Markdown or plain text", "Download as Markdown"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Customer Interview Summary Template", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is a customer interview summary?", "acceptedAnswer": { "@type": "Answer", "text": "A short write-up of one customer interview: who you spoke to, what you wanted to learn, what you learned, the person's own words, what is still unclear and what you will do next. It lets teammates who were not on the call use what was said." } },
+        { "@type": "Question", "name": "How do I use this template?", "acceptedAnswer": { "@type": "Answer", "text": "Fill in who you spoke to, paste your notes one point per line, and start lines with a label such as pain:, quote: or next:. The summary sorts each line into its section. Lines without a label go to Other notes, lines in quote marks become quotes, and lines that ask a question become open questions. Tick blank template to get every section with prompts." } },
+        { "@type": "Question", "name": "Is there a blank customer interview summary template?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Tick blank template, or open this page with ?blank=1, and copy or download the empty template with a prompt under every section." } },
+        { "@type": "Question", "name": "Does this use AI? Is anything sent to a server?", "acceptedAnswer": { "@type": "Answer", "text": "No. It sorts lines with fixed rules in your browser and sends nothing anywhere. Nothing is saved either, so copy or download your summary before you close the tab." } },
+        { "@type": "Question", "name": "Can I use it for user interviews, win-loss or churn interviews?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Pick the interview type. The sections work for discovery, churn, Jobs to Be Done switching, win-loss and pricing interviews." } },
+        { "@type": "Question", "name": "Does Frank write these summaries for me?", "acceptedAnswer": { "@type": "Answer", "text": "Frank runs short voice interviews with customers you already have and gives you transcripts and themes. Free plan: 60 voice minutes a month, no card required. Frank does not recruit participants." } },
+        { "@type": "Question", "name": "Can I set up the interviews from an AI assistant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank has a remote MCP server at https://api.hifrank.ai/mcp, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+  fieldset { border:0; padding:0; margin:0 0 14px; }
+  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }
+  .radios label, .radios { font-weight:400; }
+  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }
+  .radios input { width:auto; }
+  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .tag.push { background:#ffebe9; color:#82071e; }
+  .tag.pull { background:#ddf4ff; color:#0a3069; }
+  .tag.anxiety { background:#fff1c2; color:#6c4a00; }
+  .tag.habit { background:#f3e8ff; color:#4c1d95; }
+  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }
+  .phase-goal { color:var(--muted); margin-top:-6px; }
+  .themes td.num { text-align:right; white-space:nowrap; }
+  .theme { border:1px solid var(--line); border-radius:10px; padding:4px 18px 12px; margin:16px 0; }
+  .theme h3 { margin-top:12px; }
+  .theme .meta { color:var(--muted); font-size:0.9em; margin-top:-6px; }
+  .theme blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--line); color:var(--ink); }
+  .theme.unclear { border-style:dashed; }
+  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; margin-right:6px; }
+  details.all { margin-top:12px; }
+  details.all li { margin-bottom:6px; }
+  .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid3 { grid-template-columns: 1fr; } }
+  .mail input { margin-bottom:8px; }
+  .mail textarea { min-height: 260px; }
+  #col-field[hidden] { display:none; }
+  .doc h3 { margin-top:18px; }
+  .doc .checks { list-style:none; padding-left:0; }
+  .doc .checks li::before { content:"\2610  "; }
+  .doc blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--accent); background:var(--soft); }
+  .doc .stage { color:var(--muted); font-style:italic; }
+  .checkrow label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-weight:400; font-size:16px; }
+  .checkrow input { width:auto; }
+  .big { font-size:1.25em; font-weight:700; margin:12px 0 6px; }
+  .src li { margin-bottom:10px; }
+  input[type=number] { max-width:160px; }
+  @media print { .note.top, .seo, nav, footer, form.gen, .cta, .actions { display:none !important; } .guide { border:0; } }
+  .labels code { background:var(--soft); padding:0 4px; border-radius:4px; }
+  .checks-out li { margin-bottom:6px; }
+  .doc .meta-list { list-style:none; padding-left:0; }
+  .doc .meta-list li { margin-bottom:2px; }
+  .doc .prompt { color:var(--muted); font-style:italic; }
+  .doc ul.next { list-style:none; padding-left:0; }
+  .doc ul.next li::before { content:"\2610  "; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>
+  </nav>
+
+  <main>
+    <h1>Customer Interview Summary Template</h1>
+    <p class="lede">Turn messy interview notes into a one-page summary your team will actually read. Fill in who you spoke to, paste your notes, and start lines with a label such as <code>pain:</code>, <code>quote:</code> or <code>next:</code>. The summary sorts them into insights, pains, quotes, open questions and next steps. Free, no login: it runs in your browser and sends nothing anywhere.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="grid3">
+        <div class="field"><label for="participant">Participant <span class="hint">(a code like P3 keeps it anonymous)</span></label><input id="participant" type="text" maxlength="80" value="P3"></div>
+        <div class="field"><label for="role">Role</label><input id="role" type="text" maxlength="120" value="Operations manager"></div>
+        <div class="field"><label for="segment">Segment</label><input id="segment" type="text" maxlength="120" value="Small logistics teams"></div>
+      </div>
+      <div class="grid3">
+        <div class="field"><label for="date">Date</label><input id="date" type="text" maxlength="40" value="" placeholder="e.g. the interview date"></div>
+        <div class="field"><label for="length">Length <span class="hint">(minutes, optional)</span></label><input id="length" type="number" min="1" max="240" step="1" value=""></div>
+        <div class="field"><label for="interviewer">Interviewer</label><input id="interviewer" type="text" maxlength="80" value=""></div>
+      </div>
+      <div class="grid2">
+        <div class="field">
+          <label for="type">Interview type</label>
+          <select id="type">
+            <option value="discovery" selected>Discovery (problems and current workflow)</option>
+            <option value="churn">Churn (why a customer left)</option>
+            <option value="jtbd">Switching (Jobs to Be Done)</option>
+            <option value="winloss">Win-loss (why a deal was won or lost)</option>
+            <option value="pricing">Pricing and value</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="field"><label for="research">Research question <span class="hint">(what you wanted to learn)</span></label><input id="research" type="text" maxlength="300" value="How do small teams plan delivery routes today?"></div>
+      </div>
+      <div class="field"><label for="takeaway">Top takeaway <span class="hint">(one sentence, optional)</span></label><input id="takeaway" type="text" maxlength="400" value="Route planning is a Monday ritual held together by a shared spreadsheet and one person's memory."></div>
+      <div class="field">
+        <label for="notes">Your notes <span class="hint">(one point per line)</span></label>
+        <textarea id="notes" spellcheck="true">insight: The spreadsheet is the real product they rely on; the routing tool is only used to print maps
+goal: Get every driver out the door with a route before 8
+trigger: A new driver got lost twice in one week and a key customer complained
+pain: Re-planning when a driver calls in sick means redoing the whole sheet
+pain: Only Dana knows which customers need a call before delivery
+workaround: Color codes in a shared spreadsheet plus a group chat for changes
+&quot;Honestly the sheet works until Dana is on holiday.&quot; (14:05)
+&quot;Last month we paid overtime three Mondays in a row because of re-planning.&quot; (21:30)
+What did they try before the spreadsheet?
+next: Ask two more small teams how they handle sick days
+Uses a 2019 laptop in the depot</textarea>
+        <p class="hint labels">Labels: <code>insight:</code>, <code>goal:</code>, <code>trigger:</code>, <code>pain:</code>, <code>workaround:</code>, <code>quote:</code>, <code>question:</code>, <code>next:</code>. Lines in quote marks or starting with <code>&gt;</code> become quotes. Lines that ask a question become open questions. Anything else goes to Other notes.</p>
+      </div>
+      <div class="checkrow field"><label><input type="checkbox" id="blank"> Show every section, with prompts for the empty ones (blank template)</label></div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">Make my summary</button>
+        <button class="btn btn-ghost" type="button" id="clear">Clear the example</button>
+      </div>
+    </form>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Your summary</h2>
+      <div id="checks"></div>
+      <article class="guide doc" id="doc" aria-live="polite">
+        <h2>Customer interview summary</h2><ul class="meta-list"><li><strong>Participant:</strong> P3</li><li><strong>Role:</strong> Operations manager</li><li><strong>Segment:</strong> Small logistics teams</li><li><strong>Interview type:</strong> Discovery (problems and current workflow)</li><li><strong>Research question:</strong> How do small teams plan delivery routes today?</li></ul><h3>Top takeaway</h3><p class="say" id="takeaway-out">Route planning is a Monday ritual held together by a shared spreadsheet and one person's memory.</p><h3 data-section="insight">Key insights <span class="tag">1</span></h3><ul><li>The spreadsheet is the real product they rely on; the routing tool is only used to print maps</li></ul><h3 data-section="goal">What they are trying to get done <span class="tag">1</span></h3><ul><li>Get every driver out the door with a route before 8</li></ul><h3 data-section="trigger">What set it off <span class="tag">1</span></h3><ul><li>A new driver got lost twice in one week and a key customer complained</li></ul><h3 data-section="pain">Pains <span class="tag">2</span></h3><ul><li>Re-planning when a driver calls in sick means redoing the whole sheet</li><li>Only Dana knows which customers need a call before delivery</li></ul><h3 data-section="workaround">How they cope today <span class="tag">1</span></h3><ul><li>Color codes in a shared spreadsheet plus a group chat for changes</li></ul><h3 data-section="quote">Quotes (verbatim) <span class="tag">2</span></h3><blockquote>&quot;Honestly the sheet works until Dana is on holiday.&quot; (14:05)</blockquote><blockquote>&quot;Last month we paid overtime three Mondays in a row because of re-planning.&quot; (21:30)</blockquote><h3 data-section="question">Open questions <span class="tag">1</span></h3><ul><li>What did they try before the spreadsheet?</li></ul><h3 data-section="next">Next steps <span class="tag">1</span></h3><ul class="next"><li>Ask two more small teams how they handle sick days</li></ul><h3 data-section="other">Other notes <span class="tag">1</span></h3><ul><li>Uses a 2019 laptop in the depot</li></ul>
+      </article>
+      <noscript><p>JavaScript is off, so the example above is shown (a discovery interview with an operations manager). Turn on JavaScript to summarize your own notes.</p></noscript>
+      <div class="actions js-only">
+        <button class="btn btn-ghost" type="button" id="copy">Copy as Markdown</button>
+        <button class="btn btn-ghost" type="button" id="copy-text">Copy as plain text</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> Share one link with customers you already have, and Frank asks your questions out loud, follows up on each answer, and gives you transcripts and themes, so you are not typing notes during the call. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=customer-interview-summary-template">Run your next interviews by voice with Frank</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>What goes in a customer interview summary</h2>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Section</th><th scope="col">What to write</th><th scope="col">Label</th></tr></thead>
+      <tbody>
+        <tr><td>Key insights</td><td>What you learned, written as an observation and what it means. Link each one to a quote below.</td><td><code>insight:</code> <code>learning:</code> <code>finding:</code> <code>takeaway:</code></td></tr>
+        <tr><td>What they are trying to get done</td><td>The goal or job in their words.</td><td><code>goal:</code> <code>job:</code> <code>jtbd:</code> <code>want:</code> <code>wants:</code></td></tr>
+        <tr><td>What set it off</td><td>The moment or event that made them look for a change.</td><td><code>trigger:</code> <code>why:</code> <code>event:</code></td></tr>
+        <tr><td>Pains</td><td>What is hard, slow, risky or annoying today, with a real example.</td><td><code>pain:</code> <code>problem:</code> <code>issue:</code> <code>frustration:</code> <code>struggle:</code></td></tr>
+        <tr><td>How they cope today</td><td>Tools, spreadsheets, people or habits they use instead.</td><td><code>workaround:</code> <code>today:</code> <code>hack:</code> <code>alternative:</code> <code>tools:</code></td></tr>
+        <tr><td>Quotes (verbatim)</td><td>Their exact words, with a timestamp if you have one.</td><td><code>quote:</code> <code>said:</code> <code>verbatim:</code></td></tr>
+        <tr><td>Open questions</td><td>What you still don't know and should ask next time.</td><td><code>question:</code> <code>unknown:</code> <code>ask:</code> <code>open:</code></td></tr>
+        <tr><td>Next steps</td><td>Action, owner and date.</td><td><code>next:</code> <code>todo:</code> <code>action:</code> <code>follow up:</code> <code>follow-up:</code> <code>followup:</code></td></tr>
+        <tr><td>Other notes</td><td>Anything that did not fit above.</td><td><code>note:</code> <code>other:</code> <code>context:</code></td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>How to write a useful interview summary</h2>
+    <ul>
+      <li><strong>Write it the same day.</strong> Details and exact wording fade fast, so a short write-up right after the call beats a long one later.</li>
+      <li><strong>Keep what they said apart from what you think.</strong> Quotes go in Quotes, word for word. Your reading of them goes in Key insights.</li>
+      <li><strong>Tie every insight to evidence.</strong> If you can't point to a quote or a story, it is a hunch: put it in Open questions instead.</li>
+      <li><strong>Use the same sections every time.</strong> Comparing many summaries is easy when they share a shape, and themes across interviews stand out.</li>
+      <li><strong>End with actions.</strong> A summary nobody acts on is a diary. Each next step needs an owner and a date.</li>
+      <li><strong>Keep it anonymous when you share it.</strong> Use a participant code instead of a name, and leave out details that identify the person.</li>
+    </ul>
+
+    <h2>FAQ</h2>
+    <h3>What is a customer interview summary?</h3>
+    <p>A short write-up of one customer interview: who you spoke to, what you wanted to learn, what you learned, the person's own words, what is still unclear and what you will do next. It lets teammates who were not on the call use what was said.</p>
+    <h3>How do I use this template?</h3>
+    <p>Fill in who you spoke to, paste your notes one point per line, and start lines with a label such as pain:, quote: or next:. The summary sorts each line into its section. Lines without a label go to Other notes, lines in quote marks become quotes, and lines that ask a question become open questions. Tick blank template to get every section with prompts.</p>
+    <h3>Is there a blank customer interview summary template?</h3>
+    <p>Yes. Tick blank template, or open this page with ?blank=1, and copy or download the empty template with a prompt under every section.</p>
+    <h3>Does this use AI? Is anything sent to a server?</h3>
+    <p>No. It sorts lines with fixed rules in your browser and sends nothing anywhere. Nothing is saved either, so copy or download your summary before you close the tab.</p>
+    <h3>Can I use it for user interviews, win-loss or churn interviews?</h3>
+    <p>Yes. Pick the interview type. The sections work for discovery, churn, Jobs to Be Done switching, win-loss and pricing interviews.</p>
+    <h3>Does Frank write these summaries for me?</h3>
+    <p>Frank runs short voice interviews with customers you already have and gives you transcripts and themes. Free plan: 60 voice minutes a month, no card required. Frank does not recruit participants.</p>
+    <h3>Can I set up the interviews from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/">JTBD switch interview question generator</a>: timeline questions tagged push, pull, anxiety and habit</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/">Cancellation reason sorter</a>: sort churn survey answers into themes, with interview follow-ups</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/">How many customer interviews planner</a>: a guidance range per segment, with cited studies</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=customer-interview-summary-template">Frank AI Researcher</a>. Nothing you type on this page leaves your browser, and nothing is saved: copy or download your summary before you close the tab.
+  </footer>
+</div>
+
+<script>
+// Customer interview summary template: core logic. Plain rules, runs in the browser, sends nothing anywhere.
+var SUM = (function () {
+  var MAXLEN = 400, MAXLINES = 300;
+  var TYPES = {
+    discovery: "Discovery (problems and current workflow)",
+    churn: "Churn (why a customer left)",
+    jtbd: "Switching (Jobs to Be Done)",
+    winloss: "Win-loss (why a deal was won or lost)",
+    pricing: "Pricing and value",
+    other: "Other"
+  };
+  // Section order in the summary. prompt = what to write there when the section is empty in a blank template.
+  var SECTIONS = [
+    { key: "insight", title: "Key insights", prompt: "What you learned, written as an observation and what it means. Link each one to a quote below." },
+    { key: "goal", title: "What they are trying to get done", prompt: "The goal or job in their words." },
+    { key: "trigger", title: "What set it off", prompt: "The moment or event that made them look for a change." },
+    { key: "pain", title: "Pains", prompt: "What is hard, slow, risky or annoying today, with a real example." },
+    { key: "workaround", title: "How they cope today", prompt: "Tools, spreadsheets, people or habits they use instead." },
+    { key: "quote", title: "Quotes (verbatim)", prompt: "Their exact words, with a timestamp if you have one." },
+    { key: "question", title: "Open questions", prompt: "What you still don't know and should ask next time." },
+    { key: "next", title: "Next steps", prompt: "Action, owner and date." },
+    { key: "other", title: "Other notes", prompt: "Anything that did not fit above." }
+  ];
+  // Prefixes people type in notes. Order matters only for readability; matching is on the whole word before the colon.
+  var PREFIX = {
+    insight: "insight", learning: "insight", finding: "insight", takeaway: "insight",
+    goal: "goal", job: "goal", jtbd: "goal", want: "goal", wants: "goal",
+    trigger: "trigger", why: "trigger", event: "trigger",
+    pain: "pain", problem: "pain", issue: "pain", frustration: "pain", struggle: "pain",
+    workaround: "workaround", today: "workaround", hack: "workaround", alternative: "workaround", tools: "workaround",
+    quote: "quote", said: "quote", verbatim: "quote",
+    question: "question", unknown: "question", ask: "question", open: "question",
+    next: "next", todo: "next", action: "next", "follow up": "next", "follow-up": "next", followup: "next",
+    note: "other", other: "other", context: "other"
+  };
+  function clean(s, max) { return String(s == null ? "" : s).replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, "").replace(/\s+/g, " ").trim().slice(0, max || MAXLEN); }
+  function sortLine(raw) {
+    var s = clean(raw);
+    s = s.replace(/^(?:[-*\u2022]|\d+[.)])(?:\s+|$)/, "");
+    if (!s) return null;
+    if (/^>\s*/.test(s)) return { key: "quote", text: clean(s.replace(/^>\s*/, "")) };
+    var m = s.match(/^([A-Za-z][A-Za-z -]{0,14}?)\s*:\s*(.+)$/);
+    if (m && PREFIX[m[1].toLowerCase()]) return { key: PREFIX[m[1].toLowerCase()], text: m[2].trim() };
+    if (/^["\u201c].+["\u201d](?:\s*\(?[\w :.,-]{0,30}\)?)?$/.test(s)) return { key: "quote", text: s };
+    if (/^[?]|\?$/.test(s) && /^(?:what|why|how|who|when|where|which|do|does|did|is|are|can|could|would|will|should)\b/i.test(s)) return { key: "question", text: s };
+    return { key: "other", text: s };
+  }
+  function sortNotes(text) {
+    var out = {}; SECTIONS.forEach(function (x) { out[x.key] = []; });
+    String(text == null ? "" : text).split(/\r?\n/).slice(0, MAXLINES).forEach(function (l) { var r = sortLine(l); if (r && r.text) out[r.key].push(r.text); });
+    return out;
+  }
+  function build(o) {
+    o = o || {};
+    var type = TYPES[o.type] ? o.type : "discovery";
+    var r = {
+      title: clean(o.title, 120) || "Customer interview summary",
+      participant: clean(o.participant, 80), role: clean(o.role, 120), segment: clean(o.segment, 120),
+      date: clean(o.date, 40), interviewer: clean(o.interviewer, 80), research: clean(o.research, 300),
+      takeaway: clean(o.takeaway, 400), type: type, typeLabel: TYPES[type],
+      blank: !!o.blank, notes: sortNotes(o.notes)
+    };
+    var len = parseInt(o.length, 10); r.length = len >= 1 && len <= 240 ? len : 0;
+    r.counts = {}; var total = 0;
+    SECTIONS.forEach(function (x) { r.counts[x.key] = r.notes[x.key].length; total += r.notes[x.key].length; });
+    r.total = total;
+    r.sections = SECTIONS.filter(function (x) { return r.blank || r.notes[x.key].length; }).map(function (x) { return { key: x.key, title: x.title, prompt: x.prompt, items: r.notes[x.key] }; });
+    r.checks = [];
+    if (r.total && !r.counts.quote) r.checks.push("No quotes yet. Add at least one verbatim quote so others can check each insight against what was said.");
+    if (r.counts.insight && r.counts.quote && r.counts.insight > r.counts.quote) r.checks.push("More insights than quotes. Make sure every insight points to something the person actually said.");
+    if (r.total && !r.counts.next) r.checks.push("No next steps. Add at least one action with an owner and a date.");
+    if (r.counts.other && r.counts.other === r.total) r.checks.push("Nothing was sorted. Start lines with a label such as pain:, quote: or next: to sort them.");
+    return r;
+  }
+  function header(r) {
+    var h = [];
+    if (r.participant) h.push(["Participant", r.participant]);
+    if (r.role) h.push(["Role", r.role]);
+    if (r.segment) h.push(["Segment", r.segment]);
+    if (r.date) h.push(["Date", r.date]);
+    if (r.length) h.push(["Length", r.length + " min"]);
+    if (r.interviewer) h.push(["Interviewer", r.interviewer]);
+    h.push(["Interview type", r.typeLabel]);
+    if (r.research) h.push(["Research question", r.research]);
+    return h;
+  }
+  function mdEsc(s) { return String(s).replace(/([\\`*_[\]<>|#])/g, "\\$1"); }
+  function toMarkdown(r, cta) {
+    var L = ["# " + mdEsc(r.title), ""];
+    header(r).forEach(function (h) { L.push("- **" + h[0] + ":** " + mdEsc(h[1])); });
+    L.push("");
+    if (r.takeaway || r.blank) { L.push("## Top takeaway", "", r.takeaway ? mdEsc(r.takeaway) : "_" + "The one thing a teammate should remember from this interview." + "_", ""); }
+    r.sections.forEach(function (s) {
+      L.push("## " + s.title, "");
+      if (!s.items.length) L.push("_" + s.prompt + "_");
+      s.items.forEach(function (t) {
+        if (s.key === "quote") L.push("> " + mdEsc(t), "");
+        else if (s.key === "next") L.push("- [ ] " + mdEsc(t));
+        else L.push("- " + mdEsc(t));
+      });
+      L.push("");
+    });
+    if (cta) L.push("---", "Made with the free customer interview summary template from Frank: " + cta);
+    return L.join("\n").replace(/\n{3,}/g, "\n\n").trim() + "\n";
+  }
+  function toText(r) {
+    var L = [r.title.toUpperCase(), ""];
+    header(r).forEach(function (h) { L.push(h[0] + ": " + h[1]); });
+    L.push("");
+    if (r.takeaway || r.blank) L.push("TOP TAKEAWAY", r.takeaway || "(The one thing a teammate should remember from this interview.)", "");
+    r.sections.forEach(function (s) {
+      L.push(s.title.toUpperCase());
+      if (!s.items.length) L.push("(" + s.prompt + ")");
+      s.items.forEach(function (t) { L.push((s.key === "quote" ? "\"" + t.replace(/^["\u201c]|["\u201d]$/g, "") + "\"" : (s.key === "next" ? "[ ] " : "- ") + t)); });
+      L.push("");
+    });
+    return L.join("\n").trim() + "\n";
+  }
+  function fromParams(search) {
+    var out = {};
+    try { var p = new URLSearchParams(search || ""); var t = p.get("type"); if (t && TYPES[t]) out.type = t; if (p.get("blank") === "1") out.blank = true; } catch (e) {}
+    return out;
+  }
+  return { MAXLEN: MAXLEN, MAXLINES: MAXLINES, TYPES: TYPES, SECTIONS: SECTIONS, PREFIX: PREFIX, clean: clean, sortLine: sortLine, sortNotes: sortNotes, build: build, header: header, toMarkdown: toMarkdown, toText: toText, fromParams: fromParams };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=tool&utm_campaign=customer-interview-summary-template";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var render_ = (function docHTML(r, esc, S) {
+  var h = "<h2>" + esc(r.title) + "</h2><ul class=\"meta-list\">" + S.header(r).map(function (x) { return "<li><strong>" + esc(x[0]) + ":</strong> " + esc(x[1]) + "</li>"; }).join("") + "</ul>";
+  if (r.takeaway || r.blank) h += "<h3>Top takeaway</h3>" + (r.takeaway ? "<p class=\"say\" id=\"takeaway-out\">" + esc(r.takeaway) + "</p>" : "<p class=\"prompt\">The one thing a teammate should remember from this interview.</p>");
+  r.sections.forEach(function (s) {
+    h += "<h3 data-section=\"" + s.key + "\">" + esc(s.title) + (s.items.length ? " <span class=\"tag\">" + s.items.length + "</span>" : "") + "</h3>";
+    if (!s.items.length) { h += "<p class=\"prompt\">" + esc(s.prompt) + "</p>"; return; }
+    if (s.key === "quote") { h += s.items.map(function (t) { return "<blockquote>" + esc(t) + "</blockquote>"; }).join(""); return; }
+    h += "<ul" + (s.key === "next" ? " class=\"next\"" : "") + ">" + s.items.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>";
+  });
+  if (!r.total && !r.blank) h += "<p class=\"prompt\">Paste your notes above to fill in the sections, or tick blank template to see every section.</p>";
+  return h;
+});
+  var checks_ = (function checksHTML(r, esc) {
+  return r.checks.length ? "<ul class=\"note checks-out\" id=\"checks-list\">" + r.checks.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") + "</ul>" : "";
+});
+  var current;
+  var ids = ["participant", "role", "segment", "date", "length", "interviewer", "type", "research", "takeaway", "notes"];
+  function opts() { var o = {}; ids.forEach(function (k) { o[k] = $(k).value; }); o.blank = $("blank").checked; return o; }
+  function render() { current = SUM.build(opts()); $("doc").innerHTML = render_(current, esc, SUM); $("checks").innerHTML = checks_(current, esc); $("status").textContent = ""; }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  Array.prototype.forEach.call(document.querySelectorAll("#gen input, #gen select, #gen textarea"), function (el) { el.addEventListener(el.type === "checkbox" || el.tagName === "SELECT" ? "change" : "input", render); });
+  $("clear").addEventListener("click", function () { ["participant", "role", "segment", "research", "takeaway", "notes"].forEach(function (k) { $(k).value = ""; }); render(); $("notes").focus(); });
+  function copy(text) {
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the summary and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  }
+  $("copy").addEventListener("click", function () { copy(SUM.toMarkdown(current, CTA)); });
+  $("copy-text").addEventListener("click", function () { copy(SUM.toText(current)); });
+  $("dl-md").addEventListener("click", function () {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([SUM.toMarkdown(current, CTA)], { type: "text/markdown;charset=utf-8" }));
+    a.download = "customer-interview-summary.md";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  });
+  // Deep links: ?type=discovery|churn|jtbd|winloss|pricing|other&blank=1 (notes are never read from the URL)
+  var P = SUM.fromParams(window.location.search);
+  if (P.type) $("type").value = P.type;
+  if (P.blank) { $("blank").checked = true; ["participant", "role", "segment", "research", "takeaway", "notes"].forEach(function (k) { $(k).value = ""; }); }
+  render();
+})();
+</script>
+</body>
+</html>
