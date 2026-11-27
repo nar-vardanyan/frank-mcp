@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cancel-reasons demo</title>
+<style>
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; color: #101828; }
+  .card { border: 1px solid #d0d5dd; border-radius: 12px; padding: 20px; margin: 16px 0; }
+  .danger { color: #b42318; }
+  button, .btn { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid #d0d5dd; background: #fff; cursor: pointer; text-decoration: none; display: inline-block; }
+  pre { background: #f2f4f7; padding: 12px; border-radius: 8px; overflow: auto; font-size: 13px; }
+</style>
+</head>
+<body>
+<h1>Your subscription</h1>
+<p>Demo of <code>cancel-reasons</code>. Nothing here talks to Stripe or Paddle. Every cancel below continues after the step, whether the customer answers or skips.</p>
+
+<div class="card">
+  <h2>1. Link to a billing portal (no JavaScript needed)</h2>
+  <p>Typical Stripe Customer Portal setup: your link goes to your backend, which redirects to the portal.</p>
+  <a id="cancel-link" class="btn danger" href="cancelled.html?via=link"
+     data-cancel-reasons
+     data-cancel-reasons-webhook="/webhook">Cancel subscription</a>
+</div>
+
+<div class="card">
+  <h2>2. Form that posts to your backend</h2>
+  <form id="cancel-form" method="post" action="/api/cancel">
+    <input type="hidden" name="subscription_id" value="sub_demo">
+    <button id="cancel-submit" class="danger" type="submit">Cancel subscription</button>
+  </form>
+</div>
+
+<div class="card">
+  <h2>3. Button with your own handler, plus the optional voice chat link</h2>
+  <button id="cancel-js" class="danger" type="button">Cancel subscription</button>
+  <p id="js-status" aria-live="polite"></p>
+</div>
+
+<h2>Last result</h2>
+<pre id="out">(none yet)</pre>
+
+<script src="../dist/cancel-reasons.min.js"></script>
+<script>
+  var out = document.getElementById('out');
+  document.addEventListener('cancelreasons:submit', function (e) {
+    out.textContent = JSON.stringify(e.detail, null, 2);
+  });
+
+  CancelReasons.attach('#cancel-submit', {
+    webhookUrl: '/webhook',
+    metadata: { subscriptionId: 'sub_demo' }
+  });
+
+  document.getElementById('cancel-js').addEventListener('click', function () {
+    document.getElementById('js-status').textContent = 'Your own cancel handler ran. (In a real app this calls your backend.)';
+  });
+  CancelReasons.attach('#cancel-js', {
+    metadata: { subscriptionId: 'sub_demo' },
+    interviewLink: { url: 'https://example.com/your-interview-link' },
+    theme: { accent: '#0e7a4b' }
+  });
+</script>
+</body>
+</html>
