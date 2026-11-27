@@ -240,14 +240,14 @@ function feUid(p) { FE_SEQ++; return "fe-" + p + "-" + FE_SEQ; }
 
 // Mounts kind into every [data-frank-embed="kind"] element. If there is none,
 // a container is created right before the <script> tag, so one pasted <script> is enough.
-function feBoot(kind, mount) {
+function feBoot(kind, mount, css) {
   function mountEl(el) {
     if (!el || el.__frankMounted) return;
     el.__frankMounted = true;
     el.setAttribute("data-frank-mounted", FE_VERSION);
     var root = el.attachShadow ? el.attachShadow({ mode: "open" }) : el;
     var style = document.createElement("style");
-    style.textContent = FE_CSS;
+    style.textContent = css || FE_CSS;
     var box = document.createElement("div");
     var theme = feOpt(el, "theme");
     box.className = "fe " + (theme === "dark" ? "dark" : theme === "auto" ? "auto" : "light");

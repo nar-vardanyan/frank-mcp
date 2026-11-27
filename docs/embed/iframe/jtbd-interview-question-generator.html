@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>JTBD switch interview question generator by Frank AI Researcher</title>
+<style>html,body{margin:0;padding:0;background:transparent;}body{padding:8px;}</style>
+</head>
+<body>
+<div data-frank-embed="jtbd-interview-question-generator"></div>
+<script>
+/*! Frank AI Researcher embed: JTBD switch interview question generator v0.1.0 | MIT, Prelaunch Group, Inc. | no tracking, no network calls */
+(function () {
+"use strict";
+if (typeof window === "undefined") return;
+// Shared embed shell. Concatenated into each build by scripts/build.mjs.
+// No network calls, no cookies, no storage, no analytics. The only outbound thing is a plain link to hifrank.ai.
+var FE_VERSION = "0.1.0";
+var FE_HOME = "https://hifrank.ai/";
+var FE_SCRIPT = (typeof document !== "undefined" && document.currentScript) || null;
+
+function feEsc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+// utm_source defaults to "embed". The embedding site may set data-frank-source="myblog" to name itself.
+// Only [a-z0-9._-] are kept, max 60 chars. Nothing is read from the host page automatically.
+function feSource(v) { v = String(v || "").toLowerCase().replace(/[^a-z0-9._-]/g, "").slice(0, 60); return v || "embed"; }
+function feLink(slug, source) {
+  return FE_HOME + "?utm_source=" + feSource(source) + "&utm_medium=embed&utm_campaign=" + slug + "-embed";
+}
+
+function feOpt(el, name) {
+  var v = el.getAttribute("data-frank-" + name);
+  if (v == null && FE_SCRIPT) v = FE_SCRIPT.getAttribute("data-frank-" + name);
+  return v;
+}
+
+var FE_CSS = [
+  ":host{all:initial;display:block;}",
+  ".fe{--ink:#1f2328;--muted:#59636e;--line:#d1d9e0;--soft:#f6f8fa;--bg:#fff;--accent:#0b6e4f;--accent-dark:#085a40;--tag:#eaf6f1;--warn:#bf8700;--warn-bg:#fff1c2;--warn-ink:#6c4a00;--link:#0969da;",
+  "box-sizing:border-box;max-width:760px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);",
+  "font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.55;text-align:left;overflow-wrap:anywhere;}",
+  ".fe.dark{--ink:#e6edf3;--muted:#9ea7b3;--line:#3d444d;--soft:#151b23;--bg:#0d1117;--accent:#2ea876;--accent-dark:#7ee2b8;--tag:#0f2e22;--warn:#d29922;--warn-bg:#3a2a00;--warn-ink:#f2cc60;--link:#4493f8;}",
+  "@media (prefers-color-scheme:dark){.fe.auto{--ink:#e6edf3;--muted:#9ea7b3;--line:#3d444d;--soft:#151b23;--bg:#0d1117;--accent:#2ea876;--accent-dark:#7ee2b8;--tag:#0f2e22;--warn:#d29922;--warn-bg:#3a2a00;--warn-ink:#f2cc60;--link:#4493f8;}}",
+  ".fe *{box-sizing:border-box;}",
+  ".fe h2{font-size:1.25em;line-height:1.3;margin:0 0 4px;}",
+  ".fe h3{font-size:1.05em;margin:16px 0 6px;}",
+  ".fe p{margin:0 0 10px;}",
+  ".fe .lede{color:var(--muted);font-size:.95em;}",
+  ".fe a{color:var(--link);}",
+  ".fe label{display:block;font-weight:600;font-size:14px;margin:0 0 4px;}",
+  ".fe .hint{font-weight:400;color:var(--muted);}",
+  ".fe .field{margin:0 0 12px;}",
+  ".fe input,.fe textarea,.fe select{width:100%;padding:10px 12px;font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;}",
+  ".fe textarea{min-height:180px;resize:vertical;line-height:1.5;}",
+  ".fe .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}",
+  "@media (max-width:520px){.fe{padding:14px;}.fe .grid{grid-template-columns:1fr;}}",
+  ".fe input:focus-visible,.fe textarea:focus-visible,.fe select:focus-visible,.fe button:focus-visible,.fe a:focus-visible{outline:2px solid var(--link);outline-offset:2px;}",
+  ".fe .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:4px 0 0;}",
+  ".fe button{font:inherit;font-size:15px;font-weight:600;border-radius:6px;padding:10px 16px;cursor:pointer;min-height:44px;}",
+  ".fe .primary{background:var(--accent);color:#fff;border:1px solid var(--accent);}",
+  ".fe.dark .primary{color:#06140e;}@media (prefers-color-scheme:dark){.fe.auto .primary{color:#06140e;}}",
+  ".fe .primary:hover{filter:brightness(.92);}",
+  ".fe .ghost{background:var(--bg);color:var(--ink);border:1px solid var(--line);}",
+  ".fe .ghost:hover{background:var(--soft);}",
+  ".fe .out{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;}",
+  ".fe ol{padding-left:22px;margin:8px 0;}",
+  ".fe li{margin:0 0 12px;}",
+  ".fe .status{color:var(--accent-dark);font-weight:600;font-size:14px;}",
+  ".fe .credit{margin-top:16px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}",
+  ".fe .credit p{margin:0 0 4px;}",
+  ".fe .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}",
+  "@media (prefers-reduced-motion:reduce){.fe *{transition:none!important;animation:none!important;}}",
+  "@media print{.fe form,.fe .actions{display:none!important;}}"
+].join("");
+
+function feCredit(slug, el) {
+  var href = feLink(slug, feOpt(el, "source"));
+  var blurb = feOpt(el, "blurb") === "off" ? "" :
+    "<p>Frank is an AI user researcher that runs short voice interviews. Free plan: 60 voice minutes a month, no card required.</p>";
+  return "<div class=\"credit\">" + blurb +
+    "<p><a class=\"credit-link\" href=\"" + feEsc(href) + "\" target=\"_blank\" rel=\"noopener nofollow\">Powered by Frank</a>" +
+    "<span class=\"sr\"> (opens in a new tab)</span></p><p>Runs in your browser; nothing you type is sent anywhere.</p></div>";
+}
+
+var FE_SEQ = 0;
+function feUid(p) { FE_SEQ++; return "fe-" + p + "-" + FE_SEQ; }
+
+// Mounts kind into every [data-frank-embed="kind"] element. If there is none,
+// a container is created right before the <script> tag, so one pasted <script> is enough.
+function feBoot(kind, mount, css) {
+  function mountEl(el) {
+    if (!el || el.__frankMounted) return;
+    el.__frankMounted = true;
+    el.setAttribute("data-frank-mounted", FE_VERSION);
+    var root = el.attachShadow ? el.attachShadow({ mode: "open" }) : el;
+    var style = document.createElement("style");
+    style.textContent = css || FE_CSS;
+    var box = document.createElement("div");
+    var theme = feOpt(el, "theme");
+    box.className = "fe " + (theme === "dark" ? "dark" : theme === "auto" ? "auto" : "light");
+    root.appendChild(style);
+    root.appendChild(box);
+    mount(box, el);
+  }
+  function isBox(n) { return n && n.nodeType === 1 && n.getAttribute("data-frank-embed") === kind; }
+  function run() {
+    // 1) The script's own spot: reuse the container right before it, or create one there.
+    //    A script placed in <head> creates nothing and only fills containers.
+    if (FE_SCRIPT && FE_SCRIPT.parentNode && FE_SCRIPT.parentNode.nodeName !== "HEAD") {
+      var prev = FE_SCRIPT.previousElementSibling;
+      if (!isBox(prev) || prev.__frankMounted) {
+        prev = document.createElement("div");
+        prev.setAttribute("data-frank-embed", kind);
+        FE_SCRIPT.parentNode.insertBefore(prev, FE_SCRIPT);
+      }
+      mountEl(prev);
+    }
+    // 2) Fill every other container of this kind on the page.
+    var all = document.querySelectorAll('[data-frank-embed="' + kind + '"]');
+    for (var i = 0; i < all.length; i++) mountEl(all[i]);
+  }
+  window.FrankEmbeds = window.FrankEmbeds || {};
+  window.FrankEmbeds[kind] = { version: FE_VERSION, mount: mountEl };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+}
+
+function feCopy(text, status) {
+  function ok() { status.textContent = "Copied"; }
+  function fallback() {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); ok(); } catch (e) { status.textContent = "Select the text and copy it manually"; }
+    document.body.removeChild(ta);
+  }
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+}
+
+// Ported tool page UI. The build fills in the kind, slug, CSS, HTML and the page script body (see scripts/build.mjs portJs).
+// The page script runs unchanged except that document.getElementById/querySelectorAll are scoped to this
+// embed's shadow root, URL deep links are not read from the host page, and the Frank CTA uses the embed UTMs.
+feBoot("jtbd-interview-question-generator", function (FE_BOX, el) {
+  FE_BOX.innerHTML = "<h2 class=\"fe-title\">JTBD Switch Interview Question Generator</h2>\n    <p class=\"lede\">Build a Jobs to Be Done switch interview for your own product. Enter what customers used before and who they are, and get a timeline guide with a probe for every question, each tagged with the force it uncovers: push, pull, anxiety or habit. Works for customers who switched to you and for customers who left. Free, no login: it runs in your browser and nothing you type is sent anywhere.</p>\n\n    <form class=\"gen\" id=\"gen\" autocomplete=\"off\">\n      <fieldset class=\"radios\">\n        <legend>Who are you interviewing?</legend>\n        <label><input type=\"radio\" name=\"mode\" id=\"mode-to\" value=\"to\" checked> New customers who switched to you</label>\n        <label><input type=\"radio\" name=\"mode\" id=\"mode-away\" value=\"away\"> Customers who left you</label>\n      </fieldset>\n      <div class=\"grid2\">\n        <div class=\"field\">\n          <label for=\"product\">Your product <span class=\"hint\">(name)</span></label>\n          <input id=\"product\" name=\"product\" maxlength=\"60\" value=\"Acme Invoicing\" placeholder=\"Acme Invoicing\">\n        </div>\n        <div class=\"field\">\n          <label for=\"other\"><span id=\"other-label\">What they used before</span> <span class=\"hint\">(optional)</span></label>\n          <input id=\"other\" name=\"other\" maxlength=\"60\" value=\"spreadsheets\" placeholder=\"spreadsheets\">\n        </div>\n        <div class=\"field\">\n          <label for=\"who\">Who they are <span class=\"hint\">(optional, plural)</span></label>\n          <input id=\"who\" name=\"who\" maxlength=\"60\" value=\"Freelance designers\" placeholder=\"Freelance designers\">\n        </div>\n        <div class=\"field\">\n          <label for=\"length\">Length</label>\n          <select id=\"length\" name=\"length\">\n            <option value=\"short\" selected>Short: 8 questions, 15 to 20 minutes</option>\n            <option value=\"full\">Full timeline: 13 questions, 30 to 45 minutes</option>\n          </select>\n        </div>\n      </div>\n      <div class=\"actions\">\n        <button class=\"btn btn-primary\" type=\"submit\">Build my interview guide</button>\n      </div>\n    </form>\n\n    <section id=\"result\" aria-labelledby=\"result-title\">\n      <h2 id=\"result-title\" style=\"border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)\">Your interview guide</h2>\n      <article class=\"guide\" id=\"guide\" aria-live=\"polite\">\n        <h2>JTBD switch interview: why people switched to Acme Invoicing</h2><p><strong>Who to interview:</strong> Freelance designers who started using Acme Invoicing in the last 90 days and took part in the decision, while it is still fresh.</p><p><strong>Length:</strong> about 15 to 20 minutes, 8 questions.</p><p class=\"say\"><strong>Opening:</strong> Thanks for making time. I'd like to hear the story of how you came to use Acme Invoicing, from the very first moment you thought about changing. There are no right answers, and I'm not here to sell you anything. It takes about 15 to 20 minutes.</p><h3 data-phase=\"first\">First thought</h3><p class=\"phase-goal\">Find the first moment the old way stopped being good enough.</p><ol start=\"1\"><li class=\"q\" data-force=\"push\"><span class=\"tag push\">Push</span>Think back to before you used Acme Invoicing. When did you first feel you needed something better than spreadsheets? What happened that day?<span class=\"probe\">Probe: Keep going back in time until they reach the very first moment. Ask what else was going on at work or at home.</span></li><li class=\"q\" data-force=\"habit\"><span class=\"tag habit\">Habit</span>What did you still like about spreadsheets at that point?<span class=\"probe\">Probe: This is the habit force. Ask how long they had done it that way and what made it good enough.</span></li></ol><h3 data-phase=\"event\">The event and active looking</h3><p class=\"phase-goal\">The moment interest turned into a search, and what they compared.</p><ol start=\"3\"><li class=\"q\" data-force=\"push\"><span class=\"tag push\">Push</span>What happened that made you start looking seriously? Why then and not a month earlier?<span class=\"probe\">Probe: Look for a dated event: a deadline, a cost, a complaint, a new boss, a failure. Ask how much time passed since the first thought.</span></li><li class=\"q\" data-force=\"pull\"><span class=\"tag pull\">Pull</span>Which options did you look at, including doing nothing or building something yourself? Where did you find them?<span class=\"probe\">Probe: Ask how each option got onto the list and which one they almost picked.</span></li></ol><h3 data-phase=\"decide\">Deciding</h3><p class=\"phase-goal\">The pull of the chosen option and the worries at the moment of choice.</p><ol start=\"5\"><li class=\"q\" data-force=\"pull\"><span class=\"tag pull\">Pull</span>What made you pick Acme Invoicing over the others? Tell me about the moment you knew.<span class=\"probe\">Probe: If they name a feature, ask what that feature let them do that they couldn't do before.</span></li><li class=\"q\" data-force=\"anxiety\"><span class=\"tag anxiety\">Anxiety</span>What worried you just before you signed up or paid? What made the worry go away?<span class=\"probe\">Probe: Ask what reduced the worry: a free plan, a review, a colleague, a refund policy.</span></li></ol><h3 data-phase=\"after\">First use and the new normal</h3><p class=\"phase-goal\">Compare the progress they expected with what they got.</p><ol start=\"7\"><li class=\"q\" data-force=\"progress\"><span class=\"tag progress\">Progress</span>Tell me about the first time you used Acme Invoicing. What did you do first, and what happened?<span class=\"probe\">Probe: Ask what they expected it to do that it did, or did not do. A gap here is a churn risk.</span></li><li class=\"q\" data-force=\"habit\"><span class=\"tag habit\">Habit</span>What do you still miss about spreadsheets?<span class=\"probe\">Probe: Habits that survive the switch show where people may drift back.</span></li></ol><h3>After each interview</h3><p>Write one job statement in the customer's words: <em>When [situation], I want to [motivation], so I can [expected outcome].</em> Then note the push, pull, anxiety and habit you heard, with exact quotes.</p>\n      </article>\n      <div class=\"actions js-only\">\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"copy\">Copy guide</button>\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"dl-md\">Download .md</button>\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"dl-txt\">Download .txt</button>\n        <span class=\"status\" id=\"status\" role=\"status\"></span>\n      </div>\n    </section>" + feCredit("jtbd-interview-question-generator", el);
+  var FE_ROOT = FE_BOX.getRootNode();
+  var FE_CTA = feLink("jtbd-interview-question-generator", feOpt(el, "source"));
+  (function (FE_ROOT, FE_BOX, FE_CTA) {
+
+// JTBD switch interview question generator: templates only, no network, no AI model.
+var JTBD = (function () {
+  var MAXLEN = 60;
+  var FORCES = {
+    push: { label: "Push", text: "what was going wrong with the old way" },
+    pull: { label: "Pull", text: "what drew them to the new option" },
+    anxiety: { label: "Anxiety", text: "what worried them about changing" },
+    habit: { label: "Habit", text: "what kept them on the old way" },
+    timeline: { label: "Timeline", text: "anchors the story to real dates and moments" },
+    progress: { label: "Progress", text: "what actually changed afterwards" }
+  };
+  var PHASES = [
+    { id: "anchor", title: { to: "The switch", away: "The switch" }, goal: { to: "Anchor the story on the day they started.", away: "Anchor the story on the day they left." } },
+    { id: "first", title: { to: "First thought", away: "First thought" }, goal: { to: "Find the first moment the old way stopped being good enough.", away: "Find the first moment the product stopped working for them." } },
+    { id: "passive", title: { to: "Passive looking", away: "Passive looking" }, goal: { to: "What they noticed before they searched in earnest.", away: "What they noticed before they decided to leave." } },
+    { id: "event", title: { to: "The event and active looking", away: "The event and active looking" }, goal: { to: "The moment interest turned into a search, and what they compared.", away: "The moment they decided to leave, and what they compared." } },
+    { id: "decide", title: { to: "Deciding", away: "Deciding" }, goal: { to: "The pull of the chosen option and the worries at the moment of choice.", away: "The pull of the new option and the worries about leaving." } },
+    { id: "after", title: { to: "First use and the new normal", away: "After leaving" }, goal: { to: "Compare the progress they expected with what they got.", away: "What changed after the move, and what they lost." } }
+  ];
+  // {P} = your product, {O} = the other option (what they used before, or what they use now)
+  var Q = {
+    to: [
+      { id: "to1", phase: "anchor", force: "timeline", core: false, q: "Roughly when did you start using {P}? Where were you and what were you doing when you signed up?", probe: "Ask for the week or the month. Small details like the room or the device help people remember the rest." },
+      { id: "to2", phase: "first", force: "push", core: true, q: "Think back to before you used {P}. When did you first feel you needed something better than {O}? What happened that day?", probe: "Keep going back in time until they reach the very first moment. Ask what else was going on at work or at home." },
+      { id: "to3", phase: "first", force: "habit", core: true, q: "What did you still like about {O} at that point?", probe: "This is the habit force. Ask how long they had done it that way and what made it good enough." },
+      { id: "to4", phase: "passive", force: "pull", core: false, q: "After that first thought, what did you notice about other ways to do this, before you started looking properly?", probe: "Ask about posts, conversations, ads and tools colleagues used. Ask if they saved or clicked anything." },
+      { id: "to5", phase: "passive", force: "anxiety", core: false, q: "What kept you from changing at that point?", probe: "Listen for \"it wasn't urgent\" or \"switching would take too long\". Ask what made it feel that way." },
+      { id: "to6", phase: "event", force: "push", core: true, q: "What happened that made you start looking seriously? Why then and not a month earlier?", probe: "Look for a dated event: a deadline, a cost, a complaint, a new boss, a failure. Ask how much time passed since the first thought." },
+      { id: "to7", phase: "event", force: "pull", core: true, q: "Which options did you look at, including doing nothing or building something yourself? Where did you find them?", probe: "Ask how each option got onto the list and which one they almost picked." },
+      { id: "to8", phase: "decide", force: "pull", core: true, q: "What made you pick {P} over the others? Tell me about the moment you knew.", probe: "If they name a feature, ask what that feature let them do that they couldn't do before." },
+      { id: "to9", phase: "decide", force: "anxiety", core: true, q: "What worried you just before you signed up or paid? What made the worry go away?", probe: "Ask what reduced the worry: a free plan, a review, a colleague, a refund policy." },
+      { id: "to10", phase: "decide", force: "anxiety", core: false, q: "Who else had a say in the decision, and what did they think?", probe: "If someone had doubts, ask how those doubts were answered." },
+      { id: "to11", phase: "after", force: "progress", core: true, q: "Tell me about the first time you used {P}. What did you do first, and what happened?", probe: "Ask what they expected it to do that it did, or did not do. A gap here is a churn risk." },
+      { id: "to12", phase: "after", force: "progress", core: false, q: "What can you do now that you couldn't do with {O}?", probe: "Listen for progress in their own words. Ask for one recent example." },
+      { id: "to13", phase: "after", force: "habit", core: true, q: "What do you still miss about {O}?", probe: "Habits that survive the switch show where people may drift back." }
+    ],
+    away: [
+      { id: "aw1", phase: "anchor", force: "timeline", core: false, q: "Roughly when did you stop using {P}? What was going on that week?", probe: "Ask for the week or the month, and whether they cancelled, downgraded or simply stopped logging in." },
+      { id: "aw2", phase: "first", force: "push", core: true, q: "When did you first feel that {P} was not working for you anymore? What happened that day?", probe: "Keep going back in time until they reach the first moment. Ask what else changed around then: team, budget, volume." },
+      { id: "aw3", phase: "first", force: "habit", core: true, q: "What did you still like about {P} at that point?", probe: "This is the habit force that kept them. Ask how long it kept them." },
+      { id: "aw4", phase: "passive", force: "pull", core: false, q: "After that, what did you notice about other ways to do this?", probe: "Ask about posts, conversations, ads and tools colleagues used." },
+      { id: "aw5", phase: "passive", force: "habit", core: false, q: "What kept you on {P} for a while after that?", probe: "Listen for setup work, data already in the product, or a team that was used to it." },
+      { id: "aw6", phase: "event", force: "push", core: true, q: "What happened that made you decide to leave? Why then and not a month earlier?", probe: "Look for a dated event: a renewal, a price change, a missed deadline, a new person in charge." },
+      { id: "aw7", phase: "event", force: "pull", core: true, q: "Which options did you look at, including stopping altogether or doing it by hand?", probe: "Ask how each option got onto the list and who suggested it." },
+      { id: "aw8", phase: "decide", force: "pull", core: true, q: "What made you choose {O}? Tell me about the moment you knew.", probe: "If they name a feature or price, ask what that let them do." },
+      { id: "aw9", phase: "decide", force: "anxiety", core: true, q: "What worried you about leaving {P}? What did you lose when you moved?", probe: "Ask about data, history, integrations and people who had to learn something new." },
+      { id: "aw10", phase: "decide", force: "anxiety", core: false, q: "Who else was involved in the decision to leave, and what did they think?", probe: "If someone argued to stay, ask what they said." },
+      { id: "aw11", phase: "after", force: "progress", core: true, q: "Tell me about the first weeks with {O}. What got better, and what got worse?", probe: "Ask for one concrete example of each." },
+      { id: "aw12", phase: "after", force: "progress", core: false, q: "Looking back, was there a moment when we could have kept you? What happened at that moment?", probe: "Ask what they told us at the time, if anything, and how we answered." },
+      { id: "aw13", phase: "after", force: "habit", core: true, q: "What do you still miss about {P}?", probe: "What they miss is what you do well. It is also what a win-back message can say." }
+    ]
+  };
+  var DEF = { product: "our product", to: "the way you did it before", away: "the option you moved to" };
+  function clean(s) {
+    return String(s == null ? "" : s).replace(/[\u0000-\u001f<>{}]/g, " ").replace(/\s+/g, " ").trim().replace(/[.?!,;:]+$/, "").slice(0, MAXLEN).trim();
+  }
+  function fill(t, P, O) { return t.split("{P}").join(P).split("{O}").join(O); }
+  function build(opts) {
+    opts = opts || {};
+    var dir = opts.direction === "away" ? "away" : "to";
+    var length = opts.length === "full" ? "full" : "short";
+    var product = clean(opts.product), other = clean(opts.other), who = clean(opts.who);
+    var P = product || DEF.product, O = other || DEF[dir];
+    var qs = Q[dir].filter(function (x) { return length === "full" || x.core; });
+    var phases = PHASES.map(function (ph) {
+      return {
+        id: ph.id, title: ph.title[dir], goal: ph.goal[dir],
+        questions: qs.filter(function (x) { return x.phase === ph.id; }).map(function (x) {
+          return { id: x.id, force: x.force, forceLabel: FORCES[x.force].label, q: fill(x.q, P, O), probe: x.probe };
+        })
+      };
+    }).filter(function (ph) { return ph.questions.length; });
+    var whoTxt = who ? who + " who " : "People who ";
+    var whom = dir === "to"
+      ? whoTxt + "started using " + P + " in the last 90 days and took part in the decision, while it is still fresh."
+      : whoTxt + "cancelled or stopped using " + P + " in the last 90 days and took part in the decision.";
+    var minutes = length === "full" ? "30 to 45" : "15 to 20";
+    var intro = dir === "to"
+      ? "Thanks for making time. I'd like to hear the story of how you came to use " + P + ", from the very first moment you thought about changing. There are no right answers, and I'm not here to sell you anything. It takes about " + minutes + " minutes."
+      : "Thanks for making time. I'd like to hear the story of how you decided to stop using " + P + ", from the first moment it stopped working for you. I'm not here to win you back, and nothing you say is wrong. It takes about " + minutes + " minutes.";
+    var title = dir === "to" ? "JTBD switch interview: why people switched to " + P : "JTBD switch interview: why people switched away from " + P;
+    var n = qs.length;
+    return { direction: dir, length: length, product: P, other: O, who: who, title: title, whom: whom, minutes: minutes, intro: intro, phases: phases, count: n,
+      jobStatement: "When [situation], I want to [motivation], so I can [expected outcome]." };
+  }
+  function toMarkdown(g, cta) {
+    var out = ["# " + g.title, "", "**Who to interview:** " + g.whom, "", "**Length:** about " + g.minutes + " minutes, " + g.count + " questions.", "", "**Opening:** " + g.intro, ""];
+    var i = 0;
+    g.phases.forEach(function (ph) {
+      out.push("## " + ph.title, "", ph.goal, "");
+      ph.questions.forEach(function (x) { i++; out.push(i + ". " + x.q + " (" + x.forceLabel + ")", "   - Probe: " + x.probe); });
+      out.push("");
+    });
+    out.push("## After each interview", "", "Write one job statement in the customer's words: " + g.jobStatement, "",
+      "Code the push, pull, anxiety and habit you heard, with exact quotes.", "");
+    if (cta) out.push("Run this as a voice interview with Frank AI Researcher: " + cta, "");
+    return out.join("\n");
+  }
+  function fromParams(search) {
+    var p = {};
+    String(search || "").replace(/^\?/, "").split("&").forEach(function (kv) {
+      if (!kv) return;
+      var i = kv.indexOf("="), k = decodeURIComponent((i < 0 ? kv : kv.slice(0, i)).replace(/\+/g, " "));
+      var v = i < 0 ? "" : kv.slice(i + 1);
+      try { v = decodeURIComponent(v.replace(/\+/g, " ")); } catch (e) { v = ""; }
+      p[k] = v;
+    });
+    var r = {};
+    if (p.mode === "to" || p.mode === "away") r.direction = p.mode;
+    if (p.length === "short" || p.length === "full") r.length = p.length;
+    if (p.product) r.product = clean(p.product);
+    if (p.other) r.other = clean(p.other);
+    if (p.who) r.who = clean(p.who);
+    return r;
+  }
+  return { build: build, toMarkdown: toMarkdown, fromParams: fromParams, clean: clean, FORCES: FORCES, PHASES: PHASES, Q: Q, MAXLEN: MAXLEN, DEF: DEF };
+})();
+
+(function () {
+  FE_BOX.className += " has-js";
+  var CTA = FE_CTA;
+  var LABELS = { to: "What they used before", away: "What they use now" };
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return FE_ROOT.getElementById(id); }
+  var render_ = (function guideHTML(g, esc) {
+  var n = 0;
+  return "<h2>" + esc(g.title) + "</h2>" +
+    "<p><strong>Who to interview:</strong> " + esc(g.whom) + "</p>" +
+    "<p><strong>Length:</strong> about " + esc(g.minutes) + " minutes, " + g.count + " questions.</p>" +
+    "<p class=\"say\"><strong>Opening:</strong> " + esc(g.intro) + "</p>" +
+    g.phases.map(function (ph) {
+      return "<h3 data-phase=\"" + ph.id + "\">" + esc(ph.title) + "</h3><p class=\"phase-goal\">" + esc(ph.goal) + "</p><ol start=\"" + (n + 1) + "\">" +
+        ph.questions.map(function (x) {
+          n++;
+          return "<li class=\"q\" data-force=\"" + x.force + "\"><span class=\"tag " + x.force + "\">" + esc(x.forceLabel) + "</span>" + esc(x.q) +
+            "<span class=\"probe\">Probe: " + esc(x.probe) + "</span></li>";
+        }).join("") + "</ol>";
+    }).join("") +
+    "<h3>After each interview</h3><p>Write one job statement in the customer's words: <em>" + esc(g.jobStatement) + "</em> Then note the push, pull, anxiety and habit you heard, with exact quotes.</p>";
+});
+  var current;
+  function mode() { return $("mode-away").checked ? "away" : "to"; }
+  function opts() { return { direction: mode(), length: $("length").value, product: $("product").value, other: $("other").value, who: $("who").value }; }
+  function render() {
+    $("other-label").textContent = LABELS[mode()];
+    current = JTBD.build(opts());
+    $("guide").innerHTML = render_(current, esc);
+    $("status").textContent = "";
+  }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  ["mode-to", "mode-away", "length"].forEach(function (id) { $(id).addEventListener("change", render); });
+  ["product", "other", "who"].forEach(function (id) { $(id).addEventListener("input", render); });
+  function md() { return JTBD.toMarkdown(current, CTA); }
+  function txt() { return md().replace(/^#+ /gm, "").replace(/\*\*/g, ""); }
+  $("copy").addEventListener("click", function () {
+    var text = md();
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the guide and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  });
+  function download(body, ext, type) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([body], { type: type + ";charset=utf-8" }));
+    a.download = "jtbd-switch-interview-" + current.direction + "." + ext;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  }
+  $("dl-md").addEventListener("click", function () { download(md(), "md", "text/markdown"); });
+  $("dl-txt").addEventListener("click", function () { download(txt(), "txt", "text/plain"); });
+  // Deep links: ?mode=to|away&length=short|full&product=&other=&who= prefill the form.
+  var P = JTBD.fromParams("");
+  if (P.direction) { $("mode-" + P.direction).checked = true; }
+  if (P.length) $("length").value = P.length;
+  if (P.product) $("product").value = P.product;
+  if (P.other) $("other").value = P.other;
+  if (P.who) $("who").value = P.who;
+  render();
+})();
+
+  })(FE_ROOT, FE_BOX, FE_CTA);
+}, ":host{all:initial;display:block;}\n  .fe { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }\n  .fe, .fe * { box-sizing: border-box; }\n  .fe { margin:0; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }\n  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }\n  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }\n  .top a { color:var(--muted); text-decoration:none; }\n  .top a:hover { text-decoration:underline; }\n  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }\n  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }\n  h3 { font-size: 1.1em; margin: 24px 0 8px; }\n  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }\n  a { color:#0969da; }\n  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }\n  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }\n  .hint { font-weight:400; color:var(--muted); }\n  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }\n  textarea { min-height: 220px; resize: vertical; line-height:1.5; }\n  .field { margin-bottom: 14px; }\n  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }\n  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }\n  .btn-primary { background:var(--accent); color:#fff; }\n  .btn-primary:hover { background:var(--accent-dark); }\n  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }\n  .btn-ghost:hover { background:var(--soft); }\n  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }\n  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }\n  .guide h2 { border:0; margin-top:16px; }\n  .guide ol { padding-left: 22px; }\n  .guide li { margin-bottom: 16px; }\n  .probe { display:block; color: var(--muted); font-size: 0.95em; }\n  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }\n  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }\n  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }\n  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }\n  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }\n  .cta p { margin: 0 0 10px; }\n  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }\n  .js-only { display:none; }\n  .has-js .js-only { display:flex; }\n  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }\n  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }\n  th { background: var(--soft); }\n  .table-wrap { overflow-x: auto; }\n  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }\n  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }\n  .row.ok { border-left:4px solid var(--accent); }\n  .row.bad { border-left:4px solid #bf8700; }\n  .row .q { font-weight:600; }\n  .flag { margin:6px 0 0; font-size:0.95em; }\n  .flag .tag { background:#fff1c2; color:#6c4a00; }\n  .rw { display:block; color:var(--muted); }\n  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }\n  .summary { font-weight:600; }\n  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }\n  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }\n  fieldset { border:0; padding:0; margin:0 0 14px; }\n  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }\n  .radios label, .radios { font-weight:400; }\n  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }\n  .radios input { width:auto; }\n  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }\n  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }\n  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }\n  .tag.push { background:#ffebe9; color:#82071e; }\n  .tag.pull { background:#ddf4ff; color:#0a3069; }\n  .tag.anxiety { background:#fff1c2; color:#6c4a00; }\n  .tag.habit { background:#f3e8ff; color:#4c1d95; }\n  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }\n  .phase-goal { color:var(--muted); margin-top:-6px; }\n  /* chatgpt-cta */ .cta-chatgpt { margin-top:14px; padding-top:12px; border-top:1px solid #b7e1cf; }\n  .cta-chatgpt p { margin:0 0 10px; }\n  .btn-chatgpt { background:#fff; color:var(--accent); border:1px solid var(--accent); white-space:normal; max-width:100%; box-sizing:border-box; }\n  .btn-chatgpt:hover { background:#f6f8fa; }\n  .cta-signup { display:inline-block; margin:10px 0 0; }\n  /* embed-section */ .embed-code { background:var(--soft); border:1px solid var(--line); border-radius:6px; padding:10px 12px; margin:6px 0 8px; overflow-x:auto; white-space:pre-wrap; word-break:break-all; font-size:13px; line-height:1.5; }\n  .embed-copy { font-size:14px; padding:8px 14px; }\n.fe{box-sizing:border-box;max-width:820px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);text-align:left;overflow-wrap:anywhere;font-size:16px;}.fe .fe-title{font-size:1.4em;line-height:1.25;margin:0 0 6px;padding:0;border:0;}.fe .credit{margin-top:16px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}.fe .credit p{margin:0 0 4px;}.fe .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}.fe button:focus-visible,.fe a:focus-visible{outline:2px solid #0969da;outline-offset:2px;}@media (max-width:520px){.fe{padding:12px;}}");
+
+})();
+</script>
+</body>
+</html>
