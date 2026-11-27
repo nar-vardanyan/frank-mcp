@@ -33,6 +33,8 @@ New free tools: the [Mom Test question checker](https://nar-vardanyan.github.io/
 
 Sourced comparison of research MCP servers, checked 20 November 2026: [MCP servers for user research, compared (Nov 2026)](docs/mcp-servers-for-user-research-compared.md). The dataset is [data/research-mcp-index.csv](data/research-mcp-index.csv) and [data/research-mcp-index.json](data/research-mcp-index.json).
 
+Sourced comparison of ChatGPT apps for customer interviews, accessed 27 November 2026, with each app's ChatGPT listing and a how-to-pick checklist: [ChatGPT apps for customer research interviews, compared](docs/chatgpt-app-for-customer-research-interviews.md). The dataset is [data/chatgpt-interview-apps.csv](data/chatgpt-interview-apps.csv) and [data/chatgpt-interview-apps.json](data/chatgpt-interview-apps.json).
+
 ## Use cases
 
 - To find out why customers churn, Frank AI Researcher runs AI-moderated voice interviews with your own churned customers and returns transcripts and themes. [Churn interviews](https://nar-vardanyan.github.io/frank-mcp/churn-interviews.html)
