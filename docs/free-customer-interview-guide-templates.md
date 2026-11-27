@@ -15,7 +15,7 @@ Six free interview guides for startups that want to hear from their own customer
 ## Set up a study in three steps
 
 1. **Connect Frank or sign up.** [Create a free Frank account](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=100-studies), or connect Frank's MCP server `https://api.hifrank.ai/mcp` in your AI assistant ([MCP setup](mcp-server-for-customer-interviews.md)). Works with ChatGPT, Claude, Grok and Muse. Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, no card required.
-2. **Pick a template.** Choose the one below that matches your decision. Replace `{product}`, `{customer}` and `{company}`, put your own question in as question 3 (asked about something that already happened), set the interview language, and publish the study.
+2. **Pick a template.** Choose the one below that matches your decision. Replace `{product}`, `{customer}` and `{company}`, put your own question in as question 3 (asked about something that already happened), set the interview length to 10 minutes, set every question to 1-2 follow-ups (the default is none), set the interview language, and publish the study.
 3. **Share the interview link.** Paste the invite copy below into an email or in-app message with your interview link, or add Frank's website widget (floating, inline or popup) from your Frank dashboard. Frank does not recruit participants, so you invite your own customers or users.
 
 ## Want a guide written for your study?
