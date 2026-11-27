@@ -15,7 +15,7 @@ A cancellation survey can count the first reason people click. Interviews are fo
 
 ## Setup
 
-MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude, Grok and Muse.
 
 Security details are on the [transparency and security page](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly). Current plan details are on the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=interview-churned-users-quickly).
 
@@ -47,7 +47,7 @@ No. Share a link or embed a website widget so people can talk when they have tim
 
 ### Can I run these interviews from ChatGPT or Claude?
 
-Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse. A study created through MCP stays a draft until you approve publishing.
 
 ## Related
 

@@ -32,7 +32,7 @@ If the app isn't available in your workspace, use the custom MCP server path ins
 3. Choose OAuth, then sign in to Frank in your browser and approve access. There is no API key.
 4. Install the plugin. In a chat, type `@` and select Frank AI Researcher, then ask: "List my Frank studies."
 
-MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Full setup notes are in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp).
+MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse. Full setup notes are in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp).
 
 ## Step 2: Ask ChatGPT to draft a churn study
 
@@ -97,7 +97,7 @@ If very few customers cancel, call them yourself. If the churn question needs de
 
 ## When Frank is a fit
 
-Frank AI Researcher runs AI-moderated voice interviews with your own customers. You can put an interviewer link in a cancellation email or embed a website widget on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank AI Researcher runs AI-moderated voice interviews with your own customers. You can put an interviewer link in a cancellation email or embed a website widget on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 
 As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp).
 
@@ -127,7 +127,7 @@ An exit survey is useful for tallying a category. Interview the people who cance
 
 ### Can I do the same from Claude?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp&utm_content=use-in-claude). For a discovery-focused Claude walkthrough, see [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md).
+Yes. Works with ChatGPT, Claude, Grok and Muse. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-churn-interviews-with-chatgpt-and-frank-mcp&utm_content=use-in-claude). For a discovery-focused Claude walkthrough, see [How to run customer discovery interviews with Claude and Frank MCP](how-to-run-customer-discovery-interviews-with-claude-and-frank-mcp.md).
 
 ## Related
 

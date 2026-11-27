@@ -74,7 +74,7 @@ Frank is voice-first, supports multilingual interviews, and is SOC 2 and GDPR co
 
 <p class="docs-study-cta-wrap"><a class="docs-study-cta" href="https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168">Install Frank in ChatGPT</a></p>
 
-Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-answer). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-answer). Works with ChatGPT, Claude, Grok and Muse.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ Open the Frank listing in ChatGPT and add Frank, sign in to Frank in your browse
 
 ### Does Frank work in Claude or Grok too?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. In other MCP clients, connect to https://api.hifrank.ai/mcp.
+Yes. Works with ChatGPT, Claude, Grok and Muse. In other MCP clients, connect to https://api.hifrank.ai/mcp.
 
 ### Is it free?
 

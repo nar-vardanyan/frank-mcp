@@ -80,7 +80,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 
 Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders).
 
-[MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders) is included on every plan, including Free, so you can draft a study and read transcripts from an AI assistant. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Setup is in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders).
+[MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders) is included on every plan, including Free, so you can draft a study and read transcripts from an AI assistant. Works with ChatGPT, Claude, Grok and Muse. Setup is in the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders).
 
 As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month (10-minute max per interview), and Starter is $49 a month when billed yearly. MCP is on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders). Check that page before you buy; plan details change.
 
@@ -122,7 +122,7 @@ No. Frank does not recruit participants. You share the interviewer link or websi
 
 ### Can I set this up from ChatGPT or Claude?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is on every plan, including Free. See the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders).
+Yes. Works with ChatGPT, Claude, Grok and Muse. MCP is on every plan, including Free. See the [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=frank-vs-survey-tools-for-founders).
 
 ## Related
 

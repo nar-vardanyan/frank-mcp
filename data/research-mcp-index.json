@@ -53,7 +53,7 @@
           "checked_on": "2026-11-20"
         },
         "documented_clients": {
-          "value": "Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Codex is not in that client list. Clients that require DCR can't connect yet.",
+          "value": "Works with ChatGPT, Claude, Grok and Muse. Codex is not in that client list. Clients that require DCR can't connect yet.",
           "source_urls": [
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"
           ],

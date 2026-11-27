@@ -42,7 +42,7 @@ Gong and Sybill analyze what was said on recorded calls across deals ([Sybill's 
 
 Frank is not a win-loss suite. It is an interviewer: you send won and lost buyers a link, an AI interviewer asks short open questions by voice and follows up on thin answers, and you read transcripts and themes you can check against the buyer's exact words. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card, with a 10-minute maximum interview length ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software)).
 
-MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse.
 
 How it works for win-loss:
 

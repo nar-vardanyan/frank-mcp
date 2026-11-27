@@ -93,7 +93,7 @@ If the app isn't available in your workspace, or you prefer to add the server yo
 3. Choose OAuth, then sign in to Frank in your browser and approve access. There is no API key.
 4. Install the plugin, then ask: "@Frank list my Frank studies."
 
-MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews).
+MCP is included on every Frank plan, including Free. Works with ChatGPT, Claude, Grok and Muse. See [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-for-customer-research-interviews).
 
 ## A study from ChatGPT, start to finish
 
@@ -136,7 +136,7 @@ MCP is included on every Frank plan, including Free.
 No. Frank does not recruit participants. You share the interview link with your own customers.
 
 ### Which assistants does Frank work with?
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Works with ChatGPT, Claude, Grok and Muse.
 
 ## Related
 
