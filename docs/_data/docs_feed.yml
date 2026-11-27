@@ -172,6 +172,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/
     updated: 2026-11-27T10:00:00Z
     summary: A free, MIT-licensed cancel survey widget for Stripe and Paddle cancel pages that asks why the customer is leaving and never blocks the cancel.
+  - title: How many customer interviews planner
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/
+    updated: 2026-11-27T08:30:00Z
+    summary: A free, no-login planner that gives a guidance range of customer interviews per segment for discovery, churn, Jobs to Be Done or a focused question, with the reasons and links to the published studies.
   - title: Cancellation reason sorter
     url: https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/
     updated: 2026-11-27T07:00:00Z
