@@ -172,6 +172,10 @@ entries:
     url: https://nar-vardanyan.github.io/frank-mcp/tools/churn-interview-widget/
     updated: 2026-11-27T10:00:00Z
     summary: A free, MIT-licensed cancel survey widget for Stripe and Paddle cancel pages that asks why the customer is leaving and never blocks the cancel.
+  - title: Interview consent form and recording disclosure generator
+    url: https://nar-vardanyan.github.io/frank-mcp/tools/interview-consent-form-generator/
+    updated: 2026-11-27T08:00:00Z
+    summary: A free, no-login tool that writes a plain-language interview consent form, a spoken recording disclosure and an AI interviewer notice for customer research. Template text only, not legal advice.
   - title: Cancellation reason sorter
     url: https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/
     updated: 2026-11-27T07:00:00Z
