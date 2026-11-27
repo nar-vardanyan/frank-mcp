@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: Be honest with Frank
+    url: https://nar-vardanyan.github.io/frank-mcp/be-honest-with-frank.html
+    updated: 2026-11-26T17:00:00Z
+    summary: A ten minute voice conversation. Tell Frank about a product decision you got wrong because you didn't talk to customers.
   - title: Customer interview questions for product managers
     url: https://nar-vardanyan.github.io/frank-mcp/customer-interview-questions-for-product-managers.html
     updated: 2026-11-26T16:00:00Z
