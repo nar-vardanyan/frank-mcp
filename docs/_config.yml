@@ -29,6 +29,67 @@ defaults:
       path: README.md
     values:
       description: "Frank AI Researcher docs: guides and sourced comparisons for AI-moderated voice interviews, plus how to connect the Frank MCP server at https://api.hifrank.ai/mcp."
+  # Unique descriptions for 15 pages that fell back to site.description (Bing indexing, 27 Nov 2026).
+  - scope:
+      path: ai-customer-interviews-vs-surveys.md
+    values:
+      description: "When to use AI-moderated voice interviews and when to use surveys: interviews explain why customers act, surveys measure how common it is. A side-by-side guide."
+  - scope:
+      path: best-ai-voice-survey-tools.md
+    values:
+      description: "AI voice survey tools in 2026, compared from live vendor pages: spoken-answer surveys such as Voiceform versus conversational AI interviewers such as Frank."
+  - scope:
+      path: conveo-alternatives.md
+    values:
+      description: "Conveo alternatives in 2026: six AI interview tools compared from public pages, including Frank AI Researcher, a voice-first option with a Free plan and MCP."
+  - scope:
+      path: frank-vs-listen-labs.md
+    values:
+      description: "Frank vs Listen Labs: how a voice-first AI interviewer for customers you already have compares on panels, languages, pricing and MCP. Checked 20 Nov 2026."
+  - scope:
+      path: frank-vs-outset.md
+    values:
+      description: "Frank vs Outset: Frank AI Researcher runs voice-first interviews with your own customers from a Free plan; Outset adds recruiting and custom pricing."
+  - scope:
+      path: frank-vs-strella.md
+    values:
+      description: "Frank vs Strella compared: voice-first AI interviews with your own customers and published prices, versus AI or human moderation with panel recruiting."
+  - scope:
+      path: frank-vs-usercall.md
+    values:
+      description: "Frank vs Usercall: both run AI-moderated voice interviews. Choose Usercall for a recruited panel; choose Frank for customers you already have, from a Free plan."
+  - scope:
+      path: how-to-find-out-why-customers-churn.md
+    values:
+      description: "How to find out why customers churn: interview people who cancelled recently and ask them to walk through what happened. Questions, timing and analysis steps."
+  - scope:
+      path: mcp-servers-for-user-research-compared.md
+    values:
+      description: "Public MCP servers from 11 user-research products, compared cell by cell from vendor pages and OAuth metadata, with a CSV and JSON dataset. Checked 20 Nov 2026."
+  - scope:
+      path: run-customer-interviews-from-claude.md
+    values:
+      description: "Run customer interviews from Claude: add an AI interviewer as a custom connector (remote MCP server), review the drafted study, share the link, check themes."
+  - scope:
+      path: run-post-black-friday-buyer-interviews-with-frank-via-mcp.md
+    values:
+      description: "A ready 10-minute voice interview guide for Black Friday and Cyber Monday buyers and cart abandoners, run from an MCP client with Frank AI Researcher."
+  - scope:
+      path: talk-to-100-customers-in-a-week.md
+    values:
+      description: "How to talk to 100 customers in a week: one decision, a short voice interview guide, customers you can reach, and an AI interviewer running calls in parallel."
+  - scope:
+      path: typeform-alternative-for-customer-interviews.md
+    values:
+      description: "Typeform alternatives for customer interviews: tools that ask follow-up questions, from AI-moderated voice interviews to forms that add AI follow-ups."
+  - scope:
+      path: user-feedback-without-scheduling-calls.md
+    values:
+      description: "Get interview-depth user feedback without a calendar: share an AI-moderated voice interviewer as a link or website widget so people talk when they have time."
+  - scope:
+      path: user-interviews-in-multiple-languages.md
+    values:
+      description: "How to run user interviews in multiple languages: one core guide, adapted per language with a native speaker, and an AI interviewer for multilingual calls."
   - scope:
       path: dovetail-alternatives.md
     values:
