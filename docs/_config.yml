@@ -391,3 +391,33 @@ defaults:
       seo_title: "Interview Guide for SaaS Founders (2026)"
       description: "An interview guide is a planned list of topics or questions for a research interview. A playbook for a SaaS founder, plus how to use the same guide in live calls and AI-moderated voice interviews."
       schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-churn-customer-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Churn Customer Interviews (Copy and Use)"
+      description: "12 copy-paste ChatGPT prompts for churn customer interviews: plan the study, write the guide and invite, analyze transcripts, and write the readout. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-customer-discovery-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Customer Discovery Interviews (Copy and Use)"
+      description: "12 copy-paste ChatGPT prompts for customer discovery interviews: map assumptions, write a past-behavior guide and invite, analyze transcripts, and decide what to do next. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-win-loss-customer-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Win-Loss Customer Interviews (Copy and Use)"
+      description: "12 copy-paste ChatGPT prompts for win-loss customer interviews: pick deals, write win, loss and no-decision guides and invites, analyze transcripts, and write the readout. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-product-market-fit-customer-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Product-Market Fit Customer Interviews"
+      description: "12 copy-paste ChatGPT prompts for product-market fit customer interviews: pair the Sean Ellis question with interviews, write guides and invites, compare segments, and write the readout. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true
+  - scope:
+      path: chatgpt-prompts-for-onboarding-customer-interviews.md
+    values:
+      seo_title: "ChatGPT Prompts for Onboarding Customer Interviews (Copy and Use)"
+      description: "12 copy-paste ChatGPT prompts for onboarding and activation customer interviews: define activation, write guides and invites for new users, map where people stall, and write the readout. Then run AI-moderated voice interviews with Frank in ChatGPT."
+      schema_page: true

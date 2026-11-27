@@ -63,6 +63,16 @@ New free tools: the [Mom Test question checker](tools/mom-test-checker/) flags l
 - [Churn interview questions for consumer mobile apps](churn-interview-questions-for-consumer-mobile-apps.md): The last session, uninstalls, and in-app subscription cancel.
 - [Churn interview questions for edtech](churn-interview-questions-for-edtech.md): Mid-term drop-off, school non-renewal, and classroom setup.
 
+## ChatGPT prompts for customer interviews
+
+Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and analyze transcripts. Frank AI Researcher is available as an app in ChatGPT for running the voice interviews.
+
+- [ChatGPT prompts for churn customer interviews](chatgpt-prompts-for-churn-customer-interviews.md): 12 prompts to plan a churn study, write the guide and invite, and analyze why customers cancelled.
+- [ChatGPT prompts for customer discovery interviews](chatgpt-prompts-for-customer-discovery-interviews.md): 12 prompts to map assumptions, write a past-behavior discovery guide, and test an idea against what people actually do.
+- [ChatGPT prompts for win-loss customer interviews](chatgpt-prompts-for-win-loss-customer-interviews.md): 12 prompts to pick deals, write win, loss and no-decision guides, and compare buyer stories with CRM reasons.
+- [ChatGPT prompts for product-market fit customer interviews](chatgpt-prompts-for-product-market-fit-customer-interviews.md): 12 prompts to pair the Sean Ellis question with interviews and describe the customer who already needs your product.
+- [ChatGPT prompts for onboarding customer interviews](chatgpt-prompts-for-onboarding-customer-interviews.md): 12 prompts to define activation, interview new users, and map where people stall during onboarding.
+
 ## About
 
 - [About Frank AI Researcher](about-frank-ai-researcher.md)

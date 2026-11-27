@@ -70,6 +70,14 @@ Sourced comparison of research MCP servers, checked 20 November 2026: [MCP serve
 - Mid-term drop-off, school non-renewal, and classroom setup. [Churn interview questions for edtech](https://nar-vardanyan.github.io/frank-mcp/churn-interview-questions-for-edtech.html)
 
 
+## ChatGPT prompts for customer interviews
+
+- 12 prompts to plan a churn study, write the guide and invite, and analyze why customers cancelled. [ChatGPT prompts for churn customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-churn-customer-interviews.html)
+- 12 prompts to map assumptions, write a past-behavior discovery guide, and test an idea against what people actually do. [ChatGPT prompts for customer discovery interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-customer-discovery-interviews.html)
+- 12 prompts to pick deals, write win, loss and no-decision guides, and compare buyer stories with CRM reasons. [ChatGPT prompts for win-loss customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-win-loss-customer-interviews.html)
+- 12 prompts to pair the Sean Ellis question with interviews and describe the customer who already needs your product. [ChatGPT prompts for product-market fit customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-product-market-fit-customer-interviews.html)
+- 12 prompts to define activation, interview new users, and map where people stall during onboarding. [ChatGPT prompts for onboarding customer interviews](https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-onboarding-customer-interviews.html)
+
 ## Customer research glossary
 
 - Ten interview terms, each with a short definition, examples, and common mistakes. [Customer research glossary](https://nar-vardanyan.github.io/frank-mcp/glossary/)
