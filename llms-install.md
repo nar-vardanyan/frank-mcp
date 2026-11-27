@@ -2,7 +2,7 @@
 
 Frank is a hosted remote MCP server. There is nothing to install or build, and no API key.
 
-Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In ChatGPT, install it from that listing and sign in. For other MCP clients:
+Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In ChatGPT, install it from that listing and sign in. In Muse, ask Muse to create a Custom Connector for Frank at `https://api.hifrank.ai/mcp`. If Muse asks for a client ID, paste https://api.hifrank.ai/.well-known/mcp/clients/muse.json and leave the client secret empty (Frank uses PKCE). Then complete sign-in. For other MCP clients:
 
 1. Add a remote MCP server named `frank` with URL `https://api.hifrank.ai/mcp` (Streamable HTTP).
 2. Connect. The client opens a browser for Frank sign-in (OAuth 2.1 + PKCE). Approve the permissions you want.
