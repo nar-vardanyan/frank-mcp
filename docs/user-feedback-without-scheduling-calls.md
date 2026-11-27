@@ -2,7 +2,7 @@
 
 **In short:** You can get interview-depth user feedback without a calendar by sharing an AI-moderated voice interviewer as a link or a website widget, so people talk when they have time. Surveys and in-app forms also skip scheduling, but they rarely follow up; use those when you need a comparable number, and use interviews when you need the why.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The options below are methods, not a single tool; we note where Frank is one option. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The options below are methods, not a single tool; we note where Frank is one option. Frank does not recruit participants.
 
 ## Why scheduling gets in the way
 
@@ -38,13 +38,13 @@ Good questions for an unscheduled interview look like:
 - Tell me about the first time you tried to get value from the product. Where did you get stuck?
 - Why did you choose this option, the other option, or nothing? What almost tipped it the other way?
 
-In your interview tool, create the study, add the goal and questions, and test the interviewer yourself. Then share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) by email, in-app message, or a cancellation flow, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) so people can start without leaving your site. They talk with the AI interviewer by voice when they have time. You read the transcripts and themes afterwards.
+In your interview tool, create the study, add the goal and questions, and test the interviewer yourself. Then share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) by email, in-app message, or a cancellation flow, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) so people can start without leaving your site. They talk with the AI interviewer by voice when they have time. You read the transcripts and themes afterwards.
 
 Invite your own customers: people who recently signed up, cancelled, bought, or used the feature. Frank does not recruit participants. If you have no customers to invite yet, a recruiting service or your network is a better first step.
 
 With Frank, interviews can run in parallel, because nobody has to moderate each one live. The stopping rule is still saturation, not a large round number. In Guest, Bunce and Johnson's study, saturation occurred within the first 12 interviews for a relatively homogeneous group, with the basic elements of themes present as early as 6 ([Guest, Bunce & Johnson, 2006](https://www.sfu.ca/~palys/GuestEtAl-2006-HowManyInterviewsAreEnough.pdf)).
 
-More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions). A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data).
+More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls). A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls).
 
 ## When you should still schedule a call
 
@@ -54,11 +54,11 @@ In those cases, book a live conversation. You can still use an unscheduled AI in
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a [shareable interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls), so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you want interview-depth answers from customers you can already reach, and you do not want to book a meeting for each one. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself. It is not a survey tool.
 
-- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)
 
 ## FAQ
 
@@ -81,7 +81,7 @@ No. For most product decisions, invite your own customers: people who recently s
 Keep going until new interviews stop adding themes. In one widely cited study, saturation occurred within the first 12 interviews for a relatively homogeneous group, with the basic elements of themes present as early as 6. Broader questions or mixed audiences often need more.
 
 ### Can I do this from Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=user-feedback-without-scheduling-calls). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls&utm_content=use-in-claude). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.
@@ -90,11 +90,11 @@ Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 en
 
 - [Customer interview cost calculator](tools/customer-interview-cost-calculator/): your own hours and cost, manual vs Frank
 - [How to get customer feedback](how-to-get-customer-feedback.md)
-- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
-- [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions)
-- [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data)
-- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) · [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)
+- [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)
+- [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)
+- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) · [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=user-feedback-without-scheduling-calls)
 
 ## JSON-LD (paste into the page's custom code, before </body>)
 

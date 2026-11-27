@@ -2,7 +2,7 @@
 
 **In short:** Frank AI Researcher has a free plan with 225 signup credits plus 60 voice minutes a month and interviews up to 10 minutes long, with no credit card required. Before you pick any free AI interview tool, check how many interview minutes you get, the maximum interview length, whether transcripts and analysis are included, and whether you must bring your own participants.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Plan details below were confirmed on 24 November 2026. Check the [Frank pricing page](https://www.hifrank.ai/pricing) before you sign up, because plans change. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan)**, a voice-first product that runs AI-moderated voice interviews with your own customers. Plan details below were confirmed on 24 November 2026. Check the [Frank pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan) before you sign up, because plans change. Frank does not recruit participants.
 
 ## What a free plan should let you do
 
@@ -24,7 +24,7 @@ A small study is enough to judge. For a fairly similar group and a focused quest
 | Agent access (MCP) | Lets you run research from your AI assistant | MCP included on every plan, including Free |
 | Rollover | Unused minutes may disappear | Free resets monthly |
 
-Source for the Frank column: [hifrank.ai/pricing](https://www.hifrank.ai/pricing).
+Source for the Frank column: [hifrank.ai/pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan).
 
 ## How far 60 minutes goes
 
@@ -39,13 +39,13 @@ It is not enough for a full multi-segment study. Plan the free month as a pilot,
 
 ## Writing a guide that fits 10 minutes
 
-Ten minutes is about 4 to 6 open questions with follow-ups. Cut anything you already know or could get from analytics. Ask about recent, specific events ("Tell me about the last time you…") rather than opinions about the future. Open questions let people answer in their own words ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). AI interviewers follow the script and probe when an answer is short or unclear, or when you told them to ([Nielsen Norman Group, AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)), so a tight guide gets better answers. More help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions).
+Ten minutes is about 4 to 6 open questions with follow-ups. Cut anything you already know or could get from analytics. Ask about recent, specific events ("Tell me about the last time you…") rather than opinions about the future. Open questions let people answer in their own words ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). AI interviewers follow the script and probe when an answer is short or unclear, or when you told them to ([Nielsen Norman Group, AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)), so a tight guide gets better answers. More help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan).
 
 ## Step by step: a free pilot in one week
 
 1. **Pick one decision.** For example, why trial users don't upgrade, or why people cancel in the first month.
 2. **Write 4 to 6 questions** that fit in 10 minutes. Take the interview yourself first.
-3. **Invite 6 to 10 customers you already reach**, expecting some not to finish. Share the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) by email or in-app message, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site).
+3. **Invite 6 to 10 customers you already reach**, expecting some not to finish. Share the [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan) by email or in-app message, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan).
 4. **Read every transcript.** On a pilot, read them all, not just the themes.
 5. **Decide.** If the conversations were useful, plan a larger study. If not, note why: the guide, the audience or the method.
 
@@ -58,7 +58,7 @@ Upgrade when you need longer interviews, more minutes, or rollover. On the live 
 - **Business:** $312/month billed yearly ($3,750/year) or $375 monthly; 950 voice minutes; 30-minute max.
 - **Enterprise:** custom.
 
-There is no free trial on paid plans; the Free plan is the way to try Frank. You can cancel a paid plan anytime: it stays active until the end of the period you've paid for, with no refund for the unused time ([pricing](https://www.hifrank.ai/pricing), [pricing and billing reference](https://nar-vardanyan.github.io/frank-mcp/llms-full.txt)).
+There is no free trial on paid plans; the Free plan is the way to try Frank. You can cancel a paid plan anytime: it stays active until the end of the period you've paid for, with no refund for the unused time ([pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan), [pricing and billing reference](https://nar-vardanyan.github.io/frank-mcp/llms-full.txt)).
 
 ## When a free AI interview tool is a poor fit
 
@@ -66,9 +66,9 @@ If you have no customers to invite, the bottleneck is recruiting, not tooling; F
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a link or website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews; how many interviews you can run depends on your plan's minutes. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a link or website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews; how many interviews you can run depends on your plan's minutes. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-**[Start free at hifrank.ai](https://www.hifrank.ai)**, no credit card required · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+**[Start free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan)**, no credit card required · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan)
 
 ## FAQ
 
@@ -95,5 +95,5 @@ No. Paid plans don't have a free trial. The Free plan is the way to try Frank: 2
 - [Customer interview cost calculator](tools/customer-interview-cost-calculator/): your own hours and cost, manual vs Frank
 - [How to automate customer interviews with AI](https://nar-vardanyan.github.io/frank-mcp/how-to-automate-customer-interviews-with-ai.html)
 - [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html)
-- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interview-tool-free-plan)

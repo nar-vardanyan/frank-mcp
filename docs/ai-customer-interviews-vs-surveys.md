@@ -2,7 +2,7 @@
 
 **In short:** Use AI-moderated voice interviews when you need to understand why customers did something. Use surveys when you need a comparable number from a larger group, such as how many people feel a certain way. The two methods answer different questions, and they work well together: interviews surface the reasons, surveys tell you how common those reasons are.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page is about choosing a method, not about a single tool.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page is about choosing a method, not about a single tool.
 
 ## Interviews vs surveys, at a glance
 
@@ -43,11 +43,11 @@ Good interview questions look like:
 - Tell me about the first time you tried to get value from the product. Where did you get stuck?
 - Why did you choose this option, the other option, or nothing? What almost tipped it the other way?
 
-A live 1:1 interview is still the right choice when you need a relationship conversation or a shared screen. An AI-moderated voice interview is a better fit when you want that same kind of "why" conversation from many of your own customers, and you cannot schedule a call with each of them. Participants open a [link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), talk when they have time, and the AI interviewer asks follow-ups. You read the transcripts and themes afterwards.
+A live 1:1 interview is still the right choice when you need a relationship conversation or a shared screen. An AI-moderated voice interview is a better fit when you want that same kind of "why" conversation from many of your own customers, and you cannot schedule a call with each of them. Participants open a [link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys), talk when they have time, and the AI interviewer asks follow-ups. You read the transcripts and themes afterwards.
 
 That is the main shift AI interviews introduce: the method is still an interview, so the sample-size logic is still saturation, not a percentage. What changes is the cost of running enough conversations to reach that point. With Frank, interviews can run in parallel, because nobody has to moderate each one live.
 
-For the setup steps, see [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md). For specific decisions, see [churn](https://www.hifrank.ai/use-case/ai-churn-interviews), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery).
+For the setup steps, see [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md). For specific decisions, see [churn](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys).
 
 ## When to use both
 
@@ -73,12 +73,12 @@ If you cannot say how a finding would change a decision, tighten the question be
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. It is a way to get interview-depth answers without scheduling each call, not a survey tool. Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). [MCP](https://www.hifrank.ai/mcp) is included on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth, if you want to read transcripts from an AI assistant.
+Frank runs AI-moderated voice interviews with your own customers. It is a way to get interview-depth answers without scheduling each call, not a survey tool. Participants join from a shareable link or a website widget. Every interview is transcribed, and answers are grouped into themes you can check against the original conversation. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys). [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys) is included on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth, if you want to read transcripts from an AI assistant.
 
 Use Frank when the decision needs "why" from customers you can already invite. Use a survey (or analytics) when the decision needs a comparable number. Use both when you need the reason and the scale.
 
 - [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys)
 
 ## FAQ
 
@@ -108,7 +108,7 @@ An exit survey is useful for tallying a category, such as "price" or "missing fe
 - [How to get customer feedback](how-to-get-customer-feedback.md)
 - Also in this folder: [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md) · [Frank vs Outset](frank-vs-outset.md) · [Frank vs Listen Labs](frank-vs-listen-labs.md) · [Frank vs Strella](frank-vs-strella.md) · [Frank vs Usercall](frank-vs-usercall.md) · [Best AI user-interview tools 2026](best-ai-user-interview-tools-2026.md)
 - [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.md)
-- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
-- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews)
-- [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys)
+- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys)
+- [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-customer-interviews-vs-surveys)

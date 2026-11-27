@@ -2,7 +2,7 @@
 
 **In short:** For most startups, the best customer interview tool is one you can start free, point at the users you already have, and get readable transcripts from within days. Frank fits AI-moderated voice interviews on a free plan. Usercall, User Intuition, Koji and Raconte also publish self-serve prices. Great Question fits teams that mostly run live interviews.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with other self-serve interview tools, using each company's live public pages, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with other self-serve interview tools, using each company's live public pages, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## What startups actually need from an interview tool
 
@@ -20,7 +20,7 @@ You also don't need hundreds of interviews to learn something. For a fairly simi
 
 | Tool | How interviews run | Recruiting | Starting price (19 Nov 2026) |
 |---|---|---|---|
-| **Frank** | AI-moderated voice interviews from a link or widget; multilingual interviews ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; you invite your own customers | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card. Starter $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews from a link or widget; multilingual interviews ([hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)) | Does not recruit; you invite your own customers | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card. Starter $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)) |
 | **Usercall** | AI voice interviews; 50+ languages ([Pricing](https://www.usercall.co/pricing)) | Can recruit for you, or bring your own ([Recruit](https://www.usercall.co/recruit-participants)) | First interview free; Lite $89/month or $899/year, interviews up to 12 minutes ([Pricing](https://www.usercall.co/pricing)) |
 | **User Intuition** | AI-moderated interviews via chat, audio or video ([Pricing](https://www.userintuition.ai/pricing/)) | Your own customers at no extra cost, or a 4M+ vetted panel billed separately ([Pricing](https://www.userintuition.ai/pricing/)) | 3 free quality interviews; then $30 per quality voice interview with your sample, $0/month ([Pricing](https://www.userintuition.ai/pricing/)) |
 | **Koji** | AI interviews by voice, chat or phone; 30+ languages ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | €79/month for 79 credits; a voice interview uses 3 credits ([Koji blog](https://www.koji.so/blog/conveo-alternatives-2026)) |
@@ -33,9 +33,9 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: best for voice interviews with your own users on a free plan
 
-Frank runs AI-moderated voice interviews with your own customers. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in an onboarding email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site), and users talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank runs AI-moderated voice interviews with your own customers. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups) in an onboarding email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups), and users talk with the AI interviewer when they have time. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. It is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups).
 
-The Free plan includes 225 signup credits plus 60 voice minutes a month, interviews up to 10 minutes, sentiment and thematic analysis, and unlimited anonymous viewers, with no credit card. Paid plans have no free trial, and you can cancel anytime; a paid plan runs to the end of the period you've paid for, with no refund for the unused time ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+The Free plan includes 225 signup credits plus 60 voice minutes a month, interviews up to 10 minutes, sentiment and thematic analysis, and unlimited anonymous viewers, with no credit card. Paid plans have no free trial, and you can cancel anytime; a paid plan runs to the end of the period you've paid for, with no refund for the unused time ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **Weaker fit:** you have no users yet (Frank does not recruit participants), or you need on-screen tasks.
 
@@ -74,7 +74,7 @@ Nielsen Norman Group found AI interviewers work best as a complement to human mo
 
 ## When Frank is a fit
 
-Frank fits startups that already have users, want to hear from them by voice without scheduling calls, and want to start free. **[Start free at hifrank.ai](https://www.hifrank.ai)** · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+Frank fits startups that already have users, want to hear from them by voice without scheduling calls, and want to start free. **[Start free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)
 
 ## FAQ
 
@@ -98,4 +98,4 @@ With Frank, yes. MCP is included on every plan, including Free. Works with ChatG
 - [AI customer interview tool with a free plan](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-tool-free-plan.html)
 - [How to talk to 100 customers in a week](https://nar-vardanyan.github.io/frank-mcp/talk-to-100-customers-in-a-week.html)
 - [Best AI user-interview tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-user-interview-tools-2026.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-customer-interview-tools-for-startups)

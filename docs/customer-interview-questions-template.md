@@ -83,7 +83,7 @@ If you work in Claude or ChatGPT, connect Frank as an MCP server and paste a pro
 
 > Use Frank to create a draft study, and do not publish it. Use this interview guide: [paste the questions]. Keep the interview under 10 minutes. Show me the questions first. I will share the interviewer link with customers I already have. Frank does not recruit participants.
 
-Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Server URL: `https://api.hifrank.ai/mcp`. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=customer-interview-questions-template). Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template).
+Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Server URL: `https://api.hifrank.ai/mcp`. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template&utm_content=use-in-claude). Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=customer-interview-questions-template).
 
 ## When Frank is a fit
 

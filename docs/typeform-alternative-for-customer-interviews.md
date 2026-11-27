@@ -2,7 +2,7 @@
 
 **In short:** If you use Typeform for customer feedback but need real interviews, choose a tool that asks follow-up questions instead of only collecting form answers. Frank runs AI-moderated voice interviews with your own customers on a free plan. Koji, TheySaid and Voiceform mix forms with AI follow-ups. Typeform's own Research Flow adds AI-moderated studies, sold by demo.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with Typeform and other tools, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares Frank with Typeform and other tools, using each company's live public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Why a form isn't an interview
 
@@ -16,7 +16,7 @@ Typeform knows this: it now offers **Research Flow**, which it describes as an e
 
 | Tool | How it collects feedback | Participants | Starting price (19 Nov 2026) |
 |---|---|---|---|
-| **Frank** | AI-moderated voice interviews with follow-ups; multilingual interviews ([hifrank.ai](https://www.hifrank.ai)) | Does not recruit; your own customers via link or widget | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | AI-moderated voice interviews with follow-ups; multilingual interviews ([hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews)) | Does not recruit; your own customers via link or widget | Free: 225 signup credits plus 60 voice minutes/month, 10-minute max, no credit card; paid from $49/month billed yearly or $59 monthly ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews)) |
 | **Typeform Research Flow** | Structured questions plus AI-moderated conversations ([Research Flow](https://www.typeform.com/research-flow)) | Verified panel or your own audience ([Research Flow](https://www.typeform.com/research-flow)) | Demo; price not shown |
 | **Koji** | AI-moderated voice and chat interviews, plus phone; "Convert any survey in a click" ([koji.so](https://www.koji.so/)) | Self-recruit or panel ([koji.so](https://www.koji.so/)) | €79/month for 79 credits; 3 credits per voice interview ([Koji blog](https://www.koji.so/blog/conveo-alternatives-2026)) |
 | **TheySaid** | AI interviews, surveys, forms and polls; voice conversations; 70+ languages ([theysaid.io](https://theysaid.io/)) | Your own users at no cost, or TheySaid's panel ([Pricing](https://www.theysaid.io/pricing)) | Free plan: 5 AI user tests/month; Enterprise custom ([Pricing](https://www.theysaid.io/pricing)) |
@@ -28,7 +28,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 ### 1. Frank: voice interviews instead of a form
 
-Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security).
+Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -63,7 +63,7 @@ If you need to know how many customers feel a certain way, a form or survey is t
 
 ## When Frank is a fit
 
-Frank fits when your Typeform gets one-line answers and you want the story behind them, by voice, from customers you already have. **[Try Frank free at hifrank.ai](https://www.hifrank.ai)** · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+Frank fits when your Typeform gets one-line answers and you want the story behind them, by voice, from customers you already have. **[Try Frank free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews)
 
 ## FAQ
 
@@ -87,4 +87,4 @@ Frank is voice-first: it runs AI-moderated voice interviews.
 - [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html)
 - [Best AI voice survey tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-ai-voice-survey-tools.html)
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews)

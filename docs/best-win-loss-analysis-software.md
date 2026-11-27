@@ -2,7 +2,7 @@
 
 **In short:** Win-loss software falls into three groups: buyer-interview platforms (Clozd, Klue Win-Loss) that ask buyers why they decided, call and CRM analytics (Gong, Sybill) that mine what was said, and competitive suites. Frank adds a fourth, lighter option: AI-moderated voice interviews with won and lost buyers you invite yourself, starting free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares win-loss options using each company's public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page compares win-loss options using each company's public pages and structured data, opened on 19 November 2026. It is not a paid ranking or a complete catalog. Prices change, so check each site before you buy. Frank does not recruit participants.
 
 ## Start with where the reasons come from
 
@@ -14,7 +14,7 @@ So the first decision is which evidence you need, not which logo to buy.
 
 | Option | Best for | Evidence it gives you | How buyers are reached | Public price (19 Nov 2026) |
 |---|---|---|---|---|
-| **Frank** | Won and lost buyers you can invite yourself, starting free | AI-moderated voice interviews, transcripts and themes | You invite won and lost buyers by link; Frank does not recruit | Free: 225 signup credits plus 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing)) |
+| **Frank** | Won and lost buyers you can invite yourself, starting free | AI-moderated voice interviews, transcripts and themes | You invite won and lost buyers by link; Frank does not recruit | Free: 225 signup credits plus 60 voice minutes/month, no credit card ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software)) |
 | **Clozd** | Live and AI buyer interviews from one vendor | Live interviews and AI interviews ([clozd.com](https://www.clozd.com/)) | Live or AI interviews; "Book a demo" ([clozd.com](https://www.clozd.com/)) | No price on the homepage; clozd.com/pricing returns 404 (19 Nov) |
 | **Klue Win-Loss** | Human expert interviews plus AI, with competitive intelligence | Human expert interviews by Klue's analyst team, plus an AI Interviewer for short voice conversations with buyers and sellers ([Klue](https://klue.com/win-loss)) | Klue's analyst team or its AI Interviewer; "Get a demo" ([Klue](https://klue.com/win-loss)) | "Get a demo" on the pricing page ([Klue](https://klue.com/pricing)) |
 | **Gong** | Patterns across recorded calls, with no extra outreach | Call and deal analytics (sorted by Sybill as conversation-based, [Sybill](https://www.sybill.ai/blogs/best-win-loss-analysis-software)) | No outreach; uses recorded calls | Licenses priced per user plus a platform fee ([Gong](https://www.gong.io/pricing)) |
@@ -40,7 +40,7 @@ Gong and Sybill analyze what was said on recorded calls across deals ([Sybill's 
 
 ## Where Frank fits
 
-Frank is not a win-loss suite. It is an interviewer: you send won and lost buyers a link, an AI interviewer asks short open questions by voice and follows up on thin answers, and you read transcripts and themes you can check against the buyer's exact words. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card, with a 10-minute maximum interview length ([Pricing](https://www.hifrank.ai/pricing)).
+Frank is not a win-loss suite. It is an interviewer: you send won and lost buyers a link, an AI interviewer asks short open questions by voice and follows up on thin answers, and you read transcripts and themes you can check against the buyer's exact words. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software). The Free plan includes 225 signup credits plus 60 voice minutes a month with no credit card, with a 10-minute maximum interview length ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software)).
 
 MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
@@ -50,7 +50,7 @@ How it works for win-loss:
 2. **Send the link a few days after the deal closes**, from someone who isn't the account owner, so buyers feel free to be blunt.
 3. **Read transcripts, then themes**, and tag each by stage: need, shortlist, evaluation, price, procurement.
 
-Frank is a weaker fit if you need a vendor to recruit unresponsive buyers, a neutral third party to run the interviews, or CRM and call analytics. Because buyers can be less candid with the vendor they declined, a link from you may get shorter answers than a neutral third party would. More on the use case: [Frank for win-loss analysis](https://www.hifrank.ai/use-case/win-loss-analysis).
+Frank is a weaker fit if you need a vendor to recruit unresponsive buyers, a neutral third party to run the interviews, or CRM and call analytics. Because buyers can be less candid with the vendor they declined, a link from you may get shorter answers than a neutral third party would. More on the use case: [Frank for win-loss analysis](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software).
 
 ## How many buyers do you need?
 
@@ -92,4 +92,4 @@ Yes, in a limited way. Clozd and Klue both offer AI interviews, and Frank runs A
 - [Best customer feedback tools in 2026](https://nar-vardanyan.github.io/frank-mcp/best-customer-feedback-tools.html)
 - [Dovetail alternatives in 2026](https://nar-vardanyan.github.io/frank-mcp/dovetail-alternatives.html)
 - [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-win-loss-analysis-software)

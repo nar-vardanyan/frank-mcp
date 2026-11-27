@@ -2,7 +2,7 @@
 
 **In short:** To find out why customers churn, talk to people who cancelled recently, ideally within days, and ask them to walk through what happened: the moment they started doubting the product, what they tried, and what they switched to. A cancellation survey tells you the category; a short voice interview tells you the story behind it.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The method below works with live calls or any AI interviewer; we note where Frank is one option. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The method below works with live calls or any AI interviewer; we note where Frank is one option. Frank does not recruit participants.
 
 ## Why cancellation surveys are not enough
 
@@ -39,7 +39,7 @@ Ask about recent, specific events. A starting set:
 6. If you could change one thing about the product, what would it be?
 7. Is there anything that would have changed your mind? When?
 
-Avoid "Why did you leave?" as the first question; it invites a short, polite answer. Avoid defending the product or pitching a fix during the interview. More examples: [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) and [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions).
+Avoid "Why did you leave?" as the first question; it invites a short, polite answer. Avoid defending the product or pitching a fix during the interview. More examples: [churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn) and [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn).
 
 ### 3. Ask soon after cancellation
 
@@ -74,9 +74,9 @@ If very few customers cancel, call them yourself. If the churn question needs de
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. You can put an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) in a cancellation email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. You can put an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn) in a cancellation email or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn) on a cancellation page, so people talk when it suits them. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-**[Start a churn study free at hifrank.ai](https://www.hifrank.ai)** · [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) · [Pricing](https://www.hifrank.ai/pricing)
+**[Start a churn study free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)** · [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)
 
 ## FAQ
 
@@ -96,13 +96,13 @@ Fewer will book a call than will answer a short interview at a time they choose.
 No. Frank does not recruit participants. You invite your own cancelled customers from your product or email list.
 
 ### Can I analyze churn interviews in Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on every plan, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-find-out-why-customers-churn). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Check any summary against the original quotes before you act.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn) on every plan, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn&utm_content=use-in-claude). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. Check any summary against the original quotes before you act.
 
 ## Related
 
 - [How to run customer interviews](how-to-run-customer-interviews.md)
-- [Churn interviews with Frank](https://www.hifrank.ai/use-case/ai-churn-interviews)
+- [Churn interviews with Frank](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
 - [AI customer interviews vs surveys](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interviews-vs-surveys.html)
-- [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)

@@ -2,7 +2,7 @@
 
 **In short:** You interview customers at scale by letting an AI interviewer run consistent voice conversations in parallel, so you are not scheduling and moderating each call yourself. You still set the questions, invite people you can already reach, and read the transcripts and themes; a larger volume is not a substitute for a clear decision or for checking the quotes.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The method below works with any AI interviewer that can share a link; we note where Frank is one option. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The method below works with any AI interviewer that can share a link; we note where Frank is one option. Frank does not recruit participants.
 
 ## What "at scale" should mean
 
@@ -40,7 +40,7 @@ Write one sentence: we will interview [who] to decide [what]. Good scale questio
 
 Aim for about 6 to 8 open questions about recent behavior, each with a follow-up you would ask if the first answer is thin. Ask "Tell me about the last time you…" rather than "Would you use…?". Keep a core set of questions the same so answers can be compared. Nielsen Norman Group notes that AI interviewers stick to the script and probe when an answer is short or unclear, or when you told them to, so a clear guide matters more than it does in a loose human interview ([AI-Moderated Interviews](https://www.nngroup.com/articles/ai-interviewers/)).
 
-More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions), plus guides for [churn](https://www.hifrank.ai/use-case/ai-churn-interviews), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery).
+More question help: [how to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale), plus guides for [churn](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale), [win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale), and [product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale).
 
 ### 3. Invite customers you already have
 
@@ -48,7 +48,7 @@ The AI interviewer does not find people for you. Invite people who recently sign
 
 ### 4. Share a link or widget, and let interviews run in parallel
 
-In your interview tool, create the study, add the goal and questions, and test the interviewer yourself before you share it. Then share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) by email, in-app message, or a cancellation flow, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) so people can start without leaving your site.
+In your interview tool, create the study, add the goal and questions, and test the interviewer yourself before you share it. Then share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) by email, in-app message, or a cancellation flow, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) so people can start without leaving your site.
 
 Participants join when they have time and talk with the AI interviewer by voice. Because nobody has to be on a call with each person, interviews can run at the same time.
 
@@ -56,15 +56,15 @@ Participants join when they have time and talk with the AI interviewer by voice.
 
 As interviews complete, open the transcripts and the themes. Check that each theme you will act on is backed by an exact quote, and open a few full transcripts to confirm the quote is in context. Write a short readout: what you heard, how often, what you will do, and what you will not. Stop when new interviews stop adding themes, or tighten the question and run another short round. A larger count is not a finish line.
 
-A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data). A practical planning range is in [how many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need).
+A longer method for the analysis step: [how to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale). A practical planning range is in [how many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale).
 
 ## When Frank is a fit
 
-Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable interviewer link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Frank runs AI-moderated voice interviews with your own customers. Participants join from a shareable interviewer link or a website widget, so nobody schedules a call. Every interview gets a transcript, and answers are grouped into themes you can check against the original conversation. It states multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale). MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Frank fits when you want many consistent voice conversations with customers you can already reach. It is a weaker fit if you need a recruited panel, a live screen-share, or a relationship conversation you should hold yourself.
 
-- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer) · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [AI voice interviewer](https://www.hifrank.ai/ai-voice-interviewer?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)
 
 ## FAQ
 
@@ -84,7 +84,7 @@ Only if you do not already have people to invite. Frank does not recruit partici
 No. Interviews answer why; surveys answer how many. Nielsen Norman Group places surveys as a quantitative, attitudinal method, and AI-moderated interviews as a way to collect structured qualitative input. Use both when you need the reason and the scale.
 
 ### Can I set this up from Claude or ChatGPT?
-Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=claude-cta&utm_medium=docs&utm_campaign=use-in-claude&utm_content=how-to-interview-customers-at-scale). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
+Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) on all plans, including Free. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale&utm_content=use-in-claude). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. New research is created as a draft and is not published to participants until you approve it.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 encryption at rest and TLS 1.2+ in transit, with access controls you manage. You still choose who on your team can see the data.
@@ -93,11 +93,11 @@ Frank is SOC 2 and GDPR compliant. The live security page also states AES-256 en
 
 - [Customer interview cost calculator](tools/customer-interview-cost-calculator/): your own hours and cost, manual vs Frank
 - [How to run customer interviews](how-to-run-customer-interviews.md)
-- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need)
-- [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions)
-- [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data)
-- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews) · [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [How many customer interviews do you need](https://www.hifrank.ai/blog/how-many-customer-interviews-do-you-need?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)
+- [How to ask better customer interview questions](https://www.hifrank.ai/blog/how-to-ask-better-customer-interview-questions?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)
+- [How to analyze conversational data](https://www.hifrank.ai/blog/how-to-analyze-conversational-data?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)
+- [Churn interviews](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) · [Win-loss](https://www.hifrank.ai/use-case/win-loss-analysis?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) · [Product discovery](https://www.hifrank.ai/use-case/ai-product-discovery?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-interview-customers-at-scale)
 
 ## JSON-LD (paste into the page's custom code, before </body>)
 

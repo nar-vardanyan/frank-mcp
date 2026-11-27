@@ -2,7 +2,7 @@
 
 **In short:** An AI tool that interviews customers for you runs the conversation itself: it asks your questions, follows up, and returns a transcript and summary. Frank AI Researcher does this by voice. You send a link to people you already have; an AI moderator asks follow-ups and returns a transcript and summary. You can also connect Frank as an MCP server. The Free plan includes 225 signup credits plus 60 voice minutes per month; Starter is $49/month billed yearly. MCP is on every plan, including Free.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page explains what that job covers, how to pick a tool, and where Frank fits. Frank does not recruit participants.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you)**, a voice-first product that runs AI-moderated voice interviews with your own customers. This page explains what that job covers, how to pick a tool, and where Frank fits. Frank does not recruit participants.
 
 ## What "interviews customers for you" can cover
 
@@ -20,7 +20,7 @@ Nielsen Norman Group describes AI-moderated interviews as a way to collect struc
 
 ### If you already have customers to talk to
 
-You don't need to pay for recruiting. A link-based tool lets you put the interview in an onboarding email, a cancellation flow or an in-app message. Frank is built for this: customers join from an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site) and talk by voice whenever they have time. For more on [whether people talk to an AI interviewer](https://www.hifrank.ai/blog/do-people-talk-to-ai), see Frank's write-up.
+You don't need to pay for recruiting. A link-based tool lets you put the interview in an onboarding email, a cancellation flow or an in-app message. Frank is built for this: customers join from an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you) or [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you) and talk by voice whenever they have time. For more on [whether people talk to an AI interviewer](https://www.hifrank.ai/blog/do-people-talk-to-ai?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you), see Frank's write-up.
 
 ### If you need people you can't reach yourself
 
@@ -41,18 +41,18 @@ Look for design and reporting as well as moderation. With Frank, you can work fr
 ## A simple first study
 
 1. Write one sentence: we will interview [who] to decide [what].
-2. Draft 6 to 8 open questions about recent behavior, with a follow-up for each ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). Example questions by stage are in [what to ask customers at each lifecycle stage](https://www.hifrank.ai/blog/questions-to-ask-customers-at-each-lifecycle-stage).
+2. Draft 6 to 8 open questions about recent behavior, with a follow-up for each ([Nielsen Norman Group, Open-Ended vs. Closed Questions](https://www.nngroup.com/articles/open-ended-questions/)). Example questions by stage are in [what to ask customers at each lifecycle stage](https://www.hifrank.ai/blog/questions-to-ask-customers-at-each-lifecycle-stage?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you).
 3. Take the interview yourself and fix what sounds off.
 4. Invite people who just did the thing you're studying: signed up, cancelled, bought.
 5. Read transcripts as they arrive; stop when new ones add no new themes. For a fairly similar group, that is often within about a dozen ([Guest, Bunce & Johnson, 2006](https://www.sfu.ca/~palys/GuestEtAl-2006-HowManyInterviewsAreEnough.pdf)).
 
 ## When Frank is a fit
 
-Frank is voice-first: AI-moderated voice interviews with your own customers. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security). The Free plan includes 225 signup credits plus 60 voice minutes a month and no credit card; Starter is $49 a month when billed yearly ([Pricing](https://www.hifrank.ai/pricing)). MCP is included on every plan, including Free. It is a weaker fit if you need recruiting or on-screen tasks.
+Frank is voice-first: AI-moderated voice interviews with your own customers. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you). The Free plan includes 225 signup credits plus 60 voice minutes a month and no credit card; Starter is $49 a month when billed yearly ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you)). MCP is included on every plan, including Free. It is a weaker fit if you need recruiting or on-screen tasks.
 
-If you are [comparing AI interview platforms](https://www.hifrank.ai/blog/listen-labs-alternatives), start with whether you already have customers to invite and whether the tool interviews by voice.
+If you are [comparing AI interview platforms](https://www.hifrank.ai/blog/listen-labs-alternatives?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you), start with whether you already have customers to invite and whether the tool interviews by voice.
 
-**[Let Frank run your next interviews, free at hifrank.ai](https://www.hifrank.ai)** · [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+**[Let Frank run your next interviews, free at hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you)** · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you)
 
 ## FAQ
 
@@ -88,4 +88,4 @@ No. Frank is voice-first. It runs voice interviews, not video, WhatsApp, or chat
 - [AI moderated interviews: when to use them](https://nar-vardanyan.github.io/frank-mcp/ai-moderated-interviews.html)
 - [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html)
 - [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
-- [Pricing](https://www.hifrank.ai/pricing) · [MCP](https://www.hifrank.ai/mcp)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you) · [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-tools-that-interview-customers-for-you)
