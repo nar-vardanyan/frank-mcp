@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.hifrank/frank",
   "title": "Frank AI Researcher",
-  "description": "Frank AI Researcher (hifrank.ai): AI-moderated voice interviews with your own customers.",
-  "version": "1.1.1",
+  "description": "Frank AI Researcher: AI-moderated voice interviews with your own customers. Available in ChatGPT.",
+  "version": "1.1.2",
   "websiteUrl": "https://www.hifrank.ai",
   "repository": {
     "url": "https://github.com/nar-vardanyan/frank-mcp",
