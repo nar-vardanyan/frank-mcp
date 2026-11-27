@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Is there a ChatGPT app for customer interviews?"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html
+    updated: 2026-11-27T17:30:00Z
+    summary: "A direct answer: Frank AI Researcher is available as an app in ChatGPT. How to install it, what you can do from chat, example prompts, and what it does not do."
   - title: ChatGPT prompts for B2B SaaS user research interviews
     url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-prompts-for-b2b-saas-user-research-interviews.html
     updated: 2026-11-27T16:00:00Z
