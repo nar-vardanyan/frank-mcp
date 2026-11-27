@@ -136,6 +136,8 @@
   .btn-chatgpt { background:#fff; color:var(--accent); border:1px solid var(--accent); white-space:normal; max-width:100%; box-sizing:border-box; }
   .btn-chatgpt:hover { background:#f6f8fa; }
   .cta-signup { display:inline-block; margin:10px 0 0; }
+  /* embed-section */ .embed-code { background:var(--soft); border:1px solid var(--line); border-radius:6px; padding:10px 12px; margin:6px 0 8px; overflow-x:auto; white-space:pre-wrap; word-break:break-all; font-size:13px; line-height:1.5; }
+  .embed-copy { font-size:14px; padding:8px 14px; }
 </style>
 </head>
 <body>
@@ -276,6 +278,20 @@
     <p>No. Frank does not recruit participants. You invite customers you already have, such as recent signups or churned accounts.</p>
     <h3>Can I set up the interview from an AI assistant?</h3>
     <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <!-- embed-section -->
+    <div class="embed-section">
+    <h2 id="embed">Embed this on your site</h2>
+    <p>Add this question generator to a blog post, Notion page or Webflow site for free. It runs in your visitors' browsers, nothing they type is sent anywhere, and it sets no cookies. It shows a small "Powered by Frank" link.</p>
+    <h3>Script tag (WordPress, Webflow, Ghost, Blogger)</h3>
+    <p>Paste this where you want the tool to appear. In Webflow, use an Embed element; in WordPress, a Custom HTML block.</p>
+    <pre class="embed-code"><code id="embed-script">&lt;script src="https://nar-vardanyan.github.io/frank-mcp/embed/frank-jtbd-interview-question-generator.js" defer&gt;&lt;/script&gt;</code></pre>
+    <div class="actions js-only"><button class="btn btn-ghost embed-copy" type="button" data-copy="embed-script">Copy script tag</button><span class="status" id="embed-script-st" role="status" aria-live="polite"></span></div>
+    <h3>Iframe (Notion and site builders that block scripts)</h3>
+    <p>In Notion, type /embed and paste <code>https://nar-vardanyan.github.io/frank-mcp/embed/iframe/jtbd-interview-question-generator.html</code>. Elsewhere, paste this:</p>
+    <pre class="embed-code"><code id="embed-iframe">&lt;iframe src="https://nar-vardanyan.github.io/frank-mcp/embed/iframe/jtbd-interview-question-generator.html" title="JTBD switch interview question generator by Frank AI Researcher" width="100%" height="2400" style="border:0;max-width:780px;width:100%;" loading="lazy"&gt;&lt;/iframe&gt;</code></pre>
+    <div class="actions js-only"><button class="btn btn-ghost embed-copy" type="button" data-copy="embed-iframe">Copy iframe</button><span class="status" id="embed-iframe-st" role="status" aria-live="polite"></span></div>
+    </div>
 
     <h2>Related tools and guides</h2>
     <ul>
@@ -485,6 +501,22 @@ var JTBD = (function () {
   if (P.other) $("other").value = P.other;
   if (P.who) $("who").value = P.who;
   render();
+})();
+</script>
+<script>
+/* embed-section: copy buttons */
+(function () {
+  var btns = document.querySelectorAll(".embed-copy");
+  for (var i = 0; i < btns.length; i++) btns[i].addEventListener("click", function () {
+    var b = this, code = document.getElementById(b.getAttribute("data-copy")), text = code.textContent, st = document.getElementById(b.getAttribute("data-copy") + "-st");
+    function ok() { st.textContent = "Copied"; }
+    function fallback() {
+      var r = document.createRange(); r.selectNodeContents(code);
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      try { document.execCommand("copy") ? ok() : (st.textContent = "Selected: press Ctrl+C or Cmd+C"); } catch (e) { st.textContent = "Selected: press Ctrl+C or Cmd+C"; }
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  });
 })();
 </script>
 </body>

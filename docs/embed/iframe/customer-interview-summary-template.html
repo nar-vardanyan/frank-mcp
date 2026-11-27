@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>Customer interview summary template by Frank AI Researcher</title>
+<style>html,body{margin:0;padding:0;background:transparent;}body{padding:8px;}</style>
+</head>
+<body>
+<div data-frank-embed="customer-interview-summary-template"></div>
+<script>
+/*! Frank AI Researcher embed: Customer interview summary template v0.1.0 | MIT, Prelaunch Group, Inc. | no tracking, no network calls */
+(function () {
+"use strict";
+if (typeof window === "undefined") return;
+// Shared embed shell. Concatenated into each build by scripts/build.mjs.
+// No network calls, no cookies, no storage, no analytics. The only outbound thing is a plain link to hifrank.ai.
+var FE_VERSION = "0.1.0";
+var FE_HOME = "https://hifrank.ai/";
+var FE_SCRIPT = (typeof document !== "undefined" && document.currentScript) || null;
+
+function feEsc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+// utm_source defaults to "embed". The embedding site may set data-frank-source="myblog" to name itself.
+// Only [a-z0-9._-] are kept, max 60 chars. Nothing is read from the host page automatically.
+function feSource(v) { v = String(v || "").toLowerCase().replace(/[^a-z0-9._-]/g, "").slice(0, 60); return v || "embed"; }
+function feLink(slug, source) {
+  return FE_HOME + "?utm_source=" + feSource(source) + "&utm_medium=embed&utm_campaign=" + slug + "-embed";
+}
+
+function feOpt(el, name) {
+  var v = el.getAttribute("data-frank-" + name);
+  if (v == null && FE_SCRIPT) v = FE_SCRIPT.getAttribute("data-frank-" + name);
+  return v;
+}
+
+var FE_CSS = [
+  ":host{all:initial;display:block;}",
+  ".fe{--ink:#1f2328;--muted:#59636e;--line:#d1d9e0;--soft:#f6f8fa;--bg:#fff;--accent:#0b6e4f;--accent-dark:#085a40;--tag:#eaf6f1;--warn:#bf8700;--warn-bg:#fff1c2;--warn-ink:#6c4a00;--link:#0969da;",
+  "box-sizing:border-box;max-width:760px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);",
+  "font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.55;text-align:left;overflow-wrap:anywhere;}",
+  ".fe.dark{--ink:#e6edf3;--muted:#9ea7b3;--line:#3d444d;--soft:#151b23;--bg:#0d1117;--accent:#2ea876;--accent-dark:#7ee2b8;--tag:#0f2e22;--warn:#d29922;--warn-bg:#3a2a00;--warn-ink:#f2cc60;--link:#4493f8;}",
+  "@media (prefers-color-scheme:dark){.fe.auto{--ink:#e6edf3;--muted:#9ea7b3;--line:#3d444d;--soft:#151b23;--bg:#0d1117;--accent:#2ea876;--accent-dark:#7ee2b8;--tag:#0f2e22;--warn:#d29922;--warn-bg:#3a2a00;--warn-ink:#f2cc60;--link:#4493f8;}}",
+  ".fe *{box-sizing:border-box;}",
+  ".fe h2{font-size:1.25em;line-height:1.3;margin:0 0 4px;}",
+  ".fe h3{font-size:1.05em;margin:16px 0 6px;}",
+  ".fe p{margin:0 0 10px;}",
+  ".fe .lede{color:var(--muted);font-size:.95em;}",
+  ".fe a{color:var(--link);}",
+  ".fe label{display:block;font-weight:600;font-size:14px;margin:0 0 4px;}",
+  ".fe .hint{font-weight:400;color:var(--muted);}",
+  ".fe .field{margin:0 0 12px;}",
+  ".fe input,.fe textarea,.fe select{width:100%;padding:10px 12px;font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;}",
+  ".fe textarea{min-height:180px;resize:vertical;line-height:1.5;}",
+  ".fe .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}",
+  "@media (max-width:520px){.fe{padding:14px;}.fe .grid{grid-template-columns:1fr;}}",
+  ".fe input:focus-visible,.fe textarea:focus-visible,.fe select:focus-visible,.fe button:focus-visible,.fe a:focus-visible{outline:2px solid var(--link);outline-offset:2px;}",
+  ".fe .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:4px 0 0;}",
+  ".fe button{font:inherit;font-size:15px;font-weight:600;border-radius:6px;padding:10px 16px;cursor:pointer;min-height:44px;}",
+  ".fe .primary{background:var(--accent);color:#fff;border:1px solid var(--accent);}",
+  ".fe.dark .primary{color:#06140e;}@media (prefers-color-scheme:dark){.fe.auto .primary{color:#06140e;}}",
+  ".fe .primary:hover{filter:brightness(.92);}",
+  ".fe .ghost{background:var(--bg);color:var(--ink);border:1px solid var(--line);}",
+  ".fe .ghost:hover{background:var(--soft);}",
+  ".fe .out{margin-top:16px;border-top:1px solid var(--line);padding-top:14px;}",
+  ".fe ol{padding-left:22px;margin:8px 0;}",
+  ".fe li{margin:0 0 12px;}",
+  ".fe .status{color:var(--accent-dark);font-weight:600;font-size:14px;}",
+  ".fe .credit{margin-top:16px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}",
+  ".fe .credit p{margin:0 0 4px;}",
+  ".fe .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}",
+  "@media (prefers-reduced-motion:reduce){.fe *{transition:none!important;animation:none!important;}}",
+  "@media print{.fe form,.fe .actions{display:none!important;}}"
+].join("");
+
+function feCredit(slug, el) {
+  var href = feLink(slug, feOpt(el, "source"));
+  var blurb = feOpt(el, "blurb") === "off" ? "" :
+    "<p>Frank is an AI user researcher that runs short voice interviews. Free plan: 60 voice minutes a month, no card required.</p>";
+  return "<div class=\"credit\">" + blurb +
+    "<p><a class=\"credit-link\" href=\"" + feEsc(href) + "\" target=\"_blank\" rel=\"noopener nofollow\">Powered by Frank</a>" +
+    "<span class=\"sr\"> (opens in a new tab)</span></p><p>Runs in your browser; nothing you type is sent anywhere.</p></div>";
+}
+
+var FE_SEQ = 0;
+function feUid(p) { FE_SEQ++; return "fe-" + p + "-" + FE_SEQ; }
+
+// Mounts kind into every [data-frank-embed="kind"] element. If there is none,
+// a container is created right before the <script> tag, so one pasted <script> is enough.
+function feBoot(kind, mount, css) {
+  function mountEl(el) {
+    if (!el || el.__frankMounted) return;
+    el.__frankMounted = true;
+    el.setAttribute("data-frank-mounted", FE_VERSION);
+    var root = el.attachShadow ? el.attachShadow({ mode: "open" }) : el;
+    var style = document.createElement("style");
+    style.textContent = css || FE_CSS;
+    var box = document.createElement("div");
+    var theme = feOpt(el, "theme");
+    box.className = "fe " + (theme === "dark" ? "dark" : theme === "auto" ? "auto" : "light");
+    root.appendChild(style);
+    root.appendChild(box);
+    mount(box, el);
+  }
+  function isBox(n) { return n && n.nodeType === 1 && n.getAttribute("data-frank-embed") === kind; }
+  function run() {
+    // 1) The script's own spot: reuse the container right before it, or create one there.
+    //    A script placed in <head> creates nothing and only fills containers.
+    if (FE_SCRIPT && FE_SCRIPT.parentNode && FE_SCRIPT.parentNode.nodeName !== "HEAD") {
+      var prev = FE_SCRIPT.previousElementSibling;
+      if (!isBox(prev) || prev.__frankMounted) {
+        prev = document.createElement("div");
+        prev.setAttribute("data-frank-embed", kind);
+        FE_SCRIPT.parentNode.insertBefore(prev, FE_SCRIPT);
+      }
+      mountEl(prev);
+    }
+    // 2) Fill every other container of this kind on the page.
+    var all = document.querySelectorAll('[data-frank-embed="' + kind + '"]');
+    for (var i = 0; i < all.length; i++) mountEl(all[i]);
+  }
+  window.FrankEmbeds = window.FrankEmbeds || {};
+  window.FrankEmbeds[kind] = { version: FE_VERSION, mount: mountEl };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+}
+
+function feCopy(text, status) {
+  function ok() { status.textContent = "Copied"; }
+  function fallback() {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); ok(); } catch (e) { status.textContent = "Select the text and copy it manually"; }
+    document.body.removeChild(ta);
+  }
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+}
+
+// Ported tool page UI. The build fills in the kind, slug, CSS, HTML and the page script body (see scripts/build.mjs portJs).
+// The page script runs unchanged except that document.getElementById/querySelectorAll are scoped to this
+// embed's shadow root, URL deep links are not read from the host page, and the Frank CTA uses the embed UTMs.
+feBoot("customer-interview-summary-template", function (FE_BOX, el) {
+  FE_BOX.innerHTML = "<h2 class=\"fe-title\">Customer Interview Summary Template</h2>\n    <p class=\"lede\">Turn messy interview notes into a one-page summary your team will actually read. Fill in who you spoke to, paste your notes, and start lines with a label such as <code>pain:</code>, <code>quote:</code> or <code>next:</code>. The summary sorts them into insights, pains, quotes, open questions and next steps. Free, no login: it runs in your browser and sends nothing anywhere.</p>\n\n    <form class=\"gen\" id=\"gen\" autocomplete=\"off\">\n      <div class=\"grid3\">\n        <div class=\"field\"><label for=\"participant\">Participant <span class=\"hint\">(a code like P3 keeps it anonymous)</span></label><input id=\"participant\" type=\"text\" maxlength=\"80\" value=\"P3\"></div>\n        <div class=\"field\"><label for=\"role\">Role</label><input id=\"role\" type=\"text\" maxlength=\"120\" value=\"Operations manager\"></div>\n        <div class=\"field\"><label for=\"segment\">Segment</label><input id=\"segment\" type=\"text\" maxlength=\"120\" value=\"Small logistics teams\"></div>\n      </div>\n      <div class=\"grid3\">\n        <div class=\"field\"><label for=\"date\">Date</label><input id=\"date\" type=\"text\" maxlength=\"40\" value=\"\" placeholder=\"e.g. the interview date\"></div>\n        <div class=\"field\"><label for=\"length\">Length <span class=\"hint\">(minutes, optional)</span></label><input id=\"length\" type=\"number\" min=\"1\" max=\"240\" step=\"1\" value=\"\"></div>\n        <div class=\"field\"><label for=\"interviewer\">Interviewer</label><input id=\"interviewer\" type=\"text\" maxlength=\"80\" value=\"\"></div>\n      </div>\n      <div class=\"grid2\">\n        <div class=\"field\">\n          <label for=\"type\">Interview type</label>\n          <select id=\"type\">\n            <option value=\"discovery\" selected>Discovery (problems and current workflow)</option>\n            <option value=\"churn\">Churn (why a customer left)</option>\n            <option value=\"jtbd\">Switching (Jobs to Be Done)</option>\n            <option value=\"winloss\">Win-loss (why a deal was won or lost)</option>\n            <option value=\"pricing\">Pricing and value</option>\n            <option value=\"other\">Other</option>\n          </select>\n        </div>\n        <div class=\"field\"><label for=\"research\">Research question <span class=\"hint\">(what you wanted to learn)</span></label><input id=\"research\" type=\"text\" maxlength=\"300\" value=\"How do small teams plan delivery routes today?\"></div>\n      </div>\n      <div class=\"field\"><label for=\"takeaway\">Top takeaway <span class=\"hint\">(one sentence, optional)</span></label><input id=\"takeaway\" type=\"text\" maxlength=\"400\" value=\"Route planning is a Monday ritual held together by a shared spreadsheet and one person's memory.\"></div>\n      <div class=\"field\">\n        <label for=\"notes\">Your notes <span class=\"hint\">(one point per line)</span></label>\n        <textarea id=\"notes\" spellcheck=\"true\">insight: The spreadsheet is the real product they rely on; the routing tool is only used to print maps\ngoal: Get every driver out the door with a route before 8\ntrigger: A new driver got lost twice in one week and a key customer complained\npain: Re-planning when a driver calls in sick means redoing the whole sheet\npain: Only Dana knows which customers need a call before delivery\nworkaround: Color codes in a shared spreadsheet plus a group chat for changes\n&quot;Honestly the sheet works until Dana is on holiday.&quot; (14:05)\n&quot;Last month we paid overtime three Mondays in a row because of re-planning.&quot; (21:30)\nWhat did they try before the spreadsheet?\nnext: Ask two more small teams how they handle sick days\nUses a 2019 laptop in the depot</textarea>\n        <p class=\"hint labels\">Labels: <code>insight:</code>, <code>goal:</code>, <code>trigger:</code>, <code>pain:</code>, <code>workaround:</code>, <code>quote:</code>, <code>question:</code>, <code>next:</code>. Lines in quote marks or starting with <code>&gt;</code> become quotes. Lines that ask a question become open questions. Anything else goes to Other notes.</p>\n      </div>\n      <div class=\"checkrow field\"><label><input type=\"checkbox\" id=\"blank\"> Show every section, with prompts for the empty ones (blank template)</label></div>\n      <div class=\"actions\">\n        <button class=\"btn btn-primary\" type=\"submit\">Make my summary</button>\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"clear\">Clear the example</button>\n      </div>\n    </form>\n\n    <section id=\"result\" aria-labelledby=\"result-title\">\n      <h2 id=\"result-title\" style=\"border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)\">Your summary</h2>\n      <div id=\"checks\"></div>\n      <article class=\"guide doc\" id=\"doc\" aria-live=\"polite\">\n        <h2>Customer interview summary</h2><ul class=\"meta-list\"><li><strong>Participant:</strong> P3</li><li><strong>Role:</strong> Operations manager</li><li><strong>Segment:</strong> Small logistics teams</li><li><strong>Interview type:</strong> Discovery (problems and current workflow)</li><li><strong>Research question:</strong> How do small teams plan delivery routes today?</li></ul><h3>Top takeaway</h3><p class=\"say\" id=\"takeaway-out\">Route planning is a Monday ritual held together by a shared spreadsheet and one person's memory.</p><h3 data-section=\"insight\">Key insights <span class=\"tag\">1</span></h3><ul><li>The spreadsheet is the real product they rely on; the routing tool is only used to print maps</li></ul><h3 data-section=\"goal\">What they are trying to get done <span class=\"tag\">1</span></h3><ul><li>Get every driver out the door with a route before 8</li></ul><h3 data-section=\"trigger\">What set it off <span class=\"tag\">1</span></h3><ul><li>A new driver got lost twice in one week and a key customer complained</li></ul><h3 data-section=\"pain\">Pains <span class=\"tag\">2</span></h3><ul><li>Re-planning when a driver calls in sick means redoing the whole sheet</li><li>Only Dana knows which customers need a call before delivery</li></ul><h3 data-section=\"workaround\">How they cope today <span class=\"tag\">1</span></h3><ul><li>Color codes in a shared spreadsheet plus a group chat for changes</li></ul><h3 data-section=\"quote\">Quotes (verbatim) <span class=\"tag\">2</span></h3><blockquote>&quot;Honestly the sheet works until Dana is on holiday.&quot; (14:05)</blockquote><blockquote>&quot;Last month we paid overtime three Mondays in a row because of re-planning.&quot; (21:30)</blockquote><h3 data-section=\"question\">Open questions <span class=\"tag\">1</span></h3><ul><li>What did they try before the spreadsheet?</li></ul><h3 data-section=\"next\">Next steps <span class=\"tag\">1</span></h3><ul class=\"next\"><li>Ask two more small teams how they handle sick days</li></ul><h3 data-section=\"other\">Other notes <span class=\"tag\">1</span></h3><ul><li>Uses a 2019 laptop in the depot</li></ul>\n      </article>\n      <div class=\"actions js-only\">\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"copy\">Copy as Markdown</button>\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"copy-text\">Copy as plain text</button>\n        <button class=\"btn btn-ghost\" type=\"button\" id=\"dl-md\">Download .md</button>\n        <span class=\"status\" id=\"status\" role=\"status\"></span>\n      </div>\n    </section>" + feCredit("customer-interview-summary-template", el);
+  var FE_ROOT = FE_BOX.getRootNode();
+  var FE_CTA = feLink("customer-interview-summary-template", feOpt(el, "source"));
+  (function (FE_ROOT, FE_BOX, FE_CTA) {
+
+// Customer interview summary template: core logic. Plain rules, runs in the browser, sends nothing anywhere.
+var SUM = (function () {
+  var MAXLEN = 400, MAXLINES = 300;
+  var TYPES = {
+    discovery: "Discovery (problems and current workflow)",
+    churn: "Churn (why a customer left)",
+    jtbd: "Switching (Jobs to Be Done)",
+    winloss: "Win-loss (why a deal was won or lost)",
+    pricing: "Pricing and value",
+    other: "Other"
+  };
+  // Section order in the summary. prompt = what to write there when the section is empty in a blank template.
+  var SECTIONS = [
+    { key: "insight", title: "Key insights", prompt: "What you learned, written as an observation and what it means. Link each one to a quote below." },
+    { key: "goal", title: "What they are trying to get done", prompt: "The goal or job in their words." },
+    { key: "trigger", title: "What set it off", prompt: "The moment or event that made them look for a change." },
+    { key: "pain", title: "Pains", prompt: "What is hard, slow, risky or annoying today, with a real example." },
+    { key: "workaround", title: "How they cope today", prompt: "Tools, spreadsheets, people or habits they use instead." },
+    { key: "quote", title: "Quotes (verbatim)", prompt: "Their exact words, with a timestamp if you have one." },
+    { key: "question", title: "Open questions", prompt: "What you still don't know and should ask next time." },
+    { key: "next", title: "Next steps", prompt: "Action, owner and date." },
+    { key: "other", title: "Other notes", prompt: "Anything that did not fit above." }
+  ];
+  // Prefixes people type in notes. Order matters only for readability; matching is on the whole word before the colon.
+  var PREFIX = {
+    insight: "insight", learning: "insight", finding: "insight", takeaway: "insight",
+    goal: "goal", job: "goal", jtbd: "goal", want: "goal", wants: "goal",
+    trigger: "trigger", why: "trigger", event: "trigger",
+    pain: "pain", problem: "pain", issue: "pain", frustration: "pain", struggle: "pain",
+    workaround: "workaround", today: "workaround", hack: "workaround", alternative: "workaround", tools: "workaround",
+    quote: "quote", said: "quote", verbatim: "quote",
+    question: "question", unknown: "question", ask: "question", open: "question",
+    next: "next", todo: "next", action: "next", "follow up": "next", "follow-up": "next", followup: "next",
+    note: "other", other: "other", context: "other"
+  };
+  function clean(s, max) { return String(s == null ? "" : s).replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, "").replace(/\s+/g, " ").trim().slice(0, max || MAXLEN); }
+  function sortLine(raw) {
+    var s = clean(raw);
+    s = s.replace(/^(?:[-*\u2022]|\d+[.)])(?:\s+|$)/, "");
+    if (!s) return null;
+    if (/^>\s*/.test(s)) return { key: "quote", text: clean(s.replace(/^>\s*/, "")) };
+    var m = s.match(/^([A-Za-z][A-Za-z -]{0,14}?)\s*:\s*(.+)$/);
+    if (m && PREFIX[m[1].toLowerCase()]) return { key: PREFIX[m[1].toLowerCase()], text: m[2].trim() };
+    if (/^["\u201c].+["\u201d](?:\s*\(?[\w :.,-]{0,30}\)?)?$/.test(s)) return { key: "quote", text: s };
+    if (/^[?]|\?$/.test(s) && /^(?:what|why|how|who|when|where|which|do|does|did|is|are|can|could|would|will|should)\b/i.test(s)) return { key: "question", text: s };
+    return { key: "other", text: s };
+  }
+  function sortNotes(text) {
+    var out = {}; SECTIONS.forEach(function (x) { out[x.key] = []; });
+    String(text == null ? "" : text).split(/\r?\n/).slice(0, MAXLINES).forEach(function (l) { var r = sortLine(l); if (r && r.text) out[r.key].push(r.text); });
+    return out;
+  }
+  function build(o) {
+    o = o || {};
+    var type = TYPES[o.type] ? o.type : "discovery";
+    var r = {
+      title: clean(o.title, 120) || "Customer interview summary",
+      participant: clean(o.participant, 80), role: clean(o.role, 120), segment: clean(o.segment, 120),
+      date: clean(o.date, 40), interviewer: clean(o.interviewer, 80), research: clean(o.research, 300),
+      takeaway: clean(o.takeaway, 400), type: type, typeLabel: TYPES[type],
+      blank: !!o.blank, notes: sortNotes(o.notes)
+    };
+    var len = parseInt(o.length, 10); r.length = len >= 1 && len <= 240 ? len : 0;
+    r.counts = {}; var total = 0;
+    SECTIONS.forEach(function (x) { r.counts[x.key] = r.notes[x.key].length; total += r.notes[x.key].length; });
+    r.total = total;
+    r.sections = SECTIONS.filter(function (x) { return r.blank || r.notes[x.key].length; }).map(function (x) { return { key: x.key, title: x.title, prompt: x.prompt, items: r.notes[x.key] }; });
+    r.checks = [];
+    if (r.total && !r.counts.quote) r.checks.push("No quotes yet. Add at least one verbatim quote so others can check each insight against what was said.");
+    if (r.counts.insight && r.counts.quote && r.counts.insight > r.counts.quote) r.checks.push("More insights than quotes. Make sure every insight points to something the person actually said.");
+    if (r.total && !r.counts.next) r.checks.push("No next steps. Add at least one action with an owner and a date.");
+    if (r.counts.other && r.counts.other === r.total) r.checks.push("Nothing was sorted. Start lines with a label such as pain:, quote: or next: to sort them.");
+    return r;
+  }
+  function header(r) {
+    var h = [];
+    if (r.participant) h.push(["Participant", r.participant]);
+    if (r.role) h.push(["Role", r.role]);
+    if (r.segment) h.push(["Segment", r.segment]);
+    if (r.date) h.push(["Date", r.date]);
+    if (r.length) h.push(["Length", r.length + " min"]);
+    if (r.interviewer) h.push(["Interviewer", r.interviewer]);
+    h.push(["Interview type", r.typeLabel]);
+    if (r.research) h.push(["Research question", r.research]);
+    return h;
+  }
+  function mdEsc(s) { return String(s).replace(/([\\`*_[\]<>|#])/g, "\\$1"); }
+  function toMarkdown(r, cta) {
+    var L = ["# " + mdEsc(r.title), ""];
+    header(r).forEach(function (h) { L.push("- **" + h[0] + ":** " + mdEsc(h[1])); });
+    L.push("");
+    if (r.takeaway || r.blank) { L.push("## Top takeaway", "", r.takeaway ? mdEsc(r.takeaway) : "_" + "The one thing a teammate should remember from this interview." + "_", ""); }
+    r.sections.forEach(function (s) {
+      L.push("## " + s.title, "");
+      if (!s.items.length) L.push("_" + s.prompt + "_");
+      s.items.forEach(function (t) {
+        if (s.key === "quote") L.push("> " + mdEsc(t), "");
+        else if (s.key === "next") L.push("- [ ] " + mdEsc(t));
+        else L.push("- " + mdEsc(t));
+      });
+      L.push("");
+    });
+    if (cta) L.push("---", "Made with the free customer interview summary template from Frank: " + cta);
+    return L.join("\n").replace(/\n{3,}/g, "\n\n").trim() + "\n";
+  }
+  function toText(r) {
+    var L = [r.title.toUpperCase(), ""];
+    header(r).forEach(function (h) { L.push(h[0] + ": " + h[1]); });
+    L.push("");
+    if (r.takeaway || r.blank) L.push("TOP TAKEAWAY", r.takeaway || "(The one thing a teammate should remember from this interview.)", "");
+    r.sections.forEach(function (s) {
+      L.push(s.title.toUpperCase());
+      if (!s.items.length) L.push("(" + s.prompt + ")");
+      s.items.forEach(function (t) { L.push((s.key === "quote" ? "\"" + t.replace(/^["\u201c]|["\u201d]$/g, "") + "\"" : (s.key === "next" ? "[ ] " : "- ") + t)); });
+      L.push("");
+    });
+    return L.join("\n").trim() + "\n";
+  }
+  function fromParams(search) {
+    var out = {};
+    try { var p = new URLSearchParams(search || ""); var t = p.get("type"); if (t && TYPES[t]) out.type = t; if (p.get("blank") === "1") out.blank = true; } catch (e) {}
+    return out;
+  }
+  return { MAXLEN: MAXLEN, MAXLINES: MAXLINES, TYPES: TYPES, SECTIONS: SECTIONS, PREFIX: PREFIX, clean: clean, sortLine: sortLine, sortNotes: sortNotes, build: build, header: header, toMarkdown: toMarkdown, toText: toText, fromParams: fromParams };
+})();
+
+(function () {
+  FE_BOX.className += " has-js";
+  var CTA = FE_CTA;
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return FE_ROOT.getElementById(id); }
+  var render_ = (function docHTML(r, esc, S) {
+  var h = "<h2>" + esc(r.title) + "</h2><ul class=\"meta-list\">" + S.header(r).map(function (x) { return "<li><strong>" + esc(x[0]) + ":</strong> " + esc(x[1]) + "</li>"; }).join("") + "</ul>";
+  if (r.takeaway || r.blank) h += "<h3>Top takeaway</h3>" + (r.takeaway ? "<p class=\"say\" id=\"takeaway-out\">" + esc(r.takeaway) + "</p>" : "<p class=\"prompt\">The one thing a teammate should remember from this interview.</p>");
+  r.sections.forEach(function (s) {
+    h += "<h3 data-section=\"" + s.key + "\">" + esc(s.title) + (s.items.length ? " <span class=\"tag\">" + s.items.length + "</span>" : "") + "</h3>";
+    if (!s.items.length) { h += "<p class=\"prompt\">" + esc(s.prompt) + "</p>"; return; }
+    if (s.key === "quote") { h += s.items.map(function (t) { return "<blockquote>" + esc(t) + "</blockquote>"; }).join(""); return; }
+    h += "<ul" + (s.key === "next" ? " class=\"next\"" : "") + ">" + s.items.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>";
+  });
+  if (!r.total && !r.blank) h += "<p class=\"prompt\">Paste your notes above to fill in the sections, or tick blank template to see every section.</p>";
+  return h;
+});
+  var checks_ = (function checksHTML(r, esc) {
+  return r.checks.length ? "<ul class=\"note checks-out\" id=\"checks-list\">" + r.checks.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") + "</ul>" : "";
+});
+  var current;
+  var ids = ["participant", "role", "segment", "date", "length", "interviewer", "type", "research", "takeaway", "notes"];
+  function opts() { var o = {}; ids.forEach(function (k) { o[k] = $(k).value; }); o.blank = $("blank").checked; return o; }
+  function render() { current = SUM.build(opts()); $("doc").innerHTML = render_(current, esc, SUM); $("checks").innerHTML = checks_(current, esc); $("status").textContent = ""; }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); $("result").scrollIntoView({ behavior: "smooth", block: "start" }); });
+  Array.prototype.forEach.call(FE_ROOT.querySelectorAll("#gen input, #gen select, #gen textarea"), function (el) { el.addEventListener(el.type === "checkbox" || el.tagName === "SELECT" ? "change" : "input", render); });
+  $("clear").addEventListener("click", function () { ["participant", "role", "segment", "research", "takeaway", "notes"].forEach(function (k) { $(k).value = ""; }); render(); $("notes").focus(); });
+  function copy(text) {
+    function ok() { $("status").textContent = "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the summary and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  }
+  $("copy").addEventListener("click", function () { copy(SUM.toMarkdown(current, CTA)); });
+  $("copy-text").addEventListener("click", function () { copy(SUM.toText(current)); });
+  $("dl-md").addEventListener("click", function () {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([SUM.toMarkdown(current, CTA)], { type: "text/markdown;charset=utf-8" }));
+    a.download = "customer-interview-summary.md";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  });
+  // Deep links: ?type=discovery|churn|jtbd|winloss|pricing|other&blank=1 (notes are never read from the URL)
+  var P = SUM.fromParams("");
+  if (P.type) $("type").value = P.type;
+  if (P.blank) { $("blank").checked = true; ["participant", "role", "segment", "research", "takeaway", "notes"].forEach(function (k) { $(k).value = ""; }); }
+  render();
+})();
+
+  })(FE_ROOT, FE_BOX, FE_CTA);
+}, ":host{all:initial;display:block;}\n  .fe { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }\n  .fe, .fe * { box-sizing: border-box; }\n  .fe { margin:0; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }\n  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }\n  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }\n  .top a { color:var(--muted); text-decoration:none; }\n  .top a:hover { text-decoration:underline; }\n  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }\n  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }\n  h3 { font-size: 1.1em; margin: 24px 0 8px; }\n  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }\n  a { color:#0969da; }\n  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }\n  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }\n  .hint { font-weight:400; color:var(--muted); }\n  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }\n  textarea { min-height: 220px; resize: vertical; line-height:1.5; }\n  .field { margin-bottom: 14px; }\n  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }\n  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }\n  .btn-primary { background:var(--accent); color:#fff; }\n  .btn-primary:hover { background:var(--accent-dark); }\n  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }\n  .btn-ghost:hover { background:var(--soft); }\n  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }\n  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }\n  .guide h2 { border:0; margin-top:16px; }\n  .guide ol { padding-left: 22px; }\n  .guide li { margin-bottom: 16px; }\n  .probe { display:block; color: var(--muted); font-size: 0.95em; }\n  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }\n  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }\n  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }\n  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }\n  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }\n  .cta p { margin: 0 0 10px; }\n  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }\n  .js-only { display:none; }\n  .has-js .js-only { display:flex; }\n  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }\n  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }\n  th { background: var(--soft); }\n  .table-wrap { overflow-x: auto; }\n  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }\n  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }\n  .row.ok { border-left:4px solid var(--accent); }\n  .row.bad { border-left:4px solid #bf8700; }\n  .row .q { font-weight:600; }\n  .flag { margin:6px 0 0; font-size:0.95em; }\n  .flag .tag { background:#fff1c2; color:#6c4a00; }\n  .rw { display:block; color:var(--muted); }\n  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }\n  .summary { font-weight:600; }\n  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }\n  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }\n  fieldset { border:0; padding:0; margin:0 0 14px; }\n  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }\n  .radios label, .radios { font-weight:400; }\n  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }\n  .radios input { width:auto; }\n  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }\n  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }\n  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }\n  .tag.push { background:#ffebe9; color:#82071e; }\n  .tag.pull { background:#ddf4ff; color:#0a3069; }\n  .tag.anxiety { background:#fff1c2; color:#6c4a00; }\n  .tag.habit { background:#f3e8ff; color:#4c1d95; }\n  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }\n  .phase-goal { color:var(--muted); margin-top:-6px; }\n  .themes td.num { text-align:right; white-space:nowrap; }\n  .theme { border:1px solid var(--line); border-radius:10px; padding:4px 18px 12px; margin:16px 0; }\n  .theme h3 { margin-top:12px; }\n  .theme .meta { color:var(--muted); font-size:0.9em; margin-top:-6px; }\n  .theme blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--line); color:var(--ink); }\n  .theme.unclear { border-style:dashed; }\n  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; margin-right:6px; }\n  details.all { margin-top:12px; }\n  details.all li { margin-bottom:6px; }\n  .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 16px; }\n  @media (max-width: 640px) { .grid3 { grid-template-columns: 1fr; } }\n  .mail input { margin-bottom:8px; }\n  .mail textarea { min-height: 260px; }\n  #col-field[hidden] { display:none; }\n  .doc h3 { margin-top:18px; }\n  .doc .checks { list-style:none; padding-left:0; }\n  .doc .checks li::before { content:\"\\2610  \"; }\n  .doc blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--accent); background:var(--soft); }\n  .doc .stage { color:var(--muted); font-style:italic; }\n  .checkrow label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-weight:400; font-size:16px; }\n  .checkrow input { width:auto; }\n  .big { font-size:1.25em; font-weight:700; margin:12px 0 6px; }\n  .src li { margin-bottom:10px; }\n  input[type=number] { max-width:160px; }\n  @media print { .note.top, .seo, nav, footer, form.gen, .cta, .actions { display:none !important; } .guide { border:0; } }\n  .labels code { background:var(--soft); padding:0 4px; border-radius:4px; }\n  .checks-out li { margin-bottom:6px; }\n  .doc .meta-list { list-style:none; padding-left:0; }\n  .doc .meta-list li { margin-bottom:2px; }\n  .doc .prompt { color:var(--muted); font-style:italic; }\n  .doc ul.next { list-style:none; padding-left:0; }\n  .doc ul.next li::before { content:\"\\2610  \"; }\n  /* chatgpt-cta */ .cta-chatgpt { margin-top:14px; padding-top:12px; border-top:1px solid #b7e1cf; }\n  .cta-chatgpt p { margin:0 0 10px; }\n  .btn-chatgpt { background:#fff; color:var(--accent); border:1px solid var(--accent); white-space:normal; max-width:100%; box-sizing:border-box; }\n  .btn-chatgpt:hover { background:#f6f8fa; }\n  .cta-signup { display:inline-block; margin:10px 0 0; }\n  /* embed-section */ .embed-code { background:var(--soft); border:1px solid var(--line); border-radius:6px; padding:10px 12px; margin:6px 0 8px; overflow-x:auto; white-space:pre-wrap; word-break:break-all; font-size:13px; line-height:1.5; }\n  .embed-copy { font-size:14px; padding:8px 14px; }\n.fe{box-sizing:border-box;max-width:820px;margin:0 auto;padding:18px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);text-align:left;overflow-wrap:anywhere;font-size:16px;}.fe .fe-title{font-size:1.4em;line-height:1.25;margin:0 0 6px;padding:0;border:0;}.fe .credit{margin-top:16px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}.fe .credit p{margin:0 0 4px;}.fe .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}.fe button:focus-visible,.fe a:focus-visible{outline:2px solid #0969da;outline-offset:2px;}@media (max-width:520px){.fe{padding:12px;}}");
+
+})();
+</script>
+</body>
+</html>
