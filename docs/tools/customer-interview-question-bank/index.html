@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Customer Interview Question Bank (Free, Filter by Goal and Stage) | Frank AI Researcher docs</title>
+<meta name="description" content="Free customer interview question bank. Filter open, non-leading questions by goal (discovery, churn, onboarding, retention, feature feedback, pricing, win-loss) and by interview stage, pick the ones you want, and copy your own interview guide with follow-ups. No login, runs in your browser.">
+<link rel="canonical" href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="0934CBE7F208035205BDF5ED1E6C5E58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Frank AI Researcher docs">
+<meta property="og:title" content="Customer Interview Question Bank (Free, Filter by Goal and Stage)">
+<meta property="og:description" content="Open, non-leading customer interview questions you can filter by goal and stage, then pick and copy as your own guide.">
+<meta property="og:url" content="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/">
+<meta property="og:image" content="https://raw.githubusercontent.com/nar-vardanyan/frank-mcp/main/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Customer Interview Question Bank (Free, Filter by Goal and Stage)">
+<meta name="twitter:description" content="Filter customer interview questions by goal and stage, pick your own, copy the guide.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/#app",
+      "name": "Customer Interview Question Bank",
+      "url": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web browser",
+      "browserRequirements": "Requires JavaScript to filter and pick questions. The full bank is readable without JavaScript.",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "A free, browser-based bank of open, non-leading customer interview questions. Filter by goal (discovery, churn, onboarding, retention, feature feedback, pricing, win-loss), by interview stage or by keyword, fill in your product and topic, pick the questions you want, and copy or download your own interview guide with a follow-up for each question. Every question passes the Mom Test question checker. No login, no AI model, nothing sent to a server.",
+      "featureList": ["Filter questions by goal", "Filter by interview stage", "Keyword search", "Follow-up and reason for every question", "Fill in your product and topic", "Pick questions into your own guide", "Share a link to your picks", "Copy as Markdown or plain text", "Download as Markdown"],
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.hifrank.ai/#organization",
+        "name": "Frank",
+        "url": "https://www.hifrank.ai"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Frank AI Researcher docs", "item": "https://nar-vardanyan.github.io/frank-mcp/" },
+        { "@type": "ListItem", "position": 2, "name": "Customer Interview Question Bank", "item": "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is a customer interview question bank?", "acceptedAnswer": { "@type": "Answer", "text": "A list of tried interview questions you can choose from instead of writing a guide from scratch. This one lets you filter by goal and interview stage, pick the questions you want, and copy them as your own guide with a follow-up for each." } },
+        { "@type": "Question", "name": "What makes a good customer interview question?", "acceptedAnswer": { "@type": "Answer", "text": "It asks about something that really happened, in the person's own words: \"Tell me about the last time\" rather than \"Would you use\". Good questions are open, don't hint at the answer you want, and leave room for a follow-up. Every question here passes the Mom Test question checker." } },
+        { "@type": "Question", "name": "How is this different from the interview guide generator?", "acceptedAnswer": { "@type": "Answer", "text": "The guide generator gives you a ready-made guide for one goal. The question bank shows every question across goals and stages so you can mix and pick your own, for example onboarding questions with a few pricing ones." } },
+        { "@type": "Question", "name": "Can I share my picks with my team?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Copy link to these picks makes a link with the goal, stage and question numbers. Your product name and topic are not put in the link." } },
+        { "@type": "Question", "name": "Does this use AI? Is anything sent to a server?", "acceptedAnswer": { "@type": "Answer", "text": "No. The questions are a fixed list and the filters run in your browser. Nothing you type is sent anywhere." } },
+        { "@type": "Question", "name": "Can Frank ask these questions for me?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank runs short voice interviews with customers you already have: it asks your questions out loud and follows up on each answer. Free plan: 60 voice minutes a month, no card required. Frank does not recruit participants." } },
+        { "@type": "Question", "name": "Can I set up the interviews from an AI assistant?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Frank has a remote MCP server at https://api.hifrank.ai/mcp, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth." } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root { --ink:#1f2328; --muted:#59636e; --line:#d1d9e0; --soft:#f6f8fa; --accent:#0b6e4f; --accent-dark:#085a40; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--ink); line-height:1.6; background:#fff; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 64px; }
+  .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; font-size:14px; border-bottom:1px solid var(--line); padding-bottom:12px; }
+  .top a { color:var(--muted); text-decoration:none; }
+  .top a:hover { text-decoration:underline; }
+  h1 { font-size: 2.1em; line-height:1.2; margin: 28px 0 8px; }
+  h2 { font-size: 1.45em; margin: 40px 0 12px; padding-bottom: 6px; border-bottom:1px solid var(--line); }
+  h3 { font-size: 1.1em; margin: 24px 0 8px; }
+  .lede { font-size: 1.1em; color: var(--muted); margin-top:0; }
+  a { color:#0969da; }
+  form.gen { background: var(--soft); border:1px solid var(--line); border-radius:10px; padding:20px; margin: 20px 0; }
+  label { display:block; font-weight:600; font-size:14px; margin-bottom:4px; }
+  .hint { font-weight:400; color:var(--muted); }
+  input, textarea { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  textarea { min-height: 220px; resize: vertical; line-height:1.5; }
+  .field { margin-bottom: 14px; }
+  input:focus, textarea:focus, .btn:focus { outline: 2px solid #0969da; outline-offset: 2px; }
+  .btn { display:inline-block; border:0; border-radius:6px; padding:11px 18px; font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; }
+  .btn-primary { background:var(--accent); color:#fff; }
+  .btn-primary:hover { background:var(--accent-dark); }
+  .btn-ghost { background:#fff; color:var(--ink); border:1px solid var(--line); }
+  .btn-ghost:hover { background:var(--soft); }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+  .guide { border:1px solid var(--line); border-radius:10px; padding: 8px 22px 18px; background:#fff; overflow-wrap:anywhere; }
+  .guide h2 { border:0; margin-top:16px; }
+  .guide ol { padding-left: 22px; }
+  .guide li { margin-bottom: 16px; }
+  .probe { display:block; color: var(--muted); font-size: 0.95em; }
+  .why { display:block; font-size: 0.9em; color: var(--muted); border-left: 3px solid var(--line); padding-left: 10px; margin-top: 4px; }
+  .tag { display:inline-block; font-size: 0.75em; font-weight:600; background:#eaf6f1; color:var(--accent-dark); border-radius: 10px; padding: 0 8px; margin-right: 6px; }
+  .say { background: var(--soft); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; }
+  .note { background:#fff8c5; border:1px solid #eac54f; border-radius:6px; padding:8px 12px; }
+  .cta { margin: 22px 0; padding: 18px 20px; border-radius: 10px; background: #eaf6f1; border:1px solid #b7e1cf; }
+  .cta p { margin: 0 0 10px; }
+  .status { color: var(--accent-dark); font-weight:600; font-size:14px; }
+  .js-only { display:none; }
+  .has-js .js-only { display:flex; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 48px; padding-top: 16px; border-top:1px solid var(--line); color: var(--muted); font-size:14px; }
+  .row { border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:12px; }
+  .row.ok { border-left:4px solid var(--accent); }
+  .row.bad { border-left:4px solid #bf8700; }
+  .row .q { font-weight:600; }
+  .flag { margin:6px 0 0; font-size:0.95em; }
+  .flag .tag { background:#fff1c2; color:#6c4a00; }
+  .rw { display:block; color:var(--muted); }
+  .verdict { font-size:0.85em; color:var(--accent-dark); font-weight:600; }
+  .summary { font-weight:600; }
+  @media (max-width: 640px) { h1 { font-size: 1.7em; } .guide { padding: 6px 14px 14px; } }
+  @media print { form.gen, .cta, .top, .actions, footer, .seo { display:none !important; } }
+  fieldset { border:0; padding:0; margin:0 0 14px; }
+  legend { font-weight:600; font-size:14px; margin-bottom:4px; padding:0; }
+  .radios label, .radios { font-weight:400; }
+  .radios label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-size:16px; }
+  .radios input { width:auto; }
+  select { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .grid2 { display:grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  .tag.push { background:#ffebe9; color:#82071e; }
+  .tag.pull { background:#ddf4ff; color:#0a3069; }
+  .tag.anxiety { background:#fff1c2; color:#6c4a00; }
+  .tag.habit { background:#f3e8ff; color:#4c1d95; }
+  .tag.timeline, .tag.progress { background:#eaf6f1; color:var(--accent-dark); }
+  .phase-goal { color:var(--muted); margin-top:-6px; }
+  .themes td.num { text-align:right; white-space:nowrap; }
+  .theme { border:1px solid var(--line); border-radius:10px; padding:4px 18px 12px; margin:16px 0; }
+  .theme h3 { margin-top:12px; }
+  .theme .meta { color:var(--muted); font-size:0.9em; margin-top:-6px; }
+  .theme blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--line); color:var(--ink); }
+  .theme.unclear { border-style:dashed; }
+  .bar { display:inline-block; height:8px; background:var(--accent); border-radius:4px; vertical-align:middle; margin-right:6px; }
+  details.all { margin-top:12px; }
+  details.all li { margin-bottom:6px; }
+  .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 640px) { .grid3 { grid-template-columns: 1fr; } }
+  .mail input { margin-bottom:8px; }
+  .mail textarea { min-height: 260px; }
+  #col-field[hidden] { display:none; }
+  .doc h3 { margin-top:18px; }
+  .doc .checks { list-style:none; padding-left:0; }
+  .doc .checks li::before { content:"\2610  "; }
+  .doc blockquote { margin:6px 0; padding:4px 12px; border-left:3px solid var(--accent); background:var(--soft); }
+  .doc .stage { color:var(--muted); font-style:italic; }
+  .checkrow label { display:inline-flex; gap:6px; align-items:center; margin-right:18px; font-weight:400; font-size:16px; }
+  .checkrow input { width:auto; }
+  .big { font-size:1.25em; font-weight:700; margin:12px 0 6px; }
+  .src li { margin-bottom:10px; }
+  input[type=number] { max-width:160px; }
+  @media print { .note.top, .seo, nav, footer, form.gen, .cta, .actions { display:none !important; } .guide { border:0; } }
+  .labels code { background:var(--soft); padding:0 4px; border-radius:4px; }
+  .checks-out li { margin-bottom:6px; }
+  .doc .meta-list { list-style:none; padding-left:0; }
+  .doc .meta-list li { margin-bottom:2px; }
+  .doc .prompt { color:var(--muted); font-style:italic; }
+  .doc ul.next { list-style:none; padding-left:0; }
+  .doc ul.next li::before { content:"\2610  "; }
+  .qitem { font-weight:400; font-size:16px; display:flex; gap:10px; align-items:flex-start; border:1px solid var(--line); border-radius:8px; padding:10px 12px; margin-bottom:10px; }
+  .qitem input { width:auto; margin-top:6px; flex:none; }
+  .qitem.on { border-left:4px solid var(--accent); background:#f6fbf9; }
+  .qitem .q { font-weight:600; }
+  .qitem .goals { margin-top:4px; }
+  .stage-h { margin-top:22px; }
+  .count { color:var(--muted); font-size:14px; }
+  .guide ol li { margin-bottom:10px; }
+  .sticky-actions { position:sticky; bottom:0; background:#fff; padding:8px 0; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a href="https://nar-vardanyan.github.io/frank-mcp/">Frank AI Researcher docs</a>
+    <a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>
+  </nav>
+
+  <main>
+    <h1>Customer Interview Question Bank</h1>
+    <p class="lede">Open, non-leading customer interview questions you can filter by goal and by stage of the interview. Tick the ones you want and they build your own interview guide, with a follow-up for each question, ready to copy. Every question asks about real past events and passes our <a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>. Free, no login: it runs in your browser.</p>
+
+    <form class="gen" id="gen" autocomplete="off">
+      <div class="grid3">
+        <div class="field">
+          <label for="goal">Goal</label>
+          <select id="goal">
+            <option value="">All goals</option>
+            <option value="discovery">Discovery (problems and workflow)</option>
+            <option value="churn">Churn (why customers left)</option>
+            <option value="onboarding">Onboarding (first weeks)</option>
+            <option value="retention">Retention (why customers stay)</option>
+            <option value="feature">Feature feedback and requests</option>
+            <option value="pricing">Pricing and value</option>
+            <option value="winloss">Win-loss (why a deal was won or lost)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="stage">Interview stage</label>
+          <select id="stage">
+            <option value="">All stages</option>
+            <option value="context">Warm-up and context</option>
+            <option value="workflow">How they work today</option>
+            <option value="problem">The problem, in a real example</option>
+            <option value="attempts">What they tried</option>
+            <option value="decision">Choosing and buying</option>
+            <option value="usage">Using the product</option>
+            <option value="leaving">Leaving or switching</option>
+            <option value="wrap">Wrap-up</option>
+          </select>
+        </div>
+        <div class="field"><label for="search">Search</label><input id="search" type="search" maxlength="60" placeholder="e.g. price, setup, cancel"></div>
+      </div>
+      <div class="grid2">
+        <div class="field"><label for="product">Your product <span class="hint">(optional, replaces [product])</span></label><input id="product" type="text" maxlength="80" placeholder="e.g. Acme Invoicing"></div>
+        <div class="field"><label for="topic">Topic or task <span class="hint">(optional, replaces [topic], [task] and [problem])</span></label><input id="topic" type="text" maxlength="80" placeholder="e.g. sending invoices"></div>
+      </div>
+      <div class="actions js-only">
+        <button class="btn btn-ghost" type="button" id="pick-shown">Pick all shown</button>
+        <button class="btn btn-ghost" type="button" id="clear-picks">Clear picks</button>
+        <span class="count" id="count" role="status">Showing 51 of 51 questions.</span>
+      </div>
+    </form>
+
+    <section id="bank-sec" aria-labelledby="bank-title">
+      <h2 id="bank-title" style="border:0;margin:8px 0 4px;font-size:1.1em;color:var(--muted)">Questions</h2>
+      <div id="bank">
+        <h3 class="stage-h">Warm-up and context</h3><label class="qitem" for="pick-q1"><input type="checkbox" id="pick-q1" data-id="q1"><span><span class="q">Tell me about your role and what a normal week looks like for you.</span><span class="probe">Follow-up: Which part of that week takes the most of your time?</span><span class="why">Easy to answer, and it shows where your topic fits in their week.</span><span class="goals"><span class="tag">Any goal</span></span></span></label><label class="qitem" for="pick-q2"><input type="checkbox" id="pick-q2" data-id="q2"><span><span class="q">Walk me through the last time you worked on [topic].</span><span class="probe">Follow-up: What happened just before that?</span><span class="why">A real, recent example beats opinions about a typical day.</span><span class="goals"><span class="tag">Any goal</span></span></span></label><label class="qitem" for="pick-q3"><input type="checkbox" id="pick-q3" data-id="q3"><span><span class="q">How did [product] first come into your work?</span><span class="probe">Follow-up: Who else was involved at that point?</span><span class="why">Sets up the story before you ask about details.</span><span class="goals"><span class="tag">Churn</span><span class="tag">Retention</span><span class="tag">Onboarding</span><span class="tag">Feature feedback and requests</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q4"><input type="checkbox" id="pick-q4" data-id="q4"><span><span class="q">Tell me about the project that led you to look at tools like ours.</span><span class="probe">Follow-up: What was going on in the business at the time?</span><span class="why">Starts the deal story at the real beginning, not at the demo.</span><span class="goals"><span class="tag">Win-loss</span></span></span></label><h3 class="stage-h">How they work today</h3><label class="qitem" for="pick-q5"><input type="checkbox" id="pick-q5" data-id="q5"><span><span class="q">Walk me through how you handle [task] today, step by step.</span><span class="probe">Follow-up: Where does that usually slow down?</span><span class="why">The current workflow is where the real problems hide.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Feature feedback and requests</span><span class="tag">Retention</span></span></span></label><label class="qitem" for="pick-q6"><input type="checkbox" id="pick-q6" data-id="q6"><span><span class="q">What tools, files or people do you rely on for [task]?</span><span class="probe">Follow-up: How do they fit together?</span><span class="why">Shows the workarounds and the competition you didn't know about.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Feature feedback and requests</span></span></span></label><label class="qitem" for="pick-q7"><input type="checkbox" id="pick-q7" data-id="q7"><span><span class="q">Who else is involved when [task] happens?</span><span class="probe">Follow-up: What does each of them need from it?</span><span class="why">Uncovers other users, approvers and blockers.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Retention</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q8"><input type="checkbox" id="pick-q8" data-id="q8"><span><span class="q">How did you learn to do [task] the way you do it now?</span><span class="probe">Follow-up: What changed along the way?</span><span class="why">Shows habits and how open they are to change.</span><span class="goals"><span class="tag">Discovery</span></span></span></label><label class="qitem" for="pick-q9"><input type="checkbox" id="pick-q9" data-id="q9"><span><span class="q">Tell me about the last time you used [product]. What were you trying to get done?</span><span class="probe">Follow-up: What did you do right after?</span><span class="why">Grounds feedback in one real session.</span><span class="goals"><span class="tag">Retention</span><span class="tag">Feature feedback and requests</span></span></span></label><h3 class="stage-h">The problem, in a real example</h3><label class="qitem" for="pick-q10"><input type="checkbox" id="pick-q10" data-id="q10"><span><span class="q">Tell me about the last time [problem] happened.</span><span class="probe">Follow-up: What did that cost you?</span><span class="why">A specific incident shows how much the problem really hurts.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Feature feedback and requests</span><span class="tag">Churn</span></span></span></label><label class="qitem" for="pick-q11"><input type="checkbox" id="pick-q11" data-id="q11"><span><span class="q">What is the hardest part of [task]?</span><span class="probe">Follow-up: Can you give me a recent example?</span><span class="why">Lets them name the pain in their own words, then anchors it.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Feature feedback and requests</span></span></span></label><label class="qitem" for="pick-q12"><input type="checkbox" id="pick-q12" data-id="q12"><span><span class="q">What happens when [task] goes wrong?</span><span class="probe">Follow-up: Who notices first?</span><span class="why">Shows consequences and who feels them.</span><span class="goals"><span class="tag">Discovery</span></span></span></label><label class="qitem" for="pick-q13"><input type="checkbox" id="pick-q13" data-id="q13"><span><span class="q">How often did [problem] come up last month?</span><span class="probe">Follow-up: What did you do each time?</span><span class="why">Frequency in the past is more honest than a guess about the future.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q14"><input type="checkbox" id="pick-q14" data-id="q14"><span><span class="q">What was the most frustrating moment you had with [product]?</span><span class="probe">Follow-up: What did you do next?</span><span class="why">Gets to the moment, not a rating.</span><span class="goals"><span class="tag">Churn</span><span class="tag">Retention</span></span></span></label><h3 class="stage-h">What they tried</h3><label class="qitem" for="pick-q15"><input type="checkbox" id="pick-q15" data-id="q15"><span><span class="q">What have you tried so far to fix [problem]?</span><span class="probe">Follow-up: How did that work out?</span><span class="why">If they tried nothing, the problem may not matter much to them.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Feature feedback and requests</span><span class="tag">Churn</span></span></span></label><label class="qitem" for="pick-q16"><input type="checkbox" id="pick-q16" data-id="q16"><span><span class="q">What other tools or services did you look at for this?</span><span class="probe">Follow-up: What stood out about each one?</span><span class="why">Shows the real alternatives, including doing nothing.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Win-loss</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q17"><input type="checkbox" id="pick-q17" data-id="q17"><span><span class="q">How much time or money did you spend on [problem] last year?</span><span class="probe">Follow-up: Who signed off on that?</span><span class="why">Past spending shows real willingness to pay.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q18"><input type="checkbox" id="pick-q18" data-id="q18"><span><span class="q">Tell me about a workaround you built or rely on.</span><span class="probe">Follow-up: What does it cost you to keep it running?</span><span class="why">Workarounds are proof of a painful problem.</span><span class="goals"><span class="tag">Discovery</span><span class="tag">Feature feedback and requests</span></span></span></label><label class="qitem" for="pick-q19"><input type="checkbox" id="pick-q19" data-id="q19"><span><span class="q">Before you used [product], how did you handle this?</span><span class="probe">Follow-up: What made you move away from that?</span><span class="why">Shows what [product] replaced and why.</span><span class="goals"><span class="tag">Churn</span><span class="tag">Retention</span></span></span></label><h3 class="stage-h">Choosing and buying</h3><label class="qitem" for="pick-q20"><input type="checkbox" id="pick-q20" data-id="q20"><span><span class="q">Walk me through how you decided to buy [product].</span><span class="probe">Follow-up: Who had the final say?</span><span class="why">Maps the real buying process.</span><span class="goals"><span class="tag">Win-loss</span><span class="tag">Pricing and value</span><span class="tag">Onboarding</span></span></span></label><label class="qitem" for="pick-q21"><input type="checkbox" id="pick-q21" data-id="q21"><span><span class="q">What made you start looking for a solution at that time?</span><span class="probe">Follow-up: What was at stake if nothing changed?</span><span class="why">Finds the trigger that created urgency.</span><span class="goals"><span class="tag">Win-loss</span></span></span></label><label class="qitem" for="pick-q22"><input type="checkbox" id="pick-q22" data-id="q22"><span><span class="q">What else was on the shortlist, and how did you compare them?</span><span class="probe">Follow-up: What tipped the decision?</span><span class="why">Shows the criteria that actually decided it.</span><span class="goals"><span class="tag">Win-loss</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q23"><input type="checkbox" id="pick-q23" data-id="q23"><span><span class="q">What almost stopped you from going ahead?</span><span class="probe">Follow-up: How did that get resolved?</span><span class="why">Shows anxieties and objections in the deal.</span><span class="goals"><span class="tag">Win-loss</span></span></span></label><label class="qitem" for="pick-q24"><input type="checkbox" id="pick-q24" data-id="q24"><span><span class="q">Tell me about the moment you decided against us.</span><span class="probe">Follow-up: What did the option you chose do better?</span><span class="why">For lost deals: the deciding moment, in their words.</span><span class="goals"><span class="tag">Win-loss</span></span></span></label><label class="qitem" for="pick-q25"><input type="checkbox" id="pick-q25" data-id="q25"><span><span class="q">How did you justify the cost of [product] internally?</span><span class="probe">Follow-up: Who did you have to convince?</span><span class="why">Shows the value story they told their boss.</span><span class="goals"><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q26"><input type="checkbox" id="pick-q26" data-id="q26"><span><span class="q">When you first saw the price, what went through your mind?</span><span class="probe">Follow-up: What did you compare it with?</span><span class="why">Reveals their reference point for price.</span><span class="goals"><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q39"><input type="checkbox" id="pick-q39" data-id="q39"><span><span class="q">What made you sign up for [product] in the first place?</span><span class="probe">Follow-up: What was going on that week?</span><span class="why">Finds the trigger that brought them in.</span><span class="goals"><span class="tag">Onboarding</span><span class="tag">Win-loss</span></span></span></label><label class="qitem" for="pick-q40"><input type="checkbox" id="pick-q40" data-id="q40"><span><span class="q">Tell me about the demo or trial. What stuck with you?</span><span class="probe">Follow-up: What questions were left open afterwards?</span><span class="why">Shows what the evaluation actually felt like.</span><span class="goals"><span class="tag">Win-loss</span></span></span></label><label class="qitem" for="pick-q41"><input type="checkbox" id="pick-q41" data-id="q41"><span><span class="q">How did the conversations with our team go?</span><span class="probe">Follow-up: What was missing?</span><span class="why">Honest feedback on the sales process.</span><span class="goals"><span class="tag">Win-loss</span></span></span></label><h3 class="stage-h">Using the product</h3><label class="qitem" for="pick-q27"><input type="checkbox" id="pick-q27" data-id="q27"><span><span class="q">Walk me through your first day with [product].</span><span class="probe">Follow-up: What did you expect to happen that didn't?</span><span class="why">Shows first impressions and setup friction.</span><span class="goals"><span class="tag">Onboarding</span></span></span></label><label class="qitem" for="pick-q28"><input type="checkbox" id="pick-q28" data-id="q28"><span><span class="q">When did [product] first feel useful to you?</span><span class="probe">Follow-up: What were you doing at that moment?</span><span class="why">Finds the first real value moment.</span><span class="goals"><span class="tag">Onboarding</span></span></span></label><label class="qitem" for="pick-q29"><input type="checkbox" id="pick-q29" data-id="q29"><span><span class="q">Where did you get stuck during setup?</span><span class="probe">Follow-up: How did you get unstuck?</span><span class="why">Shows where people drop off, and the help they reached for.</span><span class="goals"><span class="tag">Onboarding</span></span></span></label><label class="qitem" for="pick-q30"><input type="checkbox" id="pick-q30" data-id="q30"><span><span class="q">Who else on your team started using [product], and how did that happen?</span><span class="probe">Follow-up: What helped it spread across the team?</span><span class="why">Shows adoption inside the account.</span><span class="goals"><span class="tag">Onboarding</span><span class="tag">Retention</span></span></span></label><label class="qitem" for="pick-q31"><input type="checkbox" id="pick-q31" data-id="q31"><span><span class="q">What do you use [product] for most?</span><span class="probe">Follow-up: Tell me about the last time you did that.</span><span class="why">Shows the core job, then anchors it in a real session.</span><span class="goals"><span class="tag">Retention</span><span class="tag">Feature feedback and requests</span></span></span></label><label class="qitem" for="pick-q32"><input type="checkbox" id="pick-q32" data-id="q32"><span><span class="q">Tell me about a time you couldn't use [product]. What did you do?</span><span class="probe">Follow-up: What did that cost you?</span><span class="why">Shows the value they really lose without it, from a real moment.</span><span class="goals"><span class="tag">Retention</span><span class="tag">Pricing and value</span></span></span></label><label class="qitem" for="pick-q33"><input type="checkbox" id="pick-q33" data-id="q33"><span><span class="q">Tell me about the last time you wished [product] did something it doesn't.</span><span class="probe">Follow-up: What did you do instead?</span><span class="why">A real moment of need beats a wish list.</span><span class="goals"><span class="tag">Feature feedback and requests</span></span></span></label><label class="qitem" for="pick-q34"><input type="checkbox" id="pick-q34" data-id="q34"><span><span class="q">When you asked for [feature], what were you trying to get done?</span><span class="probe">Follow-up: How are you handling that today?</span><span class="why">Gets to the job behind the request.</span><span class="goals"><span class="tag">Feature feedback and requests</span></span></span></label><label class="qitem" for="pick-q35"><input type="checkbox" id="pick-q35" data-id="q35"><span><span class="q">Which parts of [product] do you never use?</span><span class="probe">Follow-up: What got in the way?</span><span class="why">Shows features that don't fit their work.</span><span class="goals"><span class="tag">Feature feedback and requests</span><span class="tag">Retention</span></span></span></label><label class="qitem" for="pick-q36"><input type="checkbox" id="pick-q36" data-id="q36"><span><span class="q">What made you renew last time?</span><span class="probe">Follow-up: Who else had a say?</span><span class="why">Shows the reasons people stay, from a real decision.</span><span class="goals"><span class="tag">Retention</span></span></span></label><label class="qitem" for="pick-q37"><input type="checkbox" id="pick-q37" data-id="q37"><span><span class="q">How do you explain the value of [product] to a colleague?</span><span class="probe">Follow-up: Tell me about the last time you did that.</span><span class="why">Their words become your value message.</span><span class="goals"><span class="tag">Pricing and value</span><span class="tag">Retention</span></span></span></label><label class="qitem" for="pick-q38"><input type="checkbox" id="pick-q38" data-id="q38"><span><span class="q">What did you do in the first week to get [product] set up?</span><span class="probe">Follow-up: Who helped you?</span><span class="why">Shows the real setup path, not the one in your docs.</span><span class="goals"><span class="tag">Onboarding</span></span></span></label><label class="qitem" for="pick-q42"><input type="checkbox" id="pick-q42" data-id="q42"><span><span class="q">Tell me about the last time you questioned whether [product] was worth the cost.</span><span class="probe">Follow-up: What happened next?</span><span class="why">Finds the moments when value is in doubt.</span><span class="goals"><span class="tag">Pricing and value</span><span class="tag">Retention</span></span></span></label><h3 class="stage-h">Leaving or switching</h3><label class="qitem" for="pick-q43"><input type="checkbox" id="pick-q43" data-id="q43"><span><span class="q">Walk me through what was happening when you decided to cancel.</span><span class="probe">Follow-up: When did you first think about it?</span><span class="why">The decision usually starts weeks before the cancel click.</span><span class="goals"><span class="tag">Churn</span></span></span></label><label class="qitem" for="pick-q44"><input type="checkbox" id="pick-q44" data-id="q44"><span><span class="q">What was the moment you knew [product] wasn't working for you?</span><span class="probe">Follow-up: What happened right before that?</span><span class="why">Finds the breaking point.</span><span class="goals"><span class="tag">Churn</span></span></span></label><label class="qitem" for="pick-q45"><input type="checkbox" id="pick-q45" data-id="q45"><span><span class="q">What are you using now instead, and how did you choose it?</span><span class="probe">Follow-up: What does it do better for you?</span><span class="why">Shows the real alternative and why it won.</span><span class="goals"><span class="tag">Churn</span><span class="tag">Win-loss</span></span></span></label><label class="qitem" for="pick-q46"><input type="checkbox" id="pick-q46" data-id="q46"><span><span class="q">What did you try before you decided to leave?</span><span class="probe">Follow-up: Who did you talk to about it?</span><span class="why">Shows whether they asked for help, and if it came.</span><span class="goals"><span class="tag">Churn</span></span></span></label><label class="qitem" for="pick-q47"><input type="checkbox" id="pick-q47" data-id="q47"><span><span class="q">How did the cancellation itself go?</span><span class="probe">Follow-up: What was the last thing you did in [product]?</span><span class="why">Shows friction at the very end.</span><span class="goals"><span class="tag">Churn</span></span></span></label><label class="qitem" for="pick-q48"><input type="checkbox" id="pick-q48" data-id="q48"><span><span class="q">What has changed since you stopped using [product]?</span><span class="probe">Follow-up: What do you miss, if anything?</span><span class="why">Shows what [product] actually did for them.</span><span class="goals"><span class="tag">Churn</span><span class="tag">Retention</span></span></span></label><h3 class="stage-h">Wrap-up</h3><label class="qitem" for="pick-q49"><input type="checkbox" id="pick-q49" data-id="q49"><span><span class="q">What else should I have asked you about?</span><span class="probe">Follow-up: Why does that matter to you?</span><span class="why">Catches the topic you didn't know to ask about.</span><span class="goals"><span class="tag">Any goal</span></span></span></label><label class="qitem" for="pick-q50"><input type="checkbox" id="pick-q50" data-id="q50"><span><span class="q">Who else should I talk to about this?</span><span class="probe">Follow-up: How does their view usually differ from yours?</span><span class="why">Leads to your next interview.</span><span class="goals"><span class="tag">Any goal</span></span></span></label><label class="qitem" for="pick-q51"><input type="checkbox" id="pick-q51" data-id="q51"><span><span class="q">What recent example can you show me or send me after the call?</span><span class="probe">Follow-up: What does it show?</span><span class="why">Real artifacts beat memory.</span><span class="goals"><span class="tag">Any goal</span></span></span></label>
+      </div>
+      <noscript><p>JavaScript is off, so the full bank is shown above without filters. Turn on JavaScript to filter, pick questions and copy your guide.</p></noscript>
+    </section>
+
+    <section id="result" aria-labelledby="result-title">
+      <h2 id="result-title">Your interview guide</h2>
+      <article class="guide" id="guide" aria-live="polite">
+        <p class="prompt" id="guide-empty">Tick questions above and they appear here, grouped by stage, ready to copy.</p>
+      </article>
+      <div class="actions js-only sticky-actions">
+        <button class="btn btn-ghost" type="button" id="copy">Copy as Markdown</button>
+        <button class="btn btn-ghost" type="button" id="copy-text">Copy as plain text</button>
+        <button class="btn btn-ghost" type="button" id="dl-md">Download .md</button>
+        <button class="btn btn-ghost" type="button" id="share">Copy link to these picks</button>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="cta">
+        <p><strong>Frank is an AI user researcher that runs short voice interviews.</strong> Share one link with customers you already have, and Frank asks your questions out loud, follows up on each answer, and gives you transcripts and themes. Free plan: 60 voice minutes a month, no card required.</p>
+        <a class="btn btn-primary" id="cta" href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=customer-interview-question-bank">Let Frank ask these questions by voice</a>
+      </div>
+    </section>
+
+    <div class="seo">
+    <h2>How to use the question bank</h2>
+    <ul>
+      <li><strong>Start with the goal.</strong> Pick discovery, churn, onboarding, retention, feature feedback, pricing or win-loss to see only the questions that fit.</li>
+      <li><strong>Pick a few per stage.</strong> A good guide moves from warm-up, to how they work today, to a real example of the problem, to what they tried, and ends with wrap-up questions.</li>
+      <li><strong>Keep it short.</strong> Fewer questions leave room for follow-ups, and follow-ups are where the useful answers come from.</li>
+      <li><strong>Ask about the past, not the future.</strong> "Tell me about the last time" gets real behavior; "would you use" gets polite guesses.</li>
+      <li><strong>Check your own questions.</strong> Paste any question you add yourself into the <a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>.</li>
+    </ul>
+
+    <h2>Interview stages</h2>
+    <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Stage</th><th scope="col">What it is for</th></tr></thead>
+      <tbody>
+        <tr><td>Warm-up and context</td><td>Easy openers that set up a real, recent example.</td></tr>
+        <tr><td>How they work today</td><td>How the work gets done today, step by step, and who is involved.</td></tr>
+        <tr><td>The problem, in a real example</td><td>One specific time the problem happened and what it cost.</td></tr>
+        <tr><td>What they tried</td><td>Workarounds, alternatives and money already spent: proof the problem matters.</td></tr>
+        <tr><td>Choosing and buying</td><td>How they found, compared, justified and bought a solution.</td></tr>
+        <tr><td>Using the product</td><td>First days, value moments, gaps and what keeps them using it.</td></tr>
+        <tr><td>Leaving or switching</td><td>The moment they decided to leave and what they use now.</td></tr>
+        <tr><td>Wrap-up</td><td>Catch what you missed and find your next interview.</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>FAQ</h2>
+    <h3>What is a customer interview question bank?</h3>
+    <p>A list of tried interview questions you can choose from instead of writing a guide from scratch. This one lets you filter by goal and interview stage, pick the questions you want, and copy them as your own guide with a follow-up for each.</p>
+    <h3>What makes a good customer interview question?</h3>
+    <p>It asks about something that really happened, in the person's own words: &quot;Tell me about the last time&quot; rather than &quot;Would you use&quot;. Good questions are open, don't hint at the answer you want, and leave room for a follow-up. Every question here passes the Mom Test question checker.</p>
+    <h3>How is this different from the interview guide generator?</h3>
+    <p>The guide generator gives you a ready-made guide for one goal. The question bank shows every question across goals and stages so you can mix and pick your own, for example onboarding questions with a few pricing ones.</p>
+    <h3>Can I share my picks with my team?</h3>
+    <p>Yes. Copy link to these picks makes a link with the goal, stage and question numbers. Your product name and topic are not put in the link.</p>
+    <h3>Does this use AI? Is anything sent to a server?</h3>
+    <p>No. The questions are a fixed list and the filters run in your browser. Nothing you type is sent anywhere.</p>
+    <h3>Can Frank ask these questions for me?</h3>
+    <p>Yes. Frank runs short voice interviews with customers you already have: it asks your questions out loud and follows up on each answer. Free plan: 60 voice minutes a month, no card required. Frank does not recruit participants.</p>
+    <h3>Can I set up the interviews from an AI assistant?</h3>
+    <p>Yes. Frank has a remote <a href="https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html">MCP server</a> at <code>https://api.hifrank.ai/mcp</code>, included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.</p>
+
+    <h2>Related tools and guides</h2>
+    <ul>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-guide-generator/">Customer interview guide generator</a>: 8 questions for churn, win-loss, discovery or pricing</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/jtbd-interview-question-generator/">JTBD switch interview question generator</a>: timeline questions tagged push, pull, anxiety and habit</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/mom-test-checker/">Mom Test question checker</a>: flag leading, hypothetical and yes/no questions</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/cancellation-reason-sorter/">Cancellation reason sorter</a>: sort churn survey answers into themes, with interview follow-ups</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-sample-size-planner/">How many customer interviews planner</a>: a guidance range per segment, with cited studies</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-summary-template/">Customer interview summary template</a>: turn interview notes into a one-page summary with quotes and next steps</li>
+      <li><a href="https://nar-vardanyan.github.io/frank-mcp/how-to-run-customer-interviews.html">How to run customer interviews</a></li>
+    </ul>
+    </div>
+  </main>
+
+  <footer>
+    Made by the team behind <a href="https://hifrank.ai/?utm_source=frank-mcp-docs&amp;utm_medium=tool&amp;utm_campaign=customer-interview-question-bank">Frank AI Researcher</a>. Nothing you type on this page leaves your browser. The share link holds only the goal, stage and question numbers you picked.
+  </footer>
+</div>
+
+<script>
+// Customer interview question bank: core data and logic. Fixed list, runs in the browser, sends nothing anywhere.
+// Every question and follow-up must pass mom-test-checker/checker-core.js (checked in build.js and test_core.js).
+var QB = (function () {
+  var GOALS = {
+    discovery: "Discovery (problems and workflow)",
+    churn: "Churn (why customers left)",
+    onboarding: "Onboarding (first weeks)",
+    retention: "Retention (why customers stay)",
+    feature: "Feature feedback and requests",
+    pricing: "Pricing and value",
+    winloss: "Win-loss (why a deal was won or lost)"
+  };
+  var STAGES = {
+    context: "Warm-up and context",
+    workflow: "How they work today",
+    problem: "The problem, in a real example",
+    attempts: "What they tried",
+    decision: "Choosing and buying",
+    usage: "Using the product",
+    leaving: "Leaving or switching",
+    wrap: "Wrap-up"
+  };
+  var ALL = Object.keys(GOALS);
+  // [stage, goals ("*" = all), question, follow-up, why it works]
+  var RAW = [
+    ["context", "*", "Tell me about your role and what a normal week looks like for you.", "Which part of that week takes the most of your time?", "Easy to answer, and it shows where your topic fits in their week."],
+    ["context", "*", "Walk me through the last time you worked on [topic].", "What happened just before that?", "A real, recent example beats opinions about a typical day."],
+    ["context", ["churn", "retention", "onboarding", "feature", "pricing"], "How did [product] first come into your work?", "Who else was involved at that point?", "Sets up the story before you ask about details."],
+    ["context", ["winloss"], "Tell me about the project that led you to look at tools like ours.", "What was going on in the business at the time?", "Starts the deal story at the real beginning, not at the demo."],
+    ["workflow", ["discovery", "feature", "retention"], "Walk me through how you handle [task] today, step by step.", "Where does that usually slow down?", "The current workflow is where the real problems hide."],
+    ["workflow", ["discovery", "feature"], "What tools, files or people do you rely on for [task]?", "How do they fit together?", "Shows the workarounds and the competition you didn't know about."],
+    ["workflow", ["discovery", "retention", "pricing"], "Who else is involved when [task] happens?", "What does each of them need from it?", "Uncovers other users, approvers and blockers."],
+    ["workflow", ["discovery"], "How did you learn to do [task] the way you do it now?", "What changed along the way?", "Shows habits and how open they are to change."],
+    ["workflow", ["retention", "feature"], "Tell me about the last time you used [product]. What were you trying to get done?", "What did you do right after?", "Grounds feedback in one real session."],
+    ["problem", ["discovery", "feature", "churn"], "Tell me about the last time [problem] happened.", "What did that cost you?", "A specific incident shows how much the problem really hurts."],
+    ["problem", ["discovery", "feature"], "What is the hardest part of [task]?", "Can you give me a recent example?", "Lets them name the pain in their own words, then anchors it."],
+    ["problem", ["discovery"], "What happens when [task] goes wrong?", "Who notices first?", "Shows consequences and who feels them."],
+    ["problem", ["discovery", "pricing"], "How often did [problem] come up last month?", "What did you do each time?", "Frequency in the past is more honest than a guess about the future."],
+    ["problem", ["churn", "retention"], "What was the most frustrating moment you had with [product]?", "What did you do next?", "Gets to the moment, not a rating."],
+    ["attempts", ["discovery", "feature", "churn"], "What have you tried so far to fix [problem]?", "How did that work out?", "If they tried nothing, the problem may not matter much to them."],
+    ["attempts", ["discovery", "winloss", "pricing"], "What other tools or services did you look at for this?", "What stood out about each one?", "Shows the real alternatives, including doing nothing."],
+    ["attempts", ["discovery", "pricing"], "How much time or money did you spend on [problem] last year?", "Who signed off on that?", "Past spending shows real willingness to pay."],
+    ["attempts", ["discovery", "feature"], "Tell me about a workaround you built or rely on.", "What does it cost you to keep it running?", "Workarounds are proof of a painful problem."],
+    ["attempts", ["churn", "retention"], "Before you used [product], how did you handle this?", "What made you move away from that?", "Shows what [product] replaced and why."],
+    ["decision", ["winloss", "pricing", "onboarding"], "Walk me through how you decided to buy [product].", "Who had the final say?", "Maps the real buying process."],
+    ["decision", ["winloss"], "What made you start looking for a solution at that time?", "What was at stake if nothing changed?", "Finds the trigger that created urgency."],
+    ["decision", ["winloss", "pricing"], "What else was on the shortlist, and how did you compare them?", "What tipped the decision?", "Shows the criteria that actually decided it."],
+    ["decision", ["winloss"], "What almost stopped you from going ahead?", "How did that get resolved?", "Shows anxieties and objections in the deal."],
+    ["decision", ["winloss"], "Tell me about the moment you decided against us.", "What did the option you chose do better?", "For lost deals: the deciding moment, in their words."],
+    ["decision", ["pricing"], "How did you justify the cost of [product] internally?", "Who did you have to convince?", "Shows the value story they told their boss."],
+    ["decision", ["pricing"], "When you first saw the price, what went through your mind?", "What did you compare it with?", "Reveals their reference point for price."],
+    ["usage", ["onboarding"], "Walk me through your first day with [product].", "What did you expect to happen that didn't?", "Shows first impressions and setup friction."],
+    ["usage", ["onboarding"], "When did [product] first feel useful to you?", "What were you doing at that moment?", "Finds the first real value moment."],
+    ["usage", ["onboarding"], "Where did you get stuck during setup?", "How did you get unstuck?", "Shows where people drop off, and the help they reached for."],
+    ["usage", ["onboarding", "retention"], "Who else on your team started using [product], and how did that happen?", "What helped it spread across the team?", "Shows adoption inside the account."],
+    ["usage", ["retention", "feature"], "What do you use [product] for most?", "Tell me about the last time you did that.", "Shows the core job, then anchors it in a real session."],
+    ["usage", ["retention", "pricing"], "Tell me about a time you couldn't use [product]. What did you do?", "What did that cost you?", "Shows the value they really lose without it, from a real moment."],
+    ["usage", ["feature"], "Tell me about the last time you wished [product] did something it doesn't.", "What did you do instead?", "A real moment of need beats a wish list."],
+    ["usage", ["feature"], "When you asked for [feature], what were you trying to get done?", "How are you handling that today?", "Gets to the job behind the request."],
+    ["usage", ["feature", "retention"], "Which parts of [product] do you never use?", "What got in the way?", "Shows features that don't fit their work."],
+    ["usage", ["retention"], "What made you renew last time?", "Who else had a say?", "Shows the reasons people stay, from a real decision."],
+    ["usage", ["pricing", "retention"], "How do you explain the value of [product] to a colleague?", "Tell me about the last time you did that.", "Their words become your value message."],
+    ["usage", ["onboarding"], "What did you do in the first week to get [product] set up?", "Who helped you?", "Shows the real setup path, not the one in your docs."],
+    ["decision", ["onboarding", "winloss"], "What made you sign up for [product] in the first place?", "What was going on that week?", "Finds the trigger that brought them in."],
+    ["decision", ["winloss"], "Tell me about the demo or trial. What stuck with you?", "What questions were left open afterwards?", "Shows what the evaluation actually felt like."],
+    ["decision", ["winloss"], "How did the conversations with our team go?", "What was missing?", "Honest feedback on the sales process."],
+    ["usage", ["pricing", "retention"], "Tell me about the last time you questioned whether [product] was worth the cost.", "What happened next?", "Finds the moments when value is in doubt."],
+    ["leaving", ["churn"], "Walk me through what was happening when you decided to cancel.", "When did you first think about it?", "The decision usually starts weeks before the cancel click."],
+    ["leaving", ["churn"], "What was the moment you knew [product] wasn't working for you?", "What happened right before that?", "Finds the breaking point."],
+    ["leaving", ["churn", "winloss"], "What are you using now instead, and how did you choose it?", "What does it do better for you?", "Shows the real alternative and why it won."],
+    ["leaving", ["churn"], "What did you try before you decided to leave?", "Who did you talk to about it?", "Shows whether they asked for help, and if it came."],
+    ["leaving", ["churn"], "How did the cancellation itself go?", "What was the last thing you did in [product]?", "Shows friction at the very end."],
+    ["leaving", ["churn", "retention"], "What has changed since you stopped using [product]?", "What do you miss, if anything?", "Shows what [product] actually did for them."],
+    ["wrap", "*", "What else should I have asked you about?", "Why does that matter to you?", "Catches the topic you didn't know to ask about."],
+    ["wrap", "*", "Who else should I talk to about this?", "How does their view usually differ from yours?", "Leads to your next interview."],
+    ["wrap", "*", "What recent example can you show me or send me after the call?", "What does it show?", "Real artifacts beat memory."]
+  ];
+  var BANK = RAW.map(function (r, i) {
+    return { id: "q" + (i + 1), stage: r[0], goals: r[1] === "*" ? ALL.slice() : r[1], q: r[2], probe: r[3], why: r[4] };
+  });
+  function clean(s, max) { return String(s == null ? "" : s).replace(/[\u0000-\u001f]/g, " ").replace(/\s+/g, " ").trim().slice(0, max || 80); }
+  function fill(text, o) {
+    o = o || {};
+    var map = { product: clean(o.product), topic: clean(o.topic) };
+    return text.replace(/\[(product|topic|task|problem|feature)\]/g, function (m, k) {
+      if (k === "product" && map.product) return map.product;
+      if ((k === "topic" || k === "task" || k === "problem") && map.topic) return map.topic;
+      return m;
+    });
+  }
+  function filter(o) {
+    o = o || {};
+    var goal = GOALS[o.goal] ? o.goal : "";
+    var stage = STAGES[o.stage] ? o.stage : "";
+    var words = clean(o.search, 60).toLowerCase().split(" ").filter(Boolean);
+    return BANK.filter(function (x) {
+      if (goal && x.goals.indexOf(goal) < 0) return false;
+      if (stage && x.stage !== stage) return false;
+      var hay = (x.q + " " + x.probe + " " + x.why).toLowerCase();
+      return words.every(function (w) { return hay.indexOf(w) >= 0; });
+    });
+  }
+  function byStage(list) {
+    return Object.keys(STAGES).map(function (k) { return { stage: k, label: STAGES[k], items: list.filter(function (x) { return x.stage === k; }) }; }).filter(function (g) { return g.items.length; });
+  }
+  function picked(ids) {
+    var set = {}; (ids || []).forEach(function (id) { set[id] = 1; });
+    return BANK.filter(function (x) { return set[x.id]; });
+  }
+  function mdEsc(s) { return String(s).replace(/([\\`*_[\]<>|#])/g, "\\$1"); }
+  function toMarkdown(list, o, cta) {
+    o = o || {};
+    var L = ["# Customer interview guide" + (o.goal && GOALS[o.goal] ? ": " + GOALS[o.goal] : ""), ""];
+    if (!list.length) L.push("_No questions picked yet._", "");
+    var n = 0;
+    byStage(list).forEach(function (g) {
+      L.push("## " + g.label, "");
+      g.items.forEach(function (x) { n++; L.push(n + ". " + mdEsc(fill(x.q, o)), "   - Follow-up: " + mdEsc(fill(x.probe, o))); });
+      L.push("");
+    });
+    L.push("Ask about real past events, let silences run, and follow up on whatever surprises you.", "");
+    if (cta) L.push("---", "Made with the free customer interview question bank from Frank: " + cta);
+    return L.join("\n").replace(/\n{3,}/g, "\n\n").trim() + "\n";
+  }
+  function toText(list, o) {
+    var L = [], n = 0;
+    byStage(list).forEach(function (g) {
+      L.push(g.label.toUpperCase());
+      g.items.forEach(function (x) { n++; L.push(n + ". " + fill(x.q, o), "   Follow-up: " + fill(x.probe, o)); });
+      L.push("");
+    });
+    return L.join("\n").trim() + "\n";
+  }
+  function fromParams(search) {
+    var out = {};
+    try {
+      var p = new URLSearchParams(search || "");
+      if (GOALS[p.get("goal")]) out.goal = p.get("goal");
+      if (STAGES[p.get("stage")]) out.stage = p.get("stage");
+      var ids = (p.get("q") || "").split(",").filter(function (id) { return /^q\d{1,3}$/.test(id) && BANK.some(function (x) { return x.id === id; }); });
+      if (ids.length) out.ids = ids;
+    } catch (e) {}
+    return out;
+  }
+  return { GOALS: GOALS, STAGES: STAGES, BANK: BANK, clean: clean, fill: fill, filter: filter, byStage: byStage, picked: picked, toMarkdown: toMarkdown, toText: toText, fromParams: fromParams };
+})();
+
+(function () {
+  document.documentElement.className += " has-js";
+  var CTA = "https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=tool&utm_campaign=customer-interview-question-bank";
+  var BASE = "https://nar-vardanyan.github.io/frank-mcp/tools/customer-interview-question-bank/";
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+  function $(id) { return document.getElementById(id); }
+  var bank_ = (function bankHTML(list, picks, o, esc, Q) {
+  if (!list.length) return "<p class=\"prompt\">No questions match. Try another goal, stage or search word.</p>";
+  return Q.byStage(list).map(function (g) {
+    return "<h3 class=\"stage-h\">" + esc(g.label) + "</h3>" + g.items.map(function (x) {
+      var on = picks.indexOf(x.id) >= 0;
+      return "<label class=\"qitem" + (on ? " on" : "") + "\" for=\"pick-" + x.id + "\"><input type=\"checkbox\" id=\"pick-" + x.id + "\" data-id=\"" + x.id + "\"" + (on ? " checked" : "") + ">" +
+        "<span><span class=\"q\">" + esc(Q.fill(x.q, o)) + "</span><span class=\"probe\">Follow-up: " + esc(Q.fill(x.probe, o)) + "</span><span class=\"why\">" + esc(Q.fill(x.why, o)) + "</span>" +
+        "<span class=\"goals\">" + (x.goals.length === Object.keys(Q.GOALS).length ? "<span class=\"tag\">Any goal</span>" : x.goals.map(function (k) { return "<span class=\"tag\">" + esc(Q.GOALS[k].split(" (")[0]) + "</span>"; }).join("")) + "</span></span></label>";
+    }).join("");
+  }).join("");
+});
+  var guide_ = (function guideHTML(list, o, esc, Q) {
+  if (!list.length) return "<p class=\"prompt\" id=\"guide-empty\">Tick questions above and they appear here, grouped by stage, ready to copy.</p>";
+  var n = 0;
+  return Q.byStage(list).map(function (g) {
+    return "<h3>" + esc(g.label) + "</h3><ol start=\"" + (n + 1) + "\">" + g.items.map(function (x) { n++; return "<li>" + esc(Q.fill(x.q, o)) + "<span class=\"probe\">Follow-up: " + esc(Q.fill(x.probe, o)) + "</span></li>"; }).join("") + "</ol>";
+  }).join("") + "<p class=\"hint\">Ask about real past events, let silences run, and follow up on whatever surprises you.</p>";
+});
+  var picks = [];
+  function o() { return { goal: $("goal").value, stage: $("stage").value, search: $("search").value, product: $("product").value, topic: $("topic").value }; }
+  var shown = [];
+  function render() {
+    var opt = o(); shown = QB.filter(opt);
+    $("bank").innerHTML = bank_(shown, picks, opt, esc, QB);
+    $("guide").innerHTML = guide_(QB.picked(picks), opt, esc, QB);
+    $("count").textContent = "Showing " + shown.length + " of " + QB.BANK.length + " questions. " + picks.length + " picked.";
+    $("status").textContent = "";
+  }
+  $("gen").addEventListener("submit", function (e) { e.preventDefault(); render(); });
+  ["goal", "stage"].forEach(function (id) { $(id).addEventListener("change", render); });
+  ["search", "product", "topic"].forEach(function (id) { $(id).addEventListener("input", render); });
+  $("bank").addEventListener("change", function (e) {
+    var id = e.target && e.target.getAttribute("data-id"); if (!id) return;
+    var i = picks.indexOf(id);
+    if (e.target.checked && i < 0) picks.push(id); else if (!e.target.checked && i >= 0) picks.splice(i, 1);
+    render();
+  });
+  $("pick-shown").addEventListener("click", function () { shown.forEach(function (x) { if (picks.indexOf(x.id) < 0) picks.push(x.id); }); render(); });
+  $("clear-picks").addEventListener("click", function () { picks = []; render(); });
+  function copy(text, done) {
+    function ok() { $("status").textContent = done || "Copied"; }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); ok(); } catch (err) { $("status").textContent = "Select the guide and copy it manually"; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  }
+  $("copy").addEventListener("click", function () { copy(QB.toMarkdown(QB.picked(picks), o(), CTA)); });
+  $("copy-text").addEventListener("click", function () { copy(QB.toText(QB.picked(picks), o())); });
+  $("share").addEventListener("click", function () {
+    var p = []; var opt = o();
+    if (opt.goal) p.push("goal=" + opt.goal);
+    if (opt.stage) p.push("stage=" + opt.stage);
+    if (picks.length) p.push("q=" + QB.picked(picks).map(function (x) { return x.id; }).join(","));
+    copy(BASE + (p.length ? "?" + p.join("&") : ""), "Link copied");
+  });
+  $("dl-md").addEventListener("click", function () {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([QB.toMarkdown(QB.picked(picks), o(), CTA)], { type: "text/markdown;charset=utf-8" }));
+    a.download = "customer-interview-guide.md";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    $("status").textContent = "Downloaded";
+  });
+  // Deep links: ?goal=<goal>&stage=<stage>&q=q1,q5 (product and topic are never read from the URL)
+  var P = QB.fromParams(window.location.search);
+  if (P.goal) $("goal").value = P.goal;
+  if (P.stage) $("stage").value = P.stage;
+  if (P.ids) picks = P.ids.slice();
+  render();
+})();
+</script>
+</body>
+</html>
