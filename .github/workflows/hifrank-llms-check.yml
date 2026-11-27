@@ -1,0 +1,33 @@
+name: hifrank.ai llms.txt check
+
+# Daily guard so a regression in https://www.hifrank.ai/llms.txt can't hide.
+# Checks the file is 100+ lines and every URL in it answers 2xx/3xx.
+# Pending mode (LLMS_EXPECT_FIXED=false): failures are warnings and the job passes.
+# Strict mode (LLMS_EXPECT_FIXED=true): any failure fails the job.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 05:17 UTC daily
+  workflow_dispatch:
+    inputs:
+      strict:
+        description: "Force strict mode (fail on any problem) for this run"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+env:
+  # Flip to 'true' in a one-line PR once the new llms.txt, llms-full.txt and /agents are live.
+  LLMS_EXPECT_FIXED: "false"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check hifrank.ai/llms.txt
+        env:
+          LLMS_EXPECT_FIXED: ${{ (github.event_name == 'workflow_dispatch' && inputs.strict) && 'true' || env.LLMS_EXPECT_FIXED }}
+        run: bash .github/scripts/check-hifrank-llms.sh
