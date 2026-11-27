@@ -19,7 +19,7 @@ permissions:
 
 env:
   # Flip to 'true' in a one-line PR once the new llms.txt, llms-full.txt and /agents are live.
-  LLMS_EXPECT_FIXED: "false"
+  LLMS_EXPECT_FIXED: "true"
 
 jobs:
   check:
