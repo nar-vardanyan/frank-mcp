@@ -130,6 +130,9 @@ Add Frank's voice interview widget to an app built with an AI app builder, with 
 
 ## Comparison pages
 
+- [AI customer interview software: 12 tools compared (2026)](ai-customer-interview-software-compared.md): Interview mode, languages, public pricing, free plans and ChatGPT or MCP availability, each fact sourced to the vendor's own site.
+- [Usercall alternatives: 7 AI interview tools compared (2026)](usercall-alternatives.md)
+- [Listen Labs alternatives: 8 AI-moderated interview platforms compared (2026)](listen-labs-alternatives.md)
 - [MCP servers for user research, compared (Nov 2026)](mcp-servers-for-user-research-compared.md)
 - [Frank vs Outset](frank-vs-outset.md)
 - [Frank vs Listen Labs](frank-vs-listen-labs.md)
