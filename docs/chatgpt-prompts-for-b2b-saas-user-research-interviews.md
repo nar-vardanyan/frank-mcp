@@ -107,7 +107,7 @@ The prompts above help you plan the study and make sense of the results. ChatGPT
 4. Share the interviewer link or a website widget with people at accounts you already have, for example through your customer success team or an in-app message. People talk with the AI interviewer by voice when they have time, without booking a call. Frank does not recruit participants.
 5. As interviews come in, ask ChatGPT to read the transcripts from Frank using prompts 9 to 12 above. Then open a few full transcripts and check each quote you plan to act on.
 
-MCP is included on every Frank plan, including Free. The Free plan includes 60 voice minutes a month, with no card required. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. In other MCP clients, use the MCP endpoint `https://api.hifrank.ai/mcp`.
+MCP is included on every Frank plan, including Free. The Free plan includes 60 voice minutes a month, with no card required. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. In other MCP clients, use the MCP endpoint `https://api.hifrank.ai/mcp`.
 
 ## Frank AI Researcher is available as an app in ChatGPT
 

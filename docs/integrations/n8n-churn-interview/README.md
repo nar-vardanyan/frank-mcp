@@ -2,7 +2,7 @@
 
 This page publishes an n8n workflow template that emails a customer a Frank AI Researcher (Frank) voice-interview invite after their Stripe subscription ends.
 
-Frank is an AI user researcher that runs short voice interviews. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. This template does not treat n8n as a validated Frank MCP client.
+Frank is an AI user researcher that runs short voice interviews. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. This template does not treat n8n as a validated Frank MCP client.
 
 Import file: [workflow.json](workflow.json)
 

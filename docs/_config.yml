@@ -47,7 +47,7 @@ defaults:
   - scope:
       path: mcp-server-for-customer-interviews.md
     values:
-      description: "MCP server for customer interviews: connect https://api.hifrank.ai/mcp with OAuth. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. MCP is on every plan, including Free."
+      description: "MCP server for customer interviews: connect https://api.hifrank.ai/mcp with OAuth. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. MCP is on every plan, including Free."
       schema_page: true
   - scope:
       path: frank-vs-survey-tools-for-founders.md
@@ -119,7 +119,7 @@ defaults:
   - scope:
       path: ai-agent-that-interviews-customers.md
     values:
-      description: "An AI agent that interviews customers can set up studies and read transcripts in the same chat. Frank AI Researcher runs AI-moderated voice interviews with your own customers and includes a remote MCP server on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth."
+      description: "An AI agent that interviews customers can set up studies and read transcripts in the same chat. Frank AI Researcher runs AI-moderated voice interviews with your own customers and includes a remote MCP server on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth."
       schema_page: true
   - scope:
       path: ai-moderated-interviews.md
@@ -288,7 +288,7 @@ defaults:
   - scope:
       path: integrations/n8n-churn-interview/README.md
     values:
-      description: "n8n workflow template that emails a Frank AI Researcher voice-interview invite after a Stripe subscription ends. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth."
+      description: "n8n workflow template that emails a Frank AI Researcher voice-interview invite after a Stripe subscription ends. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth."
       schema_page: true
 
   # CTR rewrites, 26 November 2026: search title and meta description

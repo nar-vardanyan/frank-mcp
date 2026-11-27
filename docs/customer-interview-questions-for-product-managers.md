@@ -49,7 +49,7 @@ Paste the questions you need into a new Frank study, take the interview yourself
 
 [Open Frank AI Researcher](https://hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=role-product-managers) to start a study, or [try a live interview](https://www.hifrank.ai/try-frank?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=role-product-managers) first.
 
-If you work in Claude or ChatGPT, connect Frank as an MCP server at `https://api.hifrank.ai/mcp`. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+If you work in Claude or ChatGPT, connect Frank as an MCP server at `https://api.hifrank.ai/mcp`. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
 
 - [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=role-product-managers)
 - [Feature adoption template](templates/#feature-adoption)
@@ -75,7 +75,7 @@ Use the unused-feature group when something is already live and people are skipp
 
 ### Can I run these interviews from ChatGPT or Claude?
 
-Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
 
 ## Interview questions by role
 

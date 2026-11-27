@@ -2,7 +2,7 @@
 
 **In short:** You automate customer interviews by letting an AI interviewer run consistent voice conversations with your own customers, instead of scheduling and moderating each call yourself. You set up the study, share an interviewer link or a website widget, let the AI interviewer run many interviews in parallel, then read the transcripts and themes and decide what to change.
 
-This page is the non-agent path: you set the study up in the interview tool and share it yourself. If you already work in an AI assistant, you can also connect Frank as an MCP server and ask the assistant to help draft the study or summarize transcripts. Frank works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth; see the section below.
+This page is the non-agent path: you set the study up in the interview tool and share it yourself. If you already work in an AI assistant, you can also connect Frank as an MCP server and ask the assistant to help draft the study or summarize transcripts. Frank works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth; see the section below.
 
 **We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai)**, a voice-first product that runs AI-moderated voice interviews with your own customers. The steps below work with any AI interviewer that can share a link; we note where Frank is one option.
 
@@ -72,7 +72,7 @@ A practical planning range, consistent with our [how many customer interviews do
 
 ## If you already work in an AI assistant
 
-If you already work in an AI assistant, you can also set up the study and read transcripts from there. Frank is available as an [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) server on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+If you already work in an AI assistant, you can also set up the study and read transcripts from there. Frank is available as an [MCP](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai) server on every plan, including Free, and works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## When Frank is a fit
 
@@ -100,7 +100,7 @@ Keep going until new interviews stop adding themes. In one widely cited study, s
 Long enough for a few open questions with follow-ups, short enough that people finish. Ten to fifteen minutes covers 6 to 8 questions for many studies. Match the length to your plan: Frank's Free plan allows interviews up to 10 minutes, and paid plans allow 20 or 30.
 
 ### Can I do this from Claude or ChatGPT instead of the Frank dashboard?
-Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai&utm_content=use-in-claude). Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
+Yes. Frank is available as an MCP server on every plan, including Free, and works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-automate-customer-interviews-with-ai&utm_content=use-in-claude). Connect Frank and ask the assistant to help draft the study or summarize transcripts. Publishing should still wait on your approval.
 
 ### Is this secure enough for customer conversations?
 Frank is SOC 2 and GDPR compliant. Interviews, transcripts, and insights are encrypted and access-controlled. You still choose who on your team can see the data.

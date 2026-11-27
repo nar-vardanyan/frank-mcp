@@ -75,7 +75,7 @@ Frank, as of 23 November 2026: the Free plan includes 225 signup credits plus 60
 
 If your team already works in an AI assistant, ask whether the tool has an MCP server, which plans include it, and which clients are supported.
 
-Frank includes MCP on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. A study created through MCP stays a draft until you approve publishing. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) and [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
+Frank includes MCP on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. The server URL is `https://api.hifrank.ai/mcp`. You sign in with OAuth; there is no API key. A study created through MCP stays a draft until you approve publishing. Setup: [Frank MCP connector docs](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool) and [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-choose-an-ai-customer-interview-tool).
 
 ### 8. Moderation quality
 

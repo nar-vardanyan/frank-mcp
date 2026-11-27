@@ -30,7 +30,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 Frank replaces the form with a short voice conversation. Share an [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews) where you'd share a Typeform, or embed a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews). Customers talk with the AI interviewer, which asks follow-ups. Every interview gets a transcript, and answers are grouped into themes you can check against the original quote. Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=typeform-alternative-for-customer-interviews).
 
-MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+MCP is included on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 **Choose Frank** when you want the "why" from customers you already reach, starting free. **Keep Typeform** for registrations, lead forms, quizzes and closed-question surveys; the two work well side by side.
 

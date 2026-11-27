@@ -35,7 +35,7 @@ If a fact was not on the pages reviewed, it is not assumed missing from the prod
 
 Frank runs AI-moderated voice interviews from a shareable [interviewer link](https://www.hifrank.ai/docs/navigating-your-ai-interviewer-dashboard?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms) or a [website widget](https://www.hifrank.ai/docs/website-widget-embedding-frank-on-your-site?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms). Every interview gets a transcript, and answers are grouped into themes you can check against the original quote, with sentiment and thematic analysis on every plan ([Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms)). Frank supports multilingual interviews. Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-ai-qualitative-research-platforms).
 
-MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant for further analysis.
+MCP is included on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. That means you can pull Frank transcripts into your assistant for further analysis.
 
 **Weaker fit:** you need a recruited panel, video today, or on-screen tasks.
 
@@ -84,7 +84,7 @@ Some combine them. Frank includes transcripts, sentiment and thematic analysis w
 No. Frank does not recruit participants. You invite your own customers.
 
 ### Can I analyze Frank interviews in ChatGPT or Claude?
-Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Yes. MCP is included on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ### How many qualitative interviews do I need?
 Until new interviews stop adding themes. For a fairly similar group, one widely cited study found that within the first 12 ([Guest, Bunce & Johnson, 2006](https://www.sfu.ca/~palys/GuestEtAl-2006-HowManyInterviewsAreEnough.pdf)).

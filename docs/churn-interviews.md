@@ -25,7 +25,7 @@ As of 24 November 2026:
 
 Paid plans have no free trial; the Free plan is the way to try Frank. Cancel anytime. Your plan stays active until the end of the period you've paid for, and there's no refund for the unused time.
 
-MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp` (streamable HTTP). You approve access once in the browser; there is no API key to paste. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 Frank is SOC 2 and [GDPR compliant](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews).
 
@@ -59,7 +59,7 @@ The Free plan includes 225 signup credits plus 60 voice minutes a month, with a 
 
 ### Can I run churn interviews from ChatGPT or Claude?
 
-Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
+Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). In other MCP clients, use the MCP endpoint https://api.hifrank.ai/mcp. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. A study created through MCP stays a draft until you approve publishing.
 
 {% include industry-interview-guides.md %}
 

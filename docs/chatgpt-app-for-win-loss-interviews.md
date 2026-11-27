@@ -51,7 +51,7 @@ Use Frank to create a draft study, and do not publish it. I want to interview bu
 
 <p class="docs-study-cta-wrap"><a class="docs-study-cta" href="https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168">Install Frank in ChatGPT</a></p>
 
-Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-win-loss). The Free plan includes 60 voice minutes a month, with no card required, and MCP is included on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-win-loss). Frank is voice-first, supports multilingual interviews, and is SOC 2 and GDPR compliant. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-win-loss). The Free plan includes 60 voice minutes a month, with no card required, and MCP is included on every plan. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-win-loss). Frank is voice-first, supports multilingual interviews, and is SOC 2 and GDPR compliant. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## FAQ
 
@@ -73,7 +73,7 @@ No. Frank does not recruit participants or contact buyers. You send the intervie
 
 ### Does it work in Claude too?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Yes. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## ChatGPT prompts for this
 

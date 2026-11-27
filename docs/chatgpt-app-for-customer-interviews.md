@@ -74,7 +74,7 @@ Frank is voice-first, supports multilingual interviews, and is SOC 2 and GDPR co
 
 <p class="docs-study-cta-wrap"><a class="docs-study-cta" href="https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168">Install Frank in ChatGPT</a></p>
 
-Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-answer). Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
+Or start at [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=chatgpt-app-answer). Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth.
 
 ## FAQ
 
@@ -90,9 +90,9 @@ Not by itself. On its own, ChatGPT can help you write questions and analyze tran
 
 Open the Frank listing in ChatGPT and add Frank, sign in to Frank in your browser and approve access, then type @ in a chat, select Frank, and ask it to list your Frank studies. There is no API key. If the app is not available in your workspace, add a custom MCP server in ChatGPT on the web with the URL https://api.hifrank.ai/mcp and choose OAuth.
 
-### Does Frank work in Claude or Grok too?
+### Does Frank work in Claude or Muse too?
 
-Yes. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. In other MCP clients, connect to https://api.hifrank.ai/mcp.
+Yes. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. In other MCP clients, connect to https://api.hifrank.ai/mcp.
 
 ### Is it free?
 

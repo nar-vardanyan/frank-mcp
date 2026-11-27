@@ -57,7 +57,7 @@ An AI moderator does not replace your judgment.
 - You invite your own customers. Frank does not recruit participants.
 - You check summaries and themes against exact quotes before you act.
 
-If you already work in an AI assistant, you can also draft the study and read transcripts there. MCP is included on every plan, including Free. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth. See [AI agent that interviews customers](ai-agent-that-interviews-customers.html), [MCP server for customer interviews](mcp-server-for-customer-interviews.html), and [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
+If you already work in an AI assistant, you can also draft the study and read transcripts there. MCP is included on every plan, including Free. Works with ChatGPT, Claude and Muse, plus other MCP clients that support remote servers with OAuth. See [AI agent that interviews customers](ai-agent-that-interviews-customers.html), [MCP server for customer interviews](mcp-server-for-customer-interviews.html), and [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-moderated-interviews).
 
 ## When Frank is a fit
 
