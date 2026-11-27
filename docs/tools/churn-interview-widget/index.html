@@ -190,8 +190,8 @@
   Cancel subscription
 &lt;/a&gt;
 
-&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;</code></pre>
-    <p>This URL follows the main branch. For production, pin it to a commit. <a href="https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview#versions-and-cdn-urls">Other builds and versions</a>.</p>
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+    <p>This URL is pinned to a commit, so the file never changes under you. <a href="https://github.com/nar-vardanyan/frank-mcp/tree/main/widgets/churn-interview#versions-and-cdn-urls">Other builds and versions</a>.</p>
 
     <h2>What the customer sees, and what it never does</h2>
     <ul>
@@ -208,7 +208,7 @@
   &lt;button id=&quot;cancel&quot; type=&quot;submit&quot;&gt;Cancel subscription&lt;/button&gt;
 &lt;/form&gt;
 
-&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
   CancelReasons.attach(&#x27;#cancel&#x27;, { webhookUrl: &#x27;/billing/cancel-reason&#x27; });
 &lt;/script&gt;</code></pre>
@@ -248,7 +248,7 @@ app.post(&#x27;/billing/cancel&#x27;, requireUser, async (req, res) =&gt; {
     <h3>Your own cancel flow with the Stripe API</h3>
     <pre><code class="language-js">&lt;button id=&quot;cancel&quot; type=&quot;button&quot;&gt;Cancel subscription&lt;/button&gt;
 &lt;script type=&quot;module&quot;&gt;
-  import { attach } from &#x27;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.mjs&#x27;;
+  import { attach } from &#x27;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.mjs&#x27;;
   attach(&#x27;#cancel&#x27;, {
     onContinue: async (result) =&gt; {
       await fetch(&#x27;/api/subscription/cancel&#x27;, {
@@ -272,7 +272,7 @@ await stripe.subscriptions.update(req.user.stripeSubscriptionId, {
     <h2>Paddle Billing</h2>
     <h3>Cancel from your backend with the Paddle API</h3>
     <pre><code class="language-html">&lt;button id=&quot;cancel&quot; type=&quot;button&quot;&gt;Cancel subscription&lt;/button&gt;
-&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
   CancelReasons.attach(&#x27;#cancel&#x27;, {
     onContinue: async function (result) {
@@ -312,7 +312,7 @@ app.post(&#x27;/api/subscription/cancel&#x27;, requireUser, express.json(), asyn
     <h3>Paddle's hosted cancel page</h3>
     <pre><code class="language-html">&lt;!-- management_urls.cancel comes from the Paddle subscription entity --&gt;
 &lt;a id=&quot;cancel&quot; href=&quot;PADDLE_MANAGEMENT_CANCEL_URL&quot;&gt;Cancel subscription&lt;/a&gt;
-&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;CancelReasons.attach(&#x27;#cancel&#x27;, { webhookUrl: &#x27;/api/cancel-reason&#x27; });&lt;/script&gt;</code></pre>
     <h3>Paddle Retain</h3>
     <p>Paddle Retain cancellation flows (<code>Paddle.Retain.initCancellationFlow()</code>) already ask for a cancellation reason. Use either Retain's flow or this widget for that step, not both.</p>
@@ -357,7 +357,7 @@ app.post(&#x27;/api/subscription/cancel&#x27;, requireUser, express.json(), asyn
   </footer>
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@main/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nar-vardanyan/frank-mcp@ededde699aa793ec3a352aece7d582ad077775da/widgets/churn-interview/dist/cancel-reasons.min.js"></script>
 <script>
 (function () {
   var link = document.getElementById('demo-link');
