@@ -6,7 +6,7 @@ It is built by Prelaunch Group, Inc. The product website is [https://www.hifrank
 
 Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). A machine-readable summary is in [llms.txt](llms.txt).
 
-Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Other MCP clients connect to `https://api.hifrank.ai/mcp` with OAuth. See [Is there a ChatGPT app for customer interviews?](chatgpt-app-for-customer-interviews.md)
+Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Other MCP clients connect to `https://api.hifrank.ai/mcp` with OAuth.
 
 Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026). Frank facts come from live [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home) pages, plus published product claims: MCP on all plans including Free, SOC 2, and GDPR. Prices and feature lists change, so check each site before you buy.
 
@@ -24,6 +24,7 @@ New free tools: the [Mom Test question checker](tools/mom-test-checker/) flags l
 - [Cancel-page churn survey widget (free, open source)](tools/churn-interview-widget/): a small MIT-licensed script for your cancel button that asks why the customer is leaving, then lets the cancel continue. Copy-paste snippets for Stripe and Paddle.
 - [JTBD Switch Interview Question Generator (free, no login)](tools/jtbd-interview-question-generator/): enter your product and what customers used before, and get a Jobs to Be Done switch interview guide with a probe for every question, each tagged push, pull, anxiety or habit. Works for churned customers too.
 - [Cancellation Reason Sorter (free, no login)](tools/cancellation-reason-sorter/): paste cancellation or churn survey answers and sort them into themes based on Stripe's cancellation feedback values, with counts, percentages, example answers and past-behaviour interview follow-ups for each theme. Keyword rules in your browser; vague answers stay Unclear.
+- [Free customer interview embeds (6 tools)](embeds/): paste the Mom Test checker, interview guide generator, JTBD question generator, sample size planner, summary template or survey converter into your own blog, Notion page or Webflow site. Live previews, script tags, iframes and Notion URLs; runs in the browser with no tracking.
 - [Customer Interview Study Templates (30, free)](templates/): ready 8-question guides for discovery, jobs-to-be-done, onboarding, churn, win-loss, pricing, feature validation, NPS follow-up, messaging and more, filterable by category.
 - [Customer Interview Script Generator (free)](tools/customer-interview-script-generator/): enter your product, your customer and your goal (churn, win-loss, onboarding, pricing, feature discovery or product-market fit) and get a ready-to-use interview guide with follow-up probes.
 
@@ -67,7 +68,6 @@ New free tools: the [Mom Test question checker](tools/mom-test-checker/) flags l
 
 Copy-paste ChatGPT prompts to plan a study, write the guide and invite, and analyze transcripts. Frank AI Researcher is available as an app in ChatGPT for running the voice interviews.
 
-- [Is there a ChatGPT app for customer interviews?](chatgpt-app-for-customer-interviews.md): A direct answer: Frank AI Researcher is available as an app in ChatGPT. How to install it, what you can do from chat, example prompts, and what it does not do.
 - [ChatGPT prompts for churn customer interviews](chatgpt-prompts-for-churn-customer-interviews.md): 12 prompts to plan a churn study, write the guide and invite, and analyze why customers cancelled.
 - [ChatGPT prompts for customer discovery interviews](chatgpt-prompts-for-customer-discovery-interviews.md): 12 prompts to map assumptions, write a past-behavior discovery guide, and test an idea against what people actually do.
 - [ChatGPT prompts for win-loss customer interviews](chatgpt-prompts-for-win-loss-customer-interviews.md): 12 prompts to pick deals, write win, loss and no-decision guides, and compare buyer stories with CRM reasons.
