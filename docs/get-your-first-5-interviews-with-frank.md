@@ -6,7 +6,7 @@
 
 This is the step most published studies stall on. In the 90 days to 26 November 2026, 19 people outside our team published a study; 9 of those studies had no participant call at all, and only a small number showed interviews from more than one person. The share step in the product currently ends at "copy link", so this kit is the missing next step.
 
-The invite messages below say "10 minutes". That is the Free plan's maximum interview length, and it is the length Frank uses on its own current research studies. Published customer studies can be set from 5 to 30 minutes, so change the number if yours is different.
+The invite messages below say "10 minutes". If your interview is a different length, change the number before you send.
 
 ## Where to share your interview link
 
@@ -31,7 +31,7 @@ Subject: could you spare 10 minutes this week?
 ```
 Hi [name],
 
-Could you spare about 10 minutes this week? I'm doing short voice chats with customers to make [product] better, and your experience would really help.
+Could you spare about 10 minutes this week? I'm doing short voice conversations with customers to make [product] better, and your experience would really help.
 
 No meeting to book. Just open this link whenever it suits you:
 
@@ -48,13 +48,13 @@ Thank you,
 Post or DM:
 
 ```
-This week I'm talking to people who [do the thing]. It's a 10-minute voice chat you can take whenever you like, no call to schedule. Here's the link: {interview_link}
+This week I'm talking to people who [do the thing]. It's a 10-minute voice conversation you can take whenever you like, no call to schedule. Here's the link: {interview_link}
 ```
 
 One-click compose, after you URL-encode the post (including your link):
 
 ```
-https://www.linkedin.com/feed/?shareActive=true&text=I'm%20running%20a%20few%20short%20voice%20chats%20this%20week.%20If%20you%20have%20a%20few%20minutes%2C%20I'd%20love%20to%20hear%20from%20you%3A%20{interview_link}
+https://www.linkedin.com/feed/?shareActive=true&text=I'm%20running%20a%20few%20short%20voice%20conversations%20this%20week.%20If%20you%20have%20a%20few%20minutes%2C%20I'd%20love%20to%20hear%20from%20you%3A%20{interview_link}
 ```
 
 Logged-out visitors are sent to LinkedIn login and then back to this compose screen, with the text kept. That was checked with a logged-out request on 26 November 2026; a logged-in prefill was not tested.
@@ -62,7 +62,7 @@ Logged-out visitors are sent to LinkedIn login and then back to this compose scr
 ### Slack (also works in Discord)
 
 ```
-Hey, I'm trying to get a better picture of [the thing] and would value about 10 minutes of your time. It's a voice chat you can do when it suits you, no meeting to book: {interview_link}
+Hey, I'm trying to get a better picture of [the thing] and would value about 10 minutes of your time. It's a voice conversation you can do when it suits you, no meeting to book: {interview_link}
 ```
 
 ## Checklist
