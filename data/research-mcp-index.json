@@ -75,7 +75,7 @@
           "checked_on": "2026-11-20"
         },
         "chatgpt_directory": {
-          "value": "Listed. Frank AI Researcher is an official app in ChatGPT (https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). The README also documents adding a custom MCP server as a fallback.",
+          "value": "Listed. Frank is listed in the ChatGPT app directory (https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). The README also documents adding a custom MCP server as a fallback.",
           "source_urls": [
             "https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168",
             "https://github.com/nar-vardanyan/frank-mcp/blob/main/README.md"

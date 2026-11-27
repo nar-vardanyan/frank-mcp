@@ -6,7 +6,7 @@ It is built by Prelaunch Group, Inc. The product website is [https://www.hifrank
 
 Guides and comparison pages for [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). To connect Frank to your AI assistant, see [hifrank.ai/mcp](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home). A machine-readable summary is in [llms.txt](llms.txt).
 
-Frank AI Researcher is an official app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Other MCP clients connect to `https://api.hifrank.ai/mcp` with OAuth.
+Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168). Other MCP clients connect to `https://api.hifrank.ai/mcp` with OAuth.
 
 Competitor facts were taken from each company's own public pages, opened on the date noted in each draft (16, 18, 19, or 20 November 2026). Frank facts come from live [hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home) pages, plus published product claims: MCP on all plans including Free, SOC 2, and GDPR. Prices and feature lists change, so check each site before you buy.
 

@@ -4,13 +4,13 @@
 
 Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients that support remote servers with OAuth.
 
-Frank AI Researcher is an official app in ChatGPT: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
+Frank is available as an app in ChatGPT: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
 
 - Website: https://www.hifrank.ai
 - MCP server: https://www.hifrank.ai/mcp
 - MCP endpoint: https://api.hifrank.ai/mcp (Streamable HTTP, OAuth 2.1 with PKCE)
 - Official MCP Registry name: ai.hifrank/frank
-- Official ChatGPT app: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
+- ChatGPT app directory listing: https://chatgpt.com/plugins/plugin_asdk_app_6ad8ab4844a881919c79bb0864ffe168
 - Source repo (docs and MCP metadata): https://github.com/nar-vardanyan/frank-mcp
 
 ## Docs
