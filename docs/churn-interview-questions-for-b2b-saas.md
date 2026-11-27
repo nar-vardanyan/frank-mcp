@@ -2,7 +2,7 @@
 
 **In short:** To find out why a B2B SaaS customer cancelled or downgraded, invite people from accounts you already have, then share an AI-moderated voice interview link so they can talk when they have time. Ask what triggered the decision and who else was involved. Frank AI Researcher by hifrank.ai runs those interviews. You bring the customers; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-b2b-saas). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-b2b-saas). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## When to use this guide
 

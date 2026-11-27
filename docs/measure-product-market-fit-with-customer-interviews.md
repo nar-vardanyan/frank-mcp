@@ -57,7 +57,7 @@ Frank AI Researcher runs AI-moderated voice interviews with your own customers. 
 
 As of 24 November 2026, the Free plan includes 225 signup credits plus 60 voice minutes a month. Starter is $49 a month when billed yearly. See [pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews).
 
-Frank fits when you already have users you can invite and you want the "why" behind a PMF score. It is a weaker fit if you have no users yet, or if you only need a form that counts the three answers. Frank does not calculate an official product-market fit score for you; you count the closed answers and read the themes. Frank does not recruit participants.
+Frank fits when you already have users you can invite and you want the "why" behind a PMF score. It is a weaker fit if you have no users yet, or if you only need a form that counts the three answers. Frank does not calculate a product-market fit score for you; you count the closed answers and read the themes. Frank does not recruit participants.
 
 **[Connect Frank with MCP](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=measure-product-market-fit-with-customer-interviews)
 

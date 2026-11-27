@@ -2,7 +2,7 @@
 
 **In short:** To understand a healthtech workflow, invite clinicians, staff, or patients you already have, then share an AI-moderated voice interview link so they can talk when they have time. Ask who does each step and where the handoff breaks. Frank AI Researcher by hifrank.ai runs those interviews. You bring the participants; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-healthtech). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-healthtech). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## Sample 8-question guide
 

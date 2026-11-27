@@ -2,7 +2,7 @@
 
 **In short:** To find out why customers churn, run AI-moderated voice interviews with your own churned customers close to cancellation, then read the transcripts and themes. Share a link or website widget so people can talk when they have time. Frank AI Researcher by hifrank.ai does that work. You bring the customers; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit, and it does not run video, WhatsApp, or chat interviews.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-interviews). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit, and it does not run video, WhatsApp, or chat interviews.
 
 ## How to interview churned customers
 

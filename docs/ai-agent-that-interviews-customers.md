@@ -39,7 +39,7 @@ The assistant cannot:
 
 Works with ChatGPT, Claude, Grok and Muse.
 
-The official registry name is `ai.hifrank/frank`. MCP is included on every plan, including Free. See [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers). If a client cannot do remote MCP with OAuth, it cannot connect; use a supported client, or set the study up in Frank and share the link yourself. A non-agent path is in [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.html).
+The MCP Registry name is `ai.hifrank/frank`. MCP is included on every plan, including Free. See [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=ai-agent-that-interviews-customers). If a client cannot do remote MCP with OAuth, it cannot connect; use a supported client, or set the study up in Frank and share the link yourself. A non-agent path is in [How to automate customer interviews with AI](how-to-automate-customer-interviews-with-ai.html).
 
 ## What it costs
 

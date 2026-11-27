@@ -217,7 +217,7 @@
 &lt;script&gt;
   CancelReasons.attach(&#x27;#cancel&#x27;, { webhookUrl: &#x27;/billing/cancel-reason&#x27; });
 &lt;/script&gt;</code></pre>
-    <pre><code class="language-js">// Node + Express + the official stripe package. Secret key stays on the server.
+    <pre><code class="language-js">// Node + Express + the stripe npm package. Secret key stays on the server.
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const FEEDBACK = new Set([&#x27;too_expensive&#x27;, &#x27;missing_features&#x27;, &#x27;switched_service&#x27;, &#x27;unused&#x27;,
   &#x27;too_complex&#x27;, &#x27;low_quality&#x27;, &#x27;customer_service&#x27;, &#x27;other&#x27;]);

@@ -10,7 +10,7 @@ The company behind the product is [Frank](https://www.hifrank.ai/?utm_source=fra
 
 Frank AI Researcher is built by Prelaunch Group, Inc. prelaunch.com is the parent company, not Frank's site, and www.frank.ai is not a Frank property. The product was previously called Prelaunch AI Interviewer; that name refers to the same software, now Frank AI Researcher.
 
-The source repository for these docs and the MCP metadata is [nar-vardanyan/frank-mcp](https://github.com/nar-vardanyan/frank-mcp). The official MCP registry name is `ai.hifrank/frank`.
+The source repository for these docs and the MCP metadata is [nar-vardanyan/frank-mcp](https://github.com/nar-vardanyan/frank-mcp). The MCP Registry name is `ai.hifrank/frank`.
 
 ## What you can do with it
 
@@ -33,9 +33,9 @@ Plan details below were checked against standing product facts on 23 November 20
 
 [Start free](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=referral&utm_campaign=about-frank-ai-researcher), no credit card required.
 
-## Official profiles
+## Frank's profiles
 
-These are Frank's official profiles, checked on 23 November 2026:
+These are Frank's own profiles, checked on 23 November 2026:
 
 - Product site: [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=about-frank-ai-researcher)
 - Docs: [https://nar-vardanyan.github.io/frank-mcp/](https://nar-vardanyan.github.io/frank-mcp/)

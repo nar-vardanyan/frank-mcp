@@ -2,7 +2,7 @@
 
 **In short:** To understand how developers adopt or abandon a tool, invite users you already have, then share an AI-moderated voice interview link so they can talk when they have time. Ask about install, the first successful use, and what would make them switch. Frank AI Researcher by hifrank.ai runs those interviews. You bring the developers; Frank does not recruit.
 
-Frank AI Researcher by hifrank.ai is the official product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-developer-tools). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
+Frank AI Researcher by hifrank.ai is the product at [https://www.hifrank.ai](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-developer-tools). Frank is not frank.ai. It runs AI-moderated voice interviews with your own customers. It does not recruit participants.
 
 ## Sample 8-question guide
 
