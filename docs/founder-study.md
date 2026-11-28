@@ -4,7 +4,7 @@
 # Swap study_url to the interviewer link once the study is published (see founder-study-url-swap.md).
 study_url: "#"
 # Deletion contact, used in both privacy versions below. Change it here only.
-privacy_email: "privacy@hifrank.ai"
+privacy_email: "narek@tryfrank.ai"
 permalink: /founder-study/
 layout: default
 hide_signup_cta: true
