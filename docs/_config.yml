@@ -59,6 +59,24 @@ defaults:
     values:
       description: "Frank vs Usercall: both run AI-moderated voice interviews. Choose Usercall for a recruited panel; choose Frank for customers you already have, from a Free plan."
   - scope:
+      path: cheapest-way-to-run-10-customer-interviews-this-week.md
+    values:
+      seo_title: "Cheapest Way to Run 10 Customer Interviews This Week"
+      description: "A one-week plan to run 10 interviews with customers you already have. On Frank's Free plan, keep each interview to about 5 minutes, or use a paid plan for longer ones. No panel and no live-call calendar required."
+      schema_page: true
+  - scope:
+      path: how-to-run-win-loss-interviews-on-recent-deals.md
+    values:
+      seo_title: "How to Run Win-Loss Interviews on Recent Deals"
+      description: "A method for small B2B teams to interview buyers after a deal is won, lost, or abandoned, while the decision is still fresh."
+      schema_page: true
+  - scope:
+      path: how-to-interview-churned-customers-quickly.md
+    values:
+      seo_title: "How to Interview Churned Customers Quickly"
+      description: "A fast cancellation-interview loop: invite as soon as someone cancels, use a short voice interview, and read the transcripts twice a week."
+      schema_page: true
+  - scope:
       path: how-to-find-out-why-customers-churn.md
     values:
       description: "How to find out why customers churn: interview people who cancelled recently and ask them to walk through what happened. Questions, timing and analysis steps."
