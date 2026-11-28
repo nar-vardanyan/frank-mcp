@@ -1,5 +1,25 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Stripe Integration for Churn Interviews: Frank Churn Interviews for Stripe"
+    url: https://nar-vardanyan.github.io/frank-mcp/stripe-integration-for-churn-interviews.html
+    updated: 2026-11-28T16:00:00Z
+    summary: "Free open-source (MIT) Cloudflare Worker that emails customers who cancel a Stripe subscription a 10 minute Frank voice interview link, with plan, tenure and cancel reason attached. What it does, what it stores, where it fits next to cancel-flow tools."
+  - title: "How to Automatically Interview Customers Who Cancel in Stripe"
+    url: https://nar-vardanyan.github.io/frank-mcp/how-to-automatically-interview-customers-who-cancel-in-stripe.html
+    updated: 2026-11-28T16:00:00Z
+    summary: "The seven steps from Stripe cancellation to voice interview: catch the webhook, verify, skip, wait, collect context, send a short note, let Frank run the interview. Email template and reading tips."
+  - title: "Stripe Cancellation Survey vs Churn Interview: What Each Tells You"
+    url: https://nar-vardanyan.github.io/frank-mcp/stripe-cancellation-survey-vs-interview.html
+    updated: 2026-11-28T16:00:00Z
+    summary: "What Stripe's customer portal cancellation reason collects (8 fixed options plus comment), what a churn interview adds, a side-by-side table, and where cancel-flow tools fit. Sourced Nov 28, 2026."
+  - title: "Set Up a Churn Interview on Stripe Webhooks in About 10 Minutes"
+    url: https://nar-vardanyan.github.io/frank-mcp/set-up-churn-interviews-on-stripe-webhooks.html
+    updated: 2026-11-28T16:00:00Z
+    summary: "Six steps: publish a churn study, Deploy to Cloudflare, add the Stripe webhook, set secrets, test with the Stripe CLI, edit the email."
+  - title: "Handle the Stripe customer.subscription.deleted Webhook in a Cloudflare Worker"
+    url: https://nar-vardanyan.github.io/frank-mcp/stripe-customer-subscription-deleted-webhook-cloudflare-worker.html
+    updated: 2026-11-28T16:00:00Z
+    summary: "Developer guide: when Stripe sends customer.subscription.deleted, verifying the signature with WebCrypto in a Worker, detecting cancel_at_period_end, deduping retries, delaying with a cron trigger. MIT code."
   - title: "Run Customer Interviews from ChatGPT: Setup and Results"
     url: https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-chatgpt.html
     updated: 2026-11-28T14:00:00Z

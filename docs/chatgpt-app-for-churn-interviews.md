@@ -105,6 +105,7 @@ There is a Free plan with 60 voice minutes a month and no card required. MCP is 
 
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.html)
 - [Churn interviews](churn-interviews.html)
+- [Automatically interview customers who cancel in Stripe (free open-source app)](how-to-automatically-interview-customers-who-cancel-in-stripe.html)
 - [Churn interview questions for B2B SaaS](churn-interview-questions-for-b2b-saas.html)
 - [Cancellation reason sorter (free tool)](tools/cancellation-reason-sorter/)
 - [Cancel-page churn survey widget (free, open source)](tools/churn-interview-widget/)

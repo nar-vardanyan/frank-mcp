@@ -596,6 +596,36 @@ defaults:
       description: "Short answers to ten common questions about ChatGPT apps for customer interviews, user research, churn, win-loss, founders, marketers, multilingual research and MCP, answered for Frank AI Researcher."
       schema_page: true
   - scope:
+      path: stripe-integration-for-churn-interviews.md
+    values:
+      seo_title: "Stripe Integration for Churn Interviews: Frank Churn Interviews for Stripe"
+      description: "An open-source, MIT-licensed Cloudflare Worker that emails customers who cancel a Stripe subscription a short Frank AI Researcher voice interview link, with plan, tenure and cancel reason attached. Deploy with one button."
+      schema_page: true
+  - scope:
+      path: how-to-automatically-interview-customers-who-cancel-in-stripe.md
+    values:
+      seo_title: "How to Automatically Interview Customers Who Cancel in Stripe"
+      description: "Send every customer who cancels a Stripe subscription a short voice interview link, automatically, with plan, tenure and cancel reason attached. A free open-source Cloudflare Worker plus Frank AI Researcher."
+      schema_page: true
+  - scope:
+      path: stripe-cancellation-survey-vs-interview.md
+    values:
+      seo_title: "Stripe Cancellation Survey vs Churn Interview: What Each Tells You"
+      description: "Stripe's customer portal collects a fixed cancellation reason and an optional comment. A short churn interview explains the reason. When to use each, how to use both, and the cancel-flow tools in between."
+      schema_page: true
+  - scope:
+      path: set-up-churn-interviews-on-stripe-webhooks.md
+    values:
+      seo_title: "Set Up a Churn Interview on Stripe Webhooks in About 10 Minutes"
+      description: "Step by step: deploy the free Frank Churn Interviews for Stripe worker to Cloudflare, connect a Stripe webhook for customer.subscription.deleted, and test it with the Stripe CLI before going live."
+      schema_page: true
+  - scope:
+      path: stripe-customer-subscription-deleted-webhook-cloudflare-worker.md
+    values:
+      seo_title: "Handle the Stripe customer.subscription.deleted Webhook in a Cloudflare Worker"
+      description: "How to receive Stripe's customer.subscription.deleted webhook in a Cloudflare Worker: verify the signature with WebCrypto, handle cancel_at_period_end, dedupe repeat events, and delay the follow-up. MIT code from an open-source app."
+      schema_page: true
+  - scope:
       path: chatgpt-app-for-churn-interviews.md
     values:
       seo_title: "ChatGPT App for Churn Interviews: Frank AI Researcher"
