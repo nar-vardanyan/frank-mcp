@@ -92,6 +92,7 @@ With Frank, yes. MCP is included on every plan, including Free. Works with ChatG
 
 ## Related
 
+- [Interview customers who cancel in Stripe, automatically](https://nar-vardanyan.github.io/frank-mcp/stripe-churn-interviews.html)
 - [How to find out why customers churn](https://nar-vardanyan.github.io/frank-mcp/how-to-find-out-why-customers-churn.html)
 - [AI tools that interview customers for you](https://nar-vardanyan.github.io/frank-mcp/ai-tools-that-interview-customers-for-you.html)
 - [Churn interviews with Frank](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-tools-for-customer-churn-interviews) · [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=best-tools-for-customer-churn-interviews)

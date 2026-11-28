@@ -29,3 +29,4 @@ Frank AI Researcher (Frank) runs voice-first, AI-moderated voice interviews with
 - [Docs home](https://nar-vardanyan.github.io/frank-mcp/)
 - [MCP server for customer interviews](../mcp-server-for-customer-interviews.md)
 - [Add customer interviews to your AI-built app](https://nar-vardanyan.github.io/frank-mcp/app-builders/)
+- [Interview customers who cancel in Stripe, automatically](../stripe-churn-interviews.md): an open-source app that emails a Frank interview link after a Stripe cancellation

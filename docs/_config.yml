@@ -77,6 +77,12 @@ defaults:
       description: "A fast cancellation-interview loop: invite as soon as someone cancels, use a short voice interview, and read the transcripts twice a week."
       schema_page: true
   - scope:
+      path: stripe-churn-interviews.md
+    values:
+      seo_title: "Interview customers who cancel in Stripe, automatically"
+      description: "An open-source app that emails a Frank voice-interview link after a Stripe cancellation, and shows the interviewer the plan, tenure, and cancel reason."
+      schema_page: true
+  - scope:
       path: how-to-find-out-why-customers-churn.md
     values:
       description: "How to find out why customers churn: interview people who cancelled recently and ask them to walk through what happened. Questions, timing and analysis steps."

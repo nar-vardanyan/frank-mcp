@@ -2,7 +2,7 @@
 
 **In short:** To interview churned customers quickly, invite them as soon as they cancel, ask a short set of questions about the moment they decided to leave, and let them answer in their own time and in their own language. You do not need a week of live calls. Frank AI Researcher runs those conversations as AI-moderated voice interviews in 50+ languages and returns transcripts and themes. You send the invite; Frank does not recruit the customers.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-interview-churned-customers-quickly)** (short name Frank), a voice-first product that interviews your own customers. This page is a method for a fast churn-interview loop, using public product details as of 28 November 2026. Related guides: [How to find out why customers churn](how-to-find-out-why-customers-churn.md) and [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md).
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-interview-churned-customers-quickly)** (short name Frank), a voice-first product that interviews your own customers. This page is a method for a fast churn-interview loop, using public product details as of 28 November 2026. Related guides: [How to find out why customers churn](how-to-find-out-why-customers-churn.md), [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md), and [Interview customers who cancel in Stripe, automatically](stripe-churn-interviews.md).
 
 ## Why speed matters
 
@@ -10,7 +10,7 @@ The reason a customer cancelled is clearest in the first few days. After that, p
 
 ## A loop you can run this week
 
-1. **Trigger.** When a cancellation is recorded, send one email or in-app message with a single interview link. Do not attach a long survey.
+1. **Trigger.** When a cancellation is recorded, send one email or in-app message with a single interview link. Do not attach a long survey. If you bill with Stripe, [this open-source app](stripe-churn-interviews.md) can send the invite after the cancellation.
 2. **Guide.** Use 8 to 10 questions about the decision, not about your roadmap. Ask what they were trying to get done, what they tried first, and what would have had to be true for them to stay.
 3. **Timing.** Let them talk for about 5 to 10 minutes when they have a gap, in their own language. Free plan interviews are up to 10 minutes, and 60 voice minutes cover about six 10-minute interviews or ten 5-minute ones. AI-moderated voice interviews do the asking and the follow-ups.
 4. **Read.** Review transcripts twice a week, not only a dashboard. Write three themes, each tied to a quote, before you change anything in the product.
@@ -54,3 +54,9 @@ No. Frank AI Researcher does not recruit participants. You invite customers from
 ### Can people do the interview in their own language?
 
 Yes. Frank runs voice interviews in 50+ languages.
+
+## Related
+
+- [Interview customers who cancel in Stripe, automatically](stripe-churn-interviews.md)
+- [How to find out why customers churn](how-to-find-out-why-customers-churn.md)
+- [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)

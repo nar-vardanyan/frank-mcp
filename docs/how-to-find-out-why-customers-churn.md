@@ -100,6 +100,7 @@ Yes. Frank is available as an [MCP server](https://www.hifrank.ai/mcp?utm_source
 
 ## Related
 
+- [Interview customers who cancel in Stripe, automatically](stripe-churn-interviews.md)
 - [How to run customer interviews](how-to-run-customer-interviews.md)
 - [Churn interviews with Frank](https://www.hifrank.ai/use-case/ai-churn-interviews?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-find-out-why-customers-churn)
 - [How to get user feedback without scheduling calls](https://nar-vardanyan.github.io/frank-mcp/user-feedback-without-scheduling-calls.html)
