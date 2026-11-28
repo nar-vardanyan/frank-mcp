@@ -23,6 +23,21 @@ Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https://chat
 
 This repository holds the usage documentation and MCP metadata for the hosted Frank server. The server itself runs at api.hifrank.ai. No server source code lives here.
 
+## Docs
+
+Guides, setup and comparisons for Frank AI Researcher, a voice-first product that runs AI-moderated voice interviews. Start at the [docs home](https://nar-vardanyan.github.io/frank-mcp/).
+
+- [Is there a ChatGPT app for customer interviews?](https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews.html)
+- [Free customer interview guide templates](https://nar-vardanyan.github.io/frank-mcp/free-customer-interview-guide-templates.html)
+- [MCP server for customer interviews](https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews.html) (connector setup)
+- [AI customer interview tool with a free plan](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-tool-free-plan.html)
+- [First study quickstart](https://nar-vardanyan.github.io/frank-mcp/first-study-quickstart.html)
+- [Use Frank in Lovable](https://nar-vardanyan.github.io/frank-mcp/use-frank-in-lovable.html)
+- [How to run customer interviews from Claude](https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-claude.html)
+- [AI customer interview software: 12 tools compared (2026)](https://nar-vardanyan.github.io/frank-mcp/ai-customer-interview-software-compared.html)
+- [MCP servers for user research, compared](https://nar-vardanyan.github.io/frank-mcp/mcp-servers-for-user-research-compared.html)
+
+
 ## How do I get customer feedback without scheduling calls?
 
 You can get interview-depth user feedback without a calendar by sharing an AI-moderated voice interviewer as a link or a website widget, so people talk when they have time. Surveys also skip scheduling, but they rarely follow up; use interviews when you need the why. [Frank](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=readme&utm_campaign=website) is a voice-first product that runs those interviews with your own customers. Frank does not recruit participants. After conversations complete, read the transcripts and themes. Frank is SOC 2 and GDPR compliant. MCP is included on every plan, including Free.
