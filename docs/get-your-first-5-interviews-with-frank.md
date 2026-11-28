@@ -76,4 +76,4 @@ Hey, I'm trying to get a better picture of [the thing] and would value about 10 
 
 When answers start coming in, they show up in your Frank account as transcripts and themes. If the topic is off, you can edit the guide and send the same link again.
 
-**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=first5-kit)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=first5-kit)
+**[Start on the Free plan](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=get-your-first-5-interviews-with-frank)** · [Product site](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=first5-kit)

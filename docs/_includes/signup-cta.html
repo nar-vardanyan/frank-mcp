@@ -1,18 +1,25 @@
 {% comment %}
   Shared signup CTA, rendered at the end of every docs page by _layouts/default.html.
-  Campaign slug is the page filename without .md or .html.
+  utm_content is the page filename without .md or .html.
+  Nested index pages use the parent folder name (glossary, lovable, mom-test-checker).
   The docs homepage (README.md, which GitHub Pages publishes as index) uses 'home'.
 {% endcomment %}
 {% assign cta_file = page.name | default: page.path | split: '/' | last %}
 {% assign cta_slug = cta_file | remove: '.md' | remove: '.html' %}
 {% if cta_slug == 'README' or cta_slug == 'index' or cta_slug == '' %}
-  {% assign cta_slug = 'home' %}
+  {% assign cta_parts = page.path | default: page.url | split: '/' %}
+  {% assign cta_parent_index = cta_parts.size | minus: 2 %}
+  {% if cta_parts.size > 1 %}
+    {% assign cta_slug = cta_parts[cta_parent_index] %}
+  {% else %}
+    {% assign cta_slug = 'home' %}
+  {% endif %}
 {% endif %}
-{% if page.path == 'glossary/index.md' %}
-  {% assign cta_slug = 'glossary' %}
+{% if cta_slug == 'README' or cta_slug == '' %}
+  {% assign cta_slug = 'home' %}
 {% endif %}
 <aside class="docs-signup-cta" aria-label="Start on the Free plan">
   <h2>Start on the Free plan</h2>
   <p>Frank AI Researcher runs voice-first, AI-moderated voice interviews with your own customers. The Free plan includes 225 signup credits plus 60 voice minutes a month. MCP is included on every plan, including Free.</p>
-  <p><a class="docs-signup-cta-link" href="https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&amp;utm_medium=referral&amp;utm_campaign={{ cta_slug }}">Start on the Free plan</a></p>
+  <p><a class="docs-signup-cta-link" href="https://app.hifrank.ai/signup?utm_source=docs&amp;utm_medium=referral&amp;utm_campaign=kpi4b&amp;utm_content={{ cta_slug }}">Start on the Free plan</a></p>
 </aside>

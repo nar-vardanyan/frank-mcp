@@ -51,7 +51,7 @@ Paste the questions you need into a new Frank study, take the interview yourself
 
 If you work in Claude or ChatGPT, connect Frank as an MCP server at `https://api.hifrank.ai/mcp`. Works with ChatGPT, Claude, Grok and Muse. A study created through MCP stays a draft until you approve publishing.
 
-- [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=churn-b2b-saas)
+- [Sign up](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=churn-interview-questions-for-b2b-saas)
 - [Churn (cancelled customers) template](templates/#churn-cancellation)
 - [Downgrade interview template](templates/#downgrade)
 - [30 customer interview study templates](templates/)

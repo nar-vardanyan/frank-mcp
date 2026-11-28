@@ -10,7 +10,7 @@ Frank runs AI-moderated voice interviews with your own users. It does not recrui
 
 1. In Lovable, open **Connectors**, select **Add custom**, and choose **MCP server**. The form has three fields: **Server name**, **Server URL** and **Authentication** (OAuth, Bearer token or API key, or No authentication).
 2. Enter **Server name:** `Frank`, **Server URL:** `https://api.hifrank.ai/mcp`, **Authentication:** OAuth.
-3. Lovable opens Frank's sign-in page. Sign in with your Frank account, or [create a free account](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=use-frank-in-lovable) first.
+3. Lovable opens Frank's sign-in page. Sign in with your Frank account, or [create a free account](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=use-frank-in-lovable) first.
 4. Frank shows the consent page **Connect Lovable to Frank?** with 7 scopes. Click **Allow**.
 5. Back in Lovable, Frank shows as **Connected** with 14 tools.
 
