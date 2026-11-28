@@ -1,0 +1,206 @@
+---
+layout: null
+permalink: /founder-study/pulse/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Founder study pulse | Frank AI Researcher</title>
+<style>
+:root{--fg:#1d2a24;--muted:#5b6b63;--line:#dfe7e2;--bg:#fbfcfb;--accent:#1f7a55;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg)}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 8px}
+h2{font-size:1.15rem;margin:0 0 10px}
+.sub{color:var(--muted);margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin:0 0 16px}
+.count{font-size:3.2rem;font-weight:700;line-height:1;color:var(--accent)}
+.muted{color:var(--muted);font-size:.9rem}
+blockquote{margin:0;padding:0 0 0 14px;border-left:3px solid var(--accent);font-size:1.05rem}
+blockquote footer{margin-top:6px;color:var(--muted);font-size:.9rem}
+ol{margin:0;padding-left:1.4em}
+ol li{padding:3px 0}
+li .n{color:var(--muted);margin-left:6px}
+label{display:block;font-weight:600;margin:0 0 6px}
+select,input[type=text]{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row input{flex:1;min-width:220px}
+button,a.btn{display:inline-block;padding:9px 16px;border:0;border-radius:8px;background:var(--accent);color:#fff;font:inherit;font-weight:600;text-decoration:none;cursor:pointer}
+button.alt{background:#fff;color:var(--accent);border:1px solid var(--accent)}
+a.btn[aria-disabled=true]{background:#aab8b0;pointer-events:none}
+a{color:var(--accent)}
+.hide{display:none}
+</style>
+</head>
+<body>
+<main>
+<h1>Founder study pulse</h1>
+<p class="sub">Live numbers for How Founders Actually Talk to Customers, 2026, a ten minute voice interview run by Frank AI Researcher.</p>
+
+<section class="card" aria-labelledby="h-count">
+  <h2 id="h-count">Interviews completed</h2>
+  <div class="count" id="count" aria-live="polite">0</div>
+  <p class="muted" id="count-note">Starting soon.</p>
+</section>
+
+<section class="card" aria-labelledby="h-quote">
+  <h2 id="h-quote">Quote of the day</h2>
+  <blockquote id="quote" class="hide"><p id="quote-text"></p><footer id="quote-by"></footer></blockquote>
+  <p id="quote-empty" class="muted">No quote yet. Quotes appear here only when the participant has agreed, and only the way they chose.</p>
+</section>
+
+<section class="card" aria-labelledby="h-board">
+  <h2 id="h-board">Top referrers</h2>
+  <ol id="board" class="hide"></ol>
+  <p id="board-empty" class="muted">No referrals yet. Share your personal link below to get on the board.</p>
+  <p class="muted">Entries show a random referral code. A display name appears only if that person opted in.</p>
+</section>
+
+<section class="card" aria-labelledby="h-ref">
+  <h2 id="h-ref">Your personal link</h2>
+  <p class="muted">Get a link with your own referral code. It holds a random code, nothing about you, and it is saved only in this browser.</p>
+  <p><button type="button" id="mk">Get my link</button></p>
+  <div id="mine" class="hide">
+    <div class="row"><input type="text" id="mine-url" readonly aria-label="Your personal link"><button type="button" class="alt" id="copy">Copy</button></div>
+    <p class="muted" id="mine-code"></p>
+  </div>
+</section>
+
+<section class="card" aria-labelledby="h-join">
+  <h2 id="h-join">Take the interview</h2>
+  <label for="heard">Where did you hear about this?</label>
+  <select id="heard">
+    <option value="">Pick one (optional)</option>
+    <option value="linkedin">LinkedIn</option>
+    <option value="x">X</option>
+    <option value="indiehackers">Indie Hackers</option>
+    <option value="reddit">Reddit</option>
+    <option value="newsletter">A newsletter</option>
+    <option value="friend">A friend or colleague</option>
+    <option value="community">Another community</option>
+    <option value="search">Search or an AI assistant</option>
+    <option value="other">Somewhere else</option>
+  </select>
+  <p class="muted">Your answer is added to the interview link as its source. Nothing is typed or stored here.</p>
+  <p><a class="btn" id="join" href="#" aria-disabled="true">Interview link opens soon</a></p>
+  <p class="muted"><a id="about" href="#">What happens to your answers</a></p>
+</section>
+</main>
+<script>
+(function () {
+  var CAMPAIGN = 'founder-study-ref';
+  var LANDING = 'https://nar-vardanyan.github.io/frank-mcp/founder-study/';
+  var CODE_RE = /^[a-z0-9]{4,12}$/;
+  var SOURCES = ['linkedin','x','indiehackers','reddit','newsletter','friend','community','search','other'];
+  var q = new URLSearchParams(location.search);
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { study_url: '' };
+
+  function clean(v) { v = String(v || '').toLowerCase().replace(/[^a-z0-9]/g, ''); return CODE_RE.test(v) ? v : ''; }
+  function withUtm(base, extra) {
+    var u = new URL(base, location.href);
+    u.searchParams.set('utm_campaign', CAMPAIGN);
+    Object.keys(extra).forEach(function (k) { if (extra[k]) u.searchParams.set(k, extra[k]); });
+    return u.toString();
+  }
+
+  // 1. Live data
+  function render(d) {
+    var n = Number(d && d.interviews_completed);
+    if (!isFinite(n) || n < 0) n = 0;
+    state.study_url = (d && typeof d.study_url === 'string') ? d.study_url : '';
+    $('count').textContent = n.toLocaleString('en-US');
+    var live = d && d.status === 'live' && state.study_url;
+    var note = 'Starting soon.';
+    if (d && d.status === 'live') note = 'Counted from completed interviews. Test interviews are excluded.';
+    if (d && d.status === 'closed') note = 'The study is closed. Thank you to everyone who took part.';
+    if (d && d.updated_at) {
+      var t = new Date(d.updated_at);
+      if (!isNaN(t)) note += ' Updated ' + t.toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' }) + '.';
+    }
+    $('count-note').textContent = note;
+
+    // quote: only consented entries, one per day
+    var qs = ((d && d.quotes) || []).filter(function (x) {
+      return x && typeof x.text === 'string' && x.text &&
+        ((x.consent === 'anonymous') || (x.consent === 'named' && x.quote_check_done === true));
+    });
+    if (qs.length) {
+      var today = new Date().toISOString().slice(0, 10);
+      var pick = qs.filter(function (x) { return x.date === today; })[0] ||
+        qs[Math.floor(Date.now() / 86400000) % qs.length];
+      $('quote-text').textContent = '\u201C' + pick.text + '\u201D';
+      $('quote-by').textContent = pick.attribution ? pick.attribution : '';
+      $('quote').classList.remove('hide'); $('quote-empty').classList.add('hide');
+    } else { $('quote').classList.add('hide'); $('quote-empty').classList.remove('hide'); }
+
+    // leaderboard: code or opted-in display name only
+    var rows = ((d && d.leaderboard) || []).map(function (r) {
+      var code = (r && CODE_RE.test(r.code)) ? r.code : '', c = Number(r && r.count);
+      var name = (r && r.display_name_optin === true && typeof r.display_name === 'string') ? r.display_name.trim().slice(0, 40) : '';
+      return { label: name || code, count: c };
+    }).filter(function (r) { return r.label && isFinite(r.count) && r.count > 0; })
+      .sort(function (a, b) { return b.count - a.count; }).slice(0, 10);
+    var ol = $('board'); ol.textContent = '';
+    rows.forEach(function (r) {
+      var li = document.createElement('li'), s = document.createElement('strong'), m = document.createElement('span');
+      s.textContent = r.label; m.className = 'n'; m.textContent = r.count + (r.count === 1 ? ' interview' : ' interviews');
+      li.appendChild(s); li.appendChild(m); ol.appendChild(li);
+    });
+    ol.classList.toggle('hide', !rows.length); $('board-empty').classList.toggle('hide', !!rows.length);
+    updateJoin(live);
+  }
+  function load() {
+    fetch('pulse.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(render).catch(function () { render(null); });
+  }
+
+  // 2. Interview link with source and ref
+  function updateJoin(live) {
+    var a = $('join');
+    if (!live) { a.textContent = 'Interview link opens soon'; a.setAttribute('aria-disabled', 'true'); a.removeAttribute('href'); return; }
+    var src = $('heard').value || clean(q.get('utm_source')) || 'pulse';
+    var ref = clean(q.get('ref')) || clean(q.get('utm_content'));
+    a.href = withUtm(state.study_url, { utm_source: src, utm_medium: q.get('utm_medium') || 'pulse-page', utm_content: ref });
+    a.textContent = 'Take the 10 minute interview'; a.removeAttribute('aria-disabled');
+  }
+  var inSrc = clean(q.get('utm_source'));
+  if (SOURCES.indexOf(inSrc) > -1) $('heard').value = inSrc;
+  $('heard').addEventListener('change', function () { updateJoin(!!state.study_url && $('join').hasAttribute('href')); });
+
+  // 3. Personal link
+  function myCode() {
+    var c = '';
+    try { c = clean(localStorage.getItem('fsRef')); } catch (e) {}
+    if (!c) {
+      var a = new Uint8Array(6), al = 'abcdefghjkmnpqrstuvwxyz23456789';
+      (window.crypto || window.msCrypto).getRandomValues(a);
+      for (var i = 0; i < a.length; i++) c += al[a[i] % al.length];
+      try { localStorage.setItem('fsRef', c); } catch (e) {}
+    }
+    return c;
+  }
+  $('mk').addEventListener('click', function () {
+    var c = myCode();
+    $('mine-url').value = withUtm(LANDING, { ref: c, utm_source: 'referral', utm_medium: 'participant', utm_content: c });
+    $('mine-code').textContent = 'Your code: ' + c;
+    $('mine').classList.remove('hide');
+  });
+  $('copy').addEventListener('click', function () {
+    var i = $('mine-url'); i.select();
+    (navigator.clipboard ? navigator.clipboard.writeText(i.value) : Promise.reject()).catch(function () { document.execCommand('copy'); });
+    this.textContent = 'Copied'; var b = this; setTimeout(function () { b.textContent = 'Copy'; }, 1500);
+  });
+
+  $('about').href = withUtm(LANDING, { utm_source: 'pulse-page', utm_medium: 'internal' }) + '#what-happens-to-your-answers';
+  load(); setInterval(load, 60000);
+})();
+</script>
+</body>
+</html>
