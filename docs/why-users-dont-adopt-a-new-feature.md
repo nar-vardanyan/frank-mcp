@@ -19,7 +19,7 @@ MCP is included on every plan, including Free. The endpoint is `https://api.hifr
 
 Security details are on the [transparency and security page](https://www.hifrank.ai/features/transparency-security?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature). Current plan details are on the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature).
 
-- [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature)
+- [Sign up](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=why-users-dont-adopt-a-new-feature)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature)
 - [MCP connector setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=why-users-dont-adopt-a-new-feature)
 

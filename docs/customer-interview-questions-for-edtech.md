@@ -29,7 +29,7 @@ Paste these eight questions into a new Frank study, take the interview yourself 
 
 If you work in Claude or ChatGPT, connect Frank as an MCP server at `https://api.hifrank.ai/mcp`. Works with ChatGPT, Claude, Grok and Muse. A study created through MCP stays a draft until you approve publishing.
 
-- [Sign up](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-edtech)
+- [Sign up](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=customer-interview-questions-for-edtech)
 - [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-edtech)
 - [MCP connector setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=industry-edtech)
 

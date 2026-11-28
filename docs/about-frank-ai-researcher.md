@@ -31,7 +31,7 @@ Plan details below were checked against standing product facts on 23 November 20
 - **Free:** 225 signup credits plus 60 voice minutes a month. MCP is included.
 - **Starter:** $49 a month, billed yearly. MCP is included.
 
-[Start free](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=referral&utm_campaign=about-frank-ai-researcher), no credit card required.
+[Start free](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=about-frank-ai-researcher), no credit card required.
 
 ## Frank's profiles
 

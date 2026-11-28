@@ -73,7 +73,7 @@ Connect Frank first: add `https://api.hifrank.ai/mcp` as a remote MCP server and
 }
 ```
 
-In the Frank app instead: [create a free account](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=support-follow-up-interviews), create a study in the dashboard with the same goals and questions, publish it, and copy the interviewer link or the widget code from the Code tab.
+In the Frank app instead: [create a free account](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=support-follow-up-interviews), create a study in the dashboard with the same goals and questions, publish it, and copy the interviewer link or the widget code from the Code tab.
 
 ## Sample interview guide (5 minutes)
 

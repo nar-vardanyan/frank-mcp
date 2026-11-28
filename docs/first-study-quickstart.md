@@ -8,7 +8,7 @@ Frank AI Researcher (Frank) runs voice-first, AI-moderated voice interviews with
 
 ## Step 1: Connect Frank
 
-Add `https://api.hifrank.ai/mcp` as a remote MCP server and choose OAuth. Sign in to Frank, or [create a free account](https://app.hifrank.ai/signup?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=first-study-quickstart) first, then click **Allow** on the consent page. Works with ChatGPT, Claude, Grok and Muse. Setup for each assistant: [MCP server for customer interviews](mcp-server-for-customer-interviews.md).
+Add `https://api.hifrank.ai/mcp` as a remote MCP server and choose OAuth. Sign in to Frank, or [create a free account](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=first-study-quickstart) first, then click **Allow** on the consent page. Works with ChatGPT, Claude, Grok and Muse. Setup for each assistant: [MCP server for customer interviews](mcp-server-for-customer-interviews.md).
 
 If you create your account during the connection, sign in again from your assistant afterwards if the connection did not finish. Approval links last ten minutes.
 
