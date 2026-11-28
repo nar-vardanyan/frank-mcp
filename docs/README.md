@@ -56,6 +56,17 @@ New free tools: the [Mom Test question checker](tools/mom-test-checker/) flags l
 - [Customer interview questions for marketers](customer-interview-questions-for-marketers.md): Why customers chose you, campaign mismatch, and the words they use.
 - [Customer interview questions for customer success teams](customer-interview-questions-for-customer-success-teams.md): Account health, onboarding gaps, and renewal risk.
 
+## Stripe churn interviews
+
+A free, open-source (MIT) [Cloudflare Worker](https://github.com/nar-vardanyan/frank-stripe-churn-interviews) that emails customers who cancel a Stripe subscription a short Frank voice interview link.
+
+- [Stripe churn interviews with Frank (app docs)](stripe-churn-interviews.md): The app, setup and configuration.
+- [Stripe Integration for Churn Interviews: Frank Churn Interviews for Stripe](stripe-integration-for-churn-interviews.md): Free open-source (MIT) Cloudflare Worker that emails customers who cancel a Stripe subscription a 10 minute Frank voice interview link, with plan, tenure and cancel reason attached. What it does, what it stores, where it fits next to cancel-flow tools.
+- [How to Automatically Interview Customers Who Cancel in Stripe](how-to-automatically-interview-customers-who-cancel-in-stripe.md): The seven steps from Stripe cancellation to voice interview: catch the webhook, verify, skip, wait, collect context, send a short note, let Frank run the interview. Email template and reading tips.
+- [Stripe Cancellation Survey vs Churn Interview: What Each Tells You](stripe-cancellation-survey-vs-interview.md): What Stripe's customer portal cancellation reason collects (a list of reasons you can show, plus optional free text for Other reason), what a churn interview adds, a side-by-side table, and where cancel-flow tools fit. Sourced Nov 28, 2026.
+- [Set Up a Churn Interview on Stripe Webhooks in About 10 Minutes](set-up-churn-interviews-on-stripe-webhooks.md): Six steps: publish a churn study, Deploy to Cloudflare, add the Stripe webhook, set secrets, test with the Stripe CLI, edit the email.
+- [Handle the Stripe customer.subscription.deleted Webhook in a Cloudflare Worker](stripe-customer-subscription-deleted-webhook-cloudflare-worker.md): Developer guide: when Stripe sends customer.subscription.deleted, verifying the signature with WebCrypto in a Worker, detecting cancel_at_period_end, deduping retries, delaying with a cron trigger. MIT code.
+
 ## Churn interview questions by industry
 
 - [Churn interview questions for B2B SaaS](churn-interview-questions-for-b2b-saas.md): The cancel trigger, who decided, and what would have kept them.
