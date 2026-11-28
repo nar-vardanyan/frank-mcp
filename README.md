@@ -130,6 +130,14 @@ Sourced comparison of ChatGPT apps for customer interviews, accessed 27 November
 - A leading question is a question that nudges the person toward a particular answer, often by smuggling in a preference, a cause, or a compliment. [Leading question](https://nar-vardanyan.github.io/frank-mcp/glossary/leading-question.html)
 - An interview guide is a planned list of topics or questions for a research interview, usually in a consistent order, with room to follow up. [Interview guide](https://nar-vardanyan.github.io/frank-mcp/glossary/interview-guide.html)
 
+## Stripe churn interviews (open-source app)
+
+[Frank Churn Interviews for Stripe](https://github.com/nar-vardanyan/frank-stripe-churn-interviews) is a free, MIT-licensed Cloudflare Worker. When a Stripe subscription is canceled (`customer.subscription.deleted`, or `cancel_at_period_end` set to true), it waits about an hour and emails the customer a 10 minute Frank voice interview link, and passes plan, tenure and the Stripe cancellation reason to Frank as a private note. It uses Frank's REST API with a secret key, not MCP, because a webhook handler runs unattended. Deploy with the Deploy to Cloudflare button in that repo.
+
+- [Stripe integration for churn interviews](https://nar-vardanyan.github.io/frank-mcp/stripe-integration-for-churn-interviews.html)
+- [How to automatically interview customers who cancel in Stripe](https://nar-vardanyan.github.io/frank-mcp/how-to-automatically-interview-customers-who-cancel-in-stripe.html)
+- [Stripe cancellation survey vs churn interview](https://nar-vardanyan.github.io/frank-mcp/stripe-cancellation-survey-vs-interview.html)
+
 ## What agents can do
 
 Run studies
