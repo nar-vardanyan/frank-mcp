@@ -2,7 +2,7 @@
 
 **In short:** A win-loss interview is a conversation with a buyer after a deal is won, lost, or abandoned. The cheapest reliable way to run these on a small B2B team is to interview your own buyers, not a panel of strangers, and to do it while the decision is still fresh. Frank AI Researcher runs those conversations as AI-moderated voice interviews in 50+ languages and returns transcripts and themes. You invite the buyers; Frank does not recruit them.
 
-**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-win-loss-interviews-on-recent-deals)** (short name Frank), a voice-first product for interviews with customers you already have. This page is a method guide for interviewing recent deals, using public product details as of 28 November 2026. It is not a ranked list of win-loss platforms.
+**We make [Frank AI Researcher](https://www.hifrank.ai/?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-run-win-loss-interviews-on-recent-deals)** (short name Frank), a voice-first product for interviews with customers you already have. This page is a method guide for interviewing recent deals, using public product details as of 28 November 2026. It is not a ranked list of win-loss platforms.
 
 ## Why recent deals, not a yearly batch
 
@@ -28,11 +28,11 @@ A longer list is in [Best win-loss analysis software](best-win-loss-analysis-sof
 
 ## How to run the interviews without blocking the week
 
-Schedule less. Share a voice-interview link the same day the deal closes, with one reminder two days later. AI-moderated interviews let the buyer talk when they have 10 to 15 minutes, in their own language. Frank returns a transcript and themes you can read in one sitting.
+Schedule less. Share a voice-interview link the same day the deal closes, with one reminder two days later. AI-moderated interviews let the buyer talk when they have about 5 to 10 minutes, in their own language. Frank returns a transcript and themes you can read in one sitting.
 
-Works with ChatGPT, Claude, Grok and Muse. A product or sales lead can draft the study from a chat. MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp`. Product-site setup is on [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-win-loss-interviews-on-recent-deals).
+Works with ChatGPT, Claude, Grok and Muse. A product or sales lead can draft the study from a chat. MCP is included on every plan, including Free. The endpoint is `https://api.hifrank.ai/mcp`. Product-site setup is on [Frank's MCP page](https://www.hifrank.ai/mcp?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-run-win-loss-interviews-on-recent-deals).
 
-Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, no card required. That is enough to pilot a month of recent deals on a small team, if interviews stay short. Check the [pricing page](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-win-loss-interviews-on-recent-deals) before you rely on the minutes.
+Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, no card required. Those 60 minutes cover about six 10-minute interviews or ten 5-minute ones. A month of 8 to 15 recent deals at 10 minutes needs a paid plan, or interviews kept to about 5 minutes. Check the [pricing page](https://www.hifrank.ai/pricing?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-run-win-loss-interviews-on-recent-deals) before you rely on the minutes.
 
 ## What this method does not do
 
@@ -44,8 +44,8 @@ Frank's Free plan includes 225 signup credits plus 60 voice minutes a month, no 
 ## Setup
 
 - [Sign up](https://app.hifrank.ai/signup?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-run-win-loss-interviews-on-recent-deals)
-- [Pricing](https://www.hifrank.ai/pricing?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-win-loss-interviews-on-recent-deals)
-- [MCP connector setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=how-to-run-win-loss-interviews-on-recent-deals)
+- [Pricing](https://www.hifrank.ai/pricing?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-run-win-loss-interviews-on-recent-deals)
+- [MCP connector setup](https://www.hifrank.ai/docs/frank-mcp-connector?utm_source=docs&utm_medium=referral&utm_campaign=kpi4b&utm_content=how-to-run-win-loss-interviews-on-recent-deals)
 
 ## FAQ
 
