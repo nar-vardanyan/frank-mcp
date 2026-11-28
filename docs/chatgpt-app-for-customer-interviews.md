@@ -118,6 +118,12 @@ No. Frank does not recruit participants. You share the interviewer link or a web
 ## More answers about Frank in ChatGPT
 
 - [Is there a ChatGPT app for user research?](chatgpt-app-for-user-research.html)
+- [Run customer interviews from ChatGPT: setup and results](run-customer-interviews-from-chatgpt.html)
+- [Add Frank AI Researcher to ChatGPT](add-frank-to-chatgpt.html)
+- [ChatGPT apps for customer interviews: 10 questions answered](chatgpt-app-for-customer-interviews-faq.html)
+- [Is there an MCP server I can use in ChatGPT for customer interviews?](mcp-server-for-customer-interviews-in-chatgpt.html)
+- [ChatGPT for UX research interviews](chatgpt-for-ux-research-interviews.html)
+- [ChatGPT connector for customer research](chatgpt-connector-for-customer-research.html)
 - [ChatGPT app for product managers to run customer interviews](chatgpt-app-for-product-managers-customer-interviews.html)
 - [ChatGPT app for churn interviews](chatgpt-app-for-churn-interviews.html)
 - [ChatGPT app for founders doing customer discovery](chatgpt-app-for-founders-customer-discovery.html)

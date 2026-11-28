@@ -560,6 +560,42 @@ defaults:
       description: "Yes. Frank AI Researcher is available as an app in ChatGPT, so product managers can draft a customer interview study, share it with their own users, and read transcripts and themes from the same chat."
       schema_page: true
   - scope:
+      path: run-customer-interviews-from-chatgpt.md
+    values:
+      seo_title: "Run Customer Interviews from ChatGPT: Setup and Results with Frank"
+      description: "How to run customer interviews from ChatGPT: add the Frank app, draft a study in chat, approve it, share the voice interview link with your own customers, and read the transcripts and themes back in the same chat."
+      schema_page: true
+  - scope:
+      path: add-frank-to-chatgpt.md
+    values:
+      seo_title: "Add Frank AI Researcher to ChatGPT: Install, Check and Remove Access"
+      description: "How to add Frank AI Researcher to ChatGPT from the app listing or as a custom MCP server, check that it works, fix common problems, and remove access."
+      schema_page: true
+  - scope:
+      path: mcp-server-for-customer-interviews-in-chatgpt.md
+    values:
+      seo_title: "MCP Server for Customer Interviews in ChatGPT: Frank AI Researcher"
+      description: "Yes. Frank AI Researcher has a remote MCP server for customer interviews that works in ChatGPT as an app or a custom MCP server. OAuth sign-in, no API key, included on every plan."
+      schema_page: true
+  - scope:
+      path: chatgpt-for-ux-research-interviews.md
+    values:
+      seo_title: "ChatGPT for UX Research Interviews: Run Them by Voice with Frank"
+      description: "What ChatGPT does well in UX research interviews, what it cannot do alone, and how the Frank AI Researcher app adds AI-moderated voice interviews with your own users from the same chat."
+      schema_page: true
+  - scope:
+      path: chatgpt-connector-for-customer-research.md
+    values:
+      seo_title: "ChatGPT Connector for Customer Research: What to Check Before You Connect"
+      description: "A short checklist for evaluating a ChatGPT connector or app for customer research interviews, with Frank AI Researcher as a worked example: drafts, approvals, scopes, participants, languages and price."
+      schema_page: true
+  - scope:
+      path: chatgpt-app-for-customer-interviews-faq.md
+    values:
+      seo_title: "ChatGPT App for Customer Interviews: 10 Questions Answered"
+      description: "Short answers to ten common questions about ChatGPT apps for customer interviews, user research, churn, win-loss, founders, marketers, multilingual research and MCP, answered for Frank AI Researcher."
+      schema_page: true
+  - scope:
       path: chatgpt-app-for-churn-interviews.md
     values:
       seo_title: "ChatGPT App for Churn Interviews: Frank AI Researcher"
