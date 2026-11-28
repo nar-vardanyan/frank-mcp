@@ -131,6 +131,7 @@ Yes. Works with ChatGPT, Claude, Grok and Muse. [Use Frank in Claude](https://ww
 
 ## Related
 
+- [Interview customers who cancel in Stripe, automatically](stripe-churn-interviews.md)
 - [How to find out why customers churn](how-to-find-out-why-customers-churn.md)
 - [Best tools for customer churn interviews](best-tools-for-customer-churn-interviews.md)
 - [ChatGPT apps for customer research interviews](chatgpt-app-for-customer-research-interviews.md)

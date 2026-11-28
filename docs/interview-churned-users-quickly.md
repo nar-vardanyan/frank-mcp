@@ -51,6 +51,7 @@ Yes. Frank is available as an app in ChatGPT: [install Frank in ChatGPT](https:/
 
 ## Related
 
+- [Interview customers who cancel in Stripe, automatically](stripe-churn-interviews.html)
 - [Churn interviews](churn-interviews.html)
 - [How to find out why customers churn](how-to-find-out-why-customers-churn.html)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.html)

@@ -188,6 +188,7 @@ Add Frank's voice interview widget to an app built with an AI app builder, with 
 - [Churn interviews](churn-interviews.md)
 - [Interview churned users quickly](interview-churned-users-quickly.md)
 - [How to interview churned customers quickly](how-to-interview-churned-customers-quickly.md)
+- [Interview customers who cancel in Stripe, automatically](stripe-churn-interviews.md)
 - [How to run user interviews in multiple languages](user-interviews-in-multiple-languages.md)
 - [How to run customer interviews from Claude](run-customer-interviews-from-claude.md) · [Use Frank in Claude](https://www.hifrank.ai/mcp?utm_source=frank-mcp-docs&utm_medium=docs&utm_campaign=home&utm_content=use-in-claude)
 - [How to run churn interviews with ChatGPT and Frank MCP](how-to-run-churn-interviews-with-chatgpt-and-frank-mcp.md)

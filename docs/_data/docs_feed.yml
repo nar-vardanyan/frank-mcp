@@ -1,5 +1,9 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Interview customers who cancel in Stripe, automatically"
+    url: https://nar-vardanyan.github.io/frank-mcp/stripe-churn-interviews.html
+    updated: 2026-11-28T12:00:00Z
+    summary: "An open-source app that emails a Frank voice-interview link after a Stripe cancellation, and shows the interviewer the plan, tenure, and cancel reason."
   - title: "Run Customer Interviews from ChatGPT: Setup and Results"
     url: https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-chatgpt.html
     updated: 2026-11-28T14:00:00Z
