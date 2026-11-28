@@ -1,5 +1,29 @@
 # Pages listed in /feed.xml. Dates follow docs/sitemap.xml lastmod values.
 entries:
+  - title: "Run Customer Interviews from ChatGPT: Setup and Results"
+    url: https://nar-vardanyan.github.io/frank-mcp/run-customer-interviews-from-chatgpt.html
+    updated: 2026-11-28T14:00:00Z
+    summary: "Add the Frank app, draft a study in ChatGPT, approve it, share the voice interview link and read transcripts and themes back in chat. Free plan math included."
+  - title: "Add Frank AI Researcher to ChatGPT"
+    url: https://nar-vardanyan.github.io/frank-mcp/add-frank-to-chatgpt.html
+    updated: 2026-11-28T14:00:00Z
+    summary: "Install from the ChatGPT listing or as a custom MCP server, check it worked, fix common problems, remove access."
+  - title: "Is there an MCP server I can use in ChatGPT for customer interviews?"
+    url: https://nar-vardanyan.github.io/frank-mcp/mcp-server-for-customer-interviews-in-chatgpt.html
+    updated: 2026-11-28T14:00:00Z
+    summary: "Exact-question answer for CG10: the MCP server URL, how to use it in ChatGPT, tools, OAuth, plans."
+  - title: "ChatGPT for UX Research Interviews: Run Them by Voice with Frank"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-for-ux-research-interviews.html
+    updated: 2026-11-28T14:00:00Z
+    summary: "What ChatGPT does alone for UX research, what Frank adds, a starter prompt, and when not to use it."
+  - title: "ChatGPT Connector for Customer Research: What to Check Before You Connect One"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-connector-for-customer-research.html
+    updated: 2026-11-28T14:00:00Z
+    summary: "Six-point checklist for choosing a ChatGPT connector for customer research, with Frank as a worked example."
+  - title: "ChatGPT Apps for Customer Interviews: 10 Questions Answered"
+    url: https://nar-vardanyan.github.io/frank-mcp/chatgpt-app-for-customer-interviews-faq.html
+    updated: 2026-11-28T14:00:00Z
+    summary: "The ten ChatGPT-app questions people ask, each as an exact-wording H2 with a short answer for Frank and a link to the full page."
   - title: "Cheapest Way to Run 10 Customer Interviews This Week"
     url: https://nar-vardanyan.github.io/frank-mcp/cheapest-way-to-run-10-customer-interviews-this-week.html
     updated: 2026-11-28T12:00:00Z
